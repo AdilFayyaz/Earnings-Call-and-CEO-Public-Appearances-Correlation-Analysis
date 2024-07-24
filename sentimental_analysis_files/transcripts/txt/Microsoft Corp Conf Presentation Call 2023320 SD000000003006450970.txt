@@ -1,0 +1,715 @@
+FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 1 of 20, Vice President of Investor Relations
+, Corporate Vice President of Azure AI Platform
+, Corporate Vice President of Data & Al Product Marketing
+Brett Iversen
+A - Brett Iversen
+A - Jessica HawkIR Fireside Chat Series Data & AI
+Company Participants
+Brett Iversen
+Eric Boyd
+Jessica Hawk
+Presentation
+{BIO 22252603 <GO>}
+Welcome, everyone. I'm Brett Iversen, Vice President of Investor Relations. This is the
+eighth in our series of quarterly videos focusing on strategic areas that are top of
+mind for our investors. Today's discussion will cover data and AI, including our view
+of the growth opportunity, our diﬀerentiated oﬀerings, and how customers are
+already using our solutions today. We've brought together two of our key leaders to
+answer your most frequently asked questions.
+We have Jessica Hawk, who leads data and AI product marketing, and Eric Boyd,
+who leads Azure AI product development eﬀorts.
+As always, we'd welcome any feedback on speciﬁc topics, the format, or other
+suggestions you might have after you view the video. Please reach out to our
+Investor Relations team directly with any feedback. With that, let's kick things oﬀ.
+Questions And Answers
+{BIO 22252603 <GO>}
+Thank you, both for being here. Jessica, maybe you can lead us out with a little bit of
+framing on how do we -- when you talk about data and AI together, how would you
+help our audience think of those two concepts together and why we think that's
+important?
+{BIO 20774986 <GO>}
+Sure.
+So, I think you've probably heard me say "Data truly is the lifeblood of AI." And so, AI
+is, without question, having just an amazing moment right now in the marketplace.
+It's truly a call back to "how is your data organized?" It is a complete get-your-data-
+house-in-order moment as customers get really excited about what these AI
+capabilities can do for them.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 2 of 20A - Brett Iversen
+A - Jessica Hawk
+A - Brett IversenWe -- there's some just horror stats out there about data, data growth, data sprawl,
+data lakes everywhere.
+The most recent one I've seen is that we're projecting 181 zettabytes of data by 2025,
+which is a ginormous amount of data swirling around the ecosystem.
+So for sure, just in terms of getting ready and organized to take advantage of the
+moment, it is a complete call to action to accelerate your digital transformation
+journey.
+And so, last year, we announced the Microsoft Intelligent Data Platform in
+anticipation of these opportunities that we were bringing because we know that
+customers need to get the data organized to take advantage.
+So that's a -- think of it as the way we describe the full breadth of the data oﬀerings
+in Azure that organize around operational databases, which are the data estate
+systems that have been supporting apps for decades --
+{BIO 22252603 <GO>}
+Right.
+{BIO 20774986 <GO>}
+-- analytics capability to make sense of all the data without impacting the
+performance of the applications that are running on the operational data stores.
+Then the governance that's required, especially with the ginormous growth of data
+in the -- in our customers' environments, to ensure that the right people are seeing
+the right data at the right time.
+So, we organize the business at Microsoft as a data and AI unit, because truly, these
+two things have to go hand in hand.
+{BIO 22252603 <GO>}
+Yes.
+Our phones have been ringing nonstop with some of the announcements lately as
+well. Eric, we'll bring you in as well. And also, thank you both for spending the time
+today.
+One of the questions we ask in all of these sessions, given our ﬁnancial investor
+audience, how would you think about the growth opportunity?
+How would you help frame that for folks watching?FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 3 of 20A - Eric Boyd
+A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversen
+A - Jessica Hawk{BIO 20815367 <GO>}
+Yes. I mean Jessica sort of alluded to it with the technical term ginormous. Honestly,
+when we think about it, this is really the most signiﬁcant, transformational technology
+breakthrough in our lifetimes, which this -- that's saying something, right?
+{BIO 22252603 <GO>}
+Yes.
+{BIO 20815367 <GO>}
+I mean we've lived through mobile. We've lived through the Internet. Like, the world
+has changed dramatically, and we really feel like we're poised to see that happen
+again with this transformation in AI.
+We really feel like Microsoft is super well-positioned for this as well. I mean we have
+the foundational infrastructure, everything from Azure to our developer tools with
+Azure Machine Learning and our Cognitive Services, all the way up to our SaaS
+oﬀerings all across the company from Oﬃce to GitHub to everything that we oﬀer.
+And so, it really positions us in a really, very strong way.
+So, we're really excited about the opportunities that we have here.
+We also see these as additive opportunities as well. These are new things that
+people are coming to us for. If you go and tell a company, "I can make your
+developers 55% more productive by using GitHub Copilot," that's something they
+want to go after. It saves them money, drives their productivity.
+So, these are really additive scenarios to the work that Microsoft already does across
+the board.
+{BIO 22252603 <GO>}
+Yes. Ginormous works in their Excel models as well.
+{BIO 20815367 <GO>}
+It's a -- yes.
+{BIO 22252603 <GO>}
+They're excited about it. Jessica, back to you. In terms of data and AI and its
+relevance with the broader Microsoft Cloud vision, how would you help people think
+of all of that together and where we're diﬀerentiated?
+{BIO 20774986 <GO>}FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 4 of 20A - Brett Iversen
+A - Jessica Hawk
+A - Brett Iversen
+A - Jessica HawkSure. Well in the halls, you'll often hear me saying, "It's really an all-boats-rise
+moment."
+{BIO 22252603 <GO>}
+Yes.
+{BIO 20774986 <GO>}
+And what I mean by that is, if you think about the Microsoft Cloud, we have our ﬁrst-
+party oﬀerings, so things like Teams and Outlook and GitHub.
+The neat thing about what we're doing is we are taking all of the work that Eric's
+team is engineering, and we're infusing it into those ﬁrst-party products from the
+get-go.
+So, what does that mean?
+It means that our testing cycles, our engagement loops between our engineering
+teams, our internal engineering teams are our largest and probably most
+challenging customer --
+{BIO 22252603 <GO>}
+That's right. Yes.
+{BIO 20774986 <GO>}
+-- when you think about it.
+But what an incredible opportunity from a software development life cycle
+perspective, because Eric's team is getting this continuous cycle of improvement
+and feedback and scale. The scale that these platforms operate at are second to
+none.
+So, we take that same incredible throughput and feedback loop, and then we put
+that into our third-party oﬀerings, so all boats rise.
+Our customers are getting tremendous AI-driven capabilities through our ﬁrst-party
+products. That same technology is now available in Azure as a third-party service.
+And what we're seeing is, imaginations are starting to open up now. People are
+starting to really understand, this is unique. This is the biggest innovation in our
+lifetime. They're seeing it and experiencing it and beneﬁting from it in their ﬁrst-party
+solutions that they're using from Microsoft. And now they can go build their own
+internal or customer-facing applications using our Azure services. It's truly an all-
+boats-rise moment for our customers.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 5 of 20A - Brett Iversen
+A - Eric Boyd{BIO 22252603 <GO>}
+Yes. I have to think it's super comforting for our customers to hear we're using all of
+the same tech that we're wanting them to embrace as well. Moving back to you, Eric,
+on the, I think Jessica mentioned, Azure AI platform. Maybe you could give us a few
+more details to help people that aren't as close to it as the two of you.
+{BIO 20815367 <GO>}
+Yes, no, absolutely.
+So, for us, it has always started with research.
+So, we've been beneﬁted by having Microsoft Research as a part of Microsoft for
+something like the last 30 years.
+We've been ﬁrst to human parity in a whole number of ﬁelds in AI.
+What we then work to do is, how do we bring that work that's happened in the lab
+and makes a lovely research paper.
+We need to now make that work for our enterprises. It needs to be at scale for all of
+the things that our customers need to do.
+And so, Jessica alluded to the beneﬁt that we have, we're really privileged as a
+company to have so many diﬀerent businesses that we can partner with and learn,
+how is this stuﬀ really working and how is it impacting businesses in a positive way?
+And we then bring that into our products and make that available through Azure AI.
+And so, all of this is built on the strong foundation of Azure, being able to have
+access to thousands of GPUs and computers and being able to pull them together.
+Then we provide developer tools. Azure Machine Learning is a layer that developers
+can build and train and manage the full operational lifecycle, MLOps, of their
+models.
+Then, in the next layer up, we provide a suite of cognitive services, and so in areas
+like vision, in language, in speech recognition, and of course, our partnership with
+OpenAI shows up there. These are models that we've built, that we make available,
+that customers can just go and call directly on their own.
+Then, at the top level, we have Applied AI Services, where we look at the most
+common patterns that we see on these cognitive services, and then we package
+them.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 6 of 20A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversen
+A - Eric BoydSo, Form Recognizer makes it really easy to take this invoice and get it into that
+database over there by using our vision services, our optical character recognition,
+and things like that.
+And so, putting that whole package together for developers, but then we also use all
+of the breadth that we have across Microsoft.
+So, it'll show up in developer platform where we'll make AI available, show up in the
+Power Platform where all these AI models are available. It shows up in Oﬃce.
+So, all throughout our suite of products, we're bringing AI to our customers,
+leveraging this foundation that we have on Azure AI.
+{BIO 22252603 <GO>}
+Yes. I think that breadth of oﬀering, and I'll probably come back to that in a little bit.
+{BIO 20815367 <GO>}
+Yes.
+{BIO 22252603 <GO>}
+But again another area that's really kind of excited, maybe even caught our investors
+by surprise at how quickly we have so many diﬀerent things out in market versus
+conceptually years out.
+One follow-up to one of the things you mentioned, so OpenAI partnership, again
+our Investor Relations team, we get tons of questions on this.
+Some of which we answer, some of which we don't.
+But in terms of the importance of it and how we think about it, what can you help
+share there?
+{BIO 20815367 <GO>}
+Yes. I mean it's been a really transformational partnership for us as a company.
+We see these large language models as being foundational to driving this
+transformational change that we see really happening across the industry.
+We realized early on that OpenAI had the same vision that we did for how you could
+continue to grow and scale and make these models way more powerful by
+continuing to train.
+So that really formed the bedrock of our partnership.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 7 of 20A - Brett Iversen
+A - Jessica Hawk
+A - Brett Iversen
+A - Jessica HawkAnd so, from there, we just see tremendous advantage. I mean we've renewed our
+partnership.
+We announced multiple years and multiple billion dollars, really to accelerate this
+work going forward everything from the work that we do on supercomputers.
+So, we learn tremendous amounts about how to build the right infrastructure, which
+we then make available to other customers through our Azure platform, as well as
+make these services available.
+We really get a ﬁrst-mover advantage by being able to bring these to customers all
+across our industries as well as throughout our internal products, and so tremendous
+momentum there.
+Then, of course, as a part of that, we're the exclusive cloud partner for OpenAI.
+So just really strong beneﬁts for both companies in this partnership, and we're really
+excited to see where we go with that going forward.
+{BIO 22252603 <GO>}
+Yes. Whilst --
+{BIO 20774986 <GO>}
+And if I could just add onto that --
+{BIO 22252603 <GO>}
+Yes, please.
+{BIO 20774986 <GO>}
+-- for a second. I mentioned in the beginning when we were talking about what
+happened in late fall, early winter. There's this interesting moment, and we have this
+in other examples, mobile would be one that I would mention as well, where
+technology breaks through into the consumer mindset. And Eric and I's children go
+to school together.
+I would argue they might be some of the most popular kids in that middle school
+right now. Because their parents are somewhat associated with that amazing thing
+that was launched on the Internet last year.
+When I talk about customer imagination getting sparked, I think it used to be that
+technology tended to follow what consumer demand was creating.
+So, an example, pick your favorite app. It used to be, when companies would write
+business requirement documents to go build something, back in the day it was, youFINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 8 of 20A - Brett Iversen
+A - Jessica Hawk
+A - Eric Boyd
+A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversenwould build everything you were going to do for the web presence, and then maybe
+you'd get too mobile. It was almost always like the last part of the Word Document.
+Then consumer apps started to come out, and demand -- user experience demand
+went from just out in the consumer experience to, "I want the same amazing
+capability and delightful experience in my -- what I do at my oﬃce too."
+{BIO 22252603 <GO>}
+Sure.
+{BIO 20774986 <GO>}
+And so, with the introduction of ChatGPT out in a consumer-facing way that's what I
+mean by imagination getting sparked.
+I think that the bar for excellence is much higher, and there's going to be less
+patience with waiting for those types of delightful experiences.
+So, what we're seeing is, our customers are maybe unlike with cloud when cloud ﬁrst
+came out and there was some cloud adversity or concern, we're in the opposite
+position, where I think people recognize there's huge value if you can create those
+same delightful customer experiences with your commercial applications that
+people are getting accustomed to on the consumer side.
+And we're seeing it already. There's articles and news stories being written. My
+favorite one is from a CNN article where they were citing that it's a real estate
+agency, and the agents are saying, "I will not do my job now without ChatGPT." That
+kind of speed, when you think about how fast that happened, they went out in
+December, and that news article was written in January, I think we're going to just
+see this massive lean-in and desire to innovate together, which is a, for technology,
+it's a wonderful opportunity for all of us.
+{BIO 20815367 <GO>}
+Yes, the energy from customers has been, honestly, like nothing I've seen on any
+product anywhere, I mean --
+{BIO 22252603 <GO>}
+Across the board. Yes, right.
+{BIO 20815367 <GO>}
+It's just really amazing.
+{BIO 22252603 <GO>}
+Yes, it's -- on that, I know that we're in the right space when I'm not just getting
+questions from co-workers or friends that are also in tech companies and otherFINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 9 of 20A - Eric Boyd
+A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversen
+A - Jessica Hawk
+A - Brett Iversen
+A - Jessica Hawkplaces.
+But my girls are coming home from school and asking me questions about it and
+talking about how they're using it with their friends. My mom's asking questions
+about it.
+{BIO 20815367 <GO>}
+Exactly.
+{BIO 22252603 <GO>}
+So you can see the --
+{BIO 20815367 <GO>}
+The full span.
+{BIO 22252603 <GO>}
+Totally. Like, and everyone has very speciﬁc case studies that are valuable to them
+that really resonate, which is a great spot to be in.
+So on that, it was a good segue then, Jessica. We've had -- as a very senior
+marketing leader, you must have been excited about the steady drumbeat we've
+continued to have in terms of rolling out services. What would you share?
+I mean there's -- it's hard to pick favorites but what are some of the things that have
+been resonating --
+{BIO 20774986 <GO>}
+Sure.
+{BIO 22252603 <GO>}
+-- that you'd share with our audience?
+{BIO 20774986 <GO>}
+Well I think one of my personal favorites is GitHub Copilot.
+It's not just because I used to write software.
+But really, it's because I think we should be very grounded in the experience or the
+journey that we're all going through together, which is, this is a true technological
+advancement, and I think folks are waiting a bit to see how it plays out in terms of
+what's going to happen with the developer experience, for example.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 10 of 20A - Brett Iversen
+A - Jessica Hawk
+A - Brett IversenWhen we announced GitHub Copilot at Ignite, we were really excited about the
+capability.
+As a person who used to debug software all the time, I am not interested in doing
+that. I never was. It was exciting to see some of that automation, but I think people
+had reasonable questions about where this is all headed.
+So fast forward six months, and it's pretty exciting when the GitHub Copilot
+productivity stats, Eric mentioned it, 55% more productive. That's incredible.
+{BIO 22252603 <GO>}
+Right.
+{BIO 20774986 <GO>}
+But the one that really gets me is the excitement that the developers feel over their
+job satisfaction. There's -- I think it's something over 74%. They feel more than 70%
+more empowered to do the work that really matters.
+That's what we're going for. This is truly a technology that's going to innovate for
+productivity's sake.
+When you have people who are more excited to get to their desk every day to do
+their jobs as a result of some technology innovation, like, that's where we're all
+beneﬁting.
+So that one jumps out at me.
+Viva Sales is pretty exciting. I used to run a sales team. Certainly, it is similar to
+debugging in the software world. If you're a seller, CRM updates are pretty much the
+very last thing that you ever want to do.
+Yet, sales leaders and marketing, everyone's always, "Get your CRM updates in
+there." And so just seeing that some of that sort of repetitive work, again same
+concept. Like, take the part out of the work that people truly don't enjoy and give
+them more time to do what they do enjoy.
+So, Viva Sales is another one that really jumps out at me as pretty exciting.
+I think it's just like increasing developer capacity, which is a concern for pretty much
+every customer that we talk to.
+{BIO 22252603 <GO>}
+Right. They're getting out.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 11 of 20A - Jessica Hawk
+A - Brett Iversen
+A - Eric Boyd
+A - Jessica Hawk{BIO 20774986 <GO>}
+I think sales managers and sellers are feeling the same type of pressure.
+So, I think we're going to see a similar cycle of adoption with Viva Sales.
+{BIO 22252603 <GO>}
+Yes. I was in the U.S. subsidiary of Microsoft a few jobs ago, and my sales friends
+would deﬁnitely agree with you that CRM updates is not what they would consider
+the most valuable portion of their day so if we can help simplify that. Eric, similar to
+what we do with the platform, maybe -- this is to both of you, maybe if you have a
+few more details on Azure OpenAI services.
+Then, Jessica, you could help breathe life into it from a customer perspective with
+some examples and things that we're seeing people do.
+{BIO 20815367 <GO>}
+Yes, sure.
+So, the Azure OpenAI Service really is to provide our customers with access to all of
+the latest models that we've partnered with OpenAI to create.
+So, obviously, GPT-3 and 3.5 were sort of the ﬁrst versions that people could sort of
+get their hands on to experience the power of these large language models.
+Then Codex, which powers the Copilot experience, DALL-E 2, which is a visual image
+generation one which has seen a tremendous amount of uptake, and then, of course,
+the amazing amount of interest we've seen around ChatGPT.
+And so being able to get direct access to that model, really for use within their
+customers and for -- within all the diﬀerent things they want to do for their
+applications.
+We've worked at Microsoft really hard at sort of developing that through all of our
+diﬀerent applications as well. I mean Jessica touched on that really powerful cycle
+that we have of being able to work with our ﬁrst-party customers and really learn,
+where is this working, and how do we need to change the way these oﬀerings are set
+up, and how do we need to really tune these models to work best?
+And so, through that, we're able to oﬀer just much better services on the other end
+to our third-party customers, having proven them at scale, having proven out the use
+cases with them and really made them work great.
+{BIO 20774986 <GO>}FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 12 of 20A - Brett Iversen
+A - Jessica Hawk
+A - Brett Iversen
+A - Jessica Hawk
+A - Brett Iversen
+A - Jessica HawkYes. And I'd say in terms of customer adoption, we have over 1,000 customers who
+are using the service.
+If I were to try to pick a couple that jump out at me, CarMax is a great example that I
+love to talk about, especially, again because it's a story of truly empowering an
+editorial team where they took all of their user reviews.
+So, if you think about the last time you tried to go pick a restaurant for dinner --
+{BIO 22252603 <GO>}
+Yes.
+{BIO 20774986 <GO>}
+-- the stars aren't really getting it done anymore. People are reading through, or at
+least I am --
+{BIO 22252603 <GO>}
+Yes.
+{BIO 20774986 <GO>}
+-- to understand more about this restaurant. CarMax has a similar situation when you
+think about the service they're oﬀering. It's, "I'm going to buy a car, and I want to go
+look at the user reviews on the car beyond the speciﬁcations that they had already
+coded into the platform." And so, user reviews are becoming a very good signal for
+buyers, but they have a small editorial team.
+The last thing that that editorial team wants to do is read through user reviews to try
+to summarize what those reviews are saying.
+And so, because they had already gone through the digital transformation process
+of getting their data up and running into Azure, they were able to apply the Azure
+OpenAI Service, which their senior development lead described as a comically easy
+thing to do, and I'll get back to that in a second, to then go learn from the sentiment
+in the user reviews, and you might say "Well we've had that for a while," but then go
+generate ﬁndings from that so that the editorial team could focus on creating the
+most engaging experience for somebody coming to try to learn about the cars.
+They estimated that it would've taken them 11 years to do what they did in just a few
+days and weeks --
+{BIO 22252603 <GO>}
+It's amazing.
+{BIO 20774986 <GO>}FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 13 of 20-- using the OpenAI Service, and so -- and the team is doing their best work.
+So CarMax is one example. There's a global Austrian construction company called
+STRABAG, very similar situation. They were already getting the need for digital
+transformation.
+So, they had taken their data estate and done the work of centralizing it up into
+Azure.
+So similarly, they were able to take the Azure OpenAI Service and use it. They trained
+it on just a few months' worth of data, which that's a small sample. They went and
+looked at risk for their projects and were able to score Azure OpenAI's ability to go
+ﬁnd that risk.
+It was eﬀective in 80% of the cases.
+So, if you're thinking about companies looking at risk, projects, are they on time?
+Are they on budget?
+Are there considerations about what's happening at the job site that might put this
+project at the top of the list that's worthy of a phone call to see how things are
+going?
+They have the ability now to get in the driver's seat, not ﬁnd out after the problem
+has occurred, but actually start to seek signal earlier.
+It's because they're using a service that can run across so much data that is beyond
+our ability to keep a developer coding for all the possible diﬀerent inputs.
+That's what we mean when we talk about generative AI that it's able to learn and
+create new experiences that which it's just impossible to keep up with from a
+software developer perspective.
+So, they're in a position now where they can go ﬁnd that risk ahead of time, which is
+job number one for companies like that.
+Then, I said I would come back to it. I think this is a -- it's a rallying cry for our
+customers who have maybe been looking at digital transformation and getting the
+data house in order. The other part of my portfolio, I've got all the databases.
+There's -- customers are trying to make it a priority. There's no question that there's
+massive capability and advantage that comes from getting your data house in order.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 14 of 20A - Brett Iversen
+A - Jessica Hawk
+A - Brett Iversen
+A - Jessica Hawk
+A - Brett Iversen
+A - Jessica HawkBut sometimes it's hard to ﬁnd justiﬁcation, particularly in accounts where the system
+is there, and it's been working.
+{BIO 22252603 <GO>}
+Right.
+{BIO 20774986 <GO>}
+So why now?
+And I would say that this moment, as, again people are starting to internalize what it
+can do from a true business impact level, I mean the web experience with ChatGPT
+is fun. Nobody's knocking it. I've used it a ton. I had it help me with some naming
+things recently.
+But these scenarios I just described with CarMax and STRABAG, they're real, true,
+hard-hitting problems in the enterprise that they're now saying, "Okay now I have a
+real business case for doing that migration."
+And so, we've been saying, "Migrate to innovate." And I think we're seeing a
+diﬀerent level of conversation with our customers right now, about their excitement
+to accelerate their data transformations.
+{BIO 22252603 <GO>}
+Yes. I love all these productivity themes that both of you have mentioned. I even --
+but even the creativity side.
+One of our analysts called me soon after they were able to start playing with some of
+the early models, and it was a visualization. He was like, "Brett, this isn't just ﬁnding a
+visual that is closest to what I'm describing. This is creating and authoring brand new
+content." And we were supposed to have an hour-long call on a whole bunch of
+topics, and we spent it all on that one topic because he was so excited.
+But well, I don't think you've given risk, and this topic is so big, it's always important
+as we're talking about AI and kind of what we're doing now on our path forward to
+touch on the responsible AI portion as well, because I know people want to hear
+how we think about that, et cetera.
+{BIO 20774986 <GO>}
+Sure.
+{BIO 22252603 <GO>}
+Maybe you can help us with that piece as well.
+{BIO 20774986 <GO>}FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 15 of 20A - Brett Iversen
+A - Jessica HawkWell I'd start with what you just said there, which is, there's an education journey --
+{BIO 22252603 <GO>}
+Yes.
+{BIO 20774986 <GO>}
+-- that we're all on, right?
+What -- why is this moment with these large language models, we're using the term
+generative now, what does that mean?
+How is it diﬀerent from what we had with neural network capabilities back in 2017?
+So, I do think this is an opportunity for us to live our mission where we're truly
+empowering our customers. There's a lot of education to be doing.
+We've been working very, very diligently on building out responsible-use
+frameworks as an organization for many years now.
+So, starting in 2017, we started to invest in a focused part of our -- both our legal
+team and our engineering teams to build out our principles.
+We -- that's a -- it's a huge issue so you have to start with principles.
+So, we developed our six principles.
+Then our engineering team has basically been customer zero for how you put those
+principles into practice.
+But what's really interesting and where I get excited in terms of trying to help our
+customers, because I think there is a desire to jump into the pool. There's also a
+recognition that this needs to be done very carefully, as with any technology, once it
+comes into an organization, despite the best of intentions, there's plenty of CIOs
+who could validate this, I'm sure. Things tend to take a life of their own, and so I think
+similar to how customers think about data governance, they're thinking about
+responsible AI governance.
+So, we did something that I think is somewhat unusual for us.
+We took all of the learning that we developed between our engineering and our
+legal team that's really focused on helping think through these issues, and we made
+that experience and the standard with which we operate against those principles
+available to the market.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 16 of 20A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversen
+A - Eric Boyd
+A - Brett IversenSo last June, we put the Responsible AI Standard out for customers to learn from, to
+adopt.
+We always say, "This is a journey we're all on together." And so, we're trying to help
+recognize that the principles are great. Customers then want to say, "Okay but when
+I get ﬁngers to keyboard, how do I think about doing this?" And so put putting that
+standard, think of it as a playbook, out there for folks to learn from, and then, of
+course, we continue to just infuse AI capability through tools and into our products
+directly.
+So our company, customers, leaders, who I think need to meet the demand and the
+excitement from the C-suite, from the board, from investors, with an understanding
+that they have an ability to go execute against the opportunity and do it in a
+responsible way we're constantly infusing that directly into the products and have
+continued to put out a bunch of dashboards and toolsets that customers can use to
+just go inspect how are we doing against the principles?
+Is the model being used the way it needs to be used?
+Is there transparency in how the technology is creating insights or generating new
+content?
+Transparency tends to be particularly important in this space, just to give them a way
+to go and seek signal and make sure that things are being used the way that they
+would want to be.
+{BIO 22252603 <GO>}
+Got it. Given the size of the opportunity and the excitement around that in the
+ﬁnance world, at least, is, well, how much is it going to cost?
+{BIO 20815367 <GO>}
+That's right.
+{BIO 22252603 <GO>}
+And so like, speciﬁcally, kind of the capital spend over time that we think will be
+needed to scale this vision the way that we think it will scale.
+So, no math speciﬁc needed, Eric, but how would you help us -- if I could adopt you
+into the ﬁnance group for a minute to help us think about this, what would you share
+with our audience?
+{BIO 20815367 <GO>}
+I was a math major, so I can do some math.
+{BIO 22252603 <GO>}FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 17 of 20A - Eric Boyd
+A - Brett Iversen
+A - Eric BoydI have no doubt.
+{BIO 20815367 <GO>}
+Yes. I mean obviously, these models are very large and use a lot of data, and so
+there's a lot of compute used in them.
+So, we certainly see that as a trend that we will see.
+But that said, we also -- we use this, the compute fabric that we have, ours -- all of our
+GPUs, we use for all of the diﬀerent use cases we have all across the company.
+So, by having sort of this common fabric, we really get economies of scale.
+{BIO 22252603 <GO>}
+Right.
+{BIO 20815367 <GO>}
+And so, we're able to use the same sets of GPUs for Bing as we use for Oﬃce, as we
+use for a lot of our internal training, and all of those workloads really sharing that
+common fabric.
+So, we see a lot of beneﬁts coming from that.
+Additionally, these models are going to get cheaper over time. We're already seeing
+that. I mean from sort of the ﬁrst versions that we get of a model to sort of where we
+get them in production, we're able to dramatically reduce the cost that it takes to
+serve.
+We do a lot of diﬀerent work on it. Everything from looking at the individual kernels
+of code that are running on each individual piece of hardware and optimizing that to
+thinking about how I can use multiple GPUs and machines to sort of pipeline and
+stage things together and a lot of optimization techniques.
+And I -- with so much focus and interest on this, we're just going to see more. We're
+going to see more optimization really coming around that, that's really going to drive
+this beneﬁt to it.
+So, I think we'll see a lot of beneﬁt from that.
+The other interesting thing to think about as you think about sort of this, the cost
+associated with it. AI has gravity to it.
+So being able to really have these models, and then they need to run on data, the
+closer you can sort of bring that data to the model, the speed of light is a factor.FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 18 of 20A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversen
+A - Eric Boyd
+A - Brett Iversen
+A - Eric Boyd
+A - Brett IversenWe just can't -- we can't go faster.
+So how close can you get things really brings beneﬁt to customers?
+And so, if you're looking for the fastest way to sort of serve these models, the fastest
+inferencing speed and all those things, bringing everything together is going to be a
+big beneﬁt.
+So again we see a lot of potential with that in the work that we're doing.
+{BIO 22252603 <GO>}
+Yes. I'm sure it's only additive to customer conversations we're already having. It's
+just one more compelling reason.
+{BIO 20815367 <GO>}
+Absolutely.
+{BIO 22252603 <GO>}
+Yes.
+{BIO 20815367 <GO>}
+I mean Jessica sort of alluded to it, right, like, customers that are on the fence of,
+"Should I get my data estate in order?
+Should I ﬁgure out how do I do my digital transformation?"
+{BIO 22252603 <GO>}
+Right.
+{BIO 20815367 <GO>}
+"Is it ﬁnally time?" There's so much interest, and everyone is sort of moving in this
+direction.
+So the people who are the laggards are starting to worry about, "Boy, we might
+become the laggards." And so how do they really jump on this wave and really
+accelerate the work that they've been doing?
+{BIO 22252603 <GO>}
+One -- before I close this out, one last question maybe for both of you. Yes, just ﬁnal
+thoughts and/or kind of what do you think about in terms of what's next?
+Like, what would you -- where would you leave our audience in terms of closing
+thoughts on this topic?FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 19 of 20A - Eric Boyd
+A - Brett Iversen
+A - Jessica Hawk{BIO 20815367 <GO>}
+Yes. I mean, I opened with, I think this is one of the most signiﬁcant technological
+transformations in our lifetimes.
+So, the other exciting part with that is we're literally at the starting line. I mean we've
+ﬁgured out some of the things that we can do, but we're constantly learning and
+iterating with our internal teams, with our customers, and sort of starting to see
+where all of this can go.
+And I mean Jessica touched on the use cases. They're, like, all over the map in terms
+of the things customers are doing in every single industry that we see.
+So, there's just so much more to come in this.
+We haven't reached diminishing returns in any of the things we're starting to see as
+we continue to build these models and make them larger and really prove them out.
+So, there's just so much opportunity just right in front of us that I think these next few
+years are going to be really exciting and fun to just sort of see where they go.
+{BIO 22252603 <GO>}
+Yes.
+{BIO 20774986 <GO>}
+Yes. I would just add, I was on the phone with one of our large GSI partners this
+morning. I would say it's a "where do you want to go with your imagination"
+moment.
+It's been a real rallying cry for those partners who are taking those customer calls just
+like we are around, "Get that the opportunity is here. It's amazing that the technology
+is here. I can't believe how quickly you guys pulled all this together. It's available for
+us to go build on now too. Help us think through, where do we get started?"
+So, there's a lot of ideation workshops going on.
+I love that it's a -- I've been around technology for a couple decades now. It's a total
+business-and-IT-together moment, which is, I think personally pretty satisfying for
+folks that work in this. Lots of conversation around, "We see the opportunity. The use
+cases are really quite broad. Let's get excited and focused on, where do we want to
+start.
+Then let's just go."FINAL TRANSCRIPT 2023-03-20
+Microsoft Corp (MSFT US Equity)
+Page 20 of 20A - Brett IversenSo, a lot of our partners are getting super engaged in the conversation in terms of
+helping customers continue with their digital transformation and then prioritize,
+where do we start with all the opportunity?
+So, I think us continuing to support our partners as they build up those practices is
+pretty exciting.
+Then I would say for sure, it's, again supporting customers on their journey with
+regards to responsible AI.
+So, you'll see lots coming around more support that we can provide our customers
+directly on that.
+Then, ﬁnally, we're going to continue to infuse all of Eric's team's goodness into the
+rest of our ﬁrst-party oﬀerings, so you can be watching for that as well.
+{BIO 22252603 <GO>}
+Yes. When the space is as big as it is, it totally makes sense to me that partners are
+like, "Hi, we're really excited, but help us know where to start," because there's so
+many places you could start.
+Well, I know you both are incredibly busy, given how much this space is on ﬁre.
+So, thank you for both your time today as well as your insights. I appreciate it.
+And we thank everyone for watching. We're excited, as you've heard, about the data
+and AI opportunity ahead, our position in this market where we feel like we're in a
+leadership moment, which is really exciting, and the value customers are already
+seeing with our solutions. We're glad we had some time to talk to you about it today
+so thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

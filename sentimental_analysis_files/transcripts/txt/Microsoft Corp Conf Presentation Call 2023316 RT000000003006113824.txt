@@ -1,0 +1,450 @@
+FINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 1 of 12Akosua Boadi-Agyemang, Senior Marketing Manager
+Charles Lamanna, Corporate Vice President, Business Applications & Platform
+Jaime Teevan, Chief Scientist
+, Corporate Vice President, Modern Work & Business Applications
+, Corporate Vice President, Design & Research
+, Chairman and Chief Executive Oﬃcer
+, Corporate Vice President
+Satya NadellaReinventing productivity with AI
+Company Participants
+Jared Spataro
+Jon Friedman
+Satya Nadella
+Sumit Chauhan
+Presentation
+{BIO 3224315 <GO>}
+Welcome, and thank you for joining us. We are here today to talk about something
+that's very fundamental to the human experience, the way we work, and more
+speciﬁcally, the way we work with computers. In fact, we've been on this continuous
+journey towards human-computer symbiosis for several decades, starting with
+Vannevar Bush's vision that he outlined in his seminal 1945 essay "As We May Think."
+Bush envisioned a futuristic device called Memex that would collect knowledge,
+make it easy for humans to retrieve that knowledge with exceeding speed and
+ﬂexibility. It's fascinating to see that someone postulated even back then so vividly
+what an intuitive relationship between humans and computing could be. Since then,
+there have been several moments that have brought us closer to that vision.
+In 1968, Douglas Engelbart's "Mother of All Demos" showed the remarkable
+potential of graphical user interface, including things like multiple windows, pointing
+and clicking with the mouse, word processing that was full screen, hypertext, video
+conferencing, to just name a few.
+Later, the team at Xerox PARC made computing personal and practical with Alto that
+ushered in the personal computing era. Then, of course, came the web, the browser,
+and then the iPhone. Each of these seminal moments has brought us one step closer
+to a more symbiotic relationship between humans and computing.
+Today, we are at the start of a new era of computing, and another step on this
+journey. Over the past few months, powerful new foundation models, together with
+accessible natural language interface has ushered in an exciting new face of AI. This
+next generation of AI is fundamentally diﬀerent from the AI, in fact, that we've grown
+accustomed to around us.FINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 2 of 12Jared SpataroFor years, AI has in fact powered online experiences ranging from search, to social
+media, working behind the scenes to serve up recommendations for us or about us;
+from what we watch to what websites we visit, to what we buy, that version of AI has
+become so second nature in our digital lives that we often don't even realize or
+recognize it. You could say we've been using AI on autopilot. And now, this next
+generation of AI, we're moving from autopilot to Copilot.
+We're already starting to see what these new copilots can unlock for software
+developers, for business processes like sales, marketing, and customer service, and
+for millions of people synthesizing information in powerful new ways through multi-
+turn conversational search. As we build this next generation of AI, we've made a
+conscious design choice to put human agency, both at a premium and at the center
+of the product.
+For the ﬁrst time, we have the access to AI that is as empowering as it is powerful. Of
+course, with this empowerment comes greater human responsibility. Just as an
+individual can be aided by AI, AI can be inﬂuenced positively or negatively by the
+person using it. As we move into this new era, all of us who build AI, deploy AI, use
+AI, have a collective obligation to do so responsibly. Fundamentally, AI must evolve
+in alignment with social, cultural and legal norms in a democratic society. And as we
+make progress, both vigorous debate and scrutiny will both continue to be super-
+important.
+As we look ahead, we believe this next generation of AI will unlock a new wave of
+productivity growth, with powerful copilots designed to remove the drudgery from
+our daily tasks and jobs, freeing us to rediscover the joy of creation.
+Up to now, we've envisioned a future of computing as an extension of human
+intellect and human action. Today is the start of the next step in this journey, with
+powerful foundation models, and capable copilots accessible via the most universal
+interface, natural language. This will radically transform how computers help us think,
+plan, and act.
+Just as we can't imagine computing today without a keyboard, mouse or multi-
+touch, going forward, we won't be able to imagine computing without copilots, and
+natural language problems that intuitively help us with continuation, summarization,
+chain of thought reasoning, reviewing, modifying, and acting. That's what we are
+excited to show you today.
+And with that, I'll hand it oﬀ to Jared to share our Copilot for work.
+{BIO 17854733 <GO>}
+Thank you. As Satya said, we're at the start of a new era of computing. Before we
+look ahead, I want to spend a moment reﬂecting on work and what it means to all of
+us.FINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 3 of 12Sumit ChauhanFrom an early age, we're asked, what do you want to be when you grow up. Our
+answer is a reﬂection of what excites us and the value that we seek to bring to the
+world. Even at a young age, we know work is meant to be more than just a job.
+Nurses are called to care for people, scientists to make a new discovery, artists to
+create something brand new, at its best. Work not only feeds our families, it feeds
+our souls.
+But today, the reality often falls short of that promise. We spend too much time
+consumed by the drudgery of work, on tasks that zap our time, creativity, and energy.
+We become separated from the soul of our work. At times, the very tools that should
+make us productive seem to get in the way. To reconnect to the soul of our work, we
+don't just need a better way of doing the same things, we need a whole new way of
+working.
+And so today, we're embarking on a journey to help every person around the world
+rediscover the soul of work. Introducing Microsoft 365 Copilot - your copilot for
+work. Copilot combines the power of large language models with your data in the
+Microsoft Graph and the Microsoft 365 apps to turn your words into the most
+powerful productivity tool on the planet. Copilot is integrated into Microsoft 365 in
+two ways. First, it works alongside you, embedded in the apps millions of people use
+every day: Word, Excel, PowerPoint, Outlook, Teams and more.
+Second, we're introducing an entirely new experience; Business Chat that works
+across all of your data and apps, your documents, emails, calendar, chats, meetings,
+and contacts, to do things that you've never been able to do before. And Copilot is
+built on Microsoft's comprehensive approach to security, compliance, privacy, and
+responsible AI. So, you know, it's enterprise-ready.
+Using just your own words, you can put Copilot to work, gathering information in
+real-time from across your data and apps to unleash creativity, unlock productivity,
+and up-level skills. Now, you can be more creative in Word, more analytical in Excel,
+more expressive in PowerPoint, and more productive in Outlook, and even more
+collaborative in Teams. Let's take a look.
+(Audio-Video Presentation)
+That's just a glimpse of what Copilot can do. For the next 20 minutes, we're going to
+show you how Copilot is a whole new way of working. You'll see a new interaction
+model between people and computers. Sometimes, Copilot will get it right. Other
+times, it will be usefully wrong, giving you an idea that's not perfect, but still gives
+you a head start. But seeing is believing.
+Let's go to Sumit to show you how Copilot will unleash creativity and take the
+drudgery out of work for everyone.
+{BIO 20296465 <GO>}FINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 4 of 12Thank you, Jared. For more than two decades, I've had the privilege to work on our
+core productivity apps: Word, Excel, PowerPoint, and Outlook. In fact, my ﬁrst line of
+code at the company was in Excel. And I'm so excited to show you how Microsoft
+365 Copilot is coming to life in the products millions of people use and rely on every
+day.
+What if the tools could learn how you work rather than the other way around?
+Copilot unlocks all the richness of these apps through natural language. Let's start
+with a real-life example, like a high school graduation. My daughter recently
+graduated from high school. So this is really top of mind for me. Let's say I want to
+throw her an amazing graduation party. To start, I need to send an invitation to family
+and friends. So, let's put Copilot to work.
+With a few simple prompts, Copilot understands everything it needs to know to
+generate a great ﬁrst draft of the invitation. It's even able to pull in details about the
+venue from an e-mail I received last week. Now, I have a draft invite that includes the
+basic information. I can edit this, I can ask my guests to share funny stories, and give
+them a link where they can upload photos.
+Now, I think this ﬁrst draft is a little wordy, so let's make it more concise. With that
+done, this is my opportunity to create a loving, and let's be honest, a little
+embarrassing slide show to celebrate the occasion. I kick things oﬀ with Copilot,
+providing a little information to get started. I add some details about my daughter. I
+can also change the style, so it creates something fun and festive. And Copilot goes
+to work, ﬁnding the right words, and searching my OneDrive for the best photos. In
+seconds, Copilot generates a beautiful presentation with memories,
+accomplishments, and advice for the future. I can add my own personal touches to it
+and Copilot will be at my side.
+Now, let's look at this slide. I'm really happy with the design, but Copilot didn't quite
+have what it needed. So, I'm going to rework the text. I can then ask Copilot to make
+it more concise and add images. Okay, now that looks great.
+On this next slide, there's a part that Copilot didn't quite get right. So, I'll rewrite it so
+that it sounds a little bit more like me. I also want to use a diﬀerent image here, so I'll
+just tell Copilot what I want and Copilot will ﬁnd it. I can add transitions between the
+slides, which I always forget, so that when I play the presentation, it looks really
+polished. Okay, I like how that turned out.
+Now I don't know about you, but PowerPoint animations have never been my strong
+suit. I love that I can do this on my own. The average person uses less than 10% of
+what PowerPoint can do, Copilot unlocks the other 90%.
+Now, onto party planning. I'll start with a few details about the event, and once again,
+Copilot goes to work with a simple prompt, it creates pages for everything I need to
+think about to plan this party. Let's say, I want to put this plan in a simple to-do list.
+Boom. Done.FINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 5 of 12I'm thinking about what I want to say to my daughter on her big day. Copilot can get
+me started on a speech. I'm not sure how long I want it to be, but let's start with
+three minutes. I know I want to tell her how proud I am, acknowledge how hard she's
+worked, how inspired I am by her volunteer eﬀorts, and what a wonderful leader she
+is. Here's a great ﬁrst draft.
+Now, here's an important thing about Copilot. At this point, I decide whether to keep
+this draft, modify it, or discard it completely. This is a big change in how people
+interact with software. Okay, so this looks pretty good, but let's add some of the
+funny stories I collected from friends and family. Let's give it a minute. I can make
+these stories more playful and add more, but I actually want to make them a bit
+shorter.
+Let's get to the punch line, right? There. Much better. Now this looks pretty good,
+but I really want to add my own personal touch, so I am going to edit it. You can see
+that throughout the writing process, I am always in control. Now, I want to quickly
+format it to make sure I nail the delivery. And Copilot automatically adjusts the
+spacing, making it easier for me to read and add speaker cues to help me improve
+my delivery.
+Let's shift gears into Business Mode. You saw how Copilot saves me time as a
+working mom. But the real power of Copilot is in how it unleashes creativity at work.
+Imagine, you're leading a team at a global manufacturing company, and you want to
+create a rock-solid customer proposal and you don't have time for writer's block.
+Let's see how Copilot can use your customer notes in OneNote as well as another
+internal document. Copilot quickly creates a ﬁrst draft.
+Now, you probably want this to look like your previous proposals. Copilot can give
+you a draft in the format you typically use. It inserts product images and pulls in
+relevant visuals from other ﬁles. You can even include a short summary at the top of
+the document. And Copilot can make suggestions to strengthen the proposal, like
+adding an FAQ, which it will generate for you. Now remember, you're not going to
+send this oﬀ to a customer without a thorough review, but Copilot still saved you
+tons of time in the process.
+It's time to get ready for your customer pitch meeting. Now, everyone has had a
+moment when they wish they could turn their proposal into a customer-ready
+presentation without having to start from scratch. Well, guess what? Now you can.
+Copilot can turn your Word document into a PowerPoint presentation. Now, you
+have a professional-looking presentation that you can hone and polish. This is truly
+amazing using just your words. Copilot translates Word into PowerPoint and
+PowerPoint into Word.
+Now, let's add a slide and give Copilot some quick instructions. There it goes, ready
+for you to review. Now, this slide is a little bit wordy. Let's ask Copilot to make it more
+visual. And check this out. Copilot can even animate the slide. It gives it a
+professional design treatment in a single click. But it doesn't stop there, Copilot canFINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 6 of 12Jared Spataroeven generate speaker notes. I am serious, speaker notes. It's not only a time saver,
+it's helping me be a better presenter and close this deal.
+Let's jump into Copilot in Excel. Copilot puts all the rich capabilities of Excel at your
+ﬁngertips. Say, you need to analyze this quarter's sales results. You start by asking
+Copilot to analyze the data and give you three key trends. Within seconds, you've
+got what you need. But you want to drill in. You ask Copilot a follow-up question
+about one of the trends. Copilot creates a new sheet. This new sheet creates a
+sandbox to play in, to better understand what's going on, without modifying the data
+in the original sheet.
+This is a great example of how Copilot up-levels your skills, showing you how to
+break down the problem step by step. You ask Copilot to visualize what contributed
+to the decline in sales growth this period. Copilot adds a little color to make the
+problem jump oﬀ the page. Now, you want to dig deeper and ask a follow-up
+question. Copilot not only answers your question, it creates a simple model of the
+scenario. And it even asks you, if you want to learn more about what it did with a
+step-by-step breakdown. Finally, you can ask it to create a graph of your projected
+model. Copilot turned a sea of data into clear insights and actions.
+Let me show you how Copilot can help you tackle your email. We all struggle with
+the pull of the inbox. Sometimes it keeps us from focusing on our most important
+work, but at the same time, you do have important emails to respond to. Copilot
+separates the signal from the noise and gives you hours of time back.
+Copilot can help you triage your inbox, highlighting the most important emails to
+prioritize. And Copilot also helps you on the go in Outlook mobile. It can summarize
+long email threads, you can draft a reply using data from an Excel ﬁle, and Copilot
+will generate a reply for you. You can edit it, you can make it more concise. You can
+even change the writing style or add more context. Now, all that's left to do is review
+the proposed response and hit send. Copilot is a productivity game changer.
+{BIO 17854733 <GO>}
+Let me take a moment to explain what you just saw. To build Copilot, we didn't just
+connect ChatGPT to Microsoft 365. Microsoft 365 Copilot is powered by what we call
+the Copilot System, a sophisticated processing and orchestration engine. It
+harnesses the power of three foundational technologies, the Microsoft 365 apps -
+that's Word, Excel, PowerPoint, Outlook, Teams and more; the Microsoft Graph, that's
+all your content and context, your emails, ﬁles, meetings, chats and calendar; and a
+large language model or LLM, a creative engine capable of parsing and producing
+human readable text, all accessible through natural language. It starts with a prompt
+from you in an app. Copilot preprocesses the prompt through an approach called
+grounding.
+Put simply, grounding improves the quality of the prompt. So, you get answers that
+are relevant and actionable. One of the most important parts of grounding is making
+a call to the Microsoft Graph to retrieve your business content and context. CopilotFINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 7 of 12Charles Lamannacombines this user data from the graph with other inputs to improve the prompt. It
+then sends that modiﬁed prompt to the LLM.
+You may be familiar with what an LLM can do based on your experience with
+ChatGPT or Bing Chat. Copilot takes the response from the LLM and post processes
+it. This post processing includes additional grounding calls to the Graph, responsible
+AI checks, security, compliance and privacy reviews and command generation.
+Finally, Copilot sends a response to the user and commands back to the apps.
+Copilot iteratively processes and orchestrates these sophisticated services to
+produce a result that feels like magic. It's a system that combines the power of large
+language models with your data and apps. Think about it. That's tens of thousands of
+commands in the Microsoft 365 apps, trillions of signals in the Microsoft Graph, and
+billions of parameters in the LLM. For the ﬁrst time in human history, you can
+command all of this power using just your own words. It will transform work as we
+know it.
+We've shown you how the Copilot system uses AI to supercharge personal
+productivity. Now, let's see what happens when you bring Copilot to all your
+business processes. To do that, let me hand it over to Charles.
+Thanks, Jared. Imagine you lead a sales team. Your number one job is to build
+customer relationships and close deals. We are distracted by bookkeeping, note
+taking and other drudgery. Copilot lightens the load by improving collaboration and
+automating tasks in your sales workﬂow. Copilot understands what it means to be a
+seller, and it can even help if life gets in the way. Let's check it out.
+It looks like you have a dentist appointment that conﬂicts with your weekly business
+review. What if you could do both? With Copilot, you can follow a meeting and
+catch-up to see what you missed, even if you can't attend. You'll get a notiﬁcation in
+Teams when the recap is ready, and you can see the content that was shared,
+detailed notes and any action items. You see there was some discussion about your
+customer. You can ask Copilot speciﬁc questions to get more context, and it provides
+a detailed response. You can ask questions like why a certain decision was made or
+what other options were considered, and it provides citations with a snapshot of the
+transcript. It's a huge time-saver.
+So that was pretty cool. But the real magic of Copilot happens during a live meeting.
+Here, you're in a meeting with your team. You can ask Copilot to summarize what's
+happened so far. You can see who said what, what points are made. Copilot is really
+capturing the spirit of the discussion.
+And as the meeting progresses, you can check on where people stand. You can even
+ask Copilot what questions are unresolved. It is just incredible to see this happen in
+real time. Teams has changed collaboration forever, but it can also be hard to keepFINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 8 of 12up with all those chats. Copilot can help you stay on top of it all by summarizing
+Teams chat, so you know what you missed.
+Here, you were asked for an update on the customer and Copilot can help there,
+too. You can simply ask Copilot to create a summary of all the customer
+conversations. It produces an overview with citations so that you can verify, reﬁne
+and post. You just received an invitation to brainstorm in a Loop Workspace. You may
+not have heard of Loop. Loop is a multi-player collaboration canvas with Copilot as
+an AI peer to your team along with everyone else. Let's try it out.
+Here the team is collaborating in real-time on product oﬀers and pricing, adding
+notes and action items to keep everyone on track and up-to-date. You can ask
+Copilot to pull data from Excel on the top-selling products by category, and within
+seconds, it's processing the information. Another member of your team jumps in and
+adds a column and anyone can prompt Copilot to build on each other's ideas.
+Everything is captured in prompt history. Now, you can close out the action item and
+get ready to meet with the customer. And for that, you turn to Viva Sales. Viva Sales
+brings all your key sales processes and data to Microsoft 365 and Copilot. It lets you
+focus on connecting with your customer and closing the deal. And it works with your
+existing CRM like Microsoft Dynamics 365 or Salesforce.
+As the sales meeting starts, you quickly use Copilot and Viva Sales to scan CRM data
+to get the latest, including an account overview, recent engagements with the
+customer and their key areas of focus, all the information you need to have a
+productive conversation. When your customer asks how your product compares to
+one of your competitors, Copilot gives you a suggestion from your sales materials.
+As the meeting ends, Copilot recaps the call to clearly outline next steps. These
+meeting details are saved right back to your CRM. Afterwards, you are ready to
+follow up on the meeting and send a proposal. With the simple click of a button,
+Copilot gets you started. You can make any adjustments and include additional
+details before sending. And when the customer accepts your oﬀer, Copilot and Viva
+Sales automatically suggests an update to CRM to close the opportunity as won.
+At work, we all have unique and sometimes tedious tasks we wish could be
+automated. And at Microsoft, we have incredible workﬂow and automation tools, but
+they are not always accessible to everyone. Copilot unlocks all of that. Everyone, not
+just developers, can now automate the repetitive work with Power Automate. You've
+made the pitch, you won the business. Now you need to deliver and be there for
+your customer. You want to be notiﬁed whenever there's an urgent support issue for
+your accounts, and you want to create a collaborative space for the account team to
+solve the issue together. With Copilot and Power Automate, you can automate both
+these things in minutes, using your own words.
+As you review the suggested ﬂow, it's looking good. With a little more direction,
+Copilot can write a summary of the problem, post that summary in the appropriate
+Teams channel, and tag the right colleagues to resolve the issue. This now gets
+seamlessly added to my workﬂow, getting it just the way I want it. Here you can see
+an action with your posts in the Teams channel and the full team ready to jump inFINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 9 of 12Jared Spataro
+Akosua Boadi-Agyemangand resolve a delayed delivery for your customer. This is an amazing time saver for
+every customer from now on. And you built it in just a few minutes. Through Copilot,
+Power Automate is now an essential part of work for everyone, just like Excel,
+PowerPoint and Outlook. You can see how Copilot is a gamechanger for business
+processes, not just for sellers, but every other line of business, marketing, ﬁnance,
+customer service, and more.
+Back to you Jared.
+{BIO 17854733 <GO>}
+So far, you've seen how the Copilot system harnesses the power of large language
+models, the Microsoft Graph and your apps to completely reimagine knowledge
+work. You've seen how Copilot works for you when it's embedded in your apps,
+Word, Excel, PowerPoint, Outlook, Teams and more. Now, I want to show you an
+entirely new standalone experience, Business Chat. You can access Business Chat
+from Microsoft365.com, Bing or right in Teams. Business Chat works across all your
+emails, ﬁles, meetings, chats, documents, calendar and more to turn all your data
+into knowledge. It's your knowledge navigator. First up, let's see how it can catch you
+up before a client meeting.
+Akosua, show us how.
+Let's say you're preparing for a client meeting. You stop by asking yourself where are
+my notes, and what did we last discuss? What decisions were made? What are the
+open action items? Did the team deliver? Tracking down all these details and ﬁles
+can feel like a full-time job. Copilot does the sleuthing for you.
+So you start by asking Copilot to summarize all your recent customer interactions,
+meetings, content you've shared, any issues and deliverables. Copilot works across
+your calendar, emails, chats, documents and meetings to ﬁnd all the pertinent
+information. Now you've got a concise summary, complete with citations and
+sources. You can hover over names, quotes and verify information or even ﬁnd out
+more.
+Now you know product lead times are likely to come up, so you ask Copilot to
+prepare all those details for you. Now it's pulling together information from various
+sources, and within seconds, Copilot synthesizes everything you need so you can
+feel prepared. Now let's imagine you're working on your business strategy. You
+know you need to pull together a bunch of information and it could take you hours
+to ﬁnd it all. Copilot brings together everything you need, the numbers, the emails
+with the commentary about the numbers, the additional context from Teams chats,
+and reasons across all your structured and unstructured data to create connections
+and insights in a whole new way. First, you ask Copilot to pull up quarterly
+projections and identify related risks. Copilot gives you key data points and ﬂags
+potential issues.FINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 10 of 12Jared Spataro
+Jaime Teevan
+Jon Friedman
+Jaime Teevan
+Jon FriedmanNow, you ask Copilot to generate a SWOT analysis based on all this information.
+Copilot will categorize the strengths, weaknesses, opportunities, threats in a single
+view so you can see what to prioritize. You notice one of the items is incorrect, so you
+jump right in and change it. Ask Copilot to turn the SWOT analysis into a new slide
+for your upcoming executive review. Now it's creating and adding that slide. It gives
+you a preview so you can have conﬁdence that the change was made and you can
+reﬁne it in PowerPoint.
+You've had a busy day and need to update your team on some big developments.
+Copilot can ensure critical information keeps ﬂowing. You start by requesting a
+summary of two meetings from earlier on in the day. Copilot combs through your
+meeting transcripts and generates a draft that updates the team on critical decisions
+to keep everyone moving forward. Copilot provides citations to show you where the
+information came from. You can hover over them to get even more detail. You spot
+some key information that Copilot missed. You think it's important to share that with
+the team, so you ask Copilot to go ahead and add it. It scans through the meeting
+transcripts and regenerates the response to include all the extra detail. With your
+meeting recap ready, it's time to share. You jump to the Teams channel where you
+can reﬁne and post. Now that's business at the speed of AI.
+Back to you, Jared.
+{BIO 17854733 <GO>}
+Thanks, Akosua. This new era of computing will usher in a whole new way of working.
+But we feel a profound sense of responsibility to get it right, working closely with our
+customers. Let me hand it over to Jamie and Jon for more.
+Thanks, Jared. So Jon, let's talk a little about the art and science underlying Copilot.
+{BIO 15739234 <GO>}
+We crafted every detail. We obsessed over every interaction and designed Copilot
+as a connected system, and we used it while we were creating it.
+I remember it had some really great ideas about how AI can make meetings better.
+But large language models are brilliantly creative. They're also fallible. That's why
+grounding the LLM in data is so important.
+{BIO 15739234 <GO>}
+And we not only built grounding into the system, we also built veriﬁcation into the
+experience. We added citations and introduced forms of friction to encourage back
+and forth collaboration, and included feedback mechanisms so people can let usFINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 11 of 12Jaime Teevan
+Jon Friedman
+Jaime Teevan
+Jared Spataroknow when we get it wrong. Our goal is to give people agency. To help people get
+started, Copilot suggests good prompts. If you don't like what it does, there's the Try
+Again button. You always have the option to use, adjust, discard or undo. You saw
+that in the demos today.
+I've studied AI for decades and I feel this huge sense of responsibility with this
+powerful new tool. We have responsibility to get it into people's hands and to do so
+in the right way. Security compliance, responsible AI, they're not after thoughts, they
+are foundational part of the Copilot system. It's one of the reasons that we're starting
+with a small number of customers. And when the system gets things wrong or has
+biases or is misused, we have mitigations in place. Every Copilot feature has passed
+privacy checks, it's been red teamed by experts and is monitored in real time. And
+we're tackling the long-term implications and novel risks like jail breaks. We're going
+to make mistakes, but when we do, we'll address them quickly.
+{BIO 15739234 <GO>}
+Great design is born from iteration. It's a pursuit of always striving to make better. As
+a designer, Copilot is the most dynamic material I have ever worked with. It has the
+power to adapt to you and up-level your work.
+And as a scientist, I love how it's expanding our understanding of what people can
+do and we can't wait to see what you do with it.
+{BIO 17854733 <GO>}
+Everyone deserves to ﬁnd meaning and joy in their work. Today, you've seen how
+Microsoft 365 Copilot can reconnect us to the soul of our work. Copilot lets you
+harness the power of large language models with your data in the Microsoft Graph
+and the richness of the Microsoft 365 apps to unleash creativity, unlock productivity
+and up-level skills. And we're just getting started. We're deeply committed to
+listening, learning and adapting with speed to help create a brighter future of work
+for everyone with AI. Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the FINAL TRANSCRIPT 2023-03-16
+Microsoft Corp (MSFT US Equity)
+Page 12 of 12transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

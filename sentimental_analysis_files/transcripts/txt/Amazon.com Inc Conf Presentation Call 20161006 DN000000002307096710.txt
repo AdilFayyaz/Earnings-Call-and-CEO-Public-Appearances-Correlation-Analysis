@@ -1,0 +1,483 @@
+FINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 1 of 12, Senior Analyst
+David Schubmehl, Research Director
+, Senior Analyst
+Anurag Rana
+David SchubmehlUnderstanding IBMs Watson Platform
+Company Participants
+Anurag Rana
+Jitendra Waral
+Presentation
+{BIO 7440273 <GO>}
+Good morning, everyone. Hi, my name is Anurag Rana. I'm a Senior Analyst with
+Bloomberg Intelligence. Welcome to the webinar focused on understanding IBM's
+Watson Platform. Our guest speaker today, is Dave Schubmehl, Research Director at
+IDC. We also have Jitendra Waral, Senior Analyst, Bloomberg Intelligence following
+the Internet sector as our speakers.
+So let me just start with some housekeeping notes. Today's presentation will be
+recorded and available for playback. At the bottom of the slide window, you will
+notice that you can adjust volume and maximize your screen. Feel free to ask a
+question by submitting one to the right of your slide; we will address questions at
+the conclusion of the presentation.
+What is BI? Bloomberg Intelligence provide in-depth analysis and data sets on
+industries, companies, government, ESG, credit, economic and litigation factor that
+can impact business decisions. Bloomberg Intelligence is backed by about 300 plus
+third-party data providers and is delivered with no buy or sell recommendations. Our
+analyst team averages 20 plus years of buy and sell-side research experience; and
+the research is provided exclusively to clients, who subscribe to the Bloomberg
+Professional Services and can be accessed by BI GO.
+I'm going to now leave the ﬂoor over for David Schubmehl, who is going to talk a
+little bit about his research practice at IDC.
+Thank you, Anurag. Good morning, folks. I wanted to talk to you today about
+Cognitive Software and AI Software in general, and speciﬁcally IBM Watson and we'll
+do that by starting out and talking about what the attributes of cognitive software
+are. So if you think about it the software has been around for about 20 to 25 years,
+30 years and has been around and responds essentially to a set of algorithms.
+What we're talking about today in terms of Cognitive and AI software is, where
+software that doesn't necessarily need to be programmed; where the systemsFINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 2 of 12actually learn on their own and you've seen many discussions about it. People talk
+about deep learning; they talk about machine intelligence; they talk about artiﬁcial
+intelligence in very general terms; and all of these are essentially synonyms for
+Cognitive Software technologies.
+And some of the technologies that we support are up here on this slide. So for
+example, we handle a lot of unstructured information. So we handle audio
+information and textual information, so we can do natural language processing. In
+some cases, we're actually right, the software can generate human readable
+sentences and paragraphs, so that's natural language generation. I mentioned the
+machine learning component already, where the system actually learns and
+essentially modiﬁes its own algorithms over time by using diﬀerent types of
+algorithms. Pattern recognition and automated analytics and predictive capabilities
+are all part of these Cognitive Software technologies.
+At the same time, there is a lot of other technologies evolve too. So there's things
+like image analytics, the idea of being able to understand semantics and being able
+to interpret what people are actually saying and how they're saying it, which want to
+be able to actually understand and create hypothesis and predictions; and it's really
+all about understanding the various senses that people are looking at. So we've got
+sensory input processing and also emotion recognition as well.
+So if we take a look at this ecosystem, what -- the way that IDC looks at this is that we
+have all these components that I talked about previously. We have the dialog
+management; and the APIs, the text analytics, the speech recognition, all of those
+components. All of those components are usually put together into a Cognitive and
+AI Software platform. And this is where tools like IBM Watson and some of the other
+tools, Wipro's Holmes; and TCS ignio; Salesforce's Einstein, these are platforms that
+people are actually using to develop Artiﬁcial Intelligence applications.
+Around that we have this white circle around content and data. And I think one of the
+reasons that we include this circle is that these applications are inherently statistically
+driven. So they are based on the data. Their actions, the predictions, the
+recommendations are based on the data that's fed into these systems. So it's very
+important that content and data feeding into these systems would be correct that it
+be available, that you have a combination of ﬁrst-party and third-party and possibly
+second-party data, so all of these considerations need to go into that.
+The other thing that's very important here is that data has become an integral
+component of these Cognitive and AI solutions, which we'll get to a little further
+when we talk about IBM strategy. And there was actually a market for third-party data
+that's beginning to emerge, as part of these kind of applications.
+Last but not least, are the diﬀerent types of applications. So we have process
+applications that are cognitively enabled. We have the -- we're seeing those in sales.
+We're seeing them in ﬁnance. And we're also seeing industry applications around
+being able to help healthcare in terms of improving patient outcomes; being able toFINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 3 of 12do money laundering; being able to come up with the right price for a particular
+product.
+We're seeing business-to-business services in terms of advertising, legal systems,
+commercial leasing, you know, all of the applications that -- tools like Airbnb and
+Uber are using to disrupt their industries are based on these kind of Cognitive and
+AI type of solutions.
+And then, last but not least is the cognitively enabled consumer services and
+products; and we're seeing a wealth of these come into the marketplace. Everything
+from the retail systems that help you pick and choose, what kind of coat you want to
+wear, to being able to help you identify, where the best place to travel at the best
+price, all those kinds of things are becoming what we call cognitively enabled.
+So if we look at some of the most popular used cases, we're seeing obviously that
+healthcare and manufacturing, ﬁnance, government and retail are some of the most
+popular used cases we're seeing. In terms of IDC's cognitive spending guide
+research, we're seeing that ﬁnance is one of the most advanced areas, where people
+are spending the most money initially; and we're seeing healthcare following that
+closely; and then retail right after that.
+Manufacturing and government are a little bit more behind, but I think, where we're
+seeing these opportunities is really -- the entire gamut of cognitive applications
+running through all of the industries and running through all of the diﬀerent used
+cases. So almost everything that we can think about in terms of software is going to
+be or will be cognitively enabled at some point; and it's probably the near future i.e.,
+the next 5 to 10 years.
+So in terms of IBM Watson, we were -- I was asked by Anurag to kind of what is IBM
+Watson? Well, it's really a technology platform. Their deﬁnition it's a technology
+platform that uses natural language processing and machine learning to reveal
+insights from large amounts of unstructured data and really that gets to the heart of
+what we're talking about here. Taking all of this sensory input, taking all of this text,
+taking all of this diﬀerent type of data and making sense of it and being able to help,
+augment and improve workers' decisions and predictions based on that data.
+So what are some of the components of the IBM Watson portfolio? Well, ﬁrst and
+foremost is the Watson Developer Cloud. IBM set this up in 2013; and they've got
+over a 100,000 developers and hundreds of partners. In addition, they also have a
+venture capital fund, where they are funding various partners; and also providing
+seed money to help companies with innovative ideas make use of the Watson
+Developer tools. There is -- a number of tools, those Watson Developer Cloud is
+available via Bluemix. Some people can get access to it easily and then they can start
+working with that.
+So that's one of the primary areas is the Watson Developer Cloud. At the same time,
+there is other areas, so Watson Explorer is really their search and discoveryFINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 4 of 12application, which includes Cognitive and AI components in it; and is being able to
+help organizations to ﬁnd and locate that information and then make use of that
+information to the decision-making processes.
+IBM has also created a number of Watson business units. Watson IoT, which is
+looking at combining Cognitive and AI technologies with the IoT urgence or the IoT
+areas that's growing out there. They've also created a Watson Health by acquiring a
+large number of companies and combining the healthcare aspects with the
+Cognitive and AI technology. So this is an area that that IBM has been in -- since
+Watson ﬁrst got started just after the Jeopardy's challenge. There is a Watson
+Solution for cancer diagnosis and cancer care based on data coming from Sloan
+Memorial Kettering.
+At the same time, Watson is also creating some new business units; and they just
+recently made the announcement that they're going to acquire Promontory Group,
+which is all around ﬁnancial compliance. So I think it's safe to say that we'll probably
+see a Watson ﬁnancial compliance business unit coming up in the near future.
+At the same time, there is a number of other tools. Watson analytics is really IBM's
+answer to try to reinvent the business analytics workspace and to make Watson
+analytics that tool, again a cloud-based tool, where you can upload your data, start
+playing with it, automatically you get use predictive modeling and predictive
+discovery to be able to identify diﬀerent aspects of your particular data.
+And then last but not least are the Watson Solutions that we see out there, Watson
+Engagement Advisor, Watson Discovery Advisor, there is a new one called Watson
+Conversations for being able to hold Conversational User Interface; we're seeing
+those kind of things out there as well.
+So if we look at Watson Health, the Watson Health is really all about that data and
+knowledge. And if you notice, I talked a few minutes ago about how content and
+data is very important to these kind of applications. Well, IBM has been acquiring
+companies that have lots and lots of data. Merge has 30 billion images; Phytel and
+Explorys has 100 million patient records; Truven has 250 million claims records. And
+then, then you've got the generic one, you've got the weather company including 3
+billion reference point.
+So all of this data is out there. Using that data in concert with the cognitive
+applications is really what provides the insight around how well these organizations
+actually can make use of these kind of Cognitive and AI Solutions. So it's the
+combination of the data with the Cognitive and AI Solutions that really help to drive
+all of the stuﬀ in the market.
+So as we mentioned that Watson Health insights is really driven by data. And I think
+this is just a good example of how to think about Watson's diﬀerent business units in
+general. They're combining their data, but they're either acquiring or getting
+through partnerships. They're taking their Cognitive and AI technology solutions;FINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 5 of 12and they're combining the two together with services and other aspects to really
+deliver the insight that companies are looking for in terms of being able to transform
+their businesses in that digital transformation that we're starting to see in the
+marketplace.
+So one of the questions that I get a lot is, what does the competitive landscape look
+like? Well, obviously, on the left hand side, we have a large number of Cognitive
+platforms out here. IBM, we have upped [ph], but obviously there is other companies
+like Palantir; and Digital Reasoning, IPsoft, and Nuance; startups like CognitiveScale
+and Numenta are companies that have been acquired. Intel acquiring Saﬀron
+Technologies and Nervana Systems. Other companies coming from -- some of the
+consulting companies like Tata Consultancy Services and Infosys and Wipro, there's
+just a very wide range of competitors in the marketplace.
+Over here on the right hand side are the companies that don't actually have, what I
+would considered to be Cognitive Software platforms today, but they do have those
+APIs and services; and are starting to make those available to people. Everybody
+from Lockheed and SAIC, who are getting involved in this work, and Fujitsu and
+Baidu to companies like Google and Facebook and Microsoft and Amazon, who
+oﬀer diﬀerent types of Cognitive API services, but I wouldn't really characterize those
+as a complete platform at this point in time.
+So last but not least, kind of in summary, we really see, IDC sees that AI is changing
+the nature of work. These recommendations, assistance and augmentation in terms
+of it automated advisors is really going to become the norm in almost every ﬁeld. So
+every piece of software that you use is going to have some type of augmentation or
+recommendation capabilities there.
+And then I think this is really kind of a once in a generation transformation. I mean, I
+think the idea of Cognitive and AI Software combined with some of the other
+technologies that we're seeing in the market is really transforming the way that
+people will use software over the next 5 to 10 years. And I think that in turn will also
+transform how companies do business; and that's why we feel that industry structure
+is going to be changed. To take advantage of these we're going to see disruption. I
+mean, people talk about Airbnb, people talk about Uber, as disrupting inﬂuences.
+Well, one of the reasons that they're disrupting inﬂuences is because they're using
+Cognitive and AI and machine learning applications to help drive those disruptive
+businesses and that the machine learning technologies; and the AI technologies are
+really some of the disrupting components in this.
+And from a company standpoint, I would recommend that if you happen to be
+involved in decision-making at your particular company, you really need to start
+thinking about how these applications are going to change your business and how
+you're going to make use of these applications to really get the jump up and get the
+edge in your particular industry.
+With that, I'll turn it back to Anurag.FINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 6 of 12Anurag Rana
+David Schubmehl
+Anurag Rana
+David Schubmehl{BIO 7440273 <GO>}
+Thank you so much Dave for that comprehensive overview. I'm just going to make a
+request that if you have any questions feel free to ask them by submitting one in the
+area to the right of the slides. So let me start oﬀ with a question and then I'll pass it
+on to Jitendra to -- we will switch back and forth. So now, Dave you described
+Cognitive Science as one -- is a generational transformation for the sector. Now
+among the people that you talk to what is the current level of awareness?
+I think people are aware of this. The popular press has done a tremendous job in
+raising the issue, but I think they've also raised a lot of misunderstandings. But I think
+that the awareness that Cognitive and AI technology is coming and what is going to
+be able to do for you, I think is fairly common today. What I don't think is common is,
+whether businesses and organizations have actually thought about how they're
+going to use Cognitive and AI technologies to be more competitive or to improve
+their ROI or to improve their sales. I don't think that level of thinking has really yet
+taken hold.
+{BIO 7440273 <GO>}
+So Dave having said that, I mean what would you advise CEOs and CIOs with respect
+to early deployment of Cognitive Solutions? I mean, where should they start? Should
+they focus on costs, revenues? Where are some of the best practices you have seen
+so far as far as early deployment of Cognitive Solutions are concerned?
+I think it's really interesting. I mean, I think we're seeing companies that are kind of
+doing every -- a little bit of everything. There were some companies that are looking
+at reducing costs, we're seeing ﬁnancial companies, for example, looking at
+Cognitive and AI Software to do fraud investigation because it -- you can actually do
+a better job and a quicker job of solving that. We're starting to see people using
+Cognitive and AI Software for cyber security to help solve those kind of problems.
+We're also seeing organizations at the sea level, where they're starting to talk about
+how can Cognitive and AI technologies disrupt our business, so that we can actually
+deliver goods faster or that we can drive a new business model from Cognitive and
+AI hub [ph].
+So in terms of the best practices, what I think, we've been asking or we've been
+telling people to do is really do an assessment of how data-driven your organization
+is today. And if it's not data-driven, then you really need to get a handle on what
+your data is? What do you have? What do you own? What do you get from third-
+party sources? Because the data is really the -- one of the key components that you
+need to look at. Once you have that data and you have a good handle on whatFINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 7 of 12Anurag Rana
+David Schubmehl
+Jitendra Waral
+David Schubmehlyou've got and what the quality is, then you can start to take a look at, well, how
+could a Cognitive and AI solution begin to change that mindset?
+On the end user side, we're also seeing, there has been -- everything in this press
+around Conversational UIs, and chatbots and the future is that. So we're seeing a lot
+of companies being starting to test the waters around. Is it the right time for us to
+maybe take our customer service and augment it with a conversational AI agent? Or
+if I have an IVR system, should I think about replacing that IVR system with a
+conversational AI agent to do a better job and also turnover possibility and to -- and
+to turning my customer support calls into actual sales?
+{BIO 7440273 <GO>}
+Hey, Dave, in our conversations with the technology and software companies, I think
+the awareness is very high, everyone and their brother is launching some new AI
+product any -- any given day. But what's kind of the awareness for non-technology
+companies that are, let's say, somebody in the manufacturing area or metals and
+minings, I mean, what's they -- do they have any idea of what's happening here?
+Oh, yeah, I think they do. I mean, if you look at -- if you look at companies like for
+example, Caterpillar. Caterpillar has been developing autonomous driving mining
+vehicles for the last several years in terms of being able to reduce their costs and
+things like that. John Deere is combining Cognitive and AI software with data
+collection at the point of where the farm implement actually hits the ground to try to
+improve farmers' yields and things like that. They have been making the tractors and
+the farm implement actually delivered data that can be then used to develop
+predictive models.
+So I think that -- I think there is lots and lots of opportunities here for all sorts of
+traditional companies. You just need to think about what kinds of data that you have
+and what kinds of data that -- that if you could develop predictive models or you
+could develop recommendation systems, how would that potentially change your
+business opportunity?
+{BIO 15423976 <GO>}
+Dave, can we go through some of the strategies of companies other than IBM? I
+mean, everybody else is pitching to AI solutions, obviously Google is top of the hill
+with the DeepMind acquisition and all the applications they're doing on back of that.
+How does -- how does -- what is the diﬀerentiation with IBM Watson? And you think
+this diﬀerentiation is something that will last longer -- longer term given of what the
+competition in-store [ph]?FINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 8 of 12Anurag Rana
+David Schubmehl
+Jitendra WaralWell, I mean, I think that, if you look at how Google has approached this, I mean,
+Google has been approaching this from a consumer standpoint for the most part.
+And I think they just recently announced that they're going to add into the Google
+horizon or I forget what the name of the new product is, but they're adding AI
+components into their Google for work products.
+So they've been focusing on embedding cognitive capabilities into their products
+and not necessarily creating a complete enterprise platform for building a Cognitive
+AI solution. I think that's changing, and as Google develops more machine learning
+services and more APIs, I think they're going to get into that marketplace. But I think,
+IBM has a -- it has a pretty big head start in that particular area.
+In the same way, Microsoft has been developing AI technologies for a long time and
+most of their AI technologies have been embedded inside SharePoint, their
+Microsoft Delve product that really oﬀers all those kind of capabilities. They have
+their Cognitive Services, Microsoft Cognitive Services, but I would -- I wouldn't
+characterize those as mature as the IBM Watson technologies out there. So in some
+sense I think, IBM has a head start on this. Also I think IBM has been thinking about
+this longer as a transformational process involving Cognitive and AI systems than
+other companies have.
+I think Microsoft, Satya Nadella talked about how important AI was at this year's
+Ignite and how everything is going to be transformed by AI. And I think that's great
+and I think that's where it is, but the CEO of IBM was talking about that 2.5 years ago.
+So I think there is that head start that the IBM folks have it -- based on the Watson
+technologies and their approach to business.
+{BIO 7440273 <GO>}
+Fair enough, Dave. Dave, actually look at just the cloud businesses of diﬀerent
+companies, whether it's Amazon Web Services or Microsoft, they have been the
+leaders for some time now. Now, how does Watson help IBM's cloud strategy?
+I mean, I think it helps their cloud strategy in terms of being able to make the AI
+components available via the cloud. I think, they've done a lot in terms of delivering
+the Watson Developer Services, as part of the Bluemix platform; and I think that's
+helped advance the usage and popularity of the Bluemix platform. And so I think
+from that standpoint, I think it's been a -- it's been a win-win situation for them in
+terms of the fact that they have all these Cognitive and AI services and they're
+making available via Bluemix.
+{BIO 15423976 <GO>}
+That's great. So can we talk about like what -- how do you -- we think about the
+market size over here because obviously the impact seems to be very widespread,FINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 9 of 12David Schubmehl
+A - Anurag Rana
+A - David Schubmehlhow do we size the market? How do you look at how much this is worth and how
+these guys monetize it?
+So we -- yeah, I mean, we're sizing it in a couple of diﬀerent ways. One was, as part of
+our spending guide research, we're looking at the spend available on those. And in
+terms of the software side, I mean, well, there is actually multiple diﬀerent
+technologies. There's obviously the hardware side and for that we're seeing
+increases in GPUs; and we're seeing increases in compute power coming from
+diﬀerent folks.
+On the software side, we see there is -- there is kind of two diﬀerentiations; one is
+these Cognitive Software platforms that we -- that I've talked about, which is a
+business that's going to grow quickly, but it's a tools business, all right. As opposed
+to the cognitively enabled applications business, which is really, I'm going to add AI
+into a piece of enterprise software or I'm going to develop a new piece of software
+to do something; and it's going to be cognitively enabled. We see the totals of these
+-- of all these technologies being something like a $30 billion business -- $30 billion
+opportunity by 20 -- I think its 2019 right now is what we've got.
+And then the growth rate is something on the order of 50% to 55% CAGR,
+Compound Annual Growth Rate for these types of applications.
+Now, one of the things I'm going to caution people about is that we're also seeing
+enterprise software companies adding AI components into their standard enterprise
+software; and in some cases, they're probably not going to charge for those. So for
+example, the version of SharePoint that includes that Delve technology that I talked
+about is, it doesn't cost any more than just regular SharePoint. It's just part of the
+package. And we're going to see some percentage of these applications that
+actually going to embed AI functionality; and there's not going to be any additional
+revenue for the software vendors, but it will help to sell more copies of their
+packages.
+So in those particular cases, we won't count that as -- as a AI revenue or a Cognitive
+Software revenue, we'll count it as ERP revenue or CRM revenue or what have you.
+Questions And Answers
+{BIO 7440273 <GO>}
+Thanks, Dave. Dave, we have some questions from the audience. The ﬁrst one is, are
+there any speciﬁc AI companies in healthcare that you would highlight as being
+ahead of the curve?
+I mean, there is a number of Watson partners and people that have been out there. I
+mean, I'm not really an expert in the healthcare area. But I mean, there is a companyFINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 10 of 12A - Anurag Rana
+A - David Schubmehl
+A - Anurag Rana
+A - David Schubmehl
+A - Jitendra Warallike Modernizing Medicine that I thought was quite innovative based on their
+partnership with IBM. There is other companies out there that are doing interesting
+things and our Health Insights Group is probably the people to ask speciﬁcally about
+the healthcare environment.
+{BIO 7440273 <GO>}
+Great. So the next question is could you discuss the extent to which Watson is -- are
+being used to ﬁght cyber-crimes or attacks?
+The -- I don't believe if there has been any announcements about IBM Watson in
+terms of cyber security and things as of yet. I'm not really -- that's not my particular
+area, but I don't -- I'm not really aware of it. What Watson has been used for is really
+that fraud analytics and compliance analytics that we're seeing in the place. I think
+there is also some work going on with IBM Watson under DoD work and things like
+that that we're not really aware of oﬃcially, but I think it's a safe bet that IBM is
+working closely with the federal government to try to -- to try to analyze and
+understand diﬀerent types of threats.
+{BIO 7440273 <GO>}
+Great. Just one -- another one is, what businesses are -- what do you think, what
+businesses are at the risk of being obsolete as Cognitive computer replaces their
+services. When you look down the list, what areas come ﬁrst to your mind?
+Well, I mean, I think -- I think people need to be thinking about how diﬀerent types
+of technology are going to be changed and impacted. So if you think about the fact
+that you may have a Cognitive or AI program available to you and do you need
+Records Management Software, do you need Content Management Software, if you
+have a smart agent automatically ﬁnding that information and providing you with
+that information on a regular basis. So I think -- so I think, certain categories of
+software are potentially at risk, as you have automated solutions available out there
+to do that.
+I think there is -- one of the things I've been talking about with my marketing
+automation counterparts here at IDC is, what is the future of marketing? Given that
+you may have AI based assistance in the future onto your phone and onto your PCs
+that are actually helping to ﬁlter information, are they going to ﬁlter ads? Are they
+going to ﬁlter marketing tent? How is the intermediation of your automated agent
+going to work with vendors marketing agent? What's the intermediation going to
+look like? Will advertising potentially go away at least in the sense that we know it
+today, in terms of targeting and things like that? I think those are all interesting
+questions. And is that going to change the landscape for how people consume
+information?
+{BIO 15423976 <GO>}FINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 11 of 12A - David Schubmehl
+A - Anurag Rana
+A - David SchubmehlThanks, Dave. You've brieﬂy touched on automated advisors, where are we on the
+evolution curve of that? I mean, if you look at consumer application Facebook is
+trying to pilot chatbots. There are -- there are examples that work; there are some
+that don't. So how far are we in terms of these automated advisors being ready for
+prime time?
+I mean, I think -- I think it's early days, right now. I mean, I think we're starting to see
+everybody continuing to push that. I mean Microsoft's Cortana and Google Assistant,
+Apple Siri, all of these phone based ones continue to get smarter.
+I think the question is, will you have something that's intimately tied to your phone,
+into a vendor or is there going to be somebody that provide some kind of a general
+purpose assistant that really becomes your advisor and that you pay to have that
+kind of automated advisor like the x.ai that helps you to schedule or some of the
+other personal assistant technologies that are out there. I think the form and the
+factor of those are kind of up for grabs right now.
+And the other question is, who gets to own your data? Obviously, you as the
+consumer would like to own your data. But right now, if you use Google Assistant, or
+you use Gmail, your data is read by Google to try to improve things, but that also
+improves the targeting and marketing. Apple owns your data, if you're using an
+Apple iPhone and Siri. I mean, they say that it's all yours, but obviously there is some
+interaction there. And then, obviously Microsoft is in the same boat, as it uses -- as
+you use Cortana, there is certain things that that it's going to be aware of.
+So the question is who owns that data? Who is responsible for that data? And how --
+when you go in and look at that data and work with that data? And then are you
+going to want a third-party AI advisor out there or are you going to want a one that's
+based on your phone and be for free. I think those things are all kind of yet to be
+determined. And I think to some extent, I think everybody is doing a stepwise
+improvement in this automated advisor area until something really takes hold with
+the consumers.
+{BIO 7440273 <GO>}
+Dave, thanks. Dave, let me ask you the last question; and then we should wrap it up.
+One of the things you talk quite a bit about was buying data or everybody how data
+is going to be very important to them; and obviously after Microsoft bought LinkedIn
+we have heard a lot about Salesforce trying to say that they will -- might not get
+access to something like this. Now, is this going to become a bigger issue? Will for
+example IBM down the road say well, we are not going to give data for let's say the
+assets of The Weather Company to anybody else out there or will this become kind
+of an anti-competitive thing going forward?
+I don't -- I think the companies like Microsoft buying LinkedIn data and IBM buying
+The Weather Company, I think their -- I think their business models right now includeFINAL TRANSCRIPT 2016-10-04
+Amazon.com Inc (AMZN US Equity)
+Page 12 of 12A - Anurag Ranasharing that data with third parties. And I think everybody would be -- if they started
+to hold that data and say they wouldn't share it. I think obviously the world's
+governments would be out after these folks, in fact, it's -- to some extent it's already
+happening.
+But I do believe that here you're going to see this land grab continue of companies
+trying to acquire data and have access to data and the data process and the data
+integration capabilities of those; and then they're going to be ﬁrst and foremost. So I
+think IBM will continue to look for good acquisitions of data like what they did with
+The Weather Company, like what they did with Merge, I think Microsoft is going to
+do the same thing with LinkedIn. Salesforce did this a couple of years ago with
+Data.com.
+So I think there is lots and lots of opportunities. I mean, Oracle is doing something
+similar with the Oracle Data Cloud, the company they bought BlueKai and they
+bought some other companies that they've integrated it into a real data provider. I
+do believe that this -- there's going to be increased competition for data companies;
+and I wouldn't be a bit surprised if other large data companies get acquired by the
+software technology companies over the next 12 to 36 months.
+{BIO 7440273 <GO>}
+Great. Dave, thank you so much on behalf of the Bloomberg Intelligence team for --
+from your help here. You can access all of our research on the terminal. Jitendra and
+I have done a comprehensive report on Artiﬁcial Intelligence. Please email us, if you
+need a copy of that report; and we will send it to you. But once again, thanks for your
+time and have a great day.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

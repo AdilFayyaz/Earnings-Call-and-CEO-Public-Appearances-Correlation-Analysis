@@ -1,0 +1,456 @@
+FINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 11, Executive Vice President and Chief Financial Oﬃcer
+, Analyst, J.P. Morgan
+Harlan Sur
+Colette KressJ.P. Morgan's Annual Tech/Auto Forum
+Company Participants
+Colette Kress
+Other Participants
+Harlan Sur
+Presentation
+{BIO 6539622 <GO>}
+Okay. So good morning, everyone. Happy New Year. Welcome to JPMorgan's 18th
+Annual Technology & Automotive Investor Forum here at the Consumer Electronic
+Show. For those of you that don't know me, my name is Harlan Sur. I'm the
+semiconductor and semiconductor capital equipment analyst for the ﬁrm. Very
+pleased to have a solid day of semiconductor, automotive, automotive technology,
+general tech companies presenting. Also joining me here from JPMorgan are some
+of my colleagues. I have got Bill Peterson, who covers the RF semiconductor value
+chain. I've got my colleagues, Ryan Brinkman and Jose Asumendi, who cover the US
+and European automotive sectors. Paul Coster, our applied and emerging
+technologies analyst and Samik Chatterjee, who covers our IT Hardware and
+Telecom and Networking Equipment sectors.
+We continue to expand the companies that participate at our conference. And for
+the ﬁrst time at our CES conference this year, we have management teams from
+Microchip, Qualcomm, Xilinx, Cree, Gentherm, Gentex and Lear. So we hope you
+enjoy the conference. Remember this conference is for you guys. So ask questions.
+We've got a great lineup of companies. And with that, very pleased to introduce
+Colette Kress, the Chief Financial Oﬃcer of NVIDIA. It's been a tradition now for the
+past I think 5 years or 6 years now that the NVIDIA team kicks oﬀ our investor
+conference, because the team is driving much of the trends that you will hear about
+today, artiﬁcial intelligence and deep learning, next generation compute
+architectures and automotive, next generation gaming technology, just to name a
+few of the things. I've asked Colette to kick us oﬀ with an overview of what the team
+is showcasing here at CES or maybe GTC, the meet -- the recent GTC in Shanghai
+and then, we'll go ahead and kick oﬀ the Q&A. So with that Colette, thank you again
+for joining us this morning.
+{BIO 18297352 <GO>}
+Great. Thank you, Harlan for the introduction. And we're excited to be here and be
+your pick-oﬀ. And I think, I'm going on 6 years to 7 years actually. So I think, we'reFINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 11forgetting on how many times we've been here, but we've seen a great acceleration.
+As you know, we are an accelerated computing company. Our focus is in many
+diﬀerent markets. And let me talk about some of the highlights that we have seen.
+Starting ﬁrst with gaming, which I think is a great place to start, since we are here at
+the Consumer Electronic Show. Our gaming business is doing quite well. Our
+introduction of RTx which has been in the market for more than a year is oﬀ to a
+great start. We have more than a couple dozen games in the market today, focused
+on overall ray tracing. Ray tracing is what we believe the next wave of overall high-
+end graphics and high-end graphics that can be used for gaming but a lot of other
+diﬀerent places.
+We're here introducing at CES more laptops and notebooks focused on the overall
+RTx capabilities but also our overall Max-Q. You will probably see here, we have now
+reached a total of more than a 140 laptops focused on gaming, focused on RTx that
+you will see new ones even here today. We've talked about our overall cloud gaming
+and our introduction of cloud gaming with many of our partnerships with the overall
+telcos and our GTC in China in December, we announced another partnership with
+Tencent bringing overall cloud gaming to an important market there in overall China.
+We're also here at CES announcing a new form of our overall G-SYNC, which is
+exclusive with many of the overall LG monitors that you're out there. It brings a
+higher overall hertz or about 360 hertz to overall playing games in a very
+competitive environment such as overall eSports. We know that eSports is again a
+very important part of what we see in terms of gaming around the world and it was
+taken oﬀ to on great, great strides.
+Additionally, focusing on not only our overall gaming business but focusing on
+accelerated computing in terms of what this means in terms of the data center. We
+have announced a great acceleration of what we're seeing right now, both in the
+overall hyperscales, increasing their overall purchasing and a lot of that has been
+fueled by a very important industry of conversational AI with the underpinnings of
+natural language processing. Recommendation engines are also very key. So we are
+oﬀ to really focus with our TensorRT overall software and are inferencing to inﬂuence
+a big part of this overall growing market. We also focused in China GTC, we focused
+on overall edge computing. So our EGX overall platform which we will focus on our
+probably next cloud platform. We've seen some major wins when we think about the
+edge, focusing on companies such as Walmart, as well as the US Postal Service that
+is using our overall platform to help in many of those areas of either warehouse
+management or just focused on in terms of the overall supply and demand
+management that we see.
+Moving forward in terms of key area in terms of automotive, over in China, we
+announced in terms of our DRIVE platform with DD [ph]. But we also announced our
+overall next generation architecture Orin, which is probably 7x faster than our current
+overall architecture focused on Xavier. These are platforms that are both available for
+-- work with the overall automotives today and we have one of the true end to end
+platforms focused on automotive that takes everybody, all the way from the
+datacenter and focusing on training, simulation of the data for later for it to be inFINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 11Harlan Sur
+Colette Kressterms of production inside of the car. We've had a lot of other great announcements
+that you'll see here, but I'll just start there with a quick summary.
+{BIO 6539622 <GO>}
+No, thanks for the great introduction. You know, it's well what a diﬀerence a year
+makes. Last year, at this time, we were talking about crypto inventories, we were
+talking about the slowdown in the data center business, you entered calendar year
+'19 with your business down about 30% year-over-year. If you hit your guidance for
+this quarter, you will actually exited calendar year '19 at plus 30% year-over-year.
+Consensus has you guys up 20% in calendar year '20 which is your ﬁscal '21. Help us
+understand the trends and product cycles that are going to drive this ﬁscal year,
+ﬁscal '21 and longer term, how should we think about the overall growth proﬁle for
+the diﬀerent businesses gaming, data center, ProViz and automotive.
+{BIO 18297352 <GO>}
+In the perspective of overall gaming, we're very, very well positioned. We have, as
+we always do a full-lineup that allows gaming at a lot of diﬀerent overall price points.
+We are the provider now that is focusing on overall ray tracing. First to overall market
+and being end-market for a year and also even upgrading what we had in terms of
+our existing Turing RTx cards to incorporate our overall Soopers [ph]. We went into
+the overall holiday season knowing that this would be a great holiday seasons for the
+games that were coming out, you will see in terms of games such as Call of Duty and
+Wolfenstein also coming to market using our overall ray tracing capabilities. So as
+we move forward, we are setting the way for ray tracing to take us through the next
+generation of gaming, but not only focus just on the overall desktop. As you know,
+we're bringing ray tracing to the overall notebooks. Opening up a market of
+probably untouched of the mobility of overall gaming at a high-end overall
+performance incorporating our overall Max-Q.
+And then lastly, we know that the world of cloud gaming is an important area still in
+its overall infancy. But we are the best to bring that to market with many of the
+diﬀerent telcos and what many of the overall partnerships that can overall focus. So
+we will continue to see the importance of gaming as an entertainment overall
+industry as well as our platform being leading edge. Now when we focus in terms of
+on data center. Data center and its opportunity, we're probably approaching a new
+wave of overall AI. If you went back to the early 2012 time frame, that was a time
+frame that people were bringing to market, the use of GPUs for overall image
+detection, image categorization and actually quite excited about it because it did
+change a lot of key apps.
+What we have seen as early as the overall summer time is the evolving of natural
+language processing with Google and its blog in terms of its overall BERT model in
+showing people how they are using a technique to better understand how search
+commands are created and how better to solve this, is an important expansion of
+both natural language processing, not only for the overall hyperscales but for start-
+ups, for consumer Internet companies, but also many of the overall enterprises.
+You've seen now a wave of focus on conversational AI and we're only just beginning.FINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 11Harlan Sur
+Colette KressThis is something that probably takes a 100x more computing performance than
+what we have seen in overall history. It's a focus of not only on the training, but also
+on the overall inferencing side.
+You've seen our growth in terms of inferencing. Inferencing is now solidly within the
+double digits as a percentage of our overall data center business, but you also have
+a case, where we are shipping more overall inferencing cards than what we are seen
+in terms of overall training. So we have a great path going forward, not only with
+conversational AI but the recommendation engines broadly overall using GPUs.
+{BIO 6539622 <GO>}
+So let's stick with the datacenter, it's roughly a quarter of your overall revenues. You
+will be exiting this year, as you mentioned with the business trending back to kind of
+30% year-over-year growth rates after a three quarter pause by cloud hyperscale
+enterprise customers. We had anticipated this business coming back in the second
+half of 2019 as your cloud and hyperscale customers started their next wave of the
+spending cycle. But with the NVIDIA team, as you mentioned, it's more than just
+spending re-acceleration, what is this new wave of AI, their new applications like
+natural language, conversational AI, you've got the ramp of your inferencing
+business, this emerging business in edge computing. Can you just talk about all
+three of these dynamics and the sustainability of 20%, 30% type year-over-year
+growth rates, through calendar year '20 as well as beyond that.
+{BIO 18297352 <GO>}
+Sure. So what we had talked about with our Q3 results is we did start to see the
+improvement in terms of the overall purchasing of the overall hyperscales. As we
+had focused earlier on the year, many of our engineering engagements we knew
+were intact and we knew, we would get to the point, host the overall digestion to
+focus on overall new compute. We see the hiring continue in many of these areas,
+hiring in terms of the engineers at the hyperscales. You see the overall AI papers and
+you see a tremendous amount of start-ups focusing on AI. So sure enough in the
+second half of the year, we have started to see the comeback of the overall
+hyperscales.
+Now, the return of the hyperscales is not just focused on overall internal use. The
+overall need for the overall cloud computing for those that don't have the
+capabilities to build out their older [ph] infrastructure. It allows that opportunity for
+them to begin their work in the cloud, they may remain in the overall cloud, but
+we're seeing both of those. We are seeing in terms of our overall inferencing
+platform, our T4, to be used worldwide. Worldwide and is actually in almost all of the
+diﬀerent data center locations in terms of within AWS. And I think with the other
+hyperscales, we will slowly start to see that also happen but we have broad-based
+adoption of using the overall GPUs for inferencing. This is an important moment of
+something that we knew, we were working on an incumbent, a CPU or a traditional
+type of overall inferencing that a CPU is just ﬁne.FINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 11Harlan Sur
+Colette Kress
+Harlan Sur
+Colette Kress
+Harlan SurWhat we're seeing in terms of the future of inferencing is the complexity, the
+complexity that natural language processing requires, the complexity of the amount
+of data that needs to be mind over a short amount of period of time and a return in a
+couple 100 milliseconds will require a GPU or a high performance overall processor
+to do that. So we're very well positioned, positioned not only on the training, but
+also on the inferencing side.
+{BIO 6539622 <GO>}
+The ﬁrst wave of AI adoption with your strong product cycle was image classiﬁcation
+and recognition and classiﬁcation and this droves three strong consecutive years of
+growth for your data center business given as you mentioned, the order of
+magnitude, compute and training complexity required for some of these natural
+language conversational AI models and on top of that the requirements for real-time
+inferencing does -- this conversational AI have the potential to again drive a multi-
+year kind of strong growth cycle for NVIDIA's data center business?
+{BIO 18297352 <GO>}
+We do believe conversational AI is the next very large wave of overall growth that we
+can see going forward. We're in the early stages of conversational AI both
+understanding the use cases for it, but also the complexity that still has to add more
+things to it, for example, we're really focused right now on a single language, we're
+focused either on overall English or in some of the overall international, but there is
+still a large piece to focus in terms of that translation and that overall processing.
+So looking at conversational AI and the use cases, it's not just capable for overall
+hyperscales. You see an opportunity of moving this to the enterprises everything in
+terms of focusing on their call center, focus on that ﬁrst dialog that you have in terms
+of communication and using AI to streamline the overall work that they do.
+{BIO 6539622 <GO>}
+On the inferencing side, you've had big success with your T4 inferencing platform.
+Inferencing is now double-digits percentage of your overall data center business,
+now that you've had time to understand this market and looking out over the next
+few years. Do you think that your inferencing business can approach or even exceed
+the size of your training [ph] business over the next kind of 3 years to 5 years?
+{BIO 18297352 <GO>}
+So inferencing, we do believe is probably a larger market than what we have in
+terms of the other pieces. So we are continuing to concentrate on this. Inferencing in
+the overall data center is important, but remember also inferencing at the edge.
+{BIO 6539622 <GO>}
+Right.FINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 11Colette Kress
+Harlan Sur
+Colette Kress
+Harlan Sur
+Colette Kress{BIO 18297352 <GO>}
+Inferencing edge computing but also edge in terms of autonomous devices will be
+very key.
+You've seen us focus not only on the processor for those diﬀerent capabilities but
+also the software stack, one of our focus areas in the last six months, the last nine
+months is unique overall software packages that really address the industry's overall
+applications that are out there, you see us focused in terms of Clara, Clara is our
+software capabilities and focusing on overall healthcare. Metropolis. Metropolis is
+our overall software platform to deal with in terms of the places of the world that you
+may be not just focused on cities, but anything inside of a building or otherwise. You
+see us focused on Isaac. Isaac is focused on our overall robotics platform and
+thinking about the autonomous piece. You can also of course think about our overall
+DRIVE platform.
+{BIO 6539622 <GO>}
+That's right.
+{BIO 18297352 <GO>}
+Our DRIVE platform is focused in terms of automotive. Each and every single one of
+them is important to inﬂuence the acceleration, not just in the data center, but in the
+edge and what is required to help that is the connection with the overall application
+and that is our work that we've really been focusing on.
+{BIO 6539622 <GO>}
+You rolled out another vector of the product platform, which you've mentioned
+several times, it's your EGX platform. Can you just talk about this. It seems like it's
+more of a data analytics platform that's GPU accelerated versus an AI-based
+platform, but this type of analytics has wide applicability across a number of diﬀerent
+verticals. Can you maybe just help us compare, contrast your edge computing
+platform versus your cloud and data center platforms?
+{BIO 18297352 <GO>}
+Sure. It is a form of thinking about what is necessary at the overall edge to focus in
+terms of a cloud that doesn't have the capabilities to allow for it to go all the way
+back to the cloud in terms of that overall functioning. So you're looking for a form of
+computing that either is needed in the milliseconds to respond and or incorporates
+overall data that is conﬁdential in nature that you don't want back in terms of the
+overall cloud. So these are some of the things that we may see in terms of
+healthcare, in terms of devices, scanning devices or otherwise, that you could do the
+overall scanning and have the results in instantaneous amounts of time rather than
+what we have seen in the past of that entire industry.FINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 11Harlan Sur
+Colette KressIn terms of what we see already in use of end-store capabilities. And what you see
+inside of the stores in terms of both check out, you can look at the US Postal Service
+in the same manner. How quickly can I move the overall mail through by using
+overall AI capabilities, than their overall manual function. So this is something that we
+believe the edge platform will be an enormous part of the type of compute that will
+happen. In the years to come, we'll see every single device focusing on a overall
+ability to accelerate and we believe, our platform is very well positioned for that.
+{BIO 6539622 <GO>}
+Great. Before I move on to the gaming, I just wanted to see if there are any questions
+in the audience. If there are questions, I would just ask for you to wait for the
+microphone. Okay. Why don't we move over to the gaming side of your business.
+50% of your overall business, you entered this year with the business down 40%,
+you're exiting it with it being up 50% year-over-year. But Q4 from a sequential basis
+is going to be down primarily on notebooks and your console business just normal
+seasonal trends but desktop is driving a strong upgrade cycle with your RTx
+platforms, the ramp of your new GTX SUPER mainstream platforms and a strong
+lineup to go along with that of blockbuster games that support your ray tracing
+technology, sticking with desktop for a moment in talking with your board level
+partners, game developers, retailers, what's your sense on the demand pull this
+holiday season and as you look into the lineup of games for 2020, how do you see
+the demand trends for this coming year?
+{BIO 18297352 <GO>}
+Sure. So we entered into the holiday season, the holiday season starts as early as
+November, holiday season for example, starts with Singles' Day on 11/11. A very
+important start of that overall holiday and we're actually not done, we're waiting now
+for Chinese New Year, which is usually at that tail-end of our overall holiday season.
+But each of the overall points that you have probably seen through, discussions with
+the overall channel and the partners is its actually going quite well. It's going quite
+well up and through our overall expectations that we had planned for the quarter, as
+we do have a full-lineup available. We have a lineup that now focuses on ray tracing
+and bringing ray tracing down into the upper $200 of a retail price for you to overall
+be able to appreciate the overall ray tracing capabilities, but this also allows us to
+inﬂuence all types of overall sales not just focus on desktop.
+As you know, we are focused in terms of on the notebooks, our notebooks over the
+last several years have continued to outgrow what we have seen in terms of the
+desktop, our overall notebook business is approaching approximately one-third of
+our overall gaming business as a whole. So an important piece and you'll see a
+signiﬁcant amount of that out here at CES.
+The overall OEMs have focused on this notebook is in a unique niche for them to
+attract the overall gamers. The gamers that aren't necessarily interested in building
+their own overall desktops, but now can have that high-performance in their overall
+notebook design. Our overall ray tracing even from a desktop standpoint has nowFINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 11Harlan Sur
+Colette Kress
+Harlan Sur
+Colette Kressaccumulated to be more than 60% of our overall sales on the desktop and is making
+a good path in terms of with the notebooks as well.
+{BIO 6539622 <GO>}
+And then, so let's -- let's talk about the cloud gaming segment of the market, NVIDIA
+has its GeForce NOW cloud gaming platform, you've announced some partnerships
+with regional global telco service providers. At the recent GTC in China, NVIDIA and
+Tencent announced a partnership, where you'll be supporting Tencent, the largest
+gaming company in China, largest gaming company globally by providing them with
+your GPU technology to power their cloud gaming platform. Can you give us more
+insights into the partnership, will you be supplying your GeForce NOW architecture
+or are you just going to be supporting them more with your GPU products. And
+when do you expect the service to kind of go mainstream?
+{BIO 18297352 <GO>}
+So right now, our relationship with Tencent has always been there as a continuation
+of not only focusing on gaming in China, but also in focusing in terms of in the data
+center. This was an opportunity for us to align with a very important partner in
+overall, China. Tencent here to endorse the growth of overall cloud gaming, even
+though we're still in the early stages. They have right now overall pods focused on
+building out into their overall data center and will come to market soon in terms of
+their testing. Testing the overall ﬁrst pass of some of the software that is necessary
+and will come out later in terms of where they are in that overall relationship, ready
+to go overall live. But we're excited about this as an important partnership, a
+partnership that allows us to both respect the overall ecosystem as they continue to
+address the overall gaming market, it's a win-win for both Tencent and NVIDIA
+gaming.
+{BIO 6539622 <GO>}
+And actually, that's a good segue because Tencent like I said, is the largest gaming
+company in the world. But they are also the largest gaming company in China and I
+always bring up China on the conference calls because it is the largest gaming
+market in the world, 700 million gamers in China, obviously, the home of Tencent
+and many of your key data center customers are in China as well. I remember, when
+you started oﬀ calendar year 2019, Tencent speciﬁcally called out weak demand
+trends in China but China demand especially gaming, it seems to have come back
+strong. So help us understand what's driving the China demand?
+{BIO 18297352 <GO>}
+Yeah, I think, a year ago, probably in a diﬀerent space in China did have probably
+some slower quarters than we had expected, but where we stand right now, things
+are growing quite well in overall China. China is an important part of our overall
+gaming business, but also very important part of our data center business as you
+inferred. But what we see there is the adoption of our full stack, our full stack not just
+focused on in terms of our ray tracing but we also sell cars into that market that areFINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 11Harlan Sur
+Colette Kressimportant just for overall gaming as a whole, but allows them to have both the new
+architecture even if they may -- not the overall ray tracing. It's an important piece
+when you think about the overall iCAFE market there. The iCAFE market is one of its
+own not necessarily something that's always worldwide but important part of overall
+China. We continue to see them looking for the overall upgrade opportunities of our
+platform and we continue to hold a signiﬁcant market share in China against many of
+our peers.
+{BIO 6539622 <GO>}
+Before I move on to autos, are there any questions from the audience on either
+gaming or data center segments of the business. Okay, why don't we switch to auto,
+auto is roughly 5% to 6% of your business. But with a long tailwind and expected to
+grow strongly as the market transitions more and more towards autonomous driving,
+you guys announced strong success with your Xavier SOC platform. And as you
+mentioned at GTC in Shanghai, you announced your Orin platform, help us
+understand the diﬀerences between Orin platform, help us understand the
+diﬀerence between Xavier, Orin and maybe discuss the timelines on when we should
+start to see ﬁrst production volumes of your AV platforms with your major auto OEM
+partners.
+{BIO 18297352 <GO>}
+Great. So we announced our next overall architecture for the SOC and focusing on a
+big piece of that on our overall automotive partnerships. So Orin is probably about
+7x the overall compute capacity in terms of what we had with Xavier and Xavier was
+probably top of line against any overall competitive view of it even from a standpoint
+of their PowerPoints [ph] that they may have had of something in the future.
+We know the importance of the overall data collection, the data processing that is
+going to be necessary inside of the AV cars as we move forward. So we see this as
+something that we'll have in the hands of our overall auto customers in the couple of
+years ahead, but an important piece in terms of ﬁnishing up that full platform.
+Our platform view and focus in terms of AV cars is not just focused in terms of on the
+production, it's focused, as well as back in terms of the data center, you've seen us
+focus on creating the overall ability for them to overall test their platforms with both
+simulated data and or live data. There is a signiﬁcant amount of training the overall
+data for these overall AV cars. We're seeing what we will call is a fork in the road of
+the type of AV that we are working on with many of our overall OEMs, focusing on
+AV that will focus on high Level 2 moving to Level 3 but also on the other side,
+focusing on robo taxis or focusing on Level 4 and overall above.
+We can do these two things separately with Level 2 plus working on high end
+passenger cars and looking at Level 4 with removing the overall driver and what
+we'll ﬁnd is conﬁned overall scenarios. Now, what we're seeing in the overall market
+for automotive is it's taking them a little bit longer, the investment that they need to
+focus on this is something that's going to draw them out, probably closer to the
+2022 time frame versus a little bit earlier than what we have had previouslyFINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 11Harlan Sur
+Colette Kress
+Harlan Sur
+Colette Kress
+Harlan Sur
+Colette Kresscommunicated. So we're still working with them, we're probably one of the only
+ones with a full platform today, that they can build upon, test upon of something that
+would actually be inside the production pod.
+{BIO 6539622 <GO>}
+Great. Any updates for us on the proposed acquisition of Mellanox. I know, you're
+waiting for China approval.
+{BIO 18297352 <GO>}
+So with our Q3 results, we had announced that we believe that the closure of our
+Mellanox acquisition would probably fall into the ﬁrst couple areas of 2020 and even
+since then we have reached overall regulatory approval with the overall EU. With the
+EU, with unconditional and nothing holding us back in terms of when we actually
+close. So yes, we are waiting on China. And again, we do believe this will close in the
+ﬁrst part of 2020.
+{BIO 6539622 <GO>}
+So ﬁrst half of 2020 is that...
+{BIO 18297352 <GO>}
+The ﬁrst part of 2020, we have to see.
+{BIO 6539622 <GO>}
+Okay, last question on the ﬁnancials. There was a big step up in gross margins last
+quarter 64%, the kind of back to the gross margin levels during the ﬁrst half of 2018.
+Part of that is normalization of the business, you guys are past the inventory
+overhang. The higher margin data center business is starting to have ﬂat and gaming
+continues to perform very-very strongly through the holiday. So how do you -- how
+should we think about the sustainability of the 64% plus sort of gross margin proﬁle
+going forward?
+{BIO 18297352 <GO>}
+Yeah, so our gross margin has always been inﬂuenced probably by the biggest piece
+being our overall mix. The mix starts even with our overall gaming business and with
+inside our overall gaming business. We have many high-end overall gaming, overall
+cards and platforms that inﬂuence just the overall growth of gross margin. We
+continue to see an opportunity for people to both upgrade and upgrade choosing a
+higher end overall card, but the overall ray tracing capability also allows us to
+appreciate higher gross margins.
+Then you discuss in terms of what data center and/or ProViz does to our gross
+margin as well. Now that we've seen a return in terms of the growth both from aFINAL TRANSCRIPT 2020-01-07
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 11Harlan Sur
+Colette Kress
+Harlan Surtraining and/or an inferencing standpoint that can as well overall inﬂuence, our
+overall gross margins. As we move forward, we will continue to concentrate and see
+that growth likely improve in the future, but it will probably change a bit quarter-by-
+quarter with the mix.
+{BIO 6539622 <GO>}
+Great. With that, we're out of time. Colette, thank you as always.
+{BIO 18297352 <GO>}
+Thank you, so much. Appreciate it.
+{BIO 6539622 <GO>}
+Appreciate it. Yes, thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

@@ -1,0 +1,428 @@
+FINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 11, VP, IR
+, Analyst, Wedbush Securities
+Betsy Van Hees
+Rob CsongorWedbush Technology, Media, Telecommunication
+Management Access Conference
+Company Participants
+Rob Csongor
+Other Participants
+Betsy Van Hees
+Presentation
+{BIO 6078412 <GO>}
+Good morning, everyone. Thank you. So much for joining us here and on the
+webcast for day two of Wedbush's 2013 Transformational Technologies Conference.
+My name is Betsy Van Hees and I am the semiconductor analyst here at Wedbush
+Securities.
+We are very happy to have Rob Csongor who has been traveling like a mad man. So
+we are very happy that he made the trip to this cold New York City to provide us with
+a presentation. That's going to be the format today. It's going to be about 20
+minutes of presentation and about 10 minutes of Q&A.
+So with that I am going to turn it over to Rob. Thank you, Rob.
+{BIO 3210739 <GO>}
+Thanks, Betsy. Thanks for having me here. I'm going to take about 20 minutes. And
+I'll try to leave some time for questions. There's a lot going on at NVIDIA and I am
+going to try to cover at least the high points of interest right now and I think I will just
+-- I will start by kind of summarizing the past year and where we came from. As usual,
+please note our safe harbor.
+So one of the things that I'd like to just start out with is the gain, set everyone's
+perspective on our last year started at this time because it kind of sets the stage and
+kind of lets you know how NVIDIA got through the last year but also how we're
+thinking going forward.
+So at the beginning of last year, I think we started with a ﬂood in Thailand. We had 28
+nanometer supply issues with TSMC. We had our previous generation Fermi (part)
+instead of Kepler. The android market on the tablet side was in a fair amount of
+disarray. I don't think there were any tablets below $500. And I would say that lastFINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 11year our position was that we had a Tegra 3 mobile processor that was the fastest
+mobile processor in the world. But we had no modem.
+That was the beginning of how our year started. And at the time I think everyone
+went out of their way to point out all of the headwinds that were there in front of us
+going into this year. And when we said that -- we gave guidance and we said we
+would grow our Tegra business by at least 50% and that we would grow the GPU
+business and that we would grow our revenue and margins I don't think -- frankly, I
+don't think a lot of people believed us.
+So in the context of that, we're especially very proud that we had the results that we
+did. Inarguably one of the toughest years in PC and an aﬃrmative year for mobile,
+NVIDIA was able to post a record year. We did have record revenue. We generated
+record cash. We generated record gross margin. And as per the guidance we said
+that we would grow our Tegra business at least 50% and we did. And I don't think I
+know any business in tech that grew 50% last year. So we're very proud of all of
+those things, especially given the headwinds that we had.
+In particular, I think one of the headwinds around NVIDIA is continues to be a
+conception that NVIDIA is a PC graphics company. So the PC market is declining and
+graphics has a ﬁxed attach rate to that market then GPUs must be declining. Yet if
+you look at it, you see that that NVIDIA continues to buck the trend and drive. And
+the reason for that is that within the PC market, we do not address the entire PC
+market. We've given presentations previously where we show that that what NVIDIA
+really does is focus on 5% of the PC market. 5% of the PC market generates 75% of
+India's gross margins. That 5% consists of segments like PC gaming, workstations
+and high-performance computing. And those segments are highly robust and
+growing segment of the PC market as opposed to entry level PCs.
+So if you look at the comparison of our revenue performance, for example, versus
+PC companies, you notice that while they all had a down year NVIDIA did not.
+We've also been investing -- and we know that you know that there is new --
+obviously, Tegra is a new business for us. We announced another GPU business
+recently called GRID. But one of the things that I want to point out, last year we also
+gave guidance that our OpEx would be at $1.4 billion non-GAAP. And we came in
+under that. We spent exactly what we said we'd spend.
+If you look at our last four years, I think you will see that as a percentage of revenue
+NVIDIA has kept our OpEx as a percentage of revenue pretty ﬂat, 31%, 31%, 31%,
+slightly up to 33%. But during that time we've driven the operating margin
+percentage from 8% four years ago to 20% this most recent year.
+And of course, as part of that story the other thing we've been very successful in
+driving is a continuous growth in gross margins. So increasingly, every year again we
+always heard the same things. Integrated graphics is going to eat into your graphics
+business. ATI said they're going to do this. There is always some sort of headwindFINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 11every year and some sort of competitive pressure and some sort of market pressure.
+But I think hopefully what we're demonstrating and what these slides show you is
+that NVIDIA has a pretty good record of executing through headwinds and
+consistently driving the metrics of the business upwards. And we're not ashamed of
+it.
+This is a chart that's of particular interest because I would say that one of the number
+one questions that I get is, especially for people who are not as familiar with NVIDIA,
+how is it possible for your GPU business to grow when the PC market is declining
+because if the PC market is declining and GPU attach rate is ﬂat then I can do the
+math. By deﬁnition, GPUs must be declining. Yet this is the story.
+Now the answer is that one of the reasons is we've been exiting a chipset business
+which was $1 billion chipset business and the GPU bucket that we reported included
+that chipset number. Now you could dig just a little bit to realize that that's what's
+happening. The chipset business is declining.
+If you take out that chipset business, that's what MCP is, this is what you'll realize; a
+steady growth of GPU business consistently over the last four years. The other
+reasons of this growth are the reasons I mentioned earlier which is the segments that
+we focus on which are PC gaming, professional workstation and high-performance
+computing. All three of those segments are growth markets.
+There is a fourth market we introduced this year which is called GRID which is GPUs
+going into a cloud server. This is a new business; it's based on work we've been
+doing for the last four years. And you're going to hear a lot more about that very
+shortly, in fact at the upcoming GPU Technology Conference in Santa Clara,
+California. This is our conference where we present it to researchers and developers.
+At GPU Technology Conference we're going to unveil a lot more about this business.
+But any case, this is probably one of the most important metrics to understand about
+NVIDIA, which is that our GPU business continues to be a growth business.
+Then I think beyond the GPU business, a lot of people look at our new mobile
+business and I think the question they ask is how is it possible for NVIDIA to grow its
+mobile business in the face of Apple and Samsung taking a lot of the market and
+then whatever is left you're ﬁghting against QUALCOMM. So we basically have had
+this headwind in it, in front of us since the beginning. Now the response again over
+the last four years has been this. So we grew our overall business. We obviously had
+much smaller business in FY10 and FY11. But we quickly grew to $360 million on just
+smartphones and tablets and then the way that we report our businesses now, Tegra
+is now over $700 million. So not just smartphones and tablets. But also automotive
+embedded and then we have other new things coming like special types of devices
+like a new product called Project SHIELD, which is a gaming device. So there's a lot --
+you're going to see a lot more streams of Tegra revenue coming into the picture.
+Last year I mentioned earlier that our position last year in Mobile was deﬁned as, we
+have the fastest mobile processor in the world. And we have no modem, right,FINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 11fastest mobile processor and we have no bananas. This year we have the world's
+fastest mobile processor and we have two modems. So if you were to ask me what is
+the most exciting time at NVIDIA in recent history, I would say that right now we are
+about as excited as I can remember. We've been waiting for this moment for four
+years. We've been waiting for the opportunity to enter the connected devices
+market. And as a result of being able to do that, open up a whole new class of
+mobile devices that we can now sell into. So let me explain what's happening right
+now.
+We have a new high-end apps processor called Tegra 4. It's a stand-alone apps
+processor like Tegra 3 and it is the new high standard for all of the tablets and super
+phones that are being built. What we have this year that we didn't have last year is
+now a very high speed, low power LTE modem called i500. So i500 is the little
+companionship that goes along with it.
+The combination of these two parts allows us to address tablets and it allows us to
+address super phones. However, a new market that was not available to NVIDIA last
+year is now available to us. And that is what we call the mass market smart phone
+market. We were not able to address that market last year because in order to
+address that market you needed an integrated solution that combines the apps
+processor and the modem. We launched the new version, our ﬁrst integrated LTE
+processor right before Mobile World Congress. That part is called Tegra 4i. And the
+code name for it, previously you may have heard the code name, it's called Grey.
+Tegra 4i is probably the most important engineering project and piece of work
+we've worked on in a long time. So this was something that we designed from the
+ground up to accomplish a couple of things.
+First of all, it is targeted squarely at the smartphone segment. We didn't just
+developed the chip. We've built a phone ready to go. So when we walked into
+Mobile World Congress, we not only had the part and the benchmarks and the
+reference platforms, we had the phone all ready to go. So the phone that you saw
+running at Mobile World Congress as codenamed Phoenix and this is it and you can
+see the Tegra 4i part right in the middle of the phone over there.
+I think Tegra 4i was just one of the best-kept secrets that NVIDIA has kept I think over
+the last two years. I think most people were just picturing that we are going to take
+an apps processor in a modem and just scotch tape them together and just ship it
+out and it just nothing could be further from the truth. Tegra 4i was architected from
+the get-go to just crush per per square millimeter.
+Everything about the chip was designed to crush performance per square
+millimeters of a smartphone. So we started with a couple of things and just to tell
+you a little bit, I won't dive into too many of the details. But I just want you to
+understand the architectural design that went into creating this chip and how
+aggressively we're going after this segment of the market. We, created a brand new
+engine all right. And when I say engine, the CPU engine. We have a choice of lots of
+diﬀerent engines that we can use from our quad-core A15s on the high end to our
+earlier generation quad-core A9s. What we did for the Tegra 4i is create a brand newFINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 11engine, which internally we call the R4. The R4 is a custom-developed Cortex-A9. We
+co-developed it with ARM. It souped up and clocked at 2.3 gigahertz.
+We coupled that with the integrated i500 core that's LTE. We took Tegra 4's graphics
+engine, the GPU architecture engine instead of 72 cores, we used 60 core and again
+that's targeting the power envelope and the performance per square millimeter of a
+smartphone.
+The four-plus-one battery saver core, which is our ability to run on a very -- on one
+core instead of running on all four, this is the capability that we have that our
+competition does not have. Then all of the other features of Tegra 4 like the
+photography engine which we call Chimera, the video engine all of these types of
+things, those are taken from the Tegra 4 architecture, which is our latest generation
+of apps processor. So this is very, very much a custom design targeted to go after
+that segment. Meanwhile Tegra 4 plus i500 goes after tablets and the super phones.
+So just to give you a ﬂavor, this is the world's ﬁrst quad-core A15. A 15 is the new
+high-generation part from ARM. It is a 72 core GPU. This thing is -- I think the press
+called it a beast. This thing just crushed all the benchmark results on any other
+mobile processor if you read the reviews out of Mobile World Congress including
+QUALCOMM, including any of the other parts that were out there.
+The performance out of Tegra 4 is roughly faster and we have some data on this. It's
+higher performance in 80% of the ultrabook PCs that ship today. So this is an
+extremely high-performance processor. And the tablets and devices that you see
+coming out this year on a Tegra 4 are just going to be stunning for a lot of people. I
+think when you see the type of responsiveness, snappiness everything from web
+browsing to the graphics on this is just going to be substantially better than anything
+you've seen last year. So we're very excited about all of these. And again, this
+product is coming at a time when I think the android market and the tablet market is
+projected to explode. So all the industry analysts are at this time projecting that
+tablets will overtake notebook PCs this year.
+On the modem side, there is one substantial advantage that NVIDIA has
+architecturally with our modem. So we acquired a company called Icera two years
+ago and the technology that Icera has that we wanted is the ability to do a software-
+deﬁned radio. In other words, what it means is that instead of building a chip by
+adding functionality and it gets bigger, we built a small very high-speed DSP core
+processor and then you load whatever algorithm you need to run.
+So for example, if you want to ship into China you load HSPA+ and then ship it into
+China Unicom. You take that exact same core, you load LTE and now you ship it into
+AT&T in the United States. I'm using these as examples, right. So the die size of our
+modem is considerably smaller than the competition modem. And this is a
+substantial strategic weapon for us obviously.FINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 11The company that helps us do this and the company we acquired is Icera. I think a lot
+of people may say hey NVIDIA is doing their very ﬁrst modem, what do they know
+about modems and qualiﬁcations. Icera actually knows a lot. Icera is already certiﬁed
+in 95 carriers in 65 countries. These guys have gone through this a ton. They know all
+about it. We've already certiﬁed about 100 million modems and that are out in
+production and being shipped today.
+So what markets are we going after? With i500 in the modem. And I'm focusing on
+what's the new incremental market that is available to NVIDIA that was not available
+to us. So when I said that we had Tegra 3 last year and no bananas what I meant was
+that we did not and we're not able to go after this segment on the right. There is a
+210 million unit market of LTE phones, smartphones priced at roughly 800 RMD, call
+it $100 to $200, $99 to $199. And that market is something that could not be served
+last year by just a stand-alone apps processor. So the product that we have now
+Tegra 4i has an opportunity to go after this segment of the market, of which NVIDIA
+owns zero today.
+On the tablet market, this is a projection from Strategy Analytics, which is showing
+what they believe is going to be happening in the units for the tablet market. I think
+it's safe to say that most people believe that consumers at this point would prefer a
+great touch tablet over a cheap PC. And right now I think last year you saw a lot of
+people sit on the sidelines and watch. And in the android segment I would say you
+saw a few tablets shipped in any reasonable volume. I think this year will be very
+diﬀerent. You're going to see a lot more tablets, a lot more ﬂavors, you'll see tablets -
+- multiple SKUs of tablets coming from one vendor and everything is going to be
+better.
+The android tablets will be better, the Windows RT tablets are going to be better this
+year, there'll be more apps and we see this market exploring.
+And in particular, we also believe we see the China market the white box market as
+an opportunity for us. We believe the China white box market which currently pumps
+out tons and millions of very cheap tablets wants to move up. They want to move up
+and ship better tablets, just like they did long ago in the PC space. The Chinese
+market started with cheap PCs and then moved up and we're seeing the same thing
+with tablets. So we believe that's a market that we are going to address also.
+Okay, to wrap up, I want to make sure I leave some time for Q&A. This is my last
+slide. Just to summarize what are the growth drivers for NVIDIA for ﬁscal year 2014.
+Again, we have two businesses GPUs and Tegras. Within the GPU segment, PC
+gaming is growing. We think that's going to drive our GPU business.
+The Quadro market which was down for us last year due to softness in the market
+was actually a disappointment for us. We actually expected Quadro go up last year
+because we were going to (ramp) to Kepler into it. But it didn't happen. And the
+reason was that the Kepler launch, the Kepler refresh into Quadro market was
+delayed by the launch of the Romley platform from Intel. So we believe that this yearFINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 11Q - Betsy Van Heeswe're already seeing -- you may have seen that our Q4 revenue was up slightly which
+is a little unusual for Q4 for Quadro, what you're seeing is the beginning of that
+refresh starting to happen. So we think Quadro market is going to upgrade to Kepler
+this year. That will be good for us.
+Tesla is growing. And we have a new cloud-based GPU business that I think a lot of
+people are excited about called GRID. I've been getting lots of questions from you
+guys on the GRID. I would urge you, if you can, to mark March 19 on your calendars.
+On March 19, we have the GPU Technology Conference. Our CEO Jen-Hsun is going
+to be giving the keynote. This is typically the conference -- this is our conference we
+present to researchers and developers and this is typically where we unveil a lot of
+things and we're going to talk a lot more about GRID at that time.
+We're also going to have a special session right after the keynote Jen-Hsun is going
+to address the investment community. So I had sent out some details in an e-mail.
+But if anybody would like more information about how to plug in, either come to the
+conference or else just watch the webcast, let me know and we will hook you up,
+right. But you will learn a lot more about GRID there.
+Okay, Tegra, tablet market is exploding. We have a Tegra 4 and we now have a
+modem. The smartphone market now opens up to NVIDIA. I would just round up
+whatever phone business we had last year, run it oﬀ to roughly zero and then I think
+this is now a new opportunity for us.
+Then we have a new device, a gaming device that we launched at CES. This is a
+completely branded device targeting the open platform android gaming market and
+this is targeted at the android gaming market as well as the PC gamer market. You
+can stream a PC game from a PC in your bedroom to this device, play it. And then
+display it on the television. At this point right now, you can just call that a cherry on
+top, all right. So we're going to launch this product out there and you get a chance
+to see what it does. But right now you don't know too many of the business details
+about it.
+Okay. So that's the summary of the growth drivers and sorry if I went a little too long.
+With that I'll open it up to questions.
+Questions And Answers
+{BIO 6078412 <GO>}
+No, you didn't go too long. Thank you very much. That was a great presentation, Rob.
+We really appreciate it. And so I'm going to start with the cherry on top. I am going
+to start with Project Shield only because I of course was at the CES and I was at the
+press conference that you guys had and then came (inaudible) and then I got the
+opportunity to actually play with it, Project Shield. Yes, I got a private demo.FINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 11A - Rob CsongorSo I thought it was pretty cool myself, not being the gamer. But I had a hands on
+opportunity to play with that. It was very interesting. So the reviews from the gaming
+community have been very great, the reviews from the ﬁnancial community hasn't
+been that great. So why are you guys so excited and think that this is going to (sell)?
+{BIO 3210739 <GO>}
+That's a great question. Yes. The gaming community when they saw this device were
+extremely excited and if you go read the game reviews there they are quite ecstatic.
+I can try to describe to you why the gamers are excited. I guess there is one thing I
+would describe, if you try to play; pick an Android game, any Android games that
+you can run theoretically on your android phone right now, like Madden, right
+Madden Football. Anybody here play Madden, just out of curiosity. Yes, (Cransten) I
+knew it. Okay. So if you play Madden, you're controlling your running back and your
+running and your thumb is rubbing on the glass. And underneath the glass there is a
+joystick kind of thing. You can't feel it. You just rub, you're rubbing your ﬁnger on the
+glass and then you're running and then all of a sudden your ﬁngers slides oﬀ the
+controller because you can't feel it. And now you're running back, stops running and
+you get sacked and now you have to punt and your life sucks. So there is just that
+simple thing that you cannot feel any of those things has spun a huge aftermarket in
+the android gaming market.
+If you guys went to CES and you walked around, you probably would have noticed
+booth after booth of contraptions that are designed to wrap around your phone with
+thumbscrews and wires that come out and this thing looks like an octopus. And all it
+does is give you the sting. And the thing frankly is a mess and then you go talk to the
+gamers who are using it. And they go this thing is awesome. They are just frustrated,
+they have all these games that they have purchased. But they can't really play them
+well, okay.
+Now in addition to that, PC gamers would love to just sit in front of the TV and say I
+want to play Assassin's Creed. They press a button. They wirelessly connect to their
+PC and now they're playing on their TV screen. Now they're just excited about that
+alone.
+Now if you're not a gamer and I think some of the skepticism in the Street is just the
+fact that I don't believe that the Street really understands gaming, the gaming
+market. But even then, one of the common things I've heard is, I don't get it, there is
+nothing on SHIELD that I can do that I can't do on the smartphone, not a single thing.
+There is not a single app that I can run on SHIELD that I can't run on this. And one of
+the things that we've done is we've pulled reviews of iPad from back in the day
+because that's exactly what the response to iPad was when it ﬁrst came out. Of
+course the people who wrote those articles will deny it. But we know who they are,
+we saw it, it's written.
+There is nothing that an iPad can do that an iPod Touch can't, literally not one single
+app, there is not one app you can run on an iPad that you can't run on your iPhone
+or your iPod Touch. All that the iPad does is make reading better because it's aFINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 11Q - Betsy Van Hees
+A - Rob Csongor
+Q - Betsy Van Hees
+A - Rob Csongor
+Q - Betsy Van Hees
+A - Rob Csongorbigger screen. That's it. It's just a bigger screen and it makes reading easier. It makes
+interactivity easier. Think of SHIELD like that, all SHIELD does is make the number
+one app category on mobile devices better, it makes gaming better. And in addition,
+you can connect your PC and in addition, you'll be able to connect to the GRID
+interactive gaming thing later, okay. So other than that, I don't know what to say
+except you may want to try it and then ultimately we'll just see.
+{BIO 6078412 <GO>}
+No, as I said I had the opportunity at CES to have a private demo (inaudible) work
+there, as you know and you had already left so it was a great opportunity and I came
+away very, very impressed with Project SHIELD I have to say having initial response
+when I was there at the press conference, a little surprised. Other surprise is Jenson
+said we were all surprised. (inaudible) and I'm looking forward to getting a chance to
+some more time playing with it and so.
+So anyway now I want to talk about Tegra 4. And this kind of wraps into the guidance
+that you guys gave. So you gave guidance and I know it wasn't awkward when I
+asked my question on the call. But when we look at the guidance and you guys work
+out for us how your core GPU business is going to do, it seems as if the Tegra
+business has taking a pretty big step function down in your guidance, if we were
+going to break out the seasonality. And I was wondering if you could kind of walk us
+through that. Is that -- because we're sort of having this low because Tegra 3 and
+now Tegra 4 is ramping. So then when are we going to see the revenue from Tegra 4
+and that's it, my question.
+{BIO 3210739 <GO>}
+Okay, yes and when you say the guidance you mean the Q1.
+{BIO 6078412 <GO>}
+Q1, correct.
+{BIO 3210739 <GO>}
+Okay. Yes, basically our Q1 guidance reﬂected a couple of things. First of all, PC was
+down just seasonal. So all of the drop oﬀ that you saw was Tegra. And I think at this
+point, we've now gone through this three times. So last year people said, hey is this
+seasonal, because last year the same thing happened. We started the year with a
+drop oﬀ in revenue between Q4 and Q1 and so people said is this seasonal and at
+that time I said well I don't know, I don't know what seasonal as yet. So I think at this
+point, I'm going to call it seasonal.
+{BIO 6078412 <GO>}
+Okay.
+{BIO 3210739 <GO>}FINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 11Q - Betsy Van Hees
+A - Rob Csongor
+Q - Betsy Van HeesWhat you're seeing is a Tegra business that is tablet-centric. The tablets are a one-
+year product cycle. The ﬁrst half of the year is used for build and then with a launch
+in mid-year followed by a very sharp ramp culminating in Christmas and then a sharp
+ramp up after that.
+Now as our Tegra business has grown, the volatility of that drop-oﬀ is a lot more in
+markets because you just -- it's bigger dollars. So what I hope -- and of course last
+year you saw a sharp drop oﬀ of Tegra and then we went on to grow our Tegra
+revenue by over 50% because of a very sharp ramp in the second half of the year.
+Now, I'm not guiding Tegra and I am not saying we're going to do that this year. I'm
+just saying that you saw that kind of thing happen this year and we've already said
+that Tegra 4 devices start shipping in Q2, end of Q2. So you can expect to see
+devices coming out and then a similar type of ramp for the second half of the year.
+Now going forward, if we start winning phones I think you'll see that revenue smooth
+out. I don't think you'll see as much dipping in everything around because the
+phones operate on a diﬀerent life cycle and that will tend to smooth out our revenue
+volatility over time. Does that makes sense?
+{BIO 6078412 <GO>}
+Yes. Thanks very much for that explanation. It's helpful. There is deﬁnitely a greater
+sense of seasonality in business with the innovation of the tablet market. And
+speaking of the tablet market and moving to the PC market, I know you talked about
+PC gaming being a big driver for you guys. But in terms of integrated graphics and
+just the PC market in general, how are you guys seeing things here in calendar Q1
+with PCs in general, PC demand?
+{BIO 3210739 <GO>}
+So in general I think we're looking at -- and again the only reason I pause a little bit is
+when people ask what do you see happening in PCs, I just always caveat that, again,
+we focus on 5% of the PC market. So if you really want to understand how the
+bottom half of the or the bottom 65% of the PC market is then you should talk to
+Intel or AMD.
+So within the segments that we target, PC gaming, we see as being very robust. We
+think Quadro has been ﬂat and soft for last year. But now growing. The high-
+performance computing market, I think, is growing for us. Premium notebooks, we
+see declining. So we believe that -- I mean at least from what we can tell, we believe
+premium notebook PCs would be down mid-single digits from what we can tell. But
+some of that may be oﬀset by the fact that NVIDIA will have a full year of relative high
+market share versus last year where we had only high market share for only half a
+year.
+{BIO 6078412 <GO>}
+All right. Well with that we're out of time. But Rob you have got a full schedule today.
+So for any questions, I think audience (inaudible) breakout session. So thank you veryFINAL TRANSCRIPT 2013-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 11A - Rob Csongormuch and we really appreciate you.
+{BIO 3210739 <GO>}
+Okay. Thanks a lot, Betsy. Thank you, guys.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

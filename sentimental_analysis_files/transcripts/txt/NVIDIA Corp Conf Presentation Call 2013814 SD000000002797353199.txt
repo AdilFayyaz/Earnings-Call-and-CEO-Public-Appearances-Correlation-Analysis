@@ -1,0 +1,612 @@
+FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 15, Senior Director, IR
+, Analyst, Oppenheimer & Company
+Unidentiﬁed Participant, Analyst, Unknown
+Rick Schafer
+Chris EvendenOppenheimer Technology, Internet & Communications
+Conference
+Company Participants
+Chris Evenden
+Other Participants
+Rick Schafer
+Presentation
+{BIO 4188965 <GO>}
+I guess, we'll go and get started. And I'll just tee it up with a few questions, get things
+started. Maybe start talking about the core GPU business ﬁrst, I guess, NVIDIA took
+tremendous share gains, especially in notebook over the past couple of years. But
+now your shares, at historic highs, in a ﬂattish PC vertical -- basically, I guess, in a
+ﬂattish PC vertical, how do you grow that business without additional share gains, or
+has share gains particularly kind of stabilized?
+{BIO 18934997 <GO>}
+So I'd certainly go with the idea that we're at fairly high level historically and the
+business has still got plenty of growth potential there actually. For a start, ASPs are
+increasing. We're growing ASPs quite successfully. And secondly, the business itself
+is growing. So -- sorry, the market itself is growing as well. So the ﬁgures that we
+have suggest that the PC software market is growing about 10% a year. And we
+obviously grow along with that. PC gaming, PC gaming is one of those funny
+markets that's quite diﬃcult to analyze because intuitively you're going to gain stock
+for one of those organizations.
+And you see the very little PC software on the shelf. But something like 80% of PC
+gaming software revenue now is online, whether it's software that's bought online
+through marketplaces like Steam or whether it's downloads, online subscription such
+as WarCraft or increasingly you're seeing these premium models, free to play
+models where people will actually pay in-game purchases or downloadable content.
+And so a lot of the revenue happens almost invisibly and it's actually quite diﬃcult to
+track. But organizations that do tell us it is growing about 10% a year and that maps
+to the growth of PC gaming hardware as near as we can estimate it from ﬁgures we
+have and ﬁgures from the industry.FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 15Rick Schafer
+Chris EvendenSo overall, the whole market is growing, ASPs are growing. Then, the other
+interesting thing about GPUs if we do generalize the question to GPU growth, of
+course, we've got Quadro and Tesla and GRID in there as well. And these are three
+further ways of monetizing our IP and speciﬁcally our GPU IP. And Quadro is a good
+business, growing at probably the rate in the market. We have about -- well,
+according to ITC, we have 82% unit share. But we have we estimate over 90% dollar
+share. And so anyway, we can grow that by growing the market and we have a bunch
+of ministers in place to grow the market. And if the market grows and recent data --
+the PMI data seem to be fairly positive on that and very encouraging in fact.
+So we're encouraged by the trajectory of Quadro from here on out. And Tesla as well
+is proving to be a really interesting business; you're probably familiar with Tesla, our
+high-performance computing business. And that's -- it's being -- we've been working
+on that for, I don't know, probably ﬁve years now actually. But it really feels that we're
+right about in place now where we're going to get some sort of an inﬂection point.
+The gap has always been supporting enough code in our software applications out
+there for it to be sort of generally interesting to developers.
+So we've had big -- despite installations like, for example, the Oak Ridge National
+Lab's installation was some tens of millions of dollars of revenue. But the
+background level of smaller applications has been quite small. But Q2, what you saw
+in Q2 was, we were hairsbreadth away from a new revenue record and the notable
+thing about that was that there were no -- none of these large deals. And it was
+actually through this background level of application-driven purchases. And that's
+encouraging for a number of reasons. Firstly, because it's sustainable, yes, sounds
+like it's fair more on a steady (inaudible). Secondly, it's a much lowered hutch
+business than those big supercomputer installations. So it goes primarily through the
+OEMs, it's basically a researcher or a scientist who is sitting there thinking, well, I
+want to do some molecular dynamic modeling. I know that NVIDIA accelerates all
+the codes that are used. So I wanted to be accelerated with Tesla, rather than they go
+to IBM and says, are those tests accelerated machine. And --
+{BIO 4188965 <GO>}
+So (inaudible) less about supercompute, does that --?
+{BIO 18934997 <GO>}
+No. It's still supercomputing. But it's not necessarily -- so there's like massive
+installations like Oak Ridge National Lab and then there's a guy with a department-
+level clustered university or there is a pharmaceutical company that has a small --
+there are small supercomputers as well, which probably come up with a new name
+for them mini supercomputers or something. But -- and so it's -- that side of the
+business is huge, potentially huge. And I think if it's driving itself as it appears to be
+doing right now, we can scale much better that way. It's great getting business like
+Oak Ridge National Labs there, marquee wins, they generate a lot of other wins as
+well, because a lot of other people when they're developing quota tight on the
+supercomputer, Oak Ridge National Labs, they'll want to develop it and test it on
+their own systems.FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 15Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris Evenden
+Rick SchaferSo we generate a lot of business and in that sense to be worth doing. But they're
+diﬃcult to scale. We just -- you don't have a staﬀ to service 10 TITAN Card wins
+simultaneously whereas 100 of these small wins, absolutely, because IBM and HP
+and Supermicro and those guys will service that themselves. So that's been the
+biggest gating factor on the supercompute ramp on that side of the business, just
+that the software availability actually is the gating factor because it's not support, it's
+not -- yes, okay, because that is -- having the broad software support means that this
+broad base of engineers and scientists can actually just go out. It's no longer a
+debate about -- you no longer have to introduce GPU acceleration to these people.
+{BIO 4188965 <GO>}
+Have you ever considered GPU acceleration?
+{BIO 18934997 <GO>}
+That's not a conversation we have to have. Two years ago, that's certainly a
+conversation you have to have and it will probably be follow-on with, let me help you
+port your code, right, whereas now the code is ported, right. So a molecular
+dynamicist has that the real job title, someone doing molecular dynamics, NOVA,
+VMD, NAMD, AMBER, these are all codes that they use in their applications and
+these are all run and are all accelerated by GPUs.
+{BIO 4188965 <GO>}
+Okay. So if you looked out three years to ﬁve years for something new, I'm just trying
+to get a sense of how big Tesla could be now that you've got the (inaudible) and sort
+of some of the stumbling blocks or hurdles or whatever you want to call them sort of
+out of the way? I mean is this a $1 billion kind of business (multiple speakers) or --?
+{BIO 18934997 <GO>}
+It's really diﬃcult to value it, because what we're doing is a diﬀerent way of
+something that's already done. So there are I think something like 10 million servers
+a year purchased and not all of those would go to parallel computing. So I think we
+came up with a $2 billion TAM will be the ones that we could attack and so we'll get
+some sense to that. But yes, how big the business will be, I think it's on a good
+growth trajectory now. I mean I'm very encouraged it was -- they had a good quarter
+in Q2 and I think it was kind of ongoing for this year. So the order of $200 million last
+year and it will be in the high end of that this year probably.
+{BIO 4188965 <GO>}
+Okay. Then, back on GPU for a second, I mean I know your biggest competitor in the
+discrete graphics space has been making noise recently about potentially taking
+some share this year and next in desktop and notebook, I think. How credible is that
+claim that they would -- and where would that come from if you think it is credible, is
+it mostly kind of low-end desktop and kind of competing with some of the
+integrated graphics stuﬀ or --?FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 15Chris Evenden
+Rick Schafer{BIO 18934997 <GO>}
+So share is interesting because you can't get market share data. Right now
+(inaudible) publishes market share data and data is good. But you have to bear in
+mind that it's unit share and the dollar share is very, very diﬀerent because it's a very
+ﬂat triangle if you like. If you look at the market, there's a lot of low value. So a lot of -
+- it can look like there are signiﬁcant share changes and I think Q3 last year, we
+actually lost unit share while gaining dollar share. You could see the opposite. The
+other thing to remember about that data is that it's sell-in data as well. So it
+ﬂuctuates a lot quarter-to-quarter as inventory getting out of the channel.
+So having said that, it's still data and something to look at. I wouldn't look at it on a
+Q-by-Q basis, I would look at it on an annualized basis. Actually, we pay
+unfortunately for some market research data on sell-out data, proprietary data and
+that actually is very ﬂat (inaudible) the annual cycle cadence of the sell-in data. But
+share gain. So I think AMD has done reasonably well on the CPU side of things
+recently and that certainly helps the GPU attach. But otherwise and I think, for all
+these reasons I just mentioned, I think our share was probably surprisingly high in Q1
+if you like at 68% and 65% on notebook is probably what the risk share really is to be
+honest with you in terms of this in and out of the channel ﬂuctuation that we're
+seeing.
+And there doesn't seem to be any major reason why share should change hands,
+particularly through the balance of this year, I think. And so we have visibility into
+notebook design wins, for example. And we feel pretty good about that. I don't think
+there is -- I don't think share is going to change hands, particularly -- yes, there will
+be some SKUs that change hands and some people like to engage in debates there,
+oh, you've got this SKU or you've lost that SKU. But I think when you get -- when you
+start getting down to that level of granularity, you lose the big picture.
+And there is no reason why I'd expect shares change hands, particularly. Nobody has
+been particularly. I mean, I think it's been notable in the last few years the lack of
+pricing pressure in that space and historically we've seen pricing pressure in GPU, I
+mean, it seems like -- may be it's been more skewed to lower end. So you haven't
+seen as much of it. But I mean, I guess, it sounds like you've kind of predicted a
+continuation of that of a pretty benign pricing environment I mean as anybody and
+it's been surprisingly robust. AMD came into the market with this very aggressive
+bundling strategy they've been promoting. And we actually didn't have to react with
+pricing on that. We anticipated we would. But we didn't have to react. But I had
+actually very little eﬀect on share despite by the reason we act. So it's been a pretty
+benign pricing environment. I mean, we'll see how that goes forward. But it's been
+much more rational for a few years, yes, actually it's been good. Good.
+{BIO 4188965 <GO>}
+That leads me to the gross margin question. I mean, you guys have done a great job
+expanding gross margins, I think 400 basis points, 500 basis points, just in the last
+four quarters, ﬁve quarters. But my math is right, maybe ﬁve quarters or six quarters.FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 15Chris Evenden
+Rick Schafer
+Chris Evenden
+Rick Schafer{BIO 18934997 <GO>}
+Yes.
+{BIO 4188965 <GO>}
+(multiple speakers). Now, I'm just curious, I mean, is this a sustainable level now
+we're up here. And is it -- what do you think drove that, I know mix probably had
+something to do with that.
+{BIO 18934997 <GO>}
+Yes. There are a lot of factors in there. I mean, it's a good question because there are
+a lot of factors in there. I mean, the previous peak in our gross margins was I think
+46.3% and that was some years ago before the recent climb. And that actually goes
+back longer than ﬁve quarters, it goes back probably two years, we've been climbing
+that. And that was at a time when AMD has very weak products and the market was
+very strong. And these products are okay now, I think the products are better. And
+the PC market is well known to be fairly weak and yet, we're 10 whole points higher
+than our previous record. And you're right, some of it's mix, Quadro has grown a lot,
+particularly since then. (inaudible) is very proﬁtable business for us. Some of it is mix
+within GeForce itself actually. So the dynamics of that market have changed,
+notebook is weak, the whole notebook market is weak. And so that notebook
+business is smaller relative to the desktop gaming.
+And PC gaming is again as I said is a strong business. We've got a very, very
+proﬁtable, healthy, growing business within the PC market. I don't know how many
+companies can claim that. And whether you're a semiconductor company or a hard
+drive company or whoever, right, the reality of the gaming is, it's a very resilient
+business that's continuing to grow and is very successful. So those are probably the
+two (main hours of that is) growing that. Then, of course, there's a lot of we've done
+in terms of running the business more eﬃciently under the hood, reducing waste.
+Doing things like, simple things, when you build a chip, the further into the process
+that you catch this faulty, then more it's (costlier) by that point. So doing as much as
+you can to catch as many as you can early on, things like that.
+All these things are structural things that have improved gross margins signiﬁcantly
+over time. So an ASP is a business loss we said. So I didn't know that there is any
+obvious reason why that's not sustainable. Absent obvious things like price wars or
+things that we hope would never happen. But there's no structural reason why that
+wouldn't continue. The Quadro continues to grow, Tesla is growing quite strongly
+now and that's a huge lift on margins. GRID will be a lift on margins as that starts to
+contribute meaningfully. And on the ﬂip side, I don't think netbook growing anytime
+soon, it'll probably be ﬂat at best. And that's our worst gross margin business. So
+what we're seeing structurally point to margins that will be maintained. Now, if Tegra
+grows, is that what you --?
+{BIO 4188965 <GO>}FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 15Chris Evenden
+Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris EvendenThat was my next question, right.
+{BIO 18934997 <GO>}
+Right. So the Tegra chip business is a little bit below copra average, not massively.
+But a little bit and --
+{BIO 4188965 <GO>}
+(inaudible) the handle on the gross margin for that.
+{BIO 18934997 <GO>}
+It's a little bit lower than the corporate average. But not much lower. So that's a drag
+obviously. And SHIELD, which is a small contributor of prices, that's obviously lower
+as well. But those things grow, that's still okay.
+{BIO 4188965 <GO>}
+Yes.
+{BIO 18934997 <GO>}
+One of the other things to note about NVIDIA as a company is I know that GM
+(inaudible) GM is a traditional way to value semiconductor companies, right. You
+look at the gross margin trajectory and that's when you buy and that's when you sell.
+Large part of our business development is semiconductor, pure semiconductor. So
+Shield is one them, right, GRID is another, Tesla is another as well. They -- even
+Quadra while we're selling boards, there is a huge software component to that as
+well. So it's not a chip business in the traditional sense. So as those other business --
+as these businesses grow, the traditional way of tracking GM and using that as a buy
+or sell indicator is probably less useful, because -- if I sell, which is not a forecast -- if I
+sell 1 million shares this year, that will pull my gross margins down in an extremely
+good way, right, because I've made an awful lot of money out of selling shares. And
+so you have to (take more nuance) of the business I think now.
+{BIO 4188965 <GO>}
+Right. And since we are talking about Tegra now, I mean, I guess, just starting at a
+high level, it's had a great growth trajectory since you guys introduced it. But it
+always seems to kind of fall a little short of the expectation. I mean, it just any given
+year -- and I know this year has been a particular struggle through the ﬁrst half. I
+guess, I'm curious, what do you -- like is there a piece of the puzzle that's missed, I
+mean, it's like gaining more a full suite of like connectivity or some more pieces of
+that puzzle will help sell it or is it that you're relatively new to that channel, historically
+you were a big player?
+{BIO 18934997 <GO>}FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 15Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris Evenden(multiple speakers) actually. So I think the one you miss as we tend to -- we've done a
+(inaudible) expectations, I think we set expectations too highly, because if you look
+at that last year if we did -- if you mentioned just the chip business or the new GP --
+the new Tegra FSC like reporting segment, we did $540 million or $760 million. So
+let's just take that ﬁrst on the $540 million, that's $0.5 billion business and that's a
+good business, that's an extremely good business. Now, we'll continue to ramp it.
+This year is a more diﬃcult year with certainly revenue change this year to put it in a
+politically correct way. And that's a result of a couple of diﬃcult decisions we made
+last year.
+We made the conscious decision to take resources away from Tegra 4 and put them
+in Tegra -- Project Logan and Tegra 4i. Knowing that Tegra 4 was not going to be in
+the right place to win key tablet wins this year, it's just not going to there. So we
+knew that we hit hot revenue this year. But we felt it was the right thing to do from a
+long-term perspective.
+And now, we've got Project Logan which we demoed at SIGGRAPH. So you know
+that's up and running on a much more aggressive time scale than Tegra 4 was. So
+that chip is in the right place to win key -- the key tablet wins. And you should see --
+you could see revenues from that certainly as early as the ﬁrst half of next year. So
+that put in the great place for that. Tegra 4i is our mainstream smartphone chip, if
+you like. And with the integrated modem and that will be -- that's going through
+qualiﬁcation now, it's all progressing ﬁne. They are going through the process. And
+that will be ready for products ﬁrst half of next year as well.
+{BIO 4188965 <GO>}
+Really for sampling and trial?
+{BIO 18934997 <GO>}
+But it's sampling already.
+{BIO 4188965 <GO>}
+Okay.
+{BIO 18934997 <GO>}
+It's been something since February. It's -- but it happened through the call. And the
+way the process worked, the phone manufacturers actually build a phone with your
+chip before deciding whether they want to actually buy it. And while that's
+happening, in parallel, you're getting the chip qualiﬁed at carriers eﬀectively at the
+chip level and then the phone or handset OEM takes the phone and builds and if
+they decided they want to take it to market, they will then start qualifying that as a
+device-level qualiﬁcation as well and then they can bring it to market. So it's a
+lengthy process, right. And the chip starts sampling (mid of) February. So it's at leastFINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 15Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris Evendena year before products get to market, because of all these aspects. And so at least
+sometime that's up next year hopefully.
+{BIO 4188965 <GO>}
+Okay. For production risk (multiple speakers).
+{BIO 18934997 <GO>}
+And so in the back half of this year, I mean Tegra 4 is ﬁnally available and then
+devices. So we're starting to ship now in HP, Toshiba, a couple of others. In fact, the
+Tegra 3 devices just started shipping 149 7-inch tablet at Wal-Mart from Hisense. So
+that could be a good volume runner as well. So the number of products they have,
+there'll be more through the back half of this year that you will see as well.
+{BIO 4188965 <GO>}
+Yes.
+{BIO 18934997 <GO>}
+We just saw a company yesterday (primarily) most of their sales is China based and
+they made a claim I believe that over half of the tablet units anyway next year could
+be produced sort of in that white box market and I don't know A, if you kind of bless
+that or basically the white box market for tablet could be bigger than Samsung and
+Apple combined.
+{BIO 4188965 <GO>}
+Yes, (in fact, the) number is going to that big, it's certainly a large number and as an
+analyst, at least in units, I think you're speaking units? (multiple speakers).
+{BIO 18934997 <GO>}
+Yes. And you have to ﬁnd a way -- and we have to ﬁnd ways and we have found ways
+of hitting some very competitive price points for Tegra 4 as well. So we can certainly
+service that market and yes, it's diﬃcult (audible). It's certainly many tens of millions
+of units and we have a bunch of sales strategies to address that in a scalable way,
+because obviously, it's spread through something like a 100 to 200 diﬀerent
+manufacturers actually. And so you have to ﬁnd -- clearly, again, we (can't) have a
+sales and engineering team.
+{BIO 4188965 <GO>}
+(inaudible).
+{BIO 18934997 <GO>}FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 15Rick Schafer
+Chris Evenden
+Rick Schafer
+Chris Evenden(inaudible), okay. So the number I most recently read was the 100, 200. But yes, the
+thousand is not impossible. I was under the impression it was consolidating
+somewhat. I was going in the other direction. But whatever, hundreds of OEMs. But
+you have to ﬁnd a scalable way to address and so we have various strategies in place
+to do that.
+{BIO 4188965 <GO>}
+Historically, you've been strong. (Obviously, you cited) white-box, I didn't know what
+you thought share -- your share would be in that kind of a market. I know (that's
+been) a tougher question (multiple speakers). Yes, I share it, we need to grow the
+business before share becomes a useful metric for us, I think. I mean at the moment,
+design wins is the metric that we look at and with that business, I know we talked
+about Tegra being a little below or slightly below the corporate average. But I mean
+would that kind of business let's say didn't take oﬀ, would that create a bigger drag
+or would there be ways to cost oﬀset that?
+{BIO 18934997 <GO>}
+If that business took oﬀ, it would be a drag. (multiple speakers). So as we address
+that, we'll have to ﬁnd a way of addressing it proﬁtably. Three's no point going into
+that business if our chip margins are only going to be 30% or something. So we
+wouldn't take it on if it wasn't really proﬁtable.
+I mean we -- if a company cannot compete on price but on features and
+performance. However, price is always part of the equation. And so you have to ﬁnd
+ways of adding features in a way that do not increase the cost or you can -- so for
+example, the DirectStylus feature that we announced a few -- well, a couple of
+months ago now, that actually allows you to add a stylus for a very, very small BOM
+cost as opposed to that. We estimate on the Galaxy note, the Stylus technology, that
+cost about $20 and we can do it for a fraction of that.
+And so things like that where we can share the savings, if you like with the
+manufacturer, means that we can still command a premium for Tegra because we've
+got that extra value and they can still hit a good BOM cost for that device.
+{BIO 4188965 <GO>}
+Would there be a way or (we have ever) discussed internally potentially couple of
+biggest tablet, smartphone guys, smartphone or -- the Apple and Samsung doing
+their own (AT), the two guys obviously sort of your -- I feel like this is kind of core to
+what you guys do some of the stuﬀ and I think you've done a lot of innovation and
+you just mentioned one thing right there with stylus. But would you ever be able to
+go in and license to an Apple or you know what I mean or get some revenue that
+way.
+{BIO 18934997 <GO>}FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 15Rick Schafer
+Chris EvendenWe'd love to. Yes. Absolutely. I mean. So we have this licensing business now. But
+we've formalized the technology. We've kept our designs in such a way that makes it
+a licensable call. And (future course) Maxwell and so on will be similarly licensable.
+So clearly, we love to have one of the bigger manufacturers like Apple or Samsung
+to license our technology. And we'll (fairly) be talking to them to try and raise that,
+because I think we have -- again, we command a premium in terms of the
+technology we've put in the GPU and that comes from the investment we've put into
+R&D.
+So if you look at our competitor, Imagination Technologies clearly makes $200
+million a year. And if they devoted half of that to R&D, that will be $100 million in
+GPU R&D a year, right. We spend north of $1 billion a year in R&D. So we have a
+pretty good GPU as a result. And what that means in reality is that we have more
+features, more performance, more performance per watt. And more performance
+per millimeter square. And the last one is particularly interesting in this debate, that
+licensing technology, because again we can command premium for licensing our
+core, because we save our customer money at the foundry, because for the same
+level of performance, it's a smaller piece of silicon. And so again, then, we can share
+the savings with our customer and that gives us a premium for the core, right. So it's
+-- that business is in early days and there's still a lot we'll have to do. But that could
+be quite interesting, yes.
+{BIO 4188965 <GO>}
+Well you mentioned R&D, I'm just curious, I mean, if we talk about Tegra print, I
+mean, I would assume you're spending an outsized proportion R&D in development
+on that particular vertical versus -- outsized meaning bigger than (any) as a % of revs.
+{BIO 18934997 <GO>}
+So yes, it's interesting how you look at this, this ways of allocating cost and we've
+come up with a way that we report that our auditors are happy with and one of the
+things we talked at our Analyst Day is if you took out Tegra all together, how much
+would you save in R&D? And the number is actually smaller than the amount (we get
+covered and we allocate), because there is actually a lot of synergy between the
+businesses. So the Kepler cost is originally a GeForce call. And there is a -- and
+GeForce you have to work on low power, I mean, low power is extremely important
+even for GeForce; in fact, I would say everywhere we're power constrained, (gentle
+way) to say performance per watt is performance and that's because in every single
+one of our businesses, we're power constrained.
+Even in the supercomputing business, there is a limit to how much power you can
+put in a server, in a server box and server rack. There is a limit to it. Most of these
+data centers are actually constrained by the amount of power you actually get into
+them, the big cable that goes inside, if you like, that's the constraint. And so how
+much performance can you get out of the megawatt (we're just throwing into the
+side of the placement). So everything we do is power constrained. And so that
+means the power consumption is important, whether we're developing a Tegra chip
+or whether we're developing a GeForce chip. And so all these synergies mean a GPUFINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 15Rick Schafer
+Chris Evenden
+Q - Rick Schafer
+Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evendenarchitecture, process technologies, all those stuﬀ means the incremental cost of
+Tegra is actually lower than you report that way. So we can make Tegra. So yes, it all
+works together, I think it's in a way -- it's another way of monetizing IP we already
+have, we have two chips, we have GPU and we have an SoC and we monetize them
+in a bunch of ways across a bunch of diﬀerent markets.
+{BIO 4188965 <GO>}
+Okay. And I guess my last question is, since you mentioned server, I know in the past,
+you said that like going into the micro-server space, yes, might not be your ﬁrst area
+of focus. But I think that has changed at all or --?
+{BIO 18934997 <GO>}
+So never say never is the ﬁrst answer. But secondly, the oﬀering we have for data
+centers is high-performance compute, that's the diﬀerentiation that we have. So right
+now, we're not looking at general performance, general computing servers like
+Hadoop servers or something like that, that's not where we would add the most
+value. So you see us in these high-performance computing applications where
+computer is everything. You see us in big data applications like (Shavan) as well. But
+that again it's really at the back end, it's a computer application. So it makes a lot of
+sense there as well. But that general purpose like dense server, I'll leave that to
+AMCC and AMD and Calxeda and Cavium and -- but now Intel as well. I mean that's
+going to be -- that's really quite a competitive market for a while, I think. So let's stick
+to where we have a really strong diﬀerentiator which is the market that way.
+Questions And Answers
+{BIO 4188965 <GO>}
+Okay. I think we've got ﬁve minutes for questions if anybody has got anything out
+there.
+I'm sorry if you had talked about already. But just the plain-old desk computer.
+{BIO 18934997 <GO>}
+GeForce business, yes.
+Market, what's been going on there and what kind of attach rates, market share and
+with the PC unit growth doing what it's doing, in general, what do you think the
+outlook is for that?
+{BIO 18934997 <GO>}
+Yes. So I did address that right at the beginning actually.FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 15Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Unidentiﬁed ParticipantSorry, you don't have to do it again.
+{BIO 18934997 <GO>}
+So really brieﬂy, the PC market is a diﬃcult market, PC gaming is a great market. And
+the franchise we've built for ourselves in PC gaming, the market -- PC gaming as a
+whole probably grows at about 10% a year. And we've built a very strong franchise in
+PC gaming that allows us to build -- continue to grow our proﬁtable business there.
+And in fact, we can actually extend that strategy into mobile as well, that's one point I
+didn't make earlier. And with things like -- and you could -- so we have to build a
+similarly defensible, proﬁtable, I mean, calling it a niche sounds funny, because it's
+such a big niche. But that's eﬀectively what it is, right. The gaming niche inside the
+PC market has base completely diﬀerently to the rest of the PC market and it's
+something that we have a very strong proﬁtable position in. Now, we can do that as
+well in the mobile market, that will be very successful for us. And devices like SHIELD
+and initiatives like GRID and our traditional product base like GeForce, they all work
+together. I took (that) from the earnings call brieﬂy, there's a lot of synergy between
+them. So that we can build out proﬁtable franchises in both.
+(inaudible) So the attach rate of discrete GPUs holding constant, rising or going
+down? Then, if you see units are dropping about 10% I think this year?
+{BIO 18934997 <GO>}
+Yes.
+So with respect to that and then what's the trends in ASPs. So separate from mobile
+and all that.
+{BIO 18934997 <GO>}
+Okay. I will answer really quickly then. So attach rate is approximately ﬂat. Again, PC
+gaming is growing, right. So notebook is shrinking. But PC gaming -- but desktop
+gaming is growing 10% a year. I know there's a third question I forgotten.
+Share and ASP.
+{BIO 18934997 <GO>}
+Share and ASP. So share at the moment is probably pretty stable; ASPs are growing.
+Okay. So net-net, that business grows for you?FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 15A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evenden{BIO 18934997 <GO>}
+So I think it will grow, the GPU business -- the desktop will grow quite nicely,
+notebook will probably be down because the whole market is down. And that's not
+gaming as well, right, the thing that drives purchasing notebook GPUs is more driven
+by the OEM's desire to diﬀerentiate their laptops. So it's a diﬀerent mechanic in that
+market.
+Thanks. Talk about the decision to license your IP for graphics instead of the chip.
+{BIO 18934997 <GO>}
+It's not instead of, it's as well as.
+As well as, yes, in addition to, sorry, just, why do you decide to do that? What's the
+revenue opportunity there, because it's getting less dollars obviously higher gross
+proﬁt. Was it that, maybe you can't have Tegras in everything. But you still want to
+proliferate your graphics?
+{BIO 18934997 <GO>}
+Yes. The last point is the key one. There are places that can't -- that won't take Tegra.
+But that we can still bring value through IP. So some companies have chosen for
+strong reasons or for ideological reasons that they want to build their own chips, we
+have an extremely strong graphics IP portfolio as I mentioned earlier on thousands
+of pounds and extremely good cause as well. So we can address that market that
+way. So that's vertically integrated OEM one obvious market. Then there is -- there
+are new markets set-top boxes or smart TVs that we just don't have the resources to
+go after. But other companies could really beneﬁt from stronger --
+Do you have any marquee clients that you started this with or it's test on the comp?
+{BIO 18934997 <GO>}
+Yes. It's -- no is the short answer. And don't expect us to announce any necessarily
+soon, because it depends on what the customers would want to do. So if we get a
+client today, would they want to say, oh, we're going to be a client on NVIDIA, I think
+the answer is probably no. I probably want to keep that to themselves and so we're
+ready to launch, because I would like to think that they would see that as a
+competitive advantage for the devices that we're producing the GPU, with the
+weight is on the GPU. So you might not see it. So if you -- if we have a customer
+tomorrow that license the chip, the code, they would then build a chip with that
+code, they would then take that chip, put it into device and bring that device to
+market. So it could be two years before even if I will ask someone tomorrow it could
+be raising (inaudible) it could be two years before you hear about that.FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 15Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Rick Schafer
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris EvendenIs it likely to be similar model to imagination like $0.30 -- I forgot what they're at like
+$0.30 a chip or something and also are there upfront license fees, similar to like
+ARM?
+{BIO 18934997 <GO>}
+I wouldn't want to talk about the model. I mean, I did allude to that there in a
+previous conversation with Rick when I mentioned, I think we can command a
+premium because we can save you money at the foundry. So there's a way to (mint)
+more money as a result of that.
+{BIO 4188965 <GO>}
+(For a) royalty kind of thing, license royalty kind of thing?
+{BIO 18934997 <GO>}
+Yes, most likely, I mean. Again, it depends on the business and ﬁnancial license, that
+customer wants and what we think over the price.
+(inaudible; microphone inaccessible).
+{BIO 18934997 <GO>}
+So the workstation business is -- the question was, what's the workstation business
+growing at? The workstation business is showing some strong growth in the last
+couple of quarters. We have -- I guess I mentioned this earlier, we have 82% market
+share according to IDC. But we estimate that we have over 90% dollar share. So it's
+diﬃcult to grow that business without growing the whole market and we have a
+number of initiatives in place like Maximus to grow the market GRID actually, grow
+the market both where if you have VCA and VGX. And outside of that, the market
+data is fairly promising. 80% of our revenues are driven by manufacturing. PMI data
+is good, auto manufacturing data is good. So we'll see how that goes.
+So on the GRID point, we announced this year that we're supported natively in
+XenDesktop 7. So that means anyone who is considering a Citrix implementation
+today can also look at the eﬀect of that in GPUs to their hardware and see if that
+beneﬁts them. So it's now much easier. Again, it becomes a self-supporting initiative
+now because the software supported automatically, we've been working with a
+bunch of the Citrix (stars) and so we have 150 trials in place and there are I think 12
+dozen VARs working on active engagements. Again, it's a longer-term thing because
+a typical IT project implementation is a 12-month to 24-month proposition. But again,
+early indicators are pretty good. The VMware Show is later this month I think actually
+and so we're working very closely with them as well to get it and supported it
+natively the way it supported natively in Citrix. So that's another growth initiative for
+the Quadro there.FINAL TRANSCRIPT 2013-08-14
+NVIDIA Corp (NVDA US Equity)
+Page 15 of 15Q - Rick Schafer
+A - Chris Evenden
+Q - Rick Schafer
+A - Chris Evenden{BIO 4188965 <GO>}
+Great. That's perfect time right there. So thanks a lot Chris for coming.
+{BIO 18934997 <GO>}
+Okay. Thanks.
+{BIO 4188965 <GO>}
+Thanks for giving us the time. Appreciate it.
+{BIO 18934997 <GO>}
+Thanks, Rick.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

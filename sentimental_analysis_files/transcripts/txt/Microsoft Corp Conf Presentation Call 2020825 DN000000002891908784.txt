@@ -1,0 +1,711 @@
+FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 1 of 16, General Manager, Investor Relations
+, Analyst, BMO Capital Markets
+Keith Bachman
+Michael Spencer
+Q - Keith Bachman
+A - Michael SpencerBMO Virtual Technology Summit
+Company Participants
+Michael Spencer
+Other Participants
+Keith Bachman
+Presentation
+{BIO 3018411 <GO>}
+Okay. I think we're live here again. This is Keith Bachman from BMO. We are thrilled
+to have Microsoft here, Mike Spencer who's joined us today. Some of you may have
+participate already in some one-on-one or group sessions, but this is our formal
+ﬁreside chat. So, Mike, thanks very much for agreeing to participate.
+{BIO 20838577 <GO>}
+Yeah.
+Questions And Answers
+{BIO 3018411 <GO>}
+I'm going to just -- I'm going to jump on mostly vertical or industry business unit
+speciﬁc questions, but I wanted to ask one question that comes up at an industry
+level before we jump into the business unit segments, and that is the edge. Microsoft
+I think was the ﬁrst to talk about the intelligent edge, some other companies like
+frankly Fortinet has jumped on this a little bit. But why don't you give us some
+backdrop on why you talk about the intelligent edge? What it really means from an
+architectural perspective and how you think it beneﬁts Microsoft or threatens
+Microsoft?
+{BIO 20838577 <GO>}
+Yeah, it's a great question, Keith. Thanks. And thanks for having me. I would say, the
+edge and what you've heard from Satya and Amy over the past several years, as you
+highlighted Satya has been talking about this for, gosh, going on probably three
+years now. We constantly refer it as intelligent edge and intelligent cloud. And what
+Satya really means by that when he brings that phrase up is the notion that we're
+moving into a world where we believe most things will be cloud-based, most
+interactions you have with a database or customer service structure or how your
+company operates, et cetera, but more and more of that computing interaction isFINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 2 of 16Q - Keith Bachman
+A - Michael Spencergoing to be pushed to the edge. Historically, it would have been running on a server
+or via the web, but more and more it's moving to mobile devices, it's moving into
+your thermostat in your house, it's moving to centers on a manufacturing line, it's
+moving to a device like HoloLens that allows remote oversight from a technical
+standpoint.
+And so as more of that compute gets pushed to the edge, that's going to actually
+result in several things. One is, it's more distributed architecture of where the
+compute is taking place and you'll see a continued shift over time, where folks are
+going to demand more and more at the edge of responsiveness. That leaves the
+things like our Cosmos DB, it's distributed database architecture where it replicates it
+on a more localized basis, so it's closer to the edge, where it's being accessed. It
+means more and more sensors and edge-type devices that lead to a higher amount
+of data collection, which obviously has a whole set of positive implications
+associated with it and things like machine learning and artiﬁcial intelligence, et
+cetera, as well as more and more compute just in your hand. So, you think about
+your phone and just the evolution of your phones. You can use -- you can basically
+run almost your entire productivity stack directly from your phone these days.
+Obviously, there's always going to be a role for PCs and whatnot, but more and
+more you're going to see that architecture get distributed across that what we refer
+to it as intelligent edge. And so you'll see us focus on that as our customers really --
+it's a -- it's the end of how their business is going to operate in the future. And so
+how we serve that reduction of latency, the ability to push power to that edge and
+then harnessing that data is going to be critical as we move forward.
+{BIO 3018411 <GO>}
+Okay, okay. Okay. Well, that's probably a good segue into PBV. I'm going to go
+business unit by business unit. And one of the things you and I've discussed over the
+last couple of years is a small line item called Oﬃce and Oﬃce 365, in particular. And
+I want to jump to this past quarter, in that growth slowed pretty materially, and this is
+Oﬃce 365 commercial, 22% year-over-year growth, constant currency, seat growth
+was kind of 15% versus 20% the last -- 20% percent the last four quarters. Now, some
+of that was the transactional part of the business. But talk a little bit about what
+happened in the quarter and more importantly what the runway is you see over the
+next 12 months as an opportunity set for Microsoft? The economy is a little bit tough
+as you think about integrating economy in your questions, but talk a little bit about
+Oﬃce 365 commercial, in particular.
+{BIO 20838577 <GO>}
+Yeah, for sure. So, I will give you a couple of diﬀerent angles to look at. First, let's talk
+about the seats dynamic because that's probably where you saw the -- quote-
+unquote, the slowdown more than any other part of the business. And within the
+seats slowdown, we actually were pretty direct about drivers of that more so than we
+had in obviously previous quarters, given just the moderate slowdown that we've
+seen in previous quarters. But within the quarter, we had a number of factors that
+were more -- that stuck out more than we've seen previously. First and foremost, with
+the introduction of COVID back in March, we actually launched a trial, an E1 trial that
+really saw broad adoption, much stronger adoption than we anticipated. And so, we
+had a number of customers, especially lower tier customers opt into the trial, whichFINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 3 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachmansome portion of those would have been purchasers in the past. And so, it was a six-
+month trial. The trial ended as of July 1st. And so, we did a great job now of ﬁlling the
+top of the funnel in Q4. Those are not counted in the seats. It's now our job to
+convert those into paid users. And so, that's your ﬁrst dynamic.
+Second is going to be SMB. We did see, just like we saw in the transactional side or
+the on-premise side of the business, we did see some transactional slowdown in
+Oﬃce 365 purchasing in SMB. And so, that was an impacting factor. And then third is
+ﬁrst-line workers. And so, not surprisingly, in this environment where customers are
+looking at furloughed workers, maybe they've shuttered some retail stores for
+example that you see enterprise customers slowing down maybe on coverage of
+some of their ﬁrst-line workers, in some cases, because they have lower ﬁrst-line
+workers than they had previously. That's much more of a new seat statement than it
+is existing seats turning up, but something that did factor into the seats in the
+quarter.
+That all said, some of that was more near-term COVID-related, so that will ﬂush itself
+out and normalize as you move forward. That's baked into the guidance in Q1. But
+more importantly is ARPU remains strong, so that variance between revenue growth
+of 22% what you called out and seat growth of 15% gives you roughly a 7% growth
+on ARPU, the implied ARPU, if you will, which has been pretty consistent with
+previous quarters. That spread over the last four quarters has been in that 7% to 9%
+range. And so, we're super-pleased a big driver there or that we've been continuing
+to monitor closely and see good momentum in the market has not only continued to
+upsell the E3 or into E3, folks coming into the equation, but also E5 upsell is starting
+to take hold. We called that out in our Q3 or our March quarter and we saw that
+momentum continue into Q4 and that will become a material factor as we move
+forward as well.
+So, in general, I think expectations as we move forward is, if you expect continued
+seat growth, although continued moderation like we have been seeing, and then
+more importantly ARPU starts to become a bigger mix of the equation. And we feel
+very good about the momentum we have there. And so, the formula is intact. We're
+just going to see the dimensions of it change a little bit.
+{BIO 3018411 <GO>}
+And so, just before we get to ARPU, on the seat growth, is the thesis there if the
+economic conditions improve then your seat growth improves, but given the current
+economic environment, the seat growth probably remains just mid-teens? Is that
+how we should be thinking about it or is that the wrong calibration?
+{BIO 20838577 <GO>}
+I think that's relatively in the right ballpark. The thing I would tell you, obviously, we
+don't guide on speciﬁc numbers on growth, but the biggest factor that I called out,
+the number one factor there is the trials dynamic.
+{BIO 3018411 <GO>}FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 4 of 16A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael SpencerYeah.
+{BIO 20838577 <GO>}
+Obviously, that's gone because we ended the trial as of July 1st.
+{BIO 3018411 <GO>}
+Exactly.
+{BIO 20838577 <GO>}
+You could kind of remove that factor from the table, but I do think some of the SMB
+dimensions that we're seeing as well as -- around ﬁrst-line workers, those are trends
+that are more to the broader environment. So, I wouldn't expect those to change.
+{BIO 3018411 <GO>}
+Okay. Okay. Well, let's shift to mix for a second. And the way I think about it is, there's
+two diﬀerent dimensions. One is within Oﬃce 365. You have two E3 and then two E5.
+That's one dimension. And then there's also to Microsoft 365, which is another pull
+up. But maybe just remind me what the diﬀerence between Oﬃce 365 and Microsoft
+365, but then let's talk about what the ARPU opportunity is. You talked about seven
+points, is that -- it sounds like that remains kind of a way to think about the model
+over the next 12 months, but maybe talk about those two aspects, Oﬃce 365 and
+Microsoft 365.
+{BIO 20838577 <GO>}
+Yeah. So, from a deﬁnition standpoint -- and I would encourage folks if they haven't --
+we do have some SKU maps available on our website at Oﬃce 365 and Microsoft
+365, and you can lay them out pretty clearly. But in short, the way to think about it is,
+Oﬃce 365 is going to be your core workloads that everyone I think has grown to
+know and love. So, E1, which is more Exchange Online base, E3, which is your suite
+with Oﬃce, and then E5, which brings you up to telephony and security and things
+like that.
+As you move across the stack to Microsoft 365, the two components that are added
+are Windows and then EMS. EMS is our enterprise and mobility and security suite.
+There's an E3 and then an premium version of E5 there. EMS has been around for a
+while. And so, the stickiness and the go-to-market is very mature in attached Oﬃce
+365. Windows is the newest of the equation, relatively newest of the equation. And
+Windows E3 gives you Windows Enterprise. So, think about a commercial customer
+who goes out and buys a PC and then wants to put Windows Enterprise on their
+machine. They'll buy a Windows Pro machine and then their IT department will
+upgrade that to Windows Enterprise, which gives them the IT overlay control
+structure associated with Windows. And then, when you move up the stack on
+Windows E5, that brings in the security layers of threat protection on Windows. And
+so, you're right, there's kind of two vectors to think about. There's vertically up the
+stack within Oﬃce 365, E1, E3 to E5, and then there's horizontal and vertical, so
+across the stack to Microsoft 365 E3 and then up to Microsoft 365 E5.FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 5 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael SpencerI would tell you two diﬀerent things that we're seeing in the market. One is in this
+environment, teams and security have really pushed the momentum that we're
+seeing on the E5 side of things. Folks moving to the softphone associated with our
+Cloud PBX and Teams oﬀering as well as security resonating more now than maybe
+it ever has been. That's been our lead dog on E5 for a while. But in this environment,
+it's becoming more and more to the forefront of the dialogue. The second thing, I
+would say, our hero motion has evolved. Over time, if you go back in history, our
+original hero motion was E1. So, customers who move into exchange online and they
+still maintain Oﬃce on-premise, that evolved to being Oﬃce 365 E3 to today where
+it's customers who are now coming into Oﬃce 365 really are going to Microsoft 365
+E3, and that's really become the hero motion.
+For clarity purposes, what's important to understand is that the revenue associated
+with Windows and the revenue associated with EMS will land in their respective
+units. So, Windows portion of Microsoft 365 will land in Windows commercial and
+EMS will land inside Azure. That's a SaaS portion of Azure. So, that's the important
+aspect to understand. So, we see good momentum, but where it surfaces is the
+ARPU story within Oﬃce 365 that we just talked about will only surface part of the
+dialogue versus a broader horizontal play that gets you into Microsoft 365.
+{BIO 3018411 <GO>}
+Have you said what your penetration trade on Oﬃce 365 E3 versus E5?
+{BIO 20838577 <GO>}
+We haven't. The last stat we gave Keith was a few years back now, we said over 60%
+were on premium. That could be E3, that could be E5, that could be E1 plus Oﬃce
+Online. But we are -- we've gotten a lot of feedback on that. And so, we're
+investigating how we might update a stat there, but I don't have anything new to
+share.
+{BIO 3018411 <GO>}
+Okay. You also oﬀer bundles. If you buy E3, you can also buy separately the security
+bundle. Right? So, you have speciﬁc SKUs. What are you getting more traction? And
+are people in this environment moving more just saying, we're on E5, it's just more
+aggressive momentum, or are you actually ﬁnding people buying the individuals
+SKUs?
+{BIO 20838577 <GO>}
+Yeah. That's a great question. So, the journey that we've been on is with E5 is earlier
+on, it was much more standalone speciﬁc SKU. So, think about advanced threat
+protection being a solid seller, audio conferencing being a solid seller. So, it was very
+one-oﬀ speciﬁc workloads. About a year and change ago, so 16 months ago, let's call
+it, 15, 16 months ago, we introduced a security bundle and a compliance bundle,
+both around $8 -- $8 or $9, I can't remember the exact price. But -- and that was
+intended to capture the value of the security structure and the compliance structure
+within E5. We started to see good success there. And then (Technical Diﬃculty) E5,
+you really had to believe in two plus workloads in E5.FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 6 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith BachmanAnd so, we weren't quite there from tipping the scale to the full suite sale. And
+what's changed is Teams really has brought telephony to the forefront. So, now, we
+have telephony hunting along with security and compliance. And so, if you're a
+believer in two out of those three now, that's enough to tip the overall scale. And
+keep in mind, a number of customers were already believers in Power BI. That tends
+to be a little bit more of a departmental sale than a broad coverage play, but the
+other two tend to be more coverage plays. And so, that's really led to the success
+over the past six months that we talked about in the last couple earnings calls of the
+full E5 suite sale now being more to the forefront versus standalone workloads or
+components.
+{BIO 3018411 <GO>}
+Yeah. I mean, one of the questions we often get is how does Microsoft monetize
+Teams. And the way I think about it is, the heavy force or gravity to take you that E5
+bundle. Is that the right way to think about it?
+{BIO 20838577 <GO>}
+It is. And that's certainly the most direct way that we'll monetize it. And what's
+important to understand about the dimension -- of what we're seeing in the Teams
+usage is a couple of fold. One is, we saw good early adoption of audio conferencing,
+which I mentioned earlier, but more and more what we're seeing in this remote
+environment is customers wanting to take advantage of the softphone within Teams.
+But that's coming on the heels of a change that we made, it's about a year and a half
+ago now, where we introduced kind of what's called Bring Your Own Trunk. So, most
+of our enterprise customers, as you know, have legacy relationships with the AT&Ts
+and the Oranges of the world. And they have very good deals usually from a PSTN
+oﬀering standpoint business. And everyone knows that the minutes is a very
+commoditized business. We oﬀer a minutes package that folks can add on to E5, but
+it's not something that is going to be a high-margin, lucrative business for us. And so,
+9 times out of 10, most of our enterprise customer base can get better deals directly
+with the telcos than they can with us on those minutes. And so, the notion of they
+can bring their own trunk to the E5 oﬀering and then take advantage of the Cloud
+PBX and softphone oﬀering within E5 really is what's pushed us to the forefront.
+That's not going to stop folks like our RingCentral, for example, an 8x8 or others, that
+would oﬀer their own softphone structure on top of it with a broader minutes
+package using our public APIs. But we do see more and more customers seeing the
+viral eﬀect of Teams take place and saying, wow, I can really take advantage of this
+now, I'll take advantage of the softphone oﬀering to make it a fully encompassed
+best user experience they can get out of Teams, which has really led to the
+momentum.
+{BIO 3018411 <GO>}
+Okay. Yeah. Teams is certainly getting a lot of traction, I mentioned to you in the pre
+call that BMO just standardized on Teams. So, we're certainly pushing forward it.
+Staying within PBV, my favorite is actually Dynamics. The way -- the comment I've
+made you in the past is I still think Microsoft is underserved by Dynamics. And the
+reason I draw that conclusion is it's, call it, 3% of Microsoft's revenues and 3% market
+share and market serve. And so, that's -- in my mind, that's not good enough. Right?FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 7 of 16A - Michael SpencerBecause it's Microsoft and you should be doing more. So, how do you think about --
+Satya still brings it up a lot a on the conference calls, but how does Dynamics
+become more relevant?
+{BIO 20838577 <GO>}
+That's a great question, Keith. And I appreciate it. We -- I would say, a couple things
+and then I could talk about the strategy of D365 speciﬁcally. So, Dynamics business
+has shown a very steady growth over the past couple of years. We just passed $3
+billion in FY '20. And more importantly, D365 is the majority of that revenue now and
+growing at a pretty healthy clip. Last quarter, I think it was 42% or something, almost
+38%, but close to 40% growth. And we feel very good about the momentum there.
+And for core SaaS business, being in attached motion, if you will, or an expansion
+motion beyond the core SaaS oﬀerings we just spend time talking about, there's a
+natural path to penetration inside the enterprise space.
+I would say a couple of things about how you think about the go-to-market and
+strategy around D365, given the level of excitement we have you hear from Satya
+because he talks about it so much on the biz app space. We're obviously in the CRM
+online business. We go against a pretty formidable opponent there. That's got a lot
+of incumbency in most of our enterprise customers. But we have had our share of
+wins against them. But it's -- you're in a battle every single time when you go head-
+to-head with them. But we're still really focused on that as a core growth aspect of
+the business.
+The second thing though is we don't need to land the CRM online socket to be able
+to land a broader D365 functional structure. Meaning, we can surround a competitor
+oﬀering within a customer with our ﬁnance and operations, our HR for talent, our
+marketing line of business applications and start to expand the footprint of
+Dynamics 365 in our customer base. And that's led to the success there as well. And
+then the last piece -- and that's only growing by the way, as customers look to really
+push their, quote-unquote, digital transformation. I don't necessarily love that term
+because it's so broad. Customers look to automate the various lines within their
+structure. Those functional apps become super important.
+And then the last piece is Power platform. And speciﬁcally within that, if you think
+about Power Apps, Power Automate, which is your RPA structure as well as Power
+Virtual Agent, which is a customer service automation, those are all your low code,
+no code environment that close up in the D365. And we're super nascent in that
+market still, but it's growing rapidly. And we're seeing a number of smaller
+companies pop-up in that arena. But as customers really start to push the envelope
+on what they're, quote-unquote, transforming, to use that term again, you're seeing a
+reliance more on non-developers being able to carry some of that water, given the
+shortage of developers as they migrate their all workloads to public cloud. So, we're
+super excited about this space, where we have seen success in customers like
+Chevron. It's gone viral very quickly. And so, you can see the building blocks there,
+this land and expand motion on a SaaS-based oﬀering of D365 and we feel like
+we've got the tenants in place and now it's about execution and serving our
+customers there.FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 8 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman{BIO 3018411 <GO>}
+What's the distribution between SFA or Salesforce automation versus the rest, which
+is HR and the accounting -- or the ﬁnancial and accounting rather, what's the
+diﬀerence between those two broad buckets?
+{BIO 20838577 <GO>}
+Diﬀerence from a mix standpoint?
+{BIO 3018411 <GO>}
+Yeah. Mix. Exactly.
+{BIO 20838577 <GO>}
+Yeah. We haven't disclosed, so I can't really give you a lot of color on it. What I can
+tell you though is that those two buckets versus Power platform are the majority of
+D365.
+{BIO 3018411 <GO>}
+Okay. And who do you compete most against because when you say Chevron, that's
+not what I would have thought for the other category, forgetting SFA for a second, I
+would have thought it had been mostly SMB?
+{BIO 20838577 <GO>}
+When you say -- sorry. Maybe we mixed apples and oranges. When you say
+compete, you're talking about within the functional applications?
+{BIO 3018411 <GO>}
+Yeah. Within the applications of HR, F&A, marketing, those activities. I would have
+thought that would have been mostly SMB aligned.
+{BIO 20838577 <GO>}
+Yeah. They're going to be -- well, no they're going to be I would say more mid-
+market and upper market where you're going to see those because usually they're
+based on being able to integrate broader solutions across those functions or
+broader processes across those functions. And so, they're not really SMB targeted.
+And they're not priced to be SMB targeted really. And so, that's when I look at it, it's
+the land and expand motion of surrounding somebody like a CRM and then going
+after those line of business functions to automate processes that integrate with your
+CRM structure.
+{BIO 3018411 <GO>}
+Okay. Maybe we'll end on M&A and come back to this for a second, but we'll
+migrate on to the IC segment. Let's talk about Azure. I think there was a little bit of
+disappointment on the last quarter, although, how industrial expectations shapeFINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 9 of 16A - Michael Spenceraround, that's always interesting. But maybe just talk about the components of
+growth on Azure that you want to remind us, particularly when you dissect
+consumption-based models versus user-based models? And how those dynamics,
+for a lack of better word, play out in helping us think about the growth potential
+there?
+{BIO 20838577 <GO>}
+Sure. So, I hear you and we heard the feedback loud and clear on the level of
+anticipation, if you will, on Azure. We've been reminding folks that we came in
+actually where we expected in Q4. We're pleased. We actually had slightly more FX
+headwinds in Q4 than we had originally guided. And so, that factored in a little bit to
+it. But in general, the components that we've been talking about for a while are also
+very intact on that business from a growth standpoint. So, ﬁrst, obviously, the SaaS
+business continues to moderate. You can see that in the seats number that we
+provide. Seats growth in the quarter was 30 -- low 30%-ish range. And you can look
+at the SKU prices. I mean, EMS E3 SKU is just under $9, you can use enterprise
+discount. And so, I can encourage folks to do the math of what the P times SKU looks
+like there. And you can see that piece of the business moderating. And so, that was a
+material driver in that slowdown in Q4. And Q4 always is a seasonal heavy period
+from an EMS standpoint. So, no surprises there.
+And then, on the IaaS and PaaS side of the business, we did see a few things, I would
+say, in Q4 that will carry forward, but peaked in -- we think peaked a little bit in Q4,
+which obviously then gives you the implied guide for Q1. So, ﬁrst and foremost, we
+saw -- we did see slowdown in impacted industries when it comes to IaaS and PaaS,
+so think hospitality and travel, things like that. Second thing is we see -- we saw
+optimization within the customer base more than we might have normally historically
+seen. Optimization is always a core tenant of when customers migrate to public
+cloud. One of the ﬁrst steps they'll take within workload and they move it over is
+reﬁning that workload, ﬁnd things like reserved instances and things like that. We
+saw a bit more of that in Q4. And so, we expect that to continue because it's an easy
+way for customers to ensure they're getting the most bang for their dollar, if you will,
+of what they're buying on IaaS and Pass.
+And the last piece is, we did see some ebb and ﬂow of customers in some cases
+accelerating their migration to public cloud. In other cases, looking at it and
+prioritizing workloads and saying, hey, maybe moving my ERP system to use an
+example at this particular point might introduce a little bit more risk than I have
+appetite for given all the other moving parts I have. And so, there was a little bit of
+that that occurred in Q4 as well. But again, all within line of expectations. Keep in
+mind that when we provided guidance for Q4, we were already at the end of April.
+And we were already, what, at that point, six weeks into kind of that COVID dynamic.
+And so, things largely played out the way we expected.
+The big thing in Q4 that was a surprise, but a pleasant surprise, which we
+highlighted, but didn't show up in revenue in Q4 was that sales were actually
+stronger than we anticipated. If you go back to the April dialogue, we actually
+anticipated a slowdown in larger longer-term Azure deals. We expected customers
+maybe to hold back a little bit on their commitment. We actually saw the opposite.FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 10 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael SpencerWe saw customers actually push harder. And so, the larger longer-term
+commitments to Azure are really showed up and you can see that in the RPO that
+came through in Q4, long-term RPO speciﬁcally being higher growth rates than
+short-term RPO. And so, that's an important aspect to keep in mind as you think
+about that IaaS and PaaS equation. Overall, customer commitment never wavered
+and actually increased during the quarter, which is a great sign.
+Moving forward, Keith, to the second half of your question. The guide for Q4 implies
+kind of that mid -- lower to mid growth percentage on Azure, depending on what
+you want to believe on the other components. And -- but a lot of the trends that we
+talk about are going to be very consistent. So, the SaaS slowdown that we just talked
+about, the optimization phase that we see, some of the trends around impacted
+industries, et cetera, that's all baked into that guidance. And so, we feel pretty good
+about the momentum going forward and the continued growth, especially on the
+consumption side of the business.
+{BIO 3018411 <GO>}
+What we found helpful too is we benchmark AWS growth to Azure growth at the
+same point in time of revenues and then we track the growth rates, if you will, and
+that's been actually a pretty good proxy for what it obviously comes down to is
+frankly some large numbers that impacts growth. With that, let's just talk a little bit
+about the competition that you're seeing between AWS and perhaps Google. What
+are you seeing in terms of, A, workloads? In other words, where is it more natural for
+workloads to migrate to? And then, B, pricing?
+{BIO 20838577 <GO>}
+Yeah. So, great question. I would say, largely at a macro level on the competitive
+landscape, not a whole lot has changed. We see AWS everywhere. We go head-to-
+head with them on pretty much every deal. And, obviously, GCP has popped up a bit
+more over the past few months and they've been a bit more targeted. Obviously,
+their lever is to really go after price and we've seen that. We also tend to see GCP
+and AWS go head-to-head a bit more in kind of heavier DevOps environments, so
+think Silicon Valley startup type environment.
+{BIO 3018411 <GO>}
+So, Azure and GCP compete more for that DevOps?
+{BIO 20838577 <GO>}
+We try, and we've been really focused on trying to push into that, but we see more
+AWS and GCP go head-to-head in that space than us. I would say, to the point
+though, around kind of speciﬁcs of workloads, I would actually pivot it a bit more to
+be a bit more industry-focused, and we talked a little bit about workloads. But,
+obviously, we've had a lot of success in areas like retail is a good example. You've
+seen Google actually talk about some of these in the retail space as well versus I
+think AWS and a lot of success they've seen in what they've called out on some of
+their public acknowledgements is extensions and legacy business growing and
+extending into the future. And that just speaks to the lead that they've had in theFINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 11 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencermarket as being the ﬁrst out of the gate. And so, you're seeing that beneﬁt carryover,
+I would say, more than anything.
+As you look forward, we've been very vocal about our oﬀerings around things like
+data services. We are super optimistic there about our database oﬀerings and a lot
+of what we have going on with like Cosmos DB and some of our quantum
+computing oﬀerings within that. And we think a lot of our AI functionality is really
+starting to come into the fold. We've announced a lot of enhancements around with
+things like agriculture, or oil and gas, we're really focused on development around
+that, those AI functionalities. And so, you'll continue to see that. And then the last
+piece, and you've seen this in the press a little bit as well. We've passed every
+security clearance needed to go after the most classiﬁed structure within the US
+government. And that's obviously led to a lot of dialogue in the governmental space
+across the geographic landscape. And so, we're optimistic there. And so, moving
+forward from a sales standpoint, we've been hyper-focused on really putting
+technical solutions, sales specialists as well as vertical solutions sales specialists out
+in the market. And you're seeing that come through in a lot of what I just described.
+{BIO 3018411 <GO>}
+Okay. When you mentioned government, I want to ask you about the JEDI contract,
+but I think I'll skip that since I'm not sure what you can say.
+{BIO 20838577 <GO>}
+I don't have much to say. You guys all read the press like I do.
+{BIO 3018411 <GO>}
+Satya on the last call said, Azure is the only cloud with limitless data and analytics. So,
+he was trying to highlight the capabilities that he sees in those areas. What's the
+message there? And if Satya highlights something to such extent, there's a reason
+for it. I would think in particular with Google on the data side or the analytics side,
+that's where they take a lot of pride in having extreme great capabilities. So, what do
+you think the aggregate portfolio of Microsoft has suggests competitive advantage
+in data and analytics on Azure?
+{BIO 20838577 <GO>}
+Yeah. I mean, obviously, we have a legacy on database infrastructure with our
+oﬀering with SQL that we feel very good about from a competitive landscape
+standpoint and there's a natural transition for that into Azure. And so, from that
+standpoint, we feel very good about our competitive positioning. You are right to
+highlight that the GCP is very formidable in this area and they get market
+recognition for that. In general, though, I would say that a lot of what you're seeing in
+our data oﬀerings, especially around our Quantum oﬀering within Azure, you're
+going to see more and more push from the customer base to really go after large
+sets of data that they have either locked on-premise or are in the process of building
+and aggregating.FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 12 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith BachmanRight now, to circle back to the ﬁrst question you asked today, Keith, around
+intelligent edge, the amount of data and volume coming in now for our customer
+base is larger than anything they've ever experienced in the past, just because it's
+coming from every which way. Just think about the remote environment. The amount
+of data and interaction points that you and I are now interfacing with, either at home
+or on the road because we're not in the oﬃce is growing exponentially. And so,
+when Satya talks about limitless data, he's really talking about the ability for
+customers to harness the insights and the power of what that data can actually
+provide and be able to use that to their advantage.
+And so, Azure being able to help them achieve that is really the goal at the end of
+the day with our oﬀering sets. And you can kind of go across the structure on things
+like Azure Arc, which allows you to give you visibility across your entire portfolio,
+both on-premise as well as in the cloud. Data is obviously core architecture of that.
+Your ability to go to utilize AI and harness all of that data at the core of anything that
+is going to be success from an AI standpoint is going to be data. And so, until you
+solve that equation, everything else kind of becomes a second point, if you will, that
+is really going to limit you unless you can go after that. And so, that's why you're
+hearing Satya leaning to it.
+{BIO 3018411 <GO>}
+Okay. So, Microsoft talks also a lot about security, and there's a number of diﬀerent
+points on this. But is security part of your competitive advantage as it relates to Azure
+speciﬁcally or is it broader than that and doesn't really orient around Azure?
+{BIO 20838577 <GO>}
+Well, I mean, it is obviously a core component of Azure. Things like Azure Sentinel,
+for example, is a core oﬀering that we've been super aggressive about, but security
+is a much broader play. And we've been very vocal about our oﬀerings across the
+security market and there's kind of several diﬀerent aspects that I can give you. First,
+obviously, is identity sockets, so for us that's Azure Active Directory, that's we have to
+compete. It's going to be the ﬁrst core tenant. Then you can move into things like
+threat protection becomes super important, the ability to go after folks like
+Proofpoint, et cetera, to detect and manage endpoints, detect threats that may be
+coming in from all sorts of angles, and in this environment, to the point of again
+circling back to intelligent edge, in this environment, that's a super important aspect.
+The third thing is going to be -- is going to focus around cloud security. So, like I said
+earlier, Azure Sentinel, on the overall security of what your cloud estate is and what
+that looks like becomes a critical aspect. And then the last piece is going to be
+around your overall estate on the productivity side of things, so security built into the
+existing applications. And so, we've been hyper-focused on that as well. And so, in
+general, I would say, security is a very broad play for us. EMS is the lead security
+oﬀering. We talked about it on the SaaS side of things, but it's also embedded in the
+Azure oﬀerings as well with speciﬁc security services like Azure Sentinel.
+{BIO 3018411 <GO>}FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 13 of 16A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael SpencerOkay, okay. Fair enough. Let's shift gears a little bit to commercial cloud gross
+margins. Last quarter, I think they were plus 1 to 66. And Amy, I think, suggested that
+gross margin will continue to expand, but maybe the pace will slow, given some of
+the mixed issues. But walk through one of those mixed issues and if you're at liberty,
+not only this next quarter, but the quarter thereafter, how should investors think
+about commercial cloud gross margins?
+{BIO 20838577 <GO>}
+Yeah. Great, question. I would say, ﬁrst and foremost, just on some basics, it's
+important, obviously, whenever you're looking at these numbers to normalize for the
+useful life change, that was an accounting change.
+{BIO 3018411 <GO>}
+Yeah, yeah. I'm trying to take that out of --
+{BIO 20838577 <GO>}
+Yeah. And so, your point -- your question obviously takes that out, for the broader
+audience, that's important to make sure they understand. The second thing I would
+say is that there were some anomalies with the Teams usage in Q4 that it's important
+for folks to understand because we've gotten a number of questions around Oﬃce
+365 margins. And it's important to understand that the beauty of our network
+architecture is that when we do have usage increase on a speciﬁc product, it's kind
+of a half inﬂated tyre structure, where Azure will beneﬁt because we are able to,
+quote-unquote, allocate usage or capacity for Teams to utilize, but then it's charged,
+obviously, to the Teams P&L or the Oﬃce 365 P&L. And so, there is some ebb and
+ﬂow there. That's why to your question, commercial cloud gross margin is the best
+metric to look at.
+Within that, you have several factors. One is, we continue to improve across the SaaS
+services, although we have started to reach a steady state -- closer to a steady state
+where incremental improvement in those businesses will become smaller as we
+move forward. In the case of 365, in the quarter, it actually was down quarter-on-
+quarter. And so, that's important to understand. On the IaaS and PaaS though, more
+importantly, we continue to make material improvements on the Azure business, and
+we expect that to continue. But as overall mix shift towards IaaS and PaaS takes
+place, that's going to put additional downward pressure, if you will, on the
+commercial cloud gross margins. So, as you heard Amy talk about, we do expect
+continued improvement, but at a moderated pace as we look forward.
+{BIO 3018411 <GO>}
+Right. But when she was talking about continued improvement, it wasn't just this next
+quarter, it was the longer-term opportunity, not just because the 67 or whatever it is,
+but it is a longer term opportunity.
+{BIO 20838577 <GO>}
+Yeah.FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 14 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencer{BIO 3018411 <GO>}
+Okay. And by the way, the change in depreciation schedule, I'd like to -- not very
+excited about that one.
+{BIO 20838577 <GO>}
+Yes. I hear you.
+{BIO 3018411 <GO>}
+But maybe I want to jump to M&A -- go back to M&A. And my orientation is less
+around the consumer activities, such as TikTok, but more something we've talked
+about over the years is say in the applications or the business application side, in
+particular. Is there -- is that an area that -- Satya has mentioned a couple of diﬀerent
+times that he wants to nurture that business, is that still something that should be
+under consideration, say, for perhaps inorganic help to help drive incremental
+business there?
+{BIO 20838577 <GO>}
+I mean, obviously, I can't comment on anything speciﬁc. I would say, more broadly
+though that there's not a single business inside Microsoft, where there's not always
+an evergreen or constant dialogue around both organic and inorganic options to
+help grow that business from a strategy standpoint and in biz apps the dynamics is
+little diﬀerent. So, I wouldn't -- I would never say never, but obviously the pieces have
+to be there. As you know, from an M&A standpoint, valuation is only one component
+but a very important component of how we look at M&A. And the others being even
+in a growing market, can we be better owner? Is it a good ﬁt culturally? And if we can
+check the boxes and all those and then valuation makes sense, we're always
+exploring it. And so, I would never say anything is oﬀ the table, but obviously I can't
+be more speciﬁc.
+{BIO 3018411 <GO>}
+Okay. Let's shift to MPC. Excuse me. I'm actually going to jump to gaming. And you
+have some console launches. Our thesis was that the new console launches that are
+going on probably aren't a huge catalyst for the stock or the revenue proﬁle, given
+that games are going to be backwards compatible and so you don't necessarily
+need to upgrade. In addition, some of the games, Halo may have diﬀerent time
+trends, but how do you think investors should be thinking about the console as a
+potential driver of business within the framework of gaming? And then I have a
+follow-up.
+{BIO 20838577 <GO>}
+I think if you look at previous launch trends around the console cycles for us, I think
+that's a good benchmark. I think there's two things to think about when it comes to
+the upcoming console launch. One is for folks that have -- we've seen a good -- and
+we highlighted this. During this current crisis, console sales have actually been
+stronger than anything we anticipated. So, we're going to enter the console launchFINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 15 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith Bachman
+A - Michael Spencercycle this upcoming holiday period with a leaner inventory than we had on previous
+cycles. So, that will help. But keep in mind, most of the folks that are going to
+upgrade, there's going to be kind of two camps of those folks that are going to
+upgrade. One are folks that just want the latest and greatest, that's a smaller portion
+of our audience. And then second folks who have been still on Oﬃce -- Xbox 360
+versus moving to Xbox One. And so, there's still a sizable number of folks out there
+on that console. So, those are going to be your two primary drivers. In general, what I
+have to say is one of the things that will be a key dimension of this upcoming cycle
+will be the momentum we have around Game Pass and the launch of xCloud.
+{BIO 3018411 <GO>}
+Yeah. That was my next question. Yeah.
+{BIO 20838577 <GO>}
+So, there's going to be a broader, I would say, buzz, if you will, in the market around
+the launch of xCloud and then the momentum we have around Game Pass, which
+has really started to take hold. We talked about over 10 million subscribers back in
+the April cycle and we're now six months further from folks being in remote
+environment. And so, you can imagine the momentum we've gotten. We feel very
+good about the dimension there of launching xCloud in Game Pass and what that
+means for the overall gaming business. You are right, I would say, Keith, though, back
+to your original question that from a percentage mix standpoint, consoles are a
+smaller mix now than they ever have been. So, that's just -- as we think about top line
+revenue, that's just an important dimension to keep in mind.
+{BIO 3018411 <GO>}
+Yeah. I was going to broaden it out from my follow-up question, which you hit on. I
+mean, it seems like the thesis around Microsoft gaming revenue line item is evolving.
+And so, what's your narrative on how investors should be thinking about that as
+more and more goes to subscription, which is in, I don't want to say an annuity
+business, but it's an ongoing revenue source. I've struggled with, is this a double-
+digit grower over the next few years? Obviously, this quarter coming, it's going to be
+higher and last quarter was substantially higher. So, I'm trying to normalize for what
+should be the investment thesis around Microsoft's gaming business as we look out
+over the next two years?
+{BIO 20838577 <GO>}
+Yeah, it's a perfect question. And I would actually point to Q4 as being symbolic of
+where we hope the business and where we're pushing the business to go. The really
+great thing about the Q4 performance in gaming is that it wasn't siloed to a hit
+theme. If you go back over the last couple years, obviously, Fortnite was a very spiky
+nature of the game. We saw the very highs on that. And we saw the lows of it. If you
+look back in Q2 last year, we had a terrible Q2 in gaming and all that was a Fortnite
+comp. And so, what you saw in Q4 is you not only saw strength of Fortnite, but you
+actually saw a couple of other third-party titles come into the fold, which balanced
+out the third-party dimension. We had ﬁrst-party strength in things like Minecraft and
+some of our other titles, like Sea of Thieves, and then Game Pass momentum.FINAL TRANSCRIPT 2020-08-25
+Microsoft Corp (MSFT US Equity)
+Page 16 of 16Q - Keith Bachman
+A - Michael Spencer
+Q - Keith BachmanAnd so to your point, if we can balance the ecosystem with a solid foundation or a
+recurring revenue stream with Game Pass moving forward to help balance out some
+of those highs and lows, as well as distribution of ﬁrst and third party titles, and as
+you know, we've been heavily investing in our ﬁrst-party portfolio to obviously
+mitigate that moving forward, we can de-risk, if you will, some of that volatility from
+the hit party or the hit game dimensions that we've seen in the past. And so, that's
+really the -- as you think about the business, that's the goal. It's going to be, though, I
+don't want to make it sound like this is going to be something that we're going to
+achieve now or in the near-term, it's going to be a journey over the next few years.
+{BIO 3018411 <GO>}
+Yeah. No, I think that'll be helpful too to kind of smooth that out. Well, I have 17 other
+questions to ask you, Mike, but I think at this point, we -- I can see the clock on the
+upper right. So, I will take this opportunity to thank you again for your time. Wish you
+the best of luck and we'll look forward to chatting soon.
+{BIO 20838577 <GO>}
+Yeah. Thank you Keith for having me. I appreciate it.
+{BIO 3018411 <GO>}
+Okay. Cheers. Good day, everyone.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

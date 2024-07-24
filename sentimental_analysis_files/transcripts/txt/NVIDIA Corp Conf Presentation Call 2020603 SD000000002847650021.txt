@@ -1,0 +1,591 @@
+FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 17, Senior Director of Marketing
+, VP of Healthcare
+, Analyst
+Rajvindra Gill
+Danny ShapiroNeedham 4th Annual Automotive Tech Conference
+Company Participants
+Danny Shapiro
+Kimberly Powell
+Rajvindra Gill
+Presentation
+{BIO 16383656 <GO>}
+So welcome, everybody. My name is Raji Gill from Needham & Company.
+We're very pleased to have NVIDIA presenting with us at our Fourth Annual
+Automotive Tech Conference. With us is Danny Shapiro. He's the Senior Director of
+the Automotive Division at NVIDIA; as well as Stewart Stecker, Director of Investor
+Relations.
+Danny is the Senior Director of Automotive Division at NVIDIA. He's a 25-year
+veteran of the computer graphics and semiconductor industries and has been with
+NVIDIA since 2009.
+So it's great to get his expertise and insight.
+The format of the presentation will be about 20 to 25 minutes or 30 minutes on
+NVIDIA side, and then we'll open it up to questions, 10 to 15 minutes. I'll kick it oﬀ.
+(Operator Instructions)
+So with that, let me hand it over to Danny.
+{BIO 16651500 <GO>}
+Great. Thanks so much. And it's really a pleasure to be with you today. What I wanted
+to do is spend a little bit of time and just give you some insight into the work that
+NVIDIA is doing in the automotive industry. And again, everything here is subject to
+our usual ﬁnancial disclosures about forward-looking statements.
+So NVIDIA, of course started out as a gaming company, and that's still a very big part
+of what we do, and there's great growth there.
+But as you know, AI is transforming every industry. And NVIDIA is sort of at the heart
+of that AI revolution. There's really two aspects to AI. There's ﬁrst, the developmentFINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 17of the AI, the training, and we play a very active role in that, and our data center
+business is innovating in that space. And we just had new announcements with our
+new Ampere architecture, and data center growth is enormous.
+But then there's also the aspect of what we call edge AI or also inference where
+sensors are taking data in and the AI has to understand the environment, and it's a
+continuous cycle of reasoning and acting and planning.
+In the automotive space, we have solutions that are designed to enable autonomous
+vehicles and creating the brain of the AI system. And so our DGX systems are used in
+the data center, and it's the exact same architecture then that goes in the vehicle in a
+platform speciﬁc of what we call NVIDIA DRIVE AGX, our autonomous processing
+platform for vehicles and robots and even health care. And so again, we have a full
+end-to-end system that we've developed to enable everything to ultimately be
+autonomous.
+We believe this will be the case. Varying levels of automation and autonomy will be
+across cars and trucks and all kinds of robots and delivery vehicles and fast
+transportation as well as specialty vehicles.
+So agriculture and mining as well.
+The key thing here that we developed is not just about a part that goes in the car, but
+it's a full end-to-end platform. It starts with data collection, so whether it's NVIDIA or
+our customers, they are out there with human-driven vehicles and as well as
+automated vehicles that have sensors on them that are collecting data. It's used for
+mapping. It's used for training.
+There's a massive amount of information that needs to come in for us to then be
+able to train on how to recognize lane lines, recognize pedestrians, recognize street
+signs. It all comes down to many diﬀerent neural nets that are running in the vehicle,
+and each of those neural nets is very compute-intensive and needs to be trained on
+a massive amount of data and continually reﬁned and updated.
+Before we actually put it on the road, though, we want to test and validate. And this
+is where simulation plays a very large role.
+So we've developed our Constellation platform that allows us to do full hardware in
+the loop and software in the loop testing and validation before it actually goes on
+the road. And then we have our platform for inside the vehicle. Again, this is the
+DRIVE platform that is running diﬀerent software stacks.
+We have our DRIVE AV, which is the autonomous vehicle stack, that's doing all the
+sensing, perception, mapping, localization and path planning. And then our DRIVE IX
+software stack, which is our intelligent experience, which will leverage sensors inside
+the vehicle, maybe a driver or passenger-facing cameras to do driver monitoring,FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 17detecting someone is drowsy or distracted. And with that, we'll integrate with the
+outside sensors to enable new safety features or convenience features.
+So again, this is the industry's only platform that goes from end to end, a single
+architecture that the software that's been developed and trained on NVIDIA is then
+running on NVIDIA inside the vehicle.
+As I mentioned, then there's a variety of diﬀerent deep neural networks that need to
+be running inside the card.
+So we've developed dozens of these that we make available to our customers, and
+our platform is open, so they can build their software on top.
+So these diﬀerent neural networks are taking the camera or the radar, the LiDAR, the
+ultrasonic data and are trained to detect objects or to then also understand what's
+free space, which is basically the opposite of detecting objects and where is it safe to
+drive.
+We can then run algorithms on these to understand the distance to detect diﬀerent
+weather conditions, diﬀerent road congestions.
+We can do map localization with cameras with LiDAR. We can plan pads.
+We can anticipate trajectories of other vehicles. The list goes on and on. And this is
+really where the crux of the challenges that we're developing software. Our partners
+are developing software because we want to be able to ensure that these vehicles
+are safe on the road.
+So again, a diversity of diﬀerent kind of algorithms and redundancy is key to insure
+safety.
+To that end, again, we want to be able to test and validate everything, and so we've
+developed our DRIVE Constellation. This is a two-server unit. One server is
+generating the environments in virtual reality. It's generating the synthetic sensor
+data based on real-world experience. And so we're simulating all those sensors, and
+then we're feeding that into the second server, which is the DRIVE AGX computer.
+It's operating the full software stack as if it was driving on the road, but it's in a virtual
+or simulated environment. And then the commands for driving, the steering,
+acceleration, breaking are sent back to the simulator. And we're able to do this 30x a
+second.
+So this is a full hardware in the loop simulation that lets us take a vehicle that might
+only be operating a couple of hours a day and now operated in the cloud 24/7. And
+so this is a way that we can then rack up all of these servers, and this will be a whole
+ﬂeet of vehicles that, again, are not just driving on the roads where testing is
+essential on the roads, of course.FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 17But usually, those are boring tests, meaning nothing happens. A good thing, of
+course.
+But really, what we want to be able to do is test those really dangerous, challenging,
+hazardous scenarios, and they often won't even occur after days and days or months
+or years of testing.
+And so in simulation, we can have these edge cases or corner cases, as they call it.
+Kids running out in front of cars, people running red lights, blinding light at sunrise
+or sunset. The kinds of things you don't encounter very often, we can put them in
+simulation and test and test over and over. And so the ability to do this enables our
+partner companies to test and validate and basically, recreate and run regression
+over time to ensure that the software is catching all these corner cases.
+The other thing, of course as part of our end-to-end solution is the software stack.
+So we've developed a massive amount of software where the base platform that
+goes in the car, software applications on top, tools, libraries, deep neural networks
+and our customers that are able to build their applications.
+So we have our DRIVE OS software as the core layer.
+We have our DRIVE AV, our autonomous vehicle; and DRIVE IX, intelligent
+experience, software stacks. And then there's all kinds of libraries in our DRIVE works
+for the sensor processing for mapping and localization and path planning.
+So this full software stack is open to our customers to build their applications on top.
+Of course then is the hardware that it runs on. Our DRIVE platform is being used by
+hundreds of companies from carmakers to truck makers to shuttle companies,
+robotaxi companies. And it's a single architecture that scales. And each new
+generation of our technology is backwards compatible.
+So it's a seamless transition for the software.
+We recently introduced NVIDIA Orin. It's our newest SoC or system on a chip. It's a 17
+billion transistor chip. Inside, it has many diﬀerent processors. There's ARM CPUs.
+There's a new Ampere GPU. There's programmable vision accelerators. There's
+deep-learning accelerators. Again, this is a whole computer, a system on a chip
+designed for autonomous vehicles.
+So many diﬀerent types of algorithms are running simultaneously, providing diversity
+and redundancy required for safe operation.FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 17It's a 7x performance boost over our previous generation. So again, we've been able
+to make it more energy-eﬃcient and increase the performance dramatically.
+Now with this new architecture, with our Ampere architecture, on the GPU side, it's
+much more energy-eﬃcient. And now we're able to broaden our oﬀering. Again, the
+key thing here, it's a single architecture. Our customers that we've been working with
+on developing higher levels of automation, Level 2+ to Level 4 and Level 5 robotaxis
+are asking us for help at that entry-level segment. Traditionally, they've been working
+on a totally diﬀerent architecture, a diﬀerent vendor developing front-facing
+cameras, and it really is too expensive in terms of dollars, in terms of manpower and
+engineering.
+So now with our new Orin and Ampere architecture, we can span the entire range
+from the entry level, which is the simple ADAS solution, a single camera, front-facing
+solution. A new Orin entry-level will operate at just ﬁve watts.
+So energy sipping there, delivering 10 tops of performance.
+So 10 trillion operations per second to be able to do front-facing ADAS solution,
+basically a 5-star end-cap type of oﬀering but based on the same infrastructure
+training for AI and software stack that will span all the way over to our new 2,000
+tops performance at the high end for robotaxis.
+So again, for the ﬁrst time, an automaker has a single architecture, a single software
+development eﬀort. They can now put this solution in every single vehicle in their
+lineup and leverage that uniﬁed engineering approach. And again, this is software-
+updatable.
+So over time, they can add new features, new capabilities. This opens up new
+business models for these automakers as well. This is something that's really key and
+a huge inﬂection point for the industry.
+So at that entry level, again, a single scalable architecture but a small, front-facing
+camera unit mounted in the windshield with our entry Orin, our ADAS solution, it has
+the Ampere GPU, and it will deliver an incredible 10 trillion operations per second at
+just ﬁve watts of power. And the other extreme, now we're combining two of the
+high-end Orin SoCs, each of those able to deliver up to 200 tops with two new
+Ampere GPUs.
+So grand total of 2,000 tops able to run many diﬀerent applications simultaneously.
+It delivers now 6x the performance of our current Pegasus oﬀering, which is what is
+in development for many of the robotaxi companies. And again, greater
+performance per watt.
+So energy consumption has gone down dramatically.FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 17What I want to do is show you a little video clip now. Over the bandwidth there, you
+might not see full frame rate.
+But this is a recent drive in one of our test vehicles.
+We have a ﬂeet, a small ﬂeet compared to our customers, but we need to
+understand the complexity and the full challenge ahead of our customers, and also
+then, we're able to develop our hardware and software by understanding the full
+complexity of the problem.
+So you can see this is our new headquarters called Endeavor. And I'm going to go
+ahead and play this video. You can see one of our test vehicles on the road.
+(Video Clip)
+So again, then there's obviously a safety driver inside the vehicle. But it's doing all of
+the sensor processing. There's a neural network for detecting lights, for detecting
+lanes, for detecting other vehicles.
+So the driver -- it doesn't touch the steering wheel. And he's there to take over if he
+needs to, and the system is able to detect everything on the road.
+So I'm not going to pay the full video. This goes on for several minutes, but we're
+able to now be driving all around the roads of Silicon Valley as we do tests. Those
+tests are currently on hold right now due to the COVID-19 situation.
+But the beneﬁt that we have, again, in our whole end-to-end solution is that we've
+shifted to doing all of our testing in simulation in the cloud.
+And so I want to advance to the next clip, and this will show the same kinds of drives
+but now fully in the simulator.
++++presentation
+So leveraging the technology we have from a graphic standpoint as well as
+modeling the physics, physical dynamics. And now all the sensor processing were
+taking simulated inputs into our software we're running, and we're doing all the
+same kinds of detections on the simulated data and can test and validate that the
+complete system actually works before it goes on the road. And so our engineers are
+at home working and being extremely productive, even while in stay-at-home
+orders.
+So our ecosystem that's leveraging our technology is vast. There are hundreds of
+companies that are building and testing and deploying their vehicles on NVIDIA
+DRIVE. And so we've made announcements, of course with big OEMs like Mercedes-FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 17Benz and Volvo, Toyota. In China, we have a number of automakers as well. The
+trucking industry is doing a lot of development work. And in fact, during recent
+pandemic months, right, we've seen a shift from there's less people out on the road.
+This ride-sharing has gone down.
+So the robotaxi business may look at risk. The reality is it's still very healthy long
+term.
+But we've seen a pull-in of delivery and trucking needs as well.
+So a lot of long-haul trucking, a lot of last-mile delivery activity will be going
+autonomous.
+We work with hundreds of start-ups and software companies as well as the mapping
+companies, the sensor companies, the simulation companies. It's a very complex
+ecosystem. There's a lot of diﬀerent players, and they're all developing on the
+NVIDIA DRIVE platform.
+So why do people come to the NVIDIA DRIVE platform? I think there's several key
+things I talked about. I just want to wrap up here before we go to questions, but
+some of the key diﬀerentiators that we have. The ﬁrst, again, it's an end-to-end
+platform. I think that term is used a lot.
+But really, there's nobody else in the industry that has the complete breadth that
+NVIDIA has that starts in the data center with the data coming in, the collection, the
+archiving, the curating of that data, that's all on NVIDIA. Even our competition is
+using NVIDIA in their data centers.
+So the algorithms are developed on our architecture. There's the testing, validating
+to simulation on the same architecture, and then it goes in the vehicle.
+So it's seamless. There's no porting of code. It's really a huge advantage.
+The other thing that is pretty unique to NVIDIA is, again, a single architecture in the
+vehicle. It's not diﬀerent chips. It's not some CPUs or some diﬀerent GPUs or some
+diﬀerent deep-learning accelerators. It's a single architecture that spans, again, now
+from ADAS, a front-facing camera at ﬁve watts all the way up to our robotaxi solution.
+Another key diﬀerentiator is it's open, right? We do not have a closed sort of black
+box system, but our software platform is open for developers. They can take our
+DRIVE OS. They can use our libraries. They can use our algorithms. Our DriveWorks
+are DRIVE AV stack, and they can customize and build their own applications. This is
+key -- and that no automaker wants to outsource their future, which is AV.
+So again this open software-deﬁned, software-updatable architecture is key to the
+future. Again, we have a vast ecosystem.FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 17A - Rajvindra GillSo regardless of the kind of sensor they want to use, we work with the Tier 1
+suppliers, of course.
+We're not competing with them.
+But it's a partnership between NVIDIA, the Tier 1 and the OEM to build these systems
+to integrate diﬀerent maps because, of course you want to have a global vehicle that
+can operate on any map.
+So the China maps, of course are diﬀerent than Europe's maps. They're diﬀerent
+from United States' maps.
+But by having this vast ecosystem of sensors, maps, software, we can all then deliver
+a global solution to our OEM customers.
+So again, from end to end, single scalable and our vast ecosystem, we're seeing
+great promise. It's a long-term play for us. There's ups and downs. It can be lumpy in
+terms of the revenue stream.
+But NVIDIA is committed. As Jensen has said, we're really excited about the
+opportunities.
+We have many recent design wins that we've announced and many more to come.
+And with that, I'll open it up for questions.
+Questions And Answers
+{BIO 16383656 <GO>}
+All right. Great. Let me just click on the video. Yes.
+So yes, thank you, Danny, for that. That was very informative. Before we get into the
+technology, I just want to get your thoughts on the market size and your design
+pipeline.
+So you have a single architecture. You have a very -- a breadth of solutions for
+various products. Most of your engagements -- can you describe your
+engagements? Have they been on Level 2+ or Level 3, Level 4? We know that Level
+4, Level 5 has been pushed out further than what we initially thought because of
+regulation and liability and uncertainty around the market.
+So I wanted to kind of dig deeper in terms of your engagements for Level 2, Level
+2+, which seemed to be what the market will be over the next 10 years and how your
+solution, maybe it's more cost-eﬀective or has lower power than the competition?FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 17A - Danny Shapiro
+A - Rajvindra Gill
+A - Kimberly Powell{BIO 16651500 <GO>}
+Sure. So you're right. I mean we have a lot of diﬀerent engagements. There's a lot of
+diﬀerent programs in play right now.
+Some are going into production, right? We just announced with Xpeng, a Chinese
+new energy vehicle. They've been taking orders on their P7 sedan, and it actually
+starts deliveries this month. And so that's based on the NVIDIA DRIVE AGX Xavier.
+So that's our current production part. That's what Toyota is using, Volvo is using. And
+so those -- like you said -- will be kind of Level 2+ and in production starting now
+over the next several years.
+The beneﬁt, of course of this is it's all part of the same software-updatable
+architecture. And so these cards get better and better over time.
+We also, of course have a lot of robotaxi-type engagements. Companies like Zoox,
+like Aurora and delivery.
+So those potentially in large volumes are still years out, but that's really a great
+development eﬀorts and is still ongoing.
+We're not seeing any slowdown in that.
+I think what we'll see now, of course is with our new ADAS oﬀering, you said, that's
+right, that's where that volume number is, and those were -- we're going to be able
+to start announcing those contracts soon, and then those will be several years to get
+into production. And so what you see today is from a revenue split, we're kind of 50-
+50 in terms of our legacy infotainment business and our AV development.
+We've announced, of course that, that infotainment business will go down a bit in
+the next quarter due to the overall state of the auto industry in terms of production,
+things stopped or slowed and new consumer sales also taking a hit. And then, again,
+in a few years, so we'll see, I think, a sizable ramp for AV.
+{BIO 16383656 <GO>}
+But would you agree that the market that's available to you or the industry is really
+kind of Level 2 to Level 3 for the next 10 years or so or longer where we get to a
+more autonomous vehicle kind of market? And if that is the case, then you -- there's
+existing kind of competition there, and I'm just wondering how your solution will
+kind of compete if it's not as advanced requirements that are needed in more Level
+2, Level 3 -- versus Level 2, Level 3.
+{BIO 22145194 <GO>}
+Sure.FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 17A - Rajvindra Gill
+A - Danny ShapiroWell I think what we will see is the deployment of higher-end system in more and
+more vehicles, even if the software isn't activated. And so again, there's one
+particular company out there in the market that's taken this approach. It has a very
+high valuation because they're putting an AI computer in the car. They're putting
+sensors all around the car. And even though it's not a Level 4 car today, it's selling
+extremely well because it has the potential to get there as soon as the software and
+the regulation is in place.
+So I think other car companies need to adopt this strategy, and they are. And so
+even if it's not shipping as a Level 4, it has the capability to be upgraded to a Level 4,
+and that's really the strategy I see happening sooner rather than later.
+{BIO 16383656 <GO>}
+Can you discuss how your automotive SoCs, your DRIVE platform interacts with other
+technologies and vehicles such as ADAS or the infotainment or the HMI? Particularly
+around sensor fusion because that's where I think there's a lot of diﬀerentiation there
+in terms of the vehicles are including more higher advanced sensors, a better
+example will be LiDAR. And the processing is going to be oﬄoaded to your solution,
+and that's where you can -- NVIDIA can really shine as it always does in that area.
+{BIO 16651500 <GO>}
+Again, it's a great question. I think what's key about our platform, again, it's open, it's
+software-deﬁned. And so we're not locked into a speciﬁc camera or speciﬁc
+algorithm because we've tuned the hardware.
+We basically bake something in. It's an open platform.
+So we have a vast array of diﬀerent cameras, diﬀerent sensors.
+We're going from 1-megapixel cameras to two to 8 megapixels. And again, it's just a
+software update to allow that ﬂexibility.
+So whether it's diﬀerent sensors, again, we work closely with the Tier 1s to integrate
+their sensors, to build the solution for their customers.
+So whether it's diﬀerent maps, whether it's diﬀerent algorithms, that's the beauty of
+the NVIDIA platform and the base we have on CUDA and now of our deep-learning
+stack, we're able to change it over time, right, and with software updates, right, new
+algorithms. There's going to be apps that come out a year or two from now that
+haven't even been thought of today.
+But because of the software-deﬁned nature of our platform, it's not a problem.
+And the thing is, today, everyone has an iPhone, an Android phone. Could you
+imagine buying a phone that doesn't get software updates? You wouldn't do it,FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 17A - Rajvindra Gill
+A - Danny Shapiro
+A - Rajvindra Gillright? You're not going to have this ﬁxed function device. And virtually, every car on
+the road today is like that old phone that you can't update.
+So once consumers start to see what's available and get used to that, there's no way
+that anyone is going to buy a non-software deﬁned vehicle in the future.
+{BIO 16383656 <GO>}
+In the past, in your Analyst Days, you've mentioned -- you've quantiﬁed the TAM for
+your opportunity, roughly $25 billion. And you've kind of identiﬁed it $25 billion for
+kind of driving Level 2, Level 3, 4 robotaxis, roughly $3 billion opportunity for
+training and development and about $2 billion for validation. Just drilling on the
+testing and validation, to me, that would seem the -- kind of the low-hanging fruit, as
+these vehicles need to simulate autonomous scenarios, et cetera, versus driving 1
+million miles around physically, manually.
+So I'm curious to see what the uptake has been for your simulation products, your
+training products on DGX. Are you seeing more from the ride-sharing, from the
+OEMS? Describe that on your Constellation product platform.
+{BIO 16651500 <GO>}
+So again, you're right, Constellation is the simulation product. It's still in its early
+days, right? We've basically been shipping that for maybe not even a year, right?
+And it's a large development eﬀort. It's going well and we see that, again, as a great
+growth opportunity for us. It's part of this end-to-end ﬂow and gives us the ability,
+like you said, to test and validate, which is key, and it scales really nicely.
+So we see it distributed over.
+Some people are doing it on-prem, right? They're buying there, and they maintain
+themselves. Others are working with cloud service providers, so they can buy time
+on those simulators, and it's a good way for them to kind of start and scale up, but
+we see a lot shifting to on-prem. And so we've already announced Toyota and Volvo
+trucks as some of our big customers using us in the data center for training, for sim
+and then deploying on the road.
+But you're absolutely right, the -- again, if you're looking at this from a revenue
+perspective, the timing data center is very big for automotive, and simulation is
+growing. That gets reported in other parts of the company that doesn't ﬂow into that
+auto number that is reported in our data center business.
+{BIO 16383656 <GO>}
+Right. And I think that's an interesting point.
+So data center for automotive is kind of in data center in general, and so you're
+seeing kind of an uptick based on what you're saying for simulation versus kind of
+physical, manual –FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 17A - Danny Shapiro
+A - Rajvindra Gill
+A - Danny Shapiro{BIO 16651500 <GO>}
+It's interesting. And again, even there are some companies that aren't using NVIDIA
+in their vehicles, they're still very large customers of ours for data center.
+{BIO 16383656 <GO>}
+Yes. Absolutely.
+So are there any regulation hurdles? Have they been deﬁned yet to do simulation
+versus actually manually driving and collecting data miles -- raw miles and the nano
+taking bikes and whatever objects physically. Is there a regulation standard that's
+been emerging? Or is it kind of well (inaudible)?
+{BIO 16651500 <GO>}
+We're very active in that with standard spot ties with SAE, with others that were
+focused on ISO 26262. The key thing here has been engagement that we have with
+the industry, with our partners.
+We're working with NITSA.
+We're working with the federal highway safety boards and the DoT. And so -- and
+then also in other parts of the world, we're active. I think it's less about logging miles
+and the disengagements but more about being able to look at scenarios. And so
+what we're trying to do is come up with essentially an autonomous vehicle driver's
+license. The vehicle has to sort of pass all these diﬀerent tests and all these diﬀerent
+scenarios, and you can run this exhaustively in simulation. There's also obviously
+going to be live on-road testing.
+But I think we'll see a shift to a lot more virtual testing because, again, you're not
+going to be able to eﬀectively test those really dangerous scenarios with a real
+vehicle.
+And another reason why the testing is so important is because even when we have
+safety drivers in our cars or our partners, again, have safety drivers, those safety
+drivers are there to make sure nothing bad happens.
+So if there's a potential collision impending, that safety driver is going to take over as
+soon as they feel uncomfortable. And that prevents the AV system from really
+actually being put through its basis and test would the AV system actually prevent
+this accident or not. And so again, in simulation, we can let it all play out. And if
+something happens in sim, we just restart the simulation, and we update the
+software.
+We learned from that. You don't have that luxury in the real world if something bad
+happens.FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 17A - Rajvindra Gill
+A - Danny Shapiro
+A - Rajvindra Gill
+A - Danny Shapiro{BIO 16383656 <GO>}
+So just kind of shifting to the technology discussion, which we have about nine or 10
+minutes.
+So you have migrated your DRIVE platform to your new Ampere architecture, 7-
+nanometer and for all your upcoming kind of Orin chips. What was the thinking
+behind that? And is it to really provide this kind of end-to-end single architecture,
+everything is on 7-nanometer now? And I'm just curious if you could elaborate
+further on the migration to the Ampere architecture.
+{BIO 16651500 <GO>}
+Sure. Well again, as a company, we're constantly innovating, constantly moving
+forward, right? I mean that's just the nature of the computing industry.
+We're always pushing and developing and innovating. Having this single
+architecture is key, though. It's not like the traditional auto industry where there was
+something that was developed and it was kind of locked and loaded for ﬁve to
+seven years, and something brand-new was developed and then you had to wait,
+and we had this continuous ﬂow.
+So starting with our early DRIVE PX and PX2 systems, people are developing
+software and they could migrate them to our current architecture and then moving
+forward to Orin.
+So Orin will start sampling next year. And then all the development work today is still
+happening on the current generation, but we're able to basically have this time
+machine to accelerate the developments that when those chips go into production,
+it's not like you have to wait where the software started development.
+They're all developing today. And so again, we've seen the industry, in general, has
+underestimated the complexity of this challenge, underestimated the amount of
+compute required. And so we're constantly trying to deliver higher performance,
+greater energy eﬃciency to the industry. And so it was a natural move, of course to
+shift to Orin and Ampere.
+Again, there's huge performance gains -- much more so than we've ever seen before
+in the past in the computing industry.
+{BIO 16383656 <GO>}
+So you talked about kind of 4x the performance and power eﬃciency over your
+Xavier solutions. I was wondering if you can go into some details and explain how
+does Orin do this from a technological point of view. Is it primarily on the process
+node migration? Is it more on the algorithm side?
+{BIO 16651500 <GO>}FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 17A - Rajvindra Gill
+A - Danny ShapiroIt's a combination of both, really. Yes. So the process node.
+But again, we're able to -- I mean it is incredibly complex chips, 17 billion transistors.
+But we've essentially built in diﬀerent parts of the chip to do diﬀerent types of
+processing.
+We have diﬀerent types of data coming in, and we have diﬀerent types of algorithms.
+And some are serial, some are parallel, some are declining base.
+So there's a lot of diﬀerent parts of the chip that are now tuned, and that gives us the
+greater performance with consuming less energy.
+We've -- as a company, we still call a GPU, right? We've had all these GPUs now.
+These GPUs are doing diﬀerent kinds of processing than our gaming GPUs from a
+decade ago. Still has that same name, but they are -- they're really custom ASICs, and
+Xavier and Orin are designed as SoCs for AI challenges and speciﬁcally autonomous
+vehicles.
+{BIO 16383656 <GO>}
+And when we look at the -- if we look at kind of on robotics, kind of shifting that and
+kind of more on the robotaxis -- or I wouldn't say, robotaxi. Let's say trucking -- which
+seems to be more of the immediate application for AVs.
+In robotics, you stated that BMW has selected your Isaac robotics platform to
+automate a lot of their factories. You're using logistic robots that are built on AI
+computing individualization. How big -- what percentage of your kind of business,
+automotive business, do you think that will be on the robotics side? Is this going to
+be a meaningful kind of growth driver of robotics as well as on kind of on trucking
+and transportation?
+{BIO 16651500 <GO>}
+Yes. I think robotics is really a diﬀerent segment from automotive. It's part of our
+OEM business.
+But I think there's great potential, right? I mean everything that moves will be
+automated in some fashion.
+So that's passenger vehicles, that's moving of goods, and I think we're going to see
+a lot more, like you said, from the trucking and last-mile delivery before we're
+moving people around.
+But then there's also these -- whether they're ﬁxed robots and assembly lines, more
+cobots, right? Instead of robots that have to basically shut down whenever a human
+gets there or in manufacturing of these big changes around the robots, we're going
+to see a lot more really smart robots that are able to sense their environments andFINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 15 of 17A - Rajvindra Gill
+A - Danny Shapirobe able to work alongside with other humans as well as logistics, whether it's in
+factories, warehouses. Even in health care, the market opportunity is very large there.
+We see great growth potential.
+{BIO 16383656 <GO>}
+Great. And then just last question in terms of your product portfolio. You talked
+about mounted in the windshield solution that's 10 trillion operations per second at
+less than ﬁve watts all the way to robotaxis. What has been the feedback from the
+OEMs? I understand the advantage of having a single architecture.
+But are you getting any pushback in terms of being a sole supplier? Do they want
+diversiﬁcation? Or is it really more ease of use and the ability to kind of update the
+software as kind of the vehicle life cycle changes from ﬁve to seven years and more
+to kind of a mobile phone life cycle where every six to nine months, it's going to be
+updated?
+There seems to be an underlying shift to that type of manufacturing cycle.
+{BIO 16651500 <GO>}
+For sure. Yes. This product expansion is a direct result of customer request, right? I
+think you probably heard me or others saying that we're not going to go into that
+commodity smart camera business. That's not where our engineering expertise is
+going to be leveraged.
+We're trying to solve the new problems, the challenges that haven't been solved
+before.
+But the reality is that the complexity of cars is enormous. The amount of investment
+that carmakers need to make and R&D is just astronomical. And so to maintain
+development engineering of one front-facing camera architecture and then have
+something separate, totally diﬀerent code base, totally diﬀerent hardware platform
+or other aspects, it doesn't make sense for them.
+So they've come to us and said, hey. We want to leverage what we're doing at the
+high end and just be able to bring it down into that front-facing camera solution.
+So again, we see carmakers adopting our platform across the whole spectrum and
+seeing huge savings from that as opposed to just saying, okay. I want to take this one
+part of this one segment.
+Again, it's not just about what goes in the car, but training that AI, they don't want to
+have two totally diﬀerent systems that they're collecting data, two diﬀerent initiatives.
+They're doing diﬀerent development, diﬀerent training, diﬀerent testing, diﬀerent
+validation when they can do all this across a single architecture. It's an enormous
+cost savings.FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 16 of 17A - Rajvindra Gill
+A - Danny Shapiro
+A - Rajvindra Gill
+A - Danny Shapiro
+A - Rajvindra Gill
+A - Danny Shapiro
+A - Rajvindra Gill{BIO 16383656 <GO>}
+So your ability to kind of train and import that learning from the data center directly
+into the car, so the car is able to make inference decisions driving software policies is
+based on the data that you've trained on.
+{BIO 16651500 <GO>}
+That's right.
+{BIO 16383656 <GO>}
+Is a fairly big diﬀerentiator.
+{BIO 16651500 <GO>}
+It's enormous. They got -- again, as you talk to automakers, right, they -- and this is
+why sometimes you see these partnerships going on because it is an enormous
+investment. And again, we can take two diﬀerent investments for the same car
+company and combine them.
+{BIO 16383656 <GO>}
+Okay. All right. Wonderful. I think we're heating up.
+We're about 11:55.
+So we'll leave it at there. Thank you so much, Danny. Thank you, Stewart. This is very
+insightful, and thanks again.
+{BIO 16651500 <GO>}
+All right. Thank you, everyone.
+{BIO 16383656 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT FINAL TRANSCRIPT 2020-06-03
+NVIDIA Corp (NVDA US Equity)
+Page 17 of 172024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

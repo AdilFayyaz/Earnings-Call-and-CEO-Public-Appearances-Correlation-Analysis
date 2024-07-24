@@ -1,0 +1,661 @@
+FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 1 of 16, Corporate Vice President, Microsoft Cloud, Industry and Global
+Expansion
+, UBS
+Karl Keirstead
+Corey SandersUBS Global TMT Virtual Conference
+Company Participants
+Corey Sanders
+Other Participants
+Karl Keirstead
+Presentation
+{BIO 1542979 <GO>}
+Well, thank you everybody for joining day three of our three-day UBS Tech
+Conference. I'm probably most excited about the lineup of the software companies
+on day three not just Microsoft obviously, but we've had MongoDB, Zoom,
+Informatica DataStax and DocuSign this afternoon, so really high quality lineup of
+software companies. But I would say led by a relatively large market cap company up
+in the Seattle area. So Corey, thanks for joining us. And for everybody listening, if you
+do have any questions, you'd like (Technical Diﬃculty) direct to Corey. There is a
+question bar in front of you, you're welcome to use I'll see it. If you'd prefer reach out
+to me directly on my email and I'll curate them and pepper Corey with a few investor
+questions towards the end.
+So with that Corey, welcome. And maybe you want to take a minute to describe your
+role at Microsoft for those that haven't met you yet.
+{BIO 16695509 <GO>}
+Yeah, absolutely. Thanks Karl and thank you so much for having me. So I'll explain my
+action, my current role, but then also maybe explain my previous role to give a little
+bit of framing, because I actually just changed roles here in the last couple of weeks.
+My current role is a team called the Microsoft Cloud for industry and global
+expansion team, I am on the engineering side, I report to Scott Guthrie, and I'm
+accountable for sort of the delivery of all of our industry solutions, and partnerships
+and our global expansion and deployments around the world.
+And so, it's been, but like I said, I've been enrolled for a couple weeks. So, I'll answer
+as best I can in that regard. Previous three years, I reported the Judson Althoﬀ, who's
+our Chief Commercial Oﬃcer -- Chief Revenue oﬃcer, excuse me, and I was
+responsible for sort of the go-to-market strategy and the technical delivery for all of
+our solution areas from Azure dynamics and so, had to have a good sort of amount
+of experience in that area. And then prior to that, I actually was in engineering asFINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 2 of 16Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead
+A - Corey Sanderswell building up the original Azure VM compute stack. So then a little bit all over the
+place here at Microsoft but excited to be here.
+Questions And Answers
+{BIO 1542979 <GO>}
+(Question And Answer)
+That makes you interesting to everybody, Corey.
+{BIO 16695509 <GO>}
+Yes, exactly maybe too interesting.
+{BIO 1542979 <GO>}
+Obviously not everybody on Scott's team needs to do these sessions in a red polo.
+So I'm glad you've got an exception.
+{BIO 16695509 <GO>}
+That's right. I'm actually I don't think we're allowed to wear red polos. It's confusing,
+if anyone but Scott wears a red polo, so it's been banned.
+{BIO 1542979 <GO>}
+All right. Corey, maybe before we dive into Azure and some of the individual product
+areas at Microsoft, let's kind of keep it a little higher level for a little bit and ask just
+broadly, what you're seeing out there in the IT spending environment. And sort of
+the spirit of the question is something that, tech investors are trying to grapple with
+especially at year-end as they look out to a New Year and pick the right stocks and
+understand what trends might have been terriﬁc in the last 18 months post COVID,
+but then maybe the mix of shifting and the priorities are changing for the next 18
+months and that's obviously very important for everybody to get right in their stock
+portfolio. So maybe I'll start there, how do you think the IT spending priorities are
+changing?
+{BIO 16695509 <GO>}
+Yeah. I think and we've seen this for the last months, maybe even years, particularly
+accelerated by the unfortunate output of the pandemic. We've seen a big focus and
+a push towards digital transformation on every front, right, and I think with a
+particular focus on cloud to enable that type of digital transformation. This includes
+certainly productivity and the change of productivity as sort of our conversation right
+now and I can remember having done these three years ago and everyone was in a
+conference room. And so, just the changes in sort of how we approach productivity
+and engage and work with each other, both inside and outside companies has
+fundamentally changed and has a fundamental dependency on cloud.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 3 of 16Q - Karl Keirstead
+A - Corey SandersAnd so, but that's just the beginning, right, I think that we've seen push towards all
+aspects of digital transformation sort of spawning from them, right. The way in which
+people work, the way in which people engage changes, the way in which people
+buy, the way in which people want to use its services and experiences, the way in
+which people want to build their solutions even. Even the concept of building new
+technology has fundamentally changed. And so this is where I do see the sort of
+digital transformation has been has accelerated and incredible rate across sort of all
+of the companies involves, right, which I think has been exciting in a very unfortunate
+time period. But I think that expansion has been really something to focus on.
+Now, I think, when I look at sort of Microsoft in the context of that, I think, one of the
+other things that as part of that customers are looking for is with sort of that
+expansion of digital transformation understanding how those components come
+together, right, and this is where I do think when we talk with customers. The
+conversation on Microsoft Cloud has also really sort of accelerated over the last two
+years, right. This isn't just one conversation on productivity and one conversation on
+infrastructure, and one conversation on business apps. The conversation is around
+how all these products come together.
+Again, whether it's all our software or often times our software with partner solutions
+intermix, and you mentioned some of those partners as other folks you're talking
+with even during the session. And that is actually I think that another big change in
+the dynamic that we're seeing is that sort of how these solutions come together to
+deliver outcome is going to be a key focal point for both us and our customers as
+part of it.
+{BIO 1542979 <GO>}
+And Corey, within all those various projects that are part of this digital
+transformation, where there some in your judgment that were made an immediate
+priority in the 6-12 months after the pandemic hit that now might in their lifecycle sort
+of be leveling out? And conversely where their priorities that were put on hold that
+were kind of hit hard in the 6-12 months that are now having their day in the Sun and
+are ﬁnally getting funded?
+{BIO 16695509 <GO>}
+Yeah. So I think that there's probably two parts to this answer, I think part one is, it's
+really dependent upon the customer and the business that they're in, right. So like,
+you could -- I mean, it's sort of and this is where my new industry role is so exciting,
+because it is so diﬀerent retail, obviously anyone in retail that didn't have a vibrant
+online opportunity for purchasing and engaging and support and all of that, it was
+an immediate and critical need to ﬁgure that out right. And so whereas you may ﬁnd
+some elements of let's say ﬁnancial services maybe had less of that immediate sort
+of we need to completely rework how we're selling our products, right. And so the
+diﬀerence in that could very much be dependent upon those customers and the
+businesses that they're in.
+I do think there has been the obvious ones, collaboration technology, I would say,
+security. There has been a few that have really popped up in sort of that wereFINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 4 of 16Q - Karl Keirstead
+A - Corey Sandersimmediate requirements I think across the entire landscape, right. With the fact that
+everyone was working from home, you need to make sure that all collaboration
+capabilities work, your tooling all worked and your securities models were all able to
+deliver upon those experiences and that all was very immediate. I would say there
+was immediate spike, but I wouldn't say it's necessarily leveling oﬀ, because in some
+ways just expectations are changing, right. If we all remember the ﬁrst six months, it
+was just could we get on a meeting together and it worked, right. But now it's very
+much conversation of I want to be in a meeting and I want to be able to transact this
+work and understand the data, and look at all of this in one single screen.
+And so just the expectations of what it means to work collaboratively are continuing
+to go up with it, right. And so, while I do think they were those spikes, I think they're
+sort of that increased focus. There were some things that got delayed. There
+absolutely were some things and again it was customer-focused and customer-
+centric, and a lot of those are now starting to come back, I'll use retail as my example
+as well, frontline workers, right, sort of a focus on the frontline worker experience,
+when all the stores were closed, it maybe could be put oﬀ a little bit. But now with
+sort of a lot of retail back open that sort of priority has actually reaccelerated as a big
+area of focus.
+So, yeah, so I think there's a little bit of both industries, really speciﬁc there. And I do
+think there was a big spike, but even those big spikes I think, with sort of uncertainty
+about when the pandemic and when things "go back to normal" if there even is an
+original normal, I think the expectations on collaborative work are just increasing,
+everyone's expecting more.
+{BIO 1542979 <GO>}
+Let's go back maybe to a point you made earlier in response to my question where
+you mentioned that you, in fact, partner with a lot of those companies that I
+mentioned we're doing ﬁreside chats with today. So maybe the broader question is,
+how all of these IT spending changes are changing Microsoft's partner ecosystem.
+Are you making any shifts, you and the team on that front?
+{BIO 16695509 <GO>}
+Yeah. Absolutely. I think the big focus when we look at sort of our partner ecosystem
+and our opportunity, and this is actually a somewhat true even from our customer
+conversations, is shifting to not just selling our products, but actually going in and
+building together and building out solutions. And if you look at some of the most
+exciting partner announcements that I believe that we've had and some coming up,
+just some examples, (inaudible) oil and gas. I'll say, Amadeus in travel, BlackRock for
+hosting, Aladdin Services in Azure. They all are co-build experiences. For all of them,
+we are bringing in resources, engineering teams to work together with the experts in
+these ﬁelds to be able to basically take our expertise in things like collaborative
+applications and things like infrastructure expertise or data and AI and bring that
+expertise to the folks who know oil and gas better than us, who know, ﬁnancial
+services better than us, who know all of those elements better than us.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 5 of 16Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead
+A - Corey SandersAnd so those types of partnerships and us basically co-building and then co-selling
+has been a big shift for us. And one that I -- it's in fact what I'm really excited about
+my new job, because that's really where the magic happens is bringing the expertise
+from the two sides and bring that together, example even with our most recent
+Kyndryl announcement. And how do we bring sort of this strong expertise that
+they've had in their industries and markets with our capabilities and our horizontal
+services and sort of bringing them to life. And so it's deﬁnitely changing and
+changed a lot and we continue to see this opportunity as we work with these
+partners.
+{BIO 1542979 <GO>}
+Got it. Okay, good perspective. Let's maybe use this as a jumping oﬀ point to some
+of the individual revenue segments within Microsoft and maybe we'll talk about the
+one that everybody wants to talk about, which is Azure, congrats, by the way
+amazing success. And it sounds like you got your start in your Microsoft career as an
+engineer on the Azure VM side, which has turned into a pretty big business, so
+congrats to you and your team there.
+{BIO 16695509 <GO>}
+Thank you.
+{BIO 1542979 <GO>}
+I wanted to ask you a couple of speciﬁc questions on Azure, one is the tough one for
+us on the outside to ﬁgure out and that is how to model the conversion of these big
+multi-year Azure commitments to actually, usage and therefore Azure revs. I guess
+the supposition is that it probably takes some time that you sign a contract today,
+and you probably really don't see the usage, the sweet spot of that usage curve
+maybe for another 12 to 18 months, but I'd love to ask you Corey for your perspective
+about how that process works so that everybody listening can do a sharper job
+trying to model Azure revenues going forward.
+{BIO 16695509 <GO>}
+Yeah. I guess, the short answer is to your point, it's complex, right. And I think it's
+complex, because it's actually very much tied to the customer, and their goals and
+expectations and to your point even sort of from the previous discussion their
+prioritization, right. And what I mean by that is, it can go from a range of anywhere to
+they sign a deal and they have to get out of a data center in a year, because that
+lease is up. And so, they're incented to heavily move quickly with that data center,
+but then there may be other elements where they're transforming their business,
+they're inventing a new business model, which is going to take time to not only
+build, but then even scale, right. They may start small in one region and grow.
+And so with -- and every big customer and every big deal is typically a set of these
+types of engagements that will sort of, add up to their consumption on the cloud.
+And so, it is very, very hard to model frankly, and I don't envy those who have to do
+it. The points that I'd have -- maybe that I'd add that hopefully are helpful. One is,
+look, going back to the previous point in general there's urgency from customers.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 6 of 16Q - Karl Keirstead
+A - Corey SandersThere's urgency and there's passion around making these changes, more so than
+I've seen since I've been in Azure which was 15 years ago was when I moved into the
+Azure team in the original product line. And so it just energy around moving it's very,
+very high. And so, we see a lot of passion around going quickly one something is
+signed sometimes even starting before it signed, right. I mean, the ability with a
+consumption service, you can start months before you sign and then move forward
+with those types of deals.
+The other thing from our side that I'd say is it does take time like you said, but we
+have a bigger investment that we continue to make in sort of two elements there.
+One is the resources we bring to these customers, right. We bring sort of
+engineering resources called our cloud solution architects in with the customers
+immediately upon signing again sometimes before signing and before a single
+dollar of consumption is spent and we work with the customer, because the steps
+that they need to take are pretty involved, right. They need to look at their reliability,
+they need to look at their security, they need to look at how their costs are going to
+work, they need to look at their operations right they're teams typically need to be
+educated and have learning and skilling.
+And so we have a framework that we built out called the well architected framework
+that we continually improve, which is really all focused on again customers getting
+them to get the value that they wanted to get when they sign that contract as fast as
+possible. So there's work to do, we are shifting it to the left as we like to say and
+getting customers deploying as fast as possible, but it will always take time because
+those are always both people and technology eﬀorts that need to be made to get
+the full advantage.
+{BIO 1542979 <GO>}
+And I guess it's those people elements that might be the constraint these days
+because a hot topic on the street and the media is the fact that there's a labor
+shortage in such a bid out there for engineers these days. Are you seeing any
+examples, Corey? Where sort of the struggle for talent and the lack of people is
+constraining, the ability of Microsoft's large customers to ramp their use of Azure as
+fast as they'd like, or has it not reached that acute level yet.
+{BIO 16695509 <GO>}
+Yeah. I would say from a at least from my experience is. I think workforce shortage
+has not had that impact, but I will say and this has been true, I think since the cloud
+started, I think skilling is an area of acute attention for us. I mean, it's an area that we
+invest signiﬁcant amounts of money to go in and help customer's skill because it is
+going to be diﬀerent, it's going to feel diﬀerent. And so, my experience is less about
+sort of having the people it's more around making sure that we're helping people
+take the full advantage and understand and learn and look, it's the as I'm sure
+everyone on this call appreciates, it is a fast moving market and that's kind of the
+point, right? There's a lot of new technology coming out all the time, and we're really
+invested with customers, to make sure they're keeping up because it's in our best
+interest and their best interest to do so.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 7 of 16Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead{BIO 1542979 <GO>}
+Got it. Corey, another part of the Azure story that's tough for us on the outside, to
+get to get a handle on is what the mix of services looks like on Azure. I think
+everybody's impression is that as customers on board, there's probably a pretty
+heavy use of AzureVM compute, and storage called at the core infrastructure and
+then as they become more mature Azure users, they graduate to the premium
+services, but we really don't have a good sense for what that mix looks like or within
+the premium services, what are the more popular bigger buckets can you opine on
+that a little bit?
+{BIO 16695509 <GO>}
+Yeah, absolutely. I think maybe two points that I'd say, one is from my experience, at
+least it's less about sort of a maturity curve, and it's more about a customer need,
+right. And that kind of even comes back to my previous, a large customer that I work
+with, I have two parts of the customer that I'm working with simultaneously, one is I
+need to close this data center can you get me onto your VMware service in Azure as
+quickly as possible and we're going to stay there for a while, right. So, how do I do
+that? How do I get that done? Because I got to get out of this lease, right.
+And in parallel, I'm talking with them about their manufacturing line, and how we can
+leverage IoT and data to modernize it and enable them to be able to use AI to
+predict outcomes of the manufacturing line. And so at the exact same time, the same
+company, same maturity position, very diﬀerent conversations based on their needs,
+right. And so, I do think it's there's a big element of just customer need and what's
+pushing the market and how, right. And so I think that's at least one keep
+component. It's less about a nine month in customers move from IAAS as to PAAS,
+it's actually not like that. It's there are even within customers workloads that are 100%
+PAAS from day one, their workloads that are IAAS and never moved the PAAS. And
+so that it's also what makes I think the mix hard to predict. You can't sort of see a
+curve on it, right? It's in some ways per customer. And then you said so to further the
+speciﬁc areas. I think that an AI (Multiple Speakers) absolutely data and AI has been
+really a sort of one that's we've seen sort of a gigantic shift in focus for customers.
+And I think the realization and sort of a digital transformation push, starts with a
+conversation on. I got a lot of data and I don't really know what I'm supposed to do
+with it. And so the conversation around sort of getting the data up into the cloud and
+enabling sort of modern analytics, based solutions enabling AI based predictive
+capabilities. These are almost always a part of any digital transformation discussion,
+right. No matter whether it's retail customer information or whether it's oil and gas,
+seismic information, or whether it's, manufacturing IoT based information. The data
+strategy is a part of the discussion. And so that is a really big area of focus and
+attention force.
+{BIO 1542979 <GO>}
+So, maybe let's hit right on that actually, because that's a hot topic for tech investors,FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 8 of 16A - Corey Sanders
+Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead
+A - Corey Sanders{BIO 16695509 <GO>}
+Yeah. It should be. That's good.
+{BIO 1542979 <GO>}
+Even today. I've had Mongodb, Informatica ﬁreside chats. Yesterday, I did ﬁreside
+with the CEO Ali of Data Bricks, the day before that with Mike Scarpelli at Snowﬂake.
+{BIO 16695509 <GO>}
+I think I know all these folks actually.
+{BIO 1542979 <GO>}
+In many cases, their products live on Azure. Sure that.
+{BIO 16695509 <GO>}
+In all cases, I think that you just mentioned. They all have services on Azure, yes.
+{BIO 1542979 <GO>}
+All of them seem to be doing fairly well. So it's pretty clear to everybody, that super
+interesting is happening around the data AI space. But maybe where I can ask you to
+weigh in a little bit is how Microsoft's own products compete with all these vendors.
+So, on the one hand, you're a partner with all of them largely because they all want
+to run on Azure, but on the other hand, you're not just going to sit back and sort of
+seed that market to all those vendors and merely collect the compute resource
+consumption, you're going to chase that opportunity too. So how do you compete
+actually with all these partners of yours in this big opportunity Corey?
+{BIO 16695509 <GO>}
+Yeah. I mean and it's going to sound, maybe a little bit repetitive, but it all starts with
+the customer, right and making sure that we're delivering the capabilities that the
+customer wants and needs, right. And so, as you mentioned sort of all of those
+products that you mentioned, we have some products that you could argue
+compete, but they all compete which is the element right of those discussions.
+And so the opportunity to support our customers on the path that they want to go, if
+they have experience in a love of snowﬂake enabling snowﬂake, but enabling it with
+power BI right and enabling it into sort of teams collaboration with power BI and
+supporting that customer on that part of the journey is a great outcome for us for the
+customer for snowﬂake right. And so, we're certainly going to continue to do those
+partnerships and make sure these services run great on our infrastructure and then
+have integration across the entire stack. Data AI is a giant surface area even just the
+product that you just mentioned is even just that as a subset, right of the surface area
+of what customers are trying to do with compliance, with analytics, with spark with
+operational data, right it is a very complex and broad surface area.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 9 of 16Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl KeirsteadAnd our real strength comes in and being able to oﬀer solutions across that entire
+surface area being able to oﬀer integration with third parties, when customers would
+prefer them and being able to oﬀer great ﬁrst party solutions when they prefer just
+buy from us or they're already using our services and solutions, right? So, I think it's
+in some ways kind of a kind of a complex answer. But that's again coming back to
+that's the reality of our customers' environments, right. They may have reasons, they
+may have passions for each one of those services, and I do think that end-to-end
+story is really our strength. And our willingness to partner across each one of those
+customers and partners -- excuse me, and so I'd love you to hear whether those
+partner said, the same thing about us and about me, but we can maybe take that
+privately.
+{BIO 1542979 <GO>}
+They did. So, maybe a couple more on Azure. So this is taking you back Corey to
+your early Microsoft days when you are helping to build out the Azure VM suite. But I
+think if you asked the average tech investor today, they would argue that there's little
+to diﬀerentiate, compute resources, rented so to speak on Azure versus AWS EC2
+versus Google Cloud, compute, but you are part of the team that actually built that
+Azure VM suite. So, my guess is, you would probably disagree with the notion that
+they're all the same. So maybe it what I'd love to ask you, is what's actually diﬀerent
+about Azure on that core compute side.
+{BIO 16695509 <GO>}
+Yeah. And I think they're absolutely is diﬀerentiation in the core compute, I think that
+there are certainly elements that you'd probably argue would be commoditized. But
+frankly, I would probably -- with any service there's elements that are commoditized
+and elements that are diﬀerentiated. The places where I think we oﬀer some really
+unique value, and we see a lot of interest on in that sort of speciﬁc component of
+core compute is actually some of our GPU capabilities and our VM interconnect
+capabilities. Like, we've seen with the growth of sort of the data and AI story that I
+just mentioned one of the elements of that is being able to run complex AI solutions.
+And our AI stacks bands from sort of really self service, super easy to deploy
+cognitive services all the way down to really scale-out computing for super custom
+requirements, and we've seen our -- the customer requirements part of the story is of
+course, dependent upon having the right GPUs, having the right VM interconnect,
+having the right connectivity. And our inﬁniband based connectivity has continued to
+be a big diﬀerentiator for us in the market. We see this as a really big positive, we
+see a sort of the opportunity for both HPC and AI based solutions, but that's just one
+you could go surrounding that storage performance and the diﬀerent tiers of
+storage capabilities and sort of the ease of use. And then I actually think networking
+ease of use is becoming a really important diﬀerentiator in that part of the stack.
+How easy is it to leverage networking and use it with your hybrid environment? This
+is something we see all the time actually particularly from banks that I work with that
+sort of the networking is very complex and so getting that, right, and simple is a big
+diﬀerentiator and I would argue is deep in the infrastructure.
+{BIO 1542979 <GO>}FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 10 of 16A - Corey Sanders
+Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead
+A - Corey SandersThat's good.
+{BIO 16695509 <GO>}
+Yeah, maybe one thing, I'll add you super fast. Of course, the bigger points of
+diﬀerentiation are the fact that at this point we also ﬁnd people don't make decisions
+on infrastructure only, right. As everything we just talked about, right? You don't want
+your HPC or you're AIVM's to be running in diﬀerent cloud than your data services
+and you want your data services in the same cloud with your insight experiences in
+your same cloud with your collaboration experience. And so more and more we're
+seeing that like for us at least the Microsoft Cloud is a diﬀerentiator all the way down
+into what VMs are going to go by. And so that is also an element that I would
+probably add to the conversation. So my answers are so long, hopefully, that's
+helpful.
+{BIO 1542979 <GO>}
+No, no. Okay. I'm going to ask you one more Azure question.
+{BIO 16695509 <GO>}
+Okay.
+{BIO 1542979 <GO>}
+So, when we listen to April and Brett, they don't disclose Azure gross margins, but
+they've discussed how they have improved over time and one of the sources of
+improvement are eﬃciency gains inside Azure. So you were one of those guys,
+sleeves rolled up in the weeds, so can you give everybody listening, an example of
+an eﬃciency gain that still left in Azure, that might sort of, squeeze a little bit more
+margins out of all those servers. It seems impossible that you haven't squeezed the
+lemon to the maximum yet, but kind of what's left, that might be an eﬃciency gain,
+as maybe just give us one example Corey.
+{BIO 16695509 <GO>}
+Yeah. I mean, look I think, just like sort of innovation in any space there is always
+going to be an opportunity for innovating in these areas, right? I mean, certainly sort
+of the scale and the magnitude and sort of the amount of eﬃciency gained may sort
+of vary over time, but there's always opportunity to gain and part of that is with our
+work with providers, right? When you think of sort of the work and the improvements
+that are happening at a chip level at a memory level and sort of a networking level,
+all of these elements come together in how we are using our resources in the most
+optimal way. And some of it is even AI based.
+How are we understanding customers usage in the right ways and making sure we're
+making decisions based on that is then optimizing either power consumption or
+placement protocols, that is going to result in us saving money. And it is an ongoing
+eﬀort, it is an eﬀort that requires constant innovation and work, but I think it's an
+exciting eﬀort, right? And I think it's, especially for people down deep in the stack,
+it's a fun place, because given the scale that we're working in the joke that we alwaysFINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 11 of 16Q - Karl Keirstead
+A - Corey Sandersmake is, it doesn't take a big change to have a big impact. And so this is something
+that I do think, we do an eﬀort on, we do planning twice a year and margin is a big
+component of decisions that we make around what features we're taking and what
+work we're putting in place and how that will apply to the bottom line quite literally,
+so, yeah.
+{BIO 1542979 <GO>}
+Super helpful. Let's leave Azure for a moment and talk about another exciting
+product area, and that's teams, Cory. We everybody listen is trying to ﬁgure this out.
+There's a number of variables, collaboration with such a huge priority as you even
+said earlier. As we look in the next 18 months will that fade a little bit, will it ﬂattened
+out. That's one thing we're trying to ﬁgure out, we're trying to ﬁgure out how
+Microsoft teams versus Zoom versus WebEx versus Salesforce, Slack, how that
+competitive environment's going to play up? Maybe you could set the framework for
+us with your views on how usage and adoption of teams is changing and what you
+see in the next year or two?
+{BIO 16695509 <GO>}
+Yeah. So there's probably a few areas that are worth touching upon sort of like you
+already said the growth and sort of expansion of teams usage over the last two years
+has been somewhat mind-blowing. I mean, I think it's been super exciting to see it
+and sort of watch it and even going back to my previous role since it runs all on
+Azure and VMs right, like, it's the whole company is behind this, right? And it's just
+such an exciting place for all of us to be. And I think sort of the latest numbers nearly
+250 million now as of our Q4 FY21. For sort of your question, which is about sort of
+okay, so great that's a big number, but where do we go from here, right?
+And I think there's probably a few areas. One is there is still an opportunity to grow
+the user base, right? And one of the things that I already even mentioned with
+frontline workers is the ability to sort of think about, how are we enabling use retail
+right shifts, and how we enabling walkie-talkie usage. And how are we bringing
+some of these capabilities such that teams is an experience that literally every
+employee at a company can use which and we'll use, right? And then we'll love,
+right?
+And so this is work that needs to happen and it's it ties back into with my industry
+charter, because the work is industry-speciﬁc, right? There's diﬀerent requirements
+for someone who's working on an oil rig and someone who's working in a local
+store. And so we've got to work through those requirements and deliver upon it
+independently. So that's an opportunity for base that I think we could grow. I think
+there's also a lot of opportunity for us to increase value and then resultantly increase
+revenue per user, right? And this is some of the things that I've even already talked
+about in collaborative applications, right. Enabling some of these partners that we
+already talked about to have collaborative experiences in the team's environment.
+Enabling those teams integrate with additional services, like voice, right, or contact
+center, right? And enabling sudden some of those capabilities to really shine as part
+of that team's experience.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 12 of 16Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead
+A - Corey SandersAnd then perhaps the other area that I think is really important is continue to expand
+on our trust and security story when it comes to teams and then across the entire
+platform. This is a big reason why people choose teams is they believe in the trust
+that we're oﬀering they'd believe in the support. And so I think that's a -- it's a really
+good opportunity for us to both continue to add value and, of course, continue to
+gain revenue as part of people buying those new services.
+{BIO 1542979 <GO>}
+Got it. Let's hit on the most recent teams announcement where just last week, I think
+you announced teams' essentials. So that's clearly targeted downstream at small
+midsize businesses. The stated price points $4 per user per month. Can you describe
+what the strategy is there, I was hosting Zoom a couple hours earlier Corey, I
+certainly ask them what they thought of essentials, but I'd love to ask you?
+{BIO 16695509 <GO>}
+I thought I should have watched that, yeah, and maybe you can again tell me oﬄine.
+But look, I think so I mentioned a little bit about just the expanding of the base and
+when you look at sort of teams essentials, I think it's another opportunity to do that.
+Small businesses are diﬀerent, right. Their requirements are diﬀerent, their needs are
+diﬀerent. And I think with teams essential we see a big opportunity for those
+companies that are 25 employees or less, right. That they're looking for some sort of
+meeting capability, with again, all of the aspects of data expect from Microsoft
+around sort of trust and so on but are not yet ready to purchase the broader O365
+or MP65 suite.
+And so this capability to sort of team standalone we think is quite appealing to be
+able to oﬀer that platform to those to those smaller business customers and enable a
+lot of the other points that I mentioned around sort of expanding out to other
+collaboration changes that they may want to make in their business, but oﬀering the
+platform oﬀering the meetings experience is really a great opportunity for us and I
+think can oﬀer a lot of value to a market that is looking for that value right now.
+{BIO 1542979 <GO>}
+Look, Corey, how would you robut the view that Microsoft is taking teams for at least,
+for this customer segment from $3 to $4 per user per month, is the diﬀerence that's
+not the same product that essentials is actually a beefed-up version of what you
+would otherwise get for free. Is that correct?
+{BIO 16695509 <GO>}
+That's right. I mean there's quite a bit more value, group video calls for up to 30
+hours, group chat, ﬁle-sharing, right. These and even calendaring like, these are the
+capabilities are well beyond just I can call one person and talk with them, right. I
+mean, the concept is focused on what a small business needs and the small business
+needs more than just person to person phone calls, right. And so that's really the
+strategy and that would be my rebuttal if that was told to you in the other call.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 13 of 16Q - Karl Keirstead
+A - Corey Sanders
+Q - Karl Keirstead{BIO 1542979 <GO>}
+Let's talk about Oﬃce. Obviously, one of the franchises inside Microsoft's portfolio.
+The bigger news there is that Microsoft has elected to as of March 1st raise the price
+points across not all but some important SKUs. So maybe you could help frame that,
+why do you think this was the right time for Microsoft to make that move and Corey
+as you've been interfacing with customers, like what's the reaction to the price
+increase? Is it a little bit of pushback? Is it a shoulder shrug? What's happening in
+terms of the reaction?
+{BIO 16695509 <GO>}
+Yeah. So with the price increase and just to share a little bit of background, we've
+actually not increased the Oﬃce 365 price since June of 2011, right. And so, pretty
+astounding time period. And yet over that time period, over the last four years, since
+Microsoft 365, we've added 24, like distinct full apps, including teams, power apps,
+power BI, power automate. And so, it there's always this deep conversation that we
+have about how we're adding value and how the price point matches the value that
+we're adding and it's a constant conversation, decision point that needs to be met.
+And, of course, our primary goal is about getting the right value to customers, but
+then making sure that it is at the right competitive price point. And so, that's kind of
+the background at least on the changes and again sort of the -- I think the timing of
+those changes. From a broader customer perspective, and it's, I want to be careful
+about speaking holistically about every customer in the world, but with the
+customers that I work with the conversations are so much broader than one seat
+pricing, right? We are again, even coming back to my previous discussion the
+conversations are always about the full Microsoft cloud there were about this
+element of dynamics and this element of power apps, and this element of M365 and
+this element of Azure and this element of data.
+And so, these conversations are really around what are the out outcomes that the
+customers are getting and then what's the total ROI for that type of outcome. Like,
+I'm not saying price isn't important for customers, but the price conversation is much
+less line item by line item it's much more what am I paying Microsoft and what is the
+ROI that I'm going to get from that. And those conversations this is sort of a blip,
+right, because the conversations are so much bigger and so much broader. And
+again, I want to be careful saying that doesn't mean there aren't customers that are
+going to want to have a conversation about this. I want to be realistic about that, but
+at least the conversations I've had, there always bigger broader and much more of a
+total ROI conversation then they are line item, price items.
+{BIO 1542979 <GO>}
+Got it. Perfect. We've probably only got ﬁve more minutes. So let me take a couple of
+questions. So one that came in Corey, I'll just read it back to you. And it references I
+think a customer anecdote you made about wanting to get out of a data center and
+move on to VMware on Azure. So the question is, why would a customer lift and shift
+onto VMware on Azure without actually rewriting the underlying code or data to take
+advantage of what the cloud can oﬀer?FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 14 of 16A - Corey Sanders
+Q - Karl Keirstead
+A - Corey Sanders{BIO 16695509 <GO>}
+Yeah. I mean, actually going back to, I don't know four questions ago or ﬁve
+questions ago. I mean, primary reason is both skill set and then dependent tooling. I
+mean, this is customers and this is why it's always so hard to make generalized
+statements that some customers have built a really extensive toolset dependency
+chain on products like VMware, right. And this is why the partnership with VMware is
+fantastic and VMware oﬀers a lot of modernization capabilities on top with their
+container based solution.
+So I want to be careful say in VMware isn't a modern solution like they're oﬀering
+those capabilities on top, and so you can modernize in that way and customers have
+that dependency and some customers don't have that dependency and then they
+will look at some of the other services capabilities. And so, it is really about sort of
+the customer starting point, their skill set, what they're comfortable with and what
+they're built into their environment that is going to dictate some of the ﬁrst steps
+they take. And this is why these partnerships again so critical, because they're all
+about just helping customers in their journey, with whatever starting point they're on
+and those starting points are often times going to be diﬀerent partners in diﬀerent
+places and VMware has a fantastic partner in this regard oﬀering modernization, but
+also oﬀering really fast lift and shift capabilities for customers who have deeply
+invested in VMware, which are many, customers.
+{BIO 1542979 <GO>}
+Exactly. Okay, maybe I'll ﬁnish with another question on a subject, we haven't hit on
+and that's the sort of the core Windows franchise and the spirit of the question is,
+that Microsoft done a great job over the last ﬁve, ten years taking a lot of its
+traditional businesses and essentially moving them to the cloud, moving them oﬀ of
+traditional license maintenance models to one that's more radical subscription and
+usage-based. But a large portion of the core Windows business is still sort of that
+Windows OEM upfront license sale. So I'd be curious, what Microsoft is doing to try
+to take the Windows business into the cloud and radical subscription era? And two
+things I've noticed recently that seemed to be eﬀorts would be Azure virtual desktop
+as the way to marry windows and Azure and then I think Microsoft has recently
+launched a cloud PC product that might have that same eﬀect. Can you touch on the
+traction you're seeing so far, on those products and who they might be disrupting?
+{BIO 16695509 <GO>}
+Yeah. And, the combination of those two products is actually a pretty exciting set of
+solutions that we oﬀer. Especially given even I think question one, which was this
+digital transformation movement with security and trust as sort of a central point. It is
+created a lot of demand for cloud-based desktops, right, to be able to run your
+desktop in the cloud, to be able to leverage that to create a zero trust environment
+on your local machine, right and we found many, many customers have built
+dependencies around that. And then with the expectation that it integrates with your
+collaboration capabilities, like teams, like Oﬃce365 et cetera.FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 15 of 16Q - Karl Keirstead
+A - Corey SandersAnd so this has been a big shift and I think the pandemic is this has been actually
+one of your sort of big spike questions that we've seen from the pandemic which is,
+how do I get all of my employees into a virtual environment in the cloud from my
+desktop to create this zero trust opportunity on-premise -- excuse me, in the hub.
+And so that's what sort of these solutions really oﬀer and the combination of the two
+of them oﬀer again this full range, even sort of taking the previous question and
+applying it here Windows 365 oﬀers really actually exciting and new way to run sort
+of windows experience including apps and data and settings all sort of automated
+and managed by the cloud, right, and it's just a fantastic way to truly get that
+windows-based experience natively in the cloud. As a virtual desktop, is one that
+we've seen a huge amount of traction and excitement around, and particularly
+around our strong partnerships with Citrix and again VMware, in oﬀering their
+solutions natively in a cloud experience, for those customers who use them, who
+love them, who want to grow on top of them, and allows them to be able to deploy
+those experiences directly on Azure infrastructure with a scalable and cloud-based
+expectations.
+So that range again gives customers choice that allows customers to pick and it
+accelerates their movement to that digital motion, which is again oﬀering sort of
+windows based experiences in a fully scalable and cloud-based way.
+{BIO 1542979 <GO>}
+Corey, I could talk to you for another hour, but unfortunately, we got to cut it here
+and I'm sure you've got a day job that you need to get back to anyway.
+{BIO 16695509 <GO>}
+Sooner or later, yeah, exactly. Thanks for carving out time for us and thanks, April and
+Brett for enabling Corey to attend the conference and tell the Microsoft story to UBS'
+clients. So thank you all and happy holidays.
+Thanks a lot.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT FINAL TRANSCRIPT 2021-12-08
+Microsoft Corp (MSFT US Equity)
+Page 16 of 162024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

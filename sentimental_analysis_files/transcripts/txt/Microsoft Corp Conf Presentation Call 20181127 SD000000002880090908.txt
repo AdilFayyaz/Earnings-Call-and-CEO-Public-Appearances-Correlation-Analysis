@@ -1,0 +1,688 @@
+FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 1 of 15, Corporate VP of Azure
+, MD, CrÃ©dit Suisse AG, Research Division
+Brad Alan Zelnick
+Jason Zander
+Q - Brad Alan Zelnick
+A - Jason ZanderCredit Suisse Technology, Media & Telecom Conference
+Company Participants
+Jason Zander
+Other Participants
+Brad Alan Zelnick
+Presentation
+{BIO 16211883 <GO>}
+I'm Brad Zelnick. I'm the software analyst here at CrÃ©dit Suisse. And we are truly
+delighted to have with us today Jason Zander from Microsoft Corporation for our
+software keynote this morning. Jason is Executive Vice President of Microsoft's Azure
+business. He's been with Microsoft since 1992, started out in engineering. Before
+Azure, I think you ran the Visual Studio business.
+{BIO 20468487 <GO>}
+That's correct.
+Questions And Answers
+{BIO 16211883 <GO>}
+And really, really excited to have you. Why don't we get comfortable? Format of
+today's presentation is going to be a ﬁreside chat. And we're going to see what we
+can learn about Microsoft's eﬀorts in the public cloud. So Jason, maybe just to open
+it up, get to my notes. But I know what I wanted to ask you, Microsoft's mission
+statement, it's quite bold. And every time I open up your ﬁlings or listen to Satya
+speak. And I'm reminded to empower every person in every organization on the
+planet to achieve more. With that, I just think boundless opportunity. But as it relates
+to Azure, what is unique about Azure that best enables you to deliver on this very
+bold vision?
+{BIO 20468487 <GO>}
+Yes. And thank you, Brad, for having me here today as well. Good morning,
+everybody. I would say there are several things that I would point out. But I want to
+start oﬀ from an Azure perspective and I'd really push on hybrid. Hybrid is something
+that we have made part of our product plan since day 1. And some of that comes
+from the fact that we had 20 years experience providing software into data centers,
+the data center and enterprise environments. And then we've done the hyperscaleFINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 2 of 15Q - Brad Alan Zelnick
+A - Jason Zandercloud. And so that's a really great solution that we have and we've done everything
+full spread on hybrid. We also have a very broad portfolio. So going even beyond
+Azure, we, of course, have Oﬃce 365. When you think about how one uses that, I
+have Azure-acted directory. So I have identity, I have security, et cetera. And the
+products all come together. So the Microsoft Cloud, have a look at Oﬃce 365,
+Dynamics and the identity that underpins all of these, all of these things compose
+well. The last thing I would say is it's not even really a technical diﬀerentiator. But we
+are a software company. And one of the key things I always tell potential customers
+and partners, we're not your competition. We're here to help support you in a world
+where -- I think a lot of customers that I talk to, they don't want to get technology on
+one hand from a provider and have that provider turn around and compete with
+them on another. And so to us, just being at the core and having that breadth, that
+hybrid, those are diﬀerentiators that I think resonate.
+{BIO 16211883 <GO>}
+Excellent. And if we think about your global presence, 54 global regions, the largest
+presence in the marketplace as I understand it. As we think about the various data
+centers that comprise those regions and we think about that driving your success, is
+there a theoretical limit to the number of regions that we should expect? And how
+do you think about the decision to expand further into diﬀerent areas?
+{BIO 20468487 <GO>}
+And this one is kind of region how we've gotten into cloud as well. I mean, with 54
+regions worldwide, these are the big hyperscale regions that we run all these big
+workloads in. Now we do this in order to get close as possible to your potential
+customers as well as your employees. And so being able to be in these regions
+around the world is super important. Also having more region counts helps us with
+things like data sovereignty. Now if you think about our history in cloud, one of the
+key reasons we need to do that, we're doing Oﬃce 365. And we're one of the ﬁrst
+big commercial SaaS services out there, the most popular one out there today. And
+it turns out if you're doing people's e-mails and SharePoint document, et cetera, you
+need to be close and you need to have that kind of coverage. And so we've done
+that worldwide thing since day 1. If you think about it, if I was a retailer and I was only
+serving a couple of markets, I don't really need that. So I start oﬀ with a smaller
+footprint. If I was just doing search, you don't need full coverage. In fact, even with
+Bing, we really only have about 5 regions around the world that we run Bing out of.
+We have full coverage. But it's just -- if I'm shredding the Internet and you're
+searching for a laugh out loud cats, I don't need to worry about having one in
+Luxembourg, right. So you can just basically service it that way. So our history is kind
+of rooted in that. That's one of the other ways we chose to diﬀerentiate because we
+needed it. We recognized customers and ISVs with worldwide reach needed it. And
+so from a theoretical limit, right now, 54 regions is the ones we've announced. We
+do have more that are underway that we haven't disclosed yet. I expect us to
+continue to do that. There is a point at which, probably don't need to put a data
+center in every single location that would be cost prohibitive. And we have good
+solutions in regions like the European Union and U.K. after Brexit and things like that
+as well. Then we move into things like Azure Stack, which allow people to get down
+to the very last mile. If you want one in the basement of Parliament, we can hook you
+up.FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 3 of 15Q - Brad Alan Zelnick
+A - Jason Zander
+Q - Brad Alan Zelnick
+A - Jason Zander{BIO 16211883 <GO>}
+Helpful. And Jason, as we think about your CapEx investments, I think everybody,
+many in this room, we look and listen very carefully to what Microsoft is doing and
+where it's allocating its capital. But speciﬁc to the Azure business and the build-outs
+that you do, can you maybe talk a little bit about your capacity planning process?
+How its evolved over time? And how the approach and cycle time might be diﬀerent
+today versus what it was years ago?
+{BIO 20468487 <GO>}
+Yes. And let's look at it at a top level. I mean, I think the interesting thing from a
+business perspective, the TAM here is just huge. I mean, it's a tectonic shift. 26 years
+at Microsoft and I lived through DOS to Windows and I lived when Oﬃce was
+created. This might be the biggest one I've seen and even with that kind of
+background. So the TAM is actually huge. And we are, no question, taking share and
+growing, which is fantastic. And so we do expect that our capital spend, our CapEx
+will continue to rise because we're meeting that demand. I need to go do that. The
+other thing to remember is, when I build out for Azure, I'm also doing it on behalf of
+the Microsoft properties. So when we expand these data centers, all the servers we
+put in, the networking connectivity that we do, we're also serving Oﬃce 365. We're
+even serving Xbox. I mean I can watch kids come home on the East Coast and go to
+the West Coast because I can see when Xbox kind of picks up and then you have to
+go do your homework. And then it drops down there and then all of a sudden
+California, it's up again. So we're supporting all of these kind of platforms. So that
+capital spend is for all us. But it's built on top of, Azure's the core. Then of course,
+there are customers that aren't Microsoft properties that are running on top of it. So
+expect that to go. Now your question was then around eﬃciencies and how are we
+dealing with this. And so we're absolutely, every semester, do semester planning. I
+book new wins on COGS improvements. That includes things like tidying up our
+supply chain, our capacity planning, getting better and better at ﬁguring out what
+the windows are in long-range positioning and kind of your 101 kind of stuﬀ on that.
+And I would say we've grown so massively that we're also now trying to grow those
+internal systems we get more and more eﬃciencies over time. So we've continued to
+go do that. There's lots of diﬀerent angles in there you can pick apart.
+{BIO 16211883 <GO>}
+Is there any rule of thumb to think about $1 spend today versus $1 ﬁve years ago or
+ﬁve years from now and the productivity that you would expect to get out of it?
+{BIO 20468487 <GO>}
+Yes. No. We absolutely the kind of -- the real core of that is are we getting more
+eﬃcient? And the answer is, absolutely, right. We're absolutely getting more eﬃcient
+as we go through. A couple diﬀerent things we do. One, like I said, shortening lead
+times and being able to do a better job of predicting where capacity comes through
+is something we concentrate on heavily. We have won some pretty massive deals. I
+mean, I'd say the cloud has transitioned. And we had cases where people would
+come in and run risk management, they do 100,000 cores and kind of run those
+through. But you're now getting into the largest enterprises that are replacing entireFINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 4 of 15Q - Brad Alan Zelnick
+A - Jason Zanderdata centers. That winds up being a huge shift. So we do a lot of intentional planning
+and getting eﬃciencies on that. Then within the ﬂeet itself, we look at the
+combination of utilization, our power utilization, et cetera. We have machine learning
+algorithms that we run internally to optimize all this stuﬀ. So we're making maximum
+usage of that. Plus we do a lot around our SKU mix and things like that as well so we
+can get the best possible planning. We'll even do this, of course, at a worldwide
+scale. So all of those things are actually part of what we're doing for eﬃciencies. And
+we'll get better and better and better over time.
+{BIO 16211883 <GO>}
+And just to pivot to a diﬀerent topic that is I know on just about everybody's minds.
+In the headlines all the time is security. And security is clearly an important design
+criteria for any cloud service and it's becoming more and more topical and part of
+Microsoft's message. And no matter how much we spend on security, some
+estimates, $80 billion, $90 billion, $100 billion a year, we continue to wake up to
+these breaches. What is Microsoft seeing speciﬁc to Microsoft Cloud as your
+responsibility? How much of this is opportunity in its own right versus something that
+needs to be inherent in your platform?
+{BIO 20468487 <GO>}
+Yes. And this is a super important one. Obviously, security has never been more
+important, especially as we have even more connectivity devices around the web
+and they wind up taking even more control over some of our everyday functions that
+we all interact with. Now I think the estimates that I've seen are in 2020, the world
+economy could get hit by about $1 trillion worth of impact from cybersecurity. Wow.
+Okay. So we need to make sure we're all doing a very, very good job on that. From a
+Microsoft perspective, we spend about like $1 billion in R&D. That's all of our
+professional engineers, men and women that are working on these tasks. We have
+over 3,500 full-time employees, they only do security. Our digital crimes unit and all
+the rest that kind of stuﬀ that we do. 3,500 full-time employees that are there. Now
+one of the interesting things to think about from security from a Microsoft
+perspective, we see a lot of unique signals around the globe. We see, for example,
+everyone using Oﬃce 365. We have to produce security technology to protect our
+own customers and our own products. So we invest in that. We have 1.2 billion
+sockets out there with Windows, we see that as well. And you probably have seen
+Microsoft publicly work with law enforcement agencies around the world to take
+down the illegal botnets, phishing sites and all those sort of bad actors. It's, again,
+part of that security investment that we do. Now from a cloud perspective, think
+about how old those signals. And we get about 6.5 billion signals a day. We pull all
+of those signals in that we see for our own products on the public net as well as
+things from the client, the botnets and all the rest of that stuﬀ. And we include it in
+our own data and analytics. We run machine learning algorithms over it. We ﬁgure
+out bad patterns and anti-patterns. And that's how we protect our own properties,
+Oﬃce and Xbox. Then we turn around and make those, your market question, we
+take some of the same tech to protect our own customers and we make some of
+those products that are available for our customers so they can also have those
+advanced protection as well. So that's -- those are just some examples of some of
+the things that we invest in. And as you pointed out, I mean the bar is going to
+continue to go up.FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 5 of 15Q - Brad Alan Zelnick
+A - Jason Zander
+Q - Brad Alan Zelnick{BIO 16211883 <GO>}
+In terms of monetizing that investment, can we expect increasingly we'll see you
+going after security dollars earmarked within a customer budget versus monetizing
+just through the adoption of customers feeling more conﬁdent in Oﬃce 365 and
+Azure and all the various cloud services that you oﬀer? Implicit versus explicit, sorry.
+{BIO 20468487 <GO>}
+Sure. No, absolutely. Yes. And I think you should think of this as, over time, is we'll
+continue to evolve. And so in some ways, security is just table stakes, right. You have
+to have security in your cloud. And we do. It's going to be built in. So as you see the
+kind of re-factoring of the kind of value proposition that the cloud brings. I mean
+you're no longer worrying about your hardware, you're no longer worrying about
+the underlying management, that just comes with. Of course, a certain element of
+security has to just come with. That's the table stakes part of this. And we provide
+that as well. So some default protection, it's just got to be in there. People can take
+advantage of it. And that would be something, as you point out, would be
+recognized more through people leveraging Infrastructure-as-a-Service and our as-
+a-service oﬀerings from database to PaaS. That's just a core part of what is built in.
+Now that said, today, if you're protecting -- if a CIO is looking at her portfolio of how
+she's running your data center, chances are she's actually leveraging 12 separate
+products from lots of vendors, stitching a bunch of these stuﬀ together and trying to
+ﬁgure out how to go make all of that stuﬀ work. And you're paying for those
+products that are there. A certain amount of that value will waterfall into that's just
+part of what the cloud provides. But there is a lot of advanced threat analytics that's
+available for that. And we expect that people can and will want to be able to do that.
+So our strategy here is twofold. One, you'll see us introduce products. I mentioned
+Azure Security Center, there's also -- Oﬃce has a threat analyzer as well for O365.
+There's a bunch of this technology that we expect that customers will want that value
+because it helps protect them and, in some cases, simplify that portfolio that was
+mentioned. Now I also a very strong ISV ecosystem. So those 12 products that our
+CIO was using in her data centers, it turns out in this Hybrid state where we expect to
+see Hybrid across the board, we want to make sure we're meeting her where she is
+and then also working with those ISVs so they can bring their products along as well.
+So I think you will see us core table stakes. We have some more of our own
+diﬀerentiated oﬀerings that we think simplify the world and really do a good job
+managing out there. But then we're also going to have that healthy ecosystem that
+helps everybody bridge that gap. Then for those ISVs, to also modernize their
+products.
+{BIO 16211883 <GO>}
+Excellent. Thank you. So much. In your opener, Jason, you talked about hybrid as
+being a distinct attribute and diﬀerentiator for your oﬀering. And as I also think
+about Intelligent Cloud, that's often talked about in the context as well of intelligent
+edge. Many talk about edge computing being the next generation of growth and
+opportunity in technology, more broadly. And as we think about edge, there are
+going to be various players. There are going to be horizontal winners. There are
+going to be speciﬁc specialized edge players like security edge players, et cetera.
+And I've heard from Satya all the way and down through the rest of the organization,FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 6 of 15A - Jason Zanderexamples like precision agriculture, precision medicine. Can you talk a bit about the
+edge opportunity as you see it today? Why is it so important? And why is Microsoft
+so well positioned to capture it?
+{BIO 20468487 <GO>}
+Yes. That's a great one. And you'll see our world view at Microsoft. And we've used
+this framing for the last couple of years, actually. And I think you captured it quite
+well. We took a world view of the Intelligent Cloud and the intelligent edge. Why do
+you do that? I think one thing you need the cloud on the back end is really kind of
+your substrate. I mean it knows who I am no matter what device I'm using, if it's my
+phone or tablet or my car. I mean so the cloud helps with that, gives us that global
+reach, that maximum processing power. The edge, as you point out, is all diﬀerent
+sorts of form factors that we have available for that. And so that could be anything
+from, again, the devices that we're carrying, the stuﬀ on the table and in your bag,
+out to things like the sensors that are running this building. I mean all of those things
+can be part of that edge. The intelligent piece has to come down to -- do we do
+believe that it has to be smart. I mean you can't just have a bunch of signals coming
+oﬀ of dumb devices. We'll have sensor measures. Those things have to be there. But
+we also want smarts at the edge. My favorite example of this, if you think about self-
+driving cars, like there's a point at which we want enough smarts on board so that if
+that car sees a red bouncing ball come out in front of it, it hits the brakes right away,
+just like you would as a driver because there's a high probability there's a kid
+coming out right behind it. Like, I don't want that making a round-trip to the cloud to
+ﬁgure out, should I hit the brakes? Is that okay? I mean, like, no. I mean, like, do it
+right then and right there. And so I think that intelligence piece is something that's
+super important. So that's a topical taxonomy. And let's mention the kind of hybrid
+aspect of this because I think that plays in and maybe we can come back to the
+edge, if that's okay. From a hybrid perspective, what does this mean? It means that
+you're going to have, again, think about that edge taxonomy. I am going to have this
+hybrid kind of solution and this is, again, been part of our solution since day 1. And
+we think that hybrid is super important, that's identity, it's your data, it's your security
+and then it's also the form factors. It's not just can I run a couple of software
+applications here or there, it's got to be all those things put together. And that's
+been a core part of what we've done. Our hybrid oﬀerings are actually really, really
+strong. And again, it comes from 20 years of experience of having actually done
+software for data centers and we're structurally positioned quite well no matter what
+that mix looks like our customer. In particular, I will tell you one really great example.
+We are seeing -- we have the single Azure Hybrid Beneﬁt. What that means is you
+can take your SA license for Windows Server or SQL Server, you can run that on
+premises. But you can also bring it with you to the Azure cloud. And only the Azure
+cloud. And if you look at that from a pricing perspective, that means running that
+workload with that SA, Amazon could be up to 5x more expensive for that same
+workload, right. And so I'm seeing this really good dynamic in the market, which is
+there's a lot of people that have server workloads that might be running SQL Server,
+they're on the 2008 product lines. And those are coming to end of service. And so
+having a lot of conversations with customers right now about, well, how do I
+modernize? Do I just like upgrade it in place on my existing equipment? Or but I was
+also doing a data center migration. And if I can come along and give you Azure
+Hybrid Beneﬁt, I can help you actually pull that tech forward, you can actually run it
+ﬂexibly and much, much cheaper. Then I'm seeing a whole bunch of companies thatFINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 7 of 15Q - Brad Alan Zelnick
+A - Jason Zanderare now starting to zero in on, gosh, maybe this is a great time to move those
+workloads, get them modernized up to the latest version, kind of get an evergreen
+solution plus the cloud with the savings, a great combination. So those are just some
+examples. And then Azure Stack is both sides. Let me stop there on the hybrid
+because I want to get back to your edge question.
+{BIO 16211883 <GO>}
+Please.
+{BIO 20468487 <GO>}
+Okay. So from the edge -- so that's the basis. I wanted to go hit that just so you can
+see how that lines up. Now with that in the background, okay. So now I've got this
+combination of the cloud, I've got the hybrid components that I can run with my own
+data centers, now we can get into things like Azure Stack which is, again, our third-
+generation appliance that we've actually done. I joined Azure in 2012 and we already
+had that as part of our strategy back then which has been there since day 1. So now I
+can start getting to this edge thing. Let's take a great example, like a connected
+factory. It's one of my favorites because if you think about a factory, it's out there and
+running it. Stopping a production line in the factory could cost me $1 million a
+minute or an hour, depending from what you're doing. But it could be really, really
+expensive to be able to do that. And so now like let's get an IoT scenario. When I
+come back onto the edge, I can have a combination of my controllers and things on
+the ﬂoor, hooked up. But I can put an Azure Stack on the shop ﬂoor, make sure that
+everything is nice is connected. Even if there's a ﬁber connection, massive storm,
+hurricane, I don't know, something like that, my factory keeps running. And because
+of the intelligent edge part, I'm also doing a lot of the AI and the machine learning
+locally, that we've actually got people doing production manufacturing. Jabil is a
+good example. They put cameras on their production line. They actually take
+pictures of components as they go through the diﬀerent manufacturing stage and
+they use ML models to actually look at what should it look like and what isn't. So
+image recognition. And they'll actually ﬂag defects early and ﬁx the line as it goes.
+That's a great example of intelligent edge right there. But now I get Azure Stack
+components. And those things come together. Then of course, those same
+machines, the things that are running in the factory, I can upload all the logs into the
+public cloud, the hyperscale cloud, cheap storage, lots of compute and I can start
+running big analytics jobs to tune my production runs. Like is it worse manufacturing
+in Germany, in the middle of December, if it's been cold for ﬁve days in a row. It
+depends upon your factory and your materials. But I can make those decisions and
+tune it. So when you put all this stuﬀ together, I believe we have this really awesome
+solution for all of this. It all dovetails quite well. It's been part of the strategy since
+day 1. And I mentioned the industrial one because we absolutely have a lead in
+industrial IoT with Azure IoT. We've got over 70 major partners if you look at things
+like Schneider and Johnson and GE and Siemens and all the rest of these folks that
+do that part of the house. Then also companies, I mentioned Jabil, the Cummins and
+even coﬀee makers and stuﬀ like that, that do this in factories. So that's kind of like
+the world view. Now applied to smart cities and smart buildings and smart
+everything. And it kind of lights out. It sounds like the possibilities become endless.
+It's really cool. I love it.FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 8 of 15Q - Brad Alan Zelnick
+A - Jason Zander{BIO 16211883 <GO>}
+As it all comes together. And I appreciate the consistency of Azure Stack with a very
+seamless experience as it relates to an Azure Cloud and the customer beneﬁt that
+they get with Azure Hybrid Beneﬁt, as it all comes together and enables customer to
+adopt the architecture that's best for them based on their requirements and
+constraints, I know every investor in this room and whoever's listening in has made a
+bet on what that rate and pace of cloud migration looks like. When we look back at
+3, ﬁve years, 10 years down the road, how much of the enterprise estate will be "on-
+premise" versus in "the cloud" however you deﬁne that? I'd be curious, from all the
+data that you look at, all of your experience, what is your world view on where -- I
+mean we just saw IBM make a massive acquisition in Red Hat. And one of the
+justiﬁcations being, hey, only 20% or so of the enterprise today lives in public cloud,
+what are your thoughts here?
+{BIO 20468487 <GO>}
+Yes. And this is one -- and I mentioned this hybrid taxonomy, like we actually view
+this, again since day 1, as more of a persistent hybrid state. We've never viewed this
+as snap your ﬁngers and then some number, you're -- everybody's in the hyperscale
+cloud. In fact, this factory example that I gave, smart city critical infrastructure, that's
+an example. You're always going to be in the hybrid mode. And we've always
+anticipated and expected that, that would be there, that's why it's been our strategy
+since day 1 and we've made that investment. So from that perspective, we're going
+to help customers meet whatever that demand looks like. I think there's places
+where what I'm seeing is people really looking at the hyperscale clouds as a great
+way to go run their workloads. And they're seeing the cost savings, there's hybrid
+beneﬁt I mentioned, keeping up-to-date, being able to actually save money, those
+are things that are absolutely driving that growth in the hyperscale piece. Then from
+an on-premises side, like I mentioned all the way down to sometimes sovereignty or
+disconnected scenarios, those things, you're absolutely going to want to run things
+that way. The good news. And if you think about evaluating our product portfolio
+and how we're operating, we're structurally set up well for all of it. We've been doing
+the on-prem stuﬀ for 20 years. A lot of the world's workloads run on our software.
+And so the fact that we have those assets and we have parlayed that as part of our
+strategy into the cloud with symmetry between them really sets us up to be -- we're
+the ﬁrst-class thing. You mentioned some of the M&A activity, in some ways, what I'm
+seeing now is a lot of folks that, frankly, did a lot of hybrid washing originally that
+have a slide on it. But it really just meant put your workloads in my data center and
+then we're happy. And there's a title that says hybrid. But not really hybrid. And I'm
+starting to see some of those -- some validation actually back on our strategy with
+some of the moves that we've made. So I think you're seeing a lot more in market
+where people are now trying to get back to where we started with hybrid. In some
+cases, vendors that never actually made it into the hyperscale public cloud. In other
+cases, hyperscale cloud companies going through partnerships to try and ﬁgure out,
+"Well okay, great. How do I backtrack and get some of the stuﬀ onboard?" And so
+you'll see more and more of that coming through. In some ways I just view that as a
+validation of the strategy we've been on since day 1. Now with respect to the IBM
+and Red Hat, which was the last comment that you made from there, what I would
+tell you is we've got a really good relationship with Red Hat. That's been going really
+well. We've got great adoption of RHEL to Enterprise Linux. We actually createdFINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 9 of 15Q - Brad Alan Zelnick
+A - Jason Zander
+Q - Brad Alan Zelnick
+A - Jason Zanderdiﬀerentiated support solutions with Red Hat. We have Red Hat engineers on the
+Microsoft site. So if a customer calls up, they have an issue, you're going to talk to
+both of us. You don't have to get phone tagged. That's the unique thing that we've
+had with Red Hat. We have a ton of mutual customers and we're going to keep
+supporting our customers. So frankly, from that perspective, the news doesn't really
+change that. We're going to keep up with that momentum. We're going to keep
+supporting our customers.
+{BIO 16211883 <GO>}
+On the topic, Microsoft has embraced open architecture over the last several years in
+a way that 5, six years ago, I think, nobody could have imagined. Why is this so
+critical to the strategy?
+{BIO 20468487 <GO>}
+Yes. It's -- and we have. And hopefully, people are seeing this kind of cultural
+transformation with Microsoft. It's with kind of our attitude, how we work with
+partners. And in some ways, I think of again, with the beneﬁt of a couple of decades
+at the company kind of a maturation of how we've won of just wisdom kind of
+gained, I hope. And I hope people see that. I would say part of this, also, is I want to
+make sure from an open source perspective, we are going to meet our customers
+where they live and they're absolutely using open source. That's important. I want to
+make sure I've got a ﬁrst-class solution for them. And we do. Now we have a higher
+run rate now for Linux creates and virtual machines in the public cloud. It's massive.
+So that means we're going to support things like the operating systems. But also the
+middleware, the developer stack, the DevOp tools, all the parts of the stack that
+need to be there. We're also -- and this surprises people sometimes, we're also a
+huge contributor to open source. In fact, there's over 16,000 full-time Microsoft
+engineers that contribute into GitHub. It's actually the highest of any corporation out
+there. So you can see that. And so we've actually really embraced that. We're
+supporting the entire thing. Again, I think it's really about that customer choice that's
+enabling it. And really, at the end of the day, the platform we're having you go
+towards is the cloud. And we want to make sure all of your workloads run on top of
+it.
+{BIO 16211883 <GO>}
+Just while we're the topic -- thanks, Jason. The relationship that you've had in
+embracing Red Hat in open source and Linux, speciﬁc to the IBM deal, is there any
+thoughts in terms of what impact that may or may not have and the way that you
+think about Red Hat going forward as an IBM company?
+{BIO 20468487 <GO>}
+Yes. And as I say, we have a huge overlap, I believe, with customers. And that was
+what really drove us to have this deeper relationship with Red Hat where, if you look
+historically, maybe it wasn't such a deep relationship over the last few years. It's been
+actually really great. We've had really good programs on that. And so given that we
+have those mutual customers in there, then we're absolutely going to continue to
+support those customers. I believe Red Hat is going to want to be able to do theFINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 10 of 15Q - Brad Alan Zelnick
+A - Jason Zander
+Q - Brad Alan Zelnicksame thing. They have their own reasons for being able to make sure that, that
+happens. And so as far as we're concerned, that means we're full steam ahead on
+that part of the partnership. And if things change over time, we'll reevaluate. But for
+right now, we want our customers to know -- our mutual customers to know, we're
+absolutely full steam going to support you.
+{BIO 16211883 <GO>}
+Excellent. Just to pivot, a slightly diﬀerent question. KPIs, metrics that you use to run
+the business. Other than what we can see externally, what are the key measures of
+success for the Azure business inside of Microsoft?
+{BIO 20468487 <GO>}
+Yes. And we've got a ton. But here's what I would say, the number one thing I want to
+look at is our customers happy with the platform and are they experiencing that.
+Now one of the ﬁrst things we would then measure from a business perspective is
+consumed revenue. Because if you think of it from cloud services, we're more
+interested in when people are actually using it, the meters are spinning because
+we're solving problems. So we'll absolutely look at the consumed revenue. And that
+is a stat that we publish. You saw a 76% growth in Q1 on Azure revenue growth that
+comes through. And that's an example. Again, that's recognized because people are
+using it, not any kind of commit. So that's number one and I also measure that one
+internally. Now if you look at the internal side of what we do, we'll also look at a
+combination of, am I making customers happy on the platform. So I've got existing
+customers, is their usage starting to increase which would mean and be a sign of a
+healthy customer relationship where they're moving more workloads, they're ﬁnding
+more value on the platform. We want to make sure that, that goes up. We're also
+going to track, from a business perspective, the mix of services that people use. So
+as they get more and more into their cloud journey, if they're able to then take
+advantage of some of the services we have, Database as a Service or Platform as a
+Service, then how is that usage increasing because that's also a good sign of that
+healthy thing. Now for me, internally, owning product as well. There's a few other
+ones that are super interesting. I measure satisfaction. I'm very, very customer
+obsessed. I want to make sure that they're happy. We look at Net Promoter Score to
+make sure that our customers, like would you recommend this to your friends? Yes.
+It's the same thing on the kind of client side. But we do the same thing for
+commercial here. I want to make sure those things are going quite well as well. And
+of course, the other metric that we would look at is net customer additions. So if I've
+got healthy customers and they're growing and their mix is healthy, are we actually
+adding new customers as well? Those are the sort of things that we track internally.
+And I won't even get into all of the perf and stress and a whole bunch of other
+engineering stuﬀ that's like 2 inches oﬀ the deck. I do that once a month with the
+entire division. It's a lot of fun. We call it fundamentals. We always say we put the fun
+in fun day. Engineers love it. It's great. But anyway, from a business perspective, for
+this audience, those topical ones are the ones that I think are most relevant.
+{BIO 16211883 <GO>}
+Excellent. And as we think about measuring customer success, satisfaction and then
+we think about that in the context of what elements of the oﬀering they've actuallyFINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 11 of 15A - Jason Zandergone ahead and adopted, you've got premium services, data services, we've talked
+a little bit about IoT at the lower levels, you've got infrastructure. Can you maybe just
+talk a little bit about the adoption pattern and the economics of customer that goes
+all the way up and graduates to Nirvana of Layer 7, or however you think about the
+world. And the economics of that customer, the stickiness of that relationship and
+how we should think about that and the various adoption curves.
+{BIO 20468487 <GO>}
+Layer 7 is your networking dev background showing up. Okay, I can see that.
+Software engineers recognize that one. Now I mean -- so obviously, we're going to
+meet customers exactly where they are. So the infrastructure, if they just want to
+come in, they just want to get some hardware, compute networking storage,
+absolutely support that. Like the as-a-service things that we've got, Database as a
+Service, PaaS, Azure IoT, media. And then also AI and ML. So prebuilt services for
+facial recognition and speech and text and all those kind of stuﬀ. What those things
+do is they actually take away a lot of the TACs that you otherwise use as a business to
+get things going. So you think the beneﬁt that one gets, like take the data solutions,
+those are great. We do things like automatic backup and point-in-time recovery, like
+we make sure all those things just work. We keep you patched and up-to-date. Those
+are things that cost you today because you're probably spending a lot to your
+personnel time on actually making sure that goes. If the service just does that for
+you, now I get that beneﬁt. So you get less kind of toil that comes through and now I
+can actually get that through. So there's a very good value there that we ﬁnd as
+customers move up into those higher-level services that they can actually save
+money, if you're from an all-up perspective. And that's good. Now from a business --
+if you're evaluating our business, of course, these services are structurally higher
+margin and they're also stickier. And so what that means is we hope that it's a win-
+win. Our customers get a better solution that actually saves them money on the way
+in which they operate their overall estate and they can actually take that savings and
+apply to new things. From our business perspective, since you're looking at
+Microsoft, again, structurally higher margins, kind of a stickier environment, happier
+customers, again, NSAT, et cetera, then all these things kind of come together. Now a
+couple of great examples on this one, SQL-managed instance, awesome example. I
+can take SQL Server including 2019, which is the latest version, it has a bunch of big
+data tech just built in. I can run that on premises. The SQL-managed instance allows
+me to take those same apps and move those up into the public cloud. And when I
+land those things there, we'll take care of all that toil, those backups and patching
+and all that kind of stuﬀ just happens. A great example of that. Also again, there's
+end-of-life service support, fantastic impetus for people to make that move. But also
+things like Cosmos DB. This a worldwide NoSQL database, ﬁrst of its kind out there.
+And today, it's actually a lot of work for the engineers to go set up. Say I want to run
+something in 3 continents, you've got to do a lot of work to make sure that data can
+get replicated around the world and fast and keep the customers up and running.
+Cosmos DB, I just go in the portal, create a Cosmos DB, start writing data. We do all
+of it for you. Very unique, very diﬀerentiated, ﬁrst-to-market with that kind of solution,
+great example. On the analytics side, SQL DW G2, cheaper and faster than Redshift,
+a great solution there as well, all wrapped into the AI stack. So that's how we kind of
+think about the structure and where it comes through and there's a lot of really, really
+nice product oﬀerings in there.FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 12 of 15Q - Brad Alan Zelnick
+A - Jason Zander
+Q - Brad Alan Zelnick
+A - Jason Zander
+Q - Brad Alan Zelnick{BIO 16211883 <GO>}
+Just a related question. If we think about, as measured by win rates or insights that
+you have in data on your customers, your success in Microsoft and historical
+Microsoft-centric customers running a ton of SQL Server in the data center versus
+Oracle or whatever the alternative might be versus non-Microsoft-centric versus
+greenﬁeld-type cloud prospects, any commentary just in terms of success in mix?
+And what -- it would seem naturally Microsoft-centric accounts are easier to kind of
+welcome in the door. But any commentary along those lines?
+{BIO 20468487 <GO>}
+And I have -- and I should -- and thank you, it's a good thing to point out. We do
+support all of the platforms and all of those other vendors that you mentioned
+before, even when I have something that I compete with in that category like
+relational databases. And so -- and I have customers, to be clear, they don't use a lick
+of Microsoft Software except Azure. They're 100% Linux. They're 100% Java or they're
+using MySQL or PostgreSQL. They were using Oracle. It's 100% non-Microsoft stack.
+The only thing they're using is our cloud for that. And like I mentioned, our run rate
+on Linux virtual machines is actually higher now than Windows Server machines that
+are coming through. And so we absolutely support all of it. Very healthy mix. I'm very
+excited about that because they're always -- you wouldn't want people to think of us
+as just the Microsoft stack cloud. That's not actually what we are. We support
+everything. And I think our healthy run rate and mix has proved that. Then on top of
+that, as we point out, the fact that we did actually create all of that other software and
+there's a lot of companies out there, high percentage of companies running
+Microsoft Server or running SQL Server as well, that makes us a natural home. So
+having that awesome third-party support, open source support and then also being
+a natural home for Microsoft workloads, I think this is a great balance.
+{BIO 16211883 <GO>}
+Then from a vertical perspective as well, I imagine there were some obvious
+synergies and areas of opportunity, retail, for example, being one, right?
+{BIO 20468487 <GO>}
+Absolutely. Retail is a really good one, actually. As I mentioned before, I think a lot of
+the customers that we have, they don't want to go spend money and get technology
+from a provider that turns around and uses that money to compete with them. And
+so you're actually seeing a lot of companies. And the more verticals that you start
+seeing covered by some of these other -- some my competition, the more they
+become the competition of people they're otherwise serving. And so I see more and
+more inquiries come in. So those verticals are absolutely there. We just ﬁnished up
+Black Friday and Cyber Monday. We had really, really major companies we work
+with, ASOS in the U.K., Walmart, jet.com, just a whole set of big retailers that had a
+fantastic kind of holiday shopping season they went through, another great example.
+But there's a lot more in ﬁn sector, in manufacturing and energy, take a pick.
+{BIO 16211883 <GO>}FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 13 of 15A - Jason Zander
+Q - Brad Alan Zelnick
+A - Jason ZanderAwesome. In terms of the supply chain, as we think about infrastructure sourcing,
+can you talk a little bit about how those decisions get made when you design in a
+speciﬁc chipset or whatever that component might be, what's the philosophy behind
+choosing A versus B?
+{BIO 20468487 <GO>}
+Yes, great question. And there's kind of 2 angles that I think about this in. The ﬁrst
+one is just supply chain 101, capacity management 101. I mean anybody, done your
+MBA, done any of that kind of work, I mean, we have to make sure we're absolutely
+great at that. And we've had massive, massive scale really, really fast. We keep
+building the systems up. And this is big scale business. This is not something where I
+can just get oﬀ the shelf components and just go run it. So we're also building those
+systems. And the nice advantage on a hyperscale cloud is I can build software for
+capacity and the supply chain work that we do. And I can actually have that work very
+well with the control fabric that runs the ﬂeet, which means I can get signals
+immediately and it all just kind of comes together in an integrated way. From a
+vendor perspective, normal kind of hygiene, we pick from multiple vendors. We
+make sure we're doing the good job from a sourcing perspective. We've also had
+open source projects here. We have this project called the SONiC, which is basically
+-- it's a networking thing we contributed back. We ran that on top of switches. I don't
+have to pay high premiums for switching inside of the data center because we did
+SONiC. We open sourced it. We made it available. I can run it on equipment. So as
+examples on the software side where we can reduce cost and I'm not going to pay
+high margin. And frankly, you'd never do that with your own data center. It'd be cost
+prohibitive. But when you're running at my scale, you do. From a hardware
+perspective, then we also partner with a lot of the hardware manufacturers. We buy -
+- there's enough scale. You buy 1 million of something, not only do you get a
+discount. But you can also probably inﬂuence the design. And we'd actually do that.
+And we also do some of our custom hardware as well. We do things like we've
+deployed FPGAs across the ﬂeet for networking. And we actually -- I have a whole
+silicon design team, that's virtually all they do. They design hardware. They design
+silicon. Happens to be the same group that also does things like HoloLens and they
+do the Surface. And they actually do that for the rest of it. Same team also works in
+our data centers to ﬁgure out, okay, what is the silicon improvements we should put
+in the data centers as well. So we have all of those.
+{BIO 16211883 <GO>}
+Can you talk a little bit more about the advantages of using FPGAs and going that
+deep into the design?
+{BIO 20468487 <GO>}
+Yes. FPGA is really, really cool. I mean a ﬁeld programmable gate array. So what that
+really means is I have hard burned in silicon, fastest kind of performance, software at
+the top, probably a little bit slower. FPGAs are right down here. They kind of come in
+just on the top of that. Key thing is it gives me ﬂexibility. I can actually go oﬀ and do
+additional tweaks. But I get hardware-level speeds, not as fast as burnt in silicon. But
+the next notch up. We can leverage this for networking. We get 100-gigabit
+connectivity for all of our virtual machines and we can continue to improve that. WeFINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 14 of 15Q - Brad Alan Zelnick
+A - Jason Zander
+Q - Brad Alan Zelnick
+A - Jason Zandercan also leverage it for things like AI. So for example, our Brainwave project
+leverages FPGAs and does a really awesome job at things like image recognition,
+fantastic. So we can go make those go. Then of course, from a silicon design
+perspective, the more of those algorithms that we run at FPGAs as they get
+hardened, then we turn around to the silicon team and we turn that into a custom
+silicon, custom ASICs. We'll actually load that up into the ﬂeet and then we actually
+make more real estate available on our chips to do the next set of algorithms for the
+next set of wins.
+{BIO 16211883 <GO>}
+Awesome. And by the way, I recently read about some of your eﬀorts looking at
+building subsea data centers. And it wasn't intuitive to me. I would just assume that
+it's a lot less expensive to build a data center on top of solid ground terra ﬁrma.
+What are the advantages you see there? And is this a science project? Or are we
+going to wake up one day and everybody's going to have data centers with
+SpongeBob underneath the sea?
+{BIO 20468487 <GO>}
+In your pool or your backyard with boat drinks. Yes. No. I think -- so this particular
+project, this is Project Natick is the code name for it. And this is a research project to
+be clear it. And so our Microsoft Research folks are pulling this back together. And
+what they really have done is they've taken the actual data center and put it under
+water, like literally, like in oﬀ the coast of Scotland is the most recent one the guy
+dropped in. A couple of diﬀerent things that, that does, one, 50% of the world's
+population actually lives near water. I mean this is actually near a coastal line of some
+sort, which means that access to cities, you can put the data and compute capacity
+very, very, very close. You also, of course, have natural insulation and you have
+potentially perpetual energy oﬀ of waves and everything like that. This also gives us
+some experience on the lights-out perspective. So for example, just to be clear, we
+don't actually can go greenlight Johnny Quest in the scuba gear to go down and ﬁx
+a hard drive. We don't do that. So there's a lights-out kind of opportunity where you
+have to ﬁgure out how can I run that hardware with a minimal amount of any touch.
+In fact once it's down, no one touches it until it's done and decommissioned. And I
+think if you think about that in our, essentially, production which are on terra ﬁrma
+and near-cheap energy and stable ground and everything else. So those are the
+massive 2-square-mile sites that we build up, then even that experience that we gain
+from this helps us do a better job operationalizing the ﬂeet and doing a really great
+thing. And as we start doing more and more innovation, we're starting to ﬁnd that,
+that even dovetails with stuﬀ we do around quantum computing and other things as
+well. That knowledge we gain is actually quite interesting.
+{BIO 16211883 <GO>}
+Jason, my only disappointment is that we don't have more time because I got a
+zillion other questions to ask you. But with that, thank you immensely. This was
+tremendously insightful, really appreciate your time at the CS Technology
+Conference.
+{BIO 20468487 <GO>}FINAL TRANSCRIPT 2018-11-27
+Microsoft Corp (MSFT US Equity)
+Page 15 of 15Q - Brad Alan Zelnick
+A - Jason ZanderThank you. So much for having me. I appreciate it.
+{BIO 16211883 <GO>}
+You're welcome.
+{BIO 20468487 <GO>}
+Thank you, everybody.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

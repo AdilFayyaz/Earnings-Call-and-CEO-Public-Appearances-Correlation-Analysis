@@ -1,0 +1,666 @@
+FINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 1 of 15, EVP, Cloud and Enterprise
+, Analyst, Deutsche Bank
+Karl Keirstead
+Scott GuthrieDeutsche Bank Technology Conference
+Company Participants
+Scott Guthrie
+Other Participants
+Karl Keirstead
+Presentation
+{BIO 1542979 <GO>}
+Okay, everybody. Let's get started for the lunch and keynote. Thank you for joining.
+I'm Karl Keirstead. I cover software and I cover Microsoft. We are very excited to have
+Scott Guthrie, the Executive Vice President of Cloud and Enterprise with us today.
+Scott doesn't keynote that many Wall Street event. So we're super honored to have
+you come to ours. The only catch Scott is that I attend a lot of Microsoft events,
+software events and I only see you in your red shirt. So I'm not totally convinced you
+are the right guy here. But I think you are. Thanks for dressing up for us. Before we
+begin, Scott's colleague, Zack thought it might be a nice idea for me to get you all
+jazzed up to read out an inspirational quote. So here we go.
+Before we begin, Microsoft may make some forward-looking statements during this
+presentation and you should refer to their SEC ﬁlings for the risk factors relating to
+their business. And that's true whether you're here in person or listening on the web.
+So with that quote behind me, I'm going to let Scott outline himself the role he plays
+at Microsoft, the businesses that are under his umbrella. Scott is then going to take
+us through a 10-minute or so presentation and then he'll sit down and we'll chat. So
+thank you, Scott.
+{BIO 15931914 <GO>}
+Thanks for having me. People hear me okay. Great, it's a real pleasure to be here and
+thank you very much for hosting me. And as it was kind of mentioned, I was going to
+kick it oﬀ a little, just provide a little bit of context in terms of my role. And in
+particular the role that we kind of see the cloud playing at Microsoft more broadly
+going forward. And then open up to questions and we'll have more interactive
+dialog.
+I think one of the things that we see in the industry that's happening right now and I
+think pretty much everyone is seeing it is, what we call the journey to the cloud,
+which is really a generational shift in computing that's happening right now and
+really is impacting every organization and every company out there in prettyFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 2 of 15meaningful ways. And I think every enterprise out there, in particular right now, is
+trying to ﬁgure out a path from how they go from where they are now to take
+advantage of what the cloud has to oﬀer.
+And when we think about the cloud and Microsoft, we often think about it not just in
+terms of infrastructure or not just in terms of SaaS apps. But really across a wider
+spectrum of diﬀerent capabilities that we think -- we think every organization needs
+productivity software that enables their employees to be able to collaborate in richer
+ways and be able to be even more competitive and be able to get more done. We
+think every organization out there is looking for business applications that are
+increasingly delivered in the SaaS-based way that enables them to reinvent business
+processes, to reinvent business models and become even more competitive.
+We see this huge rise that's happening in the space of infrastructure in the cloud
+right now. And fundamentally believe that infrastructure is around enabling
+organizations to really unleash application innovation that is speciﬁc to their
+business. And I'll talk about some speciﬁc examples a little bit later on in the
+presentation where organizations of all sizes and all industries are looking to take
+advantage of the cloud to be able to connect to their customers better, to be able to
+drive revenue, to be able to improve their operations and achieve more. And lot of
+these applications are being driven by data and data is increasingly at the heart of
+pretty much every business model going forward. And when you think about IoT,
+when you think about the power of machine learning advanced analytics, it is a very
+exciting time really for the industry.
+And last but not least, all these diﬀerent scenarios need to be delivered in a secure
+way and in a way that an organization can really bet their business on it and manage
+it holistically with all the diﬀerent compliance, trust and security capabilities that are
+involved. And it's really the combination of all these diﬀerent capabilities that is what
+companies are looking for. And we at Microsoft are looking to deliver as part of the
+Microsoft Cloud. We sell each of these things as individual products in services. But
+it's often we see increasingly organizations are looking to ﬁgure out how I can put all
+these things together. And a big part of our diﬀerentiation in the market is that we
+deliver these capabilities with a common what you call global, trusted and hybrid
+promise. And I'll go in a little bit more detail about what each of those means.
+On the global side, it's far the easiest to understand, which is the cloud needs to be
+something that works all over the world and in particular can meet the unique
+compliance data sovereignty requirements that organizations have around the world
+in order to run their business. And we've been hard at work at Microsoft building out
+our cloud infrastructure over the last several years and we now provide our services
+in more than 34 what we call Azure regions around the world, where customers can
+basically in a matter of seconds deploy and run their own code and deliver their own
+set of applications and solutions to their employees and their customers.
+And we have more regions than AWS and Google combined and in particular, we
+don't just have broad coverage of regions. But also meet unique data residency
+promises that no other cloud vendor delivers, whether those are in China, whetherFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 3 of 15that's in Germany, whether that's for US government and Department of Defense, we
+can make guarantees around who has access to the data in for example Germany
+and China, we make promises, which is no American and no Microsoft employee has
+any operational control over those data centers or that data to be able to meet those
+speciﬁc markets. And again this gives sort of truly global scale at which companies
+can operate and deploy their solutions.
+Like to joke, each of these little blue dots, you can kind of see from space and in
+many cases are now massive, massive facilities. This is one in our east US region, you
+can sort of see the scale that little thing in the bottom right is a very large truck. This
+is another angle, the build out that's happening. This is ultimately -- this facility is
+now, I think actually built out, is about two miles long and this one location will
+ultimately host about a million servers. And this kind of scale at that global level is
+something we fundamentally believe really very few companies in the world are
+going to be able to provide. And for the most part we see ourselves instead of a
+two-horse race today with AWS as that provider.
+Where we look to diﬀerentiate then is not just at the scale level. But really around the
+trust and some of the unique enterprise requirements that we see businesses have.
+We have now more trust certiﬁcations with our cloud than any other vendor and
+meet whether it's individual industries, whether it's individual countries, boundaries,
+the credentials necessary for companies to bet their business on top of us and then
+we deliver a unique hybrid cloud capability that none of the other hyperscale cloud
+vendors are able to deliver where we can basically tell a customer, you can run your
+applications, you can run your data, you can run your code, not just in our data
+centers. But in your own and be able to easily bridge the existing investments that
+you already have to take advantage of the public cloud without having to rip and
+replace every system to do so. And that works not just at the infrastructure layer. But
+all the way through that stack, at the data, at the layer security management layer, all
+the way up to the business application and productivity layer. And with our
+management tools and our security tools, we enable IT to look at all of this with a
+single pane of glass where they can manage this infrastructure in our set of solutions,
+again in our data centers at Microsoft, customers data centers or even third-party
+cloud data centers like AWS. And with our Operations Management Suite and our
+Enterprise Mobility Suite oﬀerings, we can provide IT that secure way that they can
+manage all this holistically and is one of our more diﬀerentiated aspects of our
+platform.
+We deliver all these things to be enterprise grade. Gartner has their legendary
+Magic Quadrant where they like to rate software vendors independently in terms of
+capabilities. We now have more leadership positions in the Gartner Magic Quadrant
+for cloud than all the other cloud vendors combined. And we're seeing tremendous
+uptake and adoption of our cloud. With about 85% of the Fortune 500 companies,
+now taking advantage of the Microsoft Cloud and more than 70% taking advantage
+of at least two elements of our cloud, for example, Azure and Oﬃce 365 or Azure
+and Dynamics 365 as an exampleFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 4 of 15And I think the thing that we're also seeing in this industry is as people look to take
+advantage of the cloud, the real economic opportunity here is far beyond the
+traditional IT boundaries that we thought of before because a lot of these used cases
+aren't about internal IT, it's not around payroll applications, it's not around
+documents stores for internal documents. It's really around enabling organizations to
+take digital technology and really reinvent their business in fundamental new ways.
+And so examples of just some of these kind of customers on that logo wall, how they
+are really becoming software companies themselves and using the cloud to power
+their businesses could be organizations like BMW. How many people here have a
+BMW. Only two people that raise their hands, I think there's a lot more of you. But it's
+okay. But if you buy BMW today, it's connected as an example to Azure. And so the
+telemetry of the vehicle is ﬂowing into our cloud and the entire user experience from
+a digital perspective, both in the dashboard of the vehicle as well as in the mobile
+companion application that they provide is all powered using Azure and cloud
+delivered. And they're basically looking at how do they infuse that type of cloud
+capability to basically make the vehicle smarter, to make the vehicle more directly
+emotional to an end user. And be able to kind of transform how they're building
+products.
+And we're seeing other industrial icons like Rolls-Royce and Boeing and GE to name
+a few. They are also now betting on Azure in big ways. So when you ﬂy across -- if
+you go home, there is a good chance there is Rolls-Royce engines on your aircraft,
+telemetry is being downloaded as soon that airplane lands about that engine and
+Rolls-Royce is now able to provide services with that engine to an airline that not
+only help improve ﬂight safety and operations. But can even go so far now as to
+indicate individual pilots how well do they ﬂy in terms of fuel economy to able to
+drive down cost in terms of aircraft.
+In the retail space we've got lots of customers like Wal-Mart that are increasingly
+using Azure for advanced analytics and be able to optimize their supplier chain as
+well as the retail pricing. Jet.com, which Wal-Mart just bought for $3 billion a couple
+weeks ago was another great company using Azure as an example start up unicorn
+that had a great exit and it is yet another example in terms of the types of companies
+building on it.
+And in the ﬁnancial space, we're seeing across my portfolio both on-premises as well
+as in the cloud increasingly large ﬁnancial institutions starting to move to take
+advantage of the Microsoft Cloud and our technologies. MasterCard will be one
+example of a company that's using primarily on-premises today. But using a lot of
+our new data technology that runs both in Azure and on-premises to be able to
+streamline things like fraud detection and their overall retail operations. I know you
+heard from Keith this morning from DocuSign, they're another one of great customer
+of ours take advantage again both of our data products on-prem as well as some of
+our Azure services in terms of running their SaaS service.
+And collectively, all these customers are driving huge amounts of adoption. We've
+got more than 120,000 new customer subscriptions being created every month,
+about 1.6 million production database is now being hosted in Azure alone, moreFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 5 of 15Q - Karl Keirstead
+A - Scott Guthriethan 2 trillion IoT messages each week, more than 5 million organizations that have
+sunk their identity server and integrated their user employee security as part of our
+cloud, 4 million developers. And the thing we always like to emphasize is as much as
+we're focused on enterprises, having a cloud is great for enterprises also makes a lot
+easier for software vendors to build their solutions hosted on our cloud and reach
+those enterprises as well. About 40% of our overall revenue for example with Azure
+comes from start-ups and software vendors building solutions on top of us.
+That's a little bit of context in terms of all the diﬀerent pieces. Parts I run basically
+Dynamics 365, Azure, SQL Server. And our overall data platform with Microsoft
+including Cortana Intelligence, all of our management security oﬀerings as well as
+our development tool oﬀerings with the Visual Studio family and looking forward to
+chatting more interactively to answer questions about it.
+Questions And Answers
+{BIO 1542979 <GO>}
+Thank you. So much, Scott. One of the points you made up there that intrigues me is
+the idea that Azure is doing a lot of net new stuﬀ. It's not just displacing what's being
+done on-prem and I think that's interesting because I think a lot of people might
+look at the total addressable market for Azure as basically what's the spend on-prem,
+what percentage of that might go to the cloud, use some price deﬂator for the ASP
+diﬀerence and boom you get your TAM. But maybe that's too narrow view of the
+world. And so, I want to get your perspective on that and how much of what is being
+done in Azure is in fact net new these days rather than displacing what was done on-
+prem?
+{BIO 15931914 <GO>}
+Yes, I'd say for the most part and I think what is true for Azure is also probably true
+for the AWS and other cloud vendors is, especially in the early phases of cloud, the
+vast majority of the usage has been net new scenarios. The number of customers
+that are looking to lift and shift the SharePoint server from their data center to Azure,
+I'm sure we've some. But I can't oﬀ the top of my head even name one of doing it,
+just because, it is interesting. But it's often been the individual business units or
+product units within organizations that have actually accelerated the cloud fast.
+And the exciting thing about that is the TAM suddenly explodes far beyond what was
+traditionally possible with enterprise software to kind of include literally every type of
+physical device and/or digital transaction scenario out there. I mentioned BMW is
+one, Rolls-Royce or GE or Schneider Electric or others, it is just a few other examples.
+And ultimately, I think that pulls open the market in a big way. But we are starting to
+see, I would say in particular last 12 to 18 months more traditional IT organization shift
+starting to move and plan. And so that we are starting to see that now, which I think
+is new in the last two to three years versus where we were earlier. But I'd say still the
+majority of the usage, in particular, the biggest growth is often around those net new
+scenarios.FINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 6 of 15Q - Karl Keirstead
+A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthrie{BIO 1542979 <GO>}
+Got it. And if we talk for a second about the displacement of existing, if we sum up
+the revenues of AWS, Azure and GCP today, we're probably talking in the order of
+$15 billion. I don't know how you guys at Microsoft calculate the total IT spend. But
+let's say for the sake of argument, it's a trillion. I would suggest that public cloud
+infrastructure today is in the low, low single-digits of total IT spend. So if you had to
+put on your 10-year forecast hat, where do think that could go, Scott?
+{BIO 15931914 <GO>}
+Well I think in terms of the opportunity, I do think it's in serious limitless in terms of
+what the total TAM is. I mean, obviously there's some limit. But it's -- there's lot of
+zeros there in terms of the total opportunity and I think a lot of it is going to be
+bounded less by market size and more just around creativity. Some of the scenarios
+that we see used on Azure today, if you'd asked me say three years ago, would have
+sounded like science ﬁction whether it's fraud detection, whether it's hedge funds,
+doing quant analysis in terms of portfolio bursting whether it's around
+manufacturing scenarios again predictive maintenance for equipment. Lot of these
+things. And you never think of as "IT" at least I wouldn't have thought of and I think
+that's the exciting part. The trick is obviously we just need to keep growing and
+maturing that. But I think the exciting part is we are at the very beginning of a very
+long journey and it's going to be an exciting journey in terms of the net new used
+cases that we enable.
+{BIO 1542979 <GO>}
+And I think the other exciting thing for lot of the people in the audience is that it
+feels like the spoils are going to go to a smaller group of vendors than in a lot of
+other big technology shifts that have opened up large TAMs. As you describe the
+investments, the CapEx required to make this business succeed are incredible,
+there's only a handful of companies that are even capable of doing that perhaps
+gone are the days when two guys named Bill and Paul could start a company in their
+garage and turn it into a behemoth, it's going to take a lot of investments. You
+suggested it's down to sort of a two-horse race, maybe you could talk a little bit
+about that and whether you think there's prospects for an IBM, a Google who are the
+other players that could do this?
+{BIO 15931914 <GO>}
+I think to be a hyperscale cloud vendor, which I think increasingly is going to be the
+thing that any enterprise is going to want to adopt. I think you ultimately need to
+have three things which create kind of a mode if you will around the market. The one
+is you need to be able to spend vast amounts of money in terms of CapEx, billions
+and billions of dollars a year, building out data centers, buying private ﬁber, building
+servers. And that immediately creates a pretty big barrier to the market. The second
+thing you need to have is thousands of engineers that can write distributed systems
+code. You can't just buy into this market, because none of the servers that we use
+now are oﬀ the shelf servers.FINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 7 of 15Q - Karl Keirstead
+A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthrie
+Q - Karl KeirsteadWe're building our own server designs, we're manufacturing our own capabilities
+both at the server level, the network level, the storage level. This is not managed
+hosting where you buy oﬀ of traditional vendors to get in. You need to have
+engineers that are able to do that and be able to manage millions of servers in a
+very large environment and that again is a big, big barrier to entry, we need to do
+not just the infrastructure layer but then as a data and analytics layer and security
+layers up and down the stack to even be able to be credible that you want. Then the
+third thing you need to have is frankly time. A lot of these things that you learn in the
+cloud in terms of operating at the scale, there's no book you can go to Barnes &
+Noble, how do I manage a million servers.
+{BIO 1542979 <GO>}
+It's all pretty new, right?
+{BIO 15931914 <GO>}
+It's all pretty new and it is very extensional order, you kind of learn it as you do it. You
+kind of can't really ﬁgure it out, I think the other way. You do need a couple of years
+of experience to be able to operate with SLAs and the security trust complaints
+boundaries that we provide. And so the combination of those three things creates a
+pretty big moat. And when I look at other vendors in the market, I think that's going
+to be very diﬃcult for folks to break it. Right now we certainly see pretty much every
+engagement we're in. Amazon and us are in those engagements. I think in China,
+you've got Ali, which is very strong in China. I think they're going to struggle to
+succeed outside China. But I think they will be a very large hyperscale cloud in
+China.
+{BIO 1542979 <GO>}
+Is there a place for Google do you think Scott? They've got the engineering chops,
+they've got a few dollars in the bank, could they pull it oﬀ?
+{BIO 15931914 <GO>}
+I think that would be of the -- outside China places, the only kind of I think other
+credible vendor could be Google. Yes. The challenge they're going to have is the
+lack of enterprise capability and even the way they've built their infrastructure
+historically, it's really been optimized search. And so if you look at for example the
+number of regions around the world they operate in, they currently I think have four
+versus our 34. And again if you want to compete in the UK and you want to go to a
+bank in the UK, you should consider using us for cloud. If you -- you can't say well,
+we can't guarantee your data is going to stay in the country. We can't actually meet
+your regulator needs and I'm not sure would you support whether we're going to be
+able to have a human on the end of the line who will pick up the phone. That ended
+of being kind of a non-starter for that conversation. And so I do think that they're
+going to struggle a little bit certainly over the next couple of years in terms of
+building up that enterprise credibility and being able to get to that point.
+{BIO 1542979 <GO>}FINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 8 of 15A - Scott Guthrie
+Q - Karl KeirsteadMake sense. So if there are two vendors on the right side of that moat, yourself and
+the other little company in Seattle, it's maybe an unfair question because this as we
+just described earlier, the TAM is so enormous that there's going to be room for two
+to have a fun time for the next 10 years. But I think a lot of people in the audience
+would love given that you're here to outline a little bit what some of the key
+diﬀerentiations are? When you're pitching against AWS in that Fortune 500, what are
+the two or three things that you hone in on and that your customers seem to
+appreciate, if you could just -- you touched a little bit in your slide deck. But I'd love
+to ask you again?
+{BIO 15931914 <GO>}
+I think, it's -- we are deﬁnitely in an arms race. The funny thing is we can kind of
+almost see each other across the lake. We have lots of respect I think on both sides
+between each other and with other vendors in the industry. So I think the thing is
+most important is you can't ever be complacent, you can't ever think who I got the
+killer thing it's going to make me invulnerable for many years. The technology
+industry is exciting because every six months or three months there is something
+that is going to coming along.
+We focus on a couple things with Azure to try to diﬀerentiate and we're obviously --
+we're Number 2 and aspire to be Number 1. Sometimes, it is features and so, for
+example, we invested very heavily in IoT early. And so I mentioned like BMW or Rolls-
+Royce or GE or some of the other IoT wins up there. Some of those wins were ﬁrst to
+market in a particular category, whether it's IoT, our new Data Lake service that's
+coming out this fall, we think we'll also be quite diﬀerentiated, BI is another area
+where I think we're quite diﬀerentiated and in the security management space. So
+those things we deﬁnitely are looking for higher level services beyond infrastructure
+that we can sort of get to market and have something that's really diﬀerentiated from
+an IT perspective.
+So we deﬁnitely focus on those. Then I think the other area that we've really, from an
+enduring perspective, really spend a lot of time focused on is that global trusted
+hybrid where the hybrid in particular is probably our biggest single cross-cutting
+diﬀerentiator versus them where the ability to go to an organization and say, you can
+build apps and run it not just in our cloud but also in your data center or even across
+the street in AWS' data canter. And how that hybrid ﬂexibility tends to really, really
+resonate less of start-ups that are trying to just move very quickly. But in particular
+with enterprise audience.
+And I think that's something that -- if you use any of the AWS services, you can use
+them only in AWS, you can't use them in Azure, you can't use them on-premises and
+we're very diﬀerent in that category. And that again fuels I think to this crowd and the
+customer target which is enterprises and the ISVs targeting enterprises is sort of our
+maybe the center of our bulls eye.
+{BIO 1542979 <GO>}
+That makes sense. And Scott, I think another question a lot of investors have is, when
+they hear about a market emerging where there's massive CapEx, there's only two orFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 9 of 15A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthrie
+Q - Karl Keirsteadthree viable vendors, one could be led to a conclusion that we're into a sort of a race
+to the bottom on price. That it'll become extraordinarily scrappy and one out dueling
+the other. I've noticed from my own checks in Azure and AWS community that that's
+frankly sometimes not the main diﬀerentiator. It comes down to other stuﬀ. So on the
+pricing front, what's your comments on how tough it is out there?
+{BIO 15931914 <GO>}
+It's -- I mean, I wouldn't put it in terms of for the most part, we're not competing on
+price, I don't think either one of us versus each other. It's typically we're competing
+more in value I'd say at this point, which is the diﬀerence versus say two or three
+years ago where I think it was actually more about cost per VM or cost per storage.
+{BIO 1542979 <GO>}
+And value you mean the features and performance of the infrastructure?
+{BIO 15931914 <GO>}
+The high level services, the features, the performance and really the ability to
+diﬀerentiate or really deliver true innovations in a way that isn't possible on-prem.
+The thing that's interesting also I'd say about hyperscale cloud vendors is because
+we don't have a large enough footprint, one of the ways that we can take cost out of
+the system is not actually by dropping the price on individual VMs, it's really around
+giving the ﬂexibility to that particular customer to scale up and scale down when
+they need it. And that's the place where from taking cost out of the system, for
+traditional IT we often have the biggest bang and the biggest impact. And the other
+beneﬁt which is as more capacity is needed by those organizations, they could spin
+oﬀ at a moment's notice.
+And you will take for example just in the ﬁnancial industry where we're starting to
+see a lot of customers starting to move to the cloud really in the last year in a
+substantial way. We like to joke, we can kind of tell what the bond prices look like
+because all of our ﬁnancial customers doing quant analysis, whenever the bond
+market gets really frothy like massively diverse jobs inside our cloud so it kind of
+hedge and do Monte Carlo simulations. And so there's so many spending up lots
+and when it quite, they spin it down. It's not a cost thing because for them it's
+actually value that they're getting out, they want a good price for it. But that ability to
+kind of match what they need and scale up and scale down gives them a huge
+discount over what they would otherwise have to pay with existing on-prem
+infrastructure and again turn it into kind of value as part of it.
+{BIO 1542979 <GO>}
+And I guess one thing that Microsoft can do and I'm sure your rivals are doing it too
+to stay competitive on that unit price decline is yourself to be lowering your internal
+unit costs. So you could pass on those savings to your clients. So you touched on it a
+little bit with respect to your comment that Microsoft is leaning a little bit more to
+custom and ODM versus oﬀ-the-shelf. But can you elaborate on the other things that
+Microsoft is doing in its cloud infrastructures to get leaner, meaner cheaper so that
+you can pass those savings on to your clients.FINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 10 of 15A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthrie{BIO 15931914 <GO>}
+Yes. You'll see, you'll see some announcements later this month at our Ignite
+Conference both in my keynote and then Satya's keynote about some of the cool
+things that are possible with technology that he is going to kill me if I tell anyone
+right now. So I'm going to be careful as I give away too much but you will kind of see
+again where it's not just about cost or about doing it in the cloud versus not but how
+do you use the combination of software and hardware together to kind of unlock
+new things you just couldn't do.
+And so for example we talked about our ability to do programmable hardware
+inside Azure. And the fact that we use what's called FPGA processors inside our ﬂeet
+now and that starts to enable us to do algorithms for whether it's healthcare, whether
+it's for ﬁnancials, whether it's for other spaces where we can dramatically by like
+orders of magnitude shrink down the time or cost it takes to solve something.
+So that would be an example of where just cost eﬀectively there's no way you can do
+that with 10,000 servers. You really need to be able to have a ﬂeet of millions in
+order to justify that level of investment. Similarly in terms of, as we build data centers
+or as we build out our data center portfolio, when you're adding hundreds of
+megawatts of capacity per year, the rates you're getting are a lot better than what
+you get in the traditional enterprise data center, where you're in the single-digit
+kilowatts in terms of power consumption. So there is lots of eﬃciencies and scale
+that we're able to take advantage of not just to drive lower costs from a procurement
+perspective. But really around investing in that IP technology layer as well to
+diﬀerentiate.
+{BIO 1542979 <GO>}
+One thing I hear when I talk to prospective customers, considering the public cloud,
+Scott, is lingering security fears, data privacy fears. You mentioned, when you were
+describing the purview of responsibilities that security was one of them. So maybe
+it's opportune time to ask you about that and speciﬁcally what you and your team
+are doing to get those security conscious enterprises over the hump and feel good
+about putting their sensitive customer data in Azure?
+{BIO 15931914 <GO>}
+Well I think in general the threat environment that we all live in now is signiﬁcantly
+scarier than it was a decade ago versus two decades ago. And I think the adversaries
+out there are getting more sophisticated, the types of attacks that are happening are
+happening more frequently and that's just going to be the new normal for us going
+forward and the important thing, when you think about security is you've got be
+paranoid and you can't take anything for granted. And your any vendor, who says,
+hey, use my stuﬀ and you'll be perfectly secure, then run away from because you
+don't get security or they're lying. And we often when we talk to our customers say,
+there is multiple layers of security that we need to worry about.
+There's -- our responsibility, which is how do we run the infrastructure and how we
+provide a cloud environment, where we do everything we possibly can to make sureFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 11 of 15Q - Karl Keirsteadit's secure. And that the core capabilities there are secure. Then also there's
+responsibility for their customer, which is at their code level is they're building their
+application. How do they do responsibility to make sure they also invest in the
+security of their app and how can we provide for them features and services that can
+help them as part of that journey? And so as the example for, let's say Azure, we can
+detect if you turn it on. Anytime, it looks like someone is trying to access your
+database and what's called ex-ﬁltrate information from it. So we see what's called
+typically a SQL injection attack where you've got a web app and you inadvertently
+encoded input incorrectly and allow someone to execute a SQL statement against
+your database. That's a very common security hole inside the app layer. We can now
+automatically warn on a given daily basis we will typically warn several customers,
+hey, we see something suspicious, we should go follow up. And that ability to
+automatically warn and identify when we see attacks happening is one of the feature
+diﬀerentiators that we provide. But again, helps with the app layer and helps keep
+the customer secure.
+Then we're investing very heavily at the intro level on how do we again make sure
+that we provide and do everything we can in terms of best practices, in terms of
+defense in depth around security guidelines as well. Sort of examples would also be
+-- I think one of things that does help cloud vendors, especially, hyperscale cloud
+vendors, at the base level is, the fact that we do have so many servers and so much
+stuﬀ we're managing. It does force you into a much more homogeneous
+environment inside your data center and when you're managing millions of servers,
+you can't have a human in the loop.
+And so I do think one of things that sometimes security experts do say is beneﬁcial
+about a public cloud environment is you avoid a lot of the themes that you have and
+see more traditional data centers where you've got a little bit of every technology
+and there's an awful lot of people that run the script or do this action. When you're
+managing millions of servers, you're going to have to automate it and it has to be
+homogenous so that it does kind of prevent some of the more obvious themes that
+we see in other environments opening up. Again, you really can't take any of this for
+granted and this is constant how do we get more secure even on a quarterly basis in
+terms of the defenses we put in place and in particular the defense in depth
+approach that we adopt. So that even if someone gets through something they don't
+actually get through the environment because there're 4-5 doors beyond that will
+catch him.
+{BIO 1542979 <GO>}
+Albeit you are Ignite event at Atlanta and I'm sure you will be talking a little bit about
+the security angle there too. We could probably talk all day long about Azure. But
+you run a little bit more at Microsoft than just Azure. You've got this $19-ish billion on-
+prem server business too. So I would love to ask you about that, if we can ﬂip. So one
+of the -- I think great things about the Microsoft story is that well, Azure and 365 have
+been scaling. Your on-prem server product business has actually been hanging in
+there like champ. That's not the case for a lot of other large technology ﬁrms that
+have seen great cloud growth. But their on-prem business is actually in steady decel,
+yours is still growing. So can you talk a little bit about that and how long that can
+last?FINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 12 of 15A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthrie{BIO 15931914 <GO>}
+I think there is -- we've seen our on-prem business stay pretty healthy, despite a lot
+of the cloud shifts were happening and I think there is probably fundamentally a
+couple reasons for that. From a technology perspective, the hybrid story really
+resonates with customers. And often when you see kind of a disruptive change
+happening in the market, like cloud is, what end up happening is people put
+purchasing decisions on hold because hey I'm not sure I am going to need that
+thing, if I go to the --
+{BIO 1542979 <GO>}
+Or they'll plan to buy less (inaudible) white board with their what's is going to look
+like in three years?
+{BIO 15931914 <GO>}
+It's our ability to tell a customer that you can buy that database and you can use it in
+your own data center. You can lift it up and move it into our data center and not pay
+anything extra to do that. And you can use it in our data center as a service and have
+the same data API, the same data capabilities in all three of those locations. It's
+something let's say an Oracle or other database vendors that have not been able to
+articulate or be able to promise. So that's helped us quite a bit, I think in terms of
+unlocking that.
+I think the other thing that we've kind of focused on and have had a good set of
+products that come out is, with SQL 2016 that went GA earlier this summer, it's our
+best database product ever. For Gartner Magic Quadrant for operational database
+systems, there's been -- Oracle has been the leader for -- I don't probably since they
+started, I don't know for 15 to 20 years. This past year was the very ﬁrst year, we
+passed Oracle, both on execution and vision in the database category with SQL 2016
+and is testament to just sort of amount of innovation that's in that product on-prem
+and the beauty about it not just from value and capability perspective, is the fact that
+from a TCO prospective customers can run it at about 11.7 times cheaper than the
+equipment Oracle solution.
+So that's put us in a very nice place, where we can go to pretty much every
+organization out there right now, that's feeling frankly some angst about Oracle price
+increases and be able to say, we can give you more value, we can give you a lot
+more capability and we can do it at one-tenth of a price. That is hunted and resonate.
+Those Tier 1 database take outs there -- they take long. So they're not like a quick
+one we conversations. But when they do happen they are really, really big wins. And I
+think we've got a good motion and we're seeing some good traction in the market
+versus Oracle in particular in the database space. Similarly in the management
+security space, we've been able to keep growing at a nice cliﬀ and even in our
+developer space, which I think it has been great from a revenue. But from a usage
+perspective it's kind of been roughly ﬂat for a couple years -- going back a couple of
+years. And we've seen now our actual number of developers using the Visual Studio
+family of products more than doubled in the last 18 months and we're reaching now
+new developers doing Mac development, doing iOS development, doing AndroidFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 13 of 15Q - Karl Keirstead
+A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthriedevelopment that we previously didn't have any tools to even sell to and starting to
+reach those end markets. So we're still, think there is a great role for on-prem. And
+again the combination of on-prem with cloud is where we think there's a real, special
+sauce that we kind of enables part of it.
+{BIO 1542979 <GO>}
+And on SQL server as an exact note, I have been a bull on that part of your business
+that's been growing at a very heady clip. When you talk to Oracle they always
+characterize Microsoft on the SQL server database side as being down market, not at
+functional parity. Yet when I talk to database heads at large ﬁrms, they refute that and
+say in fact, it's at functional parity and there are some displacements that even I hear
+about. So I trust you would agree with that assessment.
+{BIO 15931914 <GO>}
+Really think so. I do think, even since they've Gartner study the Gartner Magic
+Quadrant that one was in the database business. A little bit of an earthquake,
+because Oracle have been able to say yes, they're more cost eﬀective, they're easier
+to use but they weren't till the leaders.
+{BIO 1542979 <GO>}
+It remind us what that was, that was the recent Magic Quadrant where I think on the
+database side you guys were neck and neck with Oracle on the.
+{BIO 15931914 <GO>}
+Neck and neck and then this year is one we passed them as already the top right the
+absolute leader in that space. Then the combination of that plus the TCO savings
+that we're able to deliver plus hybrid ends up being a conversation started with
+pretty much. We got a good partnership for example with Hewlett-Packard
+Enterprises where we now can even do kind of Exadata style hardware take-outs.
+Then we can basically deliver the hardware and the software fractions across the
+Oracle and say let's do (FOC) for three months. And price performance and value
+perspective we pretty much win those every time. And we are seeing some good
+success right now in the market as part of it.
+{BIO 1542979 <GO>}
+It's got the other big chunk of your on-prem server product business other than SQL
+server databases, your window server OS. That to me has been a tougher market
+and I'm wondering if you could comment around the -- your outlook for Windows
+Server, I think there's some nervousness about what a traditional server OS looks like
+in a cloud world. Does cloud end up going all Linux? Do you need to strip down
+lighter weight OS? Maybe you could oﬀer some comments on the Windows server
+part of your business.
+{BIO 15931914 <GO>}
+Yes in terms of, that has, that is an important part of our portfolio today. And the
+other thing that we've been hard to work on and have a really great product comingFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 14 of 15Q - Karl Keirstead
+A - Scott Guthrie
+Q - Karl Keirstead
+A - Scott Guthrieout later this month is our Windows Server 2016 release. And that is speciﬁcally
+going after some of the points you mentioned, which is builds in containers in a
+deep way and has doctor support natively, right out of the operating system, has
+support for what we call a nano server, which is a very light weight version that's very
+minimalist and we think designed for new application workloads. And in the big part
+of Window Server 2016, I think for existing customers has been the focus around
+security that we baked into it.
+In particular, it really enables IT to run their existing Windows Server applications in a
+much more secure environment and have much more protection. So we think that
+combination resonates very well with what the market wants. And we're pretty
+excited to see that grow and that uptick over the next couple of months as it comes
+to market and I think the trick is, it's a mature market for sure. And the trick is, I think
+there still lots of innovations that we're able to provide and -- for on-prem business
+all up, from a licensing perspective, it is the vast majority is annuity based as
+opposed to kind of license transaction. And so, as we're able to add -- continuing to
+add additional value to that footprint that also helps in terms of from continuation
+perspective making easier for customers to adopt it since they already own it. Then
+also I think makes the value proposition even more valuable.
+{BIO 1542979 <GO>}
+And maybe just in our last minute, the other business under you responsibility is
+Dynamics. And I think everybody in the room their eyes popped a little bit couple
+days ago, you announced a win at HP Inc. and that's signiﬁcant in a number of
+respects and perhaps you're limited from giving us too much detail. But we all
+thought HP Inc. was a Salesforce client. So is this a take away and what does that say
+about Dynamics CRM, because I think there has been a general perception that
+that's more of the mid-market product and I wonder if this win with HP Inc. is
+perhaps a harbinger of Microsoft having a little more success up-market against
+Oracle and Salesforce?
+{BIO 15931914 <GO>}
+I think the HP Inc. takeout yesterday was a Salesforce takeout.
+{BIO 1542979 <GO>}
+It was.
+{BIO 15931914 <GO>}
+Yes. They were very large Salesforce shop or were until yesterday and they are
+planning a massive migration and big bet on Dynamics. And it's one of -- one of the
+more public ones that we've had. But we're starting to see some really good success
+in the market at a broad level, in particular around enterprise. And I would say for
+CRM in particular enterprises are sweet spot. Other parts of the Dynamics, this
+maybe a little bit more mid-market in European states. But in particular for customer
+engagement solutions, I think we've got a very strong enterprise product and we are
+growing very, very fast. I think we've kind of talked about the cloud growth that
+we've had, obviously with Azure and Oﬃce 365. Dynamics has been on an absoluteFINAL TRANSCRIPT 2016-09-13
+Microsoft Corp (MSFT US Equity)
+Page 15 of 15Q - Karl Keirstead
+A - Scott Guthrietear as well. And we see a huge upside with that and the exciting part -- we
+announced plans to acquire LinkedIn, it's not complete yet. So kind of all the
+standard caveat there. But the other interesting thing, assuming regulatory approval.
+And all the right caveat, Zack wants me to say -- the signal you get from a
+professional graph, say for example from LinkedIn where you know who knows each
+other, you know the relationships and yow know their skill sets, who they worked
+with in the past.
+The insight you get from a sales reps or customer service reps inbox with Exchange
+and what we have in Oﬃce 365, the insight you get is someone's calendar and even
+with Skype all of their phone and voice communications and IM traﬃc, if you take all
+that together and have a cloud that can do deep insight of analytics and machine
+learning and AI on top of that, you create the ultimate selling tool -- the ultimate
+customer support tool in the industry, because you have so much insight that can
+assist a sales rep or assist the customer service rep that no one other vendor can
+provide. And we're very excited in terms of over the next year or so to make that
+really come to market and you'll see a lot more announcements and demos of that
+types of technology even in the next couple weeks.
+{BIO 1542979 <GO>}
+Well congrats on that deal. Congrats on the great success with SQL server and most
+importantly the amazing growth trajectory at Azure. Well done. And thanks for
+attending our event. I learned a lot and hopefully everybody did and thanks to the
+Microsoft IR team for bringing Scott. Thank you.
+{BIO 15931914 <GO>}
+Thanks.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

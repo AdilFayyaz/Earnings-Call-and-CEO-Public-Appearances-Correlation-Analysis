@@ -1,0 +1,495 @@
+FINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 1 of 12, Executive Vice President Cloud & AI
+, Morgan Stanley
+Keith Weiss
+Q - Keith WeissMorgan Stanley Technology, Media & Telecom
+Conference
+Company Participants
+Scott Guthrie
+Other Participants
+Keith Weiss
+Presentation
+{BIO 6993337 <GO>}
+Excellent. Thank you, everyone for joining us. My name is Keith Weiss. I run the U.S.
+Software Research eﬀort here at Morgan Stanley. And I'm really pleased to have with
+us from Microsoft, Scott Guthrie, Executive Vice President of Cloud and AI. I think
+there's a couple of other things behind that, you have a wide scope of responsibility.
+But really a super interesting conversation ahead given everything that's going on
+with Microsoft.
+Before we get into that, something uninteresting, our disclosure statement. For
+important disclosures, please see the Morgan Stanley Research Disclosure website at
+www.morganstanley.com/researchdisclosures. If you have any questions, please
+reach out to your Morgan Stanley's sales representative.
+Questions And Answers
+{BIO 6993337 <GO>}
+(Question And Answer)
+Excellent. So thank you so much for joining us. I think it is a fascinating time to be
+talking to you given sort of everything that's going on within sort of the Microsoft
+ecosystem. And I think we should just start with what everyone's kind of super
+excited about. The -- from an investor standpoint and especially for people who have
+been paying close attention, the pace of innovation and what we're seeing in terms
+of AI and generative AI capabilities coming into the solution portfolio has really
+impressed people and impressed them to the upside of kind of what our
+expectations are.
+Can you talk to us about how this came together? Because this is something that
+didn't sort of come into the forefront over the last month or two. This is somethingFINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 2 of 12A - Scott Guthrie
+Q - Keith Weiss
+A - Scott Guthrieyou guys have been putting together for years. Can you talk to us about sort of how
+you guys have built out the AI capability within Microsoft? And now how we're
+seeing it expressed across the product divisions?
+{BIO 15931914 <GO>}
+Yes. I mean, I think it's an exciting time. I mean, I think we sort of call it the age of AI
+that we're entering and it's probably going to be the most signiﬁcant technology
+transformation in any of our lifetimes, and we've all experienced lots of big ones. But
+I do think over the -- and it's going to be over the next couple of years, so that's not a
+statement around the next quarter or two. But I do think this is very, very profound
+and really going to change how business works, how society works going forward,
+and it's kind of been amazing on the technology side.
+I mean, this has been a bet that we've made going back many years now and a deep
+partnership with the OpenAI team, and I know Sam is going to be here at the event I
+think later this week. It's been a great partnership where we kind of made some
+mutual bets on building kind of what we call the AI supercomputer, which is kind of a
+service inside Azure that we provide, which is really optimized around these very,
+very large language model trainings.
+And we kind of did jointly a whole bunch of architecture work, kind of designing,
+how they were going to build the models, how we were going to build the
+infrastructure, and really build something pretty special that allows these large
+language models be trained very fast and iteratively. And then kudos to the OpenAI
+team. They really pioneered a tremendous amount of kind of new ways of thinking
+about building these models and the combination I think has really been magic the
+last six months. And I think the road ahead is going to be pretty exciting as we start
+to move from training these models, providing these models to really embedding
+this now into every single app and experience.
+And even at Microsoft, you've seen, even this week, yesterday, we announced our
+Dynamics 365 Copilot and our Power Platform Copilot. We shipped our GitHub
+Copilot last year and you're going to see us kind of infuse this AI deeply throughout
+all of our applications. And it's I think going to be great for customers and really the
+next foundation of computing.
+{BIO 6993337 <GO>}
+Right. So if we think about it kind of structurally within Microsoft, it's not just the
+OpenAI partnership, you guys have a lot of your own kind of AI research that you do
+in-house. You acquired some interesting technology with Nuance and sort of their
+DAX platform. From what I understand, there's a centralized kind of AI kind of core
+functionality and then it's up to the product teams to ﬁgure out sort of how to
+expose that through their own solutions. Is that the correct way to think about it?
+{BIO 15931914 <GO>}
+A little bit. Yes, I mean, there's a core kind of we call AI platform that we're building.FINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 3 of 12Q - Keith Weiss
+A - Scott Guthrie
+Q - Keith Weiss
+A - Scott Guthrie{BIO 6993337 <GO>}
+Right.
+{BIO 15931914 <GO>}
+And it's the same platform we oﬀer to our external customers and partners. And so
+the nice thing is, what Oﬃce 365 or Nuance, or Dynamics, or GitHub are using is the
+same platform infrastructure and the same capabilities that any external partner or
+customer can leverage as well, and we've kind of believed that ﬁrst-party and third-
+party symmetry is important. And so there's a lot that we share.
+And part of the opportunity with these large language models is the ability to kind of
+have them know a lot of stuﬀ about a lot of things and be able to use -- be used in
+lots of diﬀerent domains. And then what we've built with our Azure OpenAI services
+as an example is the ability for organizations or our internal teams to kind of provide
+ﬁne tunings on the model speciﬁc for use case to make it even better.
+And that promise of being able to leverage the large language models, which is
+training the public web, and then that ability for say Morgan Stanley or another
+customer to be able to take proprietary data and tune it even further and know that,
+that model is only going to be used by you, not by us. It's not going to beneﬁt
+anyone else, and you're going to control access, you're going to have the business
+model around it, is what I think enterprise customers in particular are looking for.
+And all of the SaaS ISVs and startups that are going to serve those customers are
+going to need.
+And I think, I don't want to claim it's perfect, but I think we've got something special
+there. And the fact that we're able to use it now for our ﬁrst-party products and we're
+able to oﬀer it to all of our customers and partners, I think speaks to opportunity in
+the years ahead.
+{BIO 6993337 <GO>}
+Right. And that's important both from the side of the equation. If you're talking
+about, like large enterprises particularly in sort of regulated industries, you bring
+about both sort of like the security and sort of the data residency side of the
+equation. But also the AI, if you will, get smarter to your particular business
+processes, it's meant to solve the -- or, answer the question speciﬁc to your
+business?
+{BIO 15931914 <GO>}
+Yes. I mean, AI learns with data and so one of the things you need to think about with
+AI is, as you provide data to that model and it learns, who owns that model, who
+owns that data. And that's why, the trust is so important, I think in this AI age. And
+again our promise is, your data is your data, it's not our data. You get to monetize it,
+you get to control it and the foundation models won't learn from your data. Your
+instance learns, but not the models that are shared by others.FINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 4 of 12Q - Keith Weiss
+A - Scott GuthrieI think that promise, and frankly the trust that we've earned over the years at
+Microsoft and you earn trust in drips and you can lose it in buckets. So it's really
+important to focus on that trust. But I think that puts us in a good position, I think,
+where I think people look at us versus maybe some of the other big tech companies
+and say, "Yes, I feel like, I can trust Microsoft" and I think that hopefully makes us very
+good stewards in the years ahead where people look at us as the trusted partner
+that's going to help them fully leverage this AI to its maximum potential.
+{BIO 6993337 <GO>}
+Got it. One of the reasons I was so excited to talk to you at this point in time is, I think
+there's some really kind of foundational questions that investors are asking about the
+underlying technology. One of the biggest ones is kind of the, how to think about
+competition? How to think about what's going to make one model better than the
+other? And so let me ask you the question like how should we think about judging
+whether a GPT model from OpenAI is better than what Google's bringing to the
+equation or what Amazon is bringing to the equation. What are going to be the
+parameters of that competition?
+{BIO 15931914 <GO>}
+I think there's going to be two aspects. I mean, one is going to be on the raw
+technical capability of the model. And so obviously, we're going to be very focused
+on making sure that the base model, the get-go is super competitive and I think the
+whole world probably didn't know what large language model or only a small part of
+the world knew what large language models were a year ago.
+And I think ChatGPT, some of the things we've done with Bing, GitHub Copilot like
+suddenly the world's woken up to, wow, this is pretty amazing stuﬀ. And so we're
+going to continue to see large language innovation -- model innovations in the years
+ahead.
+But I think the other thing to think about diﬀerentiation to your point is also going to
+be the signal of use cases of people actually using it. If you look at GitHub Copilot
+which was the ﬁrst really widely used large language model service in the world, and
+you look at the accuracy of the code that was generated last July versus what it is
+today, it's dramatically better today and it's because as people are using it, the
+model is getting better, the accuracy is getting better.
+And so sometimes ﬁrst time to market or ﬁrst to market and that signal improvement
+can really start to diﬀerentiate these models beyond even the base capabilities that
+are in it. And I think that's partly why you're seeing us move as quickly as we are and
+whether it's GitHub, whether it's Microsoft 365, whether it's Dynamics, whether it's
+Power Platform, Nuance, et cetera, there's literally nothing in our portfolio that we're
+not very aggressively looking to leverage AI, partly because we also want to get that
+signal going. And when you have hundreds of millions of commercial customers
+using your products, that's a lot of good signal, that's going to improve them, and
+that I think is going to further diﬀerentiate our models versus others hopefully in the
+market.FINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 5 of 12Q - Keith Weiss
+A - Scott Guthrie
+Q - Keith Weiss
+A - Scott Guthrie{BIO 6993337 <GO>}
+Got it. That's a good segue to the conversation on Bing and the new Edge browser.
+On one side of the equation, I think the Bing announcement and the capabilities
+impressed a lot of people. And really it was a great marketing event for Microsoft
+and bringing it to sort of the entire world, if you will, like that and these capabilities
+exist and they exist within -- in Microsoft. There's very quickly some blowback about
+sort of, well, some of the answers weren't right, right? Sydney emerged kind of over
+the weekend and it kind of freaked some people out. But it sounds like that's part of
+the learning process, that's part of making these models better, as they have to get
+that usage up.
+{BIO 15931914 <GO>}
+Yes. I think, the day we announced the new Bing, one of the things that we were very
+clear on was, this is going to be an evolution and we're going to learn and evolve
+and we won't get everything right and we're going to keep improving and we're
+going to do it really fast. And that's been the model that the -- or, the approach the
+team has taken on the Bing side.
+I think they've done a good job of reacting fast and in some cases, people are doing
+200 prompts to try to cause the model to say something strange. But credit to the
+team, they're reacting fast and we take it very seriously in terms of making sure AI is
+responsible, it's safe. That's kind of core to our DNA and that's partly why it's not
+available to everyone yet. We start with a cohort of users, we learn, we improve, and
+we're going to make sure that we deliver this technology in a really safe responsible
+way.
+{BIO 6993337 <GO>}
+Got it. In terms of the sort of monetization avenues on a go-forward basis, I think one
+of the competitive advantages it seems like Microsoft has is all these avenues that
+you can sort of bring it out, you could productize it through. So Bing being one of
+them, but like you were saying, like GitHub and all the developer platform is another
+one, Teams Premium.
+The one that we haven't heard from yet Oﬃce, the overall productivity suite, but I
+guess that's to come, there's the March 16th event. But is it fair to say it's a kind of
+similar -- kind of perspective because one of the things that is interesting of all of
+these kind of innovations you've been putting out, they all have a price point behind
+it, like this isn't sort of innovation in the overall kind of software is moving forward,
+but Teams Premium is a SKU, like should the expectation be that's going to be the
+route forward across the entire portfolio?
+{BIO 15931914 <GO>}
+I think you're going to see -- I mean, I guess, the way I look at it would be, what is the
+productivity win you're giving to the business, whether it's around making an
+employee more productive or making up the speciﬁc business process more
+eﬀective. You take the example of say GitHub Copilot, since that's a product that'sFINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 6 of 12Q - Keith Weiss
+A - Scott GuthrieGA today. We're now seeing that the developers using GitHub Copilot are 55% more
+productive with it on tasks and that's sort of measured by independent studies and
+40% of the code they're checking in is now AI generated and unmodiﬁed.
+And so if I talk to a CIO or to a CTO, and soft of say if I can give you 55% more
+developers overnight, would you take that? They're all looking for talent, they're all
+constrained in terms of the number of engineers they can hire. They're gladly going
+to pay for that. And we have a good price point for that I think, that is sort of a no-
+brainer for them to pay and it's a great service and a great business.
+And I think there's going to be lots of opportunities here when you look at AI, it's
+going to be additive. We're sort of adding new scenarios and taking cost out
+enabling organizations to move faster and enabling them to be more productive.
+And so I think from a margin perspective or from a revenue perspective, to your
+price point, I think these things are going to be additive to our overall business.
+And in a lot of cases, some of these use cases, cost a lot of money for an
+organization. Think of Nuance with healthcare, physicians and physician visits,
+physicians only see so many patients a day, you can help them see signiﬁcantly more
+patients and have a better experience that is worth a lot. Similarly, take call centers
+and customer support, if you can deﬂect a case without even having to have a
+human answer it, you've happier customers and again you've taken a lot of costs out
+of the system. And so I think for each of these things there will be diﬀerent ways we
+monetize, but in a world where we're sort of delivering massive productivity wins,
+good news is there's lots of customers want to pay it because it ultimately takes their
+overall costs down. And I think there'll be diﬀerent opportunities for us to add
+additional value going forward.
+{BIO 6993337 <GO>}
+Got it. Outstanding. So today we're seeing a lot of this functionality be exposed
+through kind of the existing applications. On a go-forward basis, do you think this
+changes the paradigm of how people build applications? And could it potentially
+shift that pendulum that we see between sort of buy versus build applications more
+towards the build side of the equation?
+{BIO 15931914 <GO>}
+Yes. I think there's going to be -- I think in the short run, I think the fastest way to get
+some of this AI value is going to be through ﬁnished apps, again like the Copilot
+experiences that we're launching because people are already trained on the apps
+and it just augments the apps, integrates with it, lets them move faster. And so I think
+there's a huge opportunity there.
+And then I think we're also going to see then the next generation of apps that are
+going to be built on the raw APIs and the services around it, that are going to re-
+envision pretty much every experience that we see. I've told the story a few times
+about e-commerce. We kind of all take for granted you go in a web browser to an e-
+commerce site, there's categories on the left, you click; there is products, you click,FINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 7 of 12Q - Keith Weiss
+A - Scott Guthrieyou read the reviews, the price point, is it in stock, you add it to your cart and check
+out. That was kind of codiﬁed 30 years ago and it hasn't changed dramatically.
+I think we're going to be in a place probably two holiday seasons from now where
+instead of browsing, I'm probably going to have a text box and I'm going to say, I
+want to buy a gift for a family member, here's the price point. I want it delivered by
+December 19th, this is what they like. And it's going to ﬁnd the products for me, and
+that's going to be a very diﬀerent user experience. It's going to be a very diﬀerent
+question-and-answer experience. I'm going to be able to ask questions about the
+product versus scroll through hundreds of comments and reviews.
+And I think every organization needs to start to be thinking about, okay, how do I
+reinvent, how I do retail, wealth management, manufacturing, routing, this customer
+support. And I think that is -- some of it's going to be built, where people are going
+to build them themselves. And I think big brands are going to need to have more
+control. And a lot of it's going to be by components of it, and how do you compose
+them together?
+And I think part of what we're trying to do with the Microsoft Cloud is we do both,
+and then also being able to point to the fact that how we built GitHub Copilot or
+how we're building the Teams Premium, or how we're building that Dynamics, you
+can use the exact same APIs that we are. It gives us an opportunity to also talk
+credibly to other software vendors and to other enterprises about how they can do
+the same thing we are. And I think that's a big opportunity.
+{BIO 6993337 <GO>}
+Great. One of the presumptions I made in an earlier question was that the ChatGPT
+or the Bing announcement more succinctly was a great marketing event for
+Microsoft. Is that correct? Has that spurred more customer conversations for you
+guys? And maybe more broadly, where are we in terms of the customer conversation
+around these generative AI models or more AI more broadly? Like how far into this
+opportunity do you think we are?
+{BIO 15931914 <GO>}
+I think, we're still early innings. I mean, I think the thing that's been great about, I
+think, ChatGPT and then also about Bing is the fact that like end users can do it. The
+number of people I've talked to who maybe haven't used all of the new products
+from all the tech companies, but seem to have tried those two, and said, hey, we're
+using it now, my children are using it for homework, it's not supposed to or we're
+using it in a variety of use cases that I kind of hear more and more interesting ones.
+I think it's actually made what has been a very technical concept, large foundational
+AI models, transformer-based learning. It's like most people didn't know what in the
+world that even meant 12 months ago and yet hundreds of millions of people have
+heard of ChatGPT and Bing now, and tried it. And so I think that's -- I think that is
+actually making it much more real, which is giving us an opportunity to then say, hey,
+let's show you how you can use this in customer support, let's show you how we can
+use it with developer productivity, let's show you how we can use it for salesFINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 8 of 12Q - Keith Weiss
+A - Scott Guthrieproductivity, and it's a good conversation starter. And again, I think people are
+looking for solutions that integrate with their workﬂows that they already have and
+help them kind of accelerate even more.
+{BIO 6993337 <GO>}
+Got it. One of the things that investors are struggling with a little bit here is, it seems
+like just a massive opportunity ahead of Microsoft and it's something that Satya has
+talked about is, I mean, this is what's expanding sort of IT as a percentage of GDP
+from 5% to 10% over the next 10 years in kind of his way that he lays out that market
+opportunity.
+But in the near term, we're talking about cloud optimizations. In the near term, we're
+seeing sort of Azure growth decelerate. When like -- could you give us some -- well,
+one, can you give us some kind of perspective on kind of what do those cloud
+optimizations mean? Like what are customers doing? Are they changing their views
+on how they want to use cloud fundamentally, or is this more of a short-term tactical
+impact that's just about sort of getting in line with budgets?
+{BIO 15931914 <GO>}
+Well, I think, cloud optimization has been sort of a core part of the cloud journey for
+10-plus years now. So I don't think it's necessarily new per se. I mean, in general, the
+typical pattern we've seen going back many years is you either migrate a workload
+to the cloud or you build a new workload in the cloud, you then optimize it. And then
+you reinvest the savings and you rinse and repeat with the next workload or the next
+use case.
+And we like that optimization process. I mean, I think -- and we have dedicated
+teams at Microsoft that help our customers with it because we know it earns loyalty,
+we know it earns conﬁdence to move more, and at the end of the day, if we can help
+our clients and customers and partners get more out of their investments, we kind of
+know they'll spend more with us and they'll invest more in digital technology which
+increases the overall size of the pie.
+So in general we like that and the types of optimizations people do. Sometimes
+when they're ﬁrst moving, they have a large test environment and they kind of like,
+okay, kind of do more test and production, and I can shrink that test environment a
+little bit or can I take advantage of things like reserved instances or new cost savings
+plans that we have in Azure to get better commit to a longer term beneﬁt and
+reduce per-unit cost a little bit on an ongoing basis. And then there's sometimes
+where they kind of right size VMs or right size databases. And so that's all natural.
+There's only so much optimization you can do until you're done. And so while
+people are optimizing, it's not like they're going to optimize it down to zero. At some
+point you get done and then you go into the next workload.
+What's happened in the last six months or nine months has been as the macro
+situation has been uncertain, people have been, I'd say, optimizing even more, andFINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 9 of 12Q - Keith Weiss
+A - Scott Guthrie
+Q - Keith Weiss
+A - Scott Guthriethey are sometimes holding on to those savings a little bit longer before they
+reinvest it. But I haven't heard really from any customer a long-term change in terms
+of cloud. And there's always more work loads, there's always more use cases, and as
+we've been talking about with AI, if you're not constantly reinventing yourself with
+digital technology, you're going to be under severe competitive pressure. And so I
+don't so much worry about the long term, but it does lead obviously to shorter-term
+questions in terms of that optimization journey and what exactly the impact is, but
+again longer term, I'm not hearing any changes.
+{BIO 6993337 <GO>}
+Right. And that concept is like, optimization can only take place so long. Does that
+kind of -- is that what Satya is talking about, when he says that, he thinks this
+optimization activity lasts for a year, but it's unlikely to go signiﬁcantly beyond that?
+{BIO 15931914 <GO>}
+Well, I think we're trying to be a little careful in terms of giving guidance on a speciﬁc
+quarter or more annualized basis. As I'm not -- I'm not trying to say that, because I
+think the reality is we'll see, but I think at some point when you optimize a speciﬁc
+workload, you can't optimize it anymore. And so there is a ﬁnite amount on a
+workload basis. And that's why, again, we ultimately feel very good in terms of long
+term for cloud and don't see any kind of strategic shifts that our clients are making.
+It's more a case of -- is going to have at times a dampening eﬀect in the shorter term,
+but again, the more they optimize, the more value they get, the more they generally
+in the long term want to invest with us more. And again, I look at AI and I look at
+other new use cases that are coming out and hear a lot of excitement around people
+saying, "Yes, I got to be ultimately doing more of this and this and this." And so I do
+think those reinvestment savings for me is not in doubt. It's -- obviously, we're all
+wondering exactly the win on a quarter-by-quarter basis, but again, I have
+conﬁdence in the long term.
+{BIO 6993337 <GO>}
+Got it. I want to ask a question about Azure gross margins, but it's kind of like a
+roundabout question. When you guys did the Bing announcement, Satya pretty sort
+of directly went sort of after kind of the gross margins of the key competitor there in
+terms of Google, saying that this is going to be a lower gross margin business and
+we're willing to spend on it. It didn't take long for investors to say, well, if it is lower
+gross margins for search, it's going to be lower gross margins for Azure and the
+other cloud businesses, they roll more of this AI functionality beneath those
+platforms.
+So is that the case that like because this is more computationally intensive, because
+you have to bring in GPUs to do the training that this is going to be a compressive
+impact on overall cloud gross margins for Microsoft?
+{BIO 15931914 <GO>}FINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 10 of 12Q - Keith Weiss
+A - Scott GuthrieI think overall, I mean, the thing I would probably point to is going to be the fact that
+these are new workloads and the fact that it really opens up more top line revenue.
+And again, for a lot of these use cases take a developer, if you can make that
+developer 55% more productive. I got to believe there's a lot of gross margin in
+there, because that ultimately translates into real opportunity to transform how an
+organization gets productivity out of their employees.
+And so I do think we're going to see depending on the use case for AI diﬀerent ways
+that we'll monetize diﬀerent margin structures. But I ultimately look at if we can keep
+growing productivity dramatically for businesses that probably is going to be
+deﬁnitely long-term opportunity from a TAM revenue perspective, and I think it's
+going to allow us to maintain some good margins as we do it. And obviously, that
+will continue to evolve in the quarters and years ahead as people take maximum
+advantage of it.
+I think the other thing on AI that we're thinking about, is that AI has gravity. Meaning,
+you can't go faster than the speed of light. And so if you've got an application or a
+database and you've got an AI model, the further they are apart, the slower the
+network path and the calls between them are. And for a lot of these use cases, take
+something like GitHub Copilot, it's not like we're making one AI inference, like we're
+doing it on every keystroke and the further that is apart, the slower the experience.
+And I do think we're also going to see as we look at AI opportunities with Azure
+speciﬁcally is there's both the direct Azure AI model opportunity, but there's also the
+fact that people are going to increasingly want to move their apps and their
+databases into Azure to be close to those large models. And that's also going to be
+an opportunity for us to not only sell more AI, but also to sell more VMs, more
+storage, more databases, more everything. And I think we also see that as a real
+opportunity both with customers that we have today, but also, there's a lot of
+customers that we don't have today.
+Take this particular zip code, has not been our strongest because it is very much
+open source-based developers which has not been Azure and Microsoft's historical
+strength. But this is creating a conversation where people are like, look, we want to
+take advantage of these large language models like we want to talk about how we
+could use them and we need to ﬁrst show our value with the models, we need to ﬁrst
+show the capabilities of Azure. But I do think this is going to be a great door opener
+for a lot of customers that haven't really given us a hard look yet historically because
+they don't -- they already had a cloud. And the fact that the OpenAI models run
+exclusively on Azure, I think ultimately is going to be a big diﬀerentiator for us.
+{BIO 6993337 <GO>}
+Got it. So both through sort of pricing and volume you can make up for any kind of
+higher compute intensity needed in this type of process?
+{BIO 15931914 <GO>}
+And we're continuing to just sort of really optimize these models. I think a lot of
+people were surprised last week when OpenAI lowered their prices by a factor of 10,FINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 11 of 12Q - Keith Weiss
+A - Scott Guthriethat's partly because they found a way to lower the cost of inferencing
+correspondingly and they say, we can get a lot more revenue, open up a lot more
+opportunities when it's more eﬀective, and that model that's cost optimized didn't
+exist 30 days ago. So we're in still early innings and there's still a lot of optimization
+and learnings that we're doing. And it's going to be a fairly dynamic, but I think it's
+going to be exciting, because it really is, again, just looking at some of the ChatGPT
+use cases that people posted about or the Bing use cases people posted about, that
+they're already using it in fascinating ways that none of us, I think would have
+thought of a year ago. And I think we're going to see far more use cases over the
+next year.
+{BIO 6993337 <GO>}
+Right. That optimization activity that you were talking about that is bringing down
+inference costs. I assume that's really just kind of getting started right now. But it's a
+motion, it's a muscle memory that Microsoft has. I mean, you guys have been driving
+up cloud gross margins and Azure gross margins pretty materially over the past
+couple of years. One of the questions I get from investors is, the fact that you guys
+don't have a GPU design of your own, does that inhibit sort of how far you can go on
+that sort of optimization curve. Google has their own GPUs and Amazon has their
+own design for GPUs. But Microsoft doesn't. Is that any signiﬁcant inhibitor in terms
+of how eﬃcient you can get?
+{BIO 15931914 <GO>}
+Well, in general, I mean, I think we're looking for how do we optimize everything,
+whether it's the silicon GPUs, whether it's the network interconnects, whether it's
+data center designs, whether it's server hardware, whether it's ﬁber. And some of
+those things we're doing organically, through the acquisitions we've done in the last
+six months are hollowcore ﬁber through a company called Lumenisity and Fungible
+which does storage and I/O optimization for DSPs.
+And so these are very speciﬁc scenarios that maybe ﬁve years ago, would not have
+made any sense for us to be investing in. Now at the scale that we're operating on, it
+makes a lot of sense to invest in and you're going to continue to see us innovate
+both organically and inorganically to kind of optimize every layer of the stack.
+And part of the reason why not just OpenAI, but if you look at a lot of the other large
+language model startups out there, are using Azure, is because we have some pretty
+diﬀerentiated hardware with our AI supercomputer and that again includes silicon
+hardware network, power data center and whole bunch of other design elements
+and you're going to continue to see us innovate in that. So we're going to be looking
+for opportunities in every layer of the stack to do optimizations.
+And I think the partnership we have with OpenAI, and the fact that we're building all
+of our own apps deeply taking advantage of these models is also giving us real
+signal on what optimization really is going to matter, and how do we continue to be
+on the bleeding edge of optimizations. And I do think that signal for us has helped a
+lot in terms of what we've built. We wouldn't have built it the way we built it without
+the partnership we had and without some of these early applications. And I think thatFINAL TRANSCRIPT 2023-03-07
+Microsoft Corp (MSFT US Equity)
+Page 12 of 12Q - Keith Weiss
+A - Scott Guthrieultimately hopefully is going to help again both at the platform layer and at the app
+layer, give us some good diﬀerentiation in the years ahead.
+{BIO 6993337 <GO>}
+Outstanding. Unfortunately, that takes us to the end of our allotted time. I could have
+this conversation all day long, but thank you so much, Scott for joining us. This is a
+great conversation.
+{BIO 15931914 <GO>}
+Thanks for having me. Thanks, everyone.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

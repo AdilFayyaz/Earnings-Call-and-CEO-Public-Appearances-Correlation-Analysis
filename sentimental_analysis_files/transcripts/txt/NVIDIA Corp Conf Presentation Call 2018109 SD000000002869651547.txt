@@ -1,0 +1,468 @@
+FINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 11, Executive VP & CFO
+, Senior Analyst, JP Morgan Chase & Co, Research Division
+Harlan SurJP Morgan CES Tech Forum
+Company Participants
+Colette M. Kress
+Other Participants
+Harlan Sur
+Presentation
+{BIO 6539622 <GO>}
+All right. Well I'm going to get started a couple of minutes early because I just
+wanted to say -- well, ﬁrst of all. Good morning. And Happy New Year. And thank you
+to all of you. Welcome to JPMorgan's 16th Annual Technology Forum here at the
+Consumer Electronics Show in Las Vegas. My name is Harlan Sur. I'm the
+semiconductor and semiconductor capital equipment analyst here for the ﬁrm. And
+we're very pleased to have a solid day of semiconductor, automotive, automotive
+technology and general tech companies presenting. Also joining me from JPMorgan
+are some of my colleagues. I've got Bill Peterson, who covers the RF semiconductor
+value chain. We've got my colleagues, Ryan Brinkman, JosÃ© Asumendi and Samik
+Chatterjee who cover the U.S. and European automotive sectors; and Paul Coster,
+our applied and emerging technologies analyst.
+Now over the past few years, CES has been much less focused on things like mobile
+devices and PCs and much more focused on things like intelligent cars, the
+proliferation of deep learning and artiﬁcial intelligence, smart connected homes,
+smart factory ﬂoor and next-generation gaming technology. Now especially in
+automotive, given the increasing intelligence and semiconductor content, we've
+included a number of the top-tier OEMs and subsystems companies who will talk
+about their technology development eﬀorts. And this year, for the ﬁrst time, we have
+companies like Ford, GM, Daimler, Continental, Aptiv, Autoliv to name a few. So we
+hope you enjoy the conference. And thank you for your participation. Hopefully, you
+guys will be asking a lot of questions. Remember, this conference is for you.
+And with that, I'm pleased to introduce Colette Kress. She is the Chief Financial
+Oﬃcer of NVIDIA. It's been a tradition, the last few years, to have the NVIDIA team
+kick oﬀ our investor conference because the team is driving much of the trends that
+you will hear about today: artiﬁcial intelligence and deep learning, next-generation
+compute architectures in automotive and next-generation gaming technology. The
+team had their press conference on Sunday. I've asked Colette to start us oﬀ with an
+overview of what Jensen unveiled Sunday night. And then we'll kick oﬀ the Q&A. So
+with that, Colette, thank you very much for joining us this morning.FINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 11Colette M. Kress{BIO 18297352 <GO>}
+Thank you. Thank you, Harlan. So welcome. If you didn't get a chance to see our
+press announcements on Sunday night, I'll do a tiny bit -- a quick recap. We did start
+with a summary, what we have seen over this last year, it's been a year since the last
+CES, in terms of building, in terms of our automotive. And we added more, in terms
+of this time.
+Probably one of the key things that we started oﬀ with was to talk about the
+availability of our Xavier SoC. Now our Xavier SoC is engineered for AI, for
+automotive. So it's very important part for us to establish this, with sampling for our
+overall customers. This is a big breakthrough that we think is probably more than two
+years ahead of any type of competition in terms of the SOCs for the automotive. It
+improves in terms of energy eﬃciency 10x probably from our prior version. And it is
+looked at in terms of an overall wattage of less than 30 watts, which we think is
+uniquely engineered for AR cars moving forward.
+So with that, in terms of the basis of what we had, we went on to talk about some of
+our key additional partnerships that we are working on in terms of automotive as we
+move forward. The ﬁrst one that we announced is with Uber. Uber is using the
+NVIDIA DRIVE platform for its self-driving cars and was with us and is continuing to
+build more and more data from the roads in what they are collecting using our
+overall platform going forward.
+Secondly, we announced a terms of work with Volkswagen. Volkswagen is looking to
+use our platform inside the car for an overall copilot. We're thinking about the AI
+inside the car, using anything from voice recognition, gestures and others and in
+terms of to help keep the driver focused in terms of on the road. But also being able
+to add AI with, inside the car.
+Thirdly, we announced a collaboration with Baidu and ZF that they will also use our
+DRIVE platform for future automotive AI cars. All right?
+Then fourthly, Aurora, a start-up, focused on self-driving cars will also use our DRIVE
+platform.
+This adds to many of the additional partnerships that we've already announced and
+continues to be solidiﬁed with all the diﬀerent people that we work with. We have
+probably more than 320 diﬀerent automotive partners, Tier 1s, OEMs as well as start-
+ups that we are working with, which has increased from probably about 250 from
+where we were about a year ago. So we are continuing our work in what is a very
+important area of the transportation transformation as we see forward. This is a big
+area where a business more than $10 trillion is going through a massive
+transformation, a transformation in terms of both the technology but the overall
+ability to use AI in terms of in the car.FINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 11Q - Harlan Sur
+A - Colette M. KressSo those were most of our announcements. We also announced key things with our
+overall gaming. We have big-format gaming displays with our G-SYNC monitors, 65-
+inch that you could probably come to the convention center and see our big screen
+types of formats. These actually improve the overall latency with very, very large
+monitors for those AAA games.
+We've also continued to talk about our GeForce NOW. GeForce NOW also right now
+is in beta with our overall Mac users and also in the future coming in terms with our
+overall PC users. This is an ability to expand overall cloud gaming that can overall
+stream to any types of device.
+So those are some the great announcements that we had as of Sunday night.
+Questions And Answers
+{BIO 6539622 <GO>}
+Great. Well thank you, for those opening remarks. And I think one of the key
+takeaways for me from the press conference on Sunday was Jensen's sort of
+summary of accomplishments in 2017. And his key takeaway was that, look, NVIDIA
+developed end-to-end AI, deep learning platforms, software, ﬁrmware enablers for
+your entire customer base, right, whether that's the cloud service providers, whether
+that's enterprise, whether that's researchers, end-to-end platform: hardware,
+software, ﬁrmware and support. And I think that -- and obviously, much of that is
+focused on the training side of AI and deep learning. And I think the market
+understands that NVIDIA does lead the way when it comes to AI deep learning
+training. The other part of the equation though, is on the inferencing side. And back
+in the May analyst conference, you sized the inferencing market as about a $15 billion
+market opportunity, even bigger than the training side of the market. And I often feel
+like the market doesn't appreciate NVIDIA's leadership on the inferencing side. You
+have the TensorRT platform, which is the platform that helps you take the training
+network, optimize it and then put it into the inferencing platform. So you've got that.
+You actually have hardware solutions that enable inferencing with Jetson platform,
+which is for embedded solutions like drones or factory automation or edge
+computing. Then again, I don't think people realize that your highly successful DRIVE
+PX, DRIVE Xavier platforms are inferencing platforms as well. And so I think as you --
+as the team thinks about the inferencing side of the market, well, what are you --
+what else is the team doing to continue to expand their presence and leadership on
+the inferencing side?
+{BIO 18297352 <GO>}
+Sure. So a good way to think about what we have developed in many times looking
+at AI and our work in terms of AI really focus in terms of the starts, in terms of the
+data center. So those expanded quite strongly. It is really not just about the overall
+processor or the overall (chip) we have designed in terms of data center. The key
+important part that you spoke there is it is a full stock. It is a full stock, starting with
+the best processor on the planet, the best processor in terms of its overall
+capabilities. But it is uniquely positioned to expand and work in terms of with AI. AI isFINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 11Q - Harlan Sur
+A - Colette M. Kressabout signiﬁcant amount of data. We need a processor to be able to handle that
+(inaudible). But most importantly, there is also the signiﬁcant amount of
+development work, the development software that is necessary. We keep an overall
+development platform consistent across every single one of the products (that we
+overall shelf) . Both within the data center, both in terms of automotive as well as on
+the edge, inferencing or anything (may lead) to in terms of deep learning (in the
+center) of the overall data center. This is an important piece because there'd be
+more than 650,000 developers that are working on CUDA that they can have that
+consistency of that overall software platform (inaudible). But then that gets into our
+ability to further up that stack from that overall (buildware) to where we can actually
+help with the overall application and the use of our (inaudible) platform. You see that
+spin-oﬀ that we have in terms of -- with automotive. And we have the entire business
+focused on AI for automotive. When you think about that, that's not just automotive
+and thinking about the platforms that will be in the car. We're working with them
+today. We're working with them today in the data center. They're collecting
+signiﬁcant amount of data on the road. They are using that in their data centers.
+They're using our overall platforms in their data centers to process in terms of all that
+data. So that we can get to a form factor that would be actually in the production
+cars. Xavier is that. Xavier is essentially inferencing inside the vehicle (actually
+moving forward). So our whole plan is to really think about democratizing AI as best
+as we can across many of the industries. We have chosen key industries that we think
+are very ripe to take advantage of the overall AI as we move forward. So yes,
+inferencing is a big focus of ours as long -- as well as in deep learning training. Yes.
+We started many years ago in terms of deep learning training. And we still hold a
+signiﬁcant amount of market share regarding the overall deep learning and deep
+learning training. But inferencing is a great opportunity because of the overall
+complexity of inferencing that we'll see moving forward. The overall inferencing is
+much more advanced than what may have been seen in terms of 10 years ago in
+terms of inferencing, which is primarily a CPU market. The overall ability to now use
+diﬀerent form factors as well as using the GPU to take advantage of that overall
+inferencing opportunity is right for us to (inaudible).
+{BIO 6539622 <GO>}
+Any other end markets -- Jetson, your embedded platform targets things like
+factories and drones; DRIVE PX, obviously, strong in the automotive markets. Any
+other areas where you can think of which can take advantage on the inferencing side
+of NVIDIA's capabilities, both on the silicon and on the platform side?
+{BIO 18297352 <GO>}
+Well probably, ﬁrst one to see -- very similar to what we saw in terms of deep
+learning that your cloud service providers will be getting that, (will be getting) that in
+terms of whether they use it for internal usage in terms of their applications or they
+make it available in terms of with the cloud for others to take advantage. We'll still
+see in terms of key industries. But it's probably the exact same industries that are
+very focused right now in terms of the overall training market that we see. We've
+been focused in terms of on manufacturing. We've been focused on robotics. We've
+been focused on health care. We've been focused on the ﬁnancial industry. These
+are very important things. One of the things that you see that keeps all thoseFINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 11Q - Harlan Sur
+A - Colette M. Kress
+Q - Harlan Surindustries all together is the signiﬁcant amount of data and their ability to apply AI to
+that to quickly -- (or to some of the answer if needed).
+{BIO 6539622 <GO>}
+Great. Well let's focus on the other big announcements on Sunday, which was the
+new DRIVE platforms or your DRIVE Xavier, DRIVE IX, DRIVE Pegasus. And again,
+turning back to your analyst meeting back in May, I think the head of your auto
+business sort of put a dollar content opportunity per automotive for NVIDIA kind of
+2020 -- 2025 time frame anywhere from $500 to $1,000 per car, Level 5 being
+$1,000 of opportunity for NVIDIA per automotive. And my sense was that back in
+May, that was just focused on the core DRIVE platforms, right, like DRIVE PX, DRIVE
+PX 2, DRIVE Xavier. But Jensen and you and the team announced another platform
+on Sunday, which is DRIVE IX, right, which is this compute and GPU platform which
+senses driver and passenger behavior, takes that behavioral information, maps it into
+the other functionality that's coming from your DRIVE PX platforms. And with that,
+the car is now able to actually make more intelligent decisions about what should
+the car be doing next, right? Then you also have -- you also announced another
+platform which was -- I think it was called Drive -- was it DRIVE AR, which is enabling
+richer content within the infotainment system as well. And so my sense is that these
+kinds of opportunities are not included in the dollar content opportunity that you
+laid out in May. Am I correct in that? Or do you have a sense of -- with all of these
+new platforms, has your dollar content opportunity per auto actually increased now
+as you think about it over the next kind of 3 to ﬁve years?
+{BIO 18297352 <GO>}
+Yes. The overall view that we had taken with our Analyst Day back in May is to really
+help people understand that the change in terms of where the dollars are in the car
+will likely change. There's a huge opportunity in terms of the ability to add the
+technology in there and move from the actual driver and the overall value that the
+driver has to the overall car. So you're not looking at extrapolating it from the overall
+tires and toward the steering wheel. You're actually looking to say, how do I add in
+terms of the value of that technology from the overall driver? These are all things that
+can overall improve both safety and improve just the overall experience inside the
+car. Now we are still in the early stages looking in terms of the next several years in
+terms of what those price points are, what do we think the overall value that we can
+(inaudible). It's still very early. But we do believe, based on where we are today in
+terms of just high-end infotainment systems, infotainment systems, which will be
+infused with AI going forward, whether that be the augmented reality or whether
+that be just used inside of the car with the driver and the passengers, can
+signiﬁcantly increase the overall value of (inaudible) infotainment system. Then when
+we talk about what will occur outside of the car in terms of gathering that data,
+processing that data that is either, a, a Level 3, a Level 4, a Level 5, you're right, you
+have an overall exponential growth into the overall value that we can actually
+extrapolate and probably from overall price points. But there's signiﬁcant amount of
+work in terms of software development between here today and what we'll see into
+the next couple of years.
+{BIO 6539622 <GO>}FINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 11A - Colette M. Kress
+Q - Harlan SurGreat. Why don't we change it up a little bit? I continue to like the core business,
+which is the gaming business. It's near and dear to my heart. My son is a big
+enthusiast gamer. Your gaming business is going to be up greater than 30%
+calendar year '17, continue to remain relatively unchallenged at the high end of the
+enthusiast gaming segment. The GeForce 1080 Ti platform continues to lead the
+pack in terms of gaming performance. The Pascal architecture has been a huge
+success. That being said, the enthusiast community is anxiously awaiting the launch
+of the GeForce 20-Series platform this year. Some speculate it may not be Volta
+based. It might be another architecture called Ampere. Can you maybe give us a
+sneak peek on the 20-Series platform launch and architecture?
+{BIO 18297352 <GO>}
+Yes. I always love that we come here and (talk) about our next-generation products.
+And I think you just tried to name our next product in terms of that. But I'll take that
+back to the (team and review) and agree that we should call it the 20-Series. But I
+didn't know we were naming the products onstage. But we can take that into
+consideration. But we don't generally talk about new products. We'd love to (excite)
+on the consumer side, (win) our overall (inaudible). So what I can discuss, though, is
+yes, that overall success of the Pascal. The overall success of the Pascal, very similar
+to our prior versions in terms of we usually keep our architecture (inaudible) for a
+couple of years. We continue to dazzle them with new product launches across that,
+which you've seen us do in terms of new products that we brought out on the Pascal.
+You are correct, we probably have the majority -- more than the majority, a very
+sizable amount of the overall market as we both have the loyalty of the gamers, we
+have the overall performance that they require to play their high production (value)
+games. The AAA games that came out for the holiday season, many of them were
+top star games and many people spent a lot of their holidays doing that. But keep in
+mind, we're not done with our holiday season. We are maybe at the tail end of it
+here in the U.S.. But there are holidays across the world where we continue to see
+the ability for them to take advantage of the overall Pascal. Our overall goal is not
+just in terms of upgrading the most current. People that may have our prior version
+but we're also here for those that have been with us for several generations. And this
+is a great opportunity for them probably to take advantage of Pascal as we move
+forward. Now when you think about our uniﬁed architecture across the company,
+what we mean by that is we use the same architecture across every single one of our
+businesses. So essentially, what we have in gaming, what we have in automotive,
+what we have in data center is all the (same) overall architecture. But keep in mind,
+we make sure that we create (parts) or we create chips that are most eﬃciently and
+eﬀective for the overall markets that we will serve. So yes, you could look at some of
+the things that we have done in data center. But we are going to concentrate on the
+gamers in terms of what they need for the overall (concept that we'll have).
+{BIO 6539622 <GO>}
+So 1080 Ti -- you have the 1080 Ti GeForce platform. We rolled out the 1070 Ti.
+Combined that with, as you mentioned, the second half of last year, which had a
+number of huge blockbuster games. And obviously, that's driving the strength in the
+GeForce business. But the interesting thing is that if we look at the ﬁrst half of this
+year, there's actually more -- it's -- we're not seeing the normal seasonal pattern.
+There's actually more AAA blockbuster games coming out in the ﬁrst half of thisFINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 11A - Colette M. Kress
+Q - Harlan Sur
+A - Colette M. Kress
+Q - Harlan Suryear: Far Cry 5, for example, hugely popular, launching in March; Metro Exodus,
+which is another one launching later on this year as well. Does this potentially extend
+the customer buying cycle a bit, maybe smooth out the seasonality for the GeForce
+platform?
+{BIO 18297352 <GO>}
+So generally, our seasonality in terms of overall gaming as it relates to GeForce has
+generally been centered around in H1 and in H2. I would say that our H2 is probably
+a larger overall size than H1 due to seasonality. What that means is with the holidays,
+you're right, most games do hit the holiday season. This is an opportunity to buy a
+gift and all those diﬀerent types of things and spend the time overall (paying) for
+those around holidays. So yes, that seasonality says that we see still probably we'll
+see that overall seasonality continue. Sure, new games have always come out,
+sometimes outside of that holiday window, which they come from time to time,
+sometimes in Q1, sometimes in Q2. So that doesn't overall surprise us. But no, we still
+do expect the overall seasonality (inaudible).
+{BIO 6539622 <GO>}
+Okay. Great. Well let me see if there's any questions from the audience before I
+continue my Q&A. Any questions from the audience? If you do, raise your hand. And
+I would ask if you just wait for the microphone. Okay, no? Let's turn to -- let's turn
+back to the data center and the HPC business. Tesla V100 compute platform, Volta
+architecture, huge performance boost versus Pascal-based architecture, 12-
+nanometer technology, biggest chip in the world. Demand has been strong. Has the
+team been able to keep up with demand? Have you been able to improve yields and
+overall manufacturability of this monster chip? And are you shipping to consumption
+now?
+{BIO 18297352 <GO>}
+Yes. We've actually deﬁnitely been able to keep up with demand. I think we were
+extremely pleased with the process that the company went through. You're right, it is
+the largest chip that has been built. Our ability to get from just the initial takeout to
+actually seeing it with customers to actually getting to an ideal yield that we can still
+move in terms of top production. It's probably some of the fastest (inaudible) that
+we've seen. We're extremely pleased with all of the teams and all of the partners that
+enabled us to overall do that. So yes, we have been, probably since Q2, shipping at
+full production in terms of V100. And demand continues in terms of the overall V100
+across the board, both at the CSPs as well as also worldwide in terms of (inaudible)
+and in terms of the (inaudible).
+{BIO 6539622 <GO>}
+One of the things that Jensen mentioned on Sunday was that unlike prior
+generations of your AI and deep learning and HPC-based platforms, Volta was the
+ﬁrst platform to be adopted by all of the cloud -- all of the major cloud service
+providers in the world. And back in May, again at the Analyst Day, you showed your -
+- the head of your data center business showed a pie chart, right, by customers in
+terms of enterprise, HPC, cloud service provider, where in terms of number ofFINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 11A - Colette M. Kress
+Q - Harlan Sur
+A - Colette M. Kresscustomers, CSPs were the smallest percentage. But my sense is that as it relates to
+the overall revenue contribution, they're much higher than that. And so I'm just
+wondering if you can give us some rough quantiﬁcation of your data center
+revenues by customer type.
+{BIO 18297352 <GO>}
+Yes. So think about our customers -- sometimes our customers wear multiple hats,
+okay? So when you think about the overall CSPs, in some cases, they are using it for
+their overall internal applications. Sometimes they're using it for their overall internal
+research or the research organizations. But sometimes they move to become
+partners for us in terms of being that conduit in terms of reaching in terms of the
+enterprises, reaching -- meeting small businesses, start-ups as well as also in terms of
+higher education, in terms of (that), meaning they put it in terms of the cloud. They're
+not the end user of it. But they are overall (establishing that) they're using for other
+customers. So to talk about them in only one case that says that they are the
+customer, yes, in some cases, they are. But a lot of times there in terms of the cloud,
+which is a massive amount of additional customers moving forward. Our business
+has been broken out between 5 diﬀerent pieces in the data center. One, starting
+with the overall training and (inaudible); two, our overall emerging area of
+inferencing; number three, our focus in terms of the cloud and creating (hot)
+instances for many of these same areas; four, in terms of what we are doing with
+high-performance computing; and then ﬁfth, what we see in terms of in the edge, in
+terms of creating data center and the overall AI capabilities in terms of the edge. All
+of those are extremely important pieces. But yes, the majority of our business does
+still stand from our overall training, our overall high-performance computing and our
+overall cloud. So those 3 things still make up the overall majority. But you'll hear us
+talk about the emerging areas because we do think they're very important, very
+important in terms of the overall market size that they represent as well as the overall
+shift and transformation that we've seen at these (inaudible) GPUs really end to end
+with the (overall AI).
+{BIO 6539622 <GO>}
+Let's turn to automotive. The business has grown at a 70% CAGR over the past three
+years, grew 52% in calendar '16, most of it on the heels of your infotainment
+leadership, right, with the Tegra platform. It's going to decelerate to kind of mid-
+teens-type growth calendar year '17. Does the deceleration imply that the Tegra
+pipeline is starting to mature? And where are you in terms of the infotainment
+design win pipeline? Do you expect that maybe there is some -- going to be some
+(win) acceleration? And when do we start to see the ﬁrst big wins on your DRIVE PX
+platforms really start to take that growth curve up substantially?
+{BIO 18297352 <GO>}
+Sure. When you think about overall -- of the last three years in terms of our
+automotive business, it has been the lion's share of that has been the overall
+infotainment systems. Infotainment systems have been a great addition to the overall
+automotive industry. But it's reached a point in terms of its maturity. Most of the cars
+-- all of the major car companies all are providing infotainment systems, even in
+terms of their mainstream types of cars. Now when you think about the infotainmentFINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 11Q - Harlan Sur
+A - Colette M. Kresssystems that we concentrate on, the visual computer is a very key part of what we put
+together. And we will concentrate in terms of those premium types of areas.
+Meaning going in terms of all of the mainstream is probably not the area. But we will
+overall shift to incorporate the overall AI in terms of those infotainment systems as
+we move forward. So rather a mature area right now, a mature area that we'll
+probably see infotainment systems match in terms of the overall automotive
+(breadth). Historically, it's moving faster than the automotive because of this being
+introduced in terms of (inaudible). So as we move forward, the key partnerships that
+we've talked about both here at CES and at prior CESes and throughout the year in
+terms of our GDCs are important leading indicators in terms of what we'll see
+partnering moving forward. Those partnerships moving to both a possibility in terms
+of development agreements as we work jointly in terms of our AI platform inside of
+the car. Those are the key things that we see moving forward. Now the timing for
+those is still to be seen as working on building these AI cars take several years. They
+have -- they do ﬁnd the overall importance of this market and in terms of the
+transformation on what they're seeing. But I think -- still think we're a couple of years
+away in terms of those production cars being a material part of our overall
+automotive business.
+{BIO 6539622 <GO>}
+Let's talk about crypto and blockchain. Cryptocurrency, mining, blockchain has
+emerged. It's small. I think I estimated about 3% to 5% of overall revenues but
+potentially increasing part of the revenue opportunity for the NVIDIA team. The
+underlying blockchain technology has many uses as a general transactional
+technology. Obviously, the underlying computational complexity is what lends itself
+to the usage of GPUs. And as the usage of blockchain expands, has the team tried to
+quantify the market opportunity? And similar to new market opportunities, what is
+the team doing to build an NVIDIA ecosystem to support crypto and new blockchain
+platforms?
+{BIO 18297352 <GO>}
+Yes. Answering cryptocurrency, we get a lot of (little) questions here and there about
+the overall market for cryptocurrency and/or in terms of blockchain. It's an
+interesting rising area type of interest. A lot of that has just been fueled by the
+overall valuations that we've seen. But it's a very hard market because it has market
+dynamics. We see a need. But it's not exactly overly clear in terms of where this
+overall market will long-term exist. What we do see is there is a demand. There is a
+demand where you see sometimes other -- they bring that currency. And therefore,
+there will probably still be an underlying pull. But it may have its ebbs and ﬂows
+along the way, some of that tied to the overall valuations and what they can receive
+in terms of return on investment. We will continue to be able to produce GPUs that
+are well suited for this market. Again, we have the ability to produce so many
+diﬀerent types of GPUs. It's very easy for us to again be able to support this overall
+market, as we have done (somewhat) today. Now are we at the stage, though, that
+we would say, "Let's move and create this large investment?" One, I don't think we
+need to, as our ability to support -- it is quite easy for us to do. But two, it still has
+market dynamics but not necessarily a (full payout) that we could see going forward.
+Right now, the current currencies support the use of GPUs. As you recall, going back
+to 2014, some of those currencies moved quite quickly in terms of (inaudible). We'llFINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 11Q - Harlan Sur
+A - Colette M. Kress
+Q - Harlan Sur
+A - Colette M. Kress
+Q - Harlan Sursee. There will likely be a new currency. Not sure when. But it's probably a good
+outlook to assume that something also will evolve and we'll have to look in terms of
+its use in the (inaudible) for that.
+{BIO 6539622 <GO>}
+Great. Then my last question, with the passage of the tax reform bill, how does this
+impact the team's long-term eﬀective tax rate? And how motivated is NVIDIA to take
+advantage of the repatriation beneﬁts?
+{BIO 18297352 <GO>}
+So I'm sure NVIDIA is not alone with many of the ﬁrms that have been working quite
+(ridiculously) over the holidays as well as also in terms of the (inaudible). We actually
+learned that corporate tax rate will be front and center, I think, quite quickly. So we
+are moving to incorporate this in. And the tax teams across the world are working
+very fast and furious. But what we see in terms of this is, overall, the overall goal of
+tax reform was to lower the overall U.S. rate, lower the U.S. rate because the U.S. rate
+is probably some of the highest in the world and deﬁnitely accomplish that. And
+that's something that will most likely be neutral as well as positive to us in terms of
+our overall tax rates moving forward. It does give us an ability now to not think about
+our overall cash and proﬁts that we've received since this is U.S. cash and U.S. proﬁt
+and that is overseas U.S. cash and proﬁt. So I think it allows a better use in terms of
+that capital, in terms of possibilities, in terms of how we use that. But that doesn't
+necessarily change our overall top priorities in terms of our use of cash. Investment
+in terms of the business is still our #1 goal that we have. We have extremely large
+markets that we are focused on. And we have to make sure that our investment is
+rightsized for many of the competitive people that we work with as well. Number
+two, we'll look in terms of any types of tuck-ins and things that we can do in terms of
+(our) M&A. Nothing historically has been very large for us. But we will continue to
+work in terms of that. Our capital return program is still a big focus of ours. It's not a
+1-year phenomenon. And we will continue to support that in terms of going forward.
+So our uses of capital are still intact and still important. But I think it allows the ease
+of use of many companies around the world to not have (inaudible) cash with the
+overall tax reform.
+{BIO 6539622 <GO>}
+Great. Well with that, we're out of time. Colette, thank you very much. Always
+appreciate you kicking oﬀ our conference. Thank you.
+{BIO 18297352 <GO>}
+All right. Thank you.
+{BIO 6539622 <GO>}
+Thank you.FINAL TRANSCRIPT 2018-01-09
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 11This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

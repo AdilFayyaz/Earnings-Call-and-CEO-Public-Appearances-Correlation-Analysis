@@ -1,0 +1,573 @@
+FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 1 of 15, GM, SQL Server Marketing
+Karl Kierstead, Analyst
+Unidentiﬁed Participant, Analyst, Unknown
+Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron KellyDeutsche Bank Technology Conference
+Company Participants
+Eron Kelly
+Other Participants
+Presentation
+Okay everybody. So let's get started. We've got a small company from the Seattle
+area up today. Microsoft was kind enough to attend Deutsche Bank's tech event for
+the ﬁrst time. So thank you Vikas and Eron for making that gesture. I hope it'll
+become an annual event, especially as Deutsche Bank shifts its database mix to SQL
+Server, that'll be icing on the cake.
+{BIO 22348446 <GO>}
+Excellent. So you're a case study?
+Yes. So Eron, for some of you who haven't met him before, runs a piece of
+Microsoft's business that I'm personally very interested and I think a lot of you are.
+And that's the SQL Server side as well as portions of, or all of, the BI Suite. So why
+don't you actually take a minute if you don't mind. And describe all the diﬀerent
+product sets that are under your domain?
+{BIO 22348446 <GO>}
+Sure, sure. So well ﬁrst oﬀ, thank you for being here. It's great to get the invite and
+participate in this. I'm certainly very passionate about the technology space that
+we're in around the data platform. It's been very exciting for Microsoft. And I think
+there are times when, because of Microsoft's historical brand around the desktop,
+people just don't really know what's going on in SQL Server. And it's been an
+incredible business over the last few years.
+So my responsibilities are for product management and marketing of our SQL
+Server, all of our database, our data-centric assets that are in Windows Azure, our
+cloud platform, as well as our BI assets that span Oﬃce and Excel, as well as some ofFINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 2 of 15Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron Kellyour new cloud properties like Power BI. So it's sort of the data platform, end-to-end,
+is what I tend to focus on.
+Got it. And I know Microsoft never likes to get into too much detail around sizing the
+particular segments. But what information metrics could you oﬀer us to help us
+gauge how big the businesses that you manage are? Maybe, if you don't want to put
+dollars on it, SQL Server -- is that sort of the largest, second largest, chunk of a
+broader segment? Anything that you can give us that might help size the business?
+{BIO 22348446 <GO>}
+Sure, sure. So a couple things, we're actually starting to become a little bit more
+public with the actual numbers so I can help there. So SQL Server is now a $6 billion
+business. And from a growth perspective it's been growing in double digits for the
+last several years. And our Q4 numbers were 19% year-over-year growth. So very
+healthy growth.
+Extraordinary.
+{BIO 22348446 <GO>}
+On a pretty big number. The premium part of that, our Enterprise editions, was
+growing even faster north of 25% year-over-year. So we're seeing a lot of growth
+there. Now from a market perspective, we tend to look at IDC Gartner as well as our
+own internal analysis. And most will put our market share from a units perspective at
+about 46%, 48%. And then from a revenue perspective at about 20%. And so, what
+you see in those numbers is we've got a lot more database units. But we're at a lower
+price point. And it's also a reﬂection of historically we've been more of a mid-market
+Tier 3, Tier 2 database in the enterprise. But that really started to change at around
+2012 with that release where we became more and more of a Tier 1. And so we've
+got a lot of indicators that are showing that growth into Tier 1 which for us is new
+ground, if you will.
+Okay. Then on the -- that was SQL Server. And maybe you lump it all together. But
+what about on the BI side? Several in this audience follow Tableau, Click, TIBCO
+Spotﬁre, Microstrategy. We hear about Microsoft. But I think most investors don't
+really have a good sense for how big you might be on the BI side. Any metrics you
+can oﬀer there?
+{BIO 22348446 <GO>}FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 3 of 15Karl Kierstead
+Eron KellyYes. So it's been tricky. Historically, the way we've approached the BI market is
+obviously with Excel on the client, SQL Server is the back-end database and then
+SharePoint as a presentation layer for web presentation in the browser. And so,
+across those three products, we have a BI business that's not easy to see in a single
+number.
+I think some of the analysts might will put that at $2 billion, $2.5 billion, across the
+three if you're to take an allocation from each one. And that's probably right. The
+way we think about it is, there's about a billion Excel clients in a world, not all of them
+do BI of course. And right now, most people would estimate that within an
+organization you have 7% to 8% of employees will do BI functions. And so, a lot of
+that's in Excel. Some of it's with some of these other products.
+Our vision is to go beyond that. Our vision is to get 20%, 30%, 40% of an
+organization using data to make decisions. And the way we think about it is doing
+that in a familiar tool is going to be big part of it. But then also, bringing together the
+right information on the back end. And delivering it to that user in a familiar way, will
+further that growth.
+And so, we have sort of a vision statement we like to say is -- How do we bring big
+data to a billion users? That's what we're trying to do. And it's a combination of a
+new service we released in February called Power BI, that is a per-user per-month
+service that brings together the best of Excel, SharePoint and SQL as a BI solution.
+Combine that with a pretty robust back end of SQL Server, Windows Azure, that sort
+of one-two combination we think is really going to be interesting in the market. So
+that's our strategic view on BI and some sizing sense.
+Super helpful, thanks for that. And one thing Eron, I've learned from covering
+Microsoft over the years, is that as helpful as these statistics, sizing metrics are, you
+have to think about each individual product that Microsoft is part of a broader whole.
+Because it's so integrated with the rest of the suite. So how -- to what extent does
+SQL Server touch other key parts of the Microsoft product suite? Where are the links
+that are most pronounced, that are worth ﬂagging?
+{BIO 22348446 <GO>}
+Sure, there's a couple places. So one of them is obviously Windows Server. So when
+you run SQL Server you run it on Windows Server so there's a very tight correlation
+there. SQL Server is also the back end for SharePoint server and other dynamics,
+other applications, both within Microsoft and then our partner applications run on
+SQL. Visual Studio is a development environment that targets SQL as a database. So
+that's another leverage point. Then of course, Oﬃce and Excel from a BI perspective.
+Then we've been making -- and that's sort of traditionally.
+We've been making a lot of investments in the last two releases to also make SQL a
+socket for Azure. So we've made investments to within the SQL Server managementFINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 4 of 15Karl Kierstead
+Eron Kellystudio that the DBA lives in, you can literally conﬁgure backups directly to Windows
+Azure right from SQL Server. And so, we've tried to make a lot of connections there
+because customers are looking for that hybrid environment, where some of their
+data may live on-premises, some of their data may live on the cloud, they want to
+bring these things together. So that's been a big investment.
+And one sort of -- it's not necessarily a data point. But a statistic that I thought might
+be helpful is, we did some analysis this ﬁscal year on our business and we were
+looking at attainment of our sales force. So our sales account teams, they have
+accounts. And they of course care a lot about attainment. Do they hit their number
+all up, or not? And the product that most strongly correlated with them hitting their
+number was SQL Server. So there was a very high correlation between you hit your
+SQL number, you hit your all-up number.
+And it's a combination of this sort of connecting eﬀect that you're highlighting. But
+it's also because the deal sizes are just getting much bigger now around SQL and
+there's a lot of upside there that we're seeing now in the last couple years.
+Okay. So let's talk a little bit about that SQL Server business, because I think most
+investors are astonished, to be honest with you, that you're growing that $6 billion
+business at a high-teens clip, when Oracle and IBM's DB2-Informix businesses are
+probably ﬂat. So obviously the million dollar question is, how are you pulling that
+oﬀ? It looks almost too good to be true.
+{BIO 22348446 <GO>}
+Yes. So I would take you back to 2010. And so it's a little bit of a history lesson but it
+helps you get a sense of where we're going. So in 2010, we released -- we called it
+an R2 release of our 2008 product that included In-Memory technology as part of
+our analytics and BI stack. And so, that was the ﬁrst step in really bringing In-Memory
+into the enterprise. And starting to work on Tier 1.
+In 2012 was when we really hit Tier 1 from a product perspective. So we brought In-
+Memory technology into the core data warehouse and we brought a technology
+called Always-On, which is about creating a high availability environment. And it was
+very robust. The stuﬀ we had in the past around Failover was pretty good. But this
+was really good.
+And so now, we became a credible Tier 1 database. And if you remember my earlier
+comments, we sort of grew up in mid-market in Tier 2 where these features weren't a
+requirement. And we couldn't command the same price point. Well now, in 2012, we
+could deliver a mission-critical solution and we started to have In-Memory across two
+of the three main workloads in a database product.
+At that same time, we made two other changes. We made a pretty sizeable
+investment in a sales force, more senior sellers. So these were individual sellers thatFINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 5 of 15Karl Kierstead
+Eron Kellywere focused on SQL Server that were more senior than we typically have at
+Microsoft, who could really go drive the bigger deals. Then, we made a licensing
+change from a CPU-based licensing model to a core-based licensing model, where
+we got in alignment with Oracle and IBM who had already moved there. And so
+those three things -- a product that was credible in Tier 1, investment in more senior
+sellers who could go after the larger Tier 1 deals. And then a business model that
+allows us to better monetize. That was what happened in 2012. And we've really
+been riding that the last couple years. That's where we've seen very high premium
+growth. And we're still a relatively small player in Tier 1. So we're just continuing to
+see that upside.
+And we do see migrations, we've been tracking about 900 migrations from Oracle
+since 2012 of Tier 1 applications. And so, those are things we keep a very close eye
+on.
+Is the reason that outside observers like us aren't seeing this progress hit Oracle's
+license number -- is it because your eﬀorts in moving to those Tier 1 workloads is still
+relatively early stage. And hence it hasn't hit them yet? Or, is it possible that you are
+having an eﬀect on their license growth. And it would be call it 4% but for Microsoft.
+And instead it's zero?
+{BIO 22348446 <GO>}
+So there's a couple factors there. One, a lot of Oracle's licensing is now
+maintenance, right? So it's not net new licenses, it's maintenance. So there's a little
+bit of their numbers. I think we're in a market that's growing at a pretty good clip.
+Most analysts will put it at 9%, 10%. But as you said they were more ﬂat. So the
+market's growing. And we're growing faster than market so we're taking share there.
+Then this -- we're just starting to see this shift over. Our price point is lower than
+Oracle. We're about a third of their price in many conﬁgurations. It's simple math
+around that. So when -- if you move 20 cores of Oracle to 20 cores of SQL, you're
+going to see less revenue over there, you're going to see some growth. But it's not a
+1-for-1.
+So we're using that price advantage, or that value advantage, as well. So that's one
+of the key reasons why customers take a closer look and say -- gosh, I've had this
+app running on Oracle for a long time, or DB2. Microsoft's brought new In-Memory
+technology to the market in the product that they already know. It's not an expensive
+add-on. They're generally less expensive and they've got a really strong value prop.
+Okay, I'm going to start to move.
+But these things do take time. Most organizations don't want to move a Tier 1 app
+that works unless there's a compelling reason. So it's about winning net new projects
+and then doing migrations. But they'll take longer.FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 6 of 15Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron KellyAnd Eron, what portion of this extraordinary growth in SQL Server might be driven
+by another factor -- and that's a few years back, Microsoft I think, changed your
+licensing model on the SQL Server business and I think it resulted in a net price
+increase. Is a portion of the revenue growth you're experiencing in SQL Server price
+increase?
+{BIO 22348446 <GO>}
+Yes. So that was one of the three factors. Product, sales force investment. And the
+change of the licensing model from CPUs to cores. Because what was happening is,
+we were monetizing at the CPU level. But hardware was coming out with more cores
+per CPU so customers were getting more performance for the same price. And so,
+we had to transition over basically like everyone else. And now we're better able to
+monetize the true growth.
+Now, what's driving core growth is data explosion, right? So data explosion is driving
+core growth across the board. And a lot of people think of it as oh, well that's just a
+Hadoop phenomenon. It's really not. It's -- yes, sure, Hadoop's growing and there's a
+lot of data going to Hadoop. But that actually increases the demand for more data
+warehouses where the results of a Hadoop deployment get combined with existing
+customer records in a data warehouse that becomes -- creates a more interesting
+view of the customer for a company. And we see a lot of that.
+Just to use an example. So Progressive Insurance has you know, those little devices
+in the car to measure your driving behavior to change your rates? Have you guys --
+you guys are familiar with those, I think? So those devices create a signal and data
+that goes into Hadoop. They combine that then with data, customer record data that
+lives in a traditional data warehouse. And that combination is what's most interesting
+to them.
+So the growth of actually Hadoop and big data is really helping and fueling the
+traditional data warehouse part of our business. There's more and more data
+projects. And there's more and more data that they want to actually combine in the
+traditional system.
+Great. Then in terms of the product road map, one of the early announcements that
+your new CEO made when he came aboard was SQL Server 2014. Could you bring
+us up to speed on what the timeline of that product going GA is. And what new
+features are most pronounced in that new version?
+{BIO 22348446 <GO>}
+Sure. So we released SQL Server 2014 in April. So it's in-market now. The biggest
+new feature area there was In-Memory in OLTP or transaction processing. So now inFINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 7 of 15Karl Kierstead
+Eron Kelly
+Karl KiersteadSQL 2014 you have In-Memory technology for BI and analytics, you have it in data
+warehousing. And you have it in OLTP. And that's unique in the market. No one else
+has In-Memory across all three of those core data platform workloads. And it's really
+been an exciting release for us. And it's part of the reason why Satya came on board
+to announce it. The last time we had a CEO talk about SQL was Bill Gates in 2000.
+So it was nice -- he of course ran the division so he's familiar with the technology. So
+that didn't hurt. But that's part of the reason why he's behind it, is the growth
+potential he sees there.
+Because one of the things that's been an interesting phenomenon in the last couple
+of years is traditionally, two or three years ago this wasn't the case, it is now -- in a
+typical enterprise account, the largest line item would be Oﬃce. And that's been the
+case forever. But now, we're starting to see SQL Server become the largest line item
+in some deals. And the reason why is SQL can grow by the amount of data that you
+have because it's the amount of cores that process that data, whereas Oﬃce is sort
+of capped by the number of employees in an organization.
+And so, this has created an interesting phenomenon. And I hit on it with the
+attainment point. But we're also seeing this very large deal size growth -- where if I
+look at large deals, which I'll classify as $5 million or up in SQL revenue, we're seeing
+triple-digit growth over the last two years of those kinds of deals. So what's
+happening is this Tier 1, customers are looking at SQL, they're buying it. And the
+combination of those factors I described is leading to much larger deal sizes. And
+now, the enterprise sales force is starting to take notice, like ooh, wait, I used to be --
+it used to be that Oﬃce was the big dog in every account and that's where I would
+spend all my energy. But now, there's this SQL thing showing up that suddenly is
+bringing in similar size deals. Okay, I need to learn more about this, I need to drive
+this more.
+And when you combine that with just the market space that data is in, in general, it's
+a very interesting time.
+Was the GA launch of SQL 2014 too recent for it to have had any impact on the SQL
+Server revenue growth in 2Q?
+{BIO 22348446 <GO>}
+It helped in our Q4, calendar Q2, because you can certainly buy it and it helped
+move customers. Q4 is of course our biggest quarter. We see a lot of the enterprise
+deals closing then. And having out and GA certainly helped deal size growth in June
+for sure. And Satya talking about it also helped because our sales force could go to
+accounts and say -- look, SQL's a CEO-level topic. We're behind it. And so then that
+got customers on board.FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 8 of 15Eron Kelly
+Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron KellyLet's talk no NoSQL.
+{BIO 22348446 <GO>}
+Sure.
+Huge topic of interest for everybody in this room. You've seen the private funding
+raises, as I'm sure you have, for data stacks, Mongo, everybody. It's unbelievable.
+We're all trying to ﬁgure out how big this is. And if it's threatening to the traditional
+relational database vendors. Oracle, you might know, is arguing that it's an
+interesting market but it's not threatening to their core relational database business.
+What's your stance on the NoSQL opportunity or threat?
+{BIO 22348446 <GO>}
+So we see it as an opportunity. And in fact, three weeks ago, we announced a new
+service in Microsoft Azure called Document DB, which is a NoSQL database as a
+service. And the reason why we see it as a complement or an opportunity is because
+NoSQL databases do things a little bit diﬀerently. They have a diﬀerent value prop
+than our traditional database. And it's not one or the other. They make more sense --
+they make better sense in some situations versus others. And we came about this, it
+was about two-and-a-half, three years ago, within Microsoft our large Cloud services
+were having challenges with supporting them and the traditional NoSQL databases
+weren't working. They weren't scaling. And they didn't have the level of consistency
+that was important. And when I say consistency, it's a pretty important distinction in
+this world where typically a NoSQL database can read and write very, very quickly
+and it's high performance. But it doesn't always keep track of the absolute result. It
+doesn't have a consistent view of the transaction. And it eventually reaches
+consistency.
+So if you think of your Facebook feed as an example, if you look at your news feed,
+it's not always exactly accurate every time. There might be someone's post that
+doesn't show up, or maybe it does. And then ﬁve minutes later it shows up, right?
+That lack of consistency is inherent in a NoSQL database because it's focused on
+performance, not on accuracy or consistency.
+This is the diﬀerence between eventual consistency and transactional consistency.
+{BIO 22348446 <GO>}
+Correct. And so as we looked at the problem, we said, we see the value in a
+schemaless design that these databases have where the developer late in the game
+can add new data to the solution without having to change the original schema. So
+we thought, that is valuable. We saw value in transaction speed. And so we built aFINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 9 of 15Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron KellyNoSQL database that would better meet those needs but it allows the customer to
+tune the consistency up or down. And we felt like that was something that was pretty
+important as the data stored in the NoSQL database needs to be more and more
+transactional. And so that's why we brought it to market. And we see there's a great
+complement.
+So what we'll envision is let's say you have an e-commerce site. You're going to have
+your commerce transactions in a traditional transactional database because those
+must always be exactly right. But things like comments, or ratings and reviews from
+customers of the e-commerce site, those can live in a NoSQL database because I just
+want that to be really performing and fast. But it doesn't have to be 100% accurate all
+the time. And so, those two things together we think are interesting. And then having
+the ability to really dial up that consistency or dial it down is what we brought to the
+table, we think is unique.
+So we think NoSQL is very interesting. We think it's a great complement and we're
+leveraging a lot of our knowledge and experience in the database world. And trying
+to bring it into that. We also see similar excitement around Hadoop, which again I
+would think of that as not necessarily a NoSQL database. But it's a NoSQL data
+world, realm. And we have committers who committed to Hadoop and we think it's a
+big part of our growth strategy as well.
+Got it. Before we go there, just to make sure I'm good on the NoSQL side, is there
+any reason why Microsoft would be less vulnerable to NoSQL workload migrations
+than Oracle?
+{BIO 22348446 <GO>}
+I guess when I would say less vulnerable, I mean, our price point helps. Right? So
+Oracle's price point's a lot more expensive. So that's going to create more ﬁnancial
+pressure on this scenario.
+That's a good point.
+{BIO 22348446 <GO>}
+I think that's one. I think two, with Azure, we have our own NoSQL database now. We
+also, you can get Mongo in Azure. So we're sort of embracing choices and options.
+So if someone said -- hey, do you want to put this table in SQL, or do you want to put
+this table in Mongo, hey if you run it on Azure, either way. We're seeing some upside
+there. So I think our approach, which I don't know if people fully have internalized
+really embracing the open source community in Azure allows us to win the Windows
+workloads and win the Linux workloads all within the Microsoft portfolio. And that's
+an area where I think Oracle's really not in that same position.FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 10 of 15Karl Kierstead
+Eron KellyThat's a good response. So let's look to Hadoop, another big trend going on in the
+data space. A while back, Microsoft started dancing with Hortonworks in a
+partnership. I think, if I'm not mistaken, you've gone beyond the Hortonworks
+partnership in terms of your -- you embracing Hadoop. What are the diﬀerent ways
+that Microsoft is embracing Hadoop in the organization these days. And maybe
+some broad comments giving your perspective as to the Hadoop enterprise
+adoption to begin with? How does it feel to you out there in the market?
+{BIO 22348446 <GO>}
+Sure. So yes, Hortonworks is a great partner of ours. We started partnering with them
+about two-and-a-half, three years ago. And the goal there was to really embrace the
+Hadoop growth. We at the time, we had our own proprietary technology called
+Dryad that did eﬀectively the same thing. But when we looked at the market we
+realized there was a lot of momentum around Hadoop. People were learning it. And
+to try to introduce some complementary, some competitive thing, didn't make a lot
+of sense. So we said, let's bet on Hadoop, Hortonworks will be a great partner for us
+in that regard. And so now, we've brought Hadoop into Microsoft.
+It's part of Microsoft Azure. So it's through a partnership with Hortonworks, you can
+get what we call HD Insight. But it's eﬀectively Hadoop as a platform service in
+Microsoft Azure. We have from Hortonworks, the Hortonworks Data Platform or HDP,
+on Windows Server so they provide that. They of course also have HDP on Linux.
+And we now have committers at Microsoft so these are developers that actually
+check in code into the Hadoop projects. And we've contributed a lot of IP to both
+Hadoop and then some of the additional projects that live on top of Hadoop, like
+Hive and Stinger. And others.
+The rationale there is, it's all about the patterns we're seeing in the enterprise. So
+what we're seeing is Hadoop is a great complement to an existing data warehouse,
+because it brings a new perspective on the customer. So I talked about Progressive
+Insurance, we also see this with Yahoo!, the originators of Hadoop. They have a huge
+multi-petabyte Hadoop cluster where all their clickstream analysis goes, clickstream
+data goes. They then move that into a 24-terabyte data warehouse running on SQL
+Server which then points to BI tools for analysis. So this architecture of Hadoop next
+to a data warehouse and access by BI tools is a pretty common architecture. And so,
+that's the kind of patterns we're seeing.
+And what Hadoop has been really exciting, of course, sentiment analysis, IoTs,
+Internet of Things, it's been a big area of focus. We've got a couple of customers that
+are using one of our preview services of Azure around IoT. And it's fascinating things.
+London Underground is looking at the vibrations of wheels in an escalator to
+determine when they need to replace those wheels before it fails. So predictive
+analytics and maintenance, machine learning, against some of those scenarios. So
+very, very interesting things in here [ph]. So we're very much embracing it and we
+see it as a great complement to our traditional business.FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 11 of 15Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Eron Kelly
+Karl KiersteadOkay. I've actually got a Windows Server question.
+{BIO 22348446 <GO>}
+Okay.
+I think fair game to throw to you?
+{BIO 22348446 <GO>}
+Sure.
+A lot of these trends we've just been talking about, this move to Hadoop, this move
+to NoSQL, to some extent the broader move to public clouds -- not Azure. But I'm
+talking AWS and others -- they, those architectures, include commodity X86
+hardware that generally runs on free or paid Linux, not Windows Server. So I'm
+wondering as the data architecture shifts. And it's more of a Linux world, not a
+Windows world, how do you manage that transition? What can you do to make sure
+you're relevant as architecture shifts to a very Linux-centric hardware world?
+{BIO 22348446 <GO>}
+Again, I think what you've seen us do in Azure is an example of that, where you can
+run it in Linux VM just like you can run a Windows VM. And you can run Hadoop on
+there. And so we're trying to expand the opportunity from a data management
+perspective to not just be Windows-based workloads. But also Linux-based. And
+Azure is the place where we're doing that.
+Then, where we see the monetization value is again in that data warehouse, in those
+BI tools, in the rest of the stack. And so, we want to make it as easy as possible to get
+to that data and help customers analyze it.
+And things like In-Memory technology, that just creates huge performance gains
+over disk-based solutions are where customers are going to want to move their most
+valuable data anyway. And so we see that as a nice complement.
+So let's talk about that BI space, which is part of your product management
+responsibilities as well. I'd like to ask you what you're seeing out there in the BI
+space. I think what we're all seeing is the traditional BI reporting tools. You know,FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 12 of 15Eron Kelly
+Karl Kierstead
+Eron Kellyﬂattish, maybe single-digit growth. And it feels like a lot of the spending dollars are
+still shifting to the Next Gen tools like Tableau or in your case, PowerView, or
+PowerPivot, etc. Are you seeing that BI spending shift as well. And perhaps what
+other more nuanced shifts are you seeing on the traditional BI side that are worth
+calling out?
+{BIO 22348446 <GO>}
+Yes. So we're seeing a very big move toward self-service BI. And so I would highlight
+the visualization tools, ease of use has become a big move in the market. I think it's a
+combination of things. It's CEOs and C level want data to make decisions. But then
+they want all their employees to have data to make decisions. And static reports are
+ﬁne but they're just not good enough. You want to be able to drill into the data and
+see insight.
+So for us, investments in PowerPivot and PowerView as part of Excel in 2010. And
+now native in 2013, are an example of that. That's technology that the SQL Server
+team built and then provides to the Excel team to bring to market. That's been a big
+part of our bet, the Power BI service that I mentioned earlier, a big part of that bet.
+Because our vision is, how do we bring -- how do we give more employees in an
+organization access to data to make better decisions? We think there's a real value
+creation there. And as a company that's historically focused on employee
+productivity through the Oﬃce Suite in Windows, we think we're well-positioned to
+do that.
+This is bulls-eye for Microsoft?
+{BIO 22348446 <GO>}
+Yes. So that's very much the path we're going down and for us it's not just about
+visualizations. It's also about doing new, innovative things that make the data more
+interactive. So one of the great kind of compelling features of our Power BI service is
+a feature we call Q&A where it literally allows you to ask a question and get an
+answer back in the form of data. So I might ask and say they compare the revenue
+growth of SQL Server versus Windows Server in Europe last year and I'll get a graph
+back. Or, help me better understand the segmentation of my customers. And I can
+just ask my data questions. And I get answers back in the form of graphs or data
+points. And it really, really think it's going to take self-service BI to the next level. So
+it's not about a dashboard where I will see graphs and charts that someone maybe
+may have created for me. It's literally about asking a question.
+And so, those are the kinds of investments where we're able to bring together
+engineers and scientists from Microsoft Research combined with the BI experts in
+our team. And even some of the natural language folks in Bing, to create some
+interesting technologies that we think will just make this market really grow.FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 13 of 15Karl Kierstead
+Eron Kelly
+Karl Kierstead
+Q - Unidentiﬁed Participant
+A - Eron KellyDo you think there's a feature gap with Tableau today that you need to close?
+{BIO 22348446 <GO>}
+In some areas. They have more visualizations than we do for sure. And so we're
+working hard to close that. But I think -- and there's other areas where we're ahead.
+Like this Q&A is an example of where we have some capability they don't have. I
+think we have a familiarity to the user in Excel that's an asset. And so those are things
+we're going to certainly take advantage of moving forward.
+Okay. Let's see if we've got some questions from the audience? We've got about ﬁve
+minutes left. Yes, right here in the front? Actually, do you want to just wait for the
+mic?
+Questions And Answers
+Yes. Thanks for coming out today. My question was more around I guess we've
+highlighted, you've hit on it a little bit here. But just in your ability to take share. I
+mean, with the breadth of the oﬀering you guys have in the enterprise, how much do
+you guys work together and can you bundle diﬀerent stuﬀ with Oﬃce 365, SQL
+Server to win more business? And how does that also help you just having that
+broad oﬀering in more of a hybrid cloud-like environment?
+{BIO 22348446 <GO>}
+Sure. So I think the Power BI service is an example of that, where we bundled
+SharePoint, Oﬃce and SQL into a per-user per-month subscription. So that's a very
+tangible example of bringing together technologies from three diﬀerent groups,
+three diﬀerent product teams, to create one oﬀer. I think when it comes to overall
+Oﬃce 365 with say SQL Server, there's not really a per-unit bundling that makes
+sense. One's cores, one's users. But from an enterprise sales motion perspective.
+And our enterprise agreement, it's more and more becoming something that people
+want to do together.
+So as I mentioned before, historically Oﬃce was the huge line item on the EA and
+the feedback was, don't mess with my Oﬃce renewal, I don't really care about this
+little SQL thing. And now, it's a little bit more of -- okay, I care a lot about my Oﬃce
+renewal. But I also am interested in the growth I can get here from SQL. And so, the
+account teams that own the all-up number are becoming more focused. And we've
+got programs and discounting and things like that, that can kind of help. But there's
+not really a hard bundle if you will, if that's what you're looking for.FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 14 of 15A - Karl Kierstead
+Q - Unidentiﬁed Participant
+A - Eron Kelly
+A - Karl Kierstead
+Q - Unidentiﬁed Participant
+A - Eron KellyWe've got a question right here?
+Yes, how are things going outside of the US for SQL Server? I mean, is it further
+penetrated in the US market, or does it look like Microsoft's spread of the business
+generally?
+{BIO 22348446 <GO>}
+It basically looks like Microsoft's spread. I'm not -- I'm trying to think if there's any
+diﬀerence. I don't think there really is. We see great growth internationally as well.
+And it's fun. It was fun this year at the end of the year because the year was such a
+good year. I would get a lot of e-mails from South Africa and places like that, saying -
+- we just reached a very signiﬁcant ﬁnancial milestone on the SQL business.
+So what ends up happening on the SQL business internationally, is some
+subsidiaries can have much higher growth rates than the US because they're less
+penetrated. And one or two large deals of an -- so there's a global company in a
+smaller country that you know, their data needs are not diﬀerent than a global
+company in the US. So you can see sort of non-linear growth in pockets because of
+that. But those tend to be a little bit deal-driven, because of this migration from Tier
+2 to Tier 1.
+We see a little bit of that. So there might be some anomalies there. But I think in
+general it maps to Microsoft all-up.
+Yes, right here?
+Just on the pricing question, given the value that you bring and the robustness of
+the oﬀering, is there an ability to or a desire to close that gap with Oracle by you
+moving further up?
+{BIO 22348446 <GO>}
+Yes it's a good thing -- we debated quite a bit internally before the SQL 2014 release,
+do we want to raise price because of the In-Memory technology we're going to put
+in the box? And in the end, we said no, we want to maintain that signiﬁcant value
+advantage and really focus on share in Tier 1, because it's a non-trivial pass to move a
+Tier 1 mission critical app oﬀ of one platform and onto another. And we didn't want
+to be price parity, we wanted to have a real price advantage for that share, for those
+share reasons. So I think we made the right decision because we've created a lot of
+pressure in that Tier 1 application space, which I think is good.FINAL TRANSCRIPT 2014-09-09
+Microsoft Corp (MSFT US Equity)
+Page 15 of 15A - Karl Kierstead
+A - Eron Kelly
+A - Karl KiersteadI think we're going to get timed out shortly. So Eron, this is one presentation that was
+part of a number on the broader data software innovation space. It's been a
+recurring theme here at the DB event. You're smack in the middle of it. And I wish
+you the best of luck in keeping up that innovation and growth on the SQL Server
+side. And thank you for attending today.
+{BIO 22348446 <GO>}
+Great, well thank you very much Karl. And I appreciate the attendance here, thank
+you.
+Great.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

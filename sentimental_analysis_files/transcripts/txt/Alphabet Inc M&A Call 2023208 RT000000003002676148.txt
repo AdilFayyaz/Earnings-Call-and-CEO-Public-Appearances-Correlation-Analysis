@@ -1,0 +1,470 @@
+FINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 12, Vice President & General Manager, Geo at Google
+, Vice President of Search
+Marzia Niccolai, Senior Product Manager
+, Senior Vice President of Google
+Unidentiﬁed Speaker
+Prabhakar RaghavanGoogle presents: Live from Paris
+Company Participants
+Christopher Phillips
+Elizabeth Reid
+Prabhakar Raghavan
+Presentation
+{BIO 3368123 <GO>}
+Hello, everyone. Bonjour. Welcome. Before we start, I'd like to join Matt in
+acknowledging the tragic loss of life and the widespread destruction from the
+earthquakes in Turkiye and Syria. Our hearts are with the people there.
+Now, we're here in France, the birthplace of several giants of science and
+mathematics Blaise Pascal, Pierre de Fermat, Joseph Fourier, to name just a few, on
+whose shoulders computer scientists stand today. And for those on the livestream,
+we're coming to you from Google Paris, home of one of our premier AI research
+centers, and less than 5 kilometers from the ﬁnal resting place of Pascal, my favorite
+mathematician. What a ﬁtting setting to talk about the next frontier for our
+information products and how AI is powering the future.
+Our very ﬁrst founders' letter said that our goal at Google is to signiﬁcantly improve
+the lives of as many people as possible. That's why our products have a singular
+focus, to be helpful to you in moments big and small. Think about Google Search,
+which will celebrate its 25th birthday today -- this year. Search was built on
+breakthroughs in language understanding. That's why we can take a complex
+conversational query like "delicious looking ﬂaky French pastry in the shape of a
+heart" and help you identify exactly what you're looking for.
+But we didn't stop there. Through our ongoing investments in AI, we can now
+understand information in its many forms, from language to images and videos,
+even the real world. With this deeper understanding, we are moving beyond the
+traditional notion of Search to help you make sense of information in new ways. So
+now, you can simply take a picture with Lens to instantly learn that heart-shaped
+pastry is a palmier cookie.
+Our advancements in AI are also why if you need to ﬁx your bike chain, you can get
+directed to the exact point in a video that's relevant to you, like when they're
+showing you how to put the chain back on. If you're shopping for a new accent chair,FINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 12you can see it from all angles, right on Search, in 3D, and place it in your living room
+with AR, augmented reality, to see how it looks. Or if you pop out of the metro in an
+unfamiliar city, you can ﬁnd arrows overlaid in Google Maps on the real world,
+pointing you to walk in the right direction.
+All these examples are a far cry from the early days of Search, but as we always say,
+Search will never be a solved problem. Although we are almost 25 years in, Search is
+still our biggest moonshot. The thing is, that moon -- that moon keeps moving. The
+perfect Search remains elusive, because two things are constantly changing: ﬁrst,
+how people expect to engage with information naturally and intuitively; and second,
+how technology can empower that experience. And so we are creating new Search
+experience that work more like our minds, that reﬂect how we, as people, naturally
+make sense of the world.
+As we enter this new era of Search, you'll be able to understand information, no
+matter what language it originated in, search anyway and anywhere, be it on your
+screen or to explore the real world, and express yourself and unlock your creativity in
+new ways.
+Let's start with understanding information. We've seen time and time again that
+access to information empowers people. But for centuries, information was largely
+conﬁned to the language it was created or spoken in and only accessible to people
+who understand that language. With Google Translate, we can break down language
+barriers and unlock information, regardless of the language of its origin. Over a
+billion people around the world today use Translate across 133 languages to
+understand conversations, online information and the real world.
+For example, Translate has been a lifeline to help those displaced from Ukraine
+adjust to daily life in new countries. In the war's early days, Ukrainian Google
+Translate queries grew in Polish, German and other European languages, as
+Ukrainians seeking refuge turned to it for critical information in their language.
+We recently added 33 new languages to Translate's oﬄine mode, including
+Corsican, Latin and Yiddish to name just a few. So even if you are somewhere without
+access to the internet, you'll get the translation help you need. And soon, we'll bring
+you a richer, more intuitive way to translate words that have multiple meanings and
+translations. So whether you're trying to buy a new novel or celebrate a novel idea,
+you'll have the context you need to use the right turn of phrase.
+We'll begin rolling this out in several languages in the coming weeks, but there's still
+more we can do to bridge language divide. To bring the power of Translate to even
+more languages, we use zero-shot machine translation, an advanced AI technique
+that learns to translate into another language without ever seeing translation pairs.
+Thanks to zero-shot machine translation, we've added two dozen new languages to
+Translate this past year. In total, over 300 million people speak these newly-added
+languages. That's roughly the equivalent of bringing Translation to the entire United
+States.FINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 12Elizabeth ReidWhile language is at the heart of how we communicate as people, another important
+way we make sense of information is visually. As we are fond of saying, your camera
+is the next keyboard. That's why back in 2017, we redeﬁned what it means to search
+by introducing Lens, so you can search what you see with your camera or photos.
+We've since brought Lens directly to the Search bar, and we've continued to bring
+new -- bring you new capabilities like shopping within an image and step-by-step
+homework help.
+I'm excited to announce that we've just reached a major new milestone. People now
+use Lens more than 10 billion times a month. This signals that visual search has
+moved from a novelty to reality, and as we predicted, the age of visual search is here.
+In the context of translation, understanding isn't just about the languages we use. It's
+also about the visuals we see. Often, it's the words with context, like background
+images, that create meaning. And so in Lens, our new advancement helps you
+translate the whole picture, not just the text in it.
+Before, when translating text in an image, we'd block part of the background. Now,
+instead of covering the text, we erase it, recreate the pixels underneath with an AI-
+generated background, and then overlay the translated text back on top of the
+image, all as if it was part of the original picture. I'm pleased to share that this is now
+rolling out globally on Android mobile, so you can use Lens to start translating text
+into context.
+As you can see, with Lens, we want to connect you to the world's information one
+visual at a time. We're continuing to build upon these capabilities, so I'll now turn to
+Liz to share more. Liz?
+{BIO 1702228 <GO>}
+Thanks, Prabhakar. You can already use Lens to search from your camera or photos,
+right from the Search bar. But we're introducing a major update to help you search
+what's on your mobile screen. In the coming months, you'll be able to use Lens to
+search what you see in photos or videos across the websites and apps you know and
+love on Android.
+For example, let's say you get a message from your friend who sent a video
+exploring Paris. You'd like to learn what the landmark is that you see in the video. So
+you long press the power button on your phone, bring up Google Assistant and tap
+Search Screen. Assistant connects you to Lens, which identiﬁes it as Luxembourg
+Palace and you can tap to learn more. Pretty awesome, huh? Think about it like this.
+With Lens, if you can see it, you can search it.
+As Prabhakar touched upon sometimes, it's the combination of words and images
+that communicate meaning. That's why last year we introduced Multisearch in Lens.
+With Multisearch, you can search with a picture and a text together, opening up
+entirely new ways to express yourself. Say, you see a stylish chair, but you want it in a
+more muted color to match your style. You can use Multisearch to ﬁnd it in beige orFINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 12Prabhakar Raghavananother color of yours. Or you spot a ﬂoral-patterned shirt, but you want it in bleu et
+rouge instead, you can use Multisearch for that too.
+Let's see how that works with a live demo. Oops, we are missing the -- we're missing
+the phone. We will have to -- we have no -- okay, we're going to move on, we can't
+ﬁnd the phone. Sorry, we'll do it one later in the special Q&A.
+Okay. So what you can do is you can spot a cool pattern on the notebook, but then
+you can swipe up to see the text and be able to search on the Search box, letting you
+ﬁnd something like a rug, if you just type in Tepih [ph], or you can ﬁnd wallpaper,
+similar, okay?
+This unique ability allows us to mix modalities like images and text, and it opens up a
+whole world of possibilities and you can imagine a future where even more
+modalities are at play. I'm excited to share that Multisearch is now oﬃcially live
+globally on mobile. And that means Multisearch is now available in over 70
+languages that Lens is in around the world.
+We've taken Multisearch a step further, by adding the ability to search locally on
+mobile in the U.S. You can take a picture or screenshot of a food dish or item and
+add Near Me, to ﬁnd where to get it nearby from the millions of businesses on
+Google. In the next few months, we'll bring Multisearch Near Me to all the languages
+and countries for which Lens is available too. So you'll be able to use Near Me if you
+want to support a neighborhood business or if you just need to pick something up
+right away.
+There are also times when you're already searching and you ﬁnd something that just
+catches your eye and it inspires you. So in the next few months, you'll be able to use
+Multisearch globally for any image you see on the Search results page on mobile.
+Once you start using Multisearch, it's striking how natural it feels to be able to use
+multiple senses to search. I hope you give it a try.
+And with that, back to Prabhakar.
+{BIO 3368123 <GO>}
+Thanks, Liz, and we'll have to ﬁgure out who stole your phone. So far today, we've
+talked about how AI is helping us more deeply understand the world's information
+so we can help you access it more naturally. But we've only scratched the surface of
+what's possible with AI. We've long been pioneers in the space, not just in our
+research, but also in how we bring those breakthroughs to the world and our
+products in a responsible way.
+We've made signiﬁcant contributions to the scientiﬁc community, like developing the
+Transformer, which set the stage for much of the generative AI activity we see today.
+And we're continuing -- committed to continuing to bring these technologies to the
+world in a responsible way that beneﬁts everyone. This is a journey we've been onFINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 12with large language models, which can make engaging with technology more
+natural and conversational.
+Back at I/O in 2021, we unveiled our LaMDA AI model, a breakthrough in
+conversational technology. Next, we're bringing LaMDA to an experimental
+conversational AI service, which we fondly call Bard. You'll be able to interact with
+Bard to explore complex topics, collaborate in real-time and get creative new ideas.
+For example, let's say you're in the market for a new car, one that's a good ﬁt for your
+family. Bard can help you think through diﬀerent angles to consider, from budget to
+safety and more, and simplify and make sense of them. Bard's suggestion to
+consider fuel type might spark your curiosity, so you can ask it to explain the pros
+and cons of buying an electric car, and get helpful insights.
+And we all know that once you buy a new car, you'll have to plan a road trip. Bard
+can help you plan your road trip, so you can take your new car out for a spin. You
+might ask Bard to help you ﬁnd scenic routes, interesting places to stop along the
+way, and fun things to do when you and your family get to your destination. Bard
+seeks to combine the breadth of the world's knowledge with the power, intelligence
+and creativity of our large language models. It draws on information from the web to
+provide fresh, high-quality responses.
+We're releasing Bard initially with our lightweight model version of LaMDA. This
+much smaller model needs signiﬁcantly less computing power, which means we'll be
+able to scale it to more users and get more feedback. We just took our next big step
+by opening Bard up to trusted testers this week. We'll continue to use feedback from
+internal and external testing to make sure it meets the high bar -- our high bar for
+quality, safety and groundedness, before we launch it more broadly.
+Human curiosity is endless and for many years, we've helped remove roadblocks to
+information so you can follow your curiosity wherever it takes you, from learning
+more about a topic to understanding a variety of viewpoints. People often turn to
+Google for quick factual answers like, what is a constellation? Already today, we give
+you fast answers for straightforward queries like these.
+But for many questions, there's no one right answer, what we call NORA queries.
+Questions like, what are the best constellations to look for when stargazing? For
+questions like those, you probably want to explore a diverse range of opinions or
+perspectives and be connected to the expansive wisdom of the web. That's why
+we're bringing the magic of generative AI directly to your search results.
+So soon, if you ask, what are the best constellations to look for when stargazing, new
+generative AI features will help us organize complex information and multiple
+viewpoints right in search results. With this, you'll be able to quickly understand the
+big picture and then go on to explore diﬀerent angles. So say, this new information
+on constellations piques your interest, you can dig deeper, for instance, to learn what
+time of year is best to see them and explore further on the web.FINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 12Open access to information is core to our mission, and we know people seek
+authentic voices and diverse perspectives. As we scale these new generative AI
+features like this in our search results, we'll continue to prioritize approaches that will
+allow us to send valuable traﬃc to a wide range of creators and support a healthy
+open web. In fact, we've sent more traﬃc to the web every year, each year, than the
+year prior.
+The potential for generative AI goes far beyond language and text. As we've
+mentioned earlier, one of the most natural ways people engage with information is
+visually. With generative AI, we can already automate 360-degree spins of sneakers
+from just a handful of still photos, something that would have previously required
+merchants to use hundreds of product photos and costly technology.
+As we look ahead, you could imagine how generative AI might enable people to
+interact with visual information in entirely new ways. They might help a local baker
+collaborate on a cake design with a client, or a toy maker dream up a new creation.
+They might help someone envision what their kitchen looks like but with green
+cabinets instead of wood, or describe and ﬁnd the perfect complementary pocket
+square to match a new blazer.
+In our quest to make search more natural and intuitive, we've gone from enabling
+you to search with text, to voice, to images, to a combination of modalities, like you
+saw with Multisearch today, that Liz talked about. As we continue to bring generative
+AI technologies into our products, the only limit to search will be your imagination.
+Beyond our own products, it's important to make it easy, safe and scalable for others
+to beneﬁt from these advances. Next month, we'll start onboarding developers,
+creators and enterprises so they can try our generative language API, initially
+powered with LaMDA, with a range of models to follow. Over time, we'll create a
+suite of tools and APIs to make it easy for others to build applications with AI.
+From Bard to the new AI-powered features in Search to image generation APIs and
+beyond, when it comes to AI, it's critical that we bring these experiences rooted in
+the models to the word, responsibility. That's why we've been focusing on
+responsible AI since the very beginning.
+We were one of the ﬁrst companies to articulate AI principles. We are also
+embracing the opportunity to work with creative communities and partners to
+develop these tools. AI will be the most profound way to expand access to high-
+quality information and improve the lives of people around the world. We're
+committing to -- committed to setting the high standard on how to bring it to people
+in a way that's both bold and responsible.
+So far, you've seen how we are applying state-of-the-art AI technologies to help you
+understand the world's information across languages and modalities. AI is also
+making it far more natural to make sense of and explore the real world, like with
+Google Maps.FINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 12Christopher PhillipsOver to Chris to share more. Come on up, Chris.
+{BIO 20103064 <GO>}
+Thanks, Prabhakar. For 18 years, Google Maps has transformed how people make
+sense of the world. It's a valuable tool for over 1 billion people, helping them avoid
+traﬃc jams on the way to work, ﬁnd restaurants in a new city and so much more. And
+the latest in advancements in AI and computer vision are powering the next
+generation of Google Maps, making it more immersive and sustainable than ever
+before.
+Let me show you what I mean. Before Google Maps, getting directions meant
+physically printing them out on a piece of paper. But Google Maps re-imagined what
+a map could be, bringing live traﬃc and helpful information about places right to
+your phone. Now, we're transforming Google Maps once again, evolving our 2D
+map into a multi-dimensional view of the real world that comes alive, starting with
+Immersive View. Immersive View is a brand new way to explore, that's far more
+natural and intuitive. It uses AI to fuse billions of street view and aerial images to
+create a rich digital model of the world, letting you truly experience a place before
+you step inside.
+Let's take a look at the Rijksmuseum in Amsterdam. If you consider a -- if you're
+considering a visit, you can virtually soar over the building, ﬁnding the entrances and
+get a sense of what's in the area. With the time slider, you can see what it looks like
+at diﬀerent times of the day and what the weather will be, so you know when you
+visit. To help you avoid crowds, we want to point out areas that tend to be busy. So
+you have all the information you need to conﬁdently make a decision about where to
+go.
+If you're hungry, you can explore diﬀerent restaurants in the neighborhood. You can
+even glide down the street, peek inside and understand the vibe before you book a
+reservation. This stunning photorealistic indoor view is powered by neural radiance
+ﬁelds. It's an advanced AI technique that uses 2D images to generate a highly-
+accurate 3D representation that recreates the entire context of a place, including its
+lighting, the texture of materials and what's in the background. You can also see if a
+restaurant's lighting is good for a date night, or if the outdoor view at a cafe is the
+right place for lunch with friends.
+Immersive View represents a completely new way to interact with the map, using all
+the detailed information in Google Maps today and visualizing it in a more intuitive
+way. We're excited that Immersive View starts rolling out today in London, Los
+Angeles, New York, San Francisco and Tokyo, and we're bringing it to more
+European cities like Amsterdam, Dublin, Florence and Venice in the coming months.
+Immersive View is just one example of how artiﬁcial intelligence is powering a more
+visual and intuitive map. It also helps us reimagine how you ﬁnd places when you're
+on the go. You heard Prabhakar talk about how your camera is the new keyboard,
+and that's also true for the map. Search with Live View uses AI paired withFINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 12Unidentiﬁed Speaker
+Christopher Phillipsaugmented reality to help you visually ﬁnd things nearby, like ATMs, restaurants and
+transit hubs, just by lifting up your phone. We've recently launched Search with Live
+View in several cities, including here in Paris. In the coming months, we'll start --
+expand it to more places like Barcelona, Dublin and Madrid.
+Let's head outside to where Rachel will show us how it works. Over to you, Rachel.
+Thanks, Chris. I'm out here scoping out the neighborhood. Whenever I come to a
+new city, I'm always on the hunt for great coﬀee. So let's see what I can ﬁnd. Tapping
+on the camera icon in the search bar, I'm able to see coﬀee shops as well as other
+categories of places, like restaurants, bars and stores. I can even see places that are
+out of my ﬁeld of view. So I'm really able to get a sense of what this neighborhood
+has to oﬀer at a glance. But let's look at coﬀee shop speciﬁcally, because I really
+need some caﬀeine.
+All right, so it looks like we have a few good coﬀee options right around here. I'm
+able to see if these places are open, if they're busy right now and if they're highly-
+rated. This one looks pretty good, so I'm going to tap on it to learn more. All right.
+Okay, this looks pretty good. It has a lot -- it has the high star rating. This looks really
+tasty and cute. All right, it's not too busy right now, so I'm going to head over there
+and grab an espresso.
+Back to you, Chris.
+{BIO 20103064 <GO>}
+Wow. Thanks, Rachel. As you can see, pairing our AI with AR is transforming how we
+interact with the world. Augmented reality can be especially helpful when navigating
+tricky places indoors, like airports, train stations and shopping centers. We launched
+Indoor Live View in select cities to help you do just that. It uses AR arrows to help you
+ﬁnd things like nearest elevators, baggage claim, and food courts.
+Today, we're excited to announce that we're embarking on the largest expansion of
+Indoor Live View to date. We're bringing it to 1,000 new venues and cities like Berlin,
+London, New York, Tokyo, and right here in Paris in the coming months. Today,
+you've seen how the future of maps is becoming more visual and immersive, but
+we're also making it more sustainable. It's all about helping people make the
+sustainable choice, the easy choice.
+We recently launched eco-friendly routing in Europe, to help you choose the most
+fuel-eﬃcient, energy-eﬃcient route to your destination, whether you drive a petrol,
+diesel, electric or hybrid vehicle. And as we're seeing more drivers embrace electric
+vehicles, we're launching new Maps features for EVs with Google built-in, to make
+sure you have enough charge, no matter where you're headed.FINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 12Marzia NiccolaiFirst, to help alleviate range anxiety, we'll use AI to suggest the best charging stop,
+whether you're taking a road trip or just running errands nearby, we'll factor in traﬃc,
+charge level and the energy consumption of your trip. If you're in a rush, we'll help
+you ﬁnd stations where you can charge your car quickly with our new very fast
+charging ﬁlter. For many cars, this can give you enough power to ﬁll up and get back
+on the road in less than 40 minutes.
+Lastly, we're making it easier to see when places like supermarkets have charging
+stations on site with a new EV icon. So if you're on your way to pick up groceries, you
+can choose a store that also lets you charge your car. Look out for these Maps
+features in the coming months for cars with Google built-in wherever EV charging is
+available. To help drivers make the shift to electric vehicles, we're focused on
+creating great EV experiences across all of our products. For instance, in ways, we'll
+soon be making easy for drivers to specify their EV plug types so they can ﬁnd the
+right charging station along their route.
+But we're not just focused on driving. In many places, people are choosing more
+sustainable options like walking, biking, or taking transit. On Google Maps, we're
+making it even simpler to get around with new glanceable directions. For example,
+when you're walking, you can track your journey right from your route overview. It's
+perfect for those times when you need to see your path. We'll give you easy access
+to updated ETAs and show you where to make the next turn; information that was
+previously only available by using our comprehensive navigation mode. Glanceable
+directions start rolling out globally on Android, and iOS in the coming months.
+Making the global impact requires everyone to come together, including cities,
+people and businesses. That's why we've worked with cities for years to provide key
+insights through Environmental Insights Explorer, or EIE, a free platform designed to
+help cities measure emissions. The Dublin City Council has been using EIE to analyze
+bicycle usage across the city and implement smart transportation policies. And in
+Copenhagen, we're using Street View Cars to measure hyperlocal air quality with
+Project Air View. With this data, the city is designing low-emission zones and
+exploring ways to build schools and playgrounds away from high-pollution areas.
+These are just a few ways that AI is helping us reimagine the future of Google Maps,
+making it more immersive and sustainable for both, people and cities around the
+world.
+And now, I'll turn it over to Marzia to talk about the work we're doing in Europe with
+Google Arts & Culture.
+Thank you, Chris. It's exciting to see how Google Maps keeps getting more helpful.
+For the past decade, our daily work at Google Arts & Culture has also been about
+ﬁnding new pathways, speciﬁcally those at the intersection of technology and
+culture. Together with our 3,000 partners from over 80 countries, we brought
+dinosaurs to life in virtual reality, digitized and preserved the famed TimbuktuFINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 12Manuscripts, re-crafted a destroyed Mayan limestone staircase, and found a way for
+us humans to ﬁnd our four-legged friends' doppelganger and famous artworks. As
+for the latter, at least one of Chris' dogs apparently spent previous life in Renaissance
+Venice.
+Perhaps, you might also have heard of our work through our popular Art Selﬁe
+feature, which helped over 200 million people ﬁnd their doppelganger and famous
+artworks. But what you probably didn't know is that Art Selﬁe was actually the ﬁrst
+on-device AI application from Google, and we have applied AI to cultural pursuits in
+our Google Arts & Culture Lab in Paris for over ﬁve years.
+So today, I'd like to show you what artiﬁcial intelligence in the hands of creatives and
+cultural experts can achieve. For our ﬁrst example, I would like to welcome the blobs
+to the digital stage.
+Thank you, blobs. Now, some of you might recognize the hallmarks of good opera
+right away: base, tenor, mezzo-soprano, and soprano. And if you aren't familiar with
+the world of opera singing, this experiment created in collaboration with artist, David
+Li, is for you, and will be your gateway to learn more. For Blob Opera, we teamed up
+with four professional opera singers, whose voice is trained in neural network,
+essentially teaching the AI algorithm how to sing and harmonize. So when you
+conduct the blobs to create your very own opera, what you hear aren't the voices of
+the opera singers, but instead the neural networks interpretation of what opera
+singing sounds like.
+Give it a try and join the many people from around the world who have spent over
+80 million minutes in this playful AI experiment to learn about opera.
+As you've seen and heard, AI can create new and even playful ways for people to
+engage with culture, but it can also be applied to preserve intangible heritage. As
+Prabhakar shared earlier, access to language and translation tools is a powerful way
+to make the world's information more accessible to everyone. But I was surprised to
+learn that out of the 7,000 languages spoken on Earth, more than 3,000 are
+currently under threat of disappearing, amongst them, Yuri, Louisiana Creole,
+Sanskrit and Calabrian Greek.
+To support these communities and preserving and sharing their languages, we
+created an easily usable language preservation tool called Woolaroo, which, by the
+way is the word for photo in the aboriginal language of Yugambeh. So how does it
+work? Once you open Woolaroo in your mobile phone's browser, select one of the
+17 languages currently featured and just take a photo of your surroundings.
+Woolaroo with the help of AI-powered object recognition will then try to identify
+what is in the frame and match it against its growing library of words.
+For me this tool is special because it shows how AI can help to make it tangible,
+diﬀerent for communities and real people, like the one shown here, and their
+struggle to preserve their unique heritage.FINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 12Prabhakar RaghavanNow, let's have a look at AI in the service of cultural institutions and how it can help
+uncover what has been lost or overlooked. Women on the forefront of science have
+often not received proper credit or acknowledgement for their essential work. To
+take another step to rectify this, we teamed up with researchers at the Smithsonian
+American Women's History Initiative and developed an experimental AI driven
+research tool that, ﬁrst, compares archival records across history by connecting
+diﬀerent nodes in the metadata. Secondly, it's able to identify women scientists on
+variations in their name because sometimes they have to do things like use their
+husband's name in a publication. And third, it's capable of analyzing image records
+to cluster and recover female contributors. The initial results have been extremely
+promising and we can't wait to apply this technology to uncover even more
+accomplishments of women in science.
+Preserving cultural heritage online is core to our mission. We work hard to ensure
+that the knowledge and treasures provided by our cultural partners show up where
+it's of most beneﬁt when people are searching online. Say, you search for Artemisia
+Gentileschi, the most successful yet often overlooked female painter of the Baroque
+period. You'll be able to explore her -- many of her artworks, including self portrait of
+Saint Catherine that have been provided by our partner, The National Gallery of
+London, in high resolution. When you click on it, you'll be able to zoom into the
+brush stroke level to see all the rich detail of the work. You'll never be able to get
+that close in the museum.
+What's more? You are actually able to bring this and many other artworks right into
+your home. Just click on the view and augmented reality button on your mobile
+phone to teleport Artemisia's masterpiece in its original size right in front of you. But
+culture doesn't stop at classical art. So keep your eyes open for a variety of 3D and
+augmented reality assets provided by cultural institutions.
+One of my favorite, besides the James Webb Space Telescope is one of the most
+popular queries for students, the periodic table, for which I'm happy to announce,
+we will triple the number of available languages to include French, Spanish, German
+and more in the coming weeks. 3D and AR models in Google Search really unlock
+people's curiosity. And in the past year alone, we've seen an 8x increase in people
+engaging with AR models contributed by Google Arts & Culture partners to explore
+and learn.
+Those are just some of the examples of what awaits at the intersection of artiﬁcial
+intelligence and culture, and how we work with our partners to make more culture
+available online. I invite you to discover all of that and much more in the Google Arts
+& Culture app.
+Thank you, and back to Prabhakar.
+{BIO 3368123 <GO>}
+Thanks Marzia. Today, you saw how we are applying state-of-the-art AI technologies
+to make our information products more helpful for you, to create experiences thatFINAL TRANSCRIPT 2023-02-08
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 12are as multi-dimensional as the people who rely on them. We call this making search
+more natural and intuitive. But for you, we hope that it means that when you next
+seek information, you won't be conﬁned by the language it originated in. You won't
+be constrained to typing words in a search box, and you won't be beholden to a
+single way of searching.
+Although we are 25 years into search, I dare say, that our story has just begun. We
+have even more exciting AI-enabled innovations of the works, that will change the
+way people search, work and play. We're reinventing what it means to search and
+the best is yet to come. Thank you all. Merci.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

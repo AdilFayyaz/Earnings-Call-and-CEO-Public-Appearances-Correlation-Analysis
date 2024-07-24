@@ -1,0 +1,420 @@
+FINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 10, Unknown
+, Analyst, RBC Capital Markets, LLC, Research Division
+Unidentiﬁed Participant, Analyst, Unknown
+Mitchell Toshiro Steves
+Danny ShapiroRBC Capital Markets Auto Tech Conference
+Company Participants
+Danny Shapiro
+Other Participants
+Mitchell Toshiro Steves
+Presentation
+{BIO 3255357 <GO>}
+So today, we have Danny Shapiro of NVIDIA, who'll be talking about autonomous
+driving. Mitch Steves, research analyst for RBC. And so I guess what we'll do ﬁrst is
+we'll give Danny a few moments to kind of go through a slide deck, kind of talk
+about what do you think is most -- what do you think's the most important to
+understand about NVIDIA and autonomous driving and autonomous cars in the
+future.
+And so with that, I'll introduce Danny and get started.
+{BIO 20228839 <GO>}
+Great. Thanks so much. Good to be here. Hi, everyone. I know it's been a long day.
+So thank you for sticking around. And I'll go through a couple of really interesting
+things. I hope that it turns out to be very educational for you.
+I think the most important slide here, of course, is the safe harbor, right. What we
+might be talking about is some forward-looking statements. So everything we're
+going to talk about, though, here is kind of really an in-depth look into what NVIDIA
+is doing in this space and how we see our technology, how we see many diﬀerent
+industries all converging. I think, as you know, NVIDIA has been involved in a wide
+variety of diﬀerent industries, diﬀerent technologies. Everything though, it's kind of
+coming together with autonomous vehicles here. As a company, we started out in
+the gaming space. It's still a very big part of our company and the work we do and
+investments that we make. AI, of course, is a huge segment and an endeavor that's
+just -- is just taking oﬀ, multi-trillion dollar business.
+And autonomous vehicles, we've been an auto company really for about 2 decades
+now. We ﬁrst enabled carmakers from a design perspective, from an engineering
+perspective, the CAD systems and simulation systems. Then about 10 years ago, weFINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 10moved inside the vehicle. So we learned how to become an automotive grade
+company. We're supplying the infotainment systems and anywhere there's graphics,
+pixels on screens, NVIDIA was developing in app systems, the instrument clusters,
+head-up displays, rear-seat entertainment.
+Our technology and the processing capabilities continue to increase. And coupled
+with the introduction of deep learning, our processing now has basically become the
+chosen methodology, the platform for autonomous vehicles. So what I want to talk
+about is really how all these 3 things, from graphics, from AI and automotive, are
+converging for us.
+We believe everything is going to be autonomous, not just cars but trucks. All types
+of diﬀerent vehicles, public transportation, delivery bots. Essentially, anything with
+wheels will ultimately become autonomous. Now the key thing that we believe
+though is this technology evolution that AI is enabling is critical here. Computer
+vision was kind of the original methodology, writing algorithms, hard coding
+algorithms to be able to accomplish tasks. And now AI is this new computing model.
+It's revolutionizing everything from health care to energy exploration to smart cities
+and now transportation. We've developed a processing architecture. And we
+recently introduced Xavier, which is our newest SoC. This is a AI supercomputer on a
+chip. It scales across all levels of autonomy. We've got multiple processors to deliver
+the horsepower required to process all the data coming in from sensors.
+Also, we've done much more than just develop the platform for the vehicle. But we
+have an end-to-end solution, not only is it top to bottom from the levels but end-to-
+end. From the data center we start. We have to collect the data. The data's
+processed. (Typical) networks are trained. We do simulation. We do testing,
+resimulation. All this in the data center before we even deploy it in the vehicle. Then
+there's a cycle where data comes back from the vehicle into the cloud. So NVIDIA is
+focused on the whole spectrum of computing that's required for autonomous
+vehicles.
+And again, it's not just about what we're doing. But we're engaged with over 370
+diﬀerent partners now just in the autonomous vehicle space; virtually every
+automaker that's working in this space, the truck makers, the delivery bots, the
+mapping companies, the sensor companies and over 125 start-up companies that
+are developing software. So wherever you look, presenters that were here earlier in
+the day, a lot of companies that we can't disclose yet. But they're using NVIDIA as the
+core platform in the vehicle as well as in the data center.
+Important information here is we see again a huge growth potential for autonomous
+vehicles across wide spectrum, across diﬀerent levels of autonomy and a very sizable
+TAM, whereas, again, both content in the vehicles and additionally, we're going to
+see it in the data center, too.
+As I mentioned though, what's key is really a fundamental shift in how computing is
+done with AI. And so what our customers are seeing is they need to process aFINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 10massive amount of data. So every test vehicle that they have out on the road is out
+there collecting data. Some of these are autonomous vehicles. And some of these
+are just human-driven vehicles going out, collecting data. You see around the valley
+here, a lot of these cars just laden with sensors. And they're basically collecting this
+information, they take it back to the data center. And need to process it.
+To do so, you need a supercomputer. And we're seeing, again, GPUs. And
+speciﬁcally now, we have our DGX-1, which is our data center AI supercomputer
+that's processing all this information. We're training neural nets. Basically, we're
+teaching the systems how to recognize lanes, how to recognize cars, trucks, bikes,
+motorcycles, pedestrians, how to read signs, read lights. Then also on behavior.
+You're able to then learn how to recognize diﬀerent types of situations. And we do
+this with camera data, with radar data, with LiDAR data. This is a very complex
+process. And it's an iterative process. So it's ongoing, you're constantly collecting
+more data and testing and training these algorithms.
+The reality is though there's no way you can generate enough data by driving a ﬂeet
+of cars around. And part of the problem is that as you drive these cars around,
+they're not seeing everything that you want to be able to train your system to do. So
+simulation is playing a big, big role in terms of being able to train these systems and
+then also be able to test and validate them. And I'll talk about that in a second.
+And ﬁnally, to drive the car, we need the supercomputer. I've actually brought one.
+And maybe afterwards, if people want to see it, I'll share it. But this is the DRIVE
+Xavier. So this, of course, is automotive grade. It's a supercomputer. And this
+particular conﬁguration has a single Xavier chip on it. So this is our SoC that just got
+safety assessment from TÃœ V SÃœ D, which is a leading safety expert in Germany.
+Adheres to ISO 26262 standards. This is an ASIL D. So highest level of safety
+integration. This is ready to go into production. And so we're working with over 25
+diﬀerent robo-taxi companies as part of our ecosystem as well as, again, major
+automakers and truck makers and others alike.
+I mentioned simulation. And we can talk more about this afterwards. But essentially,
+again, there's no way that we can drive all the miles to capture what we need to, to
+train these nomads. And also it's dangerous, right? The things that we need to train
+are for a child running out into the street or a car running a red light in front of us,
+somebody splitting lanes and cutting us oﬀ. And so you don't want to put real cars in
+those kinds of situations for training or for testing. And so what we've developed is
+something we call DRIVE Constellation. This is leveraging, again, multiple parts of
+NVIDIA together. So one of the servers in Constellation is full of GPUs. And we're
+essentially rendering a virtual environment. We're simulating what the sensors in a
+car would see at the front-facing camera, the rear camera, the side cameras. We can
+simulate radar. We can simulate LiDAR. And then we build a virtual world. So
+essentially, what we do is we create a scene, a whole road network. We can bring in
+maps. And we photo realistically create the environment. And then we can basically
+drag and drop sensors and put them on the car. So position, the types of cameras or
+radar, LiDAR, on the vehicle, point at wherever we need to point it, then we run the
+simulation. We create driving scenarios, cars driving down highways through cities,FINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 10Q - Mitchell Toshiro Steves
+A - Danny Shapiroother cars merging. What you'll see in the center then is the upper which says
+autosim is the visual that's generated by the simulator. Then what we do is the output
+of that simulator goes into our NVIDIA DRIVE computer that's also in the data center.
+Essentially, we're driving in this virtual world. And we're running the entire software
+stack in the data center to test it. So the output of the simulator goes into the NVIDIA
+DRIVE that processes that information as if it was driving on the road. The computer
+doesn't know it's in the data center. It thinks it's cruising down 101. It then sends its
+commands to turn left, turn right, accelerate or brake back to the simulator instead of
+the actual steering wheel or pedals.
+And so what we can do is virtually drive billions of miles and do it in a safe way and
+recreate all kinds of hazardous conditions, bad weather, bad lighting conditions,
+blinding sun, snow, whatever it is. The beneﬁt, of course, now is that we can create
+very robust neural networks that can handle blinding sun. If you have your ﬂeet of
+self-driving cars that are cruising around, you can only test blinding sun for a few
+minutes a day. In simulation, we can do it 24 hours a day. So again, this becomes a
+very, very valuable tool for our customers to do both the training of the neural nets
+and the testing of the hardware and the systems.
+Then ﬁnally, I think the strength of what we built here, this slide points to just a
+testament of how our open platform, our scalable platform and all the software tools
+that we've built are being leveraged by the industry. So we have so many partners
+developing so many diﬀerent projects. It's really been great to build it, get a chance
+to work with them and to see how we're able to really help push the industry
+forward.
+So at that point, I think I'll just pause and we can sort of dive into whatever questions
+you want.
+Questions And Answers
+{BIO 3255357 <GO>}
+Okay, perfect. That was a great overview. So actually, before we go into just the
+NVIDIA speciﬁc questions, there was one pretty big announcement today for GM
+essentially getting a $2.25 billion investment from SoftBank. So maybe you could at
+least provide a quick overview of your thoughts on how their little team with such a
+large amount of money and what do you think they'll end up using it for and what
+they'll need to do if they want to essentially compete and create self-driving vehicles
+as well.
+{BIO 20228839 <GO>}
+Well I think the investment shows again how fast this industry is moving, how
+important these challenges are that we're trying to solve. And it's a big and complex
+problem that requires a lot of investment. I think they want to do it right. Hopefully,
+you're going to spend a lot of that money on NVIDIA GPUs for their data center, I
+don't know. But that would be pretty nice. But I think again, we see huge growth in
+this marketplace, big investment, lots of -- a lot of start-ups. Some of theseFINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 10Q - Mitchell Toshiro Steves
+A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+A - Danny Shapirocompanies are acquiring start-ups. The bigger companies are acquiring start-ups. I
+think there will be some consolidation. So you may use some money for that. But
+again, I think it is capital intensive to build the vehicles and to build the data centers
+that are required to put safe cars on the road.
+{BIO 3255357 <GO>}
+Yes. So I guess a quick follow-up on that. So if you were to give somebody just a
+large amount of money, how would you kind of structure your thinking in terms of
+what you would need to kind of create an environment to create a self-driving car?
+So obviously, NVIDIA chips would be on your list. But what else kind of products in
+general would you need to go down that path?
+{BIO 20228839 <GO>}
+Yes, I can't speak for GM what they're going to. But again, I think the creation and
+deployment of the ﬂeets. But they need to both collect data and simulate data, I
+think, are the key things. And they're probably hiring people to build those teams to
+do all that.
+{BIO 3255357 <GO>}
+Got it. Then turning back to an earlier slide here, you've got a $20 billion TAM for
+robo-taxis, $40 billion for self-driving vehicles, for self-driving cars. So how do I think
+about the ASPs for both of those segments. And how they would trend from now
+until -- well, I guess, not now but in 2020 and then kind of 2025?
+{BIO 20228839 <GO>}
+I think -- so for NVIDIA, again, we're developing a scalable platform. And the beneﬁt
+for our customers is the single uniﬁed architecture. So whether they're doing a level
+2 to plus 2, level 3, level 4, level 5 ultimately, or they're starting at the high end,
+they're going to bring it down. Either way, it's a single development eﬀort; they're
+not having to deploy diﬀerent teams with diﬀerent types of technologies. So there's
+a huge beneﬁt that they have in that space. We're in the hundreds of dollars ASPs at
+the lower levels of autonomy to the several thousands for the robo-taxi.
+{BIO 3255357 <GO>}
+And I guess, what's kind of driving the large diﬀerence there in terms of the ASP
+content?
+{BIO 20228839 <GO>}
+Well again, our DRIVE Pegasus is our highest level platform that we've unveiled so
+far. And that has 2 of our Xavier processors and 2 of our next-generation high-end
+GPUs. We rated that at 320 trillion operations per second. So this is a hugely
+powerful but very energy-eﬃcient supercomputer for the car, whereas what I held up
+there was a single Xavier processor rated at 30 trillion. So again, it's a scalable
+approach. And we work with the automakers and Tier 1s to develop the right level of
+compute for what it is that they're trying to accomplish.FINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 10Q - Mitchell Toshiro Steves
+A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+A - Danny Shapiro{BIO 3255357 <GO>}
+All right. Then just to check all the boxes, I'll turn it back to autonomous in a second.
+But you guys also have a pretty big presence in infotainment. So how do we think
+about that in terms of what type of content we'll see from the infotainment side as
+we create self-driving vehicles as well?
+{BIO 20228839 <GO>}
+I think for us as a company, several years ago, we shifted our focus away from
+infotainment, basic infotainment, which is where we initially saw huge growth. But
+shifted away from that into autonomous and focusing our engineering and our R&D
+on deep learning and processing all the sensor data. But I think what we're going to
+see is over time, a transition from our personal revenue from infotainment into
+autonomous. That said though, I think there's going to be a next generation of
+infotainment that will be infused with AI. And so that's where we see ourselves
+playing again in that space. So doing things with gesture recognition, facial
+recognition, speech recognition, all those require a lot more processing than your
+standard graphics processor that's now going into vehicles. So I think we'll see a
+resurgence of new features and new capabilities. On the -- if we're talking about fully
+driverless vehicle, you get inside, it could be a hotel on wheels, an oﬃce on wheels,
+a living room on wheels. In that case, sure, I think we can see even more graphics-
+intensive processing where you might have -- all your windows could become sort of
+like a Holodeck. And now you can be transformed into a diﬀerent environment or
+watch movies or play games or things like that.
+{BIO 3255357 <GO>}
+Or play (on the computer), right?
+{BIO 20228839 <GO>}
+You could, sure. It all comes -- all roads lead to NVIDIA, I think, is what you're trying
+to say.
+{BIO 3255357 <GO>}
+Exactly. Perfect. So then turning it back a little bit to the autonomous side. So there's
+always a debate in terms of what type of products or need to do self-driving
+vehicles. So can you maybe help us understand from a technical explanation why
+you need NVIDIA products, why you can't use another person -- or another
+competitor to get to this level 5 driving?
+{BIO 20228839 <GO>}
+I think, for us, safety is the most important thing in this endeavor. And it has been
+discussed earlier pretty much at every conﬁdence, right? We're going to save lives
+by having autonomous vehicles on the road. But to do it safely requires a massive
+amount of processing. We need redundancy and diversity of algorithms. And we
+want to be able to ensure that we're able to detect everything that's going on
+around us and do it with incredible precision and not only then detect what thoseFINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 10Q - Mitchell Toshiro Steves
+A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+Q - Unidentiﬁed Participant
+A - Danny Shapiro
+Q - Unidentiﬁed Participant
+A - Danny Shapiroobjects are but understand what they're doing, where they're moving and what the
+intent is and understand behavior. And this can all be done in AI. But every time you
+have new neural networks that are doing more and more, it just requires more
+processing. Again, I think the industry has recognized that AI is the only way to do
+this. Computer vision will not -- is not sustainable and very early on, the hard coded
+algorithms to detect objects have given away to artiﬁcial intelligence.
+{BIO 3255357 <GO>}
+Right. I think I'll do one more before opening it up to some questions. So I think
+another big announcement was actually the virtual reality testing of vehicles. So
+maybe you can -- I'm guessing you can't name companies but describe what the
+adoption should look like in terms of people using the VR atmosphere to test drive
+cars and make them more intelligent.
+{BIO 20228839 <GO>}
+Yes, I think, I mean, we've seen in the news over the years that there are some
+companies that have developed their own in-house simulation. And that's really a
+vital part of being able to scale this up and to really be able to validate on what's
+been created, right? And so what we've done is really put together the system we're
+developing it and using it in house. And we'll be rolling that out to our customers to
+enable them to better scale and to -- again, the reality is you need to be able to drive
+many more miles than you could humanly do in your life -- in the lifetime of these
+test ﬂeets. Then the ﬂexibility we have for simulating and using the expertise of
+NVIDIA on the graphic side as well as then using AI to be able to generate new
+scenes and we can take even a scene where maybe we'd driven a car and we've
+recorded the data on a sunny day. You can resimulate that and create a rainstorm or
+fog or snowstorm. And so we can then have this multiplicative factor in terms of data
+we've actually obtained and data that we simulate to achieve the higher levels of
+reliability and essentially certify that, that the car can handle what it needs to handle.
+{BIO 3255357 <GO>}
+I'm going to stop there real quick, see if there's any questions from the audience.
+(inaudible)
+{BIO 20228839 <GO>}
+Are you all right?
+Well (inaudible) I think put that back to you (inaudible).
+{BIO 20228839 <GO>}
+Yes. I don't have a good answer for it. I think what we're trying to do is develop the
+best products that we can and try to -- I understand that. I think it's true across allFINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 10Q - Unidentiﬁed Participant
+A - Danny Shapiro
+Q - Unidentiﬁed Participant
+A - Danny Shapiro
+Q - Mitchell Toshiro Stevesindustries, right, people want competition because they see beneﬁts of that. I think,
+for us, we're developing the best products we can, the highest performing and
+delivering them at a very fair value. And usually, I mean, if you've seen some of
+Jensen's keynotes, right, what we deliver compared to our competition is a huge
+cost savings. And I think we're doing the same thing in the vehicle, where people
+sometimes say, "Oh, your chips are so expensive." Well what they don't realize is if
+you look at this platform that we deliver how our system's able to replace 4, 5, 6
+other silver boxes in the car. And also the development cost is much less with
+NVIDIA because we've created all the tools, we have this long history, there are so
+many parts that we deliver to them and then again, they're able to scale it over all
+these multiple systems. So again, I think our customers recognize the value we bring
+to the table.
+(inaudible)
+{BIO 20228839 <GO>}
+So I think the question was do we see specialized silicon coming in. I think the
+development in the tools and the infrastructure that we've put in place has been
+widely adopted. I think everybody recognizes that. And the reason is because this
+space is moving so fast. There's new algorithms weekly practically. And the need for
+highly -- high levels of programmability is there. So I don't really see that changing
+anytime soon. And again, these cars are software-deﬁned cars now, just like your
+phone, right? You continue to get updates to it. And so having the broad base
+ﬂexibility that we deliver lets them continue to iterate and come up with new
+algorithms and try new approaches. And there's going to be new sensors that get
+added and have diﬀerent data formats. So again, I -- we pay very close attention to
+the competition. It pushes us. It's good. It forces us to be very alert to continue to
+create higher levels of performance, higher levels of integration, be as energy
+eﬃcient as we possibly can. I think the key thing is if you look at our GPUs today, I
+mean, our new GPUs are Tensor Core GPUs. So we continue to evolve our GPU as
+well. There's a lot of custom silicon inside that wasn't there years ago when we were
+just doing graphics. But it's not like we're competing against new technology that we
+don't have. We continue to evolve and improve our AI capabilities as well. So
+essentially, we have a custom AI ASIC. It just happens to be able to play video games
+as well.
+(inaudible)
+{BIO 20228839 <GO>}
+How do you know I'm not a robot? How do you know this isn't a simulation? No. It's
+not something that I worry about. We're able to deliver solutions now that are
+superhuman at certain levels of perception or speciﬁc tasks. But getting to rethought
+and original thinking is quite diﬀerent.
+{BIO 3255357 <GO>}FINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 10A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+A - Danny ShapiroI guess I had a few more. In case there's another questioner, we can turn back to that.
+So basically, if we think about some of the negative headlines that we've seen with
+Uber rides, some terrible things that have happened. So what exactly do you think is
+going to be the biggest hurdle between now and let's just call it 2021, to be safe, in
+terms of when you get to self-driving cars? And what is NVIDIA doing to essentially
+help solve that problem?
+{BIO 20228839 <GO>}
+Well again, I think the simulation piece will play a big role there. We want to be able
+to show that this technology is safe. We need to be able to prove that it's reliable. It
+does what it says it's going to do. And again, being able to simulate will let us
+achieve higher levels of the number of scenarios that we can invalidate. And so I
+think the legislation is moving forward to enable it. I think there'll be diﬀerent types
+of rules in diﬀerent regions of the world. But again, we'll be ready for that.
+{BIO 3255357 <GO>}
+Then in terms of the spending, since we're going to get closer and closer to self-
+driving cars, within about 3 to four years here, is the message that the people who
+are investing and spending like the robo-taxi companies going to essentially have an
+edge because already they have the best technology. And they're going to be able
+to start deploying cars faster? Or how do you think it's going to evolve in terms of
+which automotive companies will eventually, probably be obsolete and some will
+become larger and larger monopolies eﬀectively, right? So how do we think about
+the spending relative to, I guess, the time frame? What kind of lag do you need in
+order to have a self-driving car that will still be production ready?
+{BIO 20228839 <GO>}
+Yes. That's a -- I don't know if I have a really good answer for that. I mean, I think you
+can spend a lot of money and not make progress. So I think the investment is in,
+again, having good development engineers to bring the right technology in to be
+able to deploy their ﬂeets, to be able to have your back-end infrastructure. And
+again, I think there's diﬀerent business models that diﬀerent players are having. And
+I think it goes both directions. I think you can deploy a Level 5 solution. And it's
+much easier, of course, to dial it back then into a Level 4 and then Level 3 in that
+case. But then, we have customers that are starting at the lower levels of autonomy
+and slowly building up. So I think it's going to work both ways. So I don't see
+necessarily one camp winning over the other.
+{BIO 3255357 <GO>}
+All right. Then I guess one of the high-level ones. So you've given out a TAM number.
+How do we think about the units in terms of how that will ramp? So I think it's a little
+bit diﬃcult. So if we have 1,000 ASP and you only have a few cars, seeing the unit
+ramp, I think, would be pretty helpful. So if I look out from 2020 to 2025, what's like
+a rough cadence?
+{BIO 20228839 <GO>}FINAL TRANSCRIPT 2018-05-31
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 10Q - Mitchell Toshiro Steves
+A - Danny Shapiro
+Q - Mitchell Toshiro Steves
+A - Danny ShapiroI don't think we -- I would refer you to some of the market analysts. I mean we sort of
+have some numbers. But we really haven't disclosed that. I think the numbers we put
+out there was like 20 million in 2035 for robo-taxi numbers. But exactly how that
+ramp goes is something that's not totally known at this point.
+{BIO 3255357 <GO>}
+Okay, perfect. Are there any last questions from anyone in the audience?
+{BIO 20228839 <GO>}
+Everyone's exhausted. You need to get into your robo-taxi and go home.
+{BIO 3255357 <GO>}
+Perfect. Thank you, again. Thank you.
+{BIO 20228839 <GO>}
+All right. Thanks so much, everyone.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

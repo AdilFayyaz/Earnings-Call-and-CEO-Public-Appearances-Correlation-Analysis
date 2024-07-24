@@ -1,0 +1,520 @@
+FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 12, Director
+, MD & Analyst, Goldman Sachs Group Inc., Research Division
+Unidentiﬁed Participant, Analyst, Unknown
+Heather Anne Bellini
+Diane B. GreeneGoldman Sachs Technology & Internet Conference
+Company Participants
+Diane B. Greene
+Other Participants
+Heather Anne Bellini
+Presentation
+{BIO 2268229 <GO>}
+All right. Good afternoon, everybody. Before we get started, I am going to read a
+safe harbor statement. So for those of you who've been at Goldman Sachs events
+before, you know what I'm doing. But good afternoon, everyone. Welcome to a
+conversation with Diane Greene, CEO of Google Cloud and Alphabet board
+member.
+Some of the statements that Diane may make today may be considered forward-
+looking. These statements involve a number of risks and uncertainties that could
+cause actual results to diﬀer materially. Any forward-looking statements that Diane
+makes are based on assumptions as of today and Alphabet undertakes no obligation
+to update them. Please refer to Alphabet's Form 10-K for a discussion of the risk
+factors that may aﬀect its results.
+Then, Diane, she needs no introduction. But I'm going to give her one anyhow. She
+is the CEO of Google Cloud, as I mentioned. She is also a member of Alphabet's
+Board of Directors. Prior to joining Google, Diane founded and successfully scaled
+VMware as well as 2 other software companies. She holds multiple degrees,
+including advanced degrees in computer science and naval architecture. She's a
+recipient of many professional awards that would be too long to list and also is an
+avid sailor, lifelong sailor. And a fun fact would be that in -- I'm not going to state the
+year. But she was the Women's National Dinghy Champion. So everybody, thank you.
+Welcome, Diane. You're going to start with a presentation.
+{BIO 6104652 <GO>}
+All right. Hello. Thanks so much for having me here, Heather. And I'm going to
+quickly go through an update on Google Cloud and then we'll get into questions.
+Okay.FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 12So just to level set what Google Cloud is, when we say Google Cloud, it's our secure,
+open, leading technologies, Google Cloud Platform and all its services, all the way
+up to G Suite, our secure productivity tool suite. And Google Cloud at this point is --
+the entire Google Cloud is, I think, highly diﬀerentiated as the most -- it's got security
+at every layer. It is -- and I think the most secure place to have information and do
+communications.
+Google Cloud Platform is diﬀerentiated in its data analytics and its machine learning.
+And it's also diﬀerentiated in our open approach to a modern developer
+environment.
+G Suite is in-the-cloud productivity suite. I believe maybe the only one that supports
+hardware-based two-factor authentication and it has tremendous collaborative
+abilities and a lot of AI getting infused into it.
+So you might have noticed at the Google earnings call on February 1, we ﬁnally put
+out some metrics about where we are in Google Cloud. We said in 2017 we
+surpassed $1 billion a quarter run rate for Google Cloud Platform -- no, for the
+Google Cloud business. Then we said for Google Cloud Platform, we're the fastest-
+growing public cloud by the trailing 4 quarters that we could look at. Then we had
+some other metrics like G Suite now has passed 4 million paying companies.
+So at this point, we are completely an organization that is laser-focused on our
+customers and laser-focused on our partners. And Alphabet Google is excited about
+this business. And in 2016 and 2017, we were the largest driver of new headcount
+additions in Alphabet. This is a fast-growing business. And we are fueling it with
+Google-quality people and also a lot of enterprise expertise. We've hired executives
+from all the usual suspects. And it's a very talented group of people working
+extraordinarily hard. And we've really built out all the functions for go-to-market,
+from training and professional services, to customer engineering, to high-end
+architects. And it's starting to really pay oﬀ.
+Then we've also forged some big enterprise, very strategic partnerships, go-to-
+market with SAP, go-to-market with sales. We'll be running all of SAP's oﬀerings in
+our cloud, some of them already; and then Salesforce around integrating with
+Google Analytics and the ads data in Google's BigQuery and also around G Suite;
+and then Cisco around an open hybrid environment; Pivotal; Dell and a number of
+other big enterprise partnerships to help us with go-to-market, along with our work
+with the channels, the (S) system integrators.
+So what have we done? The ﬁrst thing we had to do was really gear up engineering
+to take this phenomenal technology and make it enterprise-ready, remove every
+deal blocker that an enterprise might have. And I'm happy to say that by the end of
+this last year, we had really done that. We had user-managed encryption keys, peer-
+to-peer networking, audit logs with ﬁne-grained access control and identity
+management, all the things -- the regulatory, the compliance, all the things an
+enterprise needs.FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 12So I was pretty happy to see the growth as we completed all these. And I think it puts
+us in a great position. And I'll just share an anecdote that a friend of mine that's a
+tech CEO said that runs on both clouds. The friend said that looking at what
+happened last year product-wise, they felt that Google Cloud out-executed the other
+big public clouds in terms of really useful major new functionality. So that was a nice
+thing to see.
+And the other thing we're doing is sales and engineering are really working in
+lockstep. We have a really clear road map. We're executing on it. And it's constantly
+evolving. And while doing all this, we're also innovating, which I'm pretty proud of.
+So we recently put out Auto ML, a way to automatically generate a machine learning
+model with better -- we did it in vision ﬁrst. It can get better results than the ML PhDs.
+So you give it any set of images and it will build a model for those images. Huge
+reception of that, really pleased with how many companies registered for that.
+We were the ones that found the Meltdown -- the Spectre and Meltdown problem.
+And we shared the ﬁx for that. We put out our open source Kubernetes and now it's
+the leading modern way to orchestrate your workloads. We took -- put out Spanner,
+the world's distributed transactional database. And we announced proprietary
+security chips that can be used to attest to the validity every time you turn on your
+computer that your OS hasn't been tampered with. And we use that in everything,
+from Chromebooks to our servers.
+We've also been busy building out data centers. We've gone from 2 to 10
+international data centers in the last two years. We're rolling them out. We can roll
+out a full data center in about 8 weeks once we have a location. So it's basically
+demand-driven now. We had to move internationally once we became a really
+enterprise-ready public cloud because people like to have their data near to them.
+We also have built 4 undersea cables connecting 5 continents, doing
+intercontinental -- we have one of the bigger networks in the world, guarantees low
+latencies.
+Then ﬁnally, I was here a year ago. And we had great customers. We had a lot of
+retail customers. We had a lot of Internet customers, gaming customers. But now as
+the cloud matures, it's getting -- so everybody's seeing that the value of the cloud is
+in having the latest technology just there for you. Then as you get into the data
+analytics and the machine learning, it gets pretty vertical. And so we really doubled
+down on the verticals over the last year. And we've got really premier customers.
+These are all referenceable customers. You see on this slide, ﬁnancial services, HSBC,
+PayPal in production, Marketo, Salesforce, health care. Google's got phenomenal
+amount of research going on in health care. And Google Cloud is the way we can
+bring that to market. If you look at marketing, Google Cloud -- Google's got all the
+ads data. You can bring that together in Google Cloud. You can bring that to market.
+Media, gaming, communications, Nintendo and PokÃ©mon Go. And there's a lot of
+gaming companies. Manufacturing and energy, Schlumberger uses us for HPC, for
+machine learning. Colgate is a big G Suite user and now GCP, partnering with us and
+SAP. Retail, we really had a spectacular Black Friday through Cyber Monday this year,FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 12Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greenedoing the basic commerce as well as increasingly helping these guys with machine
+learning to make them more proﬁtable.
+Then transportation, Lyft, Airbus, GO-JEK, the little motorcycle delivery service
+growing 900% over in Indonesia. So just very exciting time for us. We're really
+enjoying bringing the magic of Google to companies all over the world in a way that
+really propels them forward. And that's what we see our mission.
+So with that, I'll also take questions. Thank you.
+Questions And Answers
+{BIO 2268229 <GO>}
+All right. So ﬁrst of all, thank you for disclosing the run rate for Google Cloud. So I
+know that it's something that you've wanted to talk about for a while and seems like
+you got everyone to agree. So that's good. You've got 4 million paying customers on
+G Suite. You -- as you mentioned, GCP is the fastest-growing public cloud provider.
+How would you measure your success versus what you thought when you, I guess,
+it's been two years or so, when you came on two years ago?
+{BIO 6104652 <GO>}
+Well when I came on, I mean, it was really obvious to me that we had the technology
+and the know-how. And I kind of knew that we weren't quite enterprise-ready. And
+the cloud business is a phenomenally complex business. And so I wanted to see us
+signing these customers. I'm pretty proud of that slide I just had up because we got
+them all signed. And the cloud business is interesting because it builds on itself. So
+you get a customer and you got to get them moved over and starting to use the
+services and then they start growing. And so the revenue is kind of -- builds on itself
+in the out-years. And so I'm pretty happy with where we are.
+{BIO 2268229 <GO>}
+And the deal blockers that you mentioned that were -- I think one of them used to
+be, you needed a Gmail account to provision a GCP account, which is hard at a place
+like Goldman Sachs to do that. But...
+{BIO 6104652 <GO>}
+Although it's very secure, you can't beat...
+{BIO 2268229 <GO>}
+Exactly. But the point is, did the amount of time it took for you to -- because you said
+those deal blockers are gone now. The amount of time it took for you to kind of, I
+guess, remove those from the system, did it...
+{BIO 6104652 <GO>}FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 12Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. GreeneWell I'm not sure I fully appreciated how -- all of the things we had to do. And had I
+fully appreciated it, I wouldn't have thought we could have gotten it done in two
+years, like these engineers have really -- they're very good and they worked -- they're
+very focused and I just can't thank them enough.
+{BIO 2268229 <GO>}
+Okay. And can you update us, just level set people in the audience, where do you
+think we are in terms of cloud adoption today? What's the best way to measure it?
+Do you think about it in terms of the percentage of workloads that are running in
+public cloud? And I guess just, where do you think we are today and how much
+progress have we made in the last year?
+{BIO 6104652 <GO>}
+So one thing, as I said, is I think the -- I was with a big bank yesterday talking to them.
+And it was a completely diﬀerent conversation from when I spoke with them a year
+ago. And I wasn't saying anything. But then the lead person brought this up. They
+said, "We were thinking of this as a place to save money and infrastructure costs.
+And we were having a hard time with it because it wasn't clear we couldn't do it
+more cost-eﬀective given our size. But now we realize that in order to keep pace with
+technology and in order to focus on what we do, we've got to be in the cloud." Then
+he speciﬁcally said that there's -- well, his technology person piped up and said,
+"There is just no way they could keep up with something like BigQuery for Google."
+Like I was just looking at some of the numbers of customers in the ad business,
+buying or something went from 20 hours to 10 seconds on a query -- with BigQuery.
+That kind of technology, they're not going to be able to get on-prem. And so that's a
+long-winded way of saying that we are early because I think people are just starting
+to appreciate. Well if you look, I think Gartner says it's about $56 billion last year. And
+certainly, the IT industry is over $1 trillion. So it's pretty clearly early days. Now that
+doesn't count SaaS. And the reason you don't count SaaS is most of them are still on-
+prem. And they're all going to move to the public cloud.
+{BIO 2268229 <GO>}
+Right. Yes. And it used to be before you got there or even 1.5 years ago, you would
+have CIOs say, "Well I'm not sure if GCP is enterprise-ready, right?" Google's not an
+enterprise company. Obviously, you have the background to help change that
+narrative, which you've been doing. But how do your -- I mean, aside from that
+conversation with the bank that you just mentioned, how are your conversations with
+customers? How have they changed even recently?
+{BIO 6104652 <GO>}
+Yes. I would say that people come in pretty serious about what we can do with them.
+They -- now we have the sophistication to bring in the domain expertise for the
+vertical and really get into things we can do to move their business forward. And of
+course, that's really fun. And so that -- in the large customers, that is going on. The
+other thing that's changed is our engagement with developers, our engagement
+with training. We have phenomenal training programs out there, everything from
+online to in-person, the hackathons and the whole thing. And we -- people -- we'reFINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 12Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Belliniclearly an important player at this point and there's no more of, "Well you clearly
+have good technology. But can you really serve the enterprise?" We are serving the
+enterprise increasingly well.
+{BIO 2268229 <GO>}
+So you get that question less and less?
+{BIO 6104652 <GO>}
+Yes.
+{BIO 2268229 <GO>}
+Okay. And what is -- what are the key areas of focus from the customers? What are
+they -- what are the top couple of things that they have on your development wish
+list if they were creating it? What do they want next from GCP?
+{BIO 6104652 <GO>}
+I think, overall, what customers want is everything to be easier and easier to use. And
+they want to understand how they can move. And we actually have a phenomenal
+story now because what we've done is we've taken Kubernetes, (this orchestration)
+and its deal for the monitoring. And we've made it work both on-prem and in the
+cloud. And so we can go to customers and say, "Look, when you're developing now,
+you can develop -- Google is the place -- we do -- we push about 2,000 pushes a
+day. And yet for the last two years, we've been, according to CloudHarmony, which is
+owned by Gartner, the most highly available cloud. So it's not aﬀecting our
+availability. So companies everywhere have to have this agility to keep up now. And
+using the container architecture and so on is what they all -- everybody realizes they
+have to move to these more modern agile environments. And so now we have a way
+they can do it both on-prem and in the cloud. Then we can -- so we do a lot of work
+with customers around that. Then, of course, an immense amount of work around
+their data, how to make it smart, how to combine it with other interesting data, their
+smart data, which is proprietary to them, is becoming a key part of how they do
+business.
+{BIO 2268229 <GO>}
+So from a competitive...
+{BIO 6104652 <GO>}
+Then IoT is pretty interesting area.
+{BIO 2268229 <GO>}
+Right. So if you were sitting down with a CIO and they asked you, "What are your top
+3 competitive advantages versus the other cloud providers?" What would be those 3
+things?FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 12A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greene{BIO 6104652 <GO>}
+Yes. Well I'd say it's security, ﬁrst and foremost, simply because I don't think anyone
+can aﬀord not to be as secure as possible. And we've -- not only do we discover
+these major problems, like the (Speck Hammer) or the Heartbleed and what have
+you. But we also -- like with 1.4 billion Gmail accounts, we see everything. We can tell
+you, "Hi. someone -- you just gave away your password. Are you sure you wanted to
+do it because we're not going to let them log in if you want to change your
+password?" And so we're even that sophisticated now. And so -- and then what we're
+doing increasingly with GCP. So I say security and just because it's just so important.
+Then it's data analytics and machine learning and AI and...
+{BIO 2268229 <GO>}
+Okay. And Kubernetes, would that be...
+{BIO 6104652 <GO>}
+Then the third is our open approach. And one thing I'll just say about open, the
+reason it's so important is the pace of technology is so fast. And it used to be
+something that had to run everywhere that you'd have these standards bodies. And
+people would elect people to go to these meetings. And it would proceed at a
+glacial pace. And now you can just -- if you have something that really needs to run
+everywhere like Kubernetes, you can -- or TensorFlow, you can just open source it
+and that's a standard. Then you just change the code and it can move fast. And it's
+the modern way of letting the world have useful standards. And we have pushed that
+more than anybody. I'm really proud of the stance Google's taken.
+{BIO 2268229 <GO>}
+You touched on this a little bit in your slides. But one area of focus for the investment
+community has been GCP's go-to-market. And I guess, can you go into a little bit
+more detail about what you've done regarding an enterprise sales footprint? And
+how do you think about the pace of investment that's needed there?
+{BIO 6104652 <GO>}
+Well clearly -- so when I look at our competitors, one of them -- because they've had
+a 7-year head start -- has more developer mindshare, although I think we're
+addressing that pretty rapidly. Then the other one has been in the enterprise for like
+20-some years and has got a big footprint. So we are hiring incredibly aggressively
+and we're focused on leveraged ways because organically, we're -- person-to-person
+isn't going to happen overnight. And so we're hiring people to work with as many
+partners. We're hiring people to do training and to train the service people. Then we
+have named account teams, global account teams. We have the mid-market. We
+have the SMB. We have the ISRs. We -- the support we have in diﬀerent tiers so that --
+one of the more novel things we have is Google -- we have a lot of novel kind of -- I
+think how you go-to-market in cloud is not ﬁnalized yet because of the complexity of
+the business. And you're basically merging 2 engineering teams and operating it
+together when a company moves to the cloud. And it has to work seamlessly, which
+is possible because of the cloud, because of how you can share. But -- so we did thisFINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 12Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greene-- Google embedded site reliability engineers for each of Google's billion-plus active
+user apps. There's 8 of them. Then what they do is just monitor the application and
+keep it running. And so now we have customer reliability engineers to do the same
+for our customers. And that's just one of many things that we are putting out there to
+make our customers successful.
+{BIO 2268229 <GO>}
+And when you talk about leveraging partnerships -- and obviously, at VMware, you
+did an exceptional job of building that out as well. How do you kind of grade your
+performance here? And has it been moving as fast as you wanted? And where are
+we in terms of kind of starting to see that with the investments that you've made
+really start to pay oﬀ in terms of pipeline?
+{BIO 6104652 <GO>}
+That's a good question. I mean, it takes a lot of work to make a great partnership.
+And so we've been doing a lot of engineering work with our partners, with Cisco,
+with Salesforce, with Dell -- and Cisco, Dell, too. And I would -- we're seeing
+increased traction with joint customers. But I don't feel that it's fully kicked in. In fact, I
+was recently giving a talk and someone said to me, they go, "(Hal Reddy) announces
+lots of partnerships, does anything ever come of them?" And I thought it was a fair
+point. But I do think some really good things are going to come from our key
+partnerships. We're pretty focused on them.
+{BIO 2268229 <GO>}
+I want to pause for a second to get the mic runners so I don't shock them when I call
+for them. I'm going to ask another question. But if you guys want to get around the
+room and then we'll go to Q&A in a second. A question we get quite often is just --
+you showed the slide, I thought -- which was great, that kind of gave the mix and
+some marquee customers in some of the diﬀerent verticals. But there are people
+who'd say, "Wow, GCP must be having a lot of success. But it must be in kind of the
+startup community or the smaller community." How do you think about customer mix
+and the evolution of your customer mix, whether it's by vertical or whether it's by
+size of the organization?
+{BIO 6104652 <GO>}
+So I thought it was really important to work with -- to have a very strong, large
+customer segment early on because it would drive the products really clearly and
+also in sort of a land grab world, it was kind of important to get it in. So take a
+customer like HSBC, the third-largest bank in the world, being able to do so much
+with them is just great. No matter how you look at it, pushes us on regulatory and
+compliance. It pushes us on broad functionality, a lot of machine learning. And it
+pushes us on servicing and making a customer like that feel extremely well taken
+care of. And so we have done exceptionally well, I think, on getting these large
+customers. And that makes it much, much easier to bring in the mid-market and so
+on. We get all the SMBs through our G Suite product and really nice things have
+been happening. We're really getting a lot -- well, I think we're growing faster than
+we expected to on G Suite with large customers, like we have Verizon, 150,000 seats.FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 12Q - Heather Anne Bellini
+Q - Unidentiﬁed Participant
+A - Diane B. Greene
+Q - Heather Anne Bellini
+Q - Unidentiﬁed ParticipantWe have customers with 300,000-plus seats there. So getting those large customers
+deploying G Suite across their entire enterprise forces us to have everything the
+customer needs. And know how to take care of them. But we -- it's a volume thing.
+You want to have a really healthy mix across every segment.
+{BIO 2268229 <GO>}
+Right. Questions from the audience? Why don't we go to this one ﬁrst and then we'll
+come over here? I think it's this.
+My question, if you were to take enterprises -- are going to innovate with ABCD,
+which is AI, big data, cloud and data. And you have got Google TensorFlow and
+you've got the GCP cloud platform, how are you inspiring or working with
+enterprises to unleash their applications with Apigee, use the AI as well as Google
+Cloud Platform? I'm just -- enterprises have a lot of applications. How are you
+unleashing the Apigee, the Google Apigee as well as with AI -- in order to do AI, you
+need machine learning. And in order to do machine learning, you need apps and
+data. So how are you kind of really working with enterprise on that?
+{BIO 6104652 <GO>}
+Well so for everybody, Apigee was an acquisition we did a little over a year ago that
+does API management. And they've done -- I'm really happy to report that, that's
+been a successful acquisition. And we now -- they go very well with this modern
+development environment we're doing. Then we've developed this, it's sort of API
+economy almost with all our machine learning. So if you think about machine
+learning, you can use TensorFlow and you can build your own models from scratch.
+You can use auto. We have a bunch of tools to help you. You can use Auto ML for
+some things and automatically generate your models or you could just use some of
+the machine learning APIs we have. We have one for jobs that companies like FedEx
+use. We have vision API. We have natural language API. We have language
+translation API. We have video API. So broad spectrum, more coming on all the time
+of these sort of APIs. And so what Apigee -- Apigee's been great because it runs
+both on-prem and in the cloud and on any cloud. And it's a place where you can
+provide a level, then direction and manage all your calls and secure them. And that
+works -- that ﬁts in extremely well with our sort of orchestration and monitoring
+environment. And also our mobile development, we have Firebase and Crashlytics
+for Android and iOS, making it trivial to write an application, maybe use BigQuery in
+the back end or any kind of permanent data store without having to even know what
+a permanent data store is. And I tell everybody, this thing is getting to be like LEGOs
+that you put together and your 6-year-old is going to be developing valuable apps
+in not that long. But anyhow. So Apigee is part of that story and it hooks you to the
+machine learning and other useful things.
+{BIO 2268229 <GO>}
+There was a -- I think there was a question over here. Was there -- a phone call.FINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 12Q - Heather Anne Bellini
+Q - Unidentiﬁed Participant
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greene(Kevin).
+{BIO 2268229 <GO>}
+Oh, sorry, (Kevin). The lights, we can't see.
+Wanted to just understand the traction you are seeing with the U.S. banks because
+clearly, it is easy with good U.K.-based bank. But how's the traction in the home
+market because you have clearly larger banks here. And the second question is,
+when we speak about small and medium-size companies, one of your competitors,
+Amazon, seems to be really all over them and moving very quickly. And the sign-ups
+are quite frequent and fast. So what's the game plan there? Do you want to be
+aggressive across the spectrum or focus more on the larger companies? How
+aggressive does Google want to really get?
+{BIO 6104652 <GO>}
+Oh, we just want to do a few companies. So no, we're pretty aggressive. We're
+working really hard. The banks, we're getting a lot of traction in many areas. So as
+near as I can tell, we win all the high-performance computing benchmarks. We're
+very good there. We're very good on the machine learning. So when you go to fraud
+detection, risk analysis and all these things the banks do -- pretty excited about some
+of the things that, I think, are going to be even good for the world that we can help
+the banks with. And so work there. Then with -- or even just call centers and natural
+language processing and so on. And so -- and we've really -- the biggest hurdle for
+us to working with the banks was really getting our contracting process down and
+really understanding the regulators and working with them on that. And I had a
+compliment recently from someone that said, he thought we actually were now
+perhaps best at getting some of that stuﬀ done. I have no idea. But at least we're
+respectable there and able to get contracts closed with all the banks, which is the
+ﬁrst step to building things out. And internationally, we're working with the banks.
+Certainly, AWS has been around a lot longer than us so they have more people that
+run on them. But I -- it doesn't seem to be a world where people want to just have
+one provider.
+{BIO 2268229 <GO>}
+It might be helpful, you and I talked a little bit about this before, just how do you --
+when AWS makes overtures into new markets, how does it change the type of
+customer conversations you're having?
+{BIO 6104652 <GO>}
+Yes. That's a great question because I remember shortly after I started at Google, I
+got invited to -- I guess, I can say -- I was invited to The Research Board, which is very
+high-end CIOs. And they -- you know all the questions -- and it was on my birthday, I
+remember, it was very unpleasant -- and all the questions were, Google's going to
+compete with us. I mean, they thought we were going to become insurers. They
+thought we were going to do everything. And I was like, no, we're not going to do
+that. We're pretty focused. But -- and now nobody worries about that with GoogleFINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 12Q - Heather Anne Bellini
+Q - Unidentiﬁed Participant
+A - Diane B. Greene
+Q - Unidentiﬁed Participant
+A - Diane B. Greene
+Q - Heather Anne Bellini
+Q - Unidentiﬁed Participantbecause Google's got -- we're really clear about what we're doing and not doing.
+And now everybody is looking at Amazon and like that's why we got so many
+retailers right away. But now it's kind of going through the whole industry. People
+seem to not be worried about it. We're their friend. And they're a little concerned.
+And it also tends to be a good thing for us with the SaaS vendors because we're not
+doing that.
+{BIO 2268229 <GO>}
+Oh, sorry, here's the mic, (Richard).
+So my question is a bit of an overlap on his as well. But if you're sitting three years
+out. And I'm sure your platform is going to evolve over the next 2, three years, is your
+platform -- from a -- is it from a large enterprise perspective, is it going to be a no-
+brainer to say, we can't ﬁght this battle on our own? We have to migrate to GCP? Is
+there other things that you guys are working on to get to that place?
+{BIO 6104652 <GO>}
+Well we -- is it going to be a no-brainer? Is everybody going to need to be on GCP?
+That is certainly our vision. We just see so much -- there's so much that we're doing
+around security and modern developer environments and the machine learning.
+And this is where the world's going. It's moving -- for better or for worse, it's moving
+faster and faster so you got to get more and more agile with your development. For
+worse, it is getting more and more dangerous from a cyber-attack standpoint so you
+got to be secure. Then the advances in machine learning are just kind of
+revolutionary. And you want to take advantage of that. So as long as we can fulﬁll
+what we think we can build, I think we'll be in a good position.
+And from a cost standpoint, do you think you'd have an advantage where captive
+would no longer...
+{BIO 6104652 <GO>}
+Well it's impossible to predict because I don't know what everybody is going to
+price things at. But I know that we're pretty good at building eﬃcient data centers.
+{BIO 2268229 <GO>}
+And yes, we're going to take our last question right here. Just give the -- you might
+be -- here we go.
+I would love to hear how you think about -- just as you think about GCP, would love
+to hear how you think about the diﬀerent buckets of sales and diﬀerent products that
+you oﬀer. Like how do you think about it in terms of basic compute versus machineFINAL TRANSCRIPT 2018-02-13
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 12Q - Heather Anne Bellini
+A - Diane B. Greene
+Q - Heather Anne Bellini
+A - Diane B. Greenelearning? Like how do you guys internally or you just think about the diﬀerent
+buckets of GCP, which are the biggest, which do you care most about?
+{BIO 2268229 <GO>}
+That's like a Sophie's choice.
+{BIO 6104652 <GO>}
+What do I care about buckets, right? Like I said, this is an extraordinarily complex
+business. So we do have infrastructure customers that have a lot of volume. So we
+take very good care of them. And we think we provide. And they do, too, excellent
+infrastructure. And you can't go up the stack and you can't have a shaky foundation
+as you go up the stack. So no matter what, we're going to keep our excellence there
+and continue moving that forward. And there's so much innovation possible in the
+hardware in that low-level infrastructure. It's pretty exciting for our systems folks. And
+we've really got a lot of expertise there. Then we think about the groups that are
+working in the data analytics, the cloud space. And then we think about the
+developer environment. But more and more, we're thinking about vertical solutions,
+not end user-facing vertical solutions. But as you take those 3 kind of things that I
+kind of -- and of course, everything completely secure. But if you take those things,
+you can kind of make them tailored in a horizontal way for the diﬀerent industry
+verticals. And we see some great ways to do that.
+{BIO 2268229 <GO>}
+All right. With that, we're going to wrap it up. Thank you, Diane. As always, we
+appreciate it.
+{BIO 6104652 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

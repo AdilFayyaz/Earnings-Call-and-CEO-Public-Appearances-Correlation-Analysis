@@ -1,0 +1,1037 @@
+FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 26, NVIDIA Corporation
+, NVIDIA Corporation
+, NVIDIA Corporation
+, Wells Fargo Securities, LLC, Research Division, MD of IT Hardware
+& Networking Equipment and Senior Equity Analyst
+, Barclays Bank PLC, Research Division, Director & Senior Research
+Analyst
+, Evercore ISI Institutional Equities, Research Division, Senior
+MD, Head of Global Semiconductor Research & Senior Equity Research Analyst
+, Morgan Stanley, Research Division, Executive Director
+, TD Cowen, Research Division, MD & Senior Research Analyst
+, Needham & Company, LLC, Research Division, Senior Analyst
+, Sanford C. Bernstein & Co., LLC, Research Division, Senior Analyst
+, UBS Investment Bank, Research Division, MD and Head of
+Semiconductors & Semiconductor Equipment
+, Goldman Sachs Group, Inc., Research Division, MD
+, BofA Securities, Research Division, MD in Equity Research & Research
+Analyst
+, Truist Securities, Inc., Research Division, MD
+Simona JankowskiCapital Markets Day
+Company Participants
+Colette Kress
+Jensen Huang
+Simona Jankowski
+Other Participants
+Aaron Rakers
+Blayne Curtis
+Christopher Muse
+Joseph Moore
+Matthew Ramsay
+Rajvindra Gill
+Stacy Rasgon
+Timothy Arcuri
+Toshiya Hari
+Vivek Arya
+William Stein
+Presentation
+{BIO 7131672 <GO>}
+Hi, everyone. Welcome to GTC. This is Simona Jankowski, Head of Investor Relations
+at NVIDIA. I hope you all had a chance to view (inaudible) this morning. We also
+published the press releases and ﬁles [ph] detailing today's announcement.
+Over the next hour we will have an opportunity to unpack and discuss today's event
+with our CEO, Jensen Huang; and our CFO, Colette Kress, in an open Q&A session
+with ﬁnancial analysts.
+Before we begin let me quickly cover our safe harbor statement. During today's
+discussion, we may make forward-looking statements based on current expectations.
+These are subject to a number of signiﬁcant risks and uncertainties, and our actual
+results may diﬀer materially.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 26Jensen HuangFor a discussion of factors that could aﬀect our future ﬁnancial results and
+businesses, please refer to our most recent Form 10-K and 10-Q and the reports that
+we may ﬁle on Form 8-K with the Securities and Exchange Commission. All our
+statements are made as of today based on information currently available to us.
+Except as required by law, we assume no obligation to update any such statements.
+We'll start with a few a brief comments by Jensen; followed by your Q&A session
+with Jensen and Colette Kress. With that, let me turn it over to Jensen.
+{BIO 1782546 <GO>}
+Hi, everybody. Welcome to GTC. GTC is our conference for developers to inspire the
+world on the -- or the possibility of accelerated computing and to celebrate the work
+of researchers and scientists that use it.
+So please be sure to check in on some of the conference sessions that we have. It
+covers some really amazing topics. The GTC keynote highlighted several things. And
+let me -- before I go into the slides, what I'm going to do is Colette and I will just
+cover basically the ﬁrst slide, the rest of the slides we provided to you for reference.
+And but let me make a couple of comments ﬁrst. At the core of computing today the
+fundamental dynamics at work is, of course inﬂuenced by one of the most important
+technology drivers in the history of any industry, Moore's Law and has fundamentally
+come to a very signiﬁcant slowdown.
+You could argue Moore's Law has ended. For the very ﬁrst time in history, it is no
+longer possible using general-purpose computing CPUs to gain the necessary
+throughput without also the corresponding amount of increase in cost or power.
+That lack of decreasing of power eﬀectively or decreasing of cost is going to make it
+really hard for the world to continue to sustain increased workloads while
+maintaining sustainability of computing.
+So one of the most important factors, dynamics in computing today is sustainability.
+We have to accelerate all the workloads we can so that we can reclaim the power
+and use whatever we reclaim to invest back into growth. So the ﬁrst thing that we
+have to do is to not waste power to not -- to accelerate everything we possibly can
+and was really focused on sustainability.
+I gave several examples of the workloads that we used to highlight how in many
+cases, we can accelerate an application by 40, 50, 60, 70 times, 100 times while in
+the process decreasing powered by an order of magnitude decrease in cost by a
+factor of 20. This approach is not easy. Accelerated computing is a full stack
+challenge. NVIDIA accelerated computing is full stack. I've talked about that many --
+in many sessions in the past. It starts from the architecture to the system to the
+system software, to acceleration libraries to the applications on top.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 26We're a data center scale computing architecture. The reason for that is because
+once you refactor an application to be accelerated, the algorithms are highly
+paralyzed [ph]. Once you do that, you can also scale out. So the -- one of the beneﬁts
+of accelerated computing from the work that we do, you can scale up, you can also
+scale out. The combination of it has allowed us to bring million x acceleration factors
+to many applications domain, of course one of the very important ones is artiﬁcial
+intelligence.
+NVIDIA's accelerated computing platform is also a multidomain. This is really
+important because data centers, computers are not single-use devices. What makes
+computers such an incredible instrument is its ability to process multiple types of
+applications.
+NVIDIA's accelerated computing has multi-domain, particle physics, ﬂuid dynamics,
+all the way to robotics, artiﬁcial intelligence, so on and so forth, computer graphics,
+image processing, video processing. All of these types of domains consume an
+enormous amount of CPU cores [ph] today enormous amounts of power. We have
+the opportunity to accelerate all of them and reduce power, reduce cost.
+Then, of course NVIDIA's accelerated computing platform is cloud to edge. This is
+the only architecture that is available in every cloud. It's available on-prem by -- just
+about every computer maker in the world. It's available at the edge for inferencing
+systems or autonomous systems, robotic self-driving cars, so on and so forth.
+Then lastly, one of the most important characteristics about NVIDIA's accelerated
+computing platform is although we do it full stack, we design it and architect it data
+center scale. It's available from cloud to edge. It is completely open, meaning that
+you can access it from literally any computing platform from any computing maker
+anywhere in the world.
+And so this is one of the most important characteristics of a computing platform. It's
+because of its openness because of our reach, because of our acceleration
+capability that the positive -- the virtuous cycle, the positive virtual cycle of
+accelerated computing has now been achieved. Accelerated computing and artiﬁcial
+intelligence have arrived. We talked about three dynamics.
+One of them is sustainability. I just mentioned. The second is generative AI. All of the
+foundational work that has been done over the last 10 years, in the beginning, really
+big breakthroughs in computer vision and perception led to industrial revolutions in
+autonomous vehicles, robotics and such, that was just the tip of the iceberg.
+And now with generative AI, we have gone beyond perception to now the
+generation of information, no longer just the understanding of the world, but to also
+make recommendations or generate content that is of great value. Generative AI has
+triggered an inﬂection point in artiﬁcial intelligence and has driven a step function
+increase in the adoption of AI all over the world and very importantly, a step functionFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 26increase the amount of inference that will be deployed in all the world's clouds and
+data centers.
+And the third thing that I mentioned discussed in the keynote was digitalization. This
+is really about taking artiﬁcial intelligence to the next phase, the next wave of AI,
+where AI is not only operating on digital information, generating text and generating
+images. But AI is operating factories and physical plants and autonomous systems
+and robotics. In this particular case, digitalization has the real opportunity to
+automate some of the world's largest industries.
+And I spoke about the digitalization of one particular industry. I gave examples of
+how Omniverse is the digital physical operating system of industrial digitalization,
+and I demonstrated how Omniverse was used from the very beginning of product
+conception, the architecture, the styling of product designs, all the way to
+collaboration of the design, the simulation of the product, the engineering of the
+electronics to the setting up the virtual plants all the way to digital marketing and
+retail.
+In every aspect of a physical products company, digitalization has the opportunity to
+automate to help them collaborate to bring the world of physical into the world of
+digital, and we know exactly what happens to that.
+Once you get into the world, the digital, our ability to accelerate workﬂows, our
+ability to discover new product ideas, our ability to invent new business models,
+tremendously increase. So I spoke about digitalization. There were 5 takeaways that
+we spoke about in the keynote. We'll talk about today and if you have questions in
+any of these areas, we love to entertain them.
+The ﬁrst, of course is that generative AI is driving accelerating demand for NVIDIA
+platforms. We came into the year full of enthusiasm with the Hopper launch. Hopper
+was designed with a transformer engine that was designed for large language
+models and what people now call foundation models. The transformer model --
+transformer engine has proven to be incredibly successful.
+Hopper has been adopted by just about every cloud service provider that I know
+and available from OEMs. What is really signaling the increase in demand of Hopper
+versus previous generations and the accelerating demand for it really signals an
+inﬂection for AI because it used to be for AI research which -- and now with
+generative AI moving into the deployment of AI into all of the world's industries and
+very importantly, a very signiﬁcant step function in the inference of these AI models.
+So generative AI is driving accelerating demand. The second thing is we talked
+about our new chips that are coming to the marketplace. We care deeply about
+accelerating every possible workload we can. One of the most important workloads
+of course is artiﬁcial intelligence. Another important workload to accelerate is the
+operating system of the entire data center.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 26You have to imagine that these giant data centers are not computers, but they're
+ﬂeets of computers that are orchestrated and operated as one giant system. So the
+operating system of the data center, which includes the containerization, the
+virtualization, networking storage and very importantly, security, the isolation and in
+the future, the conﬁdential computing of all of these applications is operating
+software-deﬁned layer as [ph] a software layer that runs across the entire data center
+fabric. That software layer consumes a lot of CPU cores.
+And frankly, I wouldn't be surprised if for many, depending on the type of data
+centers that are being operated, I wouldn't be surprised if 20%, 30% of the data
+centers power is just dedicated to the networking, the networking and the fabric and
+all of the virtualization and the software-deﬁned stacks, basically the operating
+system stack. We want to oﬄoad, accelerate the operating system of modern
+software-deﬁned data centers.
+And that processor is called BlueField. We announced a whole bunch of new
+partners and cloud data centers that have adopted BlueField. I'm very excited about
+this product. I really believe that this is going to be one of the most important
+contributions we make to modern data centers.
+Some companies designed their own, most companies won't have the resources to
+design something of this complexity and cloud data centers will be everywhere. We
+announced Grace Hopper, which is going to be used for one of the major inference
+workloads, vector databases, data processing, recommender systems.
+Recommender systems, as I've spoken about in the past, is probably one of the most
+valuable and most important applications in the world today and a lot of digital
+commerce and a lot of digital content is made possible because of sophisticated
+recommender systems. Recommender systems are moving to deep learning, and
+this is a very important opportunity for us.
+Grace Hopper was designed speciﬁcally for that and give us an opportunity to get a
+10x speed up in recommender systems in large databases. We spoke about Grace.
+Grace is now in production. Grace is also sampling. Grace is designed for the rest of
+the workload in a cloud data center that is not possible to accelerate. Once we
+accelerate everything, what is left over is software that really wants to have very
+strong, single-threaded performance. The single-threaded performance is what
+Grace was designed for.
+We also designed Grace not to just be the CPU of a fast computer, but to be the CPU
+of a very, very energy-eﬃcient cloud data center. When you think about the entire
+data center as one computer, when the data center is the computer, then the way
+you designed the CPU in the context of an accelerated data center AI-ﬁrst, cloud-ﬁrst
+data center, that CPU design is radically diﬀerent. We designed Grace CPU, excuse
+me (inaudible) just slightly out of reach.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 26The Grace CPU is designed. This is the entire computer module. This isn't just the
+CPU, but this is the entire computer module of a great super chip. This goes into a
+passively cool [ph] system and you could rack up a whole bunch of Grace computers
+into a cloud data center because it is so energy eﬃcient and yet so performing for
+single-threaded operation. We're really excited about Grace and it's sampling now.
+Let's see. We spoke a lot about generative AI and how it's a step function increase in
+the amount of inference workload that we're going to see. One of the things that's
+really important about inference coming out of the world's data centers is that it
+really wants to be accelerated on the one hand.
+On the other hand, it is multimodal, meaning that there are so many diﬀerent types
+of workloads that you want to inference. Sometimes you want to inference, you want
+to bring inference and AI to video, and you augment it with generative AI.
+Sometimes it's images -- producing beautiful image and helping to be a co-creator.
+Sometimes you're generating text, very long text. So the prompts could be quite
+long so that you can have a very long context or it could be generating very long
+text, writing very long programs.
+And so these applications, each one of them, video, images, text, and, of course also
+vector databases, they all have diﬀerent characteristics. Now the challenge, of course
+is in the cloud data center, on the one hand, you would like to have specialized
+accelerators for each one of those modalities or each one of those diverse
+generative AI workloads.
+On the other hand, you would like your data center to be fungible because
+workloads are moving up and down. They're very dynamic. New services are coming
+on, new tenants are coming on.
+People use diﬀerent services during diﬀerent times of day and yet you would like
+your entire data centers to be utilized as much as possible. The power of our
+architecture is that it is one architecture. You have one architecture with 4 diﬀerent
+conﬁgurations. They all run our software stack which means that depending on the
+time of day if one is under provisioned or underutilized, you can always provision
+that class of that conﬁguration of accelerators to other workloads.
+And so this fungibility in the data center gives you the ability -- our architecture, one
+architecture, inference conﬁgurations, inference platform gives you the ability to
+accelerate various workloads to its best of your ability and then not have to perfectly
+precisely predict the amount of workload because the entire data center is ﬂexible
+and fungible. So one architecture, 4 conﬁgurations. One of our biggest areas of
+collaboration and collaboration partnership is Google Cloud, GCP.
+We're working with across a very large area of accelerated workloads from data
+processing for Dataproc [ph], Spark RAPIDS to accelerate Dataprocesses, which
+represents -- data processing probably represents some 10%, 20%, 25% of cloudFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 26data center workloads. It's probably one of the most intensive CPU core workloads.
+We have an opportunity accelerating it, bring 20x speed up, bring a lot of cost
+reduction that customers can enjoy.
+And very importantly, a lot of power reduction that's associated with that. We're also
+accelerating inference with the Triton server. We're also accelerating their generative
+AI models. Google has a world-class pioneering large language models that we're
+now accelerating and putting onto the inference platform, L4.
+And of course streaming graphics and streaming video, we have an opportunity to
+accelerate that. So our two teams are collaborating to take a large amount of
+workloads that could be accelerated in generative AI and other accelerated
+computing workloads and accelerating it with the L4 platform, which has just gone
+public on GCP. So we're really excited about that collaboration, and we have much
+more to tell you soon.
+The third thing that we talked about was acceleration libraries. As I mentioned
+before, accelerated computing is a full stack challenge. Unlike a CPU where software
+is written and it's compiled using a compiler and its general purpose, so all code
+runs. That's 1 of the wonderful advantages and the breakthroughs of a CPU, this
+general purpose.
+The acceleration aspect of it, if you want to accelerate workloads, you have to
+redesign the application, you have to refactor the algorithm altogether, and we
+codify the algorithms into acceleration libraries. Acceleration library, all the way to
+linear algebra to FFT to data processing that we use to ﬂuid dynamics and particle
+physics and computer graphics and so on and so forth, quantum chemistry, inverse
+physics for image reconstruction, so on and so forth.
+Each one of these domains require acceleration libraries. Every acceleration library
+requires us to understand the domain, work with the ecosystem, create an
+acceleration library, connect them to applications in that ecosystem and power and
+accelerate the domain of use.
+Every single -- we're constantly improving the acceleration libraries we have so that
+the installed base beneﬁts from all of our increased optimizations for all of their
+investments of capital already, their infrastructure already. So you buy NVIDIA
+systems and you beneﬁt from acceleration for years to come. It's not unusual for us
+on the same platform to increase the performance anywhere from 4x to 10x after
+you've installed it over its life.
+And so we're delighted to continue to improve the libraries and bring new features
+and more optimization. This year, we optimized and released 100 libraries and 100
+models -- 100 libraries and models so that you can have better performance and
+better capability. We also announced several very important new libraries. One new
+library that I'll highlight is cuLitho.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 26Computational lithography is an inverse physics problem that calculates the -- that
+processes -- calculates the (inaudible) equation as it goes through optics and
+interacts with the photoresist on the mask. This ability to do basically inverse physics
+and image processing makes it possible for us to use wavelengths of light that are
+much, much larger than the ﬁnal pattern that you want to create on a wafer.
+It's a miracle in fact, if you look at modern microchip manufacturing. In the latest
+generation, we're using 13.5-nanometer light, which is near x-ray it's extreme
+ultraviolet and yet using 13.5 nanometer light, you could pattern a few nanometers,
+3-nanometer, 5-nanometer patterns on wafer.
+I mean that's basically like using a fuzzy light, a fuzzy pen to create a really ﬁne
+pattern on a piece of paper. That ability to do so requires magical instruments like
+ASMLs, magical instruments, computational libraries from Synopsys, the miracle of
+the work that TSMC does and this ﬁeld of imaging called computational lithography.
+We've worked over the last several years to accelerate this entire pipeline. It is the
+single, largest workload in all of EDA today computationally intense, millions and
+millions of CPU cores are running all the time in order to make it possible for us to
+create all of these diﬀerent masks.
+This step of the manufacturing process is going to get a lot more complicated in the
+coming years because the magic that we're going to have to bring to future
+lithography is going to get increasingly high. And machine learning and artiﬁcial
+intelligence will surely be involved. So the ﬁrst step for us is to take this entire stack
+and accelerate it.
+And over the course of the last four years, we've now accelerated computational
+lithography by 50 times. Now of course that reduces the cycle time and the pipeline
+and the throughput time for all of the chips in the world that are being
+manufactured, which is really quite fantastic because these are $40 billion, $50
+billion investments in the factory. If you could reduce the cycle time by even 10%, the
+value to the world is really quite extraordinary.
+But the thing that is really fantastic is we also save an enormous amount of power. In
+the case of TSMC and the work that we've done so far, we have the opportunity to
+take megawatts, tens of megawatts and reduce it by factors of 5 to 10. So that
+reduction in power of course makes manufacturing more sustainable, and it's a very
+important initiative for us.
+So cuLitho, I'm very excited about. Lastly, I'll talk about the single largest expansion
+of our business model in our history. We know that the world is becoming heavily
+cloud-ﬁrst. And cloud gives you the opportunity to engage a computing platform
+quickly, instantly through a web browser. Over the last 10 years, the capabilities of
+clouds have continued to advance to the point where it started with just CPU and
+running Hadoop or MapReduce or doing queries in the very beginning to now, theyFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 26are high-performance computing, scientiﬁc computing systems, AI supercomputers
+in the cloud.
+And so we are going to partner with all of the world's cloud service providers.
+Starting with OCI, we've also announced cloud partnership with Azure and GCP.
+We're going to partner with the world's leading cloud service providers to
+implement -- to install and host NVIDIA AI, NVIDIA Omniverse and NVIDIA DGX
+Cloud in the cloud.
+The incredible capability of doing so is, on the one hand, you get the fully optimized
+multi-cloud stacks of NVIDIA AI and NVIDIA Omniverse. You have the opportunity to
+enjoyed in all of the world's clouds in its most optimized conﬁguration. So you get all
+of the beneﬁts of NVIDIA software stack in its most optimal form. You have the
+beneﬁt of working directly with NVIDIA computer scientists and experts.
+So for companies who have very large workloads and who would like to have the
+beneﬁt of acceleration, the beneﬁts of the most advanced AI we now have a direct
+service where we can engage the world's industries. It's a wonderful way for us to
+combine the best of what NVIDIA brings and to best of all the CSPs.
+They have incredible services for security for cloud, for security, for storage, for all of
+the other API services that they oﬀer, and they very well could be likely already the
+cloud you've selected. So now for the very ﬁrst time, we have the ability to combine
+the best of both worlds and bring NVIDIA's best to -- and combine it with the CSPs
+best and make that capability available to the world's industries.
+One of the services that we just announced is that platform as a service, NVIDIA AI,
+NVIDIA Omniverse and Infrastructure as a Service, NVIDIA DGX Cloud. We also
+oﬀered -- announced a new layer. We have so many customers that we work with, so
+many industry partners that we work with to build foundational models. If a customer
+of an enterprise, if an industry would like to have access to foundational models, the
+most obvious and the most accessible thing is to work with world-leading service
+providers like OpenAI or Microsoft and Google.
+These are all examples of AI models that are designed to be highly available, highly
+ﬂexible and useful for many industries. There are companies that want to build
+custom models that are based speciﬁcally on their data. And NVIDIA has all of the
+capabilities to do that.
+And so for customers who would like to build custom models based on their
+proprietary data, trained and developed and inference in their speciﬁc way whether
+it's the guardrails that they would like to put implement or the type of instruction
+tuning they would like to perform or the type of proprietary data sets that they would
+like to have retrieved, whatever the very speciﬁc requirements that they have in
+language models, generative image models in 2D, 3D or video or in biology, we now
+have a service that allows us to directly work with you to help you create that model
+ﬁne-tune that model and deploy that model on NVIDIA DGX cloud.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 26A - Simona Jankowski
+Q - Toshiya Hari
+A - Jensen HuangAnd as I mentioned, the DGX cloud runs in all of the world's major CSPs. So if you
+already have a CSP of your choice, I'm pretty certain that we'll be able to host it in it,
+okay?
+And so NVIDIA cloud services is going to expand our business model and we oﬀer
+Infrastructure as a Service, DGX Cloud, Platform as a Service, NVIDIA AI, NVIDIA
+Omniverse and we have new AI services that are designed to be custom, essentially
+the foundry of AI models that are available to the world's industries and all of it in
+the world -- in partnership with the world's leading CSPs. So that's it. Those are the
+announcements that we made. We have a lot to go through. Thanks for joining GTC.
+With that, Colette and I will answer questions for you.
+Questions And Answers
+{BIO 7131672 <GO>}
+Thank you, Jensen. Let me welcome our ﬁnancial analysts to the Q&A session. We're
+going to be taking questions over Zoom. (Operator Instructions) And our ﬁrst
+question is from Toshiya Hari with Goldman Sachs.
+{BIO 6770302 <GO>}
+Thank you very much for hosting this follow-up. Jensen, I guess I had 1 question on
+the inference opportunity. Obviously you dominate the training space, and you've
+done so for many, many years now. I think on the inference side, the competitive
+landscape has been a little bit more mixed given incumbency around CPUs. But
+obviously very encouraging to see you introduced this new inference platform. I
+guess with the criticality of recommender systems that you spoke to, (inaudible)
+LLMs and your work with Google, it seems like the market is moving in your
+direction.
+How should we think about your opportunity in inference, call it, in 3 to ﬁve years
+versus where you stand today? And how should we think about Grace playing a role
+there over the next couple of years?
+{BIO 1782546 <GO>}
+Yes, Toshi, thank you First of all, I'll work backwards. In 3 to ﬁve years, the AI
+supercomputers that we are building today which is unquestionably the most
+advanced computers the world makes today. It is, of course of gigantic scale. It
+includes computing fabrics like NVLink, computing -- large computing, large-scale
+computing fabrics like InﬁniBand and very sophisticated networking that stitches it
+all together. The software stack, the operating system of it, the distributed computing
+software, it's just computer science [ph] at the limits.
+And so there, what's really going to be quite exciting is how AI super computer [ph]
+is going to go beyond research and extending into essentially AI factories because
+these AI models that people develop are going to be ﬁne-tuned and improved
+basically forever. I believe that every company will be an intelligence manufacturer.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 26A - Simona JankowskiAt the core of all of our companies, we produce intelligence. The most valuable data
+we have are all proprietary. They're inside the walls of this company.
+And so we now have the capability to create -- to build AI systems that helps you
+curate your data, package your data together that could then be used to help you
+train your proprietary model, custom model, which can accelerate your business.
+That system, that AI training system is continuous.
+Second, inference. Inference has largely been a CPU-oriented workload. The reason
+for that is because most of the inference in the world today are fairly lightweight.
+They might be recommending something related to shopping or a book or a query
+or so on and so forth. These kind of recommendations are largely done on CPUs.
+In the future, there are several reasons why even video is processed on CPUs today.
+In the future, what is likely to happen are two fundamental dynamics that are
+inescapable at this point. It was inevitable for quite a long time. It is now inescapable.
+One of them is just sustainability. You can't continue to take these video workloads
+and process them on CPUs. You can't take these deep learning models even if the
+quality of service was a little bit lesser good using CPUs to do it, it just burns too
+much power.
+And so the ﬁrst reason why we have to accelerate everything is for sustainability. We
+have to accelerate everything because Moore's Law has ended. That that sensibility
+has now permeated just about every single cloud service provider because the
+amount of workload that they have that requires acceleration has increased so much.
+And so their attention to acceleration, their alertness to acceleration has increased.
+Secondarily, just about everybody is at power limited -- power limits. So in order to
+grow in the future, you really have to reclaim power through acceleration and then
+put it back to growth.
+Then the second reason is generative AI has arrived. We're going to see just about
+every single industry, beneﬁting from, augmenting from co-creators, co-pilots, that
+accelerates everything we do from the tech we create, chat bots, we interact with,
+spreadsheets we use, PowerPoint and Photoshop and so on and so forth, they're all
+going to be -- you're going to be augmented by, you're going to be accelerated by,
+inspired by a co-creator or a copilot.
+And so I think that the net of it all is that AI for training, AI supercomputers will
+become AI factories. And every company will have either on-prem or in the cloud.
+Secondarily, just about every interaction you have with computers in the future will
+have some generative AI connected to it. Therefore, the amount of inference
+workload will be quite large. My sense is that inference will on balance be larger
+than -- larger than inference -- larger than training. But training is going to be right
+there with it.
+{BIO 7131672 <GO>}FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 26Q - Christopher Muse
+A - Jensen HuangOur next question comes from CJ Muse with Evercore
+{BIO 18608702 <GO>}
+I guess to my question, I'd like to focus on Grace. In the past, you've mostly
+discussed the beneﬁt of Grace and Hopper combined. Today you're also focusing a
+bit more on Grace on a stand-alone basis than what I was kind of expecting. Can you
+speak to whether you've changed your view on your expected service CPU [ph]
+share gain outlook? And how should we think about potential revenue contributions
+over time, particularly as you think about Grace standalone, Grace superchip and
+then obviously Grace Hopper combined
+{BIO 1782546 <GO>}
+I'll start from the punchline and work backwards. I think Grace will be a big business
+for us, but it will -- it will be nowhere near the scale of accelerated computing. The
+reason for that is because we genuinely feel that every workload that can be
+accelerated must be accelerated. And everything from data processing, and of
+course computer graphics to video processing to generative AI.
+Every workload that can be accelerated, must be accelerated, which basically leaves
+workloads that can't be accelerated, meaning the converse of that. Another way of
+saying that is it's single-threaded code.
+That single-threaded code because Amdahl's law still prevails. Everything that is left
+becomes the bottleneck. And because the single-threaded code is largely related at
+this point to data processing, fetching a lot, moving a lot of data, we have to design
+a CPU that is really good at two things. Well let me just say two things plus a design
+point.
+The two characteristics that we really, really want for our CPU is one that has
+extremely good single-threaded performance. It's not about how many cores you
+have, but it's about how good the single-threaded cores you do have. And number
+one. Number two, the amount of data that you move has to be extraordinary.
+This one module here, this one module here moves 1 terabytes per second of data.
+That's just an extraordinary amount of data that we move and you want to move it,
+you want to process that data with extremely low power, which is the reason why we
+innovated this new way of using cellphone DRAM enhanced for data center
+resilience and used it for our servers.
+It's cost eﬀective because obviously cell phone volume is very high. The power is 1/8
+the power. And moving data is going to be so much of the workload that is just vital
+to us that we reduce it. Then lastly, we designed the whole system instead of
+building just a super fast CPU core -- CPU, we design a super fast CPU node. By
+doing so, we can enhance the ability for data centers that are powered limited to be
+able to use as many CPUs as possible.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 26A - Simona Jankowski
+Q - Joseph Moore
+A - Jensen HuangI think that the net of it all is that accelerated computing will be the dominant form of
+computing in the future because Moore's Law has come to an end. But what is going
+to remain are going to be heavy data processing, heavy data movement and single-
+threaded code. So CPUs will remain very, very important. It's just a design point
+would be diﬀerent than the past.
+{BIO 7131672 <GO>}
+Our next question will come from Joe Moore with Morgan Stanley.
+{BIO 17644779 <GO>}
+I wanted to follow up on the inference question. This cost per query is becoming a
+major focus for the generative AI customer. They're talking about pretty signiﬁcant
+reductions in the quarters and years ahead. Can you talk about what that means for
+NVIDIA? Is this going to be an H-100 workload for the longer term? And how do you
+guys work with your customers to get that cost down?
+{BIO 1782546 <GO>}
+Yes, there's a couple of dynamics that are moving at the same time. On the one
+hand, models are going to get larger. The reason why they're going to get larger is
+because we wanted to perform tasks better and better and better. There's every
+evidence that the capability, the quality and the versatility of a model is correlated to
+the size and model and the amount of data that you train that model with.
+And so on the one hand, we want it to be larger and larger, more versatile. On the
+other hand, there are so many diﬀerent types of workloads. Remember, you don't
+need the largest model to inference every single workload. That's the reason why we
+have -- we have 530 billion parameter [ph] models. We have 40 billion parameter
+models. We have 20 billion parameter models and even 8 billion parameter models.
+And these diﬀerent models are created in such a way that some of them -- the large -
+- you always need a large model and the reason why you need a large model is at
+the very minimum, the large model is used to help improve the quality of the smaller
+models, okay? It's kind of like you need a professor to improve the quality of the
+student and improve the quality of other students and so on and so forth.
+And so because there's so many diﬀerent use cases, you're going to have diﬀerent
+sizes of models. So we optimize across all of those. You should use the right-sized
+model for the right-size application. Our inference platform extends all the way from
+L4 to L40. One of the ones that I announced this week is this incredible thing. This is
+the Hopper H100 NVLink, we call it H10 0NVL. This is basically 2 Hoppers connected
+with NVLink.
+And as a result, it has 180 gigabytes -- 190 gigabytes, almost 190 gigabytes of HBM3
+memory. So this 190 gigabyte memory gives you the ability to inference modern,
+large-sized inference language models all the way down to, if you would like to use
+it, in very small conﬁgurations, this dual H100 system solution lets you partition downFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 26A - Simona Jankowski
+Q - Timothy Arcuri
+A - Jensen Huangto 18. Is it 18? 16 diﬀerent, correct me if I'm wrong later. 16 or 18, what we call multiple
+instance GPUs MIGs.
+And those miniature GPUs, fractions of GPUs could be inferencing diﬀerent
+language models or the whole thing could be connected or 4 of these could be put
+into a PCI Express server, a commodity server, that can then be used to distribute a
+large model across it.
+This has already reduced because the performance is so incredible. This has already
+reduced the cost of language inferencing by a factor of 10 just from A100. So we're
+going to continue to improve in every single dimension, making the language
+models better, making the small models more eﬀective as well as making each
+inference more cost-eﬀective and with new inference platforms like NVL.
+Then very importantly, the software stack. We're constantly improving the software
+stack. Over the course of the last couple of 2, three years, we've improved it so
+much. I mean orders of magnitude in just a couple of years. So we're expecting to
+continue to do that.
+{BIO 7131672 <GO>}
+Our next question will come from Tim Arcuri with UBS.
+{BIO 3824613 <GO>}
+Jensen, I think I thought I heard you say that Google's inferencing large language
+models on your systems. I wanted to conﬁrm that that's what you were saying. I
+guess does that mean that they're using the new L4 platform? And if they are, is that
+brand new? So in other words, they were using TPU, but they're now using your new
+L4 platform? Just curious more details there.
+{BIO 1782546 <GO>}
+Our partnership with GCP is a very, very big event. It is an inﬂection point for AI, but
+it's also an inﬂection point for our partnership. We have a lot of engineers working
+together to bring the state-of-the-art models that Google has to the cloud. And L4 is
+a versatile inference platform. You could use it for video inferencing, image
+generation for generative models, text generation for large language models.
+And I mentioned in the keynote, some of the models that we're working on together
+with Google to bring to the L4 platform. So L4 is going to be just a phenomenal
+inference platform.
+It is very energy eﬃcient. It's only 75 watts. The performance is oﬀ the charts, and it's
+so incredibly easy to deploy. So this -- the -- between the L4 on the one end, I'll show
+it to you. Between L4 -- this is an L4. This guy here is an L4, and this is the H100,
+okay? So this is the L4. This is between these 2 processors is about 700 watts. This is
+75 watts.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 15 of 26A - Simona Jankowski
+Q - Vivek Arya
+A - Colette Kress
+A - Jensen HuangAnd so this is the power of our architecture. One software stack can run on this as
+well as this. So depending on the model size, depending on the quality of service,
+you would like to deploy, you could have these in your infrastructure and they're
+fungible. So I'm really excited about our partnership with GCP and the models that
+we're going to bring to the inference platforms on GCP is basically across the board.
+{BIO 7131672 <GO>}
+Our next question will come from Vivek Arya with Bank of America.
+{BIO 6781604 <GO>}
+Thank you, Jansen and Colette for a very informative event. So I had a near-term and
+a longer-term question. Near term, just curious about availability of Hopper, how
+we're doing in terms of supply? Then long-term, Jensen, we heard about a range of
+software and service innovations.
+How should we track their progress, right? So the last number I think we heard in
+terms of software sales was about a few hundred million. So about 1% of your sales.
+What would you consider success over the next few years? What percentage of your
+sales do you think could come from software and subscriptions over time?
+{BIO 18297352 <GO>}
+So let me ﬁrst start, Vivek, with your statement regarding supply on our H100. Yes.
+We do continue building out our H100s for our demand that we've both seen this
+quarter. But keep in mind, we're also seeing stronger demand from our hyperscale
+customers for all of our data center platforms as they focus on generative AI. So even
+in this last month, since we've talked about earnings, we're seeing more and more
+demand. So we feel conﬁdent that we will be able to serve this market as we
+continue to build the supply, but we feel we're in a good space at this time.
+{BIO 1782546 <GO>}
+I think that software and services will be a very substantial part of our business.
+However as you know, we serve the market at every layer. We're a full-stack
+company, but we're an open platform, meaning that if a company would like -- if a
+customer would like to work with us at the infrastructure level at the hardware level,
+we're delighted by that. If they would like to work with us at the hardware plus library
+level, we're delighted by that; the platform level, we're delighted by that.
+And if a customer would like to work with us all the way at the services level or at any
+of the level, all inclusive, we're delighted by that. So we have the opportunity to
+grow all three layers.
+The hardware layer is, of course already a very large business. And as Colette
+mentioned, that part of our business, generative AI is driving acceleration of that
+business. And at the platform layer, these two layers are just being stood up as cloud
+services. For companies that would like to have an on-prem that we're going to be
+based on subscription.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 16 of 26A - Simona Jankowski
+Q - Rajvindra Gill
+A - Jensen HuangHowever as we all know that today with the world being multi-cloud, you really need
+the software to be on cloud as well as on-prem. So the ability for us to be multi-
+cloud, hybrid cloud is a real advantage and real beneﬁt for our 2 software platforms.
+That is just beginning.
+Then lastly, our AI foundation services are just just announced and just beginning. I
+would say that the model that we presented last time includes our sensibility that
+we're talking about today. We've been talking about laying the foundations and the
+path towards today. This is a very big day for us and the launch of probably the
+biggest business model expansion initiative in the history of our company.
+And so I think the $300 million of platform and platform software and AI software
+services that today has just been pulled in. But I still think that it's -- the size of it is
+consistent with what we've described before.
+{BIO 7131672 <GO>}
+Our next question will come from Raji Gill with Needham.
+{BIO 16383656 <GO>}
+Just a question from a technological perspective regarding the relationship between
+memory and compute. As you mentioned, these generative AI models are creating
+huge amounts of compute. But how do you think about the memory models? And
+do you view memory as a potential bottleneck? So how do you solve the memory
+disaggregation problem? That would be helpful to understand.
+{BIO 1782546 <GO>}
+Yes. Well it turns out in computing, everything is a bottleneck. If you push to the
+limits of computing, which is what we do for a living, we don't build normal
+computers. As you know, we build extreme computers.
+And when you build the type of computers we build, processing is a bottleneck, so
+the actual computation is a bottle neck, memory bandwidth is a bottleneck, memory
+capacity is a bottleneck, networking or the computing fabric is a bottleneck, the
+networking is a bottleneck, utilization is a bottleneck.
+Everything is a bottleneck. We live in a world of bottlenecks. I was surrounded by
+bottles. So the thing that that is true, as you were mentioning, is the amount of
+memory that we use, the memory capacity that we use is increasing tremendously.
+And the reason for that is, of course most of the generative AI work that we do in
+training the models require a lot of memory, but inferencing requires a lot of
+memory the native -- the actual inferencing of the language model itself doesn't
+necessarily require a lot of memory.
+However if you have -- if you want to connect it to a retrievable model that augments
+the language model, augments the chatbot with proprietary, very well curated dataFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 17 of 26A - Simona Jankowski
+Q - Stacy Rasgon
+A - Jensen Huangthat is custom to you, proprietary to you, very important to you, maybe it's healthcare
+records, maybe it's about a particular type of a domain of biology, maybe has
+something to do with chip design.
+Maybe it's AI -- it's a database that has all of the domain knowledge of NVIDIA and
+what makes NVIDIA click and where all of our proprietary data is embedded inside
+the walls of our company can now be using a large language model, we could create
+these data sets that can then augment our language model.
+And so increasingly, we need not just large amounts of data, but we need large fast
+data. Large amounts of data, there are many ideas for that. Of course all of the work
+that's done with SSDs, all of the work that people are doing with CXL and basically
+aﬀordable, attached disaggregated memory.
+All of that is fantastic, but none of that is fast memory. That's aﬀordable memory.
+That's large amounts of accessible hot memory but none of it's fast memory. What
+we need is something like what Grace Hopper does. We need a terabyte per second
+of access to 0.5 terabyte of data.
+And if we had a terabyte per second to 0.5 terabyte of data, if you wanted to have a
+petabyte of data in a distributed computing system, just imagine how much
+bandwidth we're bringing to bear. So this approach of very high speed, very high
+capacity data processing is exactly what Grace Hopper was designed to do.
+{BIO 7131672 <GO>}
+Our next question will come from Stacy Rasgon with Bernstein Research.
+{BIO 16423886 <GO>}
+I was wondering if you could go a little bit into the economics of the DGX Cloud
+business. So like who actually pays for the infrastructure in the -- does the cloud
+vendor pay that for you and then you lease it back, so you're running it? Or I guess
+just how does that work? Then how do the customers pay? Who gets the upside and
+the economics from the customers? How are you pricing like -- anything you can
+give us on how that actually works and impacts the model would be super helpful.
+{BIO 1782546 <GO>}
+Yes, Stacy, thank you. First of all, the process goes like this. We presented the NVIDIA
+DGX Cloud partnership to our CSP partners. They are all super excited about it. The
+reason for that is because it's -- we are the onboarding, if you will, of very important
+customers and very large partners that would then consume their storage, security, a
+whole bunch of other application APIs.
+And so when we presented this idea that we would like to rent NVIDIA DGX cloud
+from them, and we would take the instances, the reserved instance, what's called
+reserved instances, to the market ourselves and engage customers, they were super,
+super happy about that. Obviously NVIDIA has very deep relationships with manyFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 18 of 26A - Simona Jankowski
+Q - Aaron Rakers
+A - Jensen Huanglarge vertical ecosystems in the world. I highlighted two in the slide deck that I sent
+you guys in healthcare and drug discovery, we have very deep relationships with
+many companies there.
+We have very deep relationships with just about every car company on the planet.
+These two industries, particularly have a great deal of urgency to take advantage of
+the latest generation of AI -- generative AI or Omniverse digitalization. So the ﬁrst
+thing is we present the idea, the proposal that proposes a partnership to them. Then
+if they're interested, and so far, they've been incredibly enthusiastic.
+They would then purchase systems that are -- that include other people's gear, but
+also includes our gear to stand up the DGX clouds. So the cloud service providers
+procure whatever -- whatever infrastructure, power, networking, storage, so on and
+so forth in order to stand up the infrastructure and host it and manage it, okay? So
+that's step two. Then step three is we take the DGX cloud services to market, and in
+combination of all the value that we would deliver, we would set the price and
+engage the customers and directly engage the customers business.
+{BIO 7131672 <GO>}
+Our next question comes from Aaron Rakers with Wells Fargo.
+{BIO 6649630 <GO>}
+I want to go back, I think maybe with TJ's question earlier, just kind of the breadth of
+the Grace, maybe not the Grace Supership but just the Grace CPU strategy. As we
+think about kind of the evolution, maybe you can help us appreciate how much of
+data center cloud workloads are single-threaded performance.
+And in that context, do you foresee a situation where actually your -- you see server
+partners deploying the Grace CPUs without necessarily deploying your H-100 or
+subsequent versions of GPUs. Do you see actual single CPU deployment as a market
+opportunity for you?
+{BIO 1782546 <GO>}
+And I'll work backwards again. I appreciate the question. The answer is yes. However
+Grace is really targeted at a niche market, and let me just be clear about that. The
+x86, we use x86 as all of our company. We use x86 as obviously our PCs, our
+workstations.
+We have exciting go-to-markets with Intel Sapphire Rapids for all the new
+workstation lines. We're using Sapphire Rapids in our DGX. We're using Sapphire
+Rapids in our OVX [ph] servers so because the single-threaded performance of
+Sapphire Rapids is really quite good. It's excellent in fact.
+And as I mentioned, when you take an application and you accelerate all the
+workload that is all the work -- the parts of the code that you can accelerate with
+paralyzation, then all -- really, all that's left is single-threaded code.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 19 of 26A - Simona Jankowski
+Q - Matthew RamsayAnd that single thread of code is either doing control or oftentimes, it's moving
+memory around giant amounts of memory, as managing memory. The amount of
+data that it's managing is growing quite tremendously. So -- so as I mentioned,
+Grace is really designed for the type of applications where the data center is largely
+accelerated as well as moving a lot of data.
+Now having said that, and for customers who need x86, obviously which represents
+a large part of the world and remains a large part of the world, and I expect to
+continue to be so. x86 is the predominant platform, and it doesn't make sense to
+move enterprise computing to ARM -- to Grace necessarily.
+And so I think that where we're focused are the applications that I mentioned.
+However in some of the CSPs where they are already going to move to ARM for --
+because they would like to build CPUs that are bespoke to their needs and their
+requirements.
+Grace is really a great companion. The reason for that is because the design point
+that we design Grace for is very diﬀerent than the design point that almost any other
+CPU that I've known about has been designed for.
+And so I think that for cloud data centers that are moving in the direction of ARM,
+this is really a wonderful way to either accelerate that. They beneﬁt from the entire
+software expertise and the systems ecosystem and the peripheral ecosystem that
+we've brought to Grace and the design point is so special, and it's really designed
+for an energy-eﬃcient extreme energy-eﬃcient cloud data center.
+And so these -- anybody who is interested in these particular areas, which is not
+every one in the world, but it's also a very important segment of the world. I think
+Grace is going to be very successful for them even as an independent and stand-
+alone CPU.
+{BIO 7131672 <GO>}
+Our next question is from Matt Ramsay with Cowen.
+{BIO 17978411 <GO>}
+I guess I have two questions, Jensen, and one of which is kind of a follow-up to
+something that I'd ask you about in some prior calls, which is there's this transition
+happening, I think from -- in your data center business from selling accelerator cards
+to selling systems. I'm really interested in what that means for the economics of your
+data center business in terms of margins long term.
+And I guess -- the second question is a little bit related and expands a bit on this
+DGX cloud opportunity. I just wanted to -- one of the questions I've been getting a
+lot over the last month, 1.5 months since you announced it, is maybe take Microsoft
+as an acute example. Like how are you guys partnering with them? Is there -- is it
+really a partnership? Is there some friction point into who might want to own the
+customer relationship.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 20 of 26A - Jensen HuangSo how did that evolve over time? If you could just kind of walk us through, I mean it
+seems like they would want to own the AI customer. You guys are going to now go to
+them directly with rented space from the cloud from them. And just -- how does that
+evolve over time and the relationship between yourselves and your largest CSP
+customers as you bring that business to market.
+{BIO 1782546 <GO>}
+I really appreciate the question. First question. So -- you can't build software, you
+can't [ph] develop software. We can't genuinely develop software, if you're not a
+systems company. The reason for that, you can't build software for a chip, the chip
+doesn't sit there to be a computer.
+And so you have to be a systems company. And especially the type of software we
+develop, we're not trying to replicate somebody software. We're building bespoke,
+brand-new software.
+None of the software that we created existed before we created them, even
+computer graphics with RTX and full path tracing and all of the AI generation that we
+use in modern computer graphics wasn't possible until we created the software. So
+in order to create a software, you have to have a system. And as a systems company,
+what makes you NVIDIA unique is this, we build the entire system from the data
+center down. We literally start from the data center, not from a chip.
+We start from the data center, we build the entire computer. In the future, the data
+center is the computer. The entire data center is the computer. That's something I've
+spoken about for coming up on a decade now.
+It's one of the reasons why our combination with Mellanox was so strategic, so
+important. I think people realize it today. The work that we did together to architect
+the entire data centers is really quite foundational. The way we think about the world,
+the way I see the world is the entire data center, frankly, even on a planetary scale is
+the computer.
+And so you have to think about the world starting there. That includes the
+computing elements that includes the systems that includes networking and storage
+and the compute fabric and CPUs and so on and so forth, all the way up to system
+software stack and very importantly, the algorithms, the libraries. We design it as a
+data center. The way we design it, we design it with discipline so that we can then
+disaggregate it, fractionalize it.
+So if a customer would like to buy just the HGX GPU, which is right here. This is what
+a GPU looks like today. A lot of people think that a GPU looks like this. Of course this
+is NVIDIA GPU. This is NVIDIA GPU. They both run the same software stack. That's
+kind of the miracle.
+This one runs the same software as that, it just runs is slower. It takes a long time to
+do it. So the ability for us to design the entire data center, then disaggregate it andFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 21 of 26let customers decide what's the best form factor for them, best conﬁguration for
+them. best deployment methodology for them.
+Some people use NPI. Some people use Kubernetes. Some people use VMware and
+some people use containers with bare metal. The list goes on. Yet the distributed
+computing stack is aﬀected by all of that. So we work with the industry across all of
+the layers of the software and then we disaggregate the system, the components,
+the system software, we disaggregate the libraries, you can run it anywhere you like
+from a workstation, a PC, all the way up to the cloud or a supercomputer.
+We disaggregate the networking, we disaggregate the switches. We disaggregate
+literally everything, or we're delighted to put it all together for you. If you would like
+us to stand up a supercomputer for you and you like it in 30 days, it's possible
+because we've productized the entire thing. We disaggregated and integrated into
+the world's industry standards wherever we could. And as a result, this computing
+platform is literally everywhere, and it's binary compatible. That's the magic.
+And I think that, that's one of the reasons why we were able to, on the one hand, be
+a systems company and develop software and on the other hand be a computing
+platform company that's available everywhere.
+With respect to the go-to-market, if we lose the customer, if the CSP would like to
+have direct customer relationship, we're delighted by that. The reason for that is
+because they have a whole bunch of NVIDIA GPUs in their cloud. They have NVIDIA
+computing in their cloud.
+And we have our software platforms in their cloud anyways. If a customer would like
+to use it in that way they can download NVIDIA AI enterprise. They can run their
+stacks so on and so forth. Everything just works exactly as it does today. However
+there are many customers that would like to or need to work with us because we
+refactor their entire stack.
+And we have the expertise because we understand the entire stack, how to take a
+problem that otherwise is barely possible -- or it's barely possible in a multi-cloud
+conﬁguration, meaning they would like to run it in the cloud as well. They would like
+to run it in Azure or OCI or GCP as well as on-prem. We have the expertise to help
+them do that.
+And so in those cases, they need to have direct access to our engineers and our
+computer scientists. It's also the reason why we're so busy. We're working with
+industry leaders who would like to build something very quite special or quite
+proprietary based on their own platform, and they just need our computing
+expertise to make it possible for them to either deploy it at the scale they want it, at
+the reach of multi-cloud that they want or at the level of cost and power that they
+would like to reduce. In which case they contact us.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 22 of 26A - Simona Jankowski
+Q - Blayne Curtis
+A - Jensen HuangNow notice if we become the direct customer interface, we would still invite our CSP
+partners because we don't oﬀer storage, we don't oﬀer the rest of the APIs. We don't
+oﬀer security. There are many industrial safety and privacy and data management
+regulations and standards that has to be complied with. The world's leading CSPs
+have those expertise. So there's a lot of collaboration that's going to happen. If they
+come through us, terriﬁc. If they go through the CSPs, fabulous. We're happy about it
+either way.
+{BIO 7131672 <GO>}
+Our next question will come from Blayne Curtis with Barclays.
+{BIO 15302785 <GO>}
+I want to ask an inference and it's kind of two parts because there's two halves [ph]
+here small models and large. So I guess what I'm curious on, you had a T4 card back
+a while ago. I don't think you did anything with Ampere. So the L4 is kind of the new
+version of that. So I'm just trying to understand, back when you did T4, I think we
+were talking about inference being similar to what you said now, kind of a large
+market, maybe even as big as training.
+And I think it became CPUs. What's changed now, I guess that you're feeling like
+those smaller models need to move to an accelerator. Then I'm just trying to
+understand on the large side, the NVL is like 700 watts. So that seems like a lot of
+power to add to every server. So how are customers thinking about deploying this.
+It's a huge model. You need a lot of horsepower, but it's not a one for one into every
+CPU. So it's kind of two parts of the equation there on inference and how do you
+guys monetize it?
+{BIO 1782546 <GO>}
+Yes. Thanks. T4 is one of the most successful products in our history. Millions of T4s
+are in the cloud. However there are tens of millions of CPUs in cloud. So there's still a
+lot of workload in the cloud that's done on CPUs. Now there are two reasons why it
+really needs to be accelerated. Now One, of course is sustainability. You just have to
+accelerate every workload you can. The world can't continue to consume more
+power for more CPU throughput.
+And so that's number one. Number two, generative AI is an inﬂection point. There's
+just no question about that now. The capability of AI, the usefulness in all of these
+diﬀerent industries. What generative AI has now been connected into. If you just
+think about what has happened in the last couple of months, generative AI has been
+connected into the most popular applications on the planet, Oﬃce, Teams, Google
+Docs. Those are the most popular productivity applications in the history of
+humanity.
+And that's just been -- generative AI just been connected into it. And all of that has to
+be inferenced somewhere. I think the NVIDIA platform is really the ideal platform to
+inference all that because we can handle video, we can handle text, we can handle
+images, we're going to handle 3D, we can handle video, we can hand it well.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 23 of 26A - Simona Jankowski
+Q - William Stein
+A - Jensen HuangWe are going to handle just by everything you throw at us. So I think that, that is
+really an inﬂection point. With respect to this, the reason why 750 watts is nothing in
+today's cloud data centers. The thing that is really spectacular about this is with us,
+you get to replace hundreds of CPU servers. That's the reason why you accelerate.
+The reason why you accelerate is you spend 70 watts, so that you can save 10x that.
+So 700 watts or 7 kilowatts, and that's the math. You want to accelerate everything
+you can because all of a sudden, you reclaim 6.9 kilowatts, and you can then reinvest
+that into future workloads, okay?
+So that's -- this is the motion, if you will, the conservation of energy motion that the
+world's CSP is going through, which is accelerate workloads, reclaim power, invested
+into new growth, the 1, 2, 3 steps. The way to do that is to put GPUs into the world
+CSPs, which is easy PC [ph] to do today.
+{BIO 7131672 <GO>}
+We just have time for 1 last question, and that will come from Will Stein with Truist.
+{BIO 15106707 <GO>}
+Jensen, several years ago, you really introduced the world to accelerated or sort of
+oﬄoad parallel processing compute or maybe reintroduced it something that used
+to exist a long time ago, but certainly in modern times, this is like a big computing
+revolution in a way. But there -- now these other products that you're talking about,
+in particular, the Grace CPU and the BlueField DPU.
+Can you talk about what your vision is for a modern data center and what you
+envision a typical architecture looking like maybe 3, ﬁve years from now. Is DPU
+more relevant with your Grace CPU or more relevant with a more traditional x86? Do
+you see those x86 servers continuing to perpetuate in enterprises for traditional
+enterprise software? Or do you see them going away? I'd love any sort of long-term
+view on that.
+{BIO 1782546 <GO>}
+I really appreciate that. I believe that data centers in the next 5 to 10 years, if we start
+from 10 years and work our way back or even ﬁve years and work our way back, we'll
+basically look like this. There will be an AI factory inside. That AI factory is working
+24/7. That AI factory will take data input, it will reﬁne the data and it will transform the
+data into intelligence. That AI factory is not a data center. It's a factory. The reason
+why it's a factory is it's doing 1 job.
+That 1 job is either reﬁning, improving and enhancing a large language model or a
+foundation model or a recommender system. So that factory is doing the same job
+every single day. Engineers are constantly improving it, enhancing it, giving new
+models, new data to create new intelligence.FINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 24 of 26And so every data center will have number1 an AI factory. It will have an inference
+ﬂeet. That inference ﬂeet will have to support a diverse set of workloads. The reason
+for that is because we know that video represents some 80% of the world's Internet
+today. So video has to be processed. It has to generate text. It has to generate
+images. It has to generate 3D graphics.
+The images and 3D graphics will populate virtual worlds. These virtual worlds will be
+-- will run on diverse type of computers. These Omniverse computers will, of course
+simulate all of the physics inside. It will simulate all the autonomous agents inside. It
+will enable and connect diﬀerent applications and diﬀerent tools and it would be
+able to do essentially virtual integration of plants, digital twins of ﬂeets of computers,
+self-driving cars, so on and so forth.
+And so there'll be types of virtual world simulation computers. All of these types of
+inferencing systems, whether it's 3D inferencing in the case of Omniverse or physics
+inferencing in the case of Omniverse to all of the diﬀerent domains of generative AI
+that we do, each one of the conﬁgurations will be optimal for the domain, but most
+of them will be fungible, meaning that each one of the architecture should be able
+to receive and oﬄoad the work from something that's over provisioned --
+oversubscribed and pick up some of the workload, okay?
+So the second part is the inference workloads. Every single one of the nodes will
+have SmartNICs on it, like a DPU, a data center operating system processing unit.
+That is going to oﬄoad oﬄoad and isolate. It's really important to isolate it because
+you don't want the tenants of the computer which all are basically inside. You have to
+think about the world in the future as Zero Trust.
+And so all of the applications and all of the communications has to be isolated from
+each other. They're either isolated by encoding, they're isolated by virtualization. The
+operating system is separated from the -- the control plane is separated from the
+compute plan. The control plane, the operating system of the data center will run, be
+oﬄoaded, accelerated on the DPU, on the BlueField, okay? So that's another
+characteristic.
+Then lastly, whatever is left, that's not possible to accelerate because your -- the code
+is just ultimately single-threaded. Whatever is left, you need to run it on a CPU that is
+the most energy eﬃcient that you can possibly do, not at the CPU level only, but at
+the entire compute node really.
+And the reason for that is because people don't operate CPUs, they operate
+computers. So it's nice that the CPU is energy eﬃcient at the core. But if the rest of
+the data processing and the I/O and the memory, it consumes a lot of power then
+what's the point.
+And so the entire compute node has to be energy eﬃcient. Many of those CPUs will
+be -- a lot of them will be x86 and a lot of them will be ARM. I think these 2 CPU
+architectures will continue to grow in the world's data center because ideally, we'veFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 25 of 26reclaimed power through acceleration, which gives the world a lot more power to
+grow into. So that acceleration, reclaim, then grow 3-step process is really vital to the
+future of data centers.
+I think this represents a canonical data center, of course diﬀerent sizes and scales.
+You now know -- you can now see as we -- this question kind of reveals our mental
+image of what a data center does and which also explains why it's so vital that we --
+the one thing I forgot to say is really vital is all of this is being connected to two types
+of networks.
+There's one type of network that's the computing fabric, NVLink and InﬁniBand are
+computing fabrics. They're really intended for distributed computing, moving a lot of
+data around, orchestrating the computation of all these diﬀerent computers.
+Then another layer of networking Ethernet, for example, for the control, for the multi-
+tenancy, for the orchestration, workload management, so on and so forth, the
+deployment of the service to the users. That's done on Ethernet. The switches, the
+NICs, super sophisticated, some of it in copper, some of it direct drive, some of it is
+long reach ﬁber. And all that layer, that fabric is vitally important. Now you see -- why
+it is that we invest in what we do.
+When we think about a data center scale and we start from the computation, the
+acceleration of it as we continue to advance it at some point, everything becomes a
+bottleneck. Whenever something becomes a bottleneck and we have a very speciﬁc
+viewpoint about the future, and nobody else is building it in that way or nobody else
+could build it in that way we would tackle the endeavor and go remove the
+bottleneck for the computing industry.
+One of those important bottlenecks, of course is NVLink another one is InﬁniBand,
+another, the DPU, the BlueField. I just talked to you about Grace and how it removes
+bottlenecks for single-threaded code and very large data processing code. So this
+entire mental model of computing I think in some degree will be implemented very,
+very quickly in the world CSPs. The reason for that is very, very clear.
+The two fundamental drivers of computing in the near future. One of them is
+sustainability, acceleration vital to that; and the second is generative AI, AI
+computing is vital to that. I want to thank all of you for joining GTC. We had a lot of
+news for you to consume and appreciate all the excellent questions.
+And very importantly, I want to thank all the researchers and scientists who took the
+risk and who had the faith in the platform that we were building that over the last 2.5
+decades as we continue to advance accelerated computing, have used this
+technology and used this computing platform to do groundbreaking work.
+And it's because of you and all of your amazing work that has really inspired the rest
+of the world to jump on to accelerated computing. I also want to thank all of theFINAL TRANSCRIPT 2023-03-21
+NVIDIA Corp (NVDA US Equity)
+Page 26 of 26amazing employees of NVIDIA for just an incredible company that you've helped
+build and ecosystem that you've built. Thank you, everybody. Have a great night.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

@@ -1,0 +1,496 @@
+FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 13, Vice President of Healthcare
+, Analyst, J. P. Morgan
+Unidentiﬁed Participant
+Harlan Sur
+Kimberly Powell42nd Annual J.P. Morgan Healthcare Conference
+Company Participants
+Kimberly Powell
+Other Participants
+Harlan Sur
+Presentation
+{BIO 6539622 <GO>}
+Great. Good morning, and welcome to the ﬁrst day of J.P. Morgan's 42nd Healthcare
+Conference here in San Francisco. My name is Harlan Sur, I'm the Semiconductor,
+Semiconductor Capital Equipment Analyst for the ﬁrm. For the ﬁfth time in six years,
+we have the team from NVIDIA presenting. For those of you that don't know NVIDIA,
+they are a leader in accelerated computing, semiconductors, systems, and software
+platforms and areas like artiﬁcial intelligence, deep learning, powering some of the
+world's most powerful supercomputers, driving compute innovations for cloud and
+hyperscalers, as well as large vertical markets like healthcare and life sciences.
+They are the foundational compute platform, powering most of the generative AI
+initiatives worldwide. Here with us today from NVIDIA is Kimberly Powell, Vice
+President of Healthcare. She is responsible for the company's platforms for
+accelerating compute, AI, and visualization that power the ecosystems of imaging,
+genomics, life sciences, drug discovery, and healthcare analytics.
+Kimberly, thank you for joining us today. And we go ahead and turn it over to you.
+{BIO 22145194 <GO>}
+Thank you. Thank you. Standing room only. If you guys want to come in, I'd love to
+have you come in. There is a little bit room upfront. Take those other seats. I know I
+won't be able to see you. But, Harlan, thank you so much for inviting us to come back
+for a ﬁfth year at the conference. It's an extreme honor to be presenting along with
+the world leaders who are dedicated their lives to save others. And it's an amazing
+opportunity for us to be the only technology company here.
+And if you were here during the Recursion talk, I think this is a remarkable year for
+technology and healthcare and I want to be able to talk about that. So again, thank
+you to Harlan, and the J.P. Morgan event for this opportunity to present.FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 13So let's just walk through. Before I get started, a moment to read our Safe Harbor
+Statement, which you are all quite familiar with. This presentation does contain
+forward-looking statements, and investors are advised to read our reports ﬁled by
+the SEC for information related to risks and uncertainties facing our business.
+Okay, fantastic. Let's get started. NVIDIA is driving two simultaneous computing
+transitions; Accelerated Computing, and AI. Accelerated Computing enabled
+generative AI, driving platform shifts in software and enabling never before
+applications to be built like ChatGPT.
+AI is much more than a GPU problem though. Okay? It's a full-stack data center
+problem. We start out with three-chip systems that need to be interconnected in
+ways that they can both scale up and scale out. Together, accelerated computing
+and generative AI are really the path forward for us to meet the performance, the
+scale, that we need and the eﬃciency for the generative AI era. Okay?
+Accelerated computing and generative AI make possible this digital biology era that
+I'm going to talk a lot about, whether it be the $100 genome or new omics ﬁelds
+entirely being created like some of the companies I'm going to talk about who are
+creating new ﬁelds of omics altogether. Let's start with one of them that's super
+exciting called Deepcell. Deepcell's REM-I is a new platform for cell imaging. It does
+cell sorting, imaging and high dimensional analysis all in one instrument. And they
+are creating a new ﬁeld called Morpholomics.
+This is a video simulating a melanoma cell physically transforming to a functional
+state that gives us the ability to transmit to other tissues, otherwise known as
+metastasis. This is highly signiﬁcant insights and information for both the research
+community and the clinical community. It's the next generation of ﬂow cytometry in
+digital pathology put into one instrument, and by using their generative AI
+algorithms, they have one called the human foundation model. They can do that
+real-time analysis of characterization of those cells right on the instrument using
+NVIDIA GPUs in our AI stack. This platform is inventing a new omics ﬁeld called
+Morpholomics.
+Another incredible exciting platform that is digitizing biology is called spatial
+genomics and it's the study of single cell genomics that is represented in 2D and 3D
+for that spatial understanding in the organization across tissue samples. It's giving
+new understanding of how cells interact and the genes they each express. They have
+broad application in basic biology, clinical diagnostics and drug discovery.
+The Nanostring's new cosmic system is capable of taking a tissue of over a million
+cells and visualizing 600 diﬀerent gene and protein targets per cell. You're listening
+to these numbers, 6,000 diﬀerent genes and protein target per one all -- for all one
+million cells. And this is producing something like six terabytes of data per sample,
+per sample. The cosmics platform, it allows you to analyze more cell types, more cell
+states, and biological pathways than any other system on the market.FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 13There is another phenomenon that is happening not only the digitization of biology,
+but also with generative AI, the ability to represent the two things that describe
+drugs; biology and chemistry in a computer. We have the opportunity to use
+generative AI to represent it and there are like -- there are papers coming out almost
+momentarily that are new applications in this space and naming a few that just
+happened at the end of last year and they are -- a lot of these were presented at the
+Nordic's conference, which is known for being the AI conference of the world, now
+has a drug discovery workshop that is being presented there.
+When you see these new ﬁelds up here at the Nordic conference, you know that
+something big is happening. So for example, docking algorithms, a new docking
+algorithm buy tech bio called Receptor.AI, it has amazing capabilities to meet the
+capabilities of the new AlphaFold latest but at a 600 times reduction in compute
+cost.
+When you're doing docking, you want to explore the universe of chemical
+compounds. We want to go beyond screening a billion compounds into trillions of
+compounds. This is the way that we're going to get there.
+How about alpha may sense from DeepMind? This team, generative model, it can
+predict pathogenesisity or benign mutations of immunoassay sequence across the
+Protium. I mean, that is going to be incredibly powerful tool that is just being
+developed. And then the team at MIT used deep learning to discover, not a single
+compound, but an entire class of antibiotic compounds by using deep learning. And
+this is super helpful in the age of antibiotic resistance. These are just to name a few
+ways that we are representing either chemistry or biology in a computer to do things
+like generate new ideas to make predictions, to even be able to model very complex
+interactions and we are move -- even moving into the age of design with generative
+AI.
+So this is a very big moment for the drug discovery industry. The last several decades
+instruments computation and mathematics have paved the way to create the
+computer-aided drug discovery industry, CADD. Okay? Steady progress has been
+made in simulating the behavior of atoms and molecules, starting back in the 80s
+with DFT enforce ﬁelds and releasing our ﬁrst computational molecular modeling
+applications like Charm.
+And then, all the while we're starting to be able to digitize biology with things like X-
+ray, crystallography, being able to solve protein structures, starting kicking oﬀ the
+structural biology drug discovery era, and we continue to make steady progress
+larger and larger, systems of simulation, more and more biology. Now we had high
+content screening hit the market, moving in to be able to do things in virtual -- virtual
+screening with Schrodinger's glide program in the early 2000s. At the same time,
+solving the human genome, and then moving into very much multi skill systems of
+simulation where you can now move it to the GPUs and use accelerated computing
+to do things multi-system, and really understand the dynamic nature of ligands and
+proteins interacting, and of course, the Nobel prize of Cryo-electron microscopy,FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 13being able to see these proteins at atomic resolution but something magical has
+happened since 2020.
+In the age of generative AI, AlphaFold and even our own work with AstraZeneca
+started to show -- with MegaMolBART, started to show that you can represent this
+data in a computer. At the same time. I just talked about, you're able to digitize
+biology at incredibly new scales and at multi scales with those platforms I just
+described.
+So now for the ﬁrst time, we can represent the world of drugs, chemistry and biology
+in a computer. This is igniting an exponential expansion to the CADD industry,
+computer-aided drug discovery industry.
+Now we're seeing history repeat itself a little bit. What computer-aided design and
+electronic design automation did for the chip industry, was to allow it to represent
+every stage of the process in a computer. First, they were small programs and then
+they evolved into applications and ultimately into platforms that codiﬁed the
+method, the method to design chips.
+Some platforms specialized in the front-end and other platforms specialized in the
+back-end and this is a 40-year journey that now allows us to build, essentially, a
+perfect 100 billion transistors chip completely in silico. Because of the CADD and
+EDA software industry, a trillion-dollar electronics industry has emerged. And the
+world's ﬁrst trillion-dollar chip company.
+What CADD and EDA did for chip design, the CADD industry, computer-aided drug
+discovery industry will do for drug design. Two necessary conditions have arrived for
+drugs; digitizing biology and being able to represent it in a computer. We have the
+perfect -- we have the perfect conditions to see a massive expansion of this
+computer-aided drug discovery industry to serve this $250 billion spend every year
+in R&D.
+Generative AI presents a new class of tools that will get codiﬁed into applications
+and new methods of discovery. In fact, go beyond discovery and evolve into design,
+helping create the conditions to no longer be a hit or miss industry. This new class of
+CADD will synthesize and systematically endeavor the process. And it will help it be
+more consistent and more eﬃcient in ﬁnding drugs for speciﬁc diseases and speciﬁc
+people someday. And this -- this will be -- helps build the worse -- the world's ﬁrst
+trillion-dollar drug company.
+NVIDIA has been preparing for this moment for over a decade, building deep
+domain expertise and NVIDIA Clara, our domain speciﬁc computing platform for
+healthcare. We're building the essential components to accelerate the next
+generation of CADD. Parabricks for genomics, Isaac and Holoscan for next
+generation medical instruments and robotic labs, BioNeMo for generative digital
+biology and chemistry, MONAI for a preclinical and clinical medical imaging AI and
+NeMo to build scientiﬁc copilots and the ability to talk to your data.FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 13We build domain speciﬁc tools and application frameworks and now cloud services
+that can accelerate the CADD industry's ability to adopt the most important
+computing platform shifts of our time, which is accelerated computing and
+generative AI.
+So today we're going to focus in -- on BioNeMo. NVIDIA BioNeMo is a generative AI
+platform that provides services to develop, customize and deploy AI foundation
+models for drug discovery. BioNeMo provides large scale optimized and easy to use
+training on your own proprietary data. We oﬀer a growing collection of pre trained
+models with applications across the drug discovery process.
+Models in the platform come from three sources; models invented by NVIDIA, open-
+source models we curate and optimize, and proprietary models developed by
+NVIDIA partners. BioNeMo is an AI factory for drug discovery. Think about turning
+raw data into capable models that get deployed for discovery and design tasks, and
+they're validated in the lab. And the data generated from the lab work goes back
+into the training process once again, completing what's called the lab in the loop.
+Biology and chemistry generative AI models are still quite small. We're still in the
+very, very early innings compared to other ﬁelds like natural language processing
+and what you're seeing with GPT-3, GPT-4, GPT-5. But we're growing in size and
+complexity. And so we still have a lot of progress to be had building larger and more
+capable models from digital biology data that already exists today, and the
+continuously enhancing these models with the data that's continuously being
+generated in the labs.
+So BioNeMo provides the biopharma ecosystem with large scale model training to
+eﬀortlessly train and scale -- AI training to thousands of GPUs. And you can train
+billion parameter models in days rather than the months it was taking.
+So for our very ﬁrst announcement, we're excited to announce that Amgen, an early
+adopter, NVIDIA DGX cloud and BioNeMo. They're setting out to build generative AI
+models in search for novel human data insights and for drug discovery. Amgen is
+building a supercomputer called Freyja at their deCODE headquarters in Iceland for
+the use on one of the largest human data sets to build foundation models. Since its
+founding -- ince deCODE's founding in 1996, it's curated more than 200 petabytes
+of deidentiﬁed human data from nearly 3 million individuals. This population scale
+data has a very, very unique human diversity, and you want these models to see that
+diversity.
+DeCODE has also helped sequence 500 million human genomes from volunteers in
+the UK Biobank. So working with such big data sets requires large -- powerful AI
+systems like Freyja and NVIDIA, it's an NVIDIA DGX superpod with 248 H100s
+running NVIDIA BioNeMo that help them train these million parameter models in
+just a couple of days.FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 13We're also super excited today to be announcing that BioNeMo service is now
+advancing into beta and being adopted by leading CADD makers in the industry.
+With our growing collection of models, the BioNeMo service, CADD makers have
+access to optimized scalable and stable APIs that are enterprise grade and they can
+voice services that they can rely on to build out their platforms and their methods
+that enable drug discovery and design. The NVIDIA BioNeMo team carefully
+optimizes these models, delivering throughput and cost savings up to seven times
+faster, which essentially means seven times cheaper.
+Let's have a look at some of the amazing CADD platforms being built on the
+BioNeMo platform with generative AI.
+(Video Presentation)
+It's amazing. And if you were here this morning at the 7:30 talk with Chris, the CEO
+of Recursion, you would have seen the incredible platform they just announced
+called Lowe. You use your language to operate it, to kick oﬀ, so you use a generative
+AI inference to talk to it and then you inference another generative AI to generate
+molecules.
+So we're super excited to work with all of these amazing companies. We have
+another incredible announcement. Today we are announcing the ﬁrst partner
+Recursion to oﬀer their foundation model called Phenom-Beta in BioNeMo. Not only
+is the ﬁrst partner model, it's also the ﬁrst vision transformer model targeting cellular
+data with applications in target and hit discovery. So Phenom-Beta provides
+representations of human cell images to systematically relate genetic and chemical
+perturbations to one another in very high dimensional space, helping identify
+potential new targets in drugs.
+So let's take a look at Phenom-Beta in action.
+(Video Presentation)
+Awesome. So, Recursion has made great contributions to advance the science of
+phenomics and machine learning by providing the community with public data sets
+and their recent launch of Valence Labs. And so we're excited to now have BioNeMo
+make their model easily accessible to the community for non-commercial use, and
+you can also contact Recursion if you're looking for a commercial license. So we're
+super excited about this extension of the BioNeMo platform to include our very ﬁrst
+partner proprietary model.
+We're also excited to be announcing that NVIDIA's ﬁrst -- NVIDIA's own invented ﬁrst
+foundation model, MolMIM to be deployed in BioNeMo. MolMIM uses a large
+language model to learn chemical space using self supervised learning objectives
+and MolMIM achieves state-of-the-art for constrained generation with -- what they
+call multiple simultaneous objectives. This is demonstrating superior generative
+performance in terms of the validity, the uniqueness, and the novelty.FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 13So let's look at it. What MolMIM does is what's called controlled molecular
+generation of small molecules, ﬁnding novel molecules with desired properties while
+constraining it to the original starting molecule. But MolMIM gives users the ability to
+specify their own objective functions like synthetic accessibility, drug-likeness or
+solubility binding aﬃnity to steer this generative process. Control generation
+increases the likelihood of success by generating molecules that satisfy multiple
+objectives simultaneously.
+And then MolMIM can signiﬁcantly reduce that expensive downstream time-
+consuming screens that [ph]generally would have to go on because it's arriving at a
+much higher speciﬁed score that the user has deﬁned. So we're really excited to take
+our work that we did in molecular generation and bring what -- not only user-deﬁned
+characteristics to it, but this active learning loop to do what essentially is an
+intelligent search of molecular space.
+So the next generation of drug discovery, the ecosystem, is really, really starting to
+emerge. BioNeMo is accelerating computer-aided drug discovery platforms, being
+built by software platform companies, being built by tech bio companies, even
+being built inside of large pharmaceutical companies. The ﬁeld is diverse, and it
+specializes to diﬀerent disease focuses. It specializes to therapeutic classes, and
+specializes in diﬀerent discovery and design methods.
+And so building out a large ecosystem of next-generation computer drug discovery
+platforms is what we're all about and accelerating that process. So we're honored to
+be working with this world-class ecosystem to accelerate their mission, to shorten
+the time and increase the success rates of ﬁnding new medicines.
+So let me just talk a little bit about, we believe that the CADD industry will do for
+drug discovery what the CADD industry did for chip design. We believe the next
+trillion-dollar drug company is out there somewhere, and it will be created. We want
+to help accelerate them by investing throughout the industry. We like to invest in
+companies who use our platform, enhance our platform, and expand our platform.
+Companies who are heavy in data and AI, it really means that they are pushing the
+boundaries of scale. They are going to push the boundaries of what NVIDIA has built
+at AI supercomputing scale, and we love working with companies that are very data
+ﬁrst, AI heavy tech ﬁrst. Companies who are developing methods to combine
+machine learning with physics simulation, this will really, really enhance our platform.
+This is going to be -- this is a new phenomenon. We need to get to new levels of
+scale in terms of simulation.
+And then AI companies who are pioneering AI design. Right. This is a way for us to
+completely expand our platform. So these are incredible companies. It's a joy
+working with all of them, and we look forward to continue to accelerate them.
+2023 was a remarkable year for NVIDIA Healthcare. We announced the work that
+we're doing with three world leading companies. Amgen is pioneering generative AIFINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 13design and has adopted BioNeMo and DGX cloud, now extending their investment
+in the NVIDIA platform with a new supercomputer in Iceland to put their huge and
+unique human data sets to work in this ability to represent biology in a computer.
+Medtronic announced they're building AI platforms with NVIDIA Holoscan. The ﬁrst
+one being Gi Genius, which is the ﬁrst FDA-cleared AI-assisted colonoscopy tool to
+help physicians detect polyps that can lead to colorectal cancer. And then a couple
+months ago, we announced a multi-year strategic AI research collaboration with
+Genentech, building large scale AI models and then helping them accelerate the
+buildout of their platform, which they dub as the lab in a loop. So it's been an
+amazing year and we're just getting started.
+I think J.P. Morgan always makes us feel like we actually entered the new year after all
+the vacation and the Champagne. Here we are. AI has opened healthcare to become
+a technology industry. We opened in this room with a very, very tech-ﬁrst company
+Recursion. And we're delighted to be here on the ﬁrst day as a tech company, really,
+really expanding your thought process on the role technology plays in this industry.
+Healthcare customers and partners already consume well over a billion dollars in
+NVIDIA GPU computing each year, directly and indirectly through our cloud
+partners. The future market opportunity is incredible. The $250 billion drug
+discovery ﬁeld is being reinvented with digital biology and the ability to use
+generative AI to represent biology in a computer.
+Billions of wearable devices connected to AI supercomputers in the cloud,
+comparing and predicting our health risks. And billions of surgeries and imaging
+studies are going to use medical AI assistance. Generative AI is going to make
+healthcare a very large technology industry where NVIDIA can make a signiﬁcant
+contribution.
+NVIDIA has been preparing for this moment for over a decade, building deep
+domain expertise, domain-speciﬁc computing platforms, and a rich ecosystem of
+partners to accelerate this next generation of healthcare.
+So with that, I will conclude that without a doubt, generative AI is the largest and
+most important technology shift of all of our lifetimes collectively. It has an absolute
+ability to open up the entire healthcare market and very importantly to apply it to the
+world of drugs where biology and chemistry can be represented in computer. This is
+an inﬂection point, an absolute inﬂection point in our capabilities.
+Next generation CADD is emerging. It's emerging in software companies. It's
+emerging in tech companies. It's emerging in large pharma companies. And our
+investments in healthcare are paying oﬀ.
+And so with that, I really appreciate all of you standing in the back and joining us
+today for what is going to be, I think, an inﬂection point for J.P. Morgan where
+technology and AI is going to be the topic of every conversation.FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 13Q - Harlan Sur
+Q - Unidentiﬁed Participant
+A - Kimberly Powell
+Q - Harlan Sur
+Q - Unidentiﬁed Participant
+A - Kimberly PowellSo thank you very much.
+Questions And Answers
+{BIO 6539622 <GO>}
+Thank you. Sorry about that. We're going to jump into the Q&A. So if you have a
+question, feel free to raise your hand, wait for them. We would appreciate if you just
+wait for the microphone. We have one up here in the front.
+Hi. Thank you so much for a wonderful talk. Very, very exciting work. I wonder, how
+does NVIDIA plan on transitioning from the less regulated side of early stage lead
+generation drug discovery to the much more regulated aspects of software and
+hardware that you showed there? Because that seems like a huge jump for a
+company.
+{BIO 22145194 <GO>}
+Yeah. What NVIDIA does as a company is, we build the essential building blocks and
+components. We build those for the companies who really understand the method,
+the method of abiding by the regulatory process, the validation process, going
+through all the trials. That -- it's really -- in order for us to really accelerate that, I think,
+is to take away some of the challenging aspects of using generative AI.
+The challenging aspects of using generative AI is, one, standing up the
+infrastructure, two, getting the AI algorithm to work, three, getting it to scale. And so
+we're taking care of a lot of those aspects of accelerating computing and AI so that
+they can be a tool to be implemented in the methods that this industry is expert at.
+We're not the experts in this ﬁeld or in the methods. We have the deep domain
+expertise so we can translate them and see are there computing platform features
+that we should be building to facilitate that. But it is not in our future that we are
+going to get involved in the actual drug discovery business ourself.
+{BIO 6539622 <GO>}
+We have a question over here.
+Thank you. This is very exciting. Can you share some of the current and potential
+challenges to -- capacity to meeting this exponential growth in demand and interest?
+Thank you.
+{BIO 22145194 <GO>}
+Yeah, I mean, I think it -- we're at a really interesting time because as you -- if you
+even just again watched Chris's interaction with his application this morning, he didFINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 13Q - Harlan Sur
+A - Kimberly Powell
+Q - Unidentiﬁed Participanta less than 10-minute demo and he probably made more than 20 generative AI
+inference calls. Okay? So just one human sitting on a computer for eight hours a day
+is going to be doing something like 10,000 inferences in their given workday on
+applications like that.
+And so we're at a really tricky time right now, where what happened overnight was
+the entire world could use the capabilities of AI. And so that did create a condition
+where there was just a huge vacuum into some of the large applications that even
+my daughter uses or my mother-in-law can use in the area of ChatGPT. That's going
+to go away.
+But the other thing that we do every single day when NVIDIA wakes up in the
+morning is how do we make that computing more eﬃcient? Because we know that
+the scale is just going to continue to expand and expand and expand.
+And if you look at, we publish, it's called MLPerf Benchmarks, for example. These are
+by a consortium of academics and industry, to be an unbiased measure of how well
+we're performing on both training and inferencing. NVIDIA is at the top breaking all
+the records. And when you're more eﬃcient, when you're faster, you're reducing the
+cost, or you're reducing the amount of computational footprint that any one
+application requires.
+So, yes, from a physical capacity demand, we had to get over this hump of this, what
+nobody could have predicted demand. But we're now in full understanding that
+each and every one of us is going to have 20 copilots a day working on our behalf.
+And so we ramp up the physical capacity, but the next thing is addressing the
+software aspects of it, the computing eﬃciency of this, because we're going to run
+out of power in the world. We're going to run out of space in the world.
+And so that is what NVIDIA does. When we talk about full-stack computing platform,
+it's not just the silicon, it's the system software, it's the acceleration libraries, and it's
+the application optimization that sits on top. All of it has to be addressed from end to
+end.
+{BIO 6539622 <GO>}
+We have a question up here in the front.
+(Inaudible - Audience question)
+Okay. Go ahead.
+{BIO 22145194 <GO>}
+I could repeat the question.FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 13A - Kimberly Powell
+Q - Harlan Sur
+Q - Unidentiﬁed ParticipantThank you very much for this. As you know, the drug discovery and development
+ecosystem is really populated by various strata or levels of diﬀerent companies that
+do diﬀerent things, right, to ultimately deliver a drug to the clinic and ultimately to
+the patient. The barrier to entry for what you're providing here seems to be mainly
+focused on very large players who may enable them to essentially do a lot more
+themselves rather than in source or acquire.
+Do you foresee going forward? My question is a little bit forward-thinking. This
+basically collapsing the ecosystem, in other words, making entire parts of our
+industry irrelevant, because they're no longer needed.
+{BIO 22145194 <GO>}
+I -- what -- if you let what we experienced in computer-aided design for chips be any
+indicator, what happened was, at ﬁrst, there was a lot of hodgepodge applications
+out there, everybody going after, and it did somewhat settle down and consolidate
+and codify. That's why I use the words codify into methods.
+I think this codo -- and Chris said it again this morning, the methods -- the individual
+tools themselves are important and impressive, but the methods are what really,
+really matter at the end of the day. And the methods have to do with data as well as
+codifying the process into a software platform.
+So I can't -- it's hard for me to predict, because, as I said, companies, it's even --
+healthcare is obviously much more challenging than designing a chip in a lot of
+ways, right, because we're tackling very -- the disease focus, and they're constantly
+evolving, and people are completely unique.
+So to me, even if we solved some of it for the diseases we know of today and the
+way we solve them today, it's still so far away from personalized medicine. And what I
+would hope is that we're moving into methods that will ultimately personalize a
+medicine for me. Right. And so we're going to go beyond what is today's status quo
+of developing drugs for a population of patients.
+And you're going to want to constantly turn this crank of entering my personal data
+into these systems that provide the right insights, to ﬁnd the biological pathways to
+my phenotype, et cetera, et cetera, into this wheel that would be, this is a drug made
+for me.
+So I think that is going to continue to expand actually -- expand it rather than
+collapse it because we want to go personal.
+{BIO 6539622 <GO>}
+Have a question back there?FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 13A - Kimberly Powell
+Q - Harlan Sur
+Q - Unidentiﬁed Participant
+A - Kimberly Powell
+Q - Harlan Sur
+A - Kimberly Powell
+Q - Harlan Sur
+A - Kimberly PowellYeah. May I ask you a quick question? Can you speak to how any of the approaches,
+BioNeMo or what have you might apply to complex biologics? I see most of the data
+were on small molecules, anything around very complex biologics.
+{BIO 22145194 <GO>}
+Yeah, that's the ﬁeld that everybody wants to get in. And I think that's why proteins
+are being so highly studied and trying to essentially be again represented in
+computers, proteins, enzymes, because of their attractable traits for drugs. And so
+that's where the market is right now, even the AI market, so heavily focused in on
+protein, and then being able to now see biology at very diﬀerent resolutions and
+scales, I think is going to continue to facilitate that.
+So I don't think that it's actually -- in my experience, I feel that it's swaying very heavy
+in terms of complex biologics and the work that the companies are doing.
+{BIO 6539622 <GO>}
+We have our last question back there.
+Does NVIDIA have any plans to develop a data marketplace or collaborative
+ecosystem within the BioNeMo platform for sharing data between pharmaceutical
+companies when there -- for these training sets, for companies that might not have
+such expansive data sets?
+{BIO 22145194 <GO>}
+Yeah. At this moment, we haven't. We're all about -- thinking about what is going to
+need -- what's necessary to push the industry to the next level. If it's open data sets
+and the generation of synthetic data, that is it, we're open to having that discussion
+about collaboration.
+At this point, we're trying to put the AI capabilities in the hands of everybody. But
+happy to have that conversation if you have ideas.
+{BIO 6539622 <GO>}
+All right. Well, we are just about out of time, Kimberly.
+{BIO 22145194 <GO>}
+Thank you, Harlan,
+{BIO 6539622 <GO>}
+Great insights. Thank you for the participation.
+{BIO 22145194 <GO>}FINAL TRANSCRIPT 2024-01-08
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 13Q - Harlan Sur
+A - Kimberly PowellThank you.
+{BIO 6539622 <GO>}
+Thank you.
+{BIO 22145194 <GO>}
+Thanks so much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

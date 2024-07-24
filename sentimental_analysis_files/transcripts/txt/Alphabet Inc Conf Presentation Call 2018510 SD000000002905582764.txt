@@ -1,0 +1,250 @@
+FINAL TRANSCRIPT 2018-05-10
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 6Cassie Kozyrkov, Unknown
+, Analyst, Unknown
+Ritch Houdek, Analyst, Unknown
+Chris W right
+Q - Chris W right
+Q - Ritch HoudekRed Hat, Inc., the 14th annual Red Hat Summit
+Company Participants
+Other Participants
+Chris Wright
+Presentation
+{BIO 6239216 <GO>}
+Now, if there's a company that understands these changes, including machine
+learning and big data as well as open source and collaboration, it's Google. You saw
+one of Google's open source projects, TensorFlow, in today's demo. In just a few
+minutes, Google Chief Decision Scientist will be here. But before she gives you more
+information about what intelligent apps will really look like, we'll hear from a shared
+customer, Kohl's, about their journey with Red Hat and Google.
+So please welcome Ritch from Kohl's and Cassie from Google.
+Questions And Answers
+{BIO 6239216 <GO>}
+All right. Most of you know Kohl's as a chain of leading American department stores.
+But you might not know that they've also been a long-time customer of Red Hat.
+Ritch, could you tell us a little bit about Kohl's and your relationship with us?
+Sure thing. So ﬁrst of all, it's great to be here. I was really looking forward to summit
+this year. And then I saw Weezer was playing. And that put me right over the top,
+icing on the cake. So looking forward to that. So Kohl's, we're a department store,
+almost 1,200 stores, 49 states, about $19 billion in revenue. We've got about a 1,000-
+person IT shop, another 2,500 people in managed services around the globe. So
+big, big technology footprint. We're based in Wisconsin outside Milwaukee. But we
+also have a tech center here in Silicon Valley, in Milpitas. So long time Red Hat
+customer. When I got to Kohl's about eight years ago, there was a small pocket in the
+data center running RHEL. And it was a distant third out of 3 operating systems at
+Kohl's. And I look today years later, RHEL is the predominant operating system and
+we've just signed on for OpenShift as our PaaS platform in our hybrid cloud eﬀort.
+We have eﬀorts underway around Gluster, ActiveMQ. We have a relentlessFINAL TRANSCRIPT 2018-05-10
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 6A - Cassie Kozyrkov
+Q - Ritch Houdek
+A - Cassie Kozyrkov
+Q - Chris W right
+Q - Ritch Houdekautomation eﬀort, Ansible plays a big part there. So we are very excited about our
+future with Red Hat. We've had a good history. The future looks even brighter. It's a
+big part of our digital transformation.
+So we at Google are thrilled to be on this journey with you. Can you tell us a little bit
+more about why you picked Google as a partner?
+Yes. So as we embarked on our hybrid cloud journey, we felt it was important to pick
+a primary public cloud provider. One cloud provider -- even though multi-cloud is
+inevitable, we felt one primary was the right approach where you would go very
+deep and understand that platform, all the nuances, how to optimize your workloads
+to run cost-eﬀectively, how to use networking, all the details and we chose Google.
+And there's really a few reasons for that. One is we're an existing customer. We use G
+Suite, Ads. But more importantly, there were a few things. One, engineering. We
+think Google's engineering is really top-notch. And as we did our reference calls,
+time and time again we heard that not only is the engineering great. But you have
+access to the engineering resources. So we felt that was really important. Two,
+Google, it was really interesting. They said, "Hi. yes, those GCP deals are great." I
+appreciate that. But what do you want to do together? Like, what problems do you
+want to solve in retail? And we found that pretty interesting but I think lastly, the
+tiebreaker, a lot of great cloud oﬀerings out there, was machine learning. We believe
+that, like all of you probably, that that's the next big unlock in our industry. And we
+felt that Google was really the leader in that space and that's where we wanted to hit
+our wagon.
+That's a topic really close to my heart. And I'm so glad that you've chosen us. Thank
+you.
+{BIO 6239216 <GO>}
+So Ritch, you've been moving really quickly and even ahead of many of your peers.
+So it sounds like Red Hat and Google have both played a role in that. What do we
+oﬀer both -- what do we both oﬀer together that you don't get elsewhere?
+Sure. So I would say that as I've gone through my career, one of the things I've
+gotten a much greater appreciation for is the value of partnerships. I would say
+earlier in my career, I didn't probably spend a lot of energy on that. But having gone
+through really good partnerships and other partnerships that weren't so good, it can
+take years, if not a decade, to unwind from some of those decisions that you make,
+right? So I think the secret is this: the secret is to understand what your values are as
+a company and then go ﬁnd partners that align to those values, okay? So with us, it's
+pretty simple. We're a very engineering-led organization and we feel that you guys
+both align really nicely to that. Secondly, we're very committed to a future of open
+source, okay? Not only just open source. But enterprise-grade open source, right,FINAL TRANSCRIPT 2018-05-10
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 6Q - Chris W right
+A - Cassie Kozyrkovthat we can run our business on. So we felt that with the future being so uncertain,
+you don't know where all this is going ﬁve years from now. So what you need to do is
+ﬁnd a partner that has the right stuﬀ in their DNA so that as new products are
+announced and new acquisitions are made, you know they're going to continue on
+that path of engineering-centric and a commitment to open source. So to us, that's
+really what it's about and that's why we're thrilled to partner with these 2 companies
+and looking forward to a great future.
+{BIO 6239216 <GO>}
+Well thanks a lot. I love hearing the kind of open source collaboration is what really
+brings this partnership to the forefront. So we'll turn it over to Cassie. Thank you.
+So how many of you had that moment where you realize everyone is using some
+word and you have no idea what that means but you're too afraid to ask at this
+point? What even is machine learning? Well it's an approach to making lots of small
+decisions with data, something involving algorithmically ﬁnding patterns in data. But
+let me just put it bluntly so that we can all get it.
+It's a thing labeler essentially, that's what machine learning is. It's just a thing labeler.
+So why on earth should you be excited about thing labeling? Well here's my pet
+Huxley. And you've just taken in some pretty complicated data through your senses
+and you just know that that's a cat. And if I show you a diﬀerent image, you're not
+fooled, you still know that, that label is cat. Your brain just does this, you don't even
+know how your brain does it. Now, if we want to get a computer to perform this
+labeling task for us, if we went the traditional way, you know this, programmers, we
+would communicate with the universe in some way, think really deeply about the
+problem and come up with a model. It's a model, it's just a recipe, it's a set of
+instructions that a computer has to follow to get from the image to the label. And we
+would have to hand craft that. Now, think about what this recipe would have to be for
+the computer to correctly detect that there's a cat in the image. I mean, think about
+what you, your brain actually did with those pixels. Can you express that? Do you
+know what your brain is doing? Or have you just had the beneﬁt of eons of evolution
+and it just kind of ﬁgures it out for you? Now, that recipe is really hard to handcraft.
+Wouldn't it be better if you could just say to the machine: here, look at a bunch of
+examples of cats, look at a bunch of examples of not cats and just ﬁgure it out
+yourself. That is what machine learning is all about. It is a completely diﬀerent
+programming paradigm. Now instead of giving explicit instructions, you program
+with examples, with data and let that machine learning algorithm ﬁgure it out and
+stitch that code that goes in between for you. So why should you actually be excited
+by this thing labeling?
+Well engineers, you know we like to get computers to do stuﬀ for us and there's a
+whole class of tasks where we just cannot express the instructions, they're ineﬀable.
+AI and machine learning are about automating the ineﬀable. This is a fundamental
+leap in human progress. Now you can get computers to do tasks where you cannot
+possibly express the instructions. This is so exciting and seems futuristic and diﬃcult,
+right? And when you think about machine learning, the one thing I most want you toFINAL TRANSCRIPT 2018-05-10
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 6think about is microwaves. Who here in the audience knows how a microwave oven
+works well enough to build a new one from scratch? Raise hands. Who can build a
+new one? Do I see any takers, any takers? No hands? Yes, me neither. Who here has
+never used one to reheat food? You all have. Even though you have no idea how it
+works, you're still happy to use one, right? And anyone here feel like you would have
+no idea how to get hold of one, I don't know, like maybe add Kohl's, if you needed
+one? Now, you just told me you have no idea how it works so how could you
+possibly trust this microwave? Well you're not going to trust it by reading the wiring
+diagram, are you? You're going to trust it by taking that it actually does work, by
+having a good idea of what you want it to do for you and then tasting what comes
+out on the other side. And that is exactly what you'll do with machine learning. And
+this is a perfect analogy for machine learning. Now what they don't tell you about
+machine learning, when we use that term, it's actually 2 machine learnings, not 1. Two
+completely diﬀerent disciplines that are as diﬀerent as building microwaves from
+scratch and innovating in the kitchen. And you need completely diﬀerent skill sets for
+these. If you want to be a machine learning researcher, you are building general-
+purpose tools for other people to use. And so the bad news there is that there is
+quite a lot of education that you need to get, it takes a little while to ramp up
+because how on earth are you going to build a better microwave than the one that
+exists already, there's some pretty sophisticated stuﬀ out there, if you have no idea
+how the current one works? So that's the bad news, it takes a long time to become a
+machine learning researcher. The good news though is that if that is your cup of tea,
+we at Google have a large machine learning research shop where we make these
+tools for you that are all powered by open source. So we give you those wiring
+diagrams as a springboard so that you can go and build a better microwave than
+what we have, using our blueprints. And TensorFlow, a really popular machine
+learning project, started at Google before we open sourced it because we believe
+that the community as a whole so much more innovative than just any one of us
+alone. But let's face it, most of you are not here to build general-purpose
+microwaves. You just want to get cooking already, right? You just want to use these
+things to solve business problems. And so you are in the completely other discipline,
+applied machine learning. Now for that, you do not need a PhD. You don't need to
+know how back propagation works and neural networks any more than a chef needs
+to know how a microwave is wired. Instead, what you need is a really good kitchen to
+play in. And we at Google, provide that for you. Let me show you some of the things
+that we have. And what you're going to need kind of depends on what you're
+cooking. If you're cooking with usual ingredients, data. And you're making usual
+dishes, labels, predictions. So say you're making pizza, please don't go reinvent the
+concept of pizza from scratch. There's already recipes out there and you can just
+grab those recipes and start making pizza. And that is what our cloud APIs are all
+about. These are recipes that we've already built that you can just pick up and start
+using. You can just plug them into your apps to make those intelligent applications.
+But say you're cooking with a little twist. Now, it's gluten-free, vegan pizza. Well you
+still don't need to -- you still don't need to start entirely from scratch, it's still pizza.
+You can just adjust what already exists out there. And so what we suggest for you
+here is try cloud AutoML. Sure, maybe we haven't trained our vision system on the
+clothing type that your Kohl's customers are wearing. But no problem, just feed in
+your images with your labels into cloud AutoML. And you'll be good to go, only a
+small adjustment necessary. Now say you're truly innovating, you have your own
+completely unique ingredients, you're doing something pretty diﬀerent in theFINAL TRANSCRIPT 2018-05-10
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 6kitchen. I don't know, maybe now you're making an edible sock that tastes like pizza.
+Well machine learning and innovation are in Google's core DNA. In fact, I can't think
+of a single one of our consumer products that doesn't have machine learning in it
+somewhere. And so if you are innovating in the kitchen, if you're building truly new
+recipes, what we have for you is cloud machine learning engine. This is access to
+exactly the same infrastructure that Google uses to train our models, incredible. So
+you could, if you wanted to, after this session, grab a laptop, open it up and test
+drive our shiny, gleaming kitchen with all those appliances ready to go. And you
+could feel the thrill of a data center and all this cutting-edge algorithms rising up to
+do your bidding. So solving business problems with machine learning, applied
+machine learning is far easier than what most people think. But you don't realize this
+that all those courses in university, those are all about how to build the microwave,
+not how to just use it to get cooking.
+And when I hear people say "Oh, I couldn't possibly get started with machine
+learning until I take a course in it or, goodness, a whole degree," I couldn't help but
+imagine that same person saying "I couldn't possibly use a microwave until I've built
+one myself." You can just get cooking. It's not the lack of degree or course or
+knowledge that's holding you back. What's much, much more important than that,
+what you need to get started is creativity. Figure out what you're going to cook
+because all those tools are already there waiting for you to use them. Imagine
+gleaming kitchens just waiting for you to come play in them. But since this is a thing
+labeler, you need to start by thinking what on earth do you want labeled and see
+how creative you can get with that. You might imagine the label being maybe the
+wave form that sounds like a voice that could make a hairdresser's appointment for
+you. Or you can imagine a few other cases like maybe you are a loving son and your
+aging parents sort vegetables by hand and you want to save them the trouble of
+having to do that on their farm. So maybe, you're thinking about building a system
+that will label the vegetables and sort it automatically so your parents don't have to
+do it. Or maybe you're worried about the ingredients that go into baby food and you
+think it would be great if you could automatically check whether the ingredient is
+safe or spoiled before it goes in. Or maybe you're into the idea of a huge bank with
+trillions of dollars in assets, countering fraud and money laundering automatically
+across millions of accounts. If you imagine that world, you imagined this world. Well
+these are all real examples of things that have been done on Google Cloud platform.
+The ﬁrst is a real family of cucumber farmers; the second is a Japanese manufacturer
+of high-quality baby food products, Kewpie; and the third is HSBC who uses Google
+Cloud to run a better business and catch the bad guys across 27 million customers.
+Pretty diﬀerent chefs, completely diﬀerent applications. Why is Google Cloud
+platform the right choice for all of them? Well think about what you might want in a
+kitchen. You'd want good engineering so you probably want to think about getting a
+partner whose quality you trust. But think more long term than that. If you believe in
+your own inﬁnite creativity, if you believe in the future, you would be crazy to let
+yourself get locked into a kitchen where the purveyor sets it up one time for you and
+then controls what you can and can't have in there. And every appliance has its own
+proprietary little socket that you are not allowed to tamper with. And if your business
+changes, then you have to rebuild and rewire the whole thing. Imagine instead, the
+dream kitchen that becomes what you need it to be instantly. Complete universalFINAL TRANSCRIPT 2018-05-10
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 6wiring, open interfaces, the best of everything, all the modern appliances always
+available. And you can plug them in with no fuss because that wiring is universal.
+That, my friends, is the power of open source. And that is what Google and Red Hat
+together believe in. We don't want to see your creativity squashed by what seemed
+like a good idea yesterday. So we have built for you an incredible, future-proof
+machine learning kitchen. This kitchen can expand, contract as you need it. You can
+plug in whatever you like, all the most modern appliances are there and compatible
+as you need them, fully customizable. Because none of us can tell what innovations
+the future will bring. And we don't want you to have to bet on the direction of
+progress and lock yourselves in. We want you to be free to be as creative as all of us
+can be together. So I hope that you're excited to dive in.
+This machine learning kitchen is there, ready, waiting for you to get started, start
+playing in it. Your machine learning adventure awaits. Thanks so much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

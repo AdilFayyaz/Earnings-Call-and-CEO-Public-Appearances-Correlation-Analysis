@@ -1,0 +1,1318 @@
+FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 1 of 34Aaron Ogus, Partner And Group Development Manager
+Charles Lamanna, Corporate Vice President
+Dina Apostolou, Global Product Marketing Director, WW Business Applications
+James D Balshi, Chief Medical Information Oﬃcer, St. Luke's University Health
+Network
+, Director of Product Marketing, Microsoft 365
+Natalia Mackevicius, Director Of Program Management
+Neena Kamath, Group Program Manager, Azure Mixed Reality Services
+, Corporate Vice President, Azure Data
+, Chief Executive Oﬃcer
+Saxs Persson, Minecraft Creative Director & Head of Minecraft Earth
+Sonia Dara, Surface Marketing Manager
+Unidentiﬁed Speaker
+, Corporate Vice President, Windows and Devices Group
+Satya NadellaMicrosoft Ignite Conference
+Company Participants
+Melissa Grant
+Rohan Kumar
+Satya Nadella
+Yusuf Mehdi
+Presentation
+{BIO 3224315 <GO>}
+Good morning. It's great to be back in Orlando with all of you. We have over 30,000
+people from all corners of the world here and it's great to be celebrating. What you
+all do? I ﬁrst wanted to start by saying "A Big Thank you." A big thank you for being
+that community, that builds Tech Capability in every organization in the world.
+Because what you do and your push, your feedback to us is so important. And today,
+and throughout this week, we're going to celebrate that Tech Capability and that
+Tech Intensity. In fact, my entire keynote is going to be about Tech Intensity.
+Now, as I was coming down, someone told me that there is this new exhibit, at the
+Universal Studios, that perhaps best typiﬁes what Tech Intensity is all about. A team
+came together in less than 110 days. They built this pretty amazing exhibit. And I said,
+wow, to really get into the mood for this morning's keynote, I should go see it. So,
+let's roll the video to show you what happened.
+(Video Presentation)
+Yeah, that's my -- me saving my life. Yeah, I learned a lot about Demo Bargains, but
+really, in fact, that entire exhibit was created, as I said, by a group of people from
+Universal, who came together and use some amazing tech. Azure Kinect is at the
+edge. So this is a great example of the intelligent edge and the Intelligent cloud andFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 2 of 34action. Azure Kinect on the edge did the skeletal understanding, environmental
+understanding, then they had speech reco right on that walkie-talkie. Natural
+language understanding for the dialog as well as Neural TTS.
+And so that in some sense captures the spirit of what we want to talk about. The Tech
+Intensity as a formula is something that we've talked about for a while now. It's a
+pretty straightforward formula, but there are some nuances. The ﬁrst thing is, how
+quickly can you do adopt new technology, because the last thing when you are
+building tech capability in your organization is for you to recreate the wheel. You
+want world-class input. And then the most key thing of course, is for you to build
+your own Tech Capability.
+And then trust is of paramount importance. The power law in this equation is all
+around trust. Of course, we as platform creators have to care deeply about it in short
+trust, but you all, as creators of Tech Capability will also have to treat trust as a ﬁrst-
+class construct. Our mission is simply put to empower you to build that Tech
+Capability. We want every organization to be a digital software company. And that
+means, you all need to have the capabilities to be able to turn every organization
+into a digital company. In fact, our goal is to commoditized digital tech. We don't
+want it to be just the promise of a few companies in the West Coast to the United
+States on the East Coast of China. We want every company out there to be a tech
+company, in its own right. And you are the community that's going to make that
+happen. And our mission is to empower you to do that.
+And today, what I want to do is, walk up the tech stack and talk about how you go
+about building that Tech Capability. I want to start at the very bottom of it with Azure
+and start building up from there. In fact, I want to have some fun with numbers, just
+to motivate each of the layers of the tech stack. When you look at these two
+numbers, 50 billion devices by 2030; and 175 Zettabytes of data by 2025, up from
+around 40 today. That's what's motivating us. That's what is motivating the need for
+us to build Azure as this distributed computing fabric; as the worlds computer.
+We have over 54 data center regions, more regions, than (Technical Diﬃculty) it has
+the right certiﬁcations. It's supporting all of the digital sovereignty rights, all over the
+world. It's also open, both Windows and Linux, Java and.NET, Kubernetes, Redshift,
+VMware, Oracle, SQL Server, Postgres. So every layer of the stack there is openness.
+And of course as we build out this global footprint, sustainability is of paramount
+importance to us. In fact, this summer we launched a new data center design that is
+zero waste and 100% renewable energy. It's so exciting to see this. This is going to
+roll out in Sweden, and it's going to spread throughout every region of Azure. And
+so we are really ensuring that the power utilization eﬃciency of every work load, as it
+moves from traditional data centers to the cloud is something that's contributing to
+the sustainability.
+Now -- yeah, you can clap for that. Now, when we talk about the cloud, it doesn't end
+in the cloud. In fact, the cloud in the edge form that distributed computing fabric.
+That's been at the core of our vision, our design point, for how we built Azure. And
+we want to make sure that there is consistency in the management control plane.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 3 of 34Natalia Mackevicius
+Satya NadellaThere is consistency in the development environments, as well as the infrastructure
+across the cloud and edge. It's so critical. When you're building distributed
+applications, you need that consistency. And of course that has been our competitive
+advantage and today we want to push that even further. The ﬁrst thing we're doing is
+extending the Azure Edge family with some tremendous new innovation. And I
+wanted to throw it out to Natalia, on the show ﬂoor to show you some of the latest
+innovation on Azure Edge. Natalia?
+Thanks, Satya. I'm on the show ﬂoor where you can see the full spectrum of Azure's
+Intelligent Edge portfolio. Edge computing requires processing data closest source.
+The Azure Stack portfolio of products can make all of your edge computing needs.
+Azure Stack Hub provides a full hybrid cloud on-premises. It's an integrated system
+that includes an Azure consistent cloud control plane. It delivers Azure services such
+as server list computing with Azure functions and Azure Kubernetes engine to
+simplify Kubernetes deployment and management.
+Azure Stack Hub can run in connected or fully disconnected scenarios, literally
+irrigate from the public network. Azure Stack HCI, lets you deploy high performance
+at the end in your own software deﬁned data center and connect to Azure for cloud
+services, such as Azure Backup, Azure Monitor or Azure Security Center. There are
+over 150 hyper-converged solutions oﬀered from 20 hardware providers. Azure's
+Tech Edge systems or Azure Managed appliances that bring compute storage and
+intelligence to any edge.
+First is the Azure Stack edge commercial series. We are continuing to add new
+services and functionality to Azure Stack edge. For an instance, we're adding the
+GPU option as seen in this system for NOP processing and inferencing. We're also
+enabling private cellular networks as a service by adding the tech preview of Multi-
+Access Edge, MEC and Azure Stack edge. We've expanded the Azure Stack line up
+with the new rugged series. It oﬀers the same capabilities as the commercial series,
+but ruggedized and even portable for using harsh or disconnected environments.
+This rugged series systems is small enough to ﬁt into a backpack. It's portable and
+with less than GBP10, including the battery, allowing you to run Azure services for
+things like disaster relief, search and rescue or even mining. And all the Azure Stack
+edge oﬀerings are available directly as an Azure service from Microsoft, ordered and
+managed from the Azure portal; no initial CapEx required, no minimum commit. As
+you can see, we have hardware solutions from compute to storage, all the way to AI
+and Mixed Reality devices. Come see our full spectrum on the show ﬂoor.
+Back to you, Satya.
+{BIO 3224315 <GO>}
+Thank you so much, Natalia. It's great to see the innovation on the Azure Edge. And
+in fact, we see tremendous customer momentum already. If you look at GOJO
+Industries, the creators of Purell. They're already using Azure IoT to build, in fact,
+standardization solutions for hospitals. They're in fact, going to use Azure SphereFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 4 of 34Aaron Ogusgoing forward for even better detection and control loop. We have Johnson
+Controls building out a complete new bad solution for smart buildings that uses
+facial recognition and some of the cognitive capabilities in Azure IoT with the
+container on the edge, as well as Hong Kong Stock Exchange, which is obviously
+running a regulated workloads all on Azure Stack at the Edge. So these are just good
+great examples today and with what Natalia showed, we expect this momentum to
+continue to really meet the world's needs out there for distributed computing.
+Now today, one of the most exciting announcements for us is this next big step
+forward in hybrid computing. I'm really thrilled to announce Azure Arc. Azure Arc
+really marks the beginning of this new era of hybrid computing, where there is a
+control plane built for multi-cloud, multi-edge. And not only that, but we for the ﬁrst
+time support managed data services to be anywhere your computers. So again,
+managed data services that are multi-cloud, multi-edge. We also have two open
+source projects that allow you to build these cloud native distributed applications,
+both of new programming model that simpliﬁes enterprise application development
+and a deployment model. And to show you all this, I wanted to throw it out to Aaron
+on the show ﬂoor.
+Take it away, Aaron.
+Thank you. Satya. I'm excited to show you how we fundamentally redeﬁned hybrid.
+So you can bring Azure innovation to your data center, virtually anywhere.
+Imagine, I'm responsible for IT operations that would grow back. Here's my IT
+dashboard. Now, I'm responsible for managing a heterogeneous environment with
+increasing systems sprawl and data silos. And it's my responsibility to deliver the
+agility of the business demands, while ensuring the compliance and security of the
+entire state. With Azure Arc, I can manage all of my resources seamlessly from the
+Azure portal [ph]. Extending management capabilities, Azure management
+capabilities to my data center.
+Now through few simple steps, I can connect my data center to Azure. We ran
+through the steps moments ago, on this HPE Superdome Flex here on stage. And
+momentarily, you'll see my Orlando data center show up as an Azure location. There
+it is. Now with Azure Arc, I can extend Azure Data Services to my data center. My
+bank is rolling out a new risk management application. Let's see how Azure Arc
+fundamentally changes the game. So within the Azure marketplace, you can see
+preview container instances at the Azure SQL DB and Azure Database for
+PostgreSQL. My risk management application runs on Azure SQL DB. So I'm going to
+select. I'm going to choose to deploy it to that Orlando data center I just created and
+click creates.
+Now what we're deploying is the same Evergreen version of SQL available only in
+Azure. Typically, deploying a DB into a VM on-premises is a lengthy process that can
+take hours. But as you can see in a matter of seconds, I was able to install Azure SQLFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 5 of 34DB to my data center. Even better, I now have access to all of Azure's unique security
+capabilities. So I can enable advanced data security and that risk management
+database can take advantage of Azure capabilities like advanced threat detection
+and vulnerability assessment. And I can enable this by default with the policy. This is
+a ﬁrst for on-premises customers.
+Let's see what else Azure Arc can do for me. My Chicago location, another Azure Arc
+location is running a number of Azure Arc enable data services. Here I see an update
+reminder. Now typically updates and patching, as a task that requires constant
+diligence. I know that Azure automates this for me, but what about Azure Arc? Well,
+with Azure Arc, I can automate updates in accordance with my bank's policy. So I can
+specify a custom maintenance window, or I can enable automatic patching and
+never have to worry about a single updates.
+Back in my IT dashboard, I have another warning. This time the PostgreSQL
+Hyperscale database that's powering my mobile banking applications is reaching a
+CPU limit. Now typically in this scenario, provisioning the servers and the databases
+to deal with this unexpected spike in demand, is very time consuming. But Azure Arc
+understands the capacity available in my data centers, enabling me to scale out on
+demand. And with PostgreSQL Hyperscale, I can add instances to power that
+application. I can even scale to over 3,000 nodes is needed.
+Back in my IT dashboard, I see that VCO [ph] increased the CPU and then is resolved.
+And I was able to scale out, just as I do in Azure with no application downtime. Now
+let's take a look at how Azure Arc simpliﬁes IT management and governance for my
+organization. Most of that workloads that are running in my Chicago data center are
+running in containers and Kubernetes. With Azure Arc, I can manage Kubernetes
+from within -- as reported, here are my kubernetes clusters that are across Azure Arc
+locations.
+Now the security is top priority for the bank. And with Azure Arc, I can create a single
+policy that will encrypt the discs that are running on the data basis on the clusters,
+across on-premises and Azure. So I don't have to worry about the application, the
+database where it's running, who is running it, I can rest easy knowing that my data is
+secure, all with the single policy. This is another ﬁrst for on-premises customers.
+Now as a global bank, I need to serve my customers 24/7 worldwide with minimal
+downtime. With Jio replication in Azure Arc, I can easily replicate from one on-
+premises location Chicago to another or to an Azure Data Center or even to AWS.
+This is a ﬁrst, again this time for the industry. So as you can see, Azure Arc uniﬁes my
+operations, enabling consistency and agility across all of my data centers. Azure truly
+is the worlds computer and its innovation is available at my ﬁngertips. And this is just
+one example of how Azure's innovation is empowering customers to achieve more
+across on-premises and multi-cloud at the infrastructure and data services layer.
+Now let's take a look at another example. This time at the application layer, where
+we're simplifying the programming model and deployment of cloud nativeFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 6 of 34Satya Nadella
+Rohan Kumardistributed applications. A great example of a distributed system is the railway
+system with millions of kilometers of railway track around the globe, creating a
+complex network of interconnected parts that almost work seamlessly. It's really
+challenging. Owners and operators must make decisions on their own and with
+limited information. And with no interconnected, interface between those railways,
+it's a challenge. And even with the system is complex, as the railway minimal
+downtime could have serious implications.
+We will well believe there was a better way. They teamed up with Strukton, our
+Maintenance Operator to create a digital twin solution in Azure, creating a
+comprehensive and real-time view of their network. The Willow well distributed
+application has powerful insights, which will enable decision makers to predict false,
+optimize utilization and increase eﬃciency. Now we recently released two new open
+source projects to help our partners like Willow and Strukton. Jaafar provides a
+simpliﬁed cloud-native programming model for distributed applications and rather
+simpliﬁes the deployment and management of distributed applications irrespective
+of where they reside. We look forward to seeing what you do with these innovations.
+Back to you, Satya.
+{BIO 3224315 <GO>}
+Thank you so much. Aaron. It's fantastic to see the innovation enough there. The next
+layer of Azure, but again it's very diﬀerentiated and very important is the data layer.
+To support again your data estate needs, last summer we made some giant strides in
+around operational stores. We brought Hyperscale SQL and with Cosmos DB, you
+now have the support for the variety, the velocity, the volume, your scale needs, of
+course the cloud and edge needs for operational data stores.
+And today, I'm really thrilled do announce Azure Synapse. We are taking the same
+approach of using the cloud-native memory hierarchy and storage hierarchy, to
+redeﬁne the rules around analytic workloads. We want to bring together what until
+today have been two separate categories; data warehousing and big data. That
+means your unstructured and structured analytics can be brought together with
+unprecedented scale. Azure Synapse changes the game around analytics.
+To show you all of this, let me throw it over to Rohan on the show ﬂoor.
+{BIO 19488761 <GO>}
+Well, thank you, Satya, and good morning, everyone. For the purpose of this demo,
+please imagine that I'm a product manager at a gaming company. We've recently
+launched a new mobile game, and I'd like to analyze our telemetry to signiﬁcantly
+enhance user engagement. No matter what the public cloud platform building end-
+to-end analytic solutions, it's really hard and project timelines are measured in
+several months.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 7 of 34Welcome Azure Synapse analytics. Synapse is the next generation of the Azure SQL
+data warehouse, which blends together with data analytics, data warehousing and
+data integration into a single uniﬁed service that provides end-to-end analytics at
+cloud sale. As you see on the screen, synapse makes building. These complex end-
+to-end pipelines into a simple intuitive visual no code experience. With Synapse,
+project timelines will be measured in hours and not months.
+In addition to empowering users to gain quick access and insights across all of their
+data, Synapse enables a whole new level of performance and scale that is simply
+unmatched in the industry. Let's take a look. What do you see on the screen is that
+analytics application that's followed Azure Synapse. Now to essentially analyze end
+user engagement, I need access to a variety of data, including the current
+engagement times, end game to extremes, obligation metrics and telemetry data
+from our device partners, in short petabytes of data. With the Open Data Initiative,
+accessing additional high value data from systems like Adobe is really simple.
+Now to start, I'd like to ﬁnd out the longest playing duration of players for feature
+with the total playing time is less than 20% of the average playing time ﬁltered by
+user demographics and add-on feature names. Now this may sound like a simple
+query, but it's actually quite complex, because we are accessing a joining data across
+multiple very large disported data sources. In fact, a key part of Synapse is the ability
+to query both relational and non-relational data at petabyte scale pleasingly fast
+using an on-SQL [ph] language. Let me issue the query against Synapse.
+Now what's happening behind the scenes, is the Intelligent distributed query
+optimizer of Synapse is executing this query across of hundreds of nodes in a fault-
+tolerant manner, wow, it just took nine seconds to execute this complex query
+against the petabyte scale data set. Now, in the interest of some friendly comparison,
+let me run the same query against Google's BigQuery. Now, what I'm doing is
+running the exact same query against the exact same data set running in Google's
+BigQuery. Now as you can see it's taking a little longer, now the interest of time, we
+ran this query earlier. Any guesses on how long it took Google's BigQuery to
+complete this inquiry? Two minutes? Five minutes? Eight minutes, maybe? Let's take
+a look. It took a whopping 11 minutes. So for this complicated query, Synapse is 75
+times faster than Google's BigQuery.
+Now TPCH is a very comprehensive benchmark for analytics. The current state-of-art
+for TPCH is 30 petabytes. I'm really excited to announce that with Synapse, we have
+successfully run all the 22 TPCH queries and record time at one petabyte.
+Now let's take a look at a diﬀerent capability of synapse. Query concurrency has long
+been a challenge for all analytics systems. Now to showcase how Synapse empowers
+users with limitless scale, I have a dashboard here that compares it with the other
+oﬀerings in the market. Now what's backing this dashboard is a system that allows
+me to issue concurrent user access using industry standard benchmark queries. Let's
+start with 50 concurrent users. As you can see even with this fewer user said,
+Synapse, based on the query response times is three times faster than Amazon's
+Redshift, and ﬁve times faster than Google's BigQuery.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 8 of 34How about raising the stakes a little bit. Let's go to 150 concurrent users. As you see
+on the screen, while Synapse continues to do great, we've head the limits with both
+Amazon's Redshift and Google BigQuery. The Redshift starts queuing request at
+around 100, resulting in signiﬁcantly increased query response time and a vastly
+degraded end user experience. BigQuery users actually have a worse experience by
+default BigQuery starts failing request beyond 100. So, if you happen to be the 101st
+user, you're out of luck. How about raising the states to true enterprise scale? Do you
+think Synapse can handle 10,000 concurrent queries? Let's try it out. Well, as I can
+see in the stage, Synapse is easily able to handle 10,000 concurrent users. What
+you're seeing on the screen is it working ﬂawlessly with 10,000 concurrent queries
+operating on the system.
+Now let's take a look at a couple of our additional capabilities of Synapse. As you
+see on the screen, we've deeply integrated Synapse with Power BI making them the
+best combination in the industry. For example, you can build Power BI reports and
+enterprise with semantic models, right from within the Synapse's work space. With
+this level of deep integration between Power BI and Synapse, business users can
+gain insights that may need to make their data driven decisions in a timely manner.
+Synapse also deeply integrates with Azure Data share, enabling secure sharing of
+data and insights both within an organization and across organization with your
+partners with just a few simple plex. Now some of you may be wondering, what's the
+magic behind Synapse. Well, to achieve this limitless performance scale and true
+simplicity, you've completely re-architected the analytics stack on Azure from the
+ground up. Speciﬁcally, we've merged data lakes and data warehouses into a single
+system that essentially enables querying across both relational and non-relational
+data.
+We support true online elasticity through a cloud-native design, that separates out
+our compute and storage layers, so that they can be scaled out independently. We
+have intelligent multilevel caching, which leverages that memory hierarchy and SSDs
+in an eﬃcient way to give you the best price performance for workloads of any size
+and scale. Our credit scheduling is workload aware and we support multi master
+clusters that would share data sets giving us inﬁnite concurrency and scale.
+Finally, Synapse supports both a server-less query service and a cluster based form
+factor for both Apache Spark and ANSI SQL, enabling all the analytic workloads that
+you can imagine. Well, a modern analytics platform all this stuﬀ is cool, but what
+about predicting the future? Isn't a modern analytics platform supposed to do that?
+Well, with Synapse's deep integration with Azure machine learning, you can scale
+out build and operationalize complex and very powerful machine learning models
+right from within the Synapse's workspace. Let me show you how.
+I'd like to predict the propensity or the likelihood of our user base actually buying in-
+game add-ons, ﬁltered by age demographic. Synapse enables me to do this by
+actually writing a pretty -- modeling a simple query that also includes native scale out
+machine learning based scoring on the Synapse nodes. Let's see how the query
+works. As you saw, the response times was near instantaneous and I got myFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 9 of 34Satya Nadellapredictive analytics within Synapse. Synapse makes AI and ML really simple for our
+data professionals. Azure is the only public cloud that empowers users with limitless
+performance scale and insights. Analytics in Azure is simply unmatched. We can't
+wait to see how our customers use Synapse to digitally transform themselves.
+Back to you, Satya.
+{BIO 3224315 <GO>}
+Thank you so much, Rohan. As Rohan was describing, not only do you need to build
+this limitless data estate, you need to make sure that you can do AI compute close to
+that data. And so our goal has been to democratize AI by building out the best
+infrastructure in Azure for doing AI and creating your own AI solutions, providing you
+the best most productive framework and tools with Azure ML, as well as pre-
+packaged AI capabilities with Cognitive Services for speech, and language
+understanding, computer vision, and we continue to push the frontiers of it and it's
+great to see the customer traction. In fact one of the things that I sort of every day
+check is just start to think about and see the customers deploying this in real world
+solutions and you see Spotify for example using cognitive services to change how
+they do podcast. In fact you can edit a podcast by just editing the text, because of
+this text to speech capability. You have the Atlantic taking 160 years worth of their
+content using Azure search turning it into a knowledge base. You have nationwide
+insurance using the BOT framework to build their customer facing conversational
+agent. ASOS a fashion retailer and a fashion brand is using the decision system in
+Azure ML to build their recommendation engine that's improving their yield. So
+great use cases and this is one of the most exciting areas of what's happening with
+application development on Azure,
+I wanted to talk about three areas where we're pushing the boundaries of where
+computing is going. I want to start with Autonomous systems. When we think about
+autonomous systems, the ﬁrst place we go to is autonomous cars, but in fact
+wherever there is a control loop today, you can think about AI driven autonomy. In
+fact that's our goal with autonomous systems. Across industries to build out, whether
+it's industrial applications, whether it's energy whether it's robotics, how do we
+create that autonomy and it's a couple of key elements. First is to really push the
+boundaries of reinforcement learning, so that you can build an AI engine that's
+capable of driving autonomy, but the one of the things that's important for us is to
+take engineers who today build these control systems and turn them into AI
+engineers by really helping them teach machines.
+So we have a new paradigm called machine teaching, where the engineers are
+teaching these AI engine by putting constrains even giving it safety bounds so that
+you can now have autonomous systems that are driven by engineers' domain
+knowledge. Of course you have a stimulation environment where you generate all of
+this synthetic data and these machine teaching labels in order to be able to train
+these models and then ultimately to be able to pick the right model to drive the
+autonomy. Recently DARPA had a challenge a subterranean challenge and Carnegie
+Mellon University along with Oregon State were the ones who won this
+championship using the Azure autonomous system, and it was pretty fascinating.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 10 of 34There was a mine in Pennsylvania where you had to have this autonomous system go
+ﬁnd object in fact they won because they found two times the number of objects
+compared to their competition and they were able to ﬁnd objects within 20
+centimeter distance of where they were located right completely autonomously and
+it's fantastic to see that type of progress and what we are very, very excited about is
+to see ﬁrst of all, even partnerships we have with MathWorks where they bringing
+simulation engine to Azure to in fact enable more of this simulation driven
+autonomy, as well as really the application across many, many diﬀerent industries
+and I wanted to give you a feel by rolling a video of some of the use cases, let's roll
+the video.
+(Video Presentation)
+The next areas I want to talk about is storage. Again core part of compute and so
+one of the things that we are thinking about is how do we change the game again in
+storage? We were inspired by the use case from Warner Brothers. Now Warner
+Brothers stores some of the most iconic movies of all time, Superman, Wizard of Oz
+in storage systems like the one you see in the picture behind me. Now, of course, it's
+all in ﬁlm, it's in a temperature controlled room and that means it's fragile. If there
+was any kind of drop in temperature or if there is any kind of other issue, you lose in
+fact originals of Superman. Now that would be a tragedy. Now, what we said, okay,
+what if we sort of re-thought this? What if we can take a piece of glass. This is just a
+regular quartz glass and using femto lasers we were able to etch into this glass, the
+entire Superman movie. Now what is fascinating about doing that is, ﬁrst of all you
+encode it in multiple -- multi-dimensional space inside of the glass and so therefore
+you need to be able to read it using machine learning algorithms and so we've built
+this entire system that's fully capable of essentially our new cold storage system. But
+the interesting thing of course is the reliability of this piece of glass. So we add some
+-- and we put it through the ringer, we boiled it, we baked it, we shook it around. We
+tried to scratch with wool and we still have the Superman movie and so that's the
+frontier of new storage systems and we are really, really excited about working here
+with Warner Brothers and bringing new innovation to even core storage systems
+going forward.
+Now the last area around pushing the frontiers of computing, I want to talk about is
+quantum. We have always been very focused on trying to build a general-purpose
+quantum computing environment, because today with all the capacity we have
+around computing, we still have many unsolved problems, right? Whether it's
+around food safety or climate change or energy transition. These are big challenges
+that need more computing. But we need general purpose quantum and so, it
+requires a diﬀerent type of approach, it requires a platform approach and today I'm
+very, very excited to announce Azure quantum and it has three elements to it.
+First, it is about open hardware, we are very excited to have partners, two ion trap
+IONIQ and Honeywell, so this is, they make machines that trap ions and then a
+superconducting partner QCI joins us with in fact, our own quantum eﬀort with
+topological qbits, which is also super conducting machine. So we'll have a variety of
+hardware solutions that are going to be all opened in Azure. Now of course, if youFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 11 of 34have a variety of hardware, the ﬁrst thing you want to do is build and open software
+ecosystem on top of it. And so we have built that, with Q Sharp which is open source,
+QDK that's open source and so we have built that with Q#, which is open source, and
+QDK, that's open source.
+And today, we're also pleased to announce 1QBit also joining with their simulation
+machine learning capabilities on Azure, and so to build a complete toolkit for
+software developers to get started on building quantum computers and quantum
+algorithms.
+Now, one of the most interesting things about quantum is that you can get started
+with quantum algorithms on top of classical, and because of the simulation
+capabilities that we have. Now, we've seen, in fact, many use cases already, across
+healthcare, across ﬁnance, and the electrical grid, as well. But, one example that
+stands out is what Case Western Reserve University, along with the Cleveland Clinic,
+have been doing. I want to roll the video to give you a feel for how you can do
+quantum-inspired work on classical computers.
+(Video Presentation)
+Now, as we build out all these tech capabilities, one of the most important
+considerations for all of us is trust. This is something that we're very focused on, as a
+platform provider, trust across privacy. We have to enshrine privacy as a human right
+in the systems we build. We have to consider the ethics of AI. The models that we
+deploy into production have to ensure that there is no bias built into it. We have to
+improve the state of the art of the development processes with things like machine
+learning ops and data lineage, so that we really ensure that AI is safe.
+But what I want to talk about today is cyber and security, and simply because of this
+number, just last year, the total amount of cost of cyberattacks was $1 trillion. And the
+sad part of this is that the people who are most impacted by this is small-to-medium
+businesses, all over the world, and consumers.
+Therefore, it is our collective responsibility to do our best work to ensure that the
+most vulnerable of these populations are protected. That's why we've focused on
+this end-to-end security architecture, from identity, to devices, to cloud applications,
+to information and data, to infrastructure. How do we have one integrated
+architecture, and opening it up, in fact, for all third parties using the security graph to
+participate, as well, because we need the ecosystem's support, or to have that
+consistency in architecture.
+Now, especially with the management control planes now, one of the most exciting
+announcements of Ignite is going to be the Microsoft Endpoint Manager that brings
+together the comprehensive management control planes for all endpoints. In Azure
+Arc, you know can really deploy the security policies. Not only can you ﬁnd the
+vulnerabilities, but you can deploy the remediation, to all end points, all
+infrastructure, and all data. That's what we mean by the end-to-end architecture.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 12 of 34There are a couple of use cases. There was an attack on 10 smaller pharma
+companies. And it was a phishing attack. It was a social engineering attack. First of
+all, in most cases, 95% of the time, the ATP capabilities in Oﬃce 365 were able to
+catch it, and even if it went to the endpoint, the Microsoft Defender was able to catch
+it. That ability to have defense in depths is so important when end-to-end
+architecture support is so important.
+Rapid Deploy is a company that builds mission-critical software to handle emergency
+calls, 9-1-1 calls, And so each municipality deploys their software, and unfortunately,
+some of these deployments have been attacked, especially one recently in North
+Carolina, which was attacked by ransomware, and now though Rapid Deploy is using
+Azure Sentinel. It's continuously monitoring all of the deployments, ensuring the
+security of their entire estate. And this is great, again, to see how this end-to-end
+architecture and the ability to proactively mitigate on cyberattacks, is being used.
+Now, I want to move up from infrastructure and trust to the next layer, developers.
+Now, this is obviously close and near and dear to everyone at Microsoft because this
+is how we, as a company, got started building developer tools. But one of the most
+interesting things that's happening out there is, today, when you look at the software
+engineering jobs, 61% of the openings are outside of what is considered the tech
+industry. In fact, the crossover, the tipping point was 2017, and therefore our mission,
+that we got started in 1975, is even more important. This is to build the best tool
+chain, the most complete tool chain, for developers.
+With Visual Studio and Visual Studio Code, we have the best ideas out there for
+doing language innovation like type script, we have Azure DevOps to help you with
+all of your build and deployment needs. And, of course, GitHub is the home for 40
+million-plus open source developers in collaboration and communities. And sort of
+bringing all of that, is what our goal is. In fact, the use cases, some of these sort of
+innovations that you'll see, I'm really thrilled about. The ﬁrst one is Visual Studio
+Online. I mean, you should check this out. Even just last night I was going in and
+playing with it. I signed up for it. It's so -- it's a gamechanger for anyone who
+struggles on weekends to create your own dev environments. This is a godsend
+because you now can go to Visual Studio Online. You can get your entire
+environment provisioned for you, with all its dependencies, right there, just on a
+browser, on any machine.
+Another one is IntelliCode. We're using AI, learning from all of the open source code
+out there, on GitHub, and then bringing that intelligence to your editor. As you type
+your code, it's doing all of the completion so that you can build on the shoulders of
+the giants, and that the way it drives productivity.
+Another one is Live Share. Now, just imagine what it can do for a young developer
+who joins a team and wants to have some code reviewed, or goes -- consult with a
+mentor, Live Share changes the dynamic because no development project is a solo
+sport; it's always a team sport.So it's really bringing that next level of innovation with
+GitHub and Live Share, changes the dynamics and culture of organizations. We see a
+fantastic adoption of this tool chain from companies like Stripes, to the VeteransFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 13 of 34Charles LamannaAﬀairs, to Cargill, to Comcast, and to give you a ﬂavor for how cultural dev
+organizations are changing, using these tools, let's roll the video from Comcast.
+(Video Presentation)
+And as we talk about developers, it's not just the professional developers who are
+building applications. One of the phenomenon you see is citizen developers getting
+involved in a very deep way. In fact, it's motivated by the fact, we are going to have
+500 million applications that are going to get created, new, by 2023.
+That's just to kind of put in perspective, more than all of the applications that were
+created in the last 40 years. And so that means we need to empower citizen
+developers with tools that are low-code/no-code tools so that they can build out
+these applications, and that's what Power Platform is all about. In fact, there are
+already 2.5 million citizen developers using Power Platform, and it's great to see this
+community. And one of the things that inspires me to listen to their stories, it's that
+feeling if empowerment, of making a diﬀerence, building that digital capability in an
+organization, perhaps most truly comes through from this community. Let's roll the
+video to hear from them.
+(Video Presentation)
+All right, so it's a really awesome to hear those voices because I think that what this
+community is doing is perhaps going to build the most digital capability, and help
+democratize digital technology all over the world. And today, I'm really thrilled to
+take the next big step forward in terms of the tools that will be at the disposal of all
+of the people who use Power Platform. Today, I'm really pleased to announce two
+new members of the Power family: Power Automate and Power Virtual Agents. Power
+Automate brings full robotics process automation to the Power Platform, along with
+a lot of other capabilities. And Power Virtual Agents bring language understanding,
+using the bot framework, with now full language understanding and conversational
+capabilities to the Power Platform so that you can build these virtual agents.
+To show you both of these, let me it throw it out to the show ﬂoor, Charles, to show
+you Power Automate as well as Virtual Agents.
+Thank you Satya. For over 40 years, TruGreen has helped homeowners create
+beautiful and healthy lawns. And one of the most important ways they engage their
+customers is with the TruGreen websites.
+And in the past, if a customer wanted to schedule an appointment for a TruGreen
+agent to come out their homes, they had to call the 1-800 number during business
+hours, a very lengthy and painful process. However, with Power Virtual Agents,
+TruGreen has been able to completely transform how they engage their customers.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 14 of 34Their customers can now just walk up and report the actual issue that they're facing,
+and this will go use Power Virtual Agents on the backend
+To identify common issues that can be causing that problem and it even integrates
+with the TruGreen knowledge base so that it can pull back all of the relevant
+information for that particular problem.
+And on top of that, with all of that additional information, I can even go and start to
+schedule an appointment. And just by providing my email address, it will actually go
+to the TruGreen backend, cull their scheduling APIs, and ﬁnd the next spot, the best
+time for me to have an appointment. And just like that, I'm able to go and book a
+TruGreen agent to come out to my home, something that used to take hours, but
+now just takes a couple of minutes. But what is really special about it is how they
+built it. TruGreen use Power Virtual Agents, the newest addition to the Power
+Platform, which makes it possible for everyone in the world to go create chatbots
+without having to write any code.
+The way that Power Virtual Agents works, as you can see on the right-hand side of
+the screen, a visual designer that captures the entire chatbot experience, as well as
+the AI that backs it, and on the left-hand side, something called tracing, which makes
+it easy for you to actually watch how your customer interacts with that chatbot. So, if I
+go and run through the same set of steps as I was doing before, we can see that on
+the right-hand side of the screen the Power Virtual Agents chatbot will automatically
+start showing all of the diﬀerent steps, as they run through. If I zoom in here, we can
+see all the diﬀerent user responses that I oﬀered, and if I go back out, you can see
+that this is exactly what the customer sees in their chat experience, as well.
+This just continues to advance through, using all kinds of great AI capabilities,
+without requiring code or data science. Now, if I want to go and schedule an
+appointment, that requires pulling out for the TruGreen backend system. To do that, I
+used Power Automate. Power Automate has over 275 diﬀerent connectors which
+make it possible to connect all your diﬀerent business applications, right out of the
+box. So, when I provide my email address, that is actually going to that backend
+system, and looking up the next-best time for me to have an appointment to send a
+TruGreen agent out.
+And for this next part, when I conﬁrm that I want to have this appointment, you can
+see that it's using Power Automate, again. However, the system I want to interact with
+is a contact management system which is legacy and Win 32 app which doesn't have
+any APIs. The only way I can talk to it is through the UI, and that's where the brand
+new UI ﬂows capability of Power Automate comes into play. It makes it possible for
+me to just record a series of steps on my desktop which will then run in the
+background as part of my standard Power Automate workﬂows. Just to show how
+easy that is, I can launch the TruGreen contact management application. I can go
+take an input from the virtual agent, or the email for the user, paste that in there, and
+I can then go and click "search" after I do that, and that will actually make it so that I
+can go search that particular record, in that contact management system.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 15 of 34Satya NadellaSo, I switch over to the "save the activities" tab, and then what I want to do is, I want
+to capture all of the outputs from that chat experience because that information will
+be useful for the TruGreen agent when they go out to the home. That makes it
+possible for the customer to have a complete end-to-end experience with TruGreen,
+all integrated and highly automated.
+When I click "done" then I can switch back to Power Automate. You can see, inside
+that same web-based Power Automate visual designer, all of the steps I just recorded
+are visible. If I expand each of these individual steps, we can see the search box, the
+text command, and all of that information is captured, in a truly automated way,
+allowing me to very easily record this information in a contact management system.
+Now, I'm switching back to Power Virtual Agent. Once I conﬁrm this appointment, it's
+actually going to go and trigger that UI ﬂow that I just ﬁlled. What this is going to do
+is, it's going to capture all of this information I was just entering inside the chat box,
+opening up that Win 32 application, simulating all the same keyboard inputs and
+mouse clicks that I just did. This uses three diﬀerent types of rules in AI to make sure
+that I've selected exactly the right controls in that UI automation, making this
+incredibly robust and durable.
+And this is a great example of how, when you use the Power Platform, you can do
+two really amazing things. The ﬁrst is without writing any code. Anyone can be a
+developer, completely transforming how your business operates. The second is that
+you can do all of this without replacing your back oﬃce software or systems.
+Between data connectors and UI ﬂows, we can connect to anything in your business,
+making it easy and actually aﬀordable, completely transforming your company in a
+very short period of time. To show another great example of this in action, we're
+going to roll a great video from the American Red Cross.
+(Video Presentation)
+{BIO 3224315 <GO>}
+It's great to see all of that innovation in Power Platform. But, most importantly, and as
+I said before, it's great to see how it's democratizing how applications and
+technology is being built everywhere, by domain experts, citizen developers, the
+people who are closest to solving some of the hard challenges.
+Now, going up one level in the stack, business process. One of the things that is
+going to deﬁne the competitiveness of every business going forward is going to be
+how well do you harness the power of all of the data that is there in your enterprise
+to drive the transformational outcomes for your company.
+It's not about other people using your data; it's about how good are you at driving
+your business process using the data you have. That's core to what we are trying to
+do with Dynamics 365.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 16 of 34Dina ApostolouIn fact, today, when you think about the amount of data there is, one of the sad facts
+is 73% of the data is not analyzed. That means you're not able to drive that next level
+of automation, creating that next level of predictive power or analytical power,
+because that's going to deﬁne competitive advantage.
+And our goal with Dynamics 365 is to build out that world-connected business cloud
+so that you can harness all of your data to drive the productivity of your business
+process. That means you want to create these digital feedback loops across all of the
+key elements -- people, operations, products, customers; all of that has to come
+together. In fact, an AI-ﬁrst company is a company that knows how to take data from
+one system and change the outcome of another system. And that's what we
+endeavor to do with Dynamics 365.
+In fact, a great example of this is the Customer Data Platform and Customer Insights.
+This is all new innovation in Dynamics, and it typiﬁes this change in paradigm from
+being reactive to data to being proactive with data. How do you take all of the data
+that you have in the enterprise and bring it together with all sources? In fact, we built
+the data platform -- in this case, Customer Data Platform and Customer Insights -- on
+top of Azure Synapse, so it builds up all that rich platform capability. That means all
+of your enterprise data can be brought in.
+And then, on top of that, you can operationalize AI at scale. So, you can build these
+customer segments to drive the next level of experience. But those customer
+segments are not being created by just using data in a CRM system. It's using all of
+your data, so if you want to target someone for sustainability eﬀorts, you want to be
+able to take your supply chain data and bring it into your segment creation. Of
+course, it has to be extensible, and all of the Power Platform capabilities come
+together. And you also want to bridge. One of the things that we're very excited
+about is how business processes are changing by bridging what is physical and what
+is virtual.
+And AEP Energy is, in fact, using Customer Insights to just do that, and it's a great
+use case of how all of the data can be brought to bear in changing the customer
+experience. And to show you that, let me throw it out to Dina on the show ﬂoor.
+Thank you, Satya. AEP Energy, a retail electricity and a natural gas supplier to more
+than 400,000 residential and business customers, is transforming their business
+model from buying and selling electrons, which have become commoditized, to
+consulting with customers to help them make the best energy decisions that are
+eﬃcient and sustainable.
+The challenge is that they don't have a holistic view of their customers because data
+is residing in disparate sources. The foundation to deliver an exceptional customer
+experience lies in the ability to have a uniﬁed view of your customer. AEP is using
+Dynamics 365 Customer Insights to create a 360 degree view of their customers andFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 17 of 34re-imagine how they're servicing them by infusing the insights into their business
+processes.
+Let's go take a look. Today, energy managers are unable to provide real-time
+recommendations to their customers. With Customer Insights, the new customer
+data platform solution from Microsoft, we've enabled AEP to create that master
+proﬁle that comes together with customer and real-time product usage data, and to
+discover high value segments based on solar propensity.
+They were able to create that consolidated proﬁle without the need for complex
+integrations using our prebuilt connectors. They brought together Dynamics 365,
+utility usage from regional transmission organizations, and weather data. This
+aggregated dataset lands in Azure, meaning you have full control of your data while
+being backed by security and compliance from Microsoft cloud services. And with
+this data sitting in Azure, you can run powerful analytics with Synapse.
+With the AI and machine learning capabilities of Customer Insights, AEP can now
+precisely identify customer segments to target with energy recommendations, like
+this one here: high energy consumers. This data and insight can be translated in real
+time to inﬂuence how AEP employees better sell and service their customer. For
+instance, AEP can proactively dispatch an energy manager to go onsite. The energy
+manager can see all the speciﬁc device details for that anomaly with their behind-
+the-scenes meter or a generator. And looking here, they can see that this customer is
+in the high energy use category, and an alert indicates that they can beneﬁt from
+alternative energy options.
+When looking at this customer detail further, I see all that rich information from
+Customer Insights -- the full contact information, a timeline of activities. But the thing
+that I see most here at the top is the spike in energy use on hot days that exceeds
+the network capacity. The intelligent recommendations are telling me that the
+customer could beneﬁt from solar as a way to reduce their energy consumption by
+35% and ﬁx energy as a way to limit the expected rising costs.
+Now, seeing is believing, and I want to make sure that the customer has conﬁdence
+in their purchase decision. With Dynamics 365, and the Product Visualize, and the
+power of mixed reality, I can help they customer explore solar panels right here in
+person.
+Now, solar panels can be extremely complex and technical, but seeing them taken
+apart makes it far easier to understand. Instead of videos and brochures, Product
+Visualize allows the energy managers to help the customer to better understand the
+product, creating a more conﬁdent purchasing experience at the real world scale of
+using mixed reality. This notation feature allows us to quickly highlight in context with
+data, as well as existing marketing materials, like this note here about polycrystalline
+wafer, which, when compared to monocrystalline, absorbs sunlight better in partially
+cloud climates like Columbus.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 18 of 34Satya NadellaNow, all of this information is linked in the Common Data Service, so that allows us to
+use predictive data modeling to get an accurate estimate of the customers' cost
+savings over the next ﬁve to 10 years. What makes AEP unique is their consultative
+approach to helping customers make the best energy decision. Microsoft and AEP
+are partnering together to bring data, AI and mixed reality to create that 360 degree
+view of their customer so they can personalize every customer experience. Together
+with their customers, AEP is redeﬁning the future of energy and developing
+innovative solutions that power communities and improve lives.
+Now back to you, Satya.
+{BIO 3224315 <GO>}
+Thank you, Dina. I'm here at the Modern Work portal to talk about the next layer of
+our stack with Microsoft 365, and empowering the knowledge workers and the
+ﬁrstline workers. In fact, the two stacks that motivate all of our work here is 25 and
+40%. It takes 25 minutes to get back on task when you're multitasking, and you lose
+something like 40%of your productivity.
+And so, with all this abundance of computing around us, what is scarce is human
+attention. And that's why we are building the world's productivity cloud with
+Microsoft 365, to help you focus on things that matter the most to you. And the way
+we're doing this is by starting by putting people at the center of it all. It means we've
+got to really think about how they express themselves, how they communicate, how
+they collaborate, how they create knowledge inside of the organization. That's what
+drives all the innovation across Microsoft 365.
+But it starts with device innovation. Devices are the most personal things in our lives,
+and we want to make sure that we are bringing the best in class innovation, starting
+from the silicon to new form factors. We just recently had the Surface launch where
+we really pushed the envelope of creation of new categories and new types of
+devices. And right behind is the wall of all devices from Surface and all of the
+innovation in our OEM partners and ecosystem. It's great to see this come to life.
+Now, ultimately, we want to drive new experiences that take advantage of these new
+devices. We want to infuse AI into every experience out there. We're infusing AI into
+PowerPoint; presentation are more persuasive. Data is more actionable in Excel.
+Videos are more searchable, and stream and emails are more acceptable through
+Cortana.
+Microsoft Teams has been a breakout experience. It brings together for the very ﬁrst
+time in one user experience scaﬀolding, chat, meetings, collaboration, as well as
+business process. And 350 organizations with over 10,000 users are using Teams
+already, so it's really amazing to see the momentum around Teams.
+And today, at Ignite, we're taking that even a step further. Some of the features that
+you all have been waiting for -- our private channels are now generally available,FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 19 of 34Melissa Grant
+Sonia Dara
+Melissa Grantmultiwindow chats to pop out chats and meetings into separate windows, new
+integrations into Yammer and Outlook. It's fantastic to see all of this come together.
+Now, the next step forward for us in M365, or Microsoft 365, is knowledge. If you
+look at it, you're using your devices. You're using these applications. You're creating
+perhaps the most valuable data about your people, their relationship to other
+people, the expertise, the artifacts of work; all this today is raw data. We want to
+convert that into knowledge that accrues on a continuous basis. This is, again,
+putting your data to work for you.
+And so, I'm really thrilled to announce Project Cortex. And Project Cortex takes what
+is data today inside of your organization and converts it into knowledge. You now
+have AI-driven topics, so essentially you have AI creating topic wikis inside the
+enterprise. You have the ability now in the context of any document or any mail.
+For example, if you get an email with an acronym, you can look up what that
+acronym means because AI, again, has gone to work. It can work that data into
+knowledge. But more interestingly, you can ﬁnd the experts who know something
+about that acronym, and you can really integrate and interact with them.
+You can also interrogate a document. You can have a conversation with document.
+Say you're looking at a contract. You can ask the contract, "When is the ﬁrst payment
+due?" That's, again, converting data into knowledge.
+To show you all of this and a lot more, let me throw it out to Melissa and Sonia to
+show you all the innovation across Microsoft 365.
+{BIO 21181424 <GO>}
+Hi, I'm Melissa.
+Hi, I'm Sonia.
+{BIO 21181424 <GO>}
+Today, we're going to show you the top 12 innovations we're most excited about
+across Microsoft 365 and Surface. Think of this as the holiday wish list to help you
+unlock products across your entire organization. Let's start with the newest service in
+Microsoft 365, Project Context. As Satya just shared, Project Context bring together
+the power of the Microsoft Graph with AI, people, content and apps into an
+interactive knowledge repository. It sounds complex, but we've made it incredibly
+simple to use. I'll show you.
+Here in this message, I see a reference to a code name that I'm not familiar with, but
+Project Cortex has recognized it as a known topic within my organization andFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 20 of 34Sonia Daraproactively highlighted it for me. When I hover over it, I get a topic card. Clicking in
+brings me to an AI-generated knowledge network that pulls together experts on the
+topic, as well as content, like presentations, videos and conversations, all curated for
+me in this pattern map. This is a great way to ramp up new team members or share
+knowledge across an organization.
+Here in my knowledge network, I notice a stream video from an expert in the ﬁeld.
+(Video Presentation)
+Understandably, there's a lot of background noise when you're onsite. However,
+Microsoft Stream's new voice enhancement feature uses AI to drop out that
+background noise so I can focus just on what's being said. Let's listen to the
+diﬀerence with this feature on.
+That's so much better. And you may have noticed I've been doing all of this on the
+brand new Surface Pro X, our thinnest two-in-one ever. It's always ready with my new
+Surface Slim Pen ready at my ﬁngertips because it charges while docked right here in
+our new signature keyboard. So, I can jump right in to a brainstorm using the
+Whiteboard app and inking.
+Hello, Sonia. Looks like you're already in here.
+Yup. I'm in the same Whiteboard experience here on the Surface Hub 2 S, which is
+perfect for team collaboration and also, now, mobile. Using the new templates in
+Whiteboard, we're able to easily organize our thoughts, assigns tasks, and it even
+sums up ideas that you agree with. But here, let me show you one of my favorite
+features. So here's an image of a ﬂoor plan. I'm going to select it, hit the "ink grab"
+tool, and using AI, it's going to convert this into digital ink. So, I can come in and edit
+it as if I had drawn this directly into the Whiteboard myself. Pretty cool, right?
+But we know Teams are going remote, so we want to showcase a few AI-powered
+experiences that will help create more personal connections in meetings. So here,
+you can see all of my teammates looking sharp on this 4K+ resolution screen. You
+know how, oftentimes, people look disconnected when you're in a video call
+because they're looking down at their screen as opposed to up at the camera? Well,
+this person's using the Surface Pro X, which supports new EyeGaze technology. The
+AI corrects the direction of her gaze so it's looking as though she's looking directly
+at me. Also, nice oﬃce background you've got going on over there.
+But we know not every conference room has a Surface Hub yet. We have some
+teammates who are joining on a call in a conference room with a physical white
+board, so we're not really able to easily follow along with their notes. But fortunately,
+they're in a Teams room with a dedicated Whiteboard camera. Using AI, the camera
+detects the edges of the white board and zooms in. But the real magic is that it alsoFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 21 of 34Melissa Grant
+Sonia Dara
+Melissa Grant
+Sonia Daradetects him and makes him transparent, so when he walks in front to write
+something on the board, all of us online are able to see right through him to the
+content. All right, Melissa. What's next on our list?
+{BIO 21181424 <GO>}
+Let's bring AI and voice into the mix with Outlook. Show me emails from Jordan with
+attachments. Using Microsoft Search with natural language, Outlook gives me just
+the emails from my colleague, Jordan, where he shared a PowerPoint attachment
+with me. This is such a more natural and easy way to search.
+I also like to use my phone to capture images of information I know I'll need later.
+So, I'm going to use image-to-table in the new Oﬃce app to take a photo of this
+dataset here. The Oﬃce AI will recognize it and analyze it, and convert it into a real
+Excel table for me. I don't have to manually enter the data or format the cells. It's all
+done right here. And now that it's a real Excel table, I can easily continue to work
+with it or share it with my team. And this is so important because, as you know, we're
+collaborating with more teams than ever before around the globe. At Build, we
+announced a new collaboration platform called Fluid Framework. Fluid works by
+breaking down documents into component parts that can be collaborated on in real
+time across diﬀerent applications. Fluid previews in just four weeks, so I'm super
+excited to show it to you in action today.
+Here we are in a Teams chat where you can see diﬀerent folks form the group
+collaborating on a document together.
+Jump on in, Sonia.
+Sure. So, I'm here in Outlook. I was sent the same table in the body of an email. I'm
+able to see your edits coming in from Teams, and you should be able to see mine
+coming in from Outlook. I can also use this data to create a pie chart and it'll all be
+connected on the backend, just like how it is here on this PowerPoint slide on my
+brand new Surface Laptop 3.
+{BIO 21181424 <GO>}
+I love Fluid because I can continue to collaborate even while on the go. Here, we see
+the same table on my mobile phone. Now, notice there's the missing data here. I'm
+going to add that in. Now look at the PowerPoint and watch as it is instantly updated.
+Fluid is truly breaking down the barriers between applications. I know you're going
+to love it.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 22 of 34James D Balshi
+Unidentiﬁed SpeakerAll right, that was a whirlwind tour of 12 AI and hardware experiences. But we have
+two more to show you for next year's wish list. A few weeks ago, we announced our
+vision for a new category of dual-screen devices: Surface Neo with two nine-inch
+screens running Windows 10X, and Surface Duo with two 5.6 inch screens running
+Android, both available holiday 2020. We're so excited for you to start using these
+amazing innovations from Microsoft 365 and Surface.
+Now, let's head over to Dr. Balshi from the St. Luke's University Health Network.
+Hi, good morning. St. Luke's University Health Network is a non-proﬁt with 10
+hospitals, 300 ambulatory sites, a medical school, a nursing school and 15,000
+employees. We have a mission, an unwavering commitment to excellence, delivering
+care to our community, educating our physicians and nurses, and improving access
+to care for our patients.
+For me, it's personal. I was born at St. Luke's, and I, like many of my colleagues, have
+spent my entire career there, often caring for each other's families. Working with
+Microsoft, our physicians, our nurses and our technologists have started to manage
+the overwhelming tsunami of healthcare information that inundates us every day.
+Microsoft 365, and in particular, Microsoft Teams, is allowing us to reduce our
+administrative tasks, to organize our patient care, and to collaborate with
+teleconferencing and ﬁle sharing, secure text messaging.
+The Microsoft employees who work with us at St. Luke's have become like family.
+They understand our culture, our work ethic, and our priorities. They've helped to
+empower and move our organization forward in digital transformation, and that's
+something we're really excited about at St. Luke's.
+Now, I'll turn it over to my friend, Yousaf Saijid [ph], who's going to tell you some
+great things about Teams.
+Thanks, Dr. Balshi. Today, I'm going to show three scenarios on how St. Luke's uses
+Teams and Microsoft 365. Care teams needs to be in constant, and at
+Times, urgent communication with each other, but that can be especially challenging
+when you have 15,000 people spread across 10 diﬀerent hospitals, like they are at St.
+Luke's. But with Microsoft Teams, they can stay connected through chat, audio clips
+or even video calls right from their phones. They can easily use a smart camera to
+take a photo of something like a patient's skin condition. They can mark up the
+image right in Teams so the Care Team knows exactly what to follow up on.
+Next, they can ﬂag the message as urgent so that the right specialist who might be
+miles away at a diﬀerent hospital can respond at the right time. Now, the best part isFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 23 of 34that the image is not stored on their personal device; rather, it's saved on the secure
+M365 cloud, which enables the Care Team's HIPAA compliance.
+Now, in addition to improving internal communication, St. Luke's has looked for ways
+to transform clinical processes to better patient care outcomes. To ensure doctors
+are continuously improving and providing the most empathetic care to patients, St.
+Luke's used Power Apps to develop their own patient experience app. The app helps
+to gather and provide feedback to doctors during their rounds. Right from their
+phones, clinicians can select the doctor they're shadowing, and then, right in the
+app, they can score the patient and provider interactions.
+They can even put qualitative feedback around topics like provider duties. Once
+they're done, they can hit review and get an individual summary of the feedback that
+was shared, and an overall score. Now, the data from this assessment and across all
+the assessments are ﬂowed into a Power BI dashboard using Power Automate. Here
+the leads of each specialty can review individual performance data, realize any
+performance trends and approve quality across the entire network of hospitals.
+Now, a core part of St. Luke's mission to improve patient care is ensuring that the full
+context of the patients' care history, including those notes outside the health
+records, naturally follows them to every interaction they have, regardless of the
+clinician they're seeing that day. Microsoft Teams integrates electronic health record
+systems via a FHIR extensible interface. This healthcare interoperability standard
+enables data interoperability in Teams. Now, what this means is that providers like St.
+Luke's can bring in relevant medical information from their systems of record into
+one central hub meant for collaboration.
+Here, all the providers in surgical oncology can get a list view of the patients they
+care for. They can then click on a patient and get up-to-date information from the
+EHR, like medication. They can then improve those critical patient data hand-oﬀs by
+inputting notes around care logistics, in this case, a patient needing to fast prior to
+procedure in the morning. They could even dynamically collaborate around this
+information like through video in a team huddle, while knowing that they're on a
+secure platform.
+It's been incredible to see all the ways that St. Luke's is using Microsoft 365 to
+improve patient care, but now I want to show you something new. Today, we're
+announcing Virtual Consult, a feature in Teams that will be available to customers
+across all industries. And in healthcare, this type of patient provider video
+collaboration can help networks like St. Luke's reach even more people.
+Here, an administrator can access a scheduling view of clinicians in the Care Team.
+They can book a consultation by inputting relevant notes, like leading notes and
+consult-type. Once done, they just click "send." At that point, the patient receives an
+email with a customization and Teams meeting link to join. The best thing is that they
+don't even need a Teams account to participate. They just need a web browser and
+they can join in one click. So before the meeting, the doctor can turn on aFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 24 of 34Satya Nadella
+Yusuf Mehdicustomized background so they can hide any sensitive patient information behind
+them. And once they're in the meeting, they can engage with a patient, who may be
+at home, or they may be at a diﬀerent hospital quite all together.
+Hey, Travis. We're going to begin by sharing your test results. This was a quick
+glimpse as to how Teams is transforming healthcare, but Teams is a hub that adapts
+to any industry. Whether you're in retail, manufacturing or ﬁnancial services, it uniﬁes
+everything your organization needs to communicate, collaborate and move your
+business forward.
+Back to you, Satya.
+{BIO 3224315 <GO>}
+Thank you so much, Melissa, Sonia, Yousaf and Dr. Balshi. It's great to see all of
+innovation across Microsoft 365. So the last piece of innovation we want to talk
+about is the web. When you think about what's our usage of the web, in fact, 60% of
+our time on PCs does get spent in the browser. But we still have some very big
+questions. The real question is can we expect more. Is our data safe, and private, and
+protected? Why can't we ﬁnd the information inside our organization like we do on
+the web? And why doesn't the web work with all of the productivity tools that we use
+every day?
+And to try and take a step forward and ﬁnd answers to these questions, we are going
+to innovate across both our browser in Edge, as well as Bing and Search. And to
+show you all this innovation, let me throw it out to Yusuf on the show ﬂoor.
+{BIO 1823106 <GO>}
+Thank you, Satya. Here at Microsoft, we think the time is right to expect more from
+the web. And we hear this from everyone -- IT professionals, developers, every day
+people. So today, we're going to unlock a whole new wave of innovation to
+empower you on the web. I'm going to start by focusing today on people in
+business, and our goal is to bring, really, the best browsing capability and search
+capability to deliver you the best experience on the web. Now before I get in and
+show you all the cool things that are going on, let me address the elephant in the
+room. Some of you out there might be thinking, hey Microsoft, what's changed over
+the last 10 years in browse and search that will make you be really competitive?
+Well, I would like to welcome you to the new Microsoft Edge. Today, we released a
+new browser update that is going to address three big things that we've been
+wanting to do to get in there and be super competitive. First is we now release
+separate from the operating system, so we ship at internet scale every four to six
+weeks we're doing innovation. Second is we're going to run now on all platforms
+that you have in your company -- iOS, Android, Mac, Win 7.
+And last and most importantly is, about a year ago, we moved to the Chromium
+browser. What that has allowed us to do is now deliver for you world-classFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 25 of 34performance and compatibility. These are the two key things.
+Let's start with performance. Here on the left side of the screen, you'll see the old
+Edge, and on the right, you see the new Microsoft Edge. We are over twice as fast.
+We now rival Chrome in terms of performance for rendering web pages. Second, on
+compatibility, as you would imagine, we are now perfect matched compat our
+websites, so now you can rest assured you've got world-class tools.
+Now, with those things, we can start to do some things that go beyond and innovate
+on that and push the boundaries. I'll start ﬁrst on one on performance and one on
+compat.
+Let's start with performance. What I wanted to introduce for you today now is the ﬁrst
+personalized homepage that is unique for everyone that speeds you to what you
+want to get done. What's going on under the covers here is I'm logged into my
+Azure Directory, so the system knows about me and it knows about the Microsoft
+Graph. So, I get specialized links and data for me, so the speed to get to action from
+the page is dramatic, and only we can do this on Microsoft because of the Graph
+and Azure.
+Secondly, what we do is we're going to push the boundary forward on compatibility.
+You can believe that you can even be more than 100% compat, because today, 75%
+of Fortune 500 companies run more than one browser. They run Internet Explorer
+and a modern browser, like Chrome or Edge.
+Let me show you this. This is an IE legacy site that we actually run at Microsoft for
+time reporting, and when I click on it, I get a separate IE instance. But what you see is
+it's actually inside of Edge. So now, you only have to have one browser to manage
+your entire estate. That's a massive time savings, massive management savings.
+All right, second thing is privacy and security. This is a top concern for all of us. If
+you're an IT professional, you already know that we're world class at managing and
+securing your data state. But today, I want to show you show you some things we're
+doing to empower us all as individuals. And I want to focus on privacy and security.
+Let's go ahead and start ﬁrst with some of the privacy. So today, when we all surf the
+web, behind the scenes, we don't really realize it, but a lot of tackers and cookies get
+dropped on the machine. So in this slide, for example, I'd go to weather.com. And
+what you'll see is that over 66 trackers are loaded onto my IT piece for this site from
+average surﬁng. But what you see below is we've blocked 62 of them, and part of
+that is because we are taking a new, more protected stance to help you on the web.
+So what you see here is this is the conﬁguration page, which you don't have to go to,
+but we give you three options now: Basic, which is how the web works; Strict, which
+is we really control all tracking and we reduce personalization; or Balance. Balance is
+what we do by default. This is more protection than you get from any other browser.
+So if you want to really have your data and your privacy secure, you're going to wantFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 26 of 34to go with Microsoft Edge. The other example of what I want to show you is
+Incognito. So if you search today and you use Chrome, Chrome's got a great feature
+called Incognito that keeps your browsing safe and private. But what you don't know
+is you can be accidentally logged in if you're on Gmail, and your search is on private.
+Let me show you the new capabilities now with Microsoft Edge and Bing. I go into
+InPrivate, but look at this. When I start to navigate to a page, we will actually prevent
+you from being accidentally logged in, right? We keep you InPrivate, and when you
+type in searches, all those searches are kept just on the machine. They don't go back
+to the server. So if you want the most private way to search and browse on the web,
+you're going to want to go with Edge and Bing. All right, the last big pillar of work, I
+have two things I want to show you: How you can start to get more knowledge out of
+the web, as Satya talked about it. Today, the web is this incredible research tool, but
+it's hard to collaborate.
+So let me give you an example. I'm an IT professional and I'm looking to put
+together a set of recommendations on PCs to buy. So today, what we do is you'd
+send around links. But now, look at this: I can create a separate Collections page on
+the right. And what I'm able to do now is, as I surf, I can kind of drag and drop things
+over. I can add whole pages. It's kind of like a scratchpad. And so, here I go to
+Amazon, I go to Best Buy, and I pull in the computers I'm looking to see. Not only do
+those pictures come over, but all the metadata comes over. So now, you've got it in
+one place. You don't have to email these things around in links. And then, when I
+want to share it, with one click, I can come in and I can just share that, and now I can
+share with people. If you're doing a personal example, I can share with my family.
+And here's some pretty magical stuﬀ. Watch this. I can say, 'Export to Excel,' and in
+the back and automatically, we gather all the data from those web pages and drop it
+into Excel. Yeah, how cool is that? Look at that. This is all live data. You've got reviews.
+You've got ratings. You've got prices. These are powerful tools to harness knowledge
+out of the web. All right, last but not least, I'm going to save the best for last here. We
+want to really now do a big thing forward that we can only I think uniquely do a
+Microsoft. We want to unite the internet with the intranet, the ease of use of how you
+surf the web with the power of your own data, right?
+So let's take an example. Today on the web, the web is magical. You can ﬁnd
+hundreds of millions of documents in sub-second time, but how many of you have
+had that problem where you can't ﬁnd the document you want inside of the
+company? Everyone here travels. You want the travel site so that you can do your
+booking. Does anyone know the SharePoint travel site? I don't. But watch this, now.
+Within my own browser, within my own search engine in Bing, I can start to type in T.
+I get web results, but look at this. I also get the links inside my company, and with
+one click, I get taken right to the Microsoft -- in this case, my travel site -- and there's
+the SharePoint URL. Take a look at that green URL. I'd have never remembered it.
+Today, we go one step further, though. So 76% of the information in companies is in
+unstructured data, but we now can read that data just like you can read on the web.
+So if you've ever used Bing to say, "Hey, how tall is the Empire State Building, orFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 27 of 34What's the weather today?" and we answer at the top, what if you could do that
+within Bing today? Watch this. Let's say I want to ﬁnd out how many days can I take
+oﬀ for jury duty. I can just type that in, and as I type that in, up will come not just the
+website but the actual answer, 10 days at Microsoft, and you can see it. So, we can
+read the web semantically and pull it out.
+Here's another one. I've got two dogs I love. I want to know can I bring my dogs to
+work. I can just type in, can I bring my dog to work, and we will go in and ﬁnd this
+thing, which is very obscure inside the company, and what we'll see here is not only
+does it give you the pet policy, which is unfortunate, I can't bring them in unless
+they're a service animal, but we didn't even have dog show up, it had pet policy. And
+that's because we have an understanding of the semantic web. So, imagine now
+being able to query all of your intranet and just use basic English to answer the
+question.
+Here's my favorite, Power BI is a new way to run companies and get access to your
+data. Now when I'm looking for sales of the new Surface laptops we launched a few
+weeks ago, I can say, give me the Power BI for multi-sales overview and I get it right
+there. I don't know the URL, I get the link. And if I want to look at all of the other data
+around there, I have one-click link and now I can pull up all the Power BI dashboards.
+So, that's what's great for intranet-searching.
+Now let me show you people search at the next level. So, I'm going to do a trip to
+England and I want to meet with Sophia. I type in Sophia and I get this real beautiful
+contact card. Now, what you don't sort of know that happened is in the background
+the Graph knew, oh, Sophia is probably most relevant for me because of emails
+we've exchanged. So, you would each get a diﬀerent Sophia in your company. But
+what I want to do now is I want to do something more complex. I know I'm meeting
+with Sophia, who's in engineering. So, I can just add to my query, hey, Sophia in
+engineering, and then I get the Sophia in engineering. But I'm actually traveling to
+London, so I want the Sophia that's in London. So, I can just use natural language
+and it will ﬁnd the Sophia that's most relevant to me. This is Sophia Morta. She's in
+London. That's the person I want to meet with. And now look at that contact card. I
+can get access to all this great data to go out there and meet with her.
+So, for example, I want to come out and ﬁnd out where her oﬃce is. All those oﬃce
+maps that are in your corporate service, you can now get one link and I can turn
+around and ﬁnd out where we're going to meet and it will help me save time as I get
+to London. And I can also use that on my phone. So, with your Azure Active Directory
+you're logged into your iPhone or Android phone, you can now get access to all
+those company resources right oﬀ your phone.
+And best of all, if I want to prepare for the meeting, I can come in and look at the ﬁle
+that she's shared with me, so I don't have to go and search my emails to say, hey,
+what were those ﬁles? They're all right there with one click of a button. And if you
+look closely, the ﬁles aren't just from Microsoft sites, there's one there from Box, and
+that's because today we're making a bunch of announcements to create newFINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 28 of 34Satya Nadella
+Saxs Perssonconnectors, so you can not only search the intranet but you can search all of your
+other content in there like Box and SAP and Salesforce and ServiceNow.
+In fact, today, I'm pleased to announce that over 100 connectors are coming online
+that will help you be able to get access to all of this great content, and they're
+coming empowered by some of our ecosystem partners who are providing these:
+Accenture, BA Insights, and Ration.
+So, what you'll see today is if you want the best browsing and search experience,
+today we are announcing the release candidate, the ﬁnal release candidate for
+Microsoft Edge is available. Go up and download it now if you want to have the best
+and most private browsing experience. Our ﬁnal version is coming January 15th in
+over 90 languages. And for IT professionals we're going to put this into the Fast
+Track program, so we're going to help you make all the deployments easy, and there
+will be sessions later today to talk to you about it.
+And all your sites will automatically work, including your legacy sites in IE11, they'll
+work automatically. But if they don't, you let us know and we'll ﬁx them for free with
+the new App Assure. So, we think it's time to expect more out of the web. We're
+excited to unleash whole waves of innovation. Today's a big step forward for
+business. You'll hear more about what we're doing for developers and for everyday
+people coming next spring.
+With that, back to you, Satya. Thank you very much.
+{BIO 3224315 <GO>}
+Thank you so much, Yusuf. We're very, very excited about all the innovation across
+Edge and Bing. So, I want to close where I started, with our mission to empower
+every person and every organization on the planet to achieve more, it's all about
+creating that tech intensity, that tech capability inside of every organization. And we
+started the day with Stranger Things, which typiﬁed in some sense tech intensity. I
+want to end by talking about another fun experience, Minecraft Earth.
+We started the launch of Minecraft Earth around the world and, in fact, tomorrow it
+will launch in the U.K., but we wanted to give you a demo of playing Minecraft Earth,
+which brings together some of the core capabilities of the cloud with this iconic
+game and turns the real-world into a playing ﬁeld. So, let's have Saxs and Neena
+show us Minecraft Earth.
+Thank you, Satya. We're excited to be here today to talk about Minecraft Earth, a
+brand new Minecraft in augmented reality. We've been wanting to bring Minecraft to
+the real world for some time now, but the problem is like how can we give players
+the same experience no matter where they are or what they do, and doing that at
+scale is a pretty hard problem.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 29 of 34Neena Kamath
+Saxs Persson
+Neena Kamath
+Satya Nadella
+Neena Kamath
+Satya Nadella
+Saxs Persson
+Neena KamathThis is where Azure's spatial anchors come in. If you want to ﬁnd your way to the
+park, GPS can get you there. But if you want to ﬁnd the mushroom under the tree at
+the park, you're going to need something a lot more precise than what GPS can do
+for you. Today, onstage we're going to show you all of this in action.
+So, for the past couple of months, we've been populating the planet with Minecraft
+Adventures. Adventures are life-sized holograms. They're a little bit of Minecraft
+sprinkled all over every neighborhood and it's where you go to get blocks, it's where
+you go to quest, ﬁght mobs and grab the best loot.
+Why don't we take a look at the game? So, Minecraft Earth starts on the map.
+Everything you see on the map, this is right around here in the convention center.
+Every little 3D icon is an experience we can have. I can click this little graph icon and
+get like quick resources, jump a rabbit, carrots. That's useful. Or if I want a fully
+immersive experience, we can go into one of the Adventures.
+While Saxs joins this Adventure, well, I've already gotten started. I started here, and
+there's a spatial anchor that I've joined. Saxs can join the exact same one so that we
+can play the game together in the exact same spot.
+{BIO 3224315 <GO>}
+Can I play?
+You'll get to play in just a second.
+{BIO 3224315 <GO>}
+Okay.
+So, here we see like an anchor that we made a couple of days ago, and here onstage
+like wherever I go, I get directed back to where the shared experience is going to be
+right there. So, why don't we place it and invite Satya in here?FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 30 of 34Satya Nadella
+Neena Kamath
+Saxs Persson
+Neena Kamath
+Saxs Persson
+Satya Nadella
+Saxs Persson
+Satya Nadella
+Neena Kamath
+Satya Nadella
+Neena KamathAll right. I'll set up a game for you as well. It has all the things on the hot bar that you
+need.
+{BIO 3224315 <GO>}
+Thank you.
+And if you join me right over here --
+You guys look great.
+-- we can get started.
+Let me put in a rabbit. If you guys get your carrots ready --
+{BIO 3224315 <GO>}
+Oh man, I want a rabbit.
+Uh-oh. Satya, it's coming for you.
+{BIO 3224315 <GO>}
+Is it?
+Oh, you have some carrots in your hand.
+{BIO 3224315 <GO>}
+There you go. Those are the carrots.
+I'm going to put some carrots in mine and see if I can get the rabbit to like me more,
+but apparently not. I think you've got more carrots than me.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 31 of 34Saxs Persson
+Satya Nadella
+Neena Kamath
+Saxs Persson
+Neena Kamath
+Saxs Persson
+Neena Kamath
+Saxs Persson
+Neena Kamath
+Saxs PerssonSatya, if you take a pickaxe and then break a hole in the ground, this is one of our
+puzzle-based adventures, and there should be a lot of stuﬀ hidden down there. If
+you just hit the play part --
+{BIO 3224315 <GO>}
+Oh, I'm going to hit the rabbit.
+Oh!
+Oh! That didn't end well. I promise that wasn't on purpose. So, if we look down here,
+like we see a mine cart with a chicken, mine cart tracks. It looks broken. Maybe if you
+guys mine the track up here on the surface, we can repair the track and send the
+chicken home.
+All right, let's grab this track that's up here.
+And again because we're in a shared experience, like everybody's exactly where
+they're supposed to be and we can play like a multiplayer game but just real scale.
+Are you guys repairing it or do you need help?
+I think we can repair it ourselves. Satya looks like he's started already.
+Uh-oh. We need to break this one and get it ﬂat again. There you go.
+All right, perfect. I'll add this one here.
+There you go.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 32 of 34Neena Kamath
+Saxs Persson
+Neena Kamath
+Satya Nadella
+Saxs Persson
+Neena Kamath
+Saxs Persson
+Satya Nadella
+Neena Kamath
+Saxs Persson
+Neena Kamath
+Saxs PerssonLooks all ﬁxed. Thank you for helping.
+I sent the chicken home.
+All right, so I'm going to go ahead and push this button so the chicken can go home.
+{BIO 3224315 <GO>}
+This is scary. I'm going to jump into this.
+All right, this sounds like a skeleton.
+Uh-oh.
+Get your bows out.
+{BIO 3224315 <GO>}
+Oh, bows.
+All right, I might need some help. I'm really bad at getting the skeletons.
+Trying to shoot you. Maybe if you move over here, Satya, we can see you.
+There you go.FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 33 of 34Satya Nadella
+Saxs Persson
+Neena Kamath
+Satya Nadella
+Neena Kamath
+Satya Nadella
+Neena Kamath
+Satya Nadella
+Neena Kamath
+Satya Nadella
+Neena KamathI don't even see him.
+{BIO 3224315 <GO>}
+I just bring my axe out.
+Start breaking some stuﬀ.
+All right, that's good, he seems to have gone home.
+{BIO 3224315 <GO>}
+He's wrong.
+But we see here that we were at least able to solve this Adventure and send the
+chicken home.
+{BIO 3224315 <GO>}
+That's fantastic.
+They're probably hanging out together.
+{BIO 3224315 <GO>}
+That's fantastic. This is fun. We can play all day.
+Well, unfortunately, we don't have all day for this. I think you've got some other
+things on your calendar.
+{BIO 3224315 <GO>}
+That's right. So, what's next?FINAL TRANSCRIPT 2019-11-04
+Microsoft Corp (MSFT US Equity)
+Page 34 of 34Saxs Persson
+Satya NadellaSo, as you can see here, with Azure Spatial Anchors we were able to set up this
+common anchor and jump in and play. Azure Spatial Anchors is in public preview
+and it creates a real world canvas for your business, whether it's in enterprise or
+gaming.
+That little bit of tech magic was what we needed to make Minecraft Earth special.
+And Minecraft Earth is out in a few select countries in early access and it's going to
+be coming to the rest of the world very, very soon.
+{BIO 3224315 <GO>}
+Fantastic. Thank you all very, very much. Have a fantastic Ignite. Cheers!
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

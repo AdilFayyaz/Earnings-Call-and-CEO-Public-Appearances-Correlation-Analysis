@@ -1,0 +1,531 @@
+FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 14, JPMorgan Chase & Co
+, NVIDIA Corporation
+Harlan Sur
+Kimberly PowellJP Morgan 39th Annual Healthcare Virtual Conference
+Company Participants
+Harlan Sur
+Kimberly Powell
+Presentation
+{BIO 6539622 <GO>}
+Good afternoon. Welcome to JPMorgan's 39th Annual Healthcare Conference --
+usually held here in San Francisco, but virtual this year. My name is Harlan Sur. I'm the
+Semiconductor analyst for the ﬁrm. For the third consecutive year, we have the team
+from NVIDIA presenting.
+For those of you that don't know NVIDIA, they're a leader in visual and accelerated
+computing silicon and system level solutions in areas like artiﬁcial intelligence, deep
+learning, powering some of the world's largest supercomputers and driving
+compute innovation for cloud and hyperscalers as well as larger vertical markets like
+healthcare.
+And with us today from NVIDIA is Kimberly Powell, Vice President and General
+Manager of Healthcare at NVIDIA. She is responsible for the company's worldwide
+healthcare business, including targeted hardware and software platforms for
+accelerated computing, AI and visualization that power the ecosystems of imaging,
+genomics, drug discovery and precision medicine.
+Given the battle against COVID-19, the NVIDIA team has contributed its compute
+acceleration solutions to aid in the ﬁght against the virus. So Kimberly, thank you for
+joining us today. And with that, why don't I go ahead and turn it over to you?
+{BIO 22145194 <GO>}
+Thank you, so much, Harlan. It's truly a great honor to be here as always. I appreciate
+it every year -- and especially this year. I mean listening to the talk this morning -- and
+it's just truly inspiring to see the tremendous global eﬀort to eradicate coronavirus
+and build up a speed of the light response system.
+As devastating as the virus is, it's really created this extreme focus on the healthcare
+industry. Of course, in pharma and healthcare delivery, but government, academia,
+start-up and the tech industry like ourselves have all joined together and trying to
+create a response.FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 14So today, I'm really excited to be here, and I'll share some of the critical role, really, of
+artiﬁcial intelligence and computing across healthcare and what we think could be
+truly 2020 was the beginning of what I'm calling the AI healthcare era.
+So if we could advance just quickly, let me remind you of our safe harbor statement
+you're all familiar with and for any forward-looking statements.
+And on Slide 3, a picture we're all very familiar with, but let me put it into perspective
+of understanding human disease and discovering therapies is truly the greatest
+human endeavor. The drug discovery process really represents the incredible
+complexity of this problem.
+There's no equation for biology, and it's been an incredible past couple of decades
+where we've set out to digitize as much biology as we can through things like
+genomics and electron microscopy for 3D protein structure or cell imaging and
+(inaudible) human data, all in the form of now digital data.
+This is the amount of data we can produce today and more biomedical data in about
+three months than the entire 300-year history of healthcare, as said by our fellow
+partners at GSK.
+And so this is now becoming a problem that no human really can synthesize that
+level of data, and we need to call upon artiﬁcial intelligence to truly take some of the
+next steps necessary in understanding human disease and discovering therapies to
+serve it. And that's about biology.
+And then you have to introduce, of course, the chemical space. As we look at the
+chemical space, there's more than 10 to the 60 [ph] potential molecules out there,
+essentially an inﬁnite problem.
+And so again, here, applying artiﬁcial intelligence to discover novel compounds and
+being able to stimulate and create digital and virtual microscope is something that is
+being sought after by the entire industry at large. And so this is truly an artiﬁcial
+intelligence problem and a computational problem.
+And so we're really excited to be helping to advance our discovery through
+computing in a drug discovery process, this very complex process where one phase
+ﬁts into the next essentially making recommendations. And artiﬁcial intelligence
+computing can truly help us bring recommendations and accuracy levels of those
+recommendations better and better so that we can attack some of the major
+challenges.
+The fact that it takes about 10 years to bring a drug to market is far too long. So
+accelerated computing can serve that. The fact that our success rate and the cost to
+discover these things is far, far too high of a cost and too low of a success rate, this is
+where artiﬁcial intelligence can come in.FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 14And so without a doubt, this is -- artiﬁcial intelligence is the most powerful
+technology force of our time. And 2020 really ushered in breakthroughs in
+biomedical research driven by artiﬁcial intelligence.
+AI (inaudible) achieved experimental accuracy in a lot of domains for the ﬁrst time
+ever. Experiments are slow. They introduce human error, and you can largely not do
+them in parallel like you can do in computers. And so increasing the speed and
+resolution of predictions and simulations has been a tremendous breakthrough in
+2020.
+Let me give you some just incredible examples. Genomic variant detection. So
+Google in their beat variant was -- has essentially created a universal variant collar so
+that we can now harness not only short read sequencing technology but also long
+read sequencing technology.
+So it's a universal variant collar that doesn't require human statistical algorithms in
+order to increase our single nucleotide variant accuracy. And NVIDIA, (inaudible)
+have implemented in the Google deep variant, and the world is now leveraging that.
+It's getting tremendous traction. And in the precision FDA challenge, the accuracy
+levels were far better than ever before.
+Virtual drug screening, being able to go through that -- what seems to be an
+intractable chemical space of compounds and being able to do that at a pace where
+the more molecules we can dock, the more we can discover.
+And so (inaudible) and his team created a -- an application called deep docking [ph],
+where AI and docking was able to essentially screen through 400 billion
+compounds, and for coronavirus, discover 1,000 hits that are now going into the lab
+there from UBC at the Vancouver prostate center. So 4 billion compounds,
+something they can do now in a matter of a couple of days versus the month -- many
+months that it would have taken previously to combining the eﬀects of artiﬁcial
+intelligence and accelerated and high-performance computing.
+As many of you have probably heard, the incredible breakthrough recently also of
+Google's (inaudible), the second generation of their 3D structure prediction
+algorithm driven by deep learning. Their ﬁrst incarnation of this was using (inaudible)
+neural networks and -- which is more known for working with imaging data.
+But recent breakthroughs in natural language processing and machine translation
+known as transformer models, so things that really are more used in the area of text
+and understanding text, they use those algorithms to make a truly breakthrough in
+3D protein prediction -- structure prediction and achieved experimental accuracy.
+This is just a tremendous breakthrough that could be very, very transformational to
+the industry.
+All the way through to a recent (inaudible) price, which is essentially the Olympics, if
+you will, of accelerated computing and supercomputing, (inaudible) in the HPCFINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 14COVID-19 consortium, they really put their heads together to say how can we use
+artiﬁcial intelligence to drive molecular dynamic simulations. And essentially, they
+were able to create what they call a computational microscope.
+In computation, being able to see the coronavirus and how it enters the cell at
+atomic scale and resolutions that truly no instrument actually can even produce.
+There's just a handful of critical breakthroughs in 2020 where both see artiﬁcial --
+high-performance computing and now being enhanced with artiﬁcial intelligence
+techniques, creating tremendous breakthroughs. And what that's done is, really, it's
+double the level of computing that is needed throughout the drug discovery
+process.
+From the right-hand side in the chart, our high-performance computing --
+computational demand is increasing because the data is increasing, the length of
+time scale is increasing, the way we can scale across supercomputing has been
+increasing.
+But now with this biomedical data values and bringing artiﬁcial intelligence into the
+equation, we've literally doubled that. And so for each drug discovery organization, a
+minimum of 10 petaﬂops of computing is now going to be needed, and that's just at
+the beginning of this new AI revolution.
+Artiﬁcial intelligence is really about software writing software. It's software that writes
+software that no humans can. And -- but it's a little more than that. If you think about
+artiﬁcial intelligence, and we even think about in healthcare and the practice of
+medicine is intelligence is domain speciﬁc.
+The data that you need in order to leverage artiﬁcial intelligence is domain speciﬁc.
+It could be imaging to the genomic data. It could be electronic health. It's very
+domain-speciﬁc and diﬀerent than consumer artiﬁcial intelligence that we know
+today.
+At the same time, in order to deal with those data speciﬁc features, you also need to
+have algorithms and compute that are aware of that domain speciﬁcity. Diﬀerent
+model architectures are used for medical imaging than is used for when you're
+tagging a picture in your Facebook.
+And we need to be aware of that and create the algorithms and the frameworks in
+order to bring the domain experts into this artiﬁcial intelligence era. And similarly,
+the task that artiﬁcial intelligence performs is also very domain speciﬁc. The
+automation of skills, that truly is what artiﬁcial intelligence is. And you can see that
+healthcare and the practice of medicine incorporates many diﬀerent domains that
+are all incredibly domain speciﬁc.
+And that brings us into what is the mission of NVIDIA healthcare. And our mission is
+to bring the state-of-the-art computing approaches into the domain of healthcare,
+and we've done that over the last several years with a computing platform we'veFINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 14called NVIDIA Clara. It's named Dr. Clara (inaudible). She was the inventor of the
+American Red Cross. It's a platform to help people.
+And this platform is domain speciﬁc, and it's really in the center there -- visualized in
+the center of this chart where you can see that pretrain models that are ﬁt for
+chemistry, genomics, imaging, biomedical, natural language processing, these
+pretrained models are one of the cornerstones of any AI computing platform.
+It's where -- it's the starting point where you can now start to introduce domain-
+speciﬁc data and train those models. And so in order to train those models, you
+need what's called a training framework. And so we're built on the shoulders of
+giants.
+Facebook has largely developed an open source framework called (inaudible). And
+we recently also announced (inaudible), which has been dubbed the pie which is
+healthcare because there is so much domain-speciﬁc software development that
+needs to go into this.
+We've even created training paradigm known as something like federated learning
+[ph] where, in healthcare, we know that the security of data is paramount. So how
+can we learn from the data that resides in the walls of the hospital but not have to
+move it or compromise its security, and we do that with something called federated
+learning where hospitals all over the world can contribute to the learning but not
+have to compromise their data security.
+And then lastly, how do you deploy these algorithms in a hospital setting inside an
+instrument, large-scale and a genomic sequencing center, on the cloud. This
+deployment platform for where these AI skills want to live is very diverse, and it's
+very domain speciﬁc. And so NVIDIA serves that with the NVIDIA Clara platform built
+on top of our ubiquitous NVIDIA computing platforms.
+NVIDIA's computing platforms are available in every public cloud, in every OEM data
+center products. And even for a speciﬁc embedded low-power, high-eﬃcient
+instrumentation, just like our self-driving cars are our computing problems go inside
+of medical instruments, even handheld medical instruments that are now being
+made possible because of our oﬃcial intelligence.
+NVIDIA Clara as a computational platform for healthcare has gone through an
+incredible expansion in 2020. You've known us for imaging and instruments for over
+a decade. At the last JPMorgan conference, I introduced our -- introduced us into the
+area of genomics.
+And we've expanded into 3 other also very critical areas, natural language
+processing, where tremendous breaks that have gone to super [ph] human levels of
+performance to be able to -- and we made a speciﬁc biomedical version of natural
+language processing, domain speciﬁc, so that it can be much more understanding of
+the lexicon of healthcare, diseases, proteining [ph], all things that we just studiedFINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 14Wikipedia or Reddit, we wouldn't have that deep understanding on a biomedical
+level.
+This is going to be critical for taking some of the dark data in healthcare such as our
+unstructured clinical notes or even the structured data on electronic health records
+and making fantastic associations to lead us to better discoveries with language
+processing.
+We all sort of introduced Clara Guardian, which is a conversational AI platform. With
+the incredible pressure that the coronavirus has put on our front-line workers and
+our healthcare delivery systems, we need to ﬁnd ways to automate and protect
+patients when a nurse may not always be able to be there. We can do that by using
+voice, speech and vision systems that are -- were used to our everyday houses.
+We have smart speakers. We have smart cameras that know who's at our door. These
+same technologies with some domain-speciﬁc models and applications can be
+made so useful to scale our healthcare workers. Whether it's scale as a patient
+assistant, where a patient can ask, what is my procedure today?
+Am I allowed to have water instead of having to call a nurse to get that information?
+Or how can we be able to monitor patients both for their safety if they're going to
+fall or their vital signs? All can now be done through some of these smart sensors,
+and we've introduced the platform for that, and we had tremendous uptick in it.
+And then ﬁnally, what I'll talk to you about in just a moment is our drug discovery
+platform called Clara Discovery. With the addition and massive expansion to NVIDIA
+Clara, we have ﬁvefold increased our downloads in just 12 months. It's just been an
+amazing year, and the response from academia, start-ups industry in leveraging our
+platform to have critical breakthroughs is amazing.
+We made another record breakthrough with over 1,000 NVIDIA inception AI
+healthcare start-ups in our program. NVIDIA is in contact and in a member program
+of a virtual accelerator.
+We have over 7,000, but over 1,000 of those are in healthcare alone. And we've also
+reached a critical milestone and critical mass of over half a million NVIDIA GPU
+instruments out there and deployed for this industry and to serve both clinicians and
+patients and understanding and ﬁguring out how to treat them in most eﬃcient way
+possible.
+So introducing NVIDIA Clara Discovery, just at the tail end of last year, it's an AI
+computational drug discovery platform. Again, it really builds upon the last 10 years
+of NVIDIA Healthcare. Everything that we're working on, whether it be in imaging or
+genomics, is truly in service of drug discovery because it's such a multidisciplinary
+and such a complex problem.FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 14We partner with the industry leaders, whether it be in 3D structure prediction,
+applications and platforms or whether it be in simulation. We partner where the
+applications are being built to make sure that they can scale, run as fast as they can,
+be as accurate as possible. Where no solutions exist, we've gone oﬀ and built them.
+With NVIDIA, Parabricks [ph] and our rapid platform in genomics, again, our rapid
+GPU accelerated data science platform for searching the chemical space and doing
+docking, again, our own biomedical, bio megatron, natural language processing
+algorithms, and of course, our Clara imaging platform, all of this connected in to
+really reimagine this drug discovery process, which is AI and computationally driven.
+The AI-driven Doug discovery process is being adopted and driven by the world
+leaders in drug discovery. This is just an incredible snapshot of some of the
+innovators in AI drug discovery that are truly looking at each and every corner of this
+process and learning how we can do things better, faster, cheaper, with more
+accuracy.
+An example of Regeneron Genomics Center, they initiated that genomics center
+because they understood that genomics could really be critical in doing better
+target discovery, being able to make genomic and phenotypic association to
+enhance their target discovery, which literally starts the entire process of drug
+discovery and harnessing that genetic data information.
+They use NVIDIA Clara Parabricks to generate the world's largest whole (inaudible)
+database of 200,000 whole (inaudible), and they were able to compute that in just
+under a week. Regeneron Genomics Center is one of the most highest throughput
+genomic centers in the country, and they really saw the accuracy gains of using deep
+variants in terms of the single nucleotide accuracy as well as the speed and scale
+that NVIDIA Clara can bring to them.
+Structura Biotechnology, their platform is instrumental in cryo-electron microscopy
+and using AI-driven 3D reconstruction to build 3D protein structures. In fact, the
+team who started this company was the ﬁrst to build the 3 structure of the COVID-19
+spike protein. And because of the speed and artiﬁcial intelligence, they were able to
+do that in 12 days, something that just a few months ago would have taken a few
+months to do.
+When we're in a race against time, which, of course, the coronavirus has created that,
+what artiﬁcial intelligence and accelerated computing can do is create a time
+machine.
+Relay Therapeutics has used NVIDIA's GPU data science platform to really be able to
+interactively explore the chemical space to be able to look at millions of compounds
+in an interactive manner such that they can make better decisions into the rest of the
+compound discovery and lead optimization hit to lead process.FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 14And it's just an amazing accomplishment to say something that would have taken
+hours or days and turning that into seconds, which really transforms the way that we
+are going to work, and it allows us to open our aperture where we have 10 of the 60
+chemical (inaudible). Continuing to open our aperture is going to allow us to feed
+more and more drug discovery.
+Adam Weiss [ph], another leading start-up company, has invented Adam Net [ph].
+And Adam Net is able to screen 16 [ph] million compounds in under two days. So
+this ability to then take and open the aperture and understand what drugs we should
+be docking and then sampling all of those into this massive screening so that we can
+better -- lead to better outcomes of what we're going to feed into, again, the next
+phase of the drug discovery process.
+Vyasa [ph] leveraging NVIDIA's biomedical NLP [ph] so that we can help synthesize
+all of the incoming COVID-19 data. There's dozens of papers being written every day,
+and systems like theirs that can leverage both the literature and the real-world data
+that's coming in to help us have a better understanding for both vaccine and therapy
+discovery.
+Schrodinger [ph] has been pioneering the spaces of simulation, one area of binding
+free energy with their FEP calculations being at the cornerstone of what they do for,
+increasing and doing better lead optimization.
+And over the years, introducing AI into the platform and increasing FEP into absolute
+calculations, they're able to really transform not only the amount of throughput of
+the system, but also the accuracy and success rates of simulation.
+And then Recursion [ph], another leading-edge company here who really
+understand -- sees how being target agnostic is also another approach to drug
+discovery, where being able to build the world's largest now digitizing biology,
+building the world's largest human cell imaging data sets and putting to the power
+both automation to build those data sets and then machine learning to extract
+features out of the data sets of high (inaudible) screening and being able to really
+reimagine the drug discovery process through digitization of biology. So these are
+just a few examples of just incredible breakthroughs by the world's innovators and
+AI-driven drug discovery.
+We know that drug discovery and the amount of computing and the complexity of
+the computing also needs its own and new instruments. NVIDIA has recognized that
+the U.K. is one of the most innovative and, really, a melting pot for AI and healthcare
+innovation in the world that we have decided to build the computational instrument
+for AI healthcare called Cambridge 1 [ph] and AI supercomputer in the U.K. The U.K.
+is known for discovering the structure of DNA.
+I mean, they are pioneering in so many forms of healthcare, one of the world's
+largest healthcare systems, home to some of the most important pharmaceutical
+companies in the world and even amazing technology companies like OxfordFINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 14Nanopore who are reimagining genomics in incredible ways. And we're building the
+supercomputer so that we can partner with these industry pioneers on very large-
+scale AI research.
+Artiﬁcial intelligence requires this new computational instrument. This computational
+instrument is built with NVIDIA's DGX superpod. It's essentially a data center as a
+product. And this supercomputer will be the U.K.'s fastest AI supercomputer and the
+world's top 5 green supercomputers. It'll have over 80 nodes inside with 400
+petaﬂops of AI compute.
+We've selected the site. The system is being built. We're delighted that it's being
+powered by 100% renewable energy. And we'll invite you to our GPU technology
+conference in April to hear about some of the initial work with these fantastic
+partners that we're going to do on it.
+This resource is going to serve as a hub so that we can do large-scale research with
+the industry, but that we can also collaborate with universities and start-ups in the
+U.K. and educate the future AI practitioners in the healthcare domain. So very
+excited about this. It's the world's largest AI supercomputer, dedicated to healthcare,
+and it's in a perfect location in the U.K. to do so.
+It was another -- it was a record year for AI healthcare start-ups in 2020. Not only did
+Q3 break every other previous quarter in terms of funding over $2 billion in a single
+quarter and is expected to be well over $5 billion in total funding as opposed to the
+$4.2 billion in 2019. Just a tremendous year. And it also fuels the NVIDIA inception
+program where we connect with every AI start-up as a virtual accelerated program
+NVIDIA inception.
+We provide them training, early access, technical integration into industry platforms
+as well as introducing them to our industrial collaborators. We've increased fourfold
+in just a few short years, and we broke through 1,000 and ended the year at 1,095 AI
+start-ups in our start-up program.
+And these companies are coming from all areas of healthcare. And you can imagine,
+digital health is an incredibly important sector now that we are in a pandemic where
+virtual healthcare needs -- and synthesizing all of this incredible data is important. So
+the funding in that domain incredible.
+Imaging and instruments so that we can create new instruments that have never
+been thought of before through artiﬁcial intelligence. Caption Health is the ﬁrst AI-
+guided ultrasound that can be used by a nontrained professional to perform a
+cardiac exam. FDA approved. So critical, actually, on the front lines of COVID-19
+where a nurse is treating a COVID patient can now also administer a cardiology
+exam because we know that this virus aﬀects the cardiac behavior.
+And so being able to capture that as a front-line worker instead of having to move
+the patient around or have it being done by another healthcare professional, justFINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 14incredible, and dozens of industry ﬁrst just got AI. The ﬁrst application to be
+reimbursed by CMS. So, so many dozens of industry ﬁrst. This is just an incredible
+breakthrough year.
+And the practice of medicine and AI in the practice of medicine is what is the future.
+Healthcare spending is reaching an all-time high. We continue to have aging
+population and growing population, chronic disease management, and we haven't
+even gotten to prevention yet. But there is such a great, bright future, and you can
+see that.
+Look at the AI papers submitted to PubMed in 2020. This is an exponential growth.
+And it's all areas of medicine. And what we need to remember about artiﬁcial
+intelligence, like the practice of medicine, is it's constantly learning. Like the practice
+of medicine, we want to learn from the patient before even.
+The doctor -- we want to learn from the data. We want to learn from the changing
+environment. And so that means that in a continuous learning environment and
+computation, we need to become software-deﬁned, and that's what NVIDIA platform
+provides to this industry so that we can continuously learn and deploy these AI skills
+into the domains that need them.
+So there's a software-deﬁned AI instrument revolution going on right now. As you
+know, so much of the way that we work in the practice of medicine is driven by
+instruments. And we're seeing new instruments we couldn't even have dreamed of
+just a couple of years ago, whether it be smart cameras for monitoring patients and
+vital signs or handheld genomic sequencers or a portable MRI device or an AI-
+guided ultrasound.
+And these NVIDIA computing platforms allow for -- an artiﬁcial intelligence allow for
+these instruments to not only one being innovated in the ﬁrst place and secondarily
+to be constantly learning and improving over time.
+And such a great example of that is we're announcing today with Oxford Nanopore
+technologies they've adopted NVIDIA DGX for their ultra-high throughput per
+(inaudible) instrument. This is truly a breakthrough device as is all of their other
+instruments.
+This one in particular, coupling up with our supercomputer, the AI supercomputer
+DGX station, it's a real-time sequencing instrument, and it's all AI driven. If you look
+at the chart, the ﬁrst leap they had in performance came from adopting deep
+learning in the ﬁrst place.
+And then through models and training -- diﬀerent architectures and training, they
+were able to achieve some incredible breakthroughs. So not only is it high
+throughput at 10 terabasis and can do 100 human genomes per run.FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 14A - Harlan SurBut through deep learning, they're base calling, Bonito [ph] is able to reach an
+overall accuracy of 98.3%. And AI-driven single nucleotide variant calling gets them
+to 99.9% accuracy.
+And here's a technology and instrument that truly touches on the entire practice of
+medicine. Whether it be the COVID epidemiology applications for COVID-19 testing
+that they have recently had a breakthrough on, they were always used for the viral
+sequencing so we can understand the mutation and the spread of coronavirus but
+also in human genetics. And long-range sequencing is going to be so incredibly
+important -- is already so incredibly important in cancer research.
+So in summary today, we believe AI and computing is enabling the AI healthcare era.
+We are excited about Cambridge 1 in partnering with the world leaders, not only in
+the U.K., but also the NVIDIA ecosystem of innovators in AI drug discovery.
+Our NVIDIA Clara platform has expanded far beyond imaging and instruments into
+genomics, natural language processing, patient monitoring and drug discovery. Our
+start-up program is vibrant as ever. And we're so proud and excited to be working
+with Nanopore on this next -- this third generation of sequencing of long read
+sequencing.
+So with that, Harlan, I'll turn it back to you, and we can take some questions.
+Questions And Answers
+{BIO 6539622 <GO>}
+Great. That was a great presentation. Thanks, Kimberly. So I'll start it oﬀ with the ﬁrst
+few questions and those -- for those investors on the digital conference website,
+please input your questions via the Ask A Question portal, and I'll get them in real
+time.
+So ﬁrst question, the NVIDIA team rolled out its next-generation compute
+acceleration platform in the middle of last year, the A100 platform. It's based on the
+Ampere architecture, leading-edge 7-nanometer silicon technology, been adopted
+by all of the top cloud and hyperscale titans in many of the high-performance
+computing initiatives, as you mentioned, the Cambridge 1 [ph] platform.
+Last quarter, enterprise and end market verticals like healthcare represented more
+than 50% of the team's data center business. So maybe can you just give us a
+snapshot of your healthcare franchise?
+How large is your healthcare franchise relative to the size of your overall data center
+segment? How many professional support the healthcare segment? And how fast
+has the business been growing over the past few years?FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 14A - Kimberly Powell
+A - Harlan Sur{BIO 22145194 <GO>}
+Yes. Sure. Let me talk to you about it, Harlan. So number one, Ampere is absolutely
+the most incredible technology NVIDIA has ever brought to market. And it has
+brought us tremendous growth. It's an architecture that is a universal GPU. It serves
+all the computational domains that are needed.
+Especially if you think about drug discovery, you need accelerated computing. You
+need artiﬁcial intelligence. You need data science. You need computer visualization.
+NVIDIA is world-class at those, and Ampere brings all of those, and we're world-class
+at it. So the growth at Ampere has been tremendous.
+We don't break out our individual industry sizes. Hopefully, you can see from what I
+just shared that there is just a tremendous amount of eﬀort growing in healthcare.
+Everything we've done for the last 10 years has really been in service to help, one,
+respond to the pandemic, but two, to imagine now a brand-new AI computer-driven
+drug discovery process.
+As I said, understanding disease is the ﬁrst thing we have to do and then discovering
+the therapy. These are the greatest endeavors of our time. And where they're -- as I
+said, there are not -- there are no equations to describe biology, but we're able to
+now digitize more and more biology, bringing that data together through
+computing platforms. This is going to be huge growth.
+And as I've heard articulated, the bar for the minimum amount of compute needed
+in these discovery organizations, it doubled overnight because of these AI
+breakthroughs. And this tremendous focus on AI on a singular problem in 2020 like
+COVID-19, it really just showed us that with that tremendous focus, we could see
+every piece and parts that can beneﬁt from artiﬁcial intelligence.
+And what we've discovered over the last 12 months is only going to propel us further
+in the future. Everything we learn is applicable for every future drug discovery
+program there is. So the future is tremendously bright. Ampere is our most
+impressive architecture yet.
+And now it's ubiquitous. And so we're fortunate that it's so ubiquitous that any
+researcher can get their hands on it, and we continue to enhance our software
+platforms to really recruit and hopefully delight more and more software developers,
+especially in the domain of healthcare.
+{BIO 6539622 <GO>}
+And then from a product level perspective, beyond the DGX system and the NVIDIA-
+based high-performance compute cluster, like the Cambridge 1 [ph], for example,
+your team also leverages its entire portfolio like the Jetson [ph] platform for medical
+instrumentation, your EGX platforms for edge computing, describe how your team
+leverages this portfolio to increase your share of your customers wallet over time
+and maybe give us a few examples if you have them.FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 14A - Kimberly Powell{BIO 22145194 <GO>}
+Yes. Absolutely, I can. And I think, Harlan, you kind of just touched on it. Because we
+build on the shoulder of the giant core of NVIDIA, where we can -- that is our mission
+statement at NVIDIA to take the state of the art and bring it to the domain, we get to
+leverage everything that our company is well class at. Everything we learn in self-
+driving cars and robotics, we can now apply that into the healthcare industry.
+And so the other fortunate position that NVIDIA has built ourselves into being an we
+have one architecture. We have one singular architecture that you can build your
+application once and you can deploy it wherever your business model feels it should
+be deployed.
+If you would like to embed the GPU into your medical instruments and sell it that
+way, you can do that. If you would like to decouple compute and have your
+instrument at more like a sensor and augment it with the computer, we have edge
+computing for that. We have -- all of our platforms are available in the cloud.
+So what this allows our customers to do is really take advantage of their software
+development in a way that they can scale it to ﬂeets of or market segments that have
+completely diﬀerent business models.
+And you can reach diﬀerent marketplaces. You can reach diﬀerent economical -- the
+way people want to buy and consume CapEx, OpEx, you -- the business model in
+our completely change.
+Software-deﬁned, just like we've seen in the automotive industry, the Tesla model, if
+you will, right, where it continues to retain its value and get better over time,
+absolutely, every medical instrument should be this way. So we get to leverage our
+(inaudible).
+Actually, Oxford Nanopore, which I just ended on, is a perfect example of a customer
+that has been able to leverage and innovate across diﬀerent price sectors in their
+product. They have a handheld sequencer that cost $1,000 and requires no
+additional infrastructure.
+This sequencer can go into the ﬁre ﬁelds and jungles and faraway places that
+otherwise would never have genomic sequencing accessible to it. And that's
+because artiﬁcial intelligence algorithms allow them to shrink the compute and able
+to still deliver what's needed for information out of those sequencers.
+And the same application can go into a desktop into the very ultra-high end and
+high throughput device that we just talked about. So they're a perfect example of
+how we can see that. You can innovate. You can -- you penetrate in the market. You
+can access new customer bases altogether by leveraging a single architecture and
+compute platform like NVIDIA.FINAL TRANSCRIPT 2021-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 14A - Harlan Sur
+A - Kimberly Powell
+A - Harlan Sur{BIO 6539622 <GO>}
+Great. Well we're just about out of time, Kimberly. I want to thank you for the -- we
+could -- I could go on and on with you about healthcare. It's such a fascinating part
+of NVIDIA. But I want to thank you for the insights today. Thanks to you and the rest
+of the NVIDIA team for your critical eﬀorts in the healthcare sector. We hope to have
+you back next year.
+{BIO 22145194 <GO>}
+Harlan, I appreciate it as always. Thank you, so much for having me.
+{BIO 6539622 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

@@ -1,0 +1,463 @@
+FINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 12Ali Kani, Vice President and General Manager
+, Analyst, New Street Research
+Pierre Ferragu
+Ali KaniFuture of the auto industry Conference, Newstreet
+Research
+Company Participants
+Other Participants
+Pierre Ferragu
+Presentation
+{BIO 15753665 <GO>}
+Hi, everybody again, and good afternoon or good evening now to all of you. Thanks
+for attending this discussion and comparing [ph] on the Future of Mobility. It's now
+my pleasure to welcome, Ali. He is NVIDIA's Vice President and General Manager of
+the Automotive business, the automotive product line. He is overseeing their
+product engineering and marketing, and also drives end-to-end platform NVIDIA
+has been developing and has introduced in the automotive industry for a few years.
+Now, Ali is going to give us like a quick presentation like an intro on his perspectives
+and after that, we will have a Q&A. So as always, if you want to pass straight to the
+Q&A, feel free to email me questions and I'll do my best to introduce -- to integrate
+them into the ﬂow of questions that I'll ask Ali.
+Ali, with that, thanks a lot for joining and the ﬂoor is yours.
+Hi, everyone. How are you? And my pleasure to be here today to talk to you guys
+about NVIDIA's automotive products and strategies.
+I'm going to jump in here and just sort of say that you guys know that everything
+we're talking about here today is subject to our disclosures and forward-looking
+statements. And in our ﬁnancial statements, we talk about risks and uncertainties that
+provides more detail within that.
+I'm going to jump in and just talk about NVIDIA's strategy. So this slide really is the
+cornerstone of what makes NVIDIA unique in automotive and instead, we're
+providing products and services that support partners in their automotive ecosystem
+from sort of we can say end-to-end. And what that means is people need to design
+their cars and NVIDIA has solutions that help customers design their cars, train theirFINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 12AI models, simulate their AV stack. And we use drive Omniverse to help customers
+build their automotive factory -- design their automotive factories, also build retail
+conﬁgurator. In the engineering side, we use Omniverse to help people do synthetic
+data generation, such that they can sort of augment the data they have from their
+real ﬂeet with synthetic data so that their AV product is better. And so that's what sort
+of sets us apart.
+It's not -- we're not just sort of -- we're actually not selling chips in the car and go
+build that yourself. We're selling this end-to-end platform for development of our
+partners. And so we're always thinking how do we make it easier for partners to
+develop their end-to-end requirements and how do we create those tools and
+software and services that accelerate their ﬂow. And we've said this many times, but
+the company that has the best development ﬂow, the fastest will be the company
+that is most successful in automotive because it's so hard to build sort of Level 4 and
+Level 5 software to build sort of a concierge experience inside the car, where there is
+an AI who knows everything about you, knows everything about the car and can sort
+of talk to you and sort of build this end time framework. And so the more we can
+make that lifecycle better, the better our customers will be, the more diﬀerentiated
+NVIDIA versus other players in the system.
+And this kind of shows you how we think about the ecosystem then. So it's not just
+like OEMs where we say, oh, we won this OEM. We want to work with the entire
+ecosystem, their software company that are building AV software. I'm just showing a
+few of them on this slide, but the point is NVIDIA is designed to be the best platform
+for anyone to build their self-driving software on our platform. And we take all the
+learnings from our own development because as you guys know, we also build AV
+software and cockpit software. But we have many partners who are building AV
+software and cockpit software on our platform and so we take the learnings of that
+entire ecosystem and we put it into the platform for the industry, to share and beneﬁt
+from.
+Same thing for simulation. There is all these simulation options. It doesn't just have to
+be DRIVE Sim. DRIVE Sim actually has APIs for the entire validation ecosystem, such
+that you can hook into our platform and accelerate your intent development cycle.
+The other thing to notice is we're quite successful across the stack. When customers
+are building NEVs that are software-deﬁned, we happened to play in the majority of
+those platforms. We have partnerships with many of the major Tier 1s. We're in eight
+of the largest robotaxi and also truck companies. We have partnerships with all of
+the mapping companies and simulation companies. So the point of it is across the
+ecosystem, some of them are buying our products in the large, but other than just
+looking into our ecosystem such that other partners can take advantage of it for their
+EV development.
+This just shows you guys some of the product roadmap inside the car. I think the key
+point that I want to stress here is that the needs of AV are constantly increasing in
+compute requirements because L4-L5 is not even close to being solved. Sensor
+resolutions are growing. The complexity of networks that people are developing in
+the car is growing in sophistication. We now have people who are building BEVFINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 12transformers in their self-driving cars. We have customers now who are trying to
+build like a single model, almost like we say, large language models, but it's like an
+end-to-end AV network in the cars.
+When you have a situation like this, you need a general-purpose programmable
+architecture because you don't know what algorithm you want to use, and you just
+want to be ﬂexible to be able to change rapidly. And so we have these products.
+Their performance is growing signiﬁcantly, but what we ensure is that the APIs,
+CUDA, the same CUDA APIs, the same TensorRT APIs are architecturally compatible,
+not just like from a high-end SKU to a low-end and SKU up for [ph] but across
+generation storage software compatible to oriented software compatible to Xavier.
+And so then when a customer takes a car, you could essentially imagine someone
+takes a Orin car, takes up the Orin computer, swaps into Thor computer and the
+software will just run. So now you just have more performance headroom to be able
+to create new software and services over the life of the car. That's the platform we're
+building in automotive.
+And then I think one other trend that I want to talk about is that we lived in this world
+where every new service or feature a car had was solved with a new computer in the
+car in the past. We were getting to a point where people had 100 computers in their
+car, and what happens there is, it's super hard to program, super hard to sort of
+improve that experience, maintain it and ensure the security of a car which is
+supercritical. And so now what we see as the industry is moving towards
+centralization such that multiple computers are being integrated with uniﬁed with
+one central computer. And that's what Thor was designed to do. And we're taking a
+lot of the innovation we have in the data center and we talk about sort of things like
+multi-instance GPU, which essentially means that Thor actually has like multiple
+compute clusters inside it and you can run one application on one, keep it separate
+from another. And so some of those data center technologies and innovation that
+NVIDIA has is being put in the car. And the reason is fundamentally this next-
+generation self-driving car is truly a data center on wheels, we call it, and so we get
+the beneﬁt from the innovation we have in infrastructure by being able to pull it into
+our vehicle roadmap.
+The other value of this is the customers now have a lower-power, lower-cost solution
+that they can sort of program eﬃciently over the life of a car. Range of an electric
+vehicle is better when you sort of can integrate all these vehicles into one core
+architecture. So there is value to the customer beyond just programmability. It's also
+lower-cost and lower power.
+One other thing I wanted to talk about is, when we have such a huge investment in
+platform strategy that you guys kind of now see when we talk about ecosystem
+platform and we have such a huge investment in software, we care about increasing
+the installed base of our platform. And so we're excited about the partnership we
+announced with MTK, MediaTek where essentially our GPUs, CUDA, TensorRT gets
+integrated into their SOCs for automotive. And so now if a customer wants to use tab
+access to CUDA, TensorRT or DRIVE software, the operating system, the middleware,FINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 12Q - Pierre Ferragu
+A - Ali Kanithe application software we built, we can support that platform with our software --
+our platform ecosystem advantages. And this is just the beginning.
+This chiplet that we essentially sort of gave access to MediaTek is available for other
+partners in the ecosystem, not just in automotive. The point is when the platform is
+so valuable and such a huge part of our investment software, such a huge part of our
+investment in CUDA and TensorRT, the more we can sort of increase the scale and
+installed base of that platform, the better for the industry and where we're holding
+and expanding the footprint. And jump away from this slide.
+This slide just gives you guys a picture of how our pipeline. We've announced that
+the pipeline is $14 billion over the next six years. This shows how the pipeline ramps.
+And if you sort of take a look at this slide, what I mean by this is XPan and NEO [ph]
+have ramped in production. But over time, you'll start to see new Hyundai Kia
+models ramp will start to see Polestar line, will start to see sort of some of the NEVs,
+Spike, Lucid, BYD start to ramp and then you'll see Mercedes and Jaguar, Land
+Rover.
+So, you know, with automotive wins that you announced start to ramp many years in
+the future, and that's why we have a six-year pipeline that gives you a sense of sort of
+the value of the wins in the system it takes time to ramp. And this kind of shows you
+how that pipeline ramps and ramps down over time.
+Those are all the slides and now I open up to Q&A.
+Questions And Answers
+{BIO 15753665 <GO>}
+Thanks, Ali. Thanks for the slides, and thanks for bringing in like broader perspective.
+So like in the pilots, the DRIVE platform is much more than just a chip in a car. It's
+very useful. And so maybe I'd like to focus my ﬁrst two questions on better
+understanding that and helping investors understanding it.
+So how does like your DRIVE products strategy translates in terms of business
+model? Do you at the end-of-the-day sell mostly chips? Or do you think like the
+revenue split in your automotive division is actually going to be -- to make like the
+money you make out there selling chips like a minority of your overall revenue
+opportunities?
+Yeah. So let me try to summarize the types of products we have. When someone
+buys our chips, there is our chip ASP and there is a software ASP always. So even if
+you have DRIVE operating system, if you go to production, it needs to be safe. And
+so there is revenues for just the operating system being safe or license for that. And
+then as you go up the stack, we have a customer who might say, I want you to build
+the entire stack end-to-end, so we want you to do the L2 plus or L3 software. Then inFINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 12Q - Pierre Ferragu
+A - Ali Kani
+Q - Pierre Ferraguthose cases, the value of the software can grow to be larger than the value of the
+hardware, and it just depends on what the customer wants.
+One of the things we talked about is our architecture is designed to be modular
+such that you take what you want. And when you look at that slide of all the partners
+that we have and how they ramp, note that the vast majority of them take our chip
+and operating system and middleware, not full stack. Full stack partners are like
+Jaguar, Land over and Mercedes. So the point of it is, for us, it's open. It's whatever is
+best for the partner and we can layer in more software and services based on what
+they need. And so in aggregate, it ends up being somewhere in the middle of that,
+but if someone wanted us to do all the software work, then the value of the software
+can be more than the value of the hardware.
+The other thing is, those are not our only products, right, like if someone wants
+DRIVE Sim synthetic data generation, then in that case, it's only software, right?
+We're giving them access to simulate their software and they're just using that to
+stimulate their AV experience. Same thing with if someone wanted -- and then
+there's other hybrid products like OVX constellation. And so then people buy our
+hardware, so it's like a replica of an Orin or a Thor that you would have in the car, or
+it could be x86 CPUs and discrete GPUs because we have some customers who
+architect their robotaxis like that. And then they want some of our DRIVE Sim
+software, and so then that would be our software revenue on top.
+So it really depends. One of the things is we have so many products. It can start with
+hardware, but actually, in some cases, a customer could not buy any hardware from
+us and just pay for software because DRIVE Sim, you could actually just license the
+software, not use our hardware at all. So we've kind of run the gamut and I think the
+one thing that's consistent across the stack actually is the software.
+{BIO 15753665 <GO>}
+Okay. That was very helpful.
+(multiple speakers) from us. Yeah.
+{BIO 15753665 <GO>}
+That's very helpful. And then you mentioned you know, it's a very important like
+ecosystem aspect of what you do. So you're not aiming to be a platform just so like
+the NVIDIA products, but you're very open to a broad ecosystem of third parties.
+And the question I was wondering is, do you open also this ecosystem in terms of
+hardware? So you kind of answered that question already partly, but I'd like to push
+it a bit further.
+So do you have clients who choose like an on board hardware that is not NVIDIA but
+then use NVIDIA elsewhere? And as I was thinking of the question, likey let's talk
+about Tesla, who is a very well known -- very, very large client of NVIDIA because
+they run amongst larger GPU clusters in the worldwide. Why is they have thatFINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 12A - Ali Kani
+Q - Pierre Ferragu
+A - Ali Kaniownership in the (inaudible) I'm pretty sure you can't comment too speciﬁcally on
+NVIDIA, but yes, tell us about how open you are to altentative on both hardware, and
+how NVIDIA can help an OEM that will choose like Mobileye or Moto or Qualcomm,
+or another solution on board that you still want to have NVIDIA in the road? [ph]
+Yeah. So we're very open. That's a great question by the way because I think that
+explains our strategy. Most of our partners actually, if you think about sort of the
+partner with that we have, we have many cases of customers who do not use our
+computers in the car, and they're really important customers for us in the cloud.
+You gave an example of Tesla. So we help Tesla with training and simulating their AV
+model using our hardware and cloud, but they don't use us in the car, and that's
+perfectly ﬁne. That's a great thing or a great customer of ours. And so we architect
+our stack such that it's -- that's totally ﬁne. Now, of course, if someone used this in
+the car and someone used this in the cloud, there's some like advantages for them
+like they can train on CUDA, and TensorRT in the cloud, and those same APIs, the
+same algorithms that are developed there can actually run inference in the car. But
+you can always train on GPUs in the cloud and then change it up to your exact
+architecture, Mobileye or Qualcomm in the car and that's perfectly ﬁne.
+We have many cases of that and we're very open to that. We're very supportive of
+that. And so the way I would say it is, we want to help partners regardless of where
+they use us. And because we have so many layers of software, it's perfectly ﬁne,
+right? Someone may say, I only want your help on simulation.
+{BIO 15753665 <GO>}
+Yes.
+I'm using someone else. We would say, that's great. Let us talk to you about how we
+can help you on simulation. We can give you synthetic data generation. We can help
+you with retail conﬁgurator. We can help you with training of your software -- of your
+own software on Mobileye in the cloud. Those are all great opportunities for us and
+so we're very open to it. We architect like that.
+The other thing you kind of mentioned and you hinted is that -- and of course,
+there's cases where someone says, well, I'd love to have access to some of this
+capability in the car, but I don't want to buy your chip. Is there a way that I could sort
+of license some of the things that you have in your car and put it in my own SOC?
+And the answer to that of course is yes because that's what we just announced with
+MediaTek, right, that yeah, that's ﬁne. If you want to have access to some of our
+capability put it in your car, it could be a competitor, it could be just an OEM, and we
+would be happy to sort of give them access to the GPU and let them build their own
+solutions in the car, and then, of course, then we can help them in the cloud based
+on that.FINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 12Q - Pierre Ferragu
+A - Ali Kani
+Q - Pierre Ferragu
+A - Ali Kani
+Q - Pierre Ferragu
+A - Ali Kani
+Q - Pierre Ferragu{BIO 15753665 <GO>}
+Yeah. Okay, that's very useful. So now I'm going to ask you like the really tough
+question on this one. You mentioned like $14 billion or $16 billion pipeline, and now
+as you can imagine, I want to (inaudible) and I'm wondering, you know, how you split
+-- how this sideline splits between like hardware and software and platforms and full
+stack and operating system and middleware. Can you comment on that in ways?
+Yeah. I think let me answer it slightly diﬀerently. I feel like the pipeline, if you kind of
+saw the way I showed it to you, you saw the full stack customers are at the very end
+of this forecast period, right? And so the majority of what you see are the customers
+that sort of skew more on SOC and lower software revenue. And then, like I said as
+we scale up and we do the full stack, then those numbers can be larger than SOC.
+I'm just kind of answering like that and not kind of say the average across the six
+years. But I think it's just more of customer base and what you end up wanting, and
+there's a mix in that pipeline and it's true that some of the partners, the software
+revenue is larger than the hardware revenues.
+{BIO 15753665 <GO>}
+Okay. And before we move on to a lot of big one, very last question like a, like an
+OEM customer who partners with you for like training or like simulation cluster, so it
+would be more of a data center client at the end of the day. Is that typically a
+customer recognizing your division, or is that the customer that will be more like
+sitting in the data center division of?
+Yeah. Okay. So the way I would answer this is, ﬁrst, we recorded in data centre, the
+cloud, the infrastructure after we reported in data center. But actually as a internal
+business unit like how do we run the business, we actually manage it within the
+automotive team because we are constantly working together, right? We're talking
+to a customer in the car and we talk to them about the cloud at the same time. And
+so internally we manage it as one business, but just to keep it simple to the investor
+community, we just choose to take the cloud and put it in the data center revenues.
+{BIO 15753665 <GO>}
+Okay. And the same logic applies to your pipelines. So all the pipeline you talk about
+is always a pipeline that will be -- that's the revenue that will be reported in the
+domestic division.
+Yeah. [ph]
+{BIO 15753665 <GO>}
+Okay, great. Thanks for these clariﬁcations. So let me ask you one question. So if we
+look at the broader like passenger car opportunity is really NVIDIA, Tesla, Mobileye.FINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 12A - Ali Kani
+Q - Pierre Ferragu
+A - Ali KaniToday, Tesla is as integrated as can be. They do everything in house. And Mobileye is
+oﬀering a scale-integrated package. It opens its a bit over time, oﬀering APIs, the
+customization opportunity because very clearly there was a need for that in the
+market. And you are like the most like open player. And so the question I have for
+you is, how do you think about that potentially creating a dependency for the
+adoption of your technology, which is that if you oﬀer a more open environment,
+then that means OEMs will -- one of the reasons why they will choose you because
+they will want to develop their own technology, has their own -- makes their own
+system integration.
+And we unfortunately know that sometimes these companies struggle to do a good
+job at that and might end up delaying the technology and we set out. And I'm not
+going to give any names but we've heard news ﬂow about like large car
+manufacturers throwing themselves into the initiatives and actually failing to deliver.
+So do you see that as a risk to your open strategy versus oﬀering more turnkey
+solution to your OEM clients?
+So ﬁrst, let me sort of say that, just remember that our strategy is all of the above.
+{BIO 15753665 <GO>}
+Yes.
+So we have customers who want to sort of have someone just build the full stack for
+them, and so in that case, of course, we can deliver that solution. And we might have
+someone who wants a slight half-and-half. They want to be really building the
+software and also taking some software from us. And we have some cases where
+customer say, I'm going to build full stack, just want to develop on their hardware.
+And so I think for each of those, there is a risk, but it's the risk that the OEM wants to
+take because it's most aligned to their strategy.
+And what I would say is that we started with Mobileye is like this and which the point
+is there are cases where some customers say, this is our strategy. We do not want you
+to force us to take your perception software. We want to build it ourselves. And so, of
+course, for us, that's okay because we do that all the time. And for some partners, it
+doesn't work like that way. There's no such case that a Mobileye customer who is
+taking a good chunk of their stack. You would never do that. And so the risk is really
+more about what does an OEM want and we support them. But the value of our
+approach is that if a customer does have challenges and they later come and they
+say, can you help us, let's say, they wanted to do everything, but they just aligned
+Hyperion architecture.
+We actually just come in later and say, oh, yeah, like we could -- like if you're having
+problems with parking, we can just give you the parking stack because we've
+developed on the platform and so there is an opportunity for us to help them if
+some of those risks come to fruition. But it's of course not even something theyFINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 12Q - Pierre Ferragu
+A - Ali Kani
+Q - Pierre Ferragu
+A - Ali Kani
+Q - Pierre Ferraguenvision doing at the beginning. And there are cases where partners come to us
+later and say, hey, it ended-up harder than I thought, can you help us. And then in
+our case, we're like, yeah, we're happy to help and we sort of add more of the
+software to the oﬀering that we provide them.
+{BIO 15753665 <GO>}
+Okay. And do you see a trend in the market? Would you say like OEMs are more-
+and-more like moving towards like a more integrated approach where they will want
+NVIDIA to do more?
+I would say that the OEM strategy -- the OEM strategy long-term is to be able to
+have this competency in house long-term like I don't mean like the next SOP. I just
+mean in 15 years or in the future. I think all OEMs, feel like the software that runs in
+their car is something that they should be responsible for. And it just so happens that
+there's a lot of investments OEMs are making right now, the electriﬁcation of their
+ﬂeet, software-deﬁned cars, the cockpit software, the AV software. And not all of
+them can make all these investments at the same time and not all of them actually
+have the know-how to hire the world-class team for each of these functions. And so
+we try to partner in those places where it helps them. But I think long-term, everyone
+wants to be able to do, well, let's say it's for L4-L5. I think what we've seen is it's far
+harder than anyone imagines and I don't believe that we're going to see an OEM
+doing that in the short term themselves. I think they're going to be partnering. But
+then in the future, after it's in production and their team is ramped up, you could
+imagine that in a 20-year horizon that an OEM might have the ability to be able to
+do something, but that's after it's been proven and after all the training and all those
+things. And so it will take a long-time.
+{BIO 15753665 <GO>}
+Okay, so that's interesting. So even if you see maybe a trend of them coming back to
+you to ask some more of the stack, the long-term ambition is still to be able to
+develop internal competencies, that's great.
+Yeah. The ambition is absolutely right. I think every OEM wants to be able to do it.
+And I think I'm just saying, it's a lot harder than people think and when that happens,
+it's hard to predict. But I'm sort of telling you I think it's like 20 years out.
+{BIO 15753665 <GO>}
+Very good. I'm going to try and sneak in like two last questions in training [ph] that
+might be a bit challenging. So the ﬁrst one is, our work on NVIDIA shows the cost
+base for NVDA, especially on the cost-of-goods-sold like on bill of material basis is
+very, very competitive. The hardware you have in the car because when you have
+vision because they have their own chip is very competitive.FINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 12A - Ali Kani
+Q - Pierre Ferragu
+A - Ali KaniMobileye this morning, really talked about their cost competitiveness has ben very
+stronger like underlying driver or their very strong market share today and what's
+deployed and also and underlines their conﬁdence in having a very strong market
+position going forward. So we -- like -- I would say total systems cost to $3,000 to
+$4,000, and we slice the actual electronics and semiconductor parts that cost
+between $1,000 and $2,000. What can you tell us about like the cost positioning of
+NVIDIA? And it's of course a diﬃcult question because you have an open ecosystem.
+It's like really not on card, [ph] but how do you think about your competitiveness on
+cost on a like-for-like kind of future basis?
+Yeah. So again there I would sort of say two things. One is our focus is on L2+ so L2+
+and higher. And we believe that every entry car will be L2+ over time like we're
+going to see that shift just because there is software and service opportunity for a
+ﬂeet. And if you're building an L2+ car, our position from a cost perspective is very
+competitive, and you kind of see that right, who is really building the L2+ cars in the
+industry. There is Tesla and then outside of Tesla, there is like a bunch of Chinese
+OEMs. There's Volvo, Mercedes, Jaguar Land Rover. Those are the guys who are
+really building L2+ software-deﬁned vehicles. And as you see, our share is very
+successful in those markets. And so the price performance and positioning of
+NVIDIA is quite good in that segment.
+And then as far as sensors stack goes, our strategy is unique like we've shown a
+Hyperion architecture but that architecture is scalable. That's the L3 conﬁguration.
+Some people say they just want to build a single Orin computer with just cameras
+and radar, and they can do that. And so then the cost of the sensors is super-low
+cost, the cost of the computer is low, and so people are building systems in the L2+
+market at really attractive price.
+So I think our positioning is good and it's scalable. Does that makes sense? It's
+scalable. It's good for L2+. It's good for L3. It's good for L4, and it scales up. You
+certainly don't need Lidar now to up. You just need camera and a couple of radar
+and our architectures sports that. The other thing is, each customer for our platform
+can choose the sensor set themselves because we don't have to deliver the software
+for them. And so there are some customers who say hey, I want even a lower-cost
+sensor set and they're able to do that. And that's why our architecture is quite
+successful. We never force a sensor set on you. You can actually come up with your
+own sensor set and use that as you wish.
+{BIO 15753665 <GO>}
+Okay, that's very clear. And my last question would be, we've talked mostly about
+like the passenger car opportunity on the robotaxi like the driverless experience. I
+have just one question from you based on the -- all the projects and teams which you
+do entire at diﬀerent levels. What's your view on the past side options? So where do
+you see the ﬁrst like signiﬁcant rollouts of these vehicles and timeline as well?FINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 12Q - Pierre Ferragu
+A - Ali Kani
+Q - Pierre FerraguOkay. So ﬁrst, I'll say that. I think we'll ﬁnd a couple of cities that well sort of green
+light these trials and we just need to see how successful they are. We're already
+seeing it in some of the cities where it could be at night a robotaxi allowed to
+operate just because it turns out that they are proving that they're safer than drivers
+in the real world, and then I think that we'll see rollout in commercial goods delivery
+because then there is no one in the car and you are just transporting goods from
+one place to the other and so I think we'll see adoption start there. And I think for
+this as the whole industry needs to be super cautious, need to be super responsible,
+don't rush anything because you know even one accident kind of become such a big
+deal for the industry.
+So as we believe it will take time. You'll get some early success, but then we just
+need to take our time and make sure we're doing it right. I don't expect like
+passenger cars in this decade. That's a much harder problem. It's unrestricted. It's
+undeﬁned. It could be anywhere. And so I think that, that will take longer.
+It's not just about the technology being better than a human. It's -- you need to be
+even much better than a human because you know if a human makes an accident,
+we're sympathetic to it, but if AI makes an accident, I think we're just a little bit less
+sympathetic to it. So I do think there'll be trials starting. Now, we're in the next year
+or two in certain cities. I think sort of the L4 true consumer car is next decade and
+could even take longer. It just depends on how could it gets. And we really can't
+make any mistakes. It's super, super charging. This by the way -- is why you need not
+just validation but simulation because you can't (multiple speakers) And then we
+help partners with that. And I think we have to come up with even better ways to
+stimulate all the scenarios that could possibly happen to make sure it's safe.
+{BIO 15753665 <GO>}
+Ali, I would like to spend like two more hours stretching this year about this fantastic
+opportunity in the industry, but unfortunately, we're already out of time. So thank you
+very much for making the time for participating to the comparison and bringing your
+perspective and the perspective of NVIDIA. And I hope we'll stay in touch.
+Thank you.
+{BIO 15753665 <GO>}
+Thanks.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in FINAL TRANSCRIPT 2023-06-12
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 12connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

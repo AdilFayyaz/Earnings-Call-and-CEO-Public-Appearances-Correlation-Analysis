@@ -1,0 +1,480 @@
+FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 14Chris Eveden, Director IR
+, Analyst, Wells Fargo Securities
+Unidentiﬁed Participant, Analyst, Unknown
+David Wong
+Chris EvedenWells Fargo Tech Transformation Summit
+Company Participants
+Other Participants
+David Wong
+Presentation
+{BIO 6109216 <GO>}
+Okay. Great. Well we are very pleased to have Chris Eveden from NVIDIA come and
+chat with us a bit about NVIDIA today. Thanks very much Chris.
+So perhaps we can start oﬀ by GPUs. I mean NVIDIA is a GPU company. It used to be
+you have nifty graphics in a desktop. But you've actually broader and quite
+considerably with what you've done with GPUs. Could you run through what you sell
+GPUs into these days and roughly the revenue breakouts?
+Yes, sure. So we describe ourselves as a visual computing company, which reﬂects
+the fact that our core activity as you say is a GPU. And then we wrap it diﬀerently to
+take it into diﬀerent markets. So we take it into the gaming market with graphics
+drivers. We'll wrap it in professional software drivers and that gives us our Quadro
+business, which is professional graphics.
+We've built a whole ecosystem around power computing, with CUDA platform. And
+that gives us Tesla as a product. Then we built a hypervisor for the GPU as well. And
+that's where our new grid business is going to come from.
+So all four of those businesses use the exact same piece of silicon, although there
+are diﬀerent price points. There are diﬀerent pieces of silicon for diﬀerent price
+points. But the exact same piece of silicon. And the only diﬀerence is the value we
+put into the software and the ecosystem we put around it. So that's where those
+come from.
+Then even with Tegra, what we have with Tegra now is we have the same GPU, again.
+But now wrapped in -- again, a whole bunch of software, an ecosystem. But also
+some silicon as well. And so now it's a system on chip and that's our Tegra business.FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 14David Wong
+Chris Eveden
+David Wong
+Chris EvedenBut it's all about leveraging the IP that we've got for our core competence, if you like,
+which is the GPU. And if you look at how much eﬀort we put into that, we actually
+have more software engineers than hardware engineers. So although we are
+categorized -- you know you are semiconductor analyst, we are categorized as a
+semiconductor company, you can make a decent case for the fact that we are a
+software company that makes GPUs to run the software on.
+So that's how we -- that's how the business is structured. But in terms of revenue, let
+me see if I can do it approximately in my head. So GeForce is around 60%, Quadro is
+around 20%, Tesla is around 5%, Tegra is around 15%. Where have I got to?
+{BIO 6109216 <GO>}
+We did get up to 100%. Do you want to get to 105%?
+Probably, yes, because there's some other in there as well and then there's licensing
+and stuﬀ like that as always. That's just there as a very broad rule of thumb. That's
+how I look at the business.
+{BIO 6109216 <GO>}
+Impressive. Within the 60% (multiple speakers) that's -- (multiple speakers)
+Yes. We divide it into two markets. So GeForce is PC products for PC consumers. And
+we divide that market into two segments that we call gaming and OEM. It's a really --
+we used to just think of it as being desktop and notebook, which was easy to do
+because we knew which chips were going into what form factor. But it wasn't actually
+very informative about the end market.
+Gaming and OEM are actually almost the same because gaming is almost entirely
+desktop and OEM is almost entirely notebook. But they are not quite the same.
+There are gaming notebooks and there are OEM desktops. But it's also a much more
+informed way of looking at the market, because those segments have very diﬀerent
+behavior.
+So the gaming segment is very strong. It's growing at high single digits a year,
+probably the whole market as a whole. ASPs are very strong. It's the market --
+someone is buying a PC to play games and so they have a speciﬁc need for that PC,
+whereas the OEM business is -- the OEMs are buying GPUs really to diﬀerentiate
+their PC within the marketplace.
+No OEM wants to sell an entry-level notebook because you don't make any money
+on them. So they want to upsell you. One of the key up cells is the GPU. But thatFINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 14David Wong
+Chris Eveden
+David Wong
+Chris Evedenwhole market is under a lot of pressure right now because typically, the average
+consumer of a general-purpose PC is, for most tasks, better oﬀ with a tablet.
+That is something Jen-Hsun's been saying for a couple of years. So that's seeing a lot
+of cannibalization. And there's a lot of price pressure in that market as well. And then
+there's competition from other features that might be used by laptop manufacturers
+to diﬀerentiate their products. So things like SSD's or touchscreens. These are
+expensive add-ons that might put pressure on the bottom.
+But that is a market that we see as being in decline. But it's more than oﬀset actually
+by the strength in gaming. The OEM market is characterized by a large number of
+units but low ASP and low gross margins as well. So low gross margin percentage.
+So when it comes to the proper contribution it's very much smaller than the gaming
+business.
+Jeﬀ Fisher talked about this at our analyst day last week. And if you actually -- so you
+can see some big swings occasionally in unit numbers that aren't reﬂected hardly at
+all in revenue. And not at all in proﬁt. And that's because you've got this base of very
+low value high-volume notebook OEM parts that aren't generating very much proﬁt
+at all.
+So overall, we think that GeForce business is strong and at least ﬂat year on year. And
+within that, it looks like the mix is going to get richer.
+{BIO 6109216 <GO>}
+Excellent. But just pushing that a bit. So gaming and OEMs. And as you said that it's
+the gaming that's primarily the proﬁt. But if we think about revenues --?
+About two-thirds, one-third; gaming is earlier. Yes.
+{BIO 6109216 <GO>}
+Okay great. You've begun to give us some of these numbers. But could you perhaps
+step through and give us what your view is of the growth potential? So you talked a
+bit about GeForce. And what about the professional graphics, Tesla, Tegra?
+Right. So professional -- let me just stop and take a really high level and then I'll step
+through each one. So at a very high level, I see it as GeForce and Quadro are -- they
+are growing slowly, single-digit GDP. But they are generating an awful lot of cash.
+And that's cash that we are returning quite a lot of the cash to shareholders at the
+moment.FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 14Tesla is a proven growth story now. So it's oﬀ a smaller base. But it's very proﬁtable
+and it's growing very strongly.
+GRID is an option on growth if you like. So there's a lot of excitement around GRID.
+But it's very early days. It is enterprise AT. So it's a two-year purchase cycle.
+So it's really hard for us to say -- to give you -- we haven't got enough dots on the
+graph to draw a line between them right now. But it's certainly very, very promising
+in many ways.
+Then Tegra, there are puts and takes in Tegra. So the automotive business is very
+strong, growing very strongly.
+We have just withdrawn from the mainstream smartphone business. We are still in
+the high-end smartphone and tablets as well. So we'll see how that unfolds over the
+year. But that's how I look at it at a very high level.
+So taking you into those businesses in a bit more detail within GeForce, the Quadro -
+- Quadro we have 82% market share according to IDC. That's units again and we
+think wallet share is more than 90% north of 90% dollar share. So really, to grow that
+business we had to grow the market and we have a bunch of initiatives in place to
+do so.
+But I suspect that the dominant term in that equation going forward, at least for the
+coming year, is most likely to be the GDP. Speciﬁcally, manufacturing GDP, since 80%
+of our sales are generated by CAD through sales into CAD workstations. So Quadro
+for GTP-Plus.
+Tesla, proven growth story. It grew 37% last year. It's really broken out. It was stable at
+about $100 million a year for a while. And that was -- but now we've broken out of
+that because we've added support for more codes and we've got a broader channel.
+So let's give an example of that to illustrate what I mean. 1.5 years ago, to sell Tesla
+into something, our team of NVIDIA -- the NVIDIA team would have to go into a
+company, evangelize Tesla for a particular application. They would then have to port
+the code for the guys on the application. Then they would have to sell the hardware.
+Now, hypothetical example -- so there is some research with Johnson & Johnson,
+who is looking at protein modeling and interactions between large molecules. He
+knows that his molecular dynamics code is accelerated by Tesla. He knows that IBM
+sells Tesla servers. So he phones up his IBM salesman and gets one delivered on
+Friday.
+It's completely diﬀerent. So now. So 1.5 years ago we knew all of our customers. And
+now there are many, many customers that we just don't know. And of course that's
+the way the business has to scale.FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 14And IBM is -- I used IBM randomly. But they are particularly important partner
+because they have about 32%, according to IDC, of the worldwide installed base of
+supercomputers, which is more than twice as much as anybody else. So they build
+more supercomputer systems than anybody else.
+But other important partners there are Supermicro, which is huge in that space; NEC,
+Cray, Dell, HP, pretty much the who's who of high-performance data centers.
+Computer data centers are working with Tesla now and supplying Tesla products.
+And again, we support codes right across molecular dynamics codes, seismic codes,
+ﬁnancial codes by modeling the Black-Scholes equation. Modeling derivatives
+pricing is actually something that ports very, very well for our hardware. So there's all
+sorts of application areas in it. So that's why we are growing really fast. That was
+Tesla.
+Next one we did was GRID. GRID I described as an option on growth. So where we
+are with GRID -- so GRID -- let me diﬀerentiate because this one always causes
+confusion. Tesla is computer. So although we are using a GPU, we're not using it for
+graphics. We are using it to perform calculations.
+A good example is Black-Scholes. Black-Scholes has nothing to do with graphics. It's
+about pricing derivatives or modeling plasmas or something like that.
+But yes -- so, nothing to do with graphics. Now GRID is in the data center as well. But
+GRID is about graphics. So GRID is about serving up graphics power remotely and
+there's a bunch of ways we can monetize that.
+The way we are looking at we're most excited about in the short term is by making
+virtual desktop environments better. So if you're familiar with Citrix and VMware, we
+can make the user experience better. We can make the user experience better and
+we can extend its application to 3-D applications as well.
+So right now, if you install a virtual desktop environment, generally speaking, you'll
+be using a very old-style user interface, a Windows 95 type appearance. We can
+change that. We can bring it up to Windows 8.
+We support video and we support 3-D. And when I say we support 3-D, I'm not just
+talking about those high-end Quadro type applications like Kﬁr. Even things like
+Autodesk, which is a very, very light 3-D application. So light in fact that of the 7
+million installed seats worldwide, the majority of them are Intel-integrated. They're
+not even using a 3-D graphics card at all. But that's still too much 3-D for a virtual
+desktop infrastructure.
+But by putting our card in there, you now support all the 3-D applications you want.
+So it makes more detailed nature, if you like on that. But from a high-level business
+perspective we have hundreds of trials running worldwide.FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 14David Wong
+Chris Eveden
+David Wong
+Chris EvedenIt's a two-year product cycle; bit early to say exactly where it's growing at. But there's
+a lot of excitement around that. Literally I think last time it came out to 466 trials at
+enterprises worldwide. So lots and lots of potential in that business.
+Tegra. Tegra is the ﬁnal one that we haven't talked about. Tegra is in a number of
+markets. The one that's most predictable is automotive. That's -- that grew very
+strongly last year. We expect that to grow very strongly again this year. And going on
+top of that, we do expect to have some tablet wins, some set-top box wins, possibly
+some high-end smartphone wins as well generating revenue this year.
+{BIO 6109216 <GO>}
+Actually, if we look at current revenues, let's say the most recent quarter or what you
+expected this year, when we look at Tegra, how does it roughly break out into those
+segments?
+We haven't broken it out in detail. I think roughly, I think the only number we said
+publicly is roughly 40% of revenue was automotive last year.
+{BIO 6109216 <GO>}
+And automotive was actually becoming one of the biggest subsegments of tech
+growth. It already is one of the big (multiple speakers)
+It is. It's a market for which visual computing is very important and actually increasing
+importance. If you look at advanced driver automation systems, we have some very
+strong diﬀerentiators there.
+But even if you're just looking at infotainment, which is the traditional market we've
+been successful in, in automotive, the quality of those pixels is really starting to
+matter. It really aﬀects your perception of the quality of the car.
+You know, around of example from my own life; I was in Barcelona for Mobile World
+Congress in February and all the cabs there are Priuses and they have digital
+dashboard; no needles and dials, just pixels. And more recently I was luckily lucky
+enough to drive a friend's Tesla car and that has a digital dashboard as well.
+But those are wholly diﬀerent experiences, right? The Tesla one is clearly a
+dashboard inside a $100,000 car and the Prius one isn't. And that really brought it
+home to me how that -- how the quality of the pixels impinges on your -- aﬀects your
+ability -- your impression of the quality of the car.FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 14David Wong
+Chris EvedenAnother example is I was looking at a car a couple of years ago and it was a great
+car, a nice engine, beautiful leather seats, great stereo, sportive, handled really well
+and everything. But I couldn't get over the fact that the nav system was clearly badly
+translated from the Japanese. It tainted my whole experience with the car.
+And so, I really believe that the experience you can bring graphically to the car is
+going to say as much about the quality of the car as hand-stitched leather and inlaid
+walnut used to say. And so that's diﬀerentiated and placed very heavily into our
+strength.
+{BIO 6109216 <GO>}
+Great. And I mean, thinking about all these various segments. And they are diﬀerent
+applications, somewhat diﬀerent products, can you talk about your diﬀerent
+competitors? So you have got the one session GPU, a diﬀerent one in Tesla.
+So let's go through the list again. GeForce and Quadro, the competitor there is AMD.
+And we have about 2/3 market share in GeForce and about, as I said, over 4/5 share
+in Quadro.
+So why is that? I think we have the best chips. But I also think in terms of the
+ecosystem and the drivers and all the other features we built around the chips, that
+really helps us hold onto that market and makes it stickier than it otherwise would
+be, because we give a better user experience. It really comes down to the quality of
+the user experience. And the ecosystem and the software we build is a huge part of
+that.
+Speciﬁcally, here is a couple of examples. So one for GeForce. So our drivers are
+generally considered to be much better quality than AMD's drivers. And the driver is
+the layer of software that sits ﬁts between our hardware and the operating system.
+And that has a huge impact on performance.
+During the life of a graphics card, as we continually update the drivers, both things
+have huge impact. Then also, it's a question of putting features in and games that
+will only work on GeForce cards. So the game will be a better gaming experience on
+GeForce.
+So PhysX for example is our physics simulation that runs on GPUs. So that's built into
+Unreal Engine 4. It's built into many games. It's going to appear in Titanfall, which is
+the biggest game of the moment right now. And you're going to see features based
+on that that improves the immersiveness in the whole gaming experience.
+So that's how we diﬀerentiate with software. Quadro -- it's about performance as
+well. But it's also about stability and reliability. And we do an enormous amount ofFINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 14qualiﬁcations with an enormous list of professional applications across an
+improbably large list of system conﬁgurations.
+And that's because of -- an IT director does not want to have to waste time
+supporting products. They need that level of qualiﬁcation and we give it to them.
+Actually our competitors, we have run down the list, haven't we? So that's the
+competition there.
+So AMD has made a lot of noise about competition in both of those markets actually.
+In GeForce, you know there's a possibility that they can gain some share in the sort
+of low-end transactional OEM business. And so that might have an impact on a
+number of units. You might see that in market share numbers.
+But how much impact it will actually have on revenue and how much it will have on
+proﬁt, those are much smaller numbers, if at all. And I think if we continue growing
+our share in gaming, I think we'll increase our revenue and proﬁt share, regardless of
+what happens with units.
+Then on the workstation business, on Quadro, that is not a market that's driven by
+price. That's a market that's driven by quality and it's driven by performance,
+dependability and stability. If you think about our typical CAD workstation it's a
+$10,000 -- $5000 or $10,000 workstation. There is $20,000 worth of software on that.
+Then you got however much you are engineer costs say $200,000 a year or
+whatever $400,000 a year, whatever the number is.
+So if you're selling a competitor to our $4000 graphics card at $3000, it doesn't
+matter. That doesn't help you, doesn't get you anywhere. You need a better product.
+I'm not really concerned with that market, either.
+Go down the list -- GRID; sorry, Tesla -- the only competitor in Tesla well, there's two
+competitors and they are both Intel. So when we entered that market, there was no
+alternative. If you wanted to do high-performance parallel computing, currently you
+were running on an enormous number of CPUs was the answer you give.
+Since then, Intel has launched the Xeon 5. When they ﬁrst launched Xeon 5, they
+launched it as a graphics card. And we always said 116 is a graphics card. But they
+might be branded as a Tesla competitor at some point and that's exactly what
+happened. Larrabee is dead. Long live the Xeon 5. It's the same technology.
+So that, we expected. And that's actually helped us in a perverse way because of
+who are competitor was, which was your traditional Xeon CPU. And so, the challenge
+that we always had to overcome was inertia.
+We would go into a potential customer and we would say hey, look at all the great
+things you can do with our power processing -- much more performance per watt,
+much more raw performance, better deal for you. And some of them would reject itFINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 14David Wongand say well if I wait until next year, Intel is going to come out with a much better
+CPU and everything is just going to get better automatically right? I wouldn't have to
+do anything. I won't have to do any of that code reporting you've warned me about.
+Everything will just get faster automatically.
+Now that Intel is in that market as well, Intel is essentially saying the same thing as us,
+which is you're going to have to move to parallel at some point if you want to get
+more performance per watt. We are running out of performance per watt gains in
+Xeon. Moved to Xeon 5.
+So then at that point, now it's a question of what do I get with Intel or do I go with
+NVIDIA? NVIDIA has got far more code ported to it already. NVIDIA's got this
+massive CUDA (Rico) system. It's training 20,000 people a year to program that
+hardware.
+Intel hasn't got any code ported to it yet. To make this claim that code runs
+automatically on Xeon 5, that's only true in a loyalty sense, if you like. So code
+reported to Xeon 5, ordinary CPU code ported to Xeon 5 will run on Xeon 5.
+But it will run more slowly than it ran on the CPU. So it's actually worse. So yes, the
+answer to the question will it run is yes. The answer to the question will anyone do it
+is actually no.
+The programming model for Xeon 5 is actually very, very similar to the programming
+model for our Tesla products. It's basically see with extensions is essentially what it is.
+And compile it directly to help it compile a ﬁgure out which bits are going to be
+parallelized and which bits aren't.
+So then we're the incumbent. Now Intel has a lot of money to throw at the problem
+and they'll certainly win some deals. But I would still anticipate -- it's a big market
+and I would anticipate Tesla continuing to grow strongly into that market.
+Competitors -- so, Tegra the competitor really is Qualcomm. In automotive, the
+incumbents are Freescale and TI. But they are -- I don't know how capable they are
+going to be of moving up to the next generation of infotainment and certainly hate
+to ask.
+Qualcomm has just started in that space. So it's got a lot to do in terms of making up
+lost ground in terms of software and tools and the ecosystem that we built around
+our chips. But truly they have resources and they're going to compete strongly there.
+But again, our visual computing expertise will be a strong diﬀerentiator, a strong
+diﬀerentiator already. And as we move to the next generation of advanced driver
+automation systems, ADAS, we'll have an even stronger diﬀerentiation because
+we're the only people who can do anything like that sort of image processing right
+now.
+{BIO 6109216 <GO>}FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 14A - Chris Eveden
+Q - David Wong
+A - Chris Eveden
+Q - Unidentiﬁed Participant
+A - Chris Eveden
+Q - David Wong
+A - Chris EvedenDo we have any questions in the audience? Anybody?
+Questions And Answers
+Went a minute, we don't have any questions. That's just us.
+{BIO 6109216 <GO>}
+Anyone?
+Well you're going to have to think of some more questions. I could just talk.
+Chris, what are some of, I guess, your assumptions on manufacturing technology
+availability in the future? And also, when do you plan to move to FinFETs?
+So we have to be a bit more careful about what we say about our future
+manufacturing plans, because that's competitively sensitive information. So Moore's
+Law -- and Jen-Hsun talked about this last week. He said Moore's Law is slowing
+down or has slowed down. So you have to ﬁnd other ways to innovate.
+So innovations like NVLink, I think, was the speciﬁc one he was talking about when
+he -- which is a fast interconnect between CPUs and between GPUs as well, between
+CPU/GPU and GPU/GPU. That's one example of innovation.
+We will move -- we will move to 20. We'll move to 16. Whether we'll go as hard and
+as fast as we typically have gone into new nodes is an open question. But we'll see
+how that unfolds.
+{BIO 6109216 <GO>}
+Just to amplify on that. So just my favorite topic, gentlemen asked last week about
+your attitude to Intel of the past. Can you run through what NVIDIA is saying about
+you know --?
+(Down be up). We look at them. I mean right now TSMC is the best at what they do.
+They have the best technology. They have the best commercial terms and they've
+been a fantastic, fantastic partner for us for many, many years.
+We've used other suppliers the past and been badly burned. And that doesn't mean
+to say we are completely blind to the idea that actually having only one supplierFINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 14Q - David Wong
+Q - Unidentiﬁed Participant
+A - Chris Eveden
+Q - David Wong
+A - Chris Evedenmight seem to be a risk. You don't need an MBA to wonder aloud about that. So we
+do look at other vendors.
+And we would absolutely be open to looking at Intel or Samsung or Global
+Foundries. And we do look at that quite closely and if one of those ever had a
+technology lead and had the right commercial terms, then we would very, very
+seriously consider them taking at least some of our production there.
+But I think today TSMC is the best at what it does. And I can't imagine our
+relationship with TSMC as anything but stronger today than it was yesterday, thanks
+to announcements by AMD. But certainly that has got -- that's surely enough to
+strengthen our relationship with TSMC.
+{BIO 6109216 <GO>}
+Any other questions? Anyone else?
+Your relative success in automotive for Tegra versus smartphones or smaller display
+sizes, how -- why is that? Is it the size of display that just doesn't value what you have
+as much? Or are there other things there, power management or other things?
+Certainly the bigger the screen, the more pixels you are driving and the more
+sophisticated the application you're driving through those screens, the more it falls
+into our bailiwick, if you like. But I think also the mainstream smartphone market is
+very cost-driven and having high levels of integration in that market is quite
+important.
+And there's a very, very strong incumbent in that market with Qualcomm. And they
+have the motive. And they have the connectivity and they can integrate it all. And
+that makes it a diﬃcult market for anyone else to break into. If the diﬀerentiating
+factor is primarily price, then it's going to be a diﬃcult place for us to compete.
+If the diﬀerentiating factor is visual experience, as you note, as it is in cars and as it is
+even in high-end smartphones and in tablets, then I think we have much better
+prospects in those markets. Does that answer your question? Cool.
+{BIO 6109216 <GO>}
+Anyone else? I was wondering about your comments about smartphones. And
+you've exited mainstream smartphones. So where does that leave your baseband
+capabilities?
+So we still need the baseband, if only for automotive. Connectivity is going to
+become increasingly important in all those markets. So we'll keep developing aFINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 14Q - David Wong
+A - Chris Eveden
+Q - David Wong
+Q - Unidentiﬁed Participant
+A - Chris Evedenstandalone baseband voice and data. We're not going to develop an integrated
+baseband application processor.
+{BIO 6109216 <GO>}
+Okay.
+Because that's a product that's only got one target market in mind which is
+mainstream smartphones.
+{BIO 6109216 <GO>}
+Any other takers?
+Chris, what do you see as your best embedded opportunities available for Tegra
+going forward?
+Well automotive is the obvious one. And that's the predictable one paid. We have
+said that we have about -- a pipeline, if you like, of $2 billion worth of business over
+the next few years. So we've got visibility into that.
+So if we just sat on our hands and didn't make any more new business calls, in ﬁve
+years time' or whatever the number is, I'm not saying ﬁve years speciﬁcally, we would
+have had $2 billion worth of revenue. Now clearly, we are not sitting on our hands.
+We're clearly trying to go out and sell to more and more companies. But that's a
+great, predictable, very signiﬁcant revenue line.
+Other embedded applications we are looking at, I suppose you'd count set-top
+boxes in that embedded application. So such like Apple TV, we think that a device
+like that, if you could add decent gaming to it as well, run Android but put decent
+games on it, then I think that would be a very compelling device, because you could
+sell it at a similar price but you'd have huge diﬀerentiation.
+Am I moving my head around too much for the mic? Are we ﬁnished? All right. Okay.
+I'm talking. Sorry, I'll just ﬁnish that question because it's an interesting example
+there.
+So I've got a Shield, right, for NVIDIA and I've got a portal running on that which is a
+Valve game. And it's a game I absolutely loved on the PC when it came out a few
+years ago and now it's running perfectly well on Shield. And so it will be available
+publicly soon.
+And I was playing this last night and, if I can put that on a console I've now got a
+high-end -- I've got a real gaming console experience so, what, $100 or maybe $130.FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 14Q - David Wong
+A - Chris Eveden
+Q - David Wong
+A - Chris Eveden
+Q - David Wong
+A - Chris EvedenNow you've got a high-end gaming console. Just extraordinary, right? It completely
+changes the game.
+Just playing playing back TV, my Blu-ray player can do that. Right? I mean I'm not
+sure how much extra value you get from that. But add in that gaming capability and
+suddenly it becomes quite an interesting device.
+And because it's open, because it's Android, you have access to the whole Android
+ecosystem. So I've got Portal running on my Shield. I've got Angry Birds running on
+my Shield. I've got a Facebook app running on my Shield. I've got FactSet running
+on my shield. So (multiple speakers)
+{BIO 6109216 <GO>}
+FactSet running on your Shield?
+I've got FactSet, because it's an Android app. So I've got it running on Shield, yes.
+{BIO 6109216 <GO>}
+Maybe I need a Shield.
+Should have come to our analyst day. We were giving them away for free there. We
+already talked about that, you and I.
+{BIO 6109216 <GO>}
+Oh well. I think we are through the webcast time anyway. So I do appreciate you
+stopping by, Chris. It's always great to catch up on NVIDIA. Thank you very much.
+Sure, thanks David. If anyone has any questions, I'm going to be here for a little while
+longer. So reach out and talk. Cool. Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT FINAL TRANSCRIPT 2014-04-03
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 142024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

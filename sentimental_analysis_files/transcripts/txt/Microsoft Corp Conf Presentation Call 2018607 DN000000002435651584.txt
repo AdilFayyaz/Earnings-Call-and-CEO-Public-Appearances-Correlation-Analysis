@@ -1,0 +1,574 @@
+FINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 1 of 14, Senior Technology Analyst
+, Research Director, IoT Ecosystem and Trends Research Practice
+Anurag Rana
+Stacy CrookCompany Participants
+Anurag Rana
+Stacy Crook
+Presentation
+{BIO 7440273 <GO>}
+Good morning, everyone. My name is Anurag Rana. Welcome to the 2018 Internet of
+Things Overview with Bloomberg Intelligence. Just some notes, today's presentation
+will be recorded and available for playback. You can access the replay via the link
+sent to you in the e-mail from Bloomberg Webinars. At the bottom of the slide
+window, you can adjust the volume and maximize your screen, ask a question by
+submitting one to the right of the slides, we will address questions at the conclusion
+of the presentation. A copy of the slides will be distributed in a post-event e-mail.
+Just a word about our speakers today. Our guest speaker is Stacy Crook from IDC.
+She specializes in the IoT area, and I'll be moderating most of the panel.
+A quick word about Bloomberg Intelligence. Bloomberg Intelligence provides in-
+depth research and data on industries, companies, as well as government ESG credit
+and litigation factors that can impact business decisions. We cover about 135 plus
+industries, close to 1,800 plus companies, and we have about 300 plus third-party
+data providers that we work with. And we also have about close to 300 people that
+are part of our team and BI is exclusively provided to clients to subscribe to the
+Bloomberg Terminal and can be accessed via BI GO.
+With that, let me pass over the presentation to Stacy, who will take us and give us a
+strong overview of the IoT market.
+{BIO 18685239 <GO>}
+Thanks, Anurag. Hi, everybody, thanks again for joining us today. So, my name is
+Stacy Crook, and I'm a Research Director with IDC's Internet of Things Ecosystem
+and Trends Research Practice. The IoT Ecosystem and Trends Research Practice is
+IDC's umbrella program for IoT that looks at the market holistically and really looks
+to understand how the IoT ecosystem is evolving. But I also do a lot of work, looking
+at the IoT platform space in particular, so we will dive into some speciﬁcs on that
+segment of the market today after we sort of go through an overview of what's
+happening in the industry.
+So in terms of the agenda today, we'll again sort of take a look at the big picture for
+IoT in 2018. We'll put some numbers around it, so we'll look at the worldwide IoTFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 2 of 14opportunity, we'll also look at the IoT vendor landscape from a macro perspective,
+and then we'll dive into the IoT platform market, speciﬁcally.
+So I talked about this idea of IoT being an ecosystem, and the reason that we need
+to think about it from an ecosystem perspective is the fact that there is a complex set
+of technologies and services required to make this happen. So, we think about IoT
+from an enterprise perspective, think about all the decisions that they have to make,
+right. You ﬁrst have to think about what are the things that we want to connect and
+those things could be anything from a chipset to a module to an industrial assets to
+a consumer device or consumer goods, such as a refrigerator. Then we have to think
+about what kind of connectivity do we need and there's a lot of options there as well,
+everything ranging from cellular to some of the new low power wide area
+technologies, to WiFi, to satellite, to even ﬁxed connectivity is still very much part of
+our IoT implementations.
+Then we need to think about the infrastructure that's going to support that
+implementation, so this could include things like gateways and routers and other
+pieces of equipment that we need. Then we have to think about the software
+components of the stock. The IoT platform will help us to build and manage
+applications, as well as managing the devices themselves and you have to think
+about how are we going to gain intelligence from our data, so there is an analytics
+layer that goes into this. And then also there will be IoT speciﬁc applications that are
+oriented towards horizontal and vertical use cases.
+And then we have to think about how do we bring this all together, so we see IT
+services providers as playing an important role in this ecosystem from a consulting
+perspective, from an implementation perspective, providing managed services,
+support services, so we really need them to be this kind of glue that can help us tie
+these solutions together.
+And then we have to think about security and that really has to be considered
+holistically across this entire stack. So there is really a lot that organizations have to
+think about when they're looking to deploy IoT technology.
+If we think about some of the key themes that we're seeing in 2018, we ﬁnd that
+budgets are starting to be earmarked for IoT projects and often this is happening
+within the scope of broader digital transformation initiatives. We do a survey every
+single year where we ask close to 4,000 IT decision makers worldwide about their
+plans for IoT. And, in 2016, we found that 30 something percent of organizations had
+a budget in place for IoT projects. When we did the same survey in 2017 that
+percentage had jumped about too close to 70%. So that is a huge spike in one year
+and it really shows that organizations are starting to take this seriously.
+We also ﬁnd that the market opportunity is increasingly becoming used-case driven
+and, therefore, vendors are sort of narrowing their strategies to become more
+focused on various vertical industries and various use cases that support the needs
+of that industry. We're ﬁnding that organizations aren't necessarily seeking out IoTFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 3 of 14technology, in some cases some verticals don't even refer to it as IoT but they're
+really looking for IoT technology to support certain business call.
+We see that cloud is the underlying enabling capability to IoT success, because it's
+going to give us that scale, but increasingly we understand that the EDGE is also
+taking on additional signiﬁcance. And we talk about the EDGE, it is this capability to
+compute closer to the source of data generation.
+Analytics and artiﬁcial intelligence are really at the forefront of the discussion. Today,
+you go to any technology conferences and all you hear about is AI, AI, AI, but when
+we talk about IoT it's really important to remember that there is other building blocks
+that have to be in place before we can start applying any type of advanced analytics
+on our data. We need to have the right connectivity, we need to able to manage our
+devices so that we are getting reliable data from them and we have to make sure
+that our implementations are secure from holistic perspective. We also see that there
+is an increasing acknowledgement of these skill shortage and that this is holding
+back IoT projects today.
+When we think about some of the drivers and inhibitors for IoT investments. So we
+touched on some of these challenges, but again in our survey every single year
+security comes up as the number one inhibitor to IoT projects. We're really
+increasing our potential attack surface by quite a bit when we extend out beyond the
+traditional sort of IT perimeter, so we kind of went from the traditional IT perimeter,
+then mobile devices, and now as we imagine the IoT perimeter, we're just really,
+really increasing that surface area by a multitude.
+Costs are always the second challenge to these projects when we think about an IoT
+project. Again, there's a lot of piece parts that go into it. There is going to be a lot of
+services that has to go into it as well. So there's a lot of upfront costs, but then when
+we think about the ongoing cost, the connectivity as a part of this, right. So usually
+there is going to be something, an ongoing costs related to the connectivity as well
+as just the usual ongoing costs that are part of any kind of an IT project.
+Privacy concerns are deﬁnitely being raised to the forefront with IoT when we think
+about retail and the strategies to put beacons that can track our location when we
+are in the store tracking perhaps demographics about who we are. These things are -
+- bring up real privacy concerns. There is concern about technology stability and
+capabilities, and I think that we're getting to a point in 2018 where there is becoming
+more stability around that technology, but still we are talking about an emerging
+space and so it is a signiﬁcant concern.
+And, ﬁnally, we talked about the lack of skills and this is a challenge, there is a lack of
+skills in terms of some of the embedded technologies that we need, there is a lack of
+skills in terms of how do you bring the solution together, there is a lack of skills on
+the analytics and data science side, and you really need all of this to bring those
+solutions to market.FINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 4 of 14In terms of the drivers, there is meaningful drivers in place here and that's why
+despite the challenges organizations are planning to move forward with these
+initiatives. So there is the opportunity to improve business productivity when we
+think about this from, say, a manufacturing perspective, we could do dynamic
+scheduling in our factory, predictive quality, more automation within the factory, the
+ability to reduce costs. We think about Smart City, for example. If we have Smart
+Lighting System that can save a lot on energy costs, same thing with the Smart
+Building System.
+Moving into eﬃciency for customers is an important driver when we think about the
+supply chain. That improvements that we can make in our supply chain will impact
+our customers downstream in that whole value chain. Internal maintenance costs, so
+again we'll talk about manufacturing a lot in this session today, because it is sort of
+the largest used-case that we see today, the largest vertical area of vertical spend,
+and many of the biggest use cases come out of manufacturing. So, when we think
+about, it is the opportunity to do predictive maintenance on our machines and,
+therefore, save costs on maintenance.
+And, ﬁnally, improving customer experiences. So we think about this from a retail
+perspective. Yes, it's a little bit nerve-racking to think that something is tracking us,
+but, at the same time, this is how we'll be able to have more personalized
+experiences oﬀered to us. And then, also, we can also think about new service-based
+products that can be oﬀered from IoT data. So instead of having to buy an asset, we
+can buy a service to that asset.
+So if we look at this from a spending perspective, we believe that IoT spending will
+grow to $1.1 trillion in 2021 and it will be growing at a rate of 14.4% over the forecast
+period. And I know that sounds like a really big number, but, again, we have to think
+about all the diﬀerent technologies that are going into that spending. So there is a
+hardware component, there is a software component, there is a connectivity
+component, and then there's the services component as well. And we are tracking, I
+think, close to 75 use cases in our IoT spending guide right now, but that's obviously
+just one piece of the puzzle. There are going to be hundreds of use -- IoT use cases.
+So this is going to be very, very pervasive and that's why we think that the number is
+really going to be very signiﬁcant as we move through the forecast period. As we can
+see, Asia-Paciﬁc lead spending with North America coming in second and EMEA
+coming in third, and we'll speak to some of the regional trends on the next slide
+here.
+So, again, when we think about IoT spending, I'll touch on sort of some of the mega
+trends that are driving the spending across the region and then some of the top use
+cases across each regions. So in North America, really the mega trend here is digital
+transformation. And one of the main drivers for adopting IoT within North America is
+the need to reduce operational costs and this could be something like headcount
+within an organization or fuel savings for our ﬂeet. And in North America,
+manufacturing and transportation and logistics are the two largest use cases or, I
+should say, verticals.FINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 5 of 14In Europe, process automation is really the top driver of IoT spending today. And
+some of the key trends there are really the trends around industry for now. And in
+Europe, our manufacturing is also the top vertical in terms of spending. But by the
+end of the forecast period, we also see that consumer industry spending is going to
+make up a signiﬁcant amount of spend in that region.
+In Asia-Paciﬁc, improving internal eﬃciencies was the top driver of IoT projects.
+Again, manufacturing is the number one vertical for spending in that region,
+followed by utilities and transportation as well. And so, some of the trends in Asia-
+Paciﬁc that are driving the spending there still have initiatives like Made in China
+2025 certainly in the manufacturing space. There is also the fact that there's the kind
+of rise of the middle class in Asia-Paciﬁc. In Japan, there's a lot of eﬀorts around
+connected society. And so, as we go from region to region, we do see some
+diﬀerences in what's driving IoT spending, but again manufacturing is kind of a
+constant in terms of being that -- the top verticals of IoT spending across the world.
+And now if we look at IoT from a vendor perspective, so as we discussed, the
+technology sack includes a broad range of technologies, and so it's no surprise that
+there is a lot of vendors that participate in this space. And we've broken it out here
+into hardware, software services, standards bodies and industry solutions. And,
+again, we've grouped it this way, but when you think about the way that organization
+has to go about building an IoT solution, they have to make a lot of decisions and
+there's a lot of diﬀerent vendors to choose from. So, I think that's one of the key
+takeaways from this slide.
+I also want to call your attention to the IoT platform component of this slide, which is
+in the, sort of, right in the middle here. I think the important point here is, ﬁrst of all,
+that it takes up a lot of real estate. It is a space that a lot of vendors are participating
+in and the other point here is that, organizations cannot make an IoT platform
+decision in a vacuum, right. They have to think about the hardware that they need to
+connect to that platform, they need to think about the analytics that they're going to
+leverage from the data they collect on the platform, they have to think about the
+standards the platform supports, they have to think about what industry are they in,
+are there speciﬁc industry solutions that they want to adopt to run on that platform
+and how they're going to bring it together. So we'll get into the platform a little bit in
+a couple of minutes, but just wanted to call attention to that on this particular slide.
+So, again, when we think about IoT from a macro perspective, one of the questions
+that we ask in that survey I mentioned year-after-year is, what type of vendor do you
+think is going to be most likely to lead in the IoT? In the earlier days of ﬁelding the
+survey, the hardware vendors, sort of, were more at the top of the list. And we've
+seen this shift over the last couple of years where software and analytics vendors
+have now risen to the top, and we believe that this is just market maturity taking
+place, right. In the beginning of the market everybody was really thinking about what
+are all the potential things that we connect and how are we going to connect them.
+And now it's moving into, okay, so we may be have a handle on what are some of the
+pieces of hardware we want to connect in the connectivity, but now we need to think
+about, well, what is the end goal here, what is the insight that we want to gather fromFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 6 of 14the data. And so, now there is more attention being focused more on that software
+and analytics component of the stock.
+And so, the next question we asked was, okay, so you think that, for instance,
+software vendors are going to be really kind of the thought leaders in the space and
+the ones that are really making a lot of the money. So, who do you think is going to
+make the money? And so, this is the result and we asked it by each of these diﬀerent
+categories, so each person was able to sort of give their viewpoint on these
+categories. And so, I think there's a couple of important points to take away from this
+slide. First of all, asking about perception. And so, this is, again, perception versus
+who was actually making the money right now? I think today -- as it for example,
+from the software and analytics area, Google came up in number three, but Google
+didn't actually have a commercial oﬀering for the key space until -- well, in the
+enterprise side anyway, really -- have really focused product until 2017. So this is
+more of the perception at that point that the Google could be a leader, and I think
+that certainly some of that's being driven by what they're doing on the consumer
+side with also the focus that they have around analytics and everything that they've
+done with AI.
+I think another, sort of, telling aspect of this is also Siemens on the OT side, where
+they've really just began to kind of mature their commercial IoT oﬀering for market
+over the last year, but they, from a perception perspective, were ranked number one.
+So, I think it's very interesting to kind of understand who has -- this is really
+interesting in terms of like think about who has the mindshare in the market and I
+think that's our job to sort of track how the revenue shakes up over the next few
+years in these respective spaces.
+This slide also really reinforces the idea that IoT is an ecosystem and that no one
+vendor can dominate the space entirely.
+Okay. So now we're going to move into a discussion speciﬁcally around IoT platform,
+and we really see the IoT platform as an essential component of the IoT stack. And if
+you've been following the space at all, you may have heard that there are hundreds -
+- I think the number that gets tossed around the last is 400 IoT platforms on the
+market. So IDC doesn't quite look at it that way, because we have a bit more of a
+narrow deﬁnition of what we include in the IoT platform space. And for us to be
+classiﬁed as an IoT platform within our market sizings, the platform has to have a
+connectivity component and a device management component.
+Usually these oﬀerings have solid [ph] data ingestion, processing and management
+mechanism as part of them, because once you connect to the device, you start
+getting some of that data out of the device, you need to be able to ingest it and
+store it and the processing piece comes in where do you -- where does that gets
+stored or do you need to run an analytic on it in real-time.
+Visualization tools are usually part of these platform products as well, because, again,
+if you have this data you won't be able to visualize it. So those are kind of the fourFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 7 of 14key components that we see making up an IoT platform, but it has to be all in one
+product for us to consider an IoT platform. So, if it's just an IoT visualization tool, we
+don't consider that a full-on platform, that is a IoT visualization tool.
+Sometimes these products include application development tools, sometimes they
+include advanced analytics. So if it's included in the pricing that we consider part of
+the platform, if it's not, then we don't. In terms of architecture, we'll talk about this a
+bit more in a minute, but we really think that these platforms have to support
+distributed computing. We talked about this idea that the cloud is very important.
+The cloud and, we call it, the core, because this could be any centralized data center,
+it could be the cloud and it could be an on-premises data center, but it's a
+centralized data center, that is not, say, on the mid, on the factory ﬂoor, in the
+manufacturing -- for manufacturing, example.
+Security has to sort of run throughout the stack. We don't see that as a kind of a --
+there are standalone security products, but we wouldn't consider that an IoT
+platform. For us, the IoT platform has to have security architected in, and then we
+also think that the platforms increasingly have to have APIs to integrate with other
+business systems, because a lot of times raw IoT data itself is not that meaningful,
+you have to combine it with other points of context to make it meaningful.
+So, if we look at the IoT platform from a vendor perspective, it's a crowded space
+and it's interesting to look at this, because it maps nicely to that. That ﬁrst slide that
+we showed, that sort of showed the IoT technology stack from these things to the
+services. So we've got companies and vendors that makes things that ﬁt IoT
+platforms. Again, this could be machines, this could be chip sets, this could be
+cellular modules. We've got vendors that build network equipment in -- heavily
+involved in this space. We've got vendors that run connectivity networks that have
+platforms, and then we've got all the analytics applications cloud vendors that are
+participating, and then the services vendors as well. And the services vendors,
+sometimes they have a proprietary platform, but usually they oﬀer partner platforms
+as well, because their focus is really on generating services revenue and it's less so
+about having allegiance to any one speciﬁc software platform. It's more about
+ﬁnding the right ﬁt for the customer.
+And so, obviously, there's a lot of competition here. But if we think about it, we don't
+think that there is necessarily a winner-takes-all strategy in the IoT platform wars. We
+do think that there will be winners that emerge in each of those categories, but they
+all have to play together, because when you think about it, nobody's in the vendor
+landscape is really positioned to sort of lead across all of those areas, so they have to
+partner. And we see the evidence of this and what's taking place in the ecosystem
+over the last couple of years. There's partnerships across application development
+cloud, EDGE, connectivity management and device management and I will talk
+through a couple of these examples just to bring them to life.
+So if we look at application development, AWS obviously oﬀers a number of web
+services that are really the building blocks to build solutions. Salesforce brings the
+customer contacts into that situation, so a customer might build their underlying sortFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 8 of 14of IoT infrastructure, software infrastructure, I should say, with AWS, but then if they
+want to bring some points of context into their application, they might leverage
+Salesforce's IoT solution in concert with that to bring. Again, we talked about the
+idea of adding context to IoT data.
+In the cloud space, one other things we've seen is that the organizations that are
+really focused on the cloud infrastructure like Google, Microsoft, Amazon, they are
+certainly focused on their own cloud strategy, but other vendors that do have some
+cloud strategy but are less focused on the infrastructure piece of that are trying to be
+more multi-cloud and give their customer's choice. So SAP, GE Digital, and PTC are
+all examples of companies that are really trying to focus more on the platform-as-a-
+service layer and they're partnering with cloud infrastructure providers. So that if
+their customer wants to run their PaaS on a Google IaaS, they're able to do that
+instead of having to run it on SAP's own cloud.
+On the EDGE infrastructure side, we have got a number of organizations that
+provide the gateways and the hardware, but then when you think about running an
+application on that hardware, for instance, IBM has an SDK, so that you can run in
+IBM IoT Watson application on a Cisco gateway.
+In the connectivity management space, Cisco -- for this piece of it, we're talking
+about Cisco Jasper. So Cisco Jasper has integrated with many mobile operator
+networks around the world. So for an IBM or Microsoft, it doesn't necessarily make a
+whole lot of sense for them to try to make that eﬀort as well, it makes more sense if
+they have a customer that wants to do an IoT deployment with cellular to partner
+with Ericsson or Cisco Jasper.
+On the device management side, there will be a lot of partnerships, because there
+are lot of diﬀerent providers of device hardware and who knows how to manage
+those better than the company that originally manufactured the same, right. So
+Bosch and IBM are good example of that, where IBM has partnered with Bosch on --
+for Bosch's device management software.
+So, again, there has to be partnerships across the space and I think that we've come
+to sort of see the IoT platform is an ecosystem itself within the broader IoT
+ecosystem, but there will be some key attributes of winning platform players. We talk
+about ecosystem partnerships and like [ph] some will believe at that point, standard
+support is really important. There's a lot of diﬀerent standards out there and you
+need to understand which standards are important in your industry and support
+them. It's really important to focus on use cases. Again, we don't see customers
+necessarily going out and saying I want to buy an IoT platform, what they want is a
+piece of technology that supports their use case.
+It's going to be very important to have a developer ecosystem. Anytime we talk
+about our platform, you want developers and you think cloud momentum is also
+very important, because we talked about that scale, but also this is where a lot of theFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 9 of 14developer interest is being pulled these days. So if you're a big cloud provider with
+the strong developer ecosystem, that is only going to enhance your IoT strategy.
+Analytics are really important, this is where we get the value from the data, so we
+think the IoT platform players all need to have strong analytic strategies. They've got
+to get pricing right. We've seen many IoT platform players slashed their pricing over
+the last year up to 50%, because the pricing models were just too high when we
+think about all the data that customers want to run analytics on and store. And IoT is
+very global in nature as we talked about earlier, so whether you're a multinational
+organization or you're manufacturer that shipping products all over the world, you're
+going to have to think about global connectivity, you've to think about global
+language support, global tech support, so these platform players have to really have
+strong global capabilities.
+Okay. So just ﬁnishing up here with a quick view on the future of the platform. So,
+again, we really think that the idea of an EDGE to cloud or EDGE to core architecture
+is really important, increasingly because of the cost to send everything to the cloud,
+because of security issues, because of concerns around latency and bandwidth,
+organizations are going to want to process more of their data closer to the point of
+generation. So as a platform provider, you need to be able to support that
+application wherever it needs to run.
+We think that trends around containers and serverless computing are valuable to the
+platform. Containers oﬀer portability, which is important when we're talking about
+very heterogeneous endpoint environments. Serverless computing really allows us
+to take an event-driven approach to IoT, which can save us cost if we're just spinning
+up the computing when we see a certain event happen, instead of running all the
+time. We also think blockchain is going to be an interesting technology with an
+intersection to IoT for certain use cases like those around supply chain and track and
+trace.
+In terms of functional enhancements, we think that there will be more rapid
+application development tools added to these platforms, because they allow more
+people in the organization to participate in the development process. This idea of
+digital twin and augmented reality taking the digital -- taking the physical world and
+making it digital is going to be a really key trend in -- especially in Industry IoT, more
+integration of the device, so that when organization wants to on-board millions of IoT
+endpoints that makes that process simpler. We talked about contextual integrations,
+it could be customer data, it could be weather, it could be location. Data
+monetization tools, so that you can start to build new revenue models based on this
+data. And then in terms of consumption, it's going to go two ways. On the one hand,
+it depends -- and it depends on who is buying the platform. If it's more of a technical
+sale, you need to have those micro services available, so that they -- that technical
+person can, kind of, buy the piece parts that they need.
+On the other hand, if it's more in a line of business sale, which will happen a lot in
+IoT, you need to have more of an application go-to-market. And so, we think it's
+actually quite useful for a platform vendor to be able to oﬀer both approaches to theFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 10 of 14Anurag Rana
+Stacy Crookmarket. So that's where we see the momentum in this market happening over the
+next year or so.
+And so, that was all I had today. There I am with my contact information and if
+anybody has any questions that don't get answered within our Q&A session today,
+feel free to reach out afterwards. That's it.
+{BIO 7440273 <GO>}
+Thank you so much, Stacy, for such a good overview. Just a request to our listeners, if
+you have any questions, please type them out and I will read them out to Stacy. So
+Stacy let me just talk about a little bit of something that we have learned from just
+cloud, in general, is, when you look at a cloud architecture and cloud, you could say
+one of the reasons of going to the cloud was, it was a little more secure or, I would
+say, far more secure, it has a homogeneous architecture compared to a combination
+of a lot of internal IT patched together over years. But when we look at the IoT space,
+we really don't have, as you mentioned, one large mega provider and we are again
+going back to that same construct of IT services companies patching together these
+relationships, these products, and are we going to come up with, again, business
+models that are so ﬂawed with security that would, once these things take oﬀ, it
+might actually come down pretty quickly.
+{BIO 18685239 <GO>}
+So I think that that's a really astute observation. I do think that what we're going to
+see happen is that some of the leading cloud providers are going to take the
+initiative to move into spaces that -- either that they haven't before or they're going
+to create really tight partnerships with other leading technology providers. So I think
+one example of this is that we've seen that these cloud providers are moving their
+cloud technology actually outside of the cloud, right. So the ﬁrst thing that we've
+seen is that they're taking cloud technology and allowing customers to run it on-
+premise.
+And now, so -- like Azure, if you take Microsoft, for example, Azure stack is a good
+example of that. And then with IoT now, they're moving it even further out, so like
+we'll just continue with Microsoft. With it, now they have Azure IoT EDGE, which is
+kind of taking a bunch of those web services and running it even further out from the
+cloud on a smaller IoT endpoint. And then what they introduced most recently with
+fear, which is something -- which is an operating system for a microcontroller, which
+is like the end of the IoT endpoint usually.
+So we do see that the cloud providers are one -- are taking this initiative to create a
+more of a -- and part of the reason they're doing this, right, is to create a secure, their
+trade net chain of trust from the end -- the way end of the IoT back into the cloud,
+but there are going to be other complete pieces of computing in there that say
+Microsoft might not do like a gateway. So I think that we'll see these companies, like
+we talked about the example of IBM and Cisco, coming together to create a
+partnership around IoT. So that's what I think will happen here. It's not that the
+services providers won't still play an important role, but I do think that theFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 11 of 14Anurag Rana
+Stacy Crook
+Anurag Ranatechnology vendors are going to increasingly take this upon themselves to create
+this chain of trust within their own solutions to the extent that they can, but then also
+form these really close alliances with other major technology providers where it's
+needed.
+{BIO 7440273 <GO>}
+Now, that's fairly a detailed discussion of that. Now, one of the things that we have
+also seen as we have been digging around this topic for the last few months is, these
+EDGE computing services launched by the cloud providers are fairly new. I mean, I
+think -- it's -- all of them are perhaps not more than 2 years old, is it that concept that
+is helping the adoption rate, because as you mentioned, I mean, we have been also
+hearing from some of the services companies that are implementing these projects
+that the project size are improving and enterprise adoption is going up, is that -- that
+is the key reason or do you see anything else that's driving this adoption rate?
+{BIO 18685239 <GO>}
+So I think that that's part of it, right. Because when we think about manufacturing and
+the -- that -- the majority of IoT spend is within the manufacturing space. EDGE is
+very important for industrial IoT, right. A lot of these organizations, they are just not
+going to send, because we talk to them, they are just not going to send that certain
+pieces of information are just probably never going to go in the cloud. And so, it is
+really important for them to be able to adopt IoT that they know, that they can keep
+their information on the factory ﬂoor or whatever that private network is that they
+need to keep it within.
+So I actually do think that these EDGE computing technologies are going to make it
+much more realistic for not only manufacturing but oil and gas too when we think
+about the fact that you're having an oilﬁeld in the middle of nowhere, you don't have
+that connectivity all the time. So there's diﬀerent challenges they're driving it, but I
+think that that's deﬁnitely one part of it.
+I think that also digital transformation eﬀorts as those become more mature, IoT
+should really sit hand in hand with the digital transformation eﬀort. So as we see that
+maturity happening, I think we'll see more of it. I also think as the analytics
+technologies mature, that also is really going to help push IoT forward. And one
+other really key component of this two is connectivity. So I mean we have cellular
+connectivity, but that's expensive. We have -- WiFi is there and that's ﬁne, but when
+we talk about somebody's mobile use cases, I think the increasing prevalence of
+these LPWAN networks will also help move it forward. So, I think we've got a number
+of trends converging at once to help start pushing IoT forward.
+{BIO 7440273 <GO>}
+Thanks. So there is another one that has been on our mind for a while. So when you
+look at some of the vendors that are currently amongst the top list that you have,
+General Electric pops up and you have a number of other industrial companies, you
+mentioned Siemens and Bosch. Now, they have been -- at least General Electric hasFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 12 of 14Stacy Crook
+Anurag Rana
+Stacy Crookbeen talking about this for many years, but it seems like it doesn't look like that had
+that level of traction as I would have expected three years ago and we recently saw
+them partner with Microsoft, for example, to do -- use Azure as the back-end for
+some of those Predix applications. Now, is this a trend that we should see going
+forward as well that industrial companies will use the tech companies as their
+backbone and would be more interesting in selling some higher value services? And
+will the cloud providers be the ﬁnal winners in that case?
+{BIO 18685239 <GO>}
+So, I do think that we see this trend happening. So I think GE, as you mentioned, GE
+Digital is moving in that direction, Bosch is also moving in that direction, where
+they're running various components of their IoT suite on public clouds. We talked to
+ABB the other day, who is really highly invested in Azure as the platform for their IoT
+solutions. And ICG has done this too, where they are moving more towards an IoT
+solution or application focus, and I think what those companies have realized is that
+running of the infrastructure for these applications is not their core competency, and
+that -- and doing that takes a lot of resource and eﬀort. So I think that what they're
+really trying to focus on is what is our core competency and their core competency is
+knowing these industries very well and understanding the speciﬁc use cases and the
+value they're trying to get out of it, so I think that they are going to focus more on the
+analytics and the application layer versus the infrastructure moving forward.
+{BIO 7440273 <GO>}
+Got it. One of the more interesting use cases I've seen with Salesforce where these
+devices can be connected to their CRM system and messages can be sent to
+people's mobile devices or to e-mails about things potentially breaking down, so it's
+a very interesting concept, because there -- it doesn't look like they are on the device
+management side, they are more on the CRM side of it. Any other vendors that are
+doing that kind of cooler stuﬀ in that arena? I know you had mentioned Google, but I
+wasn't sure if they have something like that too?
+{BIO 18685239 <GO>}
+So, I think that when you think about what Salesforce is doing, yes, it is on that
+adding the context piece of it. So other companies that are sort of competing with
+them in the CRM space are going to look to do similar, look to have similar
+strategies, right. I think when you think about the way that Oracle, SAP, Microsoft
+started to think about IoT, they are thinking about -- even GE, with its ServiceMax
+acquisition is thinking about how do we make -- how do we improve customer
+service through our ﬁeld service organization, how do we create those personalized
+experiences. So if customer is staying in this hotel and we know every time she
+comes to this hotel, she likes to, I don't know, order the same meal from room
+service. Then I think that that's something that's being looked at.
+IBM too is one to watch and in this space with the IBM Assistant that they've recently
+launched for IoT, so I think any of these companies too, they're participating in the AI
+space, which all those companies have some strategy there, they'll look to see howFINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 13 of 14Anurag Rana
+Stacy Crook
+Anurag Ranathey can combine IoT with AI to create better personalization. So seems to be a lot of
+interesting things going on.
+{BIO 7440273 <GO>}
+I have one ﬁnal question and that's on blockchain. I mean, that's something that's
+obviously been in the news a lot for a lot of reasons. What are kind of the use cases
+when it comes to IoT? And what kind of, I guess, solution/applications can we see
+emerging from that?
+{BIO 18685239 <GO>}
+So, yeah, I think -- so let me say, I think there is kind of three big places, big
+applications that we're looking at right now. We do plan to write some research on
+this very, very soon and all sort of detail this all out. But I think anything that has a
+track and trace component can be very interesting to use IoT with blockchain. So the
+thing and that's moving through the supply chain or the logistics could be
+transmitting data and could be transmitting data to a blockchain, so that -- and the
+blockchain is verifying that this is true, so that when the product ends up wherever
+it's supposed to go. If something goes wrong with that product, so say it's food; if
+the food reaches its end destination and it's spoiled, you can ﬁnd out exactly where
+in the logistics process this happened, because say when it was on a plane, it was
+sending back information which was veriﬁed by the blockchain that the refrigerator
+temperature was X, Y, Z at this time. But later in the process, maybe we see that
+refrigerator did not -- it was not at the temperature it was supposed to be, and that
+was also veriﬁed by blockchain, so we can -- it veriﬁes, it gives us better veriﬁcation
+on when something may have gone wrong in that process of getting that food to
+someone.
+I think another interesting use case for blockchain in IoT is with security. So when we
+think about traditional security models, something is authenticating against a
+centralized authenticator. And in IoT we might not have the time to make the trip.
+Again that authentication service is in the cloud, we might not have time to make
+that trip out to the cloud and back. So we can have more of a peer to peer security
+model for IoT that could be interesting. Again (technical diﬃculty) that IoT and
+blockchain are both more or like these distributed models.
+Another interesting use case could be for monetization. So if we can use
+cryptocurrency as our way to pay for something within the IoT, so we can think about
+blockchain and IoT coming together for IoT monetization use cases. And there are
+certain organizations like IOTA is one of those that's really focused on that use case
+of bringing IoT and blockchain together. I think, IoT Chain is, maybe, another
+organization to look at there.
+{BIO 7440273 <GO>}
+Awesome. Stacy, thank you so much for such an informed session, and we look
+forward to talking to you again next year and get an update on the same strategy.
+And that's all from me. Thank you, everyone.FINAL TRANSCRIPT 2018-05-17
+Microsoft Corp (MSFT US Equity)
+Page 14 of 14Stacy Crook{BIO 18685239 <GO>}
+Great. Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

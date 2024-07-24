@@ -1,0 +1,449 @@
+FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 12Dounia Berrada, Senior Software Engineer
+Lilian Rincon, Senior Product Director, Shopping
+, Senior Director, Search Experience Product Management
+, Senior Vice President
+, Director & General Manager, Food Vertical
+Prabhakar RaghavanSearch On 2022
+Company Participants
+Nick Bell
+Prabhakar Raghavan
+Sophia Lin
+Presentation
+{BIO 3368123 <GO>}
+Hey, everyone, and welcome. We're coming to you live from our Third Annual Search
+On. Everything we do at Google is to improve the lives of as many people as
+possible. Since day 1, we've dedicated ourselves to a mission to organize the world's
+information and make it universally accessible and useful. From how many grams in
+an ounce, to how to say Hello in Japanese, if you could ﬁnd the words, we could
+help you ﬁnd answers to life's questions, big and small. So much so that if you close
+your eyes and think of Google, I'd imagine a lot of you would see this.
+But the way people seek information isn't conﬁned to a text box. Over time, we've
+evolved how we bring our mission to life, helping connect you to information in ways
+beyond how you might traditionally think of search. You can now search what you
+see with your camera, you can ask a question aloud with your voice, and you can ﬁnd
+a song by humming it even if you're out of tune.
+But as humans, exploring information isn't something we do in just one way. We rely
+on our many senses and a variety of inputs to perceive the world around us. And as
+we learn and explore information, we approach it from diﬀerent angles and tap into
+other people's experiences. For example, say a strolling through your grocery store
+and stumble upon an unfamiliar vegetable. Intrigued, you might pick it up and take a
+closer look. And if you check out, you might ask the grocer how it tastes and for any
+recipe recommendations.
+While making sense of the world the way humans do is a huge challenge for
+computers. We getting closer by making huge leaps in computer science. We're now
+able to understand information in its many forms from language to images to things
+in the real world. With this deeper understanding, we are going far beyond the
+search box to create search experiences that work like -- more like our minds that are
+as multi-dimensional as people are.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 12As we enter this new era of search, you'll be able to ﬁnd exactly what you're looking
+for by combining images, sounds, text, and speech. You'll be able to ask questions
+with fewer words, or even none at all, and we'll still understand exactly what you
+mean and even suggest things you might ﬁnd useful. And you can explore
+information in a way that makes sense to you, whether that's going deeper on the
+topic as it unfolds or discovering new points of view that expand your perspective.
+We call this making search more natural and intuitive. But for you, we hope it means
+that the next time you close your eyes and think of Google, you'll imagine what it's
+like to search your word, anyway you want, anywhere you want.
+Today, we'll share our progress towards this vision, starting with searching and
+exploring visually. Already, searching with text is indispensable. Now, the age of
+visual search is here. Cameras have been around for hundreds of years, and they're
+usually thought of as a way to preserve memories, or these days, create content.
+But a camera isn't just a content creation device, it's a powerful way to access
+information and understand the world around you, so much so that your camera is
+the next keyboard. That's why back in 2017, we introduced Lens, so you can search
+from your camera or photos.
+Since then, we made it easier to access Lens and people now use it 8 billion times a
+month to search what they see. We've continued to make visual search even more
+natural, and earlier this year, we hit a major milestone with the introduction of
+Multisearch. With Multisearch, you can take a picture and add text to it, just as you
+might naturally point at something and ask a question about it. This opens up
+entirely new ways to search. Let's take a look at how one craft maker uses
+Multisearch to ﬁnd exactly what she's looking for.
+(Audio-Video Presentation)
+I didn't even know bagel persons were a thing. Multisearch is available today in
+English globally and I'm thrilled to share that it's coming to more than 70 languages
+in the next few months.
+This is just the start of how we are continuing to make visual search even more
+helpful. You might recall, we showed an early-stage demo of Multisearch Near Me
+this year at Google I/O. With Multisearch Near Me, you can snap a picture or take a
+screenshot of an item, then ﬁnd a way to get it nearby instantly. This new way of
+searching will help you ﬁnd and connect with local businesses, whether you're
+looking to support your neighborhood shop, or just need something right now. This
+is made possible by our in-depth understanding of local places and product
+inventory, informed by the millions of images and reviews on the web. I'm excited to
+announce that Multisearch Near Me will start rolling out in the U.S. later this fall.
+One of the most powerful aspects of visual exploration is its ability to break down
+language barriers. We've gone beyond translating text to translating pictures. OurFINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 12Dounia Berradatechnology already identiﬁes texts in screenshots or pictures of the world around
+you and translates it in real time, making anything you see readable in your
+language.
+People use Google to translate text in images over 1 billion times a month, across
+more than 100 languages. That means people can instantly read storefronts, menus,
+documents and more, even if they are in a language they don't understand. But
+often, it's the combination of words, plus context like background images, that bring
+meaning. With major advancements in machine learning, we're now able to blend
+translated text into complex images, so it looks much more natural and feels
+seamless.
+Let me hand it over to Dounia to show you a live demo.
+Thanks Prabhakar. As you mentioned, we can already translate text in pictures, but
+now, we're applying state-of-the-art AI to translate the whole picture, creating a far
+more natural result. Let's take a look at an image captured with the James Webb
+Telescope by NASA. Today, Lens sees the text in Spanish and instantly translates it to
+English, which is cool, but you will notice that we overlay the translations using color
+blocks, which can cover up some of the image.
+Oftentimes though, the image has super important context, especially for
+educational content like this, which is one of the top ways people use Lens translate.
+So now, I want to show you a live demo of what this looks like with our latest
+machine learning advancements.
+So I'm here on my home screen and I tap the Lens icon in the search bar. I already
+have this image on my phone and when I select it, you will see how much better it
+will look. That was fast. So just in case you missed it, let's do it one more time. Now,
+you can see the fully translated image.
+Instead of covering up the original text, we're erasing it and recreating the pixels
+underneath with an AI generated background. And then, we overlay the translated
+text on top of the image seamlessly. We've optimized these machine learning
+models so that we're able to do all this in just 100 milliseconds, less than the blink of
+an eye. This uses generative adversarial networks, also known as GAN models, which
+is what helps power the technology behind Magic Eraser on Pixel, and it works live in
+your camera too. So let's try it with another live demo on this poster of Stephan's
+Quintet.
+So, I'm back on my home screen and I'm going to tap the Lens icon in the search bar
+again. But this time, instead of selecting an image from my gallery, I'm just going to
+open up the camera. And you can see now the translation blending the image as
+though that's how it was created, and we can still see all of the details of the image.
+So cool, you might say it's out of this world. We're excited to bring you this improved
+experience later this year.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 12Prabhakar Raghavan
+Nick BellBack to you, Prabhakar.
+{BIO 3368123 <GO>}
+Thanks, Dounia. We've just shared some incredible ways you can search visually. And
+now, we're putting some of our most helpful tools directly at your ﬁngertips,
+beginning with the Google App for iOS. Starting today, you'll see shortcuts right
+under the search bar to shop your screenshots, translate text with your camera, hum
+to search and more. All of the examples you've just seen show how we're helping
+you search beyond the box. And as I mentioned earlier, we also want to help you
+explore the world's information more naturally. Up next, you'll hear from Nick and
+Yvonne on that.
+And later, you will hear how we are helping you ﬁnd and explore information in
+everyday moments like when you're visiting a new place, looking to satisfy a food
+craving, browsing for the perfect purchase, and trying to make the more sustainable
+choice. Over to Nick and Yvonne.
+(Audio-Video Presentation)
+{BIO 1894549 <GO>}
+17 years ago, Google Maps completely redeﬁned what a map can be. Back then, if
+you needed directions with you, you had to physically print them out. We solved how
+to get from point A to point B, and over the years, we added helpful insights like live
+traﬃc, how busy a place is, and the most eco-friendly options to get there.
+We're proud to connect more than 1 billion people every month to the most
+comprehensive information about the world around them. Now, with advancements
+in computer vision and predictive models, we're once again reimagining what a map
+can be and how you can engage with it.
+We can now fuse together satellite, aerial, street view imagery with real-time data
+and photos and videos from our community of contributors, and bring them to life in
+a more visual and immersive way. This means evolving our 2D map into a rich multi-
+dimensional view of the real world. The map comes alive in front of you, helping you
+truly experience a place before you ever step inside, so you can make more
+informed decisions. Let me show you what I mean.
+Say you're in Paris and you want to ﬁnd fun and unique things to do. It can be
+diﬃcult to ﬁgure out what's worth exploring, what's new, and where the local gems
+are. Instead of spending tons of time researching, you'll be able to open Google
+Maps, zoom in on a neighborhood, see what's popular, and quickly get the vibe of
+an area, so you can ﬁnd what ﬁts your mood. Let's check out the Latin Quarter.
+Browsing the map, you can instantly get a feel for what it's like and quickly ﬁnd the
+most popular things to do, like admiring beautiful landmarks, strolling in the gardens
+or enjoying breakfast at one of the trendy sidewalk cafes.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 12This is possible because we combine information about a place, like how busy it is,
+with insights from people like you, who, every day, contribute to Google Maps with
+more than 20 million reviews, photos and more. This new way to get the vibe of a
+neighborhood will roll out globally in the coming months. And this is only the start of
+our journey. You might recall that a few months ago, we gave you a preview of the
+transformational way we're making Maps more immersive and interactive.
+The ﬁrst step was to launch photorealistic aerial views for 100 global monuments and
+landmarks. We're expanding that to over 250 from the Tokyo Tower to the Acropolis
+in Athens and more, which allows you to explore these places in an entirely new way
+on Maps. What's even more exciting is that we're now able to combine this beautiful
+3D model of the real world with our unparalleled depth of information, like weather
+and traﬃc and busyness to help you conﬁdently decide when and where to go.
+Let me dive a little bit deeper into how it will work. So recently, a friend of mine was
+in San Francisco and we wanted to catch a baseball game at the stadium. Just
+imagine, with this new experience, I can open Google Maps and I can see the
+stadium come to life on my screen. Now, I can ﬁnd helpful information, like the
+nearest parking and entrances in a more natural and intuitive way. I can also browse
+the area to ﬁnd a dinner spot for that weekend.
+Let's actually take a look inside this restaurant. It looks really nice, but when I
+checked the busyness indicator, I see it's going to get crowded at dinner time. As I
+continue browsing, I see another place that's less busy, and it has a rooftop patio
+with skyline views. I can even see with the web that the weather would be really nice,
+which means I could book a table outside.
+Using computer vision and predictive tools, Immersive View takes all the useful
+information you can ﬁnd in Google Maps and brings it to life in an immediate and
+highly visual way. Helping you experience what a place will be like today, tomorrow
+or even later in the week. Immersive View is launching ﬁrst in ﬁve major cities in the
+coming months, with more on the way next year.
+Being able to search and navigate quickly is especially critical when you're on the
+go. As you heard from Prabhakar, the age of visual search is here, and your camera is
+a powerful way to access information and understand the world around you. That's
+why three years ago, we reinvented how you can use your camera to get around.
+With Live View, you can seamlessly overlay walking directions on top of the real
+world, and now, we're bringing visual search capabilities to Live View. You'll be able
+to ﬁnd nearby places in a faster, more natural way right in Google Maps. Let me
+show you how this works.
+Say, you're headed to an outdoor market in an unfamiliar part of town, but on your
+way, you remember that you'll need some cash. Today, ﬁnding a nearby ATM would
+involve lots of steps. You have to stop, search for ATMs on your phone, locate the
+closest one on the map, and then know how to get there. We're excited to announce
+that we're radically transforming, how you can explore places nearby.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 12Sophia LinSoon, you'll be able to lift up your phone, tap on the camera in the Maps search bar
+and instantly see what's around you appearing overlaid on the real world, like that
+ATM you were looking for. You'll be able to see all kinds of places, coﬀee shops,
+grocery stores, transit stations and more. You can also check business hours and how
+busy a place is, and helpful details like what services the barber shop down the
+street provides, all at once.
+We're rolling out the ability to search with Live View to six major cities in the coming
+months. This was just a quick look at how we're reinventing what a map can be,
+helping people explore in more natural and intuitive ways. Soon, you'll be able to
+get the vibe of a neighborhood at a glance, experience what a place will be like
+today or in the future, and see what you're looking for overlaid right on top of the
+real world.
+As we write the next chapter for Google Maps, we're excited about how these
+immersive experiences can help you explore the world with conﬁdence. Building the
+future isn't just about helping people who use Google Maps. We're also committed
+to empowering our developer and partner community to create more helpful
+experiences for their users with the Google Maps platform. You'll hear how we're
+doing this with sustainability later.
+Now, I'm going to pass it over to Soﬁa to share how Google can help you ﬁnd the
+perfect meal.
+{BIO 16034117 <GO>}
+Food is one of the most delightful parts of life. There are endless ﬂavors, textures,
+and tasty dishes to enjoy from all around the world. For me, food reminds me of
+family traditions. My family loves soup dumplings and we love trying diﬀerent
+restaurants to ﬁnd the most savory, ﬂavorful ones.
+To celebrate my brother's birthday this month, I have the all-important responsibility
+of ﬁnding the best soup dumplings around. I'm not alone when it comes to looking
+for a speciﬁc dish. Our research shows that 40% of people already have a dish in
+mind when searching for what to eat. That's why we're launching more natural and
+intuitive ways to experience food on Google.
+In the coming months, you'll be able to search for any dish and ﬁnd local places that
+oﬀer it. Whether it's something unfamiliar you've always wanted to try, or a late-night
+craving that you need ASAP, whatever you're hungry for, you can use Google to ﬁnd
+it.
+Let's say my friend posts a delicious-looking pastry, but I'm not sure what it is. A
+croissant? A muﬃn? Using Lens in the Google app, I can search a screenshot of the
+post to identify that it's a kouign-amann, a French pastry made with layers of butter
+and dough. Thanks to Multisearch, which Prabhakar mentioned earlier, I can add
+Near Me to see local bakeries where I can try one.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 12Or maybe you already know exactly what dish are craving. We're completely
+reorganizing Google's food information to bring you exact dish results, when that's
+what you're looking for. Like those soup dumplings. I can simply search for them on
+Google to see all the soup dumplings near me with pictures and reviews to help me
+make my decision. No more digging through endless menus from diﬀerent places to
+see if they have what I'm hungry for.
+You can browse multiple menu items or tap on a speciﬁc dish to see detailed
+information, like which restaurant it's from, price, ingredients, and whether it meets
+your dietary preferences, like vegetarian or vegan; or if you want a bit of a kick, you'll
+also be able to reﬁne your search for spiciness.
+Once you've found some restaurant options, how do you make sense of it all and
+decide which place is right for you? Star ratings are helpful, but don't tell you
+everything. When it's between two 4.4 star rated places, you want to get a better
+sense of what makes each place special. Maybe they like their cocktails on ﬁre or
+have a beautiful sunset view. In the coming months, Google will showcase what
+makes each place unique to help you preview and make a choice before you go. We
+use machine learning to ﬁnd and highlight pictures and helpful insights from
+reviews. So it's similar to getting recommendations and insider tips from your
+friends.
+Once you've chosen a restaurant, you probably want to check out more of the menu,
+but it can be hard to ﬁnd accurate menus online. Some menus are missing entirely or
+there might be multiple versions or blurry photos, making it hard to know what's the
+most up-to-date. That's why we're expanding our coverage of digital menus and
+making them more visually rich and reliable.
+To do this, we use state-of-the-art image and language understanding technologies
+including our multi-task uniﬁed model. We combine menu information provided by
+people and merchants and found on restaurant websites that use open standards for
+data sharing. These menus will also bubble up the most popular dishes, the ones
+that people snap photos of or talk about in reviews. Plus, they'll be easy to ﬁnd and
+fun to browse.
+Once you've found a restaurant, you're excited about, you can quickly reserve a
+table. For example, I found a great place that oﬀers soup dumplings that look
+delicious and can book it on the spot. And if you want to bring some friends along,
+just tap to share the details. Or maybe you want to scratch all that and just have a
+cozy night in. We can help with that too, simply order delivery or takeout.
+From ﬁrst search to ﬁrst bite, Google is making it easier to ﬁnd the food and places
+you love. We recently put these new features to the test. We sent our very own Yul
+Kwon to New York to try them out with one of the city's toughest food critics,
+Comedian Ronny Chieng. Let's have a look.
+(Audio-Video Presentation)FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 12Lilian Rincon
+At Google, we recognize that shopping is about so much more than just buying. It's
+about tapping into your natural human curiosity, browsing, exploring new products
+and brands, ﬁnding the best deal. And of course, that awesome feeling when you
+ﬁnd the perfect purchase. People shop with Google more than 1 billion times a day
+and powering all of this activity is the Shopping Graph, our AI enhanced model
+made up of more than 35 billion product listings. It dynamically adapts to give you
+the most up-to-date information, even as products are constantly changing. Now, the
+Shopping Graph is helping us make shopping on Google more natural, intuitive and
+of course, fun.
+First, we're introducing a new way to unlock a reimagined visual shopping
+experience. Starting today, when you search with the word shop followed by
+whatever you're looking for, you'll see a shoppable display of products from the
+widest array of retailers and brands. So, say, I searched shop women's bomber
+jacket, I'll instantly see a stream of bomber jackets, just like window shopping online.
+Plus, I'll see brand new features to help put the fun back into shopping.
+Our new Shop the Look feature will show suggestions for how to pair my new jacket
+with other pieces for the perfect look. And with our upcoming Trending Products
+feature, I'll see which bomber jackets are popular right now. You can access these
+new features on any Google search box by adding shop, followed by whatever
+you're looking for, like shop barbecue grills, shop throw pillows, or even shop dog
+costumes. This new experience feels like shopping should, natural and fun.
+And to help bring online shopping to life, we're making it easier than ever for
+merchants to show their products in 3D. Earlier this year, we rolled out 3D home
+goods and we've seen just how helpful they can be when people are researching
+products. In fact, people engage with 3D images almost 50% more than static ones,
+that's why we'll be expanding to 3D shoes, which will allow people to see 3D models
+of sneakers right within search.
+Now while some merchants have this kind of imagery already available, for many,
+especially smaller merchants, creating 3D assets can be expensive and time-
+consuming, sometimes requiring hundreds of product photos and costly technology.
+To help, we're making it easier than ever for merchants to create and show oﬀ their
+products in 3D. With our innovations in machine learning, we can automate 360-
+degree spins of merchant products using not hundreds, but just a handful of still
+photos. We'll be piloting this new capability soon.
+Now, sometimes there are certain product categories that require a lot more
+research before you know what to buy. For example, when my nine-year old wanted
+a mountain bike, I read tons of articles, opened countless tabs on my browser, and
+spent ages researching which models were best for his size, the nearby terrain and
+so on.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 12For shopping moments like these, we've created the Buying Guide, which collects
+the most helpful insights from a wide range of trusted sources all in one place. With
+this information at my ﬁngertips, I can research and make a decision quickly and with
+conﬁdence. The Buying Guide recently became available in the U.S. with more
+insights coming soon.
+And that's not the only way we're helping you shop with conﬁdence, we're also
+introducing Page Insights, a new feature that brings together helpful context about a
+webpage you're on, or product you're researching. While viewing a page in the
+Google app, you can just tap this icon to quickly see related content about a topic
+and learn more about the page, like what others have to say about it.
+Page Insights is especially helpful when you're shopping. You can use it to get
+insights about products like its pros and cons, and star ratings in one helpful view.
+And if you're looking for the best deal, which I know a lot of us are with the holidays
+coming up, you can easily opt-in for updates on price drops. Page Insights will be
+available in the coming months in the Google app on iOS and will come to Android
+next year.
+In addition to helping you shop with conﬁdence, we also want your shopping
+experience to feel much more personal to you. There are certain brands and
+departments that are my go-to, but every shopper is unique, that's why we're
+bringing you new personalization features and controls when you're logged into
+Google. So now, when you shop with Google, you can see tailored options for a
+better experience.
+For instance, I can tap women's just once, and the next time I search for something
+like a messenger bag, I will only see women's bags. I can also choose the brands I
+want to see. For example, I really like the brand Cuyana, I can just tap it once, and the
+next time I'm shopping for a bag, I'll see more options from Cuyana and similar
+brands. And our about this result tool now lets me see when a result is personalized.
+So if my taste change or I don't want to see tailored results, I'm in control and I can
+simply update my setting or turn it oﬀ.
+Another way we're bringing you a better experience is through whole page
+shopping ﬁlters. Whole page ﬁlters are dynamic and adapt based on search trends.
+For example, when shopping for jeans, I may see ﬁlters for wide leg and bootcut,
+because those are the denim styles that are popular right now. And if, say, jeggings
+ever came back in style, those might be suggested as a ﬁlter in the future.
+But as we said earlier, we want to help you get inspiration beyond the search box.
+We're bringing you new shoppable ideas, right in Discover on the Google app.
+Discover already helps you stay on top of what you're into with articles suggested
+based on what you like and have searched, and starting soon, you'll also see
+suggested styles based on what you've been shopping for and what others have
+searched for too.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 12Prabhakar RaghavanFor instance, because I'm into vintage styles, I'll see suggested queries of popular
+vintage looks. Here, one of my favorite artists, Selena Gomez, is rocking a classic
+band tee. So if her tee or anything else catches my eye, like this dress, I can simply
+use Lens to see options of where to buy. From inspiration to purchase, we're making
+it more natural, intuitive and fun to shop for what you need or discover something
+new you'll love.
+Next up, Ruben and Hema will share new ways we make the sustainable choice, the
+simple choice.
+(Audio-Video Presentation)
+{BIO 3368123 <GO>}
+As you've seen today, we're building technology to help you, simplifying everyday
+tasks and providing support in the moments that matter the most. And underpinning
+this are two foundational principles, keeping you safe and connecting you to the
+widest array of perspectives.
+Let's start with how we keep you safe online. All of our products, including the ones
+you heard about today, are secure by default, private by design and put you in
+control of your personal information. We're committed to our mission to make all
+information accessible, but some sensitive information needs an extra layer of
+protection. That's why we have policies, so you can request the removal of
+personally identiﬁable information from Google Search, things that you might not
+want broadly visible, like your personal contact information. Now, we're giving you
+even more control over your online presence.
+Starting today, we are rolling out the new Results about you tool that we announced
+earlier this year. Let's say you come across a result, that includes your personal
+contact information that you don't want public. With this tool right from the Google
+app, you can easily request the removal of search results that contain your phone
+number, home address or e-mail address.
+Even though removing these results doesn't scrub your contact information from the
+web overall, we're doing everything to safeguard your information on Google
+search. This includes helping you keep tabs on new results about you. Starting early
+next year, you'll be able to opt into alerts, if new results with your contact information
+appear so you can quickly request their removal. That way, you can have peace of
+mind that we are helping your personal information stay just that, personal.
+The other foundational element I mentioned is connecting you to the widest array of
+diverse sources. People come to Google with questions, big and small, general and
+speciﬁc, hoping to ﬁnd that perfect article, video, image, restaurant or retailer to help
+them. But for many questions, there's no single, right answer. The answers come
+from the breadth of human experience and expertise.FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 12No matter what the question, someone somewhere out there has the knowledge to
+help. Like, how do I get these white shoes white again? Or, how do I bake an
+erupting volcano birthday cake? A more common query than you would think. But
+there's more we can do to help you ﬁnd ﬁrst-hand experiences in Search. For times
+like these, you've heard how our community of local guides helps you discover
+hidden gems and how you can ﬁnd the best local eats based on insights, reviews or
+pictures submitted by fellow foodies.
+We're introducing a new feature that surfaces helpful information from online
+discussions and forums, when it seems like you're seeking advice from other people.
+So whether you looking for best cars for a growing family, or how to make a seating
+chart for your wedding, you'll get insights from people's authentic experiences.
+There are also times when you're looking for authoritative information, like high-
+quality journalism. We are working to connect you to news, no matter what language
+it is created in, from all over the world. Today, we surface news in your preferred
+language. For example, say you want to learn more about that awful earthquake in
+Mexico earlier this month, if your preferred language is English, you'll get news
+results from outlets published in English.
+With machine translation, we're working to surface news results in diﬀerent
+languages. So you'll be able to see translated headlines on important global events
+alongside ones written in your preferred language. With this, you get a local on-the-
+ground perspective of the earthquake directly from the source. Starting early next
+year, we'll begin rolling this out to help you get select French, German, and Spanish
+news results in English.
+Today, we shared our vision to help technology adapt to you and your life to help
+you ﬁnd and explore information. This isn't easy, but at Google, we dream big and
+pursue the seemingly impossible. It's that spirit that drives us to deliver ﬁrst of their
+kind innovations at scale like Live View in Google Maps and Multisearch, and to
+create experiences that are far more natural and intuitive that help technology get
+out of your way, and free you up to discover and explore the world around you.
+We hope you're excited to search outside the box, and we look forward to
+continuing to build the future of search with you. The best of search is yet to come.
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of FINAL TRANSCRIPT 2022-09-28
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 12the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

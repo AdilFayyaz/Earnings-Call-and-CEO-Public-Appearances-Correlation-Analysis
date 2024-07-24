@@ -1,0 +1,552 @@
+FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 1 of 16Dave O'Hara, CFO Applications and Services, Cloud and Enterprise
+, Analyst
+Unidentiﬁed Participant, Analyst, Unknown
+Mark Murphy
+Dave O'Hara
+Mark Murphy
+Dave O'Hara
+Mark MurphyJPMorgan Technology, Media and Telecom Conference
+Company Participants
+Mark Murphy
+Other Participants
+Presentation
+{BIO 1542399 <GO>}
+Hi. Good morning, everyone. Thank you very much for joining us. I'm Mark Murphy,
+software analyst with JPMorgan.
+It is a great pleasure to be joined here by Dave O'Hara, who is CFO of Applications
+and Services, Cloud and Enterprise for Microsoft. So many of the parts to the
+business that are critically topical to all of us these days. Dave, thank you for joining
+us.
+Absolutely.
+{BIO 1542399 <GO>}
+I'm actually going to begin by mentioning the safe harbor statement before we
+begin. Microsoft may make some forward-looking statements during this
+presentation. And you should refer to their SEC ﬁlings for the risk factors relating to
+their business. And that's true whether you are here in person or listening on the
+Web.
+How'd I do?
+Great.
+{BIO 1542399 <GO>}FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 2 of 16Dave O'Hara
+Mark Murphy
+Dave O'HaraSo Dave, do you want to start with any type of opening comments? Or any type of
+quick introduction, opening comments you want to make, or do you want to just dive
+straight into Q&A?
+Well just a couple of comments for setup. One is, as you mentioned, I'm CFO for
+ASCE. The ASCE, for those that maybe aren't as familiar, is what we think of as Oﬃce
+and online. This (technical diﬃculty) C&E is what used to be the old server and tools
+businesses. So it's Azure and SQL.
+If you look across ASC and C&E, they essentially represent the bulk of our
+commercial business from a Microsoft perspective and then some consumer stuﬀ
+thrown in. So must of the stuﬀ that we deal with on the day to day basis has to do
+with the commercial business.
+{BIO 1542399 <GO>}
+Okay. You've been with the company for about 15 years -- and I'm not including the
+Great Plains part of the existence -- so it's a long time you've been there. I think
+externally it feels a lot more exciting and dynamic than it did to us several years ago.
+The company is executing one of the most successful cloud transformations that
+we've seen. I think there is a feeling that the innovation engine is really cranking;
+you've got great stuﬀ coming out of the research lab.
+And there is also this newfound type of openness coming out of the company
+towards other operating systems, other competitors in the ecosystem. What is it that
+has you must excited at this point? And what do you think it means for the future of
+Microsoft?
+Sure. Well so I think there's a lot of things to be excited about. You mentioned the
+Great Plains acquisition; I did come in through Great Plains.
+I think one of the very ﬁrst people in that, certainly within the ﬁrst week, was Satya.
+Satya was on -- was running what was then known as bCentral. And Satya became
+part of the Dynamics business. So we worked together back then and then also in
+the Bing days.
+Then he was running what's now C&E. So I feel like Satya is bringing both a
+considerable breadth of understanding of the business, because he's worked in so
+many diﬀerent parts of it. And I think he can -- it's easier for him maybe to see all the
+connected pieces. And he just brings a new openness, as you mentioned, with some
+of the partnerships that we have.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 3 of 16Mark MurphyBut if you look at where the company has come in the last couple years, I think it's
+fairly instrumental in showing where we're going, which is some of the Oﬃce on the
+iPad, for example, SQL on Linux. Both of those are just examples of where we're
+really more focused on embracing what the customer wants. And when they want it.
+And in what environment they want that to run.
+So it's not about you're either Microsoft or you're not Microsoft. I think it's just a new
+way of working in the world that we have, which is you can be on Microsoft on some
+of your products. And open-source on others; and we can make it all work together.
+So I think it's just really -- we're forming deep partnerships. We're working with
+customers to run a more open environment. We're oﬀering products that we haven't
+oﬀered in the past.
+The shift from on-prem to cloud, all of those things are things that we jumped on
+early. I think Steve started a lot of that; Satya has continued that and, I think,
+continued it in an accelerated way.
+Then the last thing I would just say is, as we move into the cloud world there is a lot
+of beneﬁts to being in the cloud. There is also a lot of -- not everybody can be in the
+cloud. It's an expensive business to be in. And it takes a lot to get to scale.
+I feel like we're on the front end of that. We started early and I think we're probably --
+that's one of the reasons we're a leader in the cloud is we started early, we invested
+early. And we have a good -- I think we're in a good spot.
+{BIO 1542399 <GO>}
+In terms of being in a good spot, we actually published a CIO survey last month,
+over 200 CIOs responsible for $126 billion in annual IT spending. One of the
+questions was: Moving forward, which of the IT megavendors will be the most critical
+and indispensable to your IT infrastructure?
+Microsoft is (technical diﬃculty) claiming 47% of that vote. And that was actually up
+from what we had seen in prior years. That was up by (technical diﬃculty).
+So what was interesting was looking at the list below that. Amazon AWS came in
+second on that list; and so they edged out Cisco, which kind of held ground.
+When you look at the composition of the list below that, everyone else from Oracle
+to SAP to EMC and IBM lost ground from the prior survey.
+So I want to ask you: How would you interpret that? When you consider that
+(technical diﬃculty) change happening below the level of Microsoft? What is it
+showing us?FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 4 of 16Dave O'Hara
+Mark Murphy
+Dave O'HaraWell I think it is certainly showing a trend in the cloud. AWS showing up on the list is
+a business that didn't even exist 10 years ago, barely existed ﬁve years ago. So the
+cloud I think is a big piece of that. Some of the folks on that list have done better
+than others in the cloud. And I think that shows up in your survey.
+Strictly from a Microsoft perspective, it's great to see certainly. I think we have a good
+trusted relationship with enterprise. And so they talk to us about a lot of their needs.
+We have a few things that maybe don't -- that maybe aren't available from
+everybody else. One is we do have a hybrid environment.
+We see a lot of our customers who are both on-prem, in cloud; and it's not an
+either/or. They really feel the need to continue getting value out of the investments
+they've already made in on-prem. But also augmenting that with the cloud. So I think
+we oﬀer that, which is unique and diﬀerentiated.
+We have a bigger geo footprint than most I think, certainly in any country we have a
+good presence in. You see that in how we're building out the cloud, which is we want
+to serve countries and -- or we want to serve all geos and make sure that customers
+are getting cloud wherever they need it whenever they need it.
+So I think that's probably part of the reason that we show up high on the list is we're
+an existing vendor with them. They probably have a lot of our tech already. They
+want to augment it with even more of our tech. And they have a trusted relationship
+with us.
+{BIO 1542399 <GO>}
+One of the other questions in the survey, we asked all these CIOs how much of their
+infrastructure-as-a-service work would be conducted on the various IaaS platforms in
+future years. So this was a forward-looking question.
+We were asking across Amazon AWS, Azure. And also the Google cloud platform.
+And what we saw was interesting. It came in 25% for AWS; 24% for Azure.
+So what I would say is, if that is going to be correct, that would represent a pretty
+material recalibration of the market share as it stands today, right? What is it that
+would enable that type of recalibration?
+Well I would step back for a second and just say from a cloud perspective we really
+see the cloud as being -- the cloud overall, the cloud business overall -- we really see
+that as being even bigger than the existing IT business today. So I think just movingFINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 5 of 16Mark Murphy
+Dave O'Harato the cloud, there is an inherent growth rate in how you think about cloud versus
+previous IT setups.
+So I think it's going to be a bigger pie. Hopefully we'll get our share of the pie. We're
+working hard to get our share of the pie.
+I do think that a lot of customers just want -- they don't want to take a dependency
+on one vendor. And there so many diﬀerent workloads that they can parse out some
+of those workloads. Some of it they can run on AWS and some on Azure.
+From our -- from a Microsoft perspective, we really look at the cloud oﬀering as
+being the whole cloud oﬀering. It's 365; it's CRM; it's ERP; it's our EMS solution; it's
+CE core Azure infrastructure. So I think that it's not just the infrastructure piece. It
+certainly will be competitive from an infrastructure piece. But it's about the value-
+added services on top of that.
+And I think all of that shows up in the survey. I do think that customers genuinely are
+looking to do business with more than one vendor. And they like the oﬀerings from
+more than one vendor. And so they'll ﬁgure out a way to make all that work together.
+{BIO 1542399 <GO>}
+What do you think, Dave, the impact of price cuts will be in the future? I think we
+look back on this, we can now see (technical diﬃculty) data for AWS. And it will be
+on this incredible growth trajectory. Then there will be a quarter where they execute
+some price cuts. And the top line will ﬂatten out sequentially for about a quarter
+there, maybe even a minor decline; and then it will get back on this trajectory.
+I am wondering from your perspective, how do you deal with and how do you
+handle price cuts? They may be executed by you, they may be executed by others.
+And as part of that question, do you think you are inherently a part of this stack that
+over time just gets priced down in a spot market? Is there a commodity part of this
+stack that you compare and contrast to (technical diﬃculty) IP?
+Yes, I don't know if I'd use the word commodity. I would certainly -- from an
+infrastructure perspective, that's table stakes for being in the game. So we feel like
+that's a core part of the oﬀering; but really we feel like the ultimate value is in the
+services that are oﬀered on top of the infrastructure.
+But you need the infrastructure to make all that work. So we do believe that
+infrastructure will continue to be a critical part of it. But we think it's about the bigger
+cloud picture and less about how we think about infrastructure.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 6 of 16Mark Murphy
+Dave O'HaraFrom a pricing perspective, the last couple years or the last 18 months have been
+more sane maybe than the ﬁrst couple years that preceded that. There's a lot of
+question about how big it will be. And who is going to get what share.
+We're always going to be competitive on price. I don't think you will ever see us lead
+price down. But we're certainly going to be competitive on price.
+At the same time that price has been, costs have been going down as well as people
+get scale. I think implied, when people ask the question about price, implied in that
+is whatever price changes you make down just causes you to lose money. We
+believe at the same time that as pricing gets adjusted down our costs are getting
+adjusted down, we're getting the beneﬁts of scale. And so we still think there's good
+margins in the infrastructure business.
+But really it's about the whole cloud business.
+{BIO 1542399 <GO>}
+Let me give you a quick question on a diﬀerent type of survey that we did also last
+month. We published a survey of 43 of Microsoft's top resell partners -- resellers,
+distributors, consulting ﬁrms, etc. We asked them to rate all your products in terms of
+their momentum.
+I think, not surprisingly, Azure and Oﬃce 365 came in ﬁrst and second. I think we'd
+all expect that.
+I think the question we commonly get is: How do you sustain the growth? These
+businesses are reaching some type of (technical diﬃculty). How do see the
+sustainability of the growth trends for Oﬃce 365 and Azure moving forward? And do
+you have any thought on just overall what inning we're in for each of those
+segments?
+Sure. Well let me talk about 365 ﬁrst. I think we've shared some numbers at
+(technical diﬃculty) analyst brieﬁng which -- time ﬂies, I'd say it's probably a year ago
+-- where we talked about Oﬃce and its transition to the cloud. We said that by FY18 I
+think we said that two-thirds of our exchange workﬂows would be in the cloud. And
+by FY18 I think half of our Oﬃce workﬂows would be in the cloud. So that's even a
+couple years out, a year out, whatever, however you want to measure it from a ﬁscal-
+year perspective. So we feel like there is a lot of runway in Oﬃce.
+The other thing I would mention is with our E5 oﬀering which we just launched there
+is an opportunity to provide additional SKUs in Oﬃce that provide additional
+functionality with that. It's got Power BI and security and voice in the cloud. And
+those are all new oﬀerings for us.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 7 of 16Mark Murphy
+Dave O'HaraI think sometimes people look at it and say Oﬃce has really high penetration. And
+it's at the upper end of its market. But we really believe, one, there is a lot of cloud
+runway left; and, two, there is an opportunity through Oﬃce and through (technical
+diﬃculty) to bring in new services that we haven't oﬀered yet.
+And it's a great way to do it. Candidly, it's a great way to do it cost-eﬀectively, which
+we're already in those sales environments, we're already talking to those customers.
+So we think there's new oﬀerings we can bring. So we don't look at Oﬃce and say
+what it is today is what it will be ﬁve years from now. We really think there is a chance
+to build out that business in a very healthy way.
+{BIO 1542399 <GO>}
+Then let's go directly into that. The assessment across your partners in terms of the
+technology, the vision, the momentum of the company is lopsidedly positive. That
+comes through very clearly in our survey work.
+What is it that you think that they are looking (technical diﬃculty) they're looking for?
+Clearly then many would be referring to Azure and Oﬃce 365. But are there
+technologies that are on the leading edge? Are there emerging technologies?
+Maybe there are products in the research labs that perhaps some of your partners
+are more mindful of or have a better awareness than the rest of us externally at this
+point?
+Well let me get give a little longer answer than that. But I'll try to keep it short. One is
+that I think from a cloud perspective there just aren't going to be that many cloud
+vendors that compete (technical diﬃculty). And if you are a partner, what you want is
+you want new opportunities, because for partners they need to go in and generate
+new revenue. So new markets and new opportunities mean new revenue for
+partners. I think they legitimately see Microsoft as one of the cloud vendors that's
+going to be around a while.
+I'll again go back to my second point with E5. Those are all new services that we
+haven't previously oﬀered. And those are all new services that maybe haven't had a
+partner strategy in the past. There might have been companies providing some of
+those services that didn't embrace partners or had a more direct approach; and I
+think partners see it as an opportunity for them to break into new categories.
+I also think the third thing is that there's new stuﬀ for them to bring to customers,
+rather than maybe they've been (technical diﬃculty) the same solutions for the last
+few years and maybe it's getting a little stale. There is something new for them to talk
+about.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 8 of 16Mark Murphy
+Dave O'Hara
+Mark Murphy
+Dave O'HaraSo I think it's the combination of all those things. They see us as viable, they see us as
+trusted, they see us as coming out with new services, a new opportunity for them to
+go build some trust and make some money with some customers. And that
+(technical diﬃculty).
+{BIO 1542399 <GO>}
+For the beneﬁt of the audience, the elements of the E5 SKU that you're referring to
+as being new, are you speaking of Power BI, or you're speaking to (technical
+diﬃculty)?
+Well so we've had a voice oﬀering, we've had a Power BI oﬀering, we've even had
+security oﬀerings. But if you look at what (technical diﬃculty) in E5, there's a lot of
+newness in each of those.
+Power BI as an example, I think that what we had before was maybe not the easiest
+solution to implement and didn't have a broad appeal. What we do with Power BI
+now I think is certainly easier set up, easier to run, has a better appeal for consumers.
+Before it was literally power users on the business intelligence that saw the value in
+Power BI. And I think with our pricing strategy and our go-to-market strategy this
+implies and even if you look at the ease-of-use, the visualization, people look at
+Power BI now and they say: Hi. that has applicability to a broader set of the customer
+base. The more users can take advantage of it, which again from a partner
+perspective, is just all goodness.
+{BIO 1542399 <GO>}
+With all this goodness coming down the pipeline and all the innovation that we're
+seeing from Microsoft, what is it that you think might be missing from your cloud
+portfolio? I think we do ﬁeld a lot of questions on the build-versus-buy decision.
+When you look back on it, it feels like the approach has been much more build
+recently.
+I think it's been much more build. But even if you look at -- again going back to E5
+with our security oﬀering, there is a couple of components in there from companies
+that we acquired. A lot of times what we would do for an acquisition would be
+considered in Microsoft terms a tuck-in. But it's super-strategic. I think that security is
+an example (technical diﬃculty)
+It is hard for any one company to catch up. So we always have a good, solid, organic
+growth strategy and we'll continue to do that.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 9 of 16Mark Murphy
+Dave O'Hara
+Mark Murphy
+Dave O'HaraBut I do think there are select acquisitions we can do that will augment the oﬀerings
+that we have. Then our job is to put those together in a way that makes sense for our
+customers and have a good go-to-market strategy. But we'll continue to pursue M&A
+opportunities (technical diﬃculty).
+{BIO 1542399 <GO>}
+(technical diﬃculty) Let's talk for a moment about your transactional versus the
+annuity business. I think broadly we see so many signs that Microsoft is a net
+consolidator of spend across the industry in a whole lot of new areas, gaining scale --
+gaining share, excuse me, in markets with large-scale.
+In the most recent quarter, I think it was clear the core fundamentals remain very
+solidly attached. Everything having to do with annuity, everything having to do with
+cloud. But you had mentioned a larger than expected decline in the transactional
+business, which I think as part of that included some of the on-premise server
+business.
+So I actually -- if it's okay with you, I want to ask you a few questions on this. The ﬁrst
+one, which (technical diﬃculty)?
+Well transactional is across both the Oﬃce products and the server products. So it
+was both.
+{BIO 1542399 <GO>}
+Oﬃce and server? Then which geographies -- I think we were curious; almost every
+company is mentioning Russia, Brazil, China, emerging markets generally. Is that
+where you saw the issues? Did it extend beyond that?
+Yes. That was part of it. Just a couple of data points which we publish: one is that
+from a commercial business perspective, 86% of our revenue is annuity. And that
+percentage is growing. So we've been on a push to get people to do more annuities
+versus non-annuity; and the annuity piece is the transactional piece.
+So some of this is a natural transition. Those get accounted for a little diﬀerently. So I
+think there's been a move somewhat away from non-annuity to annuity, which we
+see as goodness.
+There was also some weakness for the reasons that you mentioned, Mark. It's Brazil,
+Russia, etc. Those markets are less annuity.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 10 of 16Mark Murphy
+Dave O'Hara
+Mark Murphy
+Dave O'Hara
+Mark MurphySo when we're talking about 86%, that's across the commercial business, all up. But
+in certain geos, they're more transaction heavy. And those would be a couple of
+geos that are transaction heavy.
+{BIO 1542399 <GO>}
+If you step back, you think through what happened with transactional. And we're all
+trying to weigh, it could be -- that could be largely macro or it could be an eﬀect of
+this transition from on-prem to cloud.
+What are you using as a guide to try to understand what was driving the dynamic?
+Sure. I think it's two things. Certainly those two.
+I think there is a geo ﬂavor to it. There is also a non-annuity versus annuity. Then I
+think there's just a lot of customers that are trying to ﬁgure out what they're going to
+do.
+Are we going to go to the cloud? When are we going to go to the cloud? What's that
+look like? What (technical diﬃculty)?
+So maybe they are just stepping back and saying: Let's take a long-term view on this.
+And we're working with them on that. I think all of those things contributed to
+probably a little softer transaction business than we had expected.
+{BIO 1542399 <GO>}
+Any gut feel on whether that transaction softness intensiﬁes from here, or abates, or
+maybe what will determine that going forward?
+Well I think those will all be contributing factors. Our goal really is to make sure that
+they're a Microsoft customer. And whether they choose to transact with us through
+annuity or through non-annuity, we're lessening up on that; it's more about making
+sure they're getting services and the products that they want from Microsoft. So
+we're working closely with them on that.
+I would say that our guidance reﬂects what we see as trends in the transactional
+business. But we'll see how it plays out. But we feel good about the business. We
+feel good about where we're at.
+{BIO 1542399 <GO>}FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 11 of 16Dave O'Hara
+Mark Murphy
+Dave O'HaraOkay. Now I want to come back to -- because you had made a comment around
+Oﬃce 365. Going back to our partner survey, again looking at it through that lens,
+we asked all these partners to look across their customer base and tell us for their
+typical corporate client what percentage of their employees are a subscriber of
+Oﬃce 365 today? That came in at 39%.
+We then said: Where do you think it goes in ﬁve years? That came in at 67%.
+So I'd say on the one hand it speaks to -- it's a very large increase and it speaks to
+this (technical diﬃculty) roadmap (technical diﬃculty). On the other hand, if you try
+the back into an implied CAGR on that number, it's not as high as where it is today.
+How do you interpret that? Because I think there could be some measures we're not
+capturing -- all the pricing uplift, new logos. So on and so forth -- coming just back
+into the opportunity and how penetrated we are into Oﬃce 365?
+Yes, I would go back to a couple of stats I mentioned earlier, which is we feel like
+from -- our view of the business (technical diﬃculty) going to be (technical diﬃculty)
+cloud in FY18. And Oﬃce will be 50% cloud in FY18. We still see good runway
+(technical diﬃculty).
+Even if you just look at the business as it is today, we think we still have good, healthy
+room to grow and we're conﬁdent that we're in a good position. I do think that when
+we ask customers -- like when you ask customers questions like that -- they're
+looking at Oﬃce as it's constituted today. And they don't necessarily see all the new
+service oﬀerings that we can augment (technical diﬃculty).
+So I think Oﬃce will continue to increase its footprint. I think the way that shows up in
+our ﬁnancials is price, ARPU goes up because I think people are maybe contracting
+with us for services that they were getting from someone else previously. So it results
+in a net savings to them. But it results in a net revenue increase for us.
+So I just -- I think it's -- we feel like there is good runway both in the existing business
+and where it's at today and the new service oﬀerings that we'll be bringing onboard
+in the future.
+{BIO 1542399 <GO>}
+Any quick comment on the decision point to make your ﬂagship database, SQL
+Server, available for the ﬁrst time on the Linux platform? That's been a tremendously
+successful product. It's in the upper right-hand corner of the Gartner quadrant --
+Yes.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 12 of 16Mark Murphy
+Dave O'Hara
+Mark Murphy{BIO 1542399 <GO>}
+-- for the ﬁrst time. So it is being assessed as the world's number one database.
+Congratulations on that, by the way.
+Thank you.
+What was the decision point that drove the company to keep that on the Windows
+platform and all of a sudden to decide to make it available on Linux, which I think
+happens in a year? Because I think we've also seen -- Amazon seems to be another
+company calling out the database industry as an area of potential for disruption and
+opportunity.
+Yes. Well we certainly see a lot of opportunity within the database business and data
+in general to -- there can be a lot of really healthy growth for companies that are
+positioned correctly. With SQL on Linux it was really about we want to be able to
+give -- we want to be able to allow a developer to write any app they want on any
+platform. That's what it comes down to.
+And it does come down to helping customers, giving customers choice. Because I
+think when people look at SQL on Linux and they say, wow, is that a big revenue
+opportunity? Is that -- how do you think about that? I think long-term there is a lot of
+good revenue opportunity there.
+In the short term, what we got from a lot of customers was just a sense of relief that
+they could continue to run the stuﬀ that they're running now. And they could
+continue to look at new options. So it's really about giving customers choice.
+So it wasn't -- we weren't focused on -- we were focused on (technical diﬃculty)
+saying you can run what you want when you want. And we'll ﬁgure out a way to make
+it work. So I think customers saw it as good for the current environment and the
+future environment.
+{BIO 1542399 <GO>}
+Let's come back; I want to ask you one or two more quick questions and then we'll
+poll the audience and see if anyone would want to ask anything. I want to come back
+to E5, because you've already mentioned it a couple times this morning. So you have
+this new E5 option for licensing Oﬃce 365. It's your top-of-the-line plan. It's the
+primo plan.
+I think our understanding was that E4 was not a really heavily adopted SKU. Perhaps
+there is a misperception on that. I think E3 was very heavily adopted.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 13 of 16Dave O'Hara
+Mark Murphy
+Dave O'HaraSo you're early on; you're very early on in this. What do you expect out of E5? Is
+there anything you've observed so far in the early innings in terms of just how
+customers themselves are responding to E5?
+Yes. E5 we just launched in Q3. To your point, Mark, E3 was certainly our hero SKU,
+though, where we had (technical diﬃculty) penetration. And we felt like E5 is a good
+augmentation (technical diﬃculty).
+If you look at what's available on E3s, Oﬃce Exchange and SharePoint and Skype for
+Business in E5. It has the security oﬀering. It has Power BI. And it has more voice
+functionality. So what we're getting from customers is a lot of curiosity about what it's
+going to oﬀer that isn't in E3. So we think we have a good value prop around that.
+I also think if you look at the components of E5 and how people would adopt those:
+Power BIs they can adopt right away; security is something they can certainly adopt
+right away; voice maybe takes a little longer.
+So what we typically see as Enterprise agreements come due people just take a look
+at their mix and say: Hi. (technical diﬃculty) new oﬀering out there, how should we
+think about that? So it gives us a good opportunity to go in and explain the value
+prop.
+I certainly think there is a lot of diﬀerentiation between E5 and E3. There is a lot of
+goodness in there (technical diﬃculty) IP revenue that they are paying to a diﬀerent
+provider. And that they now decide to go with Microsoft for that. Which we see that
+as a big opportunity for us.
+{BIO 1542399 <GO>}
+You mentioned voice. And I want to go into that topic, Skype for Business. We've
+seen a lot of indications that there is strong potential for that product. I was with an IT
+team recently talking about the potential for that to cause their Microsoft spending
+to uplift in future years.
+Could you walk us through that? Because I think we're all trying to understand
+whether (technical diﬃculty) the communications market with Skype for Business?
+I would describe it this way. Voice is complicated, as anybody who runs voice
+infrastructure knows. It's something that you don't just throw it out there.
+I think even with the cloud and on-prem there is -- the question we get is: Do you
+think the world is going to ﬂip to cloud? It's not going to ﬂip. It's all about a transition
+and it's all about an orderly transition.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 14 of 16Mark Murphy
+Dave O'Hara
+Mark Murphy
+Q - Unidentiﬁed Participant
+A - Dave O'Hara
+Q - Unidentiﬁed Participant
+A - Dave O'HaraVoice is probably that (technical diﬃculty) so nobody is going to -- it's unlikely that
+companies are going to go ahead and just throw out the PBX and move to us. But
+they might do it (technical diﬃculty) organization at a time. Or they might literally
+say: Hi. we're bringing a new building online. So we'll go use your voice solution for
+that building.
+But people don't want to lose their communication capability. And so they are very
+thoughtful about how and when and why they do that. So I do think that that will -- I
+do think that over time (technical diﬃculty) opportunity for us. I just think it's -- in that
+way voice is similar a little bit to an ERP or CRM app, which you don't just throw it out
+and start over on day one. You've got to build toward it. And we see that as a good
+long-term build opportunity for us.
+{BIO 1542399 <GO>}
+So not a quick boom but a solid, long-term (multiple speakers)
+Solid, long-term multibillion-dollar market.
+{BIO 1542399 <GO>}
+Okay. We have just a few moments left. Why don't we check for questions from the
+audience? If you would, raise your hand if you have a question. And we have a
+microphone right here in the center aisle. We have one right here.
+Questions And Answers
+Thanks. Can you talk about recent growth in the SQL Server business and
+competitive dynamics in that business?
+Sure. I missed the ﬁrst word. What type of growth is your descriptor?
+Just recent historical growth.
+Recent? Recent growth, okay; thank you. I do feel -- if you deﬁne SQL as strictly
+license database I think that we look at that as being upper-single-digit growth. We
+felt -- we feel good about, to Mark's earlier (technical diﬃculty) about where we're
+positioned in the market. We feel good about SQL. We feel good about how we're
+positioned relative to competitors.FINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 15 of 16Q - Unidentiﬁed Participant
+A - Dave O'Hara
+Q - Unidentiﬁed Participant
+A - Dave O'HaraSo I think there is an opportunity for us to go take some share from existing
+competitors. I think the market overall will grow. The analysts have all been in the
+mid-single digits, maybe a little stronger than that; we would certainly expect to get
+our share.
+So we will see growth with the market in terms of license database. I also think with
+SQL Azure that will grow along with the size of that market as well.
+When we look at SQL, we really look at SQL across cloud and on-prem. But from an
+on-prem perspective, we certainly expect that we'll pick up some share along the
+way from an on-prem perspective.
+Can you provide your thoughts on key success factors for sustained competitive
+advantage in services?
+Sustained competitive advantage in services? I think you need to have the
+infrastructure to support the services, which is why we're having the big cloud build
+out. You need to have services that are easy to set up, easy to digest. And easy to
+use.
+To state the other obvious point, you need to have services that people want. Then I
+think from a Microsoft perspective in terms of how you think about competitive
+diﬀerentiation, from an enterprise perspective we're in all of those accounts; we have
+trusted relationships that are expensive to build. It takes a long time. Hard to
+replicate.
+So you've got to have all that. I think you got to have the right services, you have the
+right go-to-market strategy and have the relationship with customers. And you have
+to have the infrastructure.
+On the transaction slowdown, how much of that is self-inﬂicted versus other?
+It's hard to parse. We get as much precision as we can; but we go in and say: Okay,
+how much of this is due to shift from non-annuity to annuity? And we have an
+estimate of how much that is.
+We say: How much is due to things like geo-speciﬁc issues? We have an estimate of
+how much that is.
+I would say that if you say transactional slowdown, I would also put it in context,
+which is our transactional slowdown was around $100 million in a $12 billionFINAL TRANSCRIPT 2016-05-24
+Microsoft Corp (MSFT US Equity)
+Page 16 of 16A - Mark Murphy
+A - Dave O'Harabusiness. So we don't see it as -- it's not Armageddon by any stretch.
+But -- so we would say some of that is shift, some of that is geo weakness, some of it
+is probably just a little bit of an unknown. And we tried to build all of that into how
+we view the future.
+{BIO 1542399 <GO>}
+Okay, with that, we are out of time. Dave, thank you very kindly for spending it with
+us. Great having you here.
+Sure. Thanks, Mark. Thanks.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

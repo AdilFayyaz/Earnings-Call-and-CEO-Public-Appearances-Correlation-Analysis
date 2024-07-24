@@ -1,0 +1,599 @@
+FINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 1 of 14, Chief Executive Oﬃcer, Amazon Web Services
+, Chief Executive Oﬃcer, Goldman Sachs
+, Technology, Media, & Telecom Business Unit Leader, Global
+Investment Research, Goldman Sachs
+Heath Terry
+David M. Solomon
+Andrew R. Jassy
+David M. Solomon
+Andrew R. JassyGoldman Sachs Technology & Internet Conference
+Company Participants
+Andrew R. Jassy
+Other Participants
+David M. Solomon
+Heath Terry
+Presentation
+{BIO 3406856 <GO>}
+Great. Thank you. We will go ahead and get started. My name is Heath Terry, I lead
+TMT Research for Goldman Sachs. As a Goldman Sachs employee, it's been a special
+point of pride over the last three years as ﬁrst Roy Joseph and then David Solomon
+took center stage at the AWS re:Invent opening keynote in front of over 50,000
+people. Having been in the audience for every re:Invent conference, it's now a
+particular point of pride for me to introduce Andy Jassy, Chief Executive Oﬃcer of
+Amazon Web Services. Andy joined Amazon in 1997, straight out of business school.
+And in 2003, he led that team in founding AWS, creating the world's undisputed
+leader in cloud computing. A company inside Amazon worth, according to our math,
+well over $0.5 trillion. Andy is joined in conversation by Goldman Sachs' CEO, David
+Solomon. Andy, David, welcome.
+{BIO 1503614 <GO>}
+Good afternoon, everyone. And Andy, thank you for being here. You've got it a lot
+easier as we start this. When I was at re:Invent, you made me actually work before
+you put me on stage.
+{BIO 15111610 <GO>}
+They have a DJ before my keynote, it was quite good, by the way. People are still
+talking about your set.
+{BIO 1503614 <GO>}
+Well, I mean, at 07:45 in the morning, it is not easy to DJ for 10,000 people.
+{BIO 15111610 <GO>}FINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 2 of 14David M. Solomon
+Andrew R. JassyYou had good energy.
+{BIO 1503614 <GO>}
+It was 07:45 (Multiple Speakers) try your best. So let's dive right into it. You've been
+at Amazon for 22 years. And you founded AWS with little over 50 people in 2003.
+You're going to generate over $45 billion of revenue in the business this year and
+more than half of the company's proﬁts. And so when you put the ﬁnancials aside,
+but you just start to think about the scale of what you've built, kind of quantify for us
+a little bit the scale of AWS and how fast it continues to grow?
+{BIO 15111610 <GO>}
+Well, it's been kind of amazing adventure and the business now has a $40 billion
+revenue run rate, growing 34% year-over-year and we have millions of active
+customers, which we deﬁne as non-Amazon entity that use the platform in the last 30
+days, but it's really a very broad and diverse group. It's -- in the early days of AWS, it
+was mostly start-ups building their businesses from scratch on top of AWS and these
+were companies like Slack and Instagram and Pinterest and Stripe and Robinhood
+and companies like that.
+But what's happened over the last half dozen years is that the enterprise in public
+sector have very rapidly adopted AWS in the cloud and you see every imaginable
+vertical business segment now using the cloud, if you're in ﬁnancial services, we
+work with Goldman and Capital One and Intuit and the Commonwealth Bank of
+Australia and healthcare at Johnson & Johnson and Merck and Pﬁzer and Bristol-
+Myers Squibb and manufacturing GE and Shire Electric, and Philips. It seems every
+imaginable vertical business segment now is using the cloud in a meaningful way.
+And in the public sector, we have 6,500 government agencies worldwide, 11,000
+academic institutions and 29,000 non-proﬁts. So very, very broad and fast growing
+customer base.
+And there are -- other than looking at revenue and the trillions of requests that we
+get in the various services all the time, most of the -- it's a little hard to be able to
+track everybody's relative market segment share just because we're the only ones
+that really publish the full metrics. But we have a pretty signiﬁcant market segment
+leadership share. And where we really kind of see the breadth is if you just look at
+your everyday life, if you look at ride sharing and if you use Lyft or Uber, Ola in India
+or Grab in Southeast Asia or MyTaxi in Europe, all running on AWS in the cloud. Or if
+you use media services, Netﬂix runs completely on AWS. And obviously Amazon
+Prime and Disney+, and you watch the Super Bowl and you watch the streaming on
+Fox Live on top of AWS. And if you use Peloton or if you use -- my son is a very big
+orderer of foods, so Postmates and Grubhub and DoorDash. There's just very
+pervasive impact every day in your life and yet we always say, and we really strongly
+believe it that it's still very early days in people moving to the cloud. And even
+though the business is growing fast and is a reasonable size, I think it's going to be
+very diﬀerent 10 years from now.FINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 3 of 14David M. Solomon
+Andrew R. Jassy{BIO 1503614 <GO>}
+Yeah. So -- and one thing that's fascinating to me to see the big businesses is this
+was a signiﬁcant innovation in a large organization. I mean, at the time, Amazon
+much bigger now, but it was a large organization, it was a big innovation. What
+advice, and I think about this actually, what advice would you give -- Goldman Sachs
+is trying to innovate in its business, what advice would you give any larger company
+around innovating, building new business lines inside a strong organization?
+{BIO 15111610 <GO>}
+Yeah. Well, there are a few things -- a few things that have been helpful for us that I
+think -- it doesn't necessarily mean it'd be helpful for everybody, but I think they're
+generally useful principles. The ﬁrst is you have to hire people who want to build. We
+disproportionately index in hiring builders and we think of builders as people who
+like to invent, people who look at diﬀerent customer experiences and are honest
+about what's not working and try to reinvent those customer experiences. And
+people who really understand that launch is the starting line and not the ﬁnish line.
+There are so many great people in technology who love get to launch and lose
+interest. And you really rarely catch lightning in a bottle, you have to keep listening
+to customers and iterating. So you got to hire the right types of builders. And then I
+think you got to organize them in teams that allow them to move quickly. I think one
+of the most important things we did in AWS in the early days was the natural place to
+build AWS would have been in our infrastructure team because we leveraged our
+data centers and network. And instead, we pulled completely out of that group of
+people that had to run the consumer business and that scale every day because the
+new businesses will always lose out to the existing surer bets.
+So making sure you organize into a separable and autonomous teams as you can,
+where they own their own destiny and aren't burdened by having to run the core
+business you're running every day. And then you got to give those teams the right
+building blocks to be able to move really quickly. So I think one of the interesting
+things about Amazon the last 10 years is just how unbelievably quickly our consumer
+businesses have moved and they would tell you a big piece of that is being able to
+use those AWS building blocks that all our external customers use. And then you
+need a culture that encourages innovation. And that sounds fairly obvious like
+everybody wants to encourage new things. But I think at a lot of big companies,
+especially as you get bigger, the senior people walking into meetings where you're
+hearing a new idea are looking for ways to say no. Not because they are ill willed, it's
+just you get more conservative, it seems harder to imagine being successful on
+something new, it's hard to think about having one more team and eﬀort that you
+have to manage.
+And I would say that the opposite is really true at Amazon. All the senior leaders will
+tell you that their favorite meetings are the ones where we listen to new ideas, and
+we don't say yes to everything, but we say yes to a lot more than most. And we
+spend most of our energy in those meetings trying to problem solve with the teamFINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 4 of 14David M. Solomon
+Andrew R. Jassy
+David M. Solomonto get to yes. And I think the last thing is, if you're going to invent, especially if you're
+in a signiﬁcant existing business that's had some success, you have to be willing to
+tolerate failure. And if you hire great people and achievement-oriented people, it's
+sometimes a weird dichotomy. If I think about Amazon, there are a lot of type A
+people who hate to fail. And yet, if you're pushing the envelope, you're not going to
+get it right all the time.
+And I always found our launch of the phone very culturally reaﬃrming. Those of you
+who may not have known, we launched a phone and it didn't exactly work. And yet
+because we like the inputs, the output was it didn't work. But the inputs were the
+team we hired, the plan we built, the customer conversations we had, the technology
+that was built, the timing. And because we liked all the inputs, even though it didn't
+work, we took the learnings and the technology we could reuse and reapplied it and
+then gave people a good landing spot. Because if you don't, all the great people will
+fear working on the new things because they'll worry they won't have a spot if it
+doesn't work out.
+{BIO 1503614 <GO>}
+That's a really good point. You talked about -- you said we were early. There's a lot
+more adoption to go. First inning, second inning, I mean, how early are we?
+{BIO 15111610 <GO>}
+I would say that maybe, two outs, bottom of the ﬁrst, runners on board. Runs in on
+both sides though. So I think that it's -- if you look at the total global IT spend, only
+3% of it is in the cloud. But it's moving fast and it's growing fast. And so I think that
+it's -- we have this very strong opinion, which we've really seen play out faster than
+we imagined that in the fullness of time and I don't know if that's 10 years from now
+or 15 years from now or 20 years now. But very few companies will own their own
+data centers. And those that do will have much smaller footprints, only for workloads
+that just aren't worth moving because they're going to leave a mainframe to die or
+something that just has to be close to something like a factory latency wise. And all
+of that is moving to the cloud. So it's very early days. And I think that people will
+make moves. And when they make those moves, they will choose that time to
+modernize a lot of the older software. Look, we have lots and lots of customers who
+are moving away from mainframes and we have lots of customers who are moving
+away from the older guard commercial grade databases to things like Aurora and
+lots of folks that are moving quickly from modernizing from Windows to Linux. So
+you see all those types of moves, but you also see this huge explosion of SaaS
+providers who are building their products really organically right from the get-go on
+top of the cloud. So it's a very diﬀerent world, still early days.
+{BIO 1503614 <GO>}
+So you talked about some things that are obviously changing as we move from
+bottom of the ﬁrst with two men on and move towards the ninth. What else changes?
+What -- how does it look when we get closer to the ninth inning, besides some of the
+changes you just mentioned, what else do we see?FINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 5 of 14Andrew R. Jassy
+David M. Solomon
+Andrew R. Jassy{BIO 15111610 <GO>}
+Yeah. I think for whatever it's worth, I'm not sure that we'll get in the ninth inning in
+my lifetime working. I think this is -- we are in a period of unbelievably fast growth.
+And if you think about what's changed in the 14 years since AWS launched and the
+pace of change has been really rapid. I think the next 14 years is going to be even
+more rapid. And so I think what it will look like is I think that you'll have most
+companies won't have data centers. I think that you'll see more and more compute
+that's done in a server-less model. I think a generation of developers will choose that
+as their programming model, so they don't have to think about clusters or servers. I
+think you'll see very diﬀerent play with regard to what people use for databases, not
+just on the relational side where people are moving away from a lot of the more
+expensive and proprietary and punitive old guard providers, but also increasingly
+now companies don't use one relational database to satisfy all their database needs,
+they use purpose-built databases, it's why you see people using things like key value
+stores and in cash database and craft databases and time series databases.
+So the databases will be diﬀerent, almost every application will have machine
+learning and AI infused in it. There'll be billions, maybe trillions of devices that will
+live everywhere in our oﬃces, in our homes, in factories and cars and planes and
+ships and oil ﬁelds and agricultural ﬁelds and all those devices are going to be
+collecting data and sending them to the cloud and doing analytics on them and then
+sending smarter actions back to those devices, so they can be more productive. Lots
+of tasks that humans do today kind of mundane tasks will be done by robotics
+applications, so humans focus more on higher level value-added activities. I mean,
+all kinds of ways, it will be diﬀerent and we're also optimistic in the future that
+quantum computing will play a role as well.
+{BIO 1503614 <GO>}
+So let's shift and we'll talk about artiﬁcial intelligence a little bit. And I know that it's a
+huge area of innovation that you're spending a lot of time on it. I think you have
+10,000 people working on Alexa alone. Talk a little bit about kind of your vision for
+the direction that AI will play going forward, not just in the context of something like
+Alexa and in the context of what we've been talking about, but just more broadly,
+let's talk a little bit about the impact of AI?
+{BIO 15111610 <GO>}
+Yeah. I think that we've been working with AI and machine learning for over 20 years
+in Amazon. And you can kind of see it everywhere in our business, the
+recommendations you see on our retail side are fueled by machine learning. And if
+you look at the pick paths, the people in our fulﬁllment centers use to go get
+product and box it is used by machine learning algorithms. If you look Prime Air, our
+drones eﬀort, if you look at Amazon Go, those are computer vision algorithms that
+drive it, if you look at Alexa obviously. So we've been doing it for a long time and it is
+deeply embedded in all of our businesses and all of our capabilities and yet we still
+have tons more ideas.FINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 6 of 14David M. SolomonNow, today, there just aren't that many machine learning and AI expert practitioners
+out there and a lot of them that exist live at kind of the big technology companies.
+And so we're trying to -- I think collectively more and more are getting educated, but
+it's part of why in AWS a lot of the services and capabilities we're building there are
+to enable more companies to take advantage of that promise. And there -- we see it
+as kind of being three macro layers of the stack. That bottom layer is for expert
+machine learning practitioners, of which there aren't that many in the world, but
+these are people who are comfortable building their own models and picking the
+algorithms and training the models and tuning the models and deploying them and
+you have to keep running those models over and over again or they become stale.
+And we provide lots of ways to use all the popular frameworks and we build chips to
+make it faster, do training and to do inference and predictions, things like that. But
+because there aren't that many expert machine learning practitioners, the most
+important thing that we feel like we have done to make it much more accessible to
+every enterprise is to build this middle layer of the stack, which we built a service
+called SageMaker there, which enables every day developers and data scientists to
+much more easily build, train, tune and deploy machine learning algorithms in
+fractions of time before. I mean, if you look at Intuit now trains their fraud models in
+less than a week when it used to take them six months. These are big diﬀerences in
+what you can do.
+And then the top layer of the stack are for people that don't want to have to build
+the models at all themselves. They actually just want to plug into a model that we've
+built and get answers back through application programming interface calls or API
+calls. And so these are things like here is some text, turn it to speech, here is some
+audio transcribe it to text. Take this text and translate it into lots of languages, take
+this transcribed translated text and tell me what's in it, so I don't have to read it. Let
+me do natural language processing, help me do internal search. If you have an
+Internet and you try to search on your Internet, it's pretty lousy at most companies.
+Can you use natural language understanding and natural language processing to
+change that? Help us -- you'll give us your personalization algorithms, give us your
+forecasting algorithms, all those are those services at the top layer that companies
+are really hungry to just plug into models from companies that are doing at a scale
+and have that data.
+So I think most companies will operate at all three layers that stack. I would argue
+that that middle layer maybe the single most important just because most
+enterprises have so much data that they want to use predictive algorithms to get
+value out of.
+{BIO 1503614 <GO>}
+So the transition we're talking requires signiﬁcant investment. And one of the things,
+and I see it, it's obvious you got to build something new. We go build the Apple
+Card, we build it in the cloud. But when you're looking at legacy and you're thinking
+about upgrading and moving forward, there is a massive investment that's
+necessary. How do you talk about that investment to boards, the big companies, the
+founders of businesses to people running big business? How do you talk about theFINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 7 of 14Andrew R. Jassyinvestment and do it in a way that motivates people to make this investment quicker
+to move it along faster?
+{BIO 15111610 <GO>}
+It's a really good question and it's really relevant right now just the stage of adoption
+we're in in the enterprise and public sector, where I feel like we're at the early stages,
+the meat of that enterprise and public sector adoption. And I think that almost
+always the conversation starter in these discussions is cost. For most companies, if
+you can turn capital expense that you lay out for servers and data centers into a
+variable expense that you pay as you consume it, that's attractive. And then you get
+to turn that variable expense into something lower that you can do on your own
+because we have such large scale that we pass on in the form of lower price.
+We've lowered our prices on about 75 diﬀerent occasions in the last eight years.
+Largely in the competitive -- in the absence of competitive pressure just because the
+DNA inside of Amazon is to relentlessly work to take cost out and give it back to
+customers in the form of lower prices. So you turn CapEx to variable expense, it's a
+lower variable expense to what you could do on your own and then you get real
+elasticity instead of having to decide how much infrastructure to provision and either
+provision too little and have an outage if you exceed it, which nobody does. So what
+everyone does is provision for the peak, but there's a reason they call it the peak and
+you sit on all those wasted capital on the cloud. You just provision what you need. If
+it turns out you need more, you pay -- you scale up seamlessly. And then when you
+don't need anymore, you give it back and stop paying for it.
+So cost is very diﬀerent in the cloud than what existed before and that's compelling
+to virtually every company. But the number one reason that enterprises and public
+sector organizations are moving to the cloud is agility and speed and the ability to
+innovate at a much more rapid clip. And unless you operate in a business segment
+that has no competition, which is very few people, you have to move quickly and
+people are inventing at a rapid rate, not just start-ups, but also your competitors who
+are adopting the cloud. And so those are the two most compelling reasons that
+boards and leadership teams want to move. And then I think there is -- if you think
+about how to really just get oﬀ the dime and get going. A lot of the challenge it turns
+out isn't technical. You spend a lot of time talking about the technical pieces, but it's
+pretty trackable. A lot of the challenges frankly are leadership. And so the ﬁrst thing
+that really has to happen is the senior leadership team has to decide that they really
+want to move, they have to have that conviction because inertia is a really powerful
+thing inside organizations. And there are often people in the middle of organizations
+that aren't as excited about moving as some of the others because they may be
+don't know what it means for their job or their scope or they were proud of what
+they built. And so you have to have senior leadership teams that are truly convicted
+about moving and that set an aggressive top down goal that force the organization
+to move faster than otherwise would.
+My favorite example of this maybe is GE was making this decision that they really
+wanted to move to the cloud and their CIO at the time Jamie Miller decided that she
+was going to move 30 -- 50 applications to AWS in 30 days. And she got ourFINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 8 of 14David M. Solomon
+Andrew R. Jassytechnology leaders together and said this is what we're doing. And she said for 45
+minutes, they all told her how dopey that was and how it wouldn't work and why it
+didn't make sense. And she said, I just listened to them and said I heard you, but we
+are going to do it. So let's go. And they go to about 42 applications in 30 days. But
+in the process, they learnt their compliance model, their governance model, their
+security model and they had some successes and the ideas started rolling in, such
+that she could set a second really aggressive goal top down, which was to move
+about 7,000 applications to AWS in a few years. So you have to have the senior level
+conviction and an aggressive top down goal to force the org to move and that you
+mean business, where it's just really easy to dip your toe in the water for several
+years and wake up and realize your competitors are doing it and you're far away
+from it.
+{BIO 1503614 <GO>}
+Good point. Talk about the competitive landscape, talk about the competitive
+landscape in cloud computing.
+{BIO 15111610 <GO>}
+Yeah. I think that every major technology company either has or is trying to build
+some kind of replica of what AWS has built in the cloud computing infrastructure
+space. And I've been working on AWS since the very start. So we've been in the
+market for 14 years or so and I have been working on it for I guess 16.5 years or so.
+And of the many big surprises, and there have been a lots of big surprises, probably
+the single biggest one for me is just how long it took for other large technology
+companies to build something that was -- that looked like what AWS was trying to
+do. And it just -- we were just trying to get to launch without anybody knowing
+because at the time, Amazon was really thought of just as a retailer. And we felt like if
+we didn't get to market ﬁrst, it'll be harder for us to be successful and Seattle is a
+pretty small city. We know a lot of people on the other side of the lake and we were
+just trying to get the launch without anybody knowing. But we never imagined we'd
+have a six to seven year head start. And so we have a very signiﬁcant market
+segment leadership share at this point.
+And I think there are a few reasons for it. I think the ﬁrst thing is we just have a lot
+more functionality in part because we started earlier and in part because we're
+innovating at a faster clip, and that really turns out to matter if you're trying to
+migrate all your existing applications on premises to the cloud or if you want to
+unleash your builders to build anything they can imagine. Having the right tool for
+the right job saves you time and money. And then we have a much larger ecosystem
+of partners, and it's not just the thousands of systems integrators that are helping
+enterprises move to the cloud, it's most ISPs and SaaS providers will adapt their
+software to work on A technology infrastructure platform, some will do two, very few
+will do three. And they all start with AWS just because of our leadership position. So
+you get to move to the cloud with a lot more of the software you used to using and
+want to use.FINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 9 of 14David M. Solomon
+Andrew R. Jassy
+David M. Solomon
+Andrew R. JassyAnd then I think the maturity of the platforms are in pretty diﬀerent spots. And we
+have an expression we use internally that there is no compression algorithm for
+experience and that's because you can't learn certain lessons until you get to
+diﬀerent elbows of the curve and scale. And with the business that's a couple of
+times larger than the next few providers combined, you just learn those lessons of
+scale at a much earlier stage, in a way that you can't always convince your builders to
+worry about it. In the early days of the business, we used to have arguments about
+whether releasing something at a -- whether there was going to be a one in a billion
+chance that you would have an error, whether that was okay or not. And if you look
+at our scale now, we're in the hundreds of trillions of dice rolls at this point. And
+there's just no shortcut for getting there, you just have to get to that scale, it changes
+how you think about architecture and infrastructure.
+{BIO 1503614 <GO>}
+Yeah. Amazon broadly has initiatives across a range of industries, a range of
+businesses. At times, and I see this in our business, that has to create channel conﬂict
+with what you're trying to do in some ways as competitors push and push around
+working with you. How do you deal with those issues? Would -- does this work better
+as an ecosystem inside of Amazon? Would it work better as an ecosystem outside of
+Amazon?
+{BIO 15111610 <GO>}
+AWS?
+{BIO 1503614 <GO>}
+Yeah.
+{BIO 15111610 <GO>}
+Well, not surprisingly, we have a number of conversations about this topic. And what
+I always share when I get a chance to speak with customers about it is that there are
+really only two existing signiﬁcant industries in which Amazon is disrupted. One is
+retail and the other is technology infrastructure. And in both cases, they were models
+that were pretty antiquated and customers weren't so happy with those models and
+somebody was going to end up reinventing them. And in those cases, it turned out
+to be us. But I would also say that if you look at the other companies in those spaces,
+it's actually a really great lesson for all of us as people come in and try new things in
+our areas. The companies that listen to what customers cared about and watched
+what they were reacting to and adjusted have done quite well in this new era. And
+the ones that didn't, that poopooed that wished it away that dissed it, but didn't
+spend resource on it are struggling.
+And so I think if you have a great business with a great customer experience, simply
+because somebody else enters that space doesn't mean you're going to have some
+kind of business decline if you're listening to your customers and doing right by
+them and adjusting and being inspired by whatever is new. And I think alsoFINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 10 of 14David M. Solomon
+Andrew R. Jassysometimes people have this, there's this folklore or mythology around, if Amazon
+launches a business in a certain area it means that all the other businesses in those
+areas are not going to be successful. I just haven't seen it. I think we have some
+things we're working on the healthcare space and I think lots of healthcare
+companies are having a lot of success. I mentioned we launched something in the
+phone space and it didn't seem to have much of an impact on the leaders in the
+phone space. We have some things in the payment space and PayPal seems to be
+doing quite well.
+And so, it's because these segments are so large, they're not winner-take-all, there is
+room for several companies to be successful. And again, if you're doing a good job
+for customers and you keep evolving, you'll be ﬁne. And I think when you look at
+what's -- it's so hard for all of us to build businesses to sustain for long periods of
+time. I mean, look at how few companies have lasted. I mean, you guys are an
+exception. But looking at how few companies have lasted 50 years, let alone 100
+years as being successful, it's so hard. And to me, the number one thing that you can
+do by far to give yourself a chance to be successful over the long term is to have
+good feedback loops from customers, so you know what they care about and then
+have the technology platform that allows your builders to keep evolving your
+business and customer experience as quickly as you need to. And there just isn't a
+platform that allows you to do that more easily by a long shot than AWS. So that's
+usually what we talk about and we talk those things through, people usually ﬁnd
+some reason to that.
+{BIO 1503614 <GO>}
+Yeah. So you've got an incredibly diverse set of customers on the platform, start-ups,
+fortune 500 companies, thousands of other companies, but also government
+agencies. And the relationship between technology companies and governments is
+getting increasingly complicated, with lots of scrutiny. What do you -- and it's a
+broad question, what do you think government's role should be in regulating
+technology as technology continues to expand and inﬁltrate business broadly?
+{BIO 15111610 <GO>}
+Yeah. It's a good question. And I think that we have to keep remembering that
+technology has and will continue to completely change our lives and what our
+customer experiences are and how we communicate with one another and really
+almost everything we do. And the vast majority is great for people, but there are
+ways that you can use technology that are irresponsible or that impact people's civil
+liberties or they are against the law. And when people use technology in an
+irresponsible or unlawful way, they have to be held accountable for it. And yet, I
+would say that you shouldn't ban technology just because it could be used
+irresponsibly. I mean, just think about -- look at all the evil things that have been
+done with computers and servers over the years, look at the Sony hack a few years
+ago. But imagine what our world would be like if we didn't allow people to use
+computers or servers, it would be a radically diﬀerent world. And so, I think you don't
+ban technology because it could be used irresponsibly. I think you have to hold
+parties who use the technology irresponsibly accountable for it. And all providers,FINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 11 of 14David M. Solomon
+Andrew R. Jassy
+David M. Solomon
+Andrew R. Jassyourselves included, have terms of service and we suspend people's right to use the
+technology if they're using it unlawfully or in a way that impact people's civil liberties,
+but there are a number of people who wanted to go further and they want more
+clarity and they want more delineation and regimentation, where they want the
+government to actually regulate the cases that the technology just cannot be used
+for. And we're very supportive of that and eager to work with government agencies
+that want to do it. But I think it's important when governments do that, that they are
+really thoughtful and targeted about what they're trying to protect against and don't
+over-regulate, where you can't get any of the value from the technology because
+there's a lot of it there for people.
+{BIO 1503614 <GO>}
+It's complicated. I mean, it's hard to argue that we wouldn't beneﬁt in certain areas
+from a better or clear framework. But in the history of regulation, generally when it's
+responding to something, as you say, it goes too far and it squelches opportunities.
+{BIO 15111610 <GO>}
+I agree with you.
+{BIO 1503614 <GO>}
+And they've got to swing back in some way, shape or form. Information security, it's
+got to be a big focus at AWS, big focus everywhere. How do you think about
+information security at AWS and how are you building a culture around it?
+{BIO 15111610 <GO>}
+Well, the way you build a culture around anything is you have to pick the things that
+are most important in your culture and then you have to have lots of mechanisms
+that reinforce it. And so for us, security is unquestionably our number one priority
+and we will drop everything we're doing if we feel like there is something we need
+to do there to further buttress it. And I think everybody in our organization from the
+senior most leaders to the -- to all of the entry-level people in the organization
+understand that and we have a number of weekly and biweekly and monthly
+mechanisms, where we're all involved and working on it and thinking about it and
+ﬁguring out areas that our customers want us to do more.
+And so it's -- for us, it's unquestionably our number one priority. And then we have a
+number of mechanisms that we build to back that up. And then we -- there is a
+number of things our customers want us to do, expect us to do and ask us to do that
+we prioritize. So in the early days of AWS, there were a lot of certiﬁcation people
+wanted, they want us to be ISO compliant and PCI compliant and HIPAA compliant
+and FedRAMP complaint. So a lot of certiﬁcations that we pursued. And we have all
+kinds of monitoring and protections of the infrastructure itself, but then we have very
+ﬁne-grained identity access management for people to be able to secure who they
+want to use what, at what times, in what locations, in what ways and multi-factor
+authentication, web application ﬁrewalls and ways to know if there is any kind ofFINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 12 of 14David M. Solomon
+Andrew R. Jassyanomalous data movement or any unusual access to your account. I mean, all kinds
+of services that we continue to build.
+And I would say in the early days of AWS, the ﬁrst maybe six, seven years of the
+business, the biggest blocker for us in the enterprise was security, not because there
+was a problem with security in AWS, but people who have data that matters, it's also
+their number one priority. And so they were nervous about it. And I would often say,
+well, tell me what you're worried about with regard to security in the cloud. And
+they'd say, well, I'm worried I'm going to lose control of my data. And I would say,
+well, you know in AWS that you decide where the data goes, it doesn't move unless
+you want to move it, it looks just like a blob to us. But if you're extra-worried about it,
+you can encrypt it in motion or at rest. And they'd say, okay. And they'd say, well, I
+can't go down and touch the iron. And I'd say, well, how often you go down and
+touch the iron in your on-premises data centers. And if you go down to data centers,
+it's not like you know what you're touching a lot of times.
+And so I just think it took time to see customers use it and use it securely and
+understand the features and capabilities. And I would say that in over the last ﬁve to
+six years, security has been one of the single most important sellers in people using
+the cloud. And I think most people come away looking deeply at our security,
+believing that they'll have a more secure posture in AWS than they would on-
+premises.
+{BIO 1503614 <GO>}
+As a company, you've made a big commitment to climate change. Data centers,
+obviously, are meaningful consumers of energy and water. Balance the challenges
+and the costs with this growth and thinking about a more sustainable future.
+{BIO 15111610 <GO>}
+Well, I think that -- I mean, the climate has always obviously been important, but I
+think only increasingly so over the last few years as the crisis deepens. And I think
+that it's a big reason why we made the climate pledge that we did several weeks ago
+-- a few months ago. And for a company our size, and with our diversity of
+businesses, it's not easy, I mean, to -- we said we'd be 80% renewable energy in
+2024, 100% renewable energy in 2030 and net zero carbon by 2040, 10 years ahead
+of the Paris Agreement. If you look at what -- the scale of Amazon and the diversity of
+businesses, it's a lot harder to do that than most other companies that you'll think
+about. And it's going to require -- it will for sure be expensive. But I think the way we
+think about it is that it will be much more expensive for the rest of the world if we
+don't all get behind this and ﬁx this and it'll be a diﬀerent world for our kids and
+grandkids if we don't.
+It requires a lot of invention, much of which we're going to do the invention
+ourselves, but a lot of which we'll also do with third-party partners. And one of the
+reasons that we decided to be public about the climate pledge as early as we did
+was we really wanted to incent and to hopefully inspire more companies to invent in
+this space because we're going to need partners, all of us are going to needFINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 13 of 14David M. Solomon
+Andrew R. Jassypartners to make this happen. And so, it's a very important priority. In the data center
+space, in the cloud computing space, I think sometimes people forget that cloud
+computing is just signiﬁcantly inherently more energy eﬃcient than on-premises
+data centers, in large part because our utilization is so much higher. So like if you
+look at 451 Research just did this study where they found that running in AWS was
+3.6 times more energy eﬃcient than running in the average on-premises data center.
+Or if you look at on the carbon intensity side, the electricity consumed, the
+renewables purchased to run the same task in AWS is 88% more carbon eﬃcient
+than it would on-premises.
+So the cloud is a much more environmentally friendly construct for data centers than
+most companies who are utilized at 10% to 20%, but still there is a lot that we're
+doing and we have to do to continue to be more energy eﬃcient. And we got all
+kinds of invention we're doing around how to use water more thoughtfully and in
+more scarce ways. And we have over 70 renewable projects that we've funded inside
+of Amazon with 1,900 megawatts of power that we're generating. And so we have a
+lot that we're doing and a lot more that we're doing and it's an area that we are
+investing innovation resources in.
+{BIO 1503614 <GO>}
+That's great, that's great. So just to ﬁnish. One of the challenges that we all have in
+our businesses, but at the scale you're operating at, you have it in spades is
+attracting people, retaining people that help make this all possible. How are you
+thinking about people management, talent at the scale you're operating at?
+{BIO 15111610 <GO>}
+That's a really good question. And, of course, the devil's in the details of all these
+things. And we have -- I've been at Amazon almost 23 years at this point. I've
+obviously drank the Kool-Aid, but it's kind of remarkable how many people we've
+had at the company so long. I mean long for us, we've been around 25-ish years. But
+I mean if I just look in AWS, the person who runs product development has been
+there for almost 22 years, the person who runs infrastructure has been there for
+almost 22 years, the person who runs our demand generation has been there for 14
+years. We've had kind of almost a naturally strong retention of our people. And I
+think a big piece of it and a lot of what we focus on when we think about how to
+keep people hungry and motivated and excited about working at Amazon over a
+long period of time is you have to be intentional about what your culture is going to
+prioritize and who you want. And for us, as I mentioned earlier, we
+disproportionately index in hiring builders. That's who we want at the company.
+And so -- and we don't think of builders as just technologists. To me there, you have
+people who are unbelievable operators who are inventive in operations and change
+the way you think about being able to get something done for the cost structure or
+the time frame it takes to get things done. We want builders in everything that we
+do. And so, what we try to do in our culture and everything we talk about as a senior
+leadership team is how do we build the type of company and the type of culture that
+allow builders to build. And that is all the thing -- when we talk about process that weFINAL TRANSCRIPT 2020-02-12
+Amazon.com Inc (AMZN US Equity)
+Page 14 of 14David M. Solomon
+Andrew R. Jassy
+David M. Solomondon't like, a bureaucracy that we might see creeping in, a lot of it is we want to knock
+that out because we want to make it the world's best place for builders to build. And
+I think that there really are a few places like Amazon if you're a builder and that's
+what we spend most of our time trying to ﬁgure out.
+{BIO 1503614 <GO>}
+Yeah. I appreciate. Andy, it's really great of you to come spend time with the group
+here today. Appreciate your thoughts. Thanks for being with us.
+{BIO 15111610 <GO>}
+I appreciate you having me. Thank you.
+{BIO 1503614 <GO>}
+Absolutely. Thanks a lot.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

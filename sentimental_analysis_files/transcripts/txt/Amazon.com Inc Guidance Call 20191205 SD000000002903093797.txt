@@ -1,0 +1,521 @@
+FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 1 of 13, CEO
+, VP of Artiﬁcial Intelligence
+, Chairman of the Engineering Committee, NFL
+, Executive Vice President of Health and Safety Innovation, NFL
+, Commissioner, NFL
+Unidentiﬁed Participant, Analyst, Unknown
+Unidentiﬁed Participant
+Andrew JassyAmazon Web Services and National Football League to
+Discuss New Partnership to Transform Player Health and
+Safety at AWS re:Invent 2019
+Company Participants
+Andrew Jassy
+Matt Wood
+Other Participants
+Jeﬀ Crandall
+Jeﬀ Miller
+Roger Goodell
+Presentation
+Ladies and gentlemen, please welcome, Andy Jassy.
+{BIO 15111610 <GO>}
+Thank you, guys. And thank you for coming. I appreciate it's been a great week here
+at re:Invent. And we appreciate your spending some time with us today.
+So sports, to me, is an amazing storytelling forum. And if you think about -- if you're a
+sports fan -- I'm a very passionate sports fan, a New York sports fan because I'm from
+New York. It's an incredible roller coaster of emotions. You get to see giants face oﬀ
+against each other. You get to see David versus Goliath. You've huge upsets. You
+have heartbreak and agony. You have euphoria. You have all of those emotions. And
+it's also an amazing way to bond. Some of my very best memories in my life are
+going to New York Giants games and New York Rangers games with my dad. I still
+remember the conversations we had going to the stadium back and forth, just has
+been a bond. Even if my dad is now 82, we go to sports events all the time. And it's
+something we share and have shared our whole life. And I share it with my son as
+well.
+And I also think it's an amazing community builder. I think in a world like we live in
+today, where there's so much polarization, one of the few places where people from
+every background and every political view come together as one in a community isFINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 2 of 13Roger Goodell
+Andrew Jassy
+Roger Goodell
+Andrew Jassy
+Roger Goodell
+Andrew Jassy
+Roger Goodellwhen you're rooting for a sports team. So sports, I think, has an incredible place in
+our society.
+And in AWS, we've been helping various sports teams, sports broadcasters and
+leagues use AWS for digital transformation and changing their fan experiences and
+changing their analytics and machine learning for a long time. We've done it with
+baseball and hockey and basketball and car racing and sailing. And of course, with
+football as well. And one of our -- I think one of the most sophisticated organizations
+in sports and out of sports and how they use technology and evolve their customer
+experience has been the NFL. And it's been really an honor and a privilege for us to
+work with the NFL on a number of dimensions over a bunch of times.
+So to share more about our partnership together, it's my privilege to welcome to the
+stage, the Commissioner of the NFL, Roger Goodell.
+{BIO 1817738 <GO>}
+Hi, Andy. Thank you.
+{BIO 15111610 <GO>}
+Thanks for being here, Roger. I appreciate it.
+{BIO 1817738 <GO>}
+Yes. My pleasure.
+{BIO 15111610 <GO>}
+So thanks for coming. I appreciate it.
+{BIO 1817738 <GO>}
+My pleasure. Glad to be here.
+{BIO 15111610 <GO>}
+Football is the most popular sport in the United States and increasingly around the
+world. And if I think about the way that you have relentlessly worked on changing
+the customer experience as a fan experience over the last number of years, it's
+remarkable. I remember as a kid growing up, I mean, if you watch TV, you actually
+didn't know what the score was. You kept waiting until they ﬂash the score. And there
+was no yellow line for the ﬁrst down mark. Are we just -- it's radically diﬀerent. And I
+think a lot of that...
+{BIO 1817738 <GO>}FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 3 of 13Andrew Jassy
+A - Andrew Jassy
+Q - Roger Goodell
+A - Andrew Jassy
+Q - Roger Goodell
+A - Andrew JassyWhich is (inaudible) we wait until Monday night to see the highlights. Remember, it's
+what it used to be.
+{BIO 15111610 <GO>}
+Yes, I remember that. I'd be calling sports phone every 5 minutes, paying $1 a minute
+to hear the scores. Actually, better said, my dad was paying a $1 a minute at that age.
+But you radically changed the customer experience. And we love what we've been
+working on with you for a while and Next Gen Stats.
+Questions And Answers
+{BIO 15111610 <GO>}
+Share kind of how that's evolved and how you've used Next Gen Stats and other
+innovations to change the fan experience.
+{BIO 1817738 <GO>}
+Well it's all about trying to bring the fan closer to the game and give them some
+other way to engage with the game. And they want access, of course. But they want
+information. And AWS has been able to work with us with Next Gen Stats to be able
+to give us insight that we never had before: how fast a player is running; the
+separation that a receiver and the defensive back may have; probability of a catch,
+we saw some of that up on the screen just before we started. And I think the fans
+have really taken to that. And our broadcasters have taken to that. Media partners
+have been really interested in how you take this new data and make it a better
+production and make the fan feel like they're more a part of the game and
+understanding it. And when you get an opportunity to see somebody running 22
+miles an hour, which I think is the record this year, according to AWS. And that's -- I
+don't know the last time you ran 22 miles per hour.
+{BIO 15111610 <GO>}
+Not recently.
+{BIO 1817738 <GO>}
+Not recently. So -- but you see that. And you really take away that these are
+incredible athletes doing incredible things. And that's, I think, the power of what
+we've created with you all. And I think there's so many more opportunities beyond
+that for us.
+{BIO 15111610 <GO>}
+I agree. One of my very favorite of the Next Gen Stats is that catch probability metric.
+And I love -- as a New York Giants fan, I love that Next Gen Stats is able to use the
+machine learning algorithms created in AWS to project that famous OBJ catch, the
+Odell Beckham Jr. catch, against Dallas had a 0.4% catch probability, which means
+eﬀectively, 4 out of 1,000 times, he would catch the ball, which is pretty amazing.FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 4 of 13Q - Roger Goodell
+A - Andrew Jassy
+Q - Roger Goodell
+A - Andrew JassyAnd as Roger said, we've spent a lot of time together as our organizations and
+continuing to work on how we can evolve the game and be a part of changing
+things. And we -- we've looked at what we were doing together and said, "Are there
+other things that we can do to move the needle?" And so we talked a lot about that.
+We said, "What can we do with AWS' cloud computing and machine learning
+capabilities with what the NFL has, both with regard to historical and current data
+and insight into the game?" And we're excited to announce a new strategic
+partnership together, which is going to combine AWS' cloud computing and
+machine learning with the NFL's data and insight into the game to work on
+transforming player health and safety.
+And so we're excited about what's possible there. And I thought it would be useful
+for you to help us understand how is the partnership and what we're going to do
+together build on what you've already been doing. It's, obviously, a big priority for
+the NFL and has been for a long time.
+{BIO 1817738 <GO>}
+Well it's our #1 priority. How do we make the game safer for our current players,
+obviously, of -- for the next-generation of players. And frankly, well beyond the game
+of football?
+We think what we do here will make every sport safer and frankly, even beyond that.
+But for us, what we see the power here is to be able to take the data that we've
+created over the last decade or so with that not only extraordinary distant it's pure
+data. But it has video attached to it. And we now have sensors. And when you can
+take the combination of all of that, I think the possibilities are enormous. And that's
+what you guys specialize. You -- that's what you guys do.
+We're pretty good at football. We're pretty good at collecting that data. But we want
+to use that data to now change the game. And I think that's what's exciting to me
+about this relationship. There are very few relationships that we get involved with,
+where the partner and the NFL can change the game. And it'll be changing the way
+it's played, it'll be the way it's coached, the way we prepare our athletes for the
+game. And although that is, I think, going to be something that's going to be very
+exciting as we look to the next 100 years of the NFL.
+{BIO 15111610 <GO>}
+Yes. We're excited about it as well and the potential for it. And this is, obviously, an
+important strategic priority for you. Just to share a little bit how you thought about
+who to partner with. And what the process was like?
+{BIO 1817738 <GO>}
+Well you'd be happy to hear. When we're looking at partnerships, we always look for
+best in class. So that is a compliment to AWS.
+{BIO 15111610 <GO>}FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 5 of 13Q - Roger Goodell
+A - Andrew Jassy
+Q - Roger Goodell
+A - Andrew Jassy
+Q - Roger Goodell
+A - Andrew Jassy
+Q - Roger GoodellThank you. Yes.
+{BIO 1817738 <GO>}
+And it is how we believe in. When we look at the landscape, we wanted to go with
+the best in class. So that's #1 for us. Two is we really feel strongly about trying to align
+our interest with that partner. You bring great technology. You bring great machine
+learning, stuﬀ that we don't have in the NFL. So we want to be able to work with you
+to make 1 plus 1 equal 5. And so we believe that will work very well for us. Then we,
+obviously, just want, at the end of the day, to have an impact. We want to know that
+in this relationship, we can impact AWS, we can impact the game and we can
+together do something very powerful.
+{BIO 15111610 <GO>}
+Yes. In my keynote on Tuesday, which I'm sure you watched on a livestream, yes.
+{BIO 1817738 <GO>}
+I did see that.
+{BIO 15111610 <GO>}
+It's on. I'm sure it was high (inaudible), yes.
+{BIO 1817738 <GO>}
+You told me it was 2.5 hours, Andy. I watched it on the (ﬂight homes).
+{BIO 15111610 <GO>}
+Yes. Along with (St. Dodo). In the keynote, one of the things we talked about is that
+when you're making a big transformation, it really starts foundationally with the
+leaders deciding that they want to make that transformation and setting aggressive
+goals from the top down.
+And one of the things I've always been impressed about you, Roger, is that you're
+super curious about technology. Really, I think you're quite happy with where the
+game is. But also, every time we talk, you're thinking about how to change the fan
+experience and how it can be better and leaning into it. And that's, by the way -- I
+mean, I would say I get a chance to meet with lots of leaders and lots of industries.
+And you would think that would be the norm. But it's not. And I really appreciate it
+about you. And I'm just curious how you think about innovation and how the league
+thinks about innovation.
+{BIO 1817738 <GO>}
+Well it's sort of -- I was giggling because you said -- and I know my staﬀ would giggle
+with you, is that I seem very happy with where we are with the game. I am never
+happy or satisﬁed with where we are. I always feel like the NFL, in particular, has so
+much more potential. And we have to unlock that potential. And I think that's what
+this relationship can do is unlock all of the work that we've done in building thisFINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 6 of 13A - Andrew Jassy
+Q - Roger Goodell
+A - Andrew Jassy
+Q - Roger Goodelldatabase and actually work to extend our eﬀorts to, obviously, prevent injuries, to
+diagnose injuries and to treat injuries; and to come up with better medical
+standards. And better practice methods and better equipment.
+You're going to hear from the engineers in a few minutes. And the work that they've
+been able to do to create this engineering road map to improve the game is having
+dramatic impact. We've already seen it in a reduction of concussions of 30% last
+year. We're continuing to see how we can do that with lower extremity injuries, which
+are really the bulk of the injuries. And we believe we can do that by combining it in
+this partnership to make sure we understand how the injuries occur and what we
+could do to prevent them. Even to a point, as you know much better than I do, could
+we create the Digital Athlete? Could we ﬁnd out more about predictive analysis that
+will allow us to understand, is it possible this individual is more susceptible to an
+injury? Maybe on the surface, or in these cleats or at that position.
+So all of that is exciting for us. And it's not far away. And it's something we think is in
+our grasp. In this relationship, I believe, we will accelerate that.
+{BIO 15111610 <GO>}
+Yes, I agree with you. I think, it's -- some of the things I'm excited about that we're
+going to do together is just using computer vision algorithms. And then alongside of
+things like...
+{BIO 1817738 <GO>}
+You're going to get over my head real quick.
+{BIO 15111610 <GO>}
+I am. But alongside some of the services like SageMaker we have where we build
+algorithms to try and predict what causes concussions and lower extremity injuries
+and the Digital Athlete that you mentioned, too, just creating a virtual composite
+model of athletes. So you can understand -- you can simulate diﬀerent collisions and
+diﬀerent angles and diﬀerent types of plays and what it looks like for a normal gate
+of a player versus somebody who's maybe be impacted by injury. It just, I think, has
+the chance to really transform player health and safety.
+And so super excited about the partnership and excited about what we're
+embarking on together today. And as Roger said, we're going to call up some of the
+experts now. And I'm going to welcome to the stage -- I'm going to welcome Jeﬀ
+Miller, who's the Executive Vice President of Health and Safety Innovation for the
+NFL; Dr. Matt Wood, who's the VP of AI Services here in AWS; and Dr. Jeﬀ Crandall,
+who's the Chairman of the Engineering Committee for the NFL. And they're going to
+share a little bit more detail. Thank you, again.
+{BIO 1817738 <GO>}
+My pleasure, Andy. It's great to be here. Thanks again.FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 7 of 13A - Andrew Jassy
+Q - Jeﬀ Miller
+Q - Jeﬀ Crandall{BIO 15111610 <GO>}
+Thank you. God bless you.
++++presentation
+{BIO 22261500 <GO>}
+Good afternoon. I'm Jeﬀ Miller, Executive Vice President for Health and Safety
+Innovations at the NFL. And I can testify to the fact that Roger Goodell is relentlessly
+unsatisﬁed.
+We're going to continue the conversation that we started a few minutes ago. I want
+to thank Andy Jassy, AWS, the team that we've had an opportunity to work with as
+we've developed this partnership over the last few months. We could not be more
+excited about what the future holds for football, for the health and safety of our
+athletes and for the game as a whole.
+With that, let me introduce a couple of our special guests who are going to get into
+some of the detail around this work. This is Matt Wood, who is Vice President for
+Artiﬁcial Intelligence here at AWS; and a good friend of mine, Dr. Jeﬀ Crandall,
+who's the Chairman of the NFL's Engineering Committee and a Biomechanical
+Engineer at the University of Virginia.
++++qanda
+Jeﬀ, let me start with you. We know each other well, have worked together for a long
+time. About 3.5 years ago, the NFL started a project that we called the Engineering
+Roadmap, which was an eﬀort supported -- a multimillion dollar eﬀort supported by
+our owners to try to better understand head impacts and concussions on ﬁeld and
+then design ways to mitigate those impacts, to try to move the helmet industry
+forward. And that work has been intensive. I think that we've seen a fair number -- a
+fair amount of success from it.
+Jeﬀ, you've been at the point person for doing this work. Can you share with the
+audience a little bit about the eﬀorts so far?
+{BIO 1773143 <GO>}
+Sure. I think it's important to understand where we're starting from. I think if you look
+at the NFL, collects a tremendous amount of high-quality data. And most of you are
+probably familiar with what they share about the play and the game information. But
+I think it goes right down to the player level. We have tremendous information on
+the equipment that players are wearing. What are the helmet models? What are the
+cleats? What are the shoulder pads? We know the player injury and their history. We
+know what's happening, how often they practice. We know what they're doing on
+ﬁeld. We know the surfaces they run on. So we've got a tremendous database
+prepared. And I think on top of all that, one of the most unique resources, if youFINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 8 of 13Q - Jeﬀ Millerlook, is the archives of video. So not only do we have the game characterized with
+every play where we have multiple views of cameras. Now what we have is every
+player actually tracked with multiple views of cameras and angles. And so building
+on this, we developed a plan called the Engineering Roadmap. And the goal of that
+was really how do we transform. How do we improve the current state of head
+protection? How do we accelerate that and do it at a pretty rapid pace? And so what
+we did is we put a plan together. It was part of $100 million initiative that the league
+funded a couple of years ago.
+What we did is we set up 4 basic tasks. The ﬁrst task was, let's understand what's
+happening on ﬁeld. Let's characterize the environment when players are getting
+injured. So what we did is we took video. We took the Next Gen Stats that you just
+saw. We did something called model-based image matching. And we really
+characterized who is getting injured, how they were getting impacted, what they
+were being impacted by. Then from an engineering basis, what we did is we've said,
+"What are the forces? What are the motions involved when players are injured?" So
+once we have that information, we characterize the on-ﬁeld. Then the next step is
+how do we share that. How do we share that with people that can actually make
+better helmets, better protective equipment? And so what we did is we took that
+information. We brought it into a laboratory setting. And that laboratory setting
+meant we had to recreate that on-ﬁeld environment using impactors and crash test
+dummies that manufacturers could then take in their laboratory and design to. So
+essentially, designing with this equipment let you reﬂect the on-ﬁeld environment.
+And I think if you look at the state of aﬀairs of design right now, it's no longer a world
+where you take a prototype and you test it experimentally. So another work stream
+we did was let's bring this to a computational environment. Let's use ﬁnite elements.
+Let's recreate that environment that we studied on ﬁeld in a virtual space. And so
+we're at a point now where we understand what's happening on ﬁeld. We have the
+tools, both experimental and computational. The next step is how do we incentivize
+and motivate the development of these transformational helmets.
+And so last month, a group of us had a symposium, where we kicked oﬀ a $3 million
+NFL helmet challenge. We really want to motivate and incentivize manufacturers,
+entrepreneurs. We brought all of them together with the nation's leading additive
+manufacturers' 3D printing.
+And so we're hopeful over the next 18 months that we get to a transformational, a
+revolutionary element that is better substantially than anything that's on ﬁeld right
+now. And so that's essentially where we are with the Engineering Roadmap.
+{BIO 22261500 <GO>}
+And one element that I had not anticipated when we started this work was the
+collection of the diﬀerent data sets, not just the head impacts on ﬁeld but gameplay
+data, the equipment that players were wearing, the frequency of those impacts, the
+speeds that the players we're traveling, the angles that they hit one another and
+such. And some of that work, which has been very laborious over the last couple ofFINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 9 of 13Q - Jeﬀ Crandall
+Q - Jeﬀ Miller
+A - Matt Wood
+Q - Jeﬀ Miller
+A - Matt Woodyears looking at upwards of 700 or 800 concussions on ﬁeld, allowed us -- some of
+us who are looking at this to identify trends in the data and to do so manually.
+And Jeﬀ, if you want to just spend 30 seconds talking about some of the outcomes
+of that real quickly.
+{BIO 1773143 <GO>}
+Sure. I think Jeﬀ mentioned we can identify trends and opportunities. And so while
+the road map was sort of a long-term plan, what we said is are there sort of oﬀ ramps
+that we can implement right now and make changes to the game. So one of them
+would be, I think, an educational opportunity where we tested helmets on an annual
+basis. And we saw some that performed better than others. They were our top-
+performing group. And I think what we were able to do is, through an educational
+program with the players and teams understanding what we had for on-ﬁeld data,
+we were able to take the players that were 41% in top-performing helmets in 2017
+and moved to 99% of players in top-performing helmets this year.
+Another example might be a rule change that we worked on. Historically, if you look,
+the kickoﬀ returns has some of the highest injury rates. So what we did is we looked
+at video. We looked at Next Gen Stats. We did something called a clustering analysis,
+where we said, "What is it on kickoﬀs that makes that such a dangerous play?" We
+shared that with special teams coaches. We shared that with the Competition
+Committee. And what they were able to do was come up with the rules to change
+that play, such that they could keep all the excitement but remove those riskiest
+scenarios. I think Jeﬀ mentioned the tedious nature. We've looked at over 100,000
+helmet impacts manually. And so one of the challenges now is how do we scale that.
+How do we accelerate? I think that's one of the reasons why we're so excited about
+the AWS partnership. How do we leverage their suite of tools? How do we leverage
+what they're doing in AI and machine learning to help us drive innovation at a faster
+pace more eﬃciently and more broadly?
+{BIO 22261500 <GO>}
+So Matt, let's turn to you. I think we can all agree that looking at 100,000 head
+impacts on ﬁlm is a little bit crazy. And then probably suggest that anybody who is
+doing it, that there has to be a better way.
+{BIO 18000850 <GO>}
+Quickly overwhelming.
+{BIO 22261500 <GO>}
+Quickly overwhelming. Let's talk to you about -- from your approach, what do you
+see when you hear about the data and the work that we've done so far and what the
+possibilities are?
+{BIO 18000850 <GO>}FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 10 of 13Q - Jeﬀ Miller
+Q - Jeﬀ CrandallSure. I mean, I think, ﬁrst and foremost, the thing that I've been impressed most with
+from our partnership so far and the material work that we've done so far is just the
+level of drive and innovation inside the NFL. Working on these biomechanical
+models, a willingness to explore and wonder through this kind of exploratory world
+together, I think we've done some great work. And we'll continue to do more going
+forward.
+From a machine learning perspective, machine learning, it all starts with the data.
+And the data of the NFL is generating the ground truth data that we've already got
+access to, the video troves. All of this information, it's just -- it's a raw material from
+which we can just continue to extract meaning insight into the game like we've been
+doing with Next Gen Stats. And then start to take that even further, as we start to
+integrate and move towards improving player health and safety.
+And so whilst it's tempting to focus on machine learning, machine learning is just the
+frosting on the top. It's the 20%. And the 80% is all about the data. It's how you store
+it. And so one of the ﬁrst things we've been working on is creating a data lake, which
+puts all of that data together in a single place, which is -- has the right access
+controls and right governance and is available to the sort of computation, which
+allows you to explore it.
+Then you can get into machine learning. And if you're doing it wrong, machine
+learning is -- it's like driving around with your lights oﬀ at night without a map. It's --
+you just -- you can go anywhere that you want. And you can explore. But you can
+often take a wrong turn. And you can end up in a dead end. And what we've been
+trying to do with services like SageMaker, particularly the new announcements that
+we've made this week with things like SageMaker Studio and our debugging and
+proﬁling capabilities, model monitoring and autopilot that allows you to create
+models automatically, we're giving the NFL the map. And we're turning on the lights
+to our car. And that means that we can look around corners. And as a group, with
+AWS and our machine learning solutions lab and the experts in the NFL, we can start
+to plot a course towards a safer game. And we're going to do that with the data that
+we've collected. We're going to do it using the computer vision models and the
+predictive models that we're going to build with SageMaker.
+{BIO 22261500 <GO>}
+Jeﬀ, one of the endpoints of the map that Matt was talking about that we've
+conceived of is the Digital Athlete platform, which the previous panel talked about
+brieﬂy. And the opportunities that, that provides in ways that I don't think have
+existed before to better understand how humans perform and behave. And
+potentially how to avoid injuries or ﬁnd other trends in data based on that platform
+that we could potentially build together during the course of this partnership. Can
+you give your perspective on that for a minute?
+{BIO 1773143 <GO>}
+Sure. I think if you look, the NFL provides a sort of unique opportunity to look at
+human motion, forces and injury among a population of the world's most elite
+athletes. And so our challenge is how do we protect those athletes. And so thisFINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 11 of 13Q - Jeﬀ Miller
+A - Matt Wood
+Q - Jeﬀ Miller
+A - Matt Wood
+Q - Jeﬀ Millerconcept of a Digital Athlete that you've heard, the basic idea is that we will take a
+virtual representation of this population of athletes. And we will be able to simulate
+potential changes to the game across a wide spectrum of scenarios, both that we
+currently envision and those that come up in the future. This will heavily rely on the
+tools that Dr. Wood just mentioned, machine learning, computer vision, AI. And
+ultimately, what we'll be able to do is we'll be able to identify injury risk scenarios.
+We'll be able to predict injury risk scenarios. And we'll be able to ﬁnd innovations
+that will make the game safer for our athletes while maintaining the high-quality of
+play within the game. And so I think it's not really an overstatement to say that we
+believe this will revolutionize the way in which we do injury prevention, player
+rehabilitation and play a recovery in the NFL.
+{BIO 22261500 <GO>}
+And Matt, we, obviously, focus myopically sometimes on football. Your job is to take
+a much broader look over at the horizon and about how tools like this that could be
+developed together could have applications.
+{BIO 18000850 <GO>}
+Yes.
+{BIO 22261500 <GO>}
+What do you think about when you conceive of the Digital Athlete?
+{BIO 18000850 <GO>}
+Sure. I mean, it is hard to overstate the potential of a digital twin when you're
+applying that to people. Exactly as we're doing with the Digital Athlete, the
+opportunity to create and simulate and then ask what if in diﬀerent situations without
+putting real humans at risk and being able to do that hundreds of millions of times
+and get accurate results from it, it's an incredibly inventive, a broadly applicable
+technology. And I'm so excited that we get to build it together. It has opportunities
+across things like workplace safety. It has opportunity like architecture and building
+design, defense. But perhaps the one I'm most interested in is applying it more
+broadly to just health care. Once we have biomechanical information, which can be
+combined with health care information, you can start to do just wonderful things and
+start to develop more and more precise models for treatment of all matter -- all
+manner of diseases.
+The general trend of medicine moving from a broad collection where you treat
+patients in groups and segments to a position where you can treat individuals with
+very, very precise treatments, it leads some far better outcomes for the patients. And
+it is materially more eﬃcient for a health care system. So if you are looking to
+improve the eﬃciency of health care and provide healthier people, this is a fantastic
+technology.
+{BIO 22261500 <GO>}FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 12 of 13A - Matt Wood
+Q - Jeﬀ Crandall
+Q - Jeﬀ Miller
+Q - Jeﬀ Crandall
+A - Matt Wood
+Q - Jeﬀ MillerIt's a incredibly exciting and grand vision as when Jeﬀ and I started working on the
+Engineering Roadmap a few years, I've had a hard time imagining that we'd be
+sitting here today with the world's leader in machine learning and one of the most
+innovative companies ever to partner with them, to talk about the Digital Athlete and
+Digital Athlete platform and all that, that portends over the next few years.
+Jeﬀ, as we think about this journey and what comes next, looking around corners,
+what else could we potentially be talking about a couple of years from now, if we -- if
+AWS bothered to invite us back to re:Invent for an encore performance?
+{BIO 18000850 <GO>}
+You're welcome back, by the way. Invitation is open.
+{BIO 1773143 <GO>}
+I think the ﬁrst thing we need to do is let those video reviewers out of their dark
+rooms that have watched 100,000 impacts.
+{BIO 22261500 <GO>}
+That's true. That's true.
+{BIO 1773143 <GO>}
+But I think, if you look at it, I mean, we realize our limitations right now. We
+mentioned the amount of data that's available to the NFL. And I think we're
+struggling to look at this number of databases and number of resources. And what
+we do is the way we do it now is we come up with hypothesis. And we hypothesis
+test. But we realize our limitation. So what we're really looking forward to is with the
+Digital Athlete platform, identifying patterns, identifying trends, identifying
+opportunities that we're not even aware of now. What's the unknown? So I think
+we're very excited to embark on that.
+{BIO 18000850 <GO>}
+Absolutely. Yes. That exploration is going to be a long-term partnership. That
+exploration and doing it quickly is going to be disproportionately important. It's a
+very exciting to do it with you.
+{BIO 22261500 <GO>}
+Well as we wrap up this discussion, let me thank everybody for being here and
+listening to us.
+As you can tell, we're incredibly excited about the journey that we're going to start
+here with AWS. As I mentioned, if we're invited back, we will welcome that
+opportunity and give everybody a marker along the way, as we try to create things
+that haven't been created yet for the betterment of football and beyond that.FINAL TRANSCRIPT 2019-12-05
+Amazon.com Inc (AMZN US Equity)
+Page 13 of 13And one thing that we've pledged to do with the NFL is be incredibly transparent, as
+we've gone down this journey around improving the health and safety of our sport in
+doing so with world-class partners like AWS. So it is our responsibility to continue to
+do that. And we will.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

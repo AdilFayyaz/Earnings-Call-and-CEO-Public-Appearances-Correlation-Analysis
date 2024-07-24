@@ -1,0 +1,570 @@
+FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 14, SVP Advertising & Commerce
+, Analyst, Credit Suisse North America
+Stephen JuCredit Suisse Technology, Media, and Telecom
+Conference
+Company Participants
+Sridhar Ramaswamy
+Other Participants
+Stephen Ju
+Presentation
+{BIO 6658298 <GO>}
+I'm Stephen Ju with the Credit Suisse Internet Equity Research Team. Welcome to the
+conversation with Sridhar Ramaswamy, Senior Vice President of Advertising and
+Commerce of Google. Before we start, I will read oﬀ the safe harbor statement.
+Some of the statements that Mr. Ramaswamy will make today may be considered
+forward-looking. These statements involve a number of risks and uncertainties that
+could cause actual results to diﬀer materially. Any forward-looking statements that
+Mr. Ramaswamy makes are based on assumptions as of today. And Alphabet
+undertakes no obligation to update them. Please refer to Alphabet's Form 10-K for a
+discussion of the risk factors that may aﬀect its results.
+So before we kick it oﬀ, I think there may be some of you who may not be as familiar
+with Sridhar's role at Google. So I wanted to kick it oﬀ with a brief bio. Sridhar
+oversees all of Google's advertising and commerce products, which includes Search,
+Display, Video Advertising, Analytics, Shopping, Payments. And Travel. He joined
+Google as an engineer back in 2003. And since then, he's been an integral part of
+the growth of AdWords and Google's advertising businesses.
+Prior to joining Google, Sridhar was Director of Engineering for the analytics
+platform at E.piphany. He also held research positions at Bell Labs, Lucent
+Technologies, Bell Communications Research. And Bell Corp. Sridhar earned a
+Bachelor's degree in Computer Science from the Indian Institute of Technology at
+Madras. And he has a Master's Degree of Science and a Ph.D. in Computer Science
+from Brown University. He has also published numerous papers on database systems
+and database theory and holds several patents in that area.
+Also, another preamble. And the last one, I promise, we are launching a new piece of
+technology this year in which you can now ﬁre up the CS Technology app,
+conference app. And type in your questions. So open your app and hit the AgendaFINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 14Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamyat the bottom left of the screen and locate the session on the schedule. And once
+you click it, you will see an option for live quote and Q&A. Click on that and you can
+submit questions for Sridhar, honestly.
+So without any further ado, we'll start the Q&A. So Sridhar, we have seen you present
+at the Google Performance Summit as well as other industry meetings. But this is
+probably the ﬁrst time that you are speaking in a room full of investors. So would you
+give us a quick glimpse into your day-to-day responsibilities and where you spend
+most of your time?
+{BIO 18644257 <GO>}
+Thank you, Stephen. Glad to be here. I run the Ads and Commerce teams. And when
+I think of our priorities, both within my team and to external groups, we, as a team,
+focus on key areas like search, video advertising, programmatic advertising. And
+app-install ad promotion. And much of the focus of my team for the past couple of
+years has been on mobile. That's where the growth is; that's not very surprising. And
+so a lot of the time that I end up spending day to day is on product development
+and commercialization of our products in these key areas.
+We continue to make large and dramatic changes to our products. I think the pace of
+innovation is really, it's a strength and a necessity because the world around us is
+changing so rapidly. So a lot of time is spent on product development. I also work
+very closely with Philipp Schindler, who's the Head of Sales, on how we actually take
+these products and commercialize them and take it to our advertisers and make sure
+that they realize the value that we think our products can provide for them.
+{BIO 6658298 <GO>}
+Now, two years ago, we had Neal Mohan here on the stage. He talked about one of
+the priorities, that Google was to quote-unquote crack brand advertising. Where are
+we now versus two years ago? Where do you think the remaining pain points are?
+What problems do you feel like you still need to solve for your advertisers?
+{BIO 18644257 <GO>}
+Yes. A lot of our brand advertising strategy, unsurprisingly, is centered around
+YouTube, which is just an amazing, amazing consumer property with incredible
+growth. We've talked about mobile growth being in the many, many tens of %, for
+example. And so our brand advertising has been focused on things like how do we
+get our largest advertisers to reach the kind of audience that they increasingly
+cannot reach with traditional TV.
+And YouTube and Google is doing very well in video advertising. But I'd say it's still
+pretty early. Just this year, we announced a lot of product changes. We're very
+excited about a new format called Bumpers, which is a six-second ad that we think is
+very, very suitable for mobile. And programs like Google Preferred continue to doFINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 14Stephen Ju
+Sridhar Ramaswamy
+Stephen Juvery well in terms of attracting commitment and TV dollars. We're going to see a lot
+more change come through in how brand advertising is doing.
+I would say we are doing well. We have real and large relationships with some of the
+largest brand advertisers in the world. But it's still early. There's still lots more
+opportunity in growth.
+{BIO 6658298 <GO>}
+Got you. You talked about the rate of change before and the need to keep up.
+Google has been a very heavy investor in AI. So would you talk about your
+advancements here in machine learning and how this is helping you and your team,
+whether it's in the rollout of consumer-facing products or tools to help advertisers
+make better decisions?
+{BIO 18644257 <GO>}
+So Ads has been one of the earliest and largest users of machine learning at Google
+and, frankly, the world. This is because we've been very intimately involved with
+things like predicting click-through rates of ads, which show us good an ad is for a
+consumer. And we have done this from very early on, because we've also used these
+predicted click-through rates to price ads. So machine learning has been an integral
+part of the ad system, pretty much since the time I joined. And gosh, that was like
+2003.
+And as new waves of machine learning, whether it's algorithms based on boosting
+or, more recently, algorithms based on deep learning and neural networks, have
+been developed, we are often eager and early adopters of this technology. And so
+deep learning and neural networks now are an integral part of how ads are served,
+both on search and on display. And we continue to work closely with these teams.
+We develop many of these innovations ourselves because it has such a big impact
+on us. But we continue to work closely with these teams to take the latest and
+greatest in their technologies and make our prediction algorithms more and more
+eﬃcient.
+I would say, again, keeping up with the pace of change that's going on here is really
+important and yields rich dividends for the ad team and for Google.
+{BIO 6658298 <GO>}
+Got you. Now, after some of the more recent controversies and topics from investors,
+take a step back and look at what spurred Google's advertising revenue growth over
+the last 24 months or so. Some of it seems like it has come from an increase in ad
+load on both Search as well as YouTube. We're not used to thinking about Google
+running out of inventory any point soon. But how worried should investors be in
+terms of hitting some sort of a ceiling when you take the sponsored links from two to
+three and four, in some cases?FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 14Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamy
+Stephen Ju{BIO 18644257 <GO>}
+Yes. So it is really important. And I've stressed this in meetings with many of you. I've
+stressed this to my team. I've stressed this, again, externally, that we put the user ﬁrst
+when it comes to consumer experiences. So we've built up elaborate methodologies
+that we have published papers on for things like ad blindness, the cost of serving
+ads to users. And we always optimize for the long term.
+While it is true that we're serving four top ads -- four ads, for example -- on a very
+small fraction of queries. And you can determine this number empirically yourself,
+just by running a basket of queries, I'll point out that that is a very small number. And
+this total number are this little fraction of queries on which we show ads overall has
+more or less remained constant over the last 10 years. Because user behavior in
+terms of what they search for in terms of commercial content hasn't really changed a
+whole lot. And so we think of ourselves as very careful stewards of the user
+experience. And we have the mathematical expertise to actually ﬁgure out, is a
+change like this good for the long term? What's okay. And what's not okay? And
+we're pretty happy with the trade-oﬀs that we've made over the past many years.
+{BIO 6658298 <GO>}
+Got you. Back to the topic of brand advertising. And TV in particular, TV ad dollars
+seem fairly resilient, despite what looks like ongoing declines in ratings. So can you
+help us reconcile this with the growth rates that YouTube is experiencing?
+{BIO 18644257 <GO>}
+It's one of those cases where I don't particularly feel like this has to be an either/or.
+And increasingly, if people want to reach audiences of a certain age -- the younger
+audience, for example -- YouTube is kind of the place to be. And the reach that
+YouTube oﬀers -- again, we have published stats on this -- in terms of things like the
+18; to 34-year-old demographic, say, on mobile, where it's larger than that of any
+cable TV channel, it's pretty remarkable.
+So we have been very good at providing advertising for a very large set of our
+clients. Regarding whether there is going to be a mass shift from TV this year versus
+that year, that question tends to vary by country. In western Europe, I think TV is still
+well more established. And in the US, you also see more and more people coming
+up with unbundled packages for consumers to use and stuﬀ like that. I think there's a
+big convergence that's going on. So it might end up being the case that there's not
+really like one moment in time where there's a mass shift, where everybody adopts
+each other's techniques in a pretty big way.
+{BIO 6658298 <GO>}
+Got you. Another topic that's a recent topic on investors' minds, I think everybody's
+consumed with the topic of seeing the anniversarying of the beneﬁts that Google
+saw from the additional sponsor links on the Third Quarter of last year. But at theFINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 14Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamy
+Stephen Jurecent performance you were onstage to introduce an array of new products and
+services, updates, including expanded text ads and the ability to bid individually
+across diﬀerent devices. So will you give us an update on how these initiatives are
+going?
+{BIO 18644257 <GO>}
+Yes. Back to the point of needing to innovate continuously, this is still a very nascent
+ﬁeld. Mobile commerce is still evolving. We'll talk a little bit more later on about what
+we, like my team, is doing to make mobile commerce more eﬃcient. But we think we
+need to continue to drive the user experience forward.
+So at the Performance Summit, we introduced what we call enhanced text ads, a new
+format, two little, separate headlines, more suitable for mobile, a cleaned-up, visible
+URL. While these seemed like cosmetic changes, trying to get a business that is tens
+of billions of dollars large to shift completely over from an old format to a new
+format is the change that we are in the process of making.
+It's going pretty well. Advertisers are seeing pretty positive results in many cases
+from these. Similarly, tablet bidding was a control that many of our advertisers
+wanted. They felt like they could realize diﬀerential value from doing this. And so
+that's going pretty well. Things like re-marketing for search ads with (inaudible), that
+is also something that a lot of advertisers are taking advantage of. In addition, we've
+also continued to work on innovations within the core of our mobile search ads work.
+All of these have kept the momentum going there. And things like the enhanced text
+ads migration, we expect to be well on our way to ﬁnishing it up in the ﬁrst half of
+next year.
+So overall good, positive momentum in the ecosystem and good, positive
+momentum in the value that advertisers are getting from mobile.
+{BIO 6658298 <GO>}
+Okay. So I think there's, in some quarters and under, I get the perception that there's
+a lurch forward because of a new product innovation. But the case that you want to
+make is one of continuous innovation.
+{BIO 18644257 <GO>}
+And again, as an engineer and product leader at Google, I focus on how can you get
+the most changes out the fastest? When you start worrying about a year-on-year
+comparison to a nice change you're about to launch, you're in trouble. Clearly, there
+is a strong belief on the part of management, on the part of my team, that we will
+continue to drive that innovation forward. And that's really what we push for.
+{BIO 6658298 <GO>}FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 14Sridhar Ramaswamy
+Stephen Ju
+Sridhar RamaswamyGot you. You have also spoken at conferences about being mobile ﬁrst at Google.
+Does this open up possibilities for Google to better address the roughly 85% of
+commerce that is not yet happening online? And to this end, you have introduced
+new features to help advertisers attract store visits. What has been the reaction from
+advertisers. And how nascent is this opportunity for you?
+{BIO 18644257 <GO>}
+Yes. So I've talked in a number of places about how mobile can drive an enormous
+amount of local commerce. As Stephen said, 80-plus % of commerce happens
+locally. And advertising clearly inﬂuences some of it. But how do you create product
+that actually make a measurable diﬀerence to retailers?
+So we worked on things like local inventory ads, which is now a three-year-old
+product that helps you see what is available from the stores around you. In addition,
+we have done things like put location extensions in your search for a store or a
+particular product so that the advertiser can tell you, "Hi. this product -- a bicycle -- is
+actually available in this store that is next to you."
+So based on our location data that we get from people that use our apps and
+phones, we released a product called Services about -- I think it was two Decembers
+ago, 2014. And we've been scaling it up to more and more countries, in 10 or 11
+countries. So roughly speaking, an advertiser can see how many store visits to the
+locations that they give us that actually are driven by clicks that happened on their
+ad.
+That's one thing to see. A lot of them are very happy to see this metric. But of course,
+there are follow-up questions of how much of this is incremental? How do I value this
+in the context of the advertising dollars that I'm spending overall? Some people are
+able to make the math work for them, where they take things like average order
+value that a consumer spends when they walk into a store and back out a value that
+they should be putting into bidding or spending.
+But as you can imagine, this is a complicated process, because most retailers
+manage their local store budget, advertising budget, completely diﬀerent from their
+online budget. And it's really these conversations that we are in the process of
+driving, I would say they are still -- early, nascent conversations, how to turn it all into
+an eﬃcient feedback loop that Google search advertising is so famous for. That's a
+work in progress.
+{BIO 6658298 <GO>}
+Building on the oﬄine commerce discussion, I think Google has recently taken steps
+to show advertising on maps.
+{BIO 18644257 <GO>}
+Yes, yes.FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 14Stephen Ju
+Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamy{BIO 6658298 <GO>}
+How is this progressing. And what are the challenges to monetizing maps
+eﬀectively?
+{BIO 18644257 <GO>}
+It's still super early. We are very conscious of the need to be, again, very thoughtful
+about user experience and user value. When I ﬁrst announced it, some of the
+reporters were like, "Oh, are you going to show ads, then, on our driving directions?
+That might be distracting." So we are still iterating on the format. We are running a
+number of experiments. It's pretty early to say anything deﬁnite about it. But it's an
+area that we will continue to invest in. You'll see more about it in the next few
+months.
+{BIO 6658298 <GO>}
+Got you. Let's talk about travel, switch gears a little bit. So you recently released
+Google Trips, the app itself, which helps consumers plan their trips better. It seems
+like to me that between ﬂight and hotel search, the underlying pieces are there for
+Google to create probably an intermodal search engine. If I wanted to go on a trip to
+Barcelona, I'll need to just, "Barcelona," it should be able to put together the entire
+trip for me. Is Google Trips basically the ﬁrst step toward that goal?
+{BIO 18644257 <GO>}
+So I would place this into a larger context of mobile search needing to satisfy your
+goal or your task as opposed to answering a query that you have currently. This is a
+vision that Larry has talked about before publicly, a vision of assist and suggest,
+where we do more than answer a query.
+What you're seeing in Travel is one expression of that. And this is where you see the
+full strength of Google come into play. Google Flights is an amazing product. It can
+answer questions that most other search engines, ﬂight search engines, cannot really
+answer -- questions like, "I want to go to a sunny place," or, "What are all the
+locations I can ﬂy to from San Francisco within a certain budget range?" So we are
+pretty excited by that. We're pretty excited by our ability to make recommendations
+to you. For example, if you visit a new place and use the Trips app, you can come up
+with a list of essentially highlights around you that you can go and visit. And I've
+been pleasantly surprised. And I've gone to diﬀerent towns and realized, "Wow,
+there's a dam right next door." So I think we are interested, ﬁrst and foremost, in
+creating a great consumer experience.
+We think things like monetization in areas like hotels and other places that you might
+look at will naturally come. So our scale product is still Search. And if we can help
+you do a great job in terms of planning a trip, whether it's ﬂights or hotels or other
+attractions, I think we actually have done a pretty signiﬁcant job. But if we can even
+convince you as a consumer to use the Trips app and have all of that informationFINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 14Stephen Ju
+Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamyavailable -- even oﬄine, mind you. One of the things that all of us run into is we go to
+a new place, our plan quite doesn't work and it becomes a struggle to actually use
+our phone. The Trip app makes that easy as well.
+So it's part of a larger consumer vision for what we think travel can be. And we built it
+very much with the mentality of if we get the product right, we will get monetization
+opportunities.
+{BIO 6658298 <GO>}
+Yes. Well here's to hoping that it is the next billion-user platform Sundar can
+highlight.
+{BIO 18644257 <GO>}
+Deﬁnitely our hope as well.
+{BIO 6658298 <GO>}
+Okay. So talking about assistance, as you look longer term, you talk about mobile-
+ﬁrst world. Are we moving to a voice-driven world? And in that world, what kind of
+ad units do you think Google might be serving?
+{BIO 18644257 <GO>}
+I think we need to be open-minded about this. At this point, the assistance team --
+and there's an assistance team within my group as well. The main assistance team is
+part of the Search team. They're laser-focused on creating an amazing consumer
+experience and on making sure that that experience is really, really a joy for people
+to be using.
+We are keeping an open mind about the kind of monetization opportunities that
+there are going to be. I think it can range from being purely transactional, meaning
+we make it convenient for you to fulﬁll a transaction with the Assistant, or it can
+involve promotion. But one thing that we are all clear about is the days of three top
+text ads followed by ten organic results is a thing of the past in the voice-driven
+world. So we're very much keeping an open mind on what this needs to be and
+focusing much more on what's the consumer experience. If it's scaled, we'll ﬁgure
+the rest after that.
+{BIO 6658298 <GO>}
+Yes. Seems like to me, if you make it easier for the consumers to do something, they
+should be doing more of it?
+{BIO 18644257 <GO>}FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 14Stephen Ju
+Sridhar Ramaswamy
+Stephen Ju
+Sridhar RamaswamyThat's correct, that's correct. I mean, this was our thesis for mobile. If people recall,
+there were a lot of worries about was mobile incremental? Was it taking away from
+desktop? But it turned out that mobile expanded the pie. We need to have a similar
+positive attitude towards voice search and Assistant and focus on creating great
+consumer experiences.
+{BIO 6658298 <GO>}
+Yes. Another sore topic. Let's talk about ad blockers. So it seems like for Search and
+YouTube, it should not be a huge problem. But it does aﬀect your display business.
+The fact that consumers are opting to use ad blockers is a signal for change. So what
+can Google do to help the consumer as well as the advertiser?
+{BIO 18644257 <GO>}
+Yes. It's a real problem. And as you correctly point out, it's a consumer issue. I think
+there are still too many sites in which the ad experience is pretty bad, whether it's
+ads that start autoplaying a video or ads that completely cover up the screen and
+you can't quite ﬁnd the X. All of us have been through it. And it can be very
+frustrating.
+So we announced recently, just a couple of months ago, that we were going to be
+part of a coalition that the IAB in New York, which is a US advertising body, was
+starting. This is a coalition for better ads. We are working with them to come up with
+a quantitative standard for what an acceptable ads experience is going to be. Then
+we want to work with the larger ecosystem of browsers, for example, to make sure
+that there is pressure and self-regulation on the part of advertisers and publishers to
+only run ads that consumers don't ﬁnd oﬀensive.
+I think that is very, very sorely needed. And we think that that's the right way out of
+this current problem. I think without self-policing, there's going to be more and more
+bad experiences and more and more consumers turning oﬀ ads across the whole.
+And I think, frankly, all of us suﬀer because it's going to drive a lot of small publishers
+that have valuable sites that you and I use on a regular basis out of business. So we
+view pretty passionately that this is part of Google's larger mission, of making the
+world information be available to everybody. And so there's a certain sense of
+urgency that we feel about getting this coalition right and making sure that it's rolled
+out right.
+{BIO 6658298 <GO>}
+Yes. Then another product that you introduced recently, Accelerated Mobile Pages,
+how does this help you toward that end goal?
+{BIO 18644257 <GO>}
+Accelerated Mobile Pages was an attempt at a much better consumer experience. It
+started as an ad vertical in mind, a news vertical. Many of you see that on the results,FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 14Stephen Ju
+Sridhar Ramaswamy
+Stephen Juif you search on Google for news. It's been doing very well. And it's based on an
+open standard. Anybody can adopt it, anybody can run Accelerated Mobile Pages. It
+doesn't have to be just Google. And people have introduced ad formats into
+Accelerated Mobile Pages. The results are pretty early from that front in terms of
+what is the monetization compared to the increased number of page views that you
+get from having faster-loading pages. We continue to work on making that better.
+But in general, we think that the mobile ecosystem can be made much better for the
+consumer. And doing that will actually lead to increased usage.
+{BIO 6658298 <GO>}
+Switching topics a little bit. So advertisers have been grappling this year with issues
+around transparency. There are well-publicized issues with third-party auditing on
+Facebook impressions and recent A&A report about what's pretty scathing on the
+use of rebates by ad agencies. So do you think advertiser concern about
+transparency helps or hinders Google's ad business in general?
+{BIO 18644257 <GO>}
+So you actually asked a complicated, two-part question. One was around metrics
+and transparency. We work closely with third parties -- comScore, Nielsen -- to make
+sure that the results that we provide for display advertising are measurable and
+veriﬁable by third parties. We've been very open about that.
+And recall also that the vast majority of Google's revenue comes from direct-
+response advertising, which has built-in measurement. It's based on conversions that
+advertisers see. So value is being measured cleanly and by the party that is most
+aﬀected by it. So we think we have overall a good story in terms of working with the
+industry in making sure that metrics that we give for brand advertising are real and
+veriﬁable.
+On the other side, when it comes to our interaction with agencies and advertisers,
+we strive for transparency. We don't do things that contrast. We have all of this
+information be available to folks so that agencies and advertisers can have the right
+conversation about where these dollars go. So we feel pretty good about where we
+are on both these fronts. And we'll continue to work with our big advertisers and
+agencies for making it even more transparent. So we are making sure that people
+feel like fair value is being realized for their dollars and for their eﬀort.
+{BIO 6658298 <GO>}
+Another somewhat general question. But wondering if you can talk about the
+underlying trends you're seeing for programmatic. Ruth highlighted it as a growth
+driver in recent earnings conference calls. And secondarily, header bidding comes
+up as an issue for the display business. So are you concerned? If you can go into a
+little bit about what header bidding is and how that impacts you and what are your
+concerns.FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 14Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamy{BIO 18644257 <GO>}
+Yes. So header bidding is a technique by which publishers try to satisfy the demand
+for some of their pages even before things like Google's Ad Exchange are called. It's
+a way for them to realize more value on their most valuable pages. And we have --
+header bidding by itself is not bad. Its implementation can be bad sometimes, in
+that you end up having a lot of calls on the client side that can slow down the
+loading of the page. So we work with publishers to see what are technologies that
+are needed in the underlying platform.
+We have a version of header bidding called Exchange Bidding that's built right into
+our platform products that a number of our publishers are using. So we'll ﬁgure out
+where this is, at the end of the day, Google's publisher products need to serve
+publishers. We need to make sure that they can realize the most value that they can
+for the content and the eyeballs that they have. So we don't particularly think of it as
+a threat to our business. But an important evolution in the business that we're happy
+to be a part of.
+Now, going to programmatic, DBM is one of our fastest growing programmatic
+products ever. We have talked about it in multiple earnings calls. Overall, it has
+excellent usage by top advertisers. Of Ad Age's top 100 advertisers, something like
+80-plus % of them use DBM to get widespread adoption. They have very solid
+growth across the board. It's an area that we?re very, very happy and comfortable
+with.
+{BIO 6658298 <GO>}
+Got you. At I/O Google introduced updates to Android Pay to make it easier for
+consumers to pay for merchandise on the mobile Web. Anything you can share in
+terms of consumer adoption and beneﬁts and conversion that advertisers may be
+seeing? Presumably, this helps to take down transactional friction overall.
+{BIO 18644257 <GO>}
+Yes. Reducing transactional friction is a really important priority for the commerce
+part of my team because that ends up helping scale out advertising products. We
+announced a pretty ambitious program based on a change to Chrome that can be
+used to provide a much better payment experience for consumers' payment
+credentials. But that requires changes on the part of the retailer.
+So even before going there, I would highlight a simple feature that we launched in
+conjunction with the Chrome team, which is Chrome Payment Autoﬁll. I don't know
+how many up here have used it. But I have my credit card that is stored on Android
+Pay available to me whenever I am ﬁlling out a credit card form on my phone, also
+on my desktop. And that has actually been a signiﬁcant factor in making commerce
+easier for me and for a lot of other users. We think that's the really important thing
+for us to be doing.FINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 14Stephen Ju
+Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamy
+Stephen JuWe announced partnerships recently with both Visa and MasterCard in order to
+facilitate better payment credentials transfer on the Web. It's a sad truth of today that
+in-app payments on both Androids and on iOS work much better than the Web. Our
+goal is to make sure that it's actually transparent across the board. Each year, Apple's
+eﬀorts, for example, to make transactions much better on the mobile Web on Safari.
+That makes mobile commerce better overall and ends up helping everybody in the
+mobile ecosystem including, of course, Google. So I think nice progress overall in
+this area.
+{BIO 6658298 <GO>}
+Yes, I think at the time you showed oﬀ the product at I/O , I think you disclosed that
+the gap in the conversion rate is, I think, 66% versus, I think, the desktop?
+{BIO 18644257 <GO>}
+I don't recall the number.
+{BIO 6658298 <GO>}
+Yes, I think there's a pretty healthy gap that you can close and that theoretically
+should help raise the value of the inventory on the mobile Web. Got you.
+Another cool product that we saw at I/O that just really didn't get that much press, I
+think there was like a spatial recognition technology that you have on the phone that
+helps you, I guess, plan out or map out the interiors of buildings. Can you talk about
+the potential for the commercialization of this technology?
+{BIO 18644257 <GO>}
+It's not from my team. I would say that part is still early. But we are deﬁnitely
+interested in much better location data for all the reasons that I talked about earlier,
+because products like search advertising in general can end up driving a lot of store
+visits. We work extensively with many advertisers to deploy, really, Bluetooth low-
+energy beacons that can be used to better detect anonymously, in aggregate, when
+users actually walk into stores.
+We think location continues to hold a lot of promise. But the killer app for location,
+one that compels you to take your phone out when you get to a location, hasn't
+quite happened. And we're still optimistic about it. But it's been a slow change.
+{BIO 6658298 <GO>}
+Okay, got you. Taking a step back and looking at a more global perspective, it seems
+like in the US, we are, shall we say, a little bit overburdened with the existing
+infrastructure, whether it's in commerce or advertising. And in some cases, the
+emerging market countries, they may skip building physical infrastructure and go
+straight online. So what's your perspective in terms of whether, I guess, the pace ofFINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 13 of 14Sridhar Ramaswamy
+Stephen Ju
+Sridhar Ramaswamyinnovation internationally is faster versus here, or is the international franchise going
+to be faster-growing for Google?
+{BIO 18644257 <GO>}
+Yes, I think this is a really interesting question. And one that brings many diﬀerent
+perspectives. Surely, yes, we are burdened in a number of areas. But I think that
+works pretty well. What I mean by that is when you talk about Android Pay, you're
+talking about an experience in which you have to take out your phone, unlock it. And
+then go and tap. Come further, until very recently, it's taking out a credit card,
+swiping it once. And three seconds later, the transaction's done. Okay, that's the
+legacy technology, except that it works really well.
+And so something like Android Pay or person-to-person payment is not a mass
+phenomenon, that it is in a place like China. Similarly, when it comes to commerce,
+as we were talking, you can pretty much order from the top 100, 500, 1,000 retailers
+within the US. And you can be pretty guaranteed of a very good experience. Things
+will show up on time. If you don't like it, people will take it back. Not the case in
+emerging markets.
+So I think it becomes a little hard to compare. There are many people that are
+coming online in emerging markets who went straight to a mobile-only experience.
+They're much more comfortable doing commerce. That's a positive. But you're also
+seeing several countries. And truly this has happened in China, where Google
+doesn't really play a role, where it tends to get dominated by one or two people.
+And when there is one or two people dominating an area, there's not much of a role
+for advertising, because you have to go there all the time.
+So I think it's a tough comparison. I think there are many advantages here with the
+diversiﬁed commerce world and well-developed infrastructure. But then you also
+have a population in areas like China and India that's very, very mobile-ﬁrst, much
+more ready for change.
+{BIO 6658298 <GO>}
+Yes. I think lastly, Sridhar, I think your title, you've run all of advertising and
+commerce. And I can't help but think that within Google's product portfolio, from the
+top of the consumer marketing funnel to pretty much the bottom, all of the
+underlying pieces are there for Google to help advertisers drive volume. So can you
+talk about where you are in terms of that opportunity, linking it all together? A broad
+question there.
+{BIO 18644257 <GO>}
+Yes. That's part of the -- it's a work in progress. I think a number of pieces are
+deﬁnitely in place. Truly, we do an exceptional job close to the bottom of the funnel.
+Search is incredibly eﬀective as a medium. We do a pretty decent job close to the
+top of the funnel, where YouTube brand advertising is pretty eﬀective. We'reFINAL TRANSCRIPT 2016-11-29
+Alphabet Inc (GOOGL US Equity)
+Page 14 of 14Stephen Ju
+Sridhar Ramaswamyincreasingly working at personal products -- for example, the shopping team has
+done a number of nice launches to help you ﬁnd, say, the look for a dress that you're
+interested in, where you don't quite know the exact dress or shirt that you want. But
+you're able to look at a pretty clear design or at a particular store's collection. So we
+have eﬀorts along those fronts.
+We're also working on personalization across these formats. And here, actually, we
+have a number of products that we're rolling out that have a lot of promise because
+with something like Universal App Campaign, an advertiser tells us, "Here is my app.
+And here some assets where there are images or videos. And here is a price for
+install that I'm willing to play. Go ﬁnd me all the consumers that you can." All of a
+sudden now we have a rich canvas in which I can show you a quote-unquote brand
+ad for this app, potentially on YouTube. And actually convert you on some other
+product, like Search. So we think constructs like that, the Universal Apps Campaign-
+like eﬀorts, are going to really deliver a product that's much more end-to-end,
+because you now have a canvas that can stretch across all of Google?s diﬀerent
+properties. That's a vision we are driving towards. But it's the individual pieces that
+are being worked on.
+{BIO 6658298 <GO>}
+Great. Well looking forward to following your progress in the years to come. Thank
+you very much, Sridhar.
+{BIO 18644257 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

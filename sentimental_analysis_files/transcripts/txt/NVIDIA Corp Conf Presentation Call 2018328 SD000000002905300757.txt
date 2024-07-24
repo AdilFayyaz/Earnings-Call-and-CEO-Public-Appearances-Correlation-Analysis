@@ -1,0 +1,518 @@
+FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 13, Co
+, Analyst, Unknown
+, Chief Product Oﬃcer & Executive VP of Creative Cloud, Adobe
+Systems Incorporated
+, Chairman, President & CEO, Adobe Systems Incorporated
+John MellorNVIDIA Corp At Adobe Summit
+Company Participants
+Jensen Hsun Huang
+Other Participants
+John Mellor
+Scott K. Belsky
+Shantanu Narayen
+Presentation
+{BIO 15089928 <GO>}
+Good morning. Welcome to day 2 of Adobe Summit. How's your experience so far?
+Yes? Awesome. The Adobe marketing, content and the events team, they just do an
+amazing job turning this event into an experience. Let's give them a round of
+applause. Well done.
+So a question. How many here is this your ﬁrst Summit? And maybe we can raise the
+lights a little bit. I love this. Oh, goodness. Wow, we've got about half of this
+audience is here for the ﬁrst time. Well welcome to Adobe Summit. We're very glad
+you're here. We're very glad you're part of this community.
+For those of you who have been to Summit before, you'll know that day 1 is typically
+focused on product. We do our product vision. We talk about our announcements.
+So that's really the focus of the day 1, which was yesterday. On day 2, we focus a little
+bit more on the personal side of transformation and what each of us is going
+through and how we ﬁnd inspiration for this change.
+So true to form, yesterday was an amazing morning of product innovation. We talked
+about how Adobe is deﬁning the industry's ﬁrst Experience System of Record with
+the Adobe Cloud Platform and how our analytics, advertising and often imitated but
+never duplicated Marketing Cloud continue to lead the industry in innovation. And
+our announcement of the Adobe Experience, this was particularly exciting to me
+because we all need to awaken that experience maker within.
+Yesterday, we talked about being an experience maker and how now is the time to
+change, to evolve, to grow from being an experience thinker to an experience
+maker. So I want you to ask yourself: Are you an experience maker? Well if you're notFINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 13Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huangsure, now is the time to take action. And Summit is the place to begin, especially this
+morning.
+We deﬁne experience makers as the agitators, as the rabble-rousers, right, the
+people who dare to believe that things could and should be better. Then they roll up
+their sleeves and they get to work. Well I'm giving you permission to agitate and to
+go rouse rabble on behalf of your customers. And this is what we're going to focus
+on today.
+We have an incredible lineup of individuals who are going to help us think about
+innovation across technology, sports, humanitarian eﬀorts, social media and
+entrepreneurship. So my ask of you this morning is to think about what change you
+want to drive in your organization and more importantly, in yourself to become an
+experience maker.
+So let's get started with 2 of the most inﬂuential thought leaders in this industry,
+Jensen Huang, Founder, President and CEO of NVIDIA; and our own Chairman,
+President and CEO, Shantanu Narayen. Ladies and gentlemen, please welcome
+Jensen Huang and Shantanu Narayen.
+{BIO 3332391 <GO>}
+Thank you. Really appreciate you being here, Jensen. It's thrilling to have my friend
+here with me onstage today. And in particular, I appreciate you taking the time away
+because this week actually turns out to be GTC in San Jose, which as Jensen was
+telling me is probably the biggest concentration of what's happening with AI and
+research and graphics in Santa Clara today. So really again, thank you for being here
+today.
+{BIO 1782546 <GO>}
+I would do anything for you, Shantanu.
+{BIO 3332391 <GO>}
+Appreciate it.
+{BIO 1782546 <GO>}
+Including giving up on my own conference.
+{BIO 3332391 <GO>}
+Well...
+{BIO 1782546 <GO>}FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 13Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun HuangYou're killing me.
+{BIO 3332391 <GO>}
+The one thing we are doing, Jensen, is we're actually broadcasting this live.
+{BIO 1782546 <GO>}
+Yes. Whatever. He's trying to make me feel better.
+{BIO 3332391 <GO>}
+Well with your technology...
+{BIO 1782546 <GO>}
+I would do anything for you. I just -- ﬁrst of all, I was just going to say the work that
+we do, we're amazing. Ladies and gentlemen, we're amazing. And the amazing thing
+is we've been amazing for a long time.
+{BIO 3332391 <GO>}
+The good news is my board is here today. So maybe I'm getting my performance
+appraisal in real time here with my board being here. So it's a good thing, Jensen.
+But what I was going to say was the fact that we have this great technology, done by
+NVIDIA, is probably going to appear in Santa Clara that we're live there as well. So
+with virtual reality, I think we're all okay. But Adobe has always been about images.
+And the fact that Adobe has always been about images, I found one of you that I
+really like. So what I wanted to do is show that image of Jensen.
+{BIO 1782546 <GO>}
+Oh, come on.
+{BIO 3332391 <GO>}
+What an incredible honor.
+{BIO 1782546 <GO>}
+Thank you very much. It's just -- I always -- I wonder if he has anything else to wear.
+{BIO 3332391 <GO>}
+No. I...
+{BIO 1782546 <GO>}FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 13Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun HuangHere's what a CEO should look like, a wise man.
+{BIO 3332391 <GO>}
+We call ourselves the bearded man and the biker behind -- at backstage. But...
+{BIO 1782546 <GO>}
+Wise man and the biker.
+{BIO 3332391 <GO>}
+In all seriousness, this conference is all about disruption and what everybody is
+seeing with respect to what's happening with industries, the transformation that's
+happening. And I thought it would be incredibly valuable for people to hear a little
+bit about the NVIDIA story. You cofounded it 25 years ago. But I'd love to just take us
+back and talk about the beginnings of NVIDIA.
+{BIO 1782546 <GO>}
+Yes, Shantanu. You and I have a lot of technology history together. We both love
+computer graphics. And the reason why we've loved computer graphics is because
+for the longest time, it's been one of the greatest challenges of computer science to
+recreate reality. And so 25 years ago, if you recall, take you back, Windows 3.1 had
+just come out and 3D graphics was not available on PCs.
+And so we had a great idea. We said, "Hi. look, one day, everybody is going to be a
+gamer." Just as I believe one day, everybody is going to be a creator. And we said,
+"One day, everybody is going to be a gamer." And if we could ﬁgure out a way to
+make the personal computer into a 3-dimensional graphics workstation, if you will.
+But for consumers and we could create these virtual reality environments for people,
+2 things are going to happen.
+One, we're going to enable this incredibly large market, video games. At the time,
+Electronic Arts had, I think, 14 employees and their CTO was -- I think had to be
+driven to work because he didn't have a driver's license. And so the video game
+industry was really tiny. And so one, we created an enormously large industry. But
+the second thing is that computer graphics, because it's so computationally diﬃcult,
+that we could become one of the companies in the world that could be the driving
+force of the future of computing.
+And those 2 things combined was the inspiration behind NVIDIA. And I would say
+that, that idea, the idea that 3D graphics is the driving force of computing and that
+video games, the creation of virtual reality, these virtual experiences that allows you
+to be teleported into anything you want to go, that insight, I think, was really great
+and has really driven our company.FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 13Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen{BIO 3332391 <GO>}
+And I think you used the word insight appropriately. I mean, I was at Silicon Graphics
+at that point and everybody thought that SGI was indestructible. And the brilliant
+idea that you had was how can we make that in the hands of millions of people,
+which has certainly paid out phenomenally. But what a lot of people may not know is
+that while that was the genesis of the company, you've actually made dramatic
+changes over the years. And again, as I said, people are talking about how one
+changes culture and changes companies. So tell us a little bit about some of the
+other big investments or bets that you've made along the way.
+{BIO 1782546 <GO>}
+There were 2 -- there were probably 2 large changes. Well for the people who have
+been watching NVIDIA for a long time, our industry, our industry changes so
+incredibly fast. And technology forces are tremendous and we're surrounded by --
+NVIDIA is a larger company today. But for the last 25 years, we were always a tiny
+company in the presence of giants. And so with technology changing so fast, it's
+hard to even stay alive. And so we -- job 1 was just simply to recreate ourselves,
+reinvent ourselves to stay alive.
+But there were 2 things that happened. One, we decided that more than computer
+graphics, we would expand the aperture of our computing to be able to simulate the
+laws of physics. And the reason for that is because in order to create reality, you have
+to simulate the laws of physics. That expansion of our aperture allowed us to go into
+all kinds of ﬁelds in scientiﬁc computing, which led ultimately to artiﬁcial intelligence.
+The second thing, the second big investment that we made was observing that this
+new model of software that we all called deep learning and AI, it was going to
+change the way that people develop software going forward, that we could write
+software ﬁnally that no humans could write. Just as we could create companies in the
+future that no humans could create, we thought that we could create software that
+no humans could create. And so that observation was a great one. And seven years
+ago, we took the company and we pivoted into AI and...
+{BIO 3332391 <GO>}
+The rest, as they say, is history.
+{BIO 1782546 <GO>}
+Oh, my gosh.
+{BIO 3332391 <GO>}
+Yes. Well it's been incredibly successful. But this week, in particular, Jensen, you're
+actually -- given we are so big together in terms of what we do with graphics and
+images, you made a pretty profound announcement associated with what'sFINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 13Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huanghappening with ray-tracing and again, how that's going to change the paradigm
+once again. Maybe you can share a little bit more about that.
+{BIO 1782546 <GO>}
+The computer graphics model that you and I enjoyed, in your case, 40 years ago, in
+my case, less -- you are the...
+{BIO 3332391 <GO>}
+Well I do have my birth certiﬁcate.
+{BIO 1782546 <GO>}
+The wise old man of our industry. So the computer graphics model that we've
+dreamt of creating is the idea of simulating light rays as it bounces through the
+world. Could you imagine, we had to sit -- take one light ray, bounce it all over
+everything. And wherever it's absorbed, reﬂected, in this case, refracted through this
+curved surface. And what I see on the table are these interesting light patterns, it's
+called caustics, if you remember.
+And so this form of computer graphics was only possible in the ﬁlm industry because
+they used supercomputers to create every single frame. And in fact, when we walked
+onstage, the amazing, beautiful graphics you were showing, the subtle shadows, like
+beautiful lighting, all of that was made possible by this technology called ray-tracing,
+except it needed supercomputers, these large servers. And every 1 of those frames
+out of every 30 frames, 1 out of those 30, it takes 10 hours to render each one of
+those frames.
+Well our dream in that whole time that we've been in computer graphics is to do this
+in real time. And ﬁnally, last week, we announced the eﬀort of about 10 years of
+endeavor, changing the way computer graphics is done, changing the architecture
+of computer graphics, the algorithms of computer graphics. And we announced the
+NVIDIA RTX. And we can now do what you just showed in real time. And it's just a
+huge breakthrough.
+{BIO 3332391 <GO>}
+And that's something that we really share in common, which is we believe that
+everybody has a story to tell. And using technology in an intuitive, accessible way,
+whether you're a student or whether you're a high-end professional, is such an
+awesome responsibility and opportunity to do. But maybe again, I think a number of
+people here, whether you're in retail, whether you're in clothing, you're in travel and
+hospitality, I think they're all thinking about what does augmented reality and virtual
+reality mean in terms of the kind of experience they can deliver their customers. So
+what happens with AR and VR?
+{BIO 1782546 <GO>}FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 13Shantanu Narayen
+Jensen Hsun HuangOne way to think about AR and VR is this. And this is going to sound crazy. But it's
+actually an easier idea, right? AR and VR -- in the case of VR, it's a wormhole for us to
+travel to virtual worlds. VR is simply a path that allows us to telepresence, to
+wormhole into another virtual world. AR is the way for artiﬁcial intelligence agents
+that are in these virtual worlds to wormhole into us. And so these AR, these agents,
+these virtual reality -- these artiﬁcial intelligence agents in these universes, the way
+they come into our world is to travel through the AR wormhole. Then they'll be
+sitting right there in front of us in augmented reality, mixed reality. And the way we
+go into their world is to travel through VR, which is this wormhole to go into.
+Now the other day -- yesterday, I showed something that the world has never seen
+before. And it's really quite amazing. Let me just -- if I could just tell you about it. And
+so inside the company, we called it Project Wakanda. Project Wakanda -- Wakanda is,
+as you guys know, the most advanced society in the world, it's in Africa, Black
+Panther. You guys know about this. And so they -- and so it's Project Wakanda. What
+we did was this. We created this Holodeck. And inside this Holodeck, you can go into
+it and it creates a virtual car. And when I'm inside this Holodeck, I can control, I can
+wormhole, teleport into an autonomous vehicle anywhere on the planet. And now
+my mind and this autonomous vehicle becomes one. And I can drive this car from
+anywhere, wherever it is, from my Holodeck.
+And so the way to think about that is, all of a sudden, VR is our way of
+communicating with the future of AI. And this communication system -- today, we call
+it virtual reality. We think about head-mounted displays, we think about augmented
+reality as these computer graphics, things that are sitting on our table. But in the
+future, it's going to be much, much more than that. You're going to create
+experiences with the tools that you guys have that allows people to create these
+enormous number of virtual realities. And if we want to go into these new worlds,
+we'll wormhole into it using VR. If we want to invite one of our agents, these AIs that
+we've created, these little, tiny pet that helps us do something, keeps us happy,
+keeps us company, it comes into our world. And so I think this is going to be an
+exciting future.
+{BIO 3332391 <GO>}
+I think it already is. Just a little bit from technology to how you impacted change. You
+said that seven years ago, you really made this big bet on AI. How did you get the
+organization through that, that you were going to make this left shift and AI was
+going to be the future in terms of transforming the company, the people?
+{BIO 1782546 <GO>}
+Well I think -- well, ﬁrst of all, I think that Adobe is a great example of transformation.
+I've known Adobe my entire career. And the Adobe of today and the Adobe that I
+knew a long time ago has gone through several transformations yourselves. So you
+know the story really well.
+The fact of the matter is there is no alternative to rolling up your sleeves and trying to
+understand yourself, the implications of the new dynamics of the industry. To try toFINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 13Shantanu Narayen
+Scott K. Belsky
+Jensen Hsun Huang
+Scott K. Belskyunderstand yourself, you don't have to -- we don't have to understand it deeply. But
+we have to understand it intuitively, the implications of the technology, the
+implications of the dynamics that are going on in the industry.
+We have to roll up our sleeves. Just as you rolled up your sleeves, you've got to roll
+up your sleeves to understand these dynamics. Then you've got to invite people to
+work with us and be our teammates to learn how to apply this new technology or
+repivot the company into this new dynamic. You've just got to do it step by step by
+step. And I think there's no alternative to leaders being in the kitchen, playing...
+{BIO 3332391 <GO>}
+And that's really, in many ways, Jensen, I think the call to action that we made for
+people here. We're calling them experience makers, which is when you have an idea,
+how do you take that idea and make that really real? And so I think that's been one
+of the underlying themes of the conference, people who want to make this change.
+But you talked about technology. And I thought actually we have a slight surprise for
+you. What a lot of people -- and if Scott can come up, it's just -- we put this together,
+this demo because NVIDIA has delivered this absolutely incredible technology with
+respect to GPUs and what they could be done. And we talked yesterday about open
+ecosystems and how -- the power of getting these open ecosystems. So we put our
+engineers to work a little bit and said, "Let's show Jensen some stuﬀ of what we can
+do with his AI and our AI together. Scott?
+{BIO 2409231 <GO>}
+Great. Thank you, Shantanu. And as you mentioned, NVIDIA has a rich history of
+innovation in the gaming market. And I'm using a gaming laptop powered by
+NVIDIA's GTX 1080. And we want to run an experiment and see what Adobe Sensei
+could bring to the gaming experience with these powerful GPUs.
+{BIO 1782546 <GO>}
+Hi. if this turns out really, really good, it's my idea. But if it turns out not so good...
+{BIO 2409231 <GO>}
+So here I am in the AAA game, Witcher 3, in the town of Novigrad. And NVIDIA has
+built a great tool called Ansel. And with Ansel, not only can you take screenshots of
+your gameplay in 4K. But it allows you to immerse yourself in the game with a 360
+view.
+So let's just navigate the scene in 360 using the Ansel app. Here, I'm just going to
+zoom in and take a screenshot of this character using Ansel. I think this looks pretty
+good. Then I took the liberty of adding a Sensei panel to this demo app.FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 13Shantanu Narayen
+Jensen Hsun Huang
+Scott K. Belsky
+Jensen Hsun Huang
+Scott K. Belsky
+Jensen Hsun Huang
+Scott K. Belsky
+Shantanu NarayenLet's just see what Sensei has to say about the image. So as you can see, Sensei is
+tagging interesting things in this image. It's identiﬁed a man, a warrior. But more
+than that, it's also making judgments about the images.
+{BIO 3332391 <GO>}
+So what we are doing in real time, in other words, Scott, is we're actually interfacing
+with the NVIDIA stuﬀ. And we're using our own machine learning as well as our
+image recognition technology as people are navigating in real time. So think about
+the opportunities, Jensen, as it relates to people doing retail or the ability to not just
+do all this in real time. But even understand exactly what's happening in a deep
+semantic sense.
+{BIO 1782546 <GO>}
+Yes.
+{BIO 2409231 <GO>}
+That's right. That's right. And here, we've shown that Sensei also created an Auto
+Mask of this character, which I can easily open up in Photoshop to create diﬀerent
+scenes to place this character. Now I'm just going to activate Sensei.
+{BIO 1782546 <GO>}
+That is so cool that with just one click and it just masks.
+{BIO 2409231 <GO>}
+That's right.
+{BIO 1782546 <GO>}
+Stencils out that character just like that. It's just incredible.
+{BIO 2409231 <GO>}
+And so as we navigate the scene, Sensei is ﬁnding interesting objects here. I paused
+on this particular scene with the villagers. And Sensei has detected a man, a woman
+and this cauldron of ﬁre. And as we navigate through, Sensei is taking shots, making
+judgments about the quality of those shots and trying to pick the most interesting
+things. So let's navigate some more. We found a barrel, a dog and a horse.
+{BIO 3332391 <GO>}
+So in real time, as he's navigating, we're seeing this is a dog, this is a human, this is a
+horse. So that's actually incredible, the kinds of possibilities that they can do. And
+this was done just by virtue of the fact that you have this open architecture thatFINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 13Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Scott K. Belsky
+Jensen Hsun Huang
+Scott K. Belskyallows us. And we are doing the same for our customers here in the audience, which
+is we're making Sensei available so that experience makers can actually apply their
+own data science, Jensen, much like we've done before.
+{BIO 1782546 <GO>}
+So you're actually showing something that's really the power of modern artiﬁcial
+intelligence. And so of course, you guys have trained the network on horses, dogs
+and et cetera, et cetera. And yet this particular image of a horse is a computer-
+generated cartoon horse. But your model was suﬃciently robust and understands
+the diversity of data well enough that they still recognize that as a horse. Now
+traditional computer vision algorithms wouldn't have recognized that as a horse. But
+you and I recognized it as a horse. And therefore, we taught the AI how to do that.
+{BIO 3332391 <GO>}
+That's right.
+{BIO 1782546 <GO>}
+And so Sensei has now...
+{BIO 3332391 <GO>}
+That's exactly right. And I think it actually -- can't we even do more with respect to
+emotions and...
+{BIO 2409231 <GO>}
+Yes. In fact, we tag about 40,000 diﬀerent concepts. And here, we've focused on
+objects as opposed to moods and sort of more abstract concepts. And here, you can
+see we've closed in on this sort of work area. And we've identiﬁed the various tools
+and the clothes and the stool. Let me just navigate to one other place in the scene.
+And again, Sensei is taking shots along the way of the things that it thinks are
+interesting. So here, we have a few guys talking. And this other guy, who doesn't
+look so happy in the back, who looks like maybe he's a merchant, maybe people
+aren't buying what he has to sell. But let's close up on him.
+{BIO 1782546 <GO>}
+Yes. That's really good. That's a great model. You guys did a good job.
+{BIO 2409231 <GO>}
+And Sensei can also actually understand aspects of this character. So we can
+understand his approximate age, the fact that he's masculine. You weren't so sure
+about whether or not he was wearing a hat. But we know that he's not...FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 13Shantanu Narayen
+Scott K. Belsky
+Shantanu Narayen
+Jensen Hsun Huang
+Scott K. Belsky
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang{BIO 3332391 <GO>}
+But doing this in real time then, Scott, I think there's one last thing. So we've been
+navigating real time in this entire virtual world. You're collecting all the information.
+As you can see, we now have more information about things like age. What if you go
+past this? Then how do you recapture all of that intelligence?
+{BIO 2409231 <GO>}
+Yes. That's the great part. So for example, here, we've even captured that his arms
+are crossed. And the fact that he's not smiling and has arms crossed means he's
+probably angry. Now as we captured all these things, we can actually search for the
+best frames that represent these concepts. And so we have the tags here at the
+bottom. So I can easily do something like click on dog and see the shots that we
+took that had the dog. Or we can try the person and do the shots of the person. But
+let me show you one more thing. We can even construct more complex queries. So
+I'm going to go up to the search bar. Show me the angry man with arms crossed.
+And there he is.
+{BIO 3332391 <GO>}
+That's (inaudible)
+{BIO 1782546 <GO>}
+That's cool.
+{BIO 2409231 <GO>}
+Thank you.
+{BIO 1782546 <GO>}
+Now obviously, you could do this for video games. But you can do this for real
+videos and everything.
+{BIO 3332391 <GO>}
+That's correct, as well as retail experiences, travel experiences. Maybe just a couple --
+switching gears for a little bit, Jensen. You're a company that's inventing the future.
+But how do you think about marketing? How do you think about marketing? Who's
+the audience? And a lot of the companies here are B2C. But there are also a number
+of companies that are B2B as well as specialized marketing for audiences. Maybe a
+little bit about how you think about that.
+{BIO 1782546 <GO>}FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 13Shantanu Narayen
+Jensen Hsun HuangWell you guys, you know that we're the world's largest gaming platform. NVIDIA
+GeForce is all over the world. There's 100 million people who are on NVIDIA
+GeForce Experience, which is our platform. And so we're communicating, we're in
+contact with all of our customers all the time. The way we think about marketing is
+storytelling. They don't want us to market to them. They don't want us to advertise to
+them. But we tell stories. We share stories with them, whether it's stories that we
+create -- and that's why the creative department in our company is so close to our
+marketing department. And I'm so close to the creative department. The stories that
+we tell them, the stories that they tell each other, we share. We allow them to tell
+their story through our platform.
+And so storytelling is probably the central part of everything we do in marketing.
+And it's content creation. We use -- we obviously use everything that you guys
+create. And we use it to tell a story. Then secondarily, if not for the Adobe Experience
+Manager, our ability to connect all of our customers to the stories that we tell would
+have been impossible and -- because we have diﬀerent stories that we want to tell
+diﬀerent people because they play diﬀerent games and they're interested in
+diﬀerent types of stories in diﬀerent countries. And so we use the Adobe Experience
+Manager so that we can connect the right stories with the right customers. And so
+that's kind of how we think about it.
+{BIO 3332391 <GO>}
+So we have Jensen. He's -- as he described it a little bit before, he reinvents quantum
+physics when he has his morning cup of tea. You're doing ray-tracing and ﬁguring
+out the world. But you also talked about the fact that you roll up your sleeves, as I
+understand it. And help people through change. There's a rumor that when -- you
+made some sort of a bet and commitment associated with a tattoo, Jensen. Is there
+any truth to that rumor associated with rolling up your sleeves?
+{BIO 1782546 <GO>}
+Well I roll up my sleeves. And I do have a tattoo. And I'm -- here's what happened. So
+4 splits -- 2 splits ago, the management team was having dinner 1 night. And
+somebody says, "Our stock is going to hit $100." And usually, I don't care about
+things like that and -- but the other person -- somebody else said, "Yes. It's deﬁnitely
+going to hit $100." And somebody else said, "You know what, if it hits $100, what are
+you guys all going to do?" And somebody said, "I'll shave my head." And somebody
+says, "I'll pierce my nipples." Then somebody said, "I'll do a tattoo." And somebody
+said, "I'll do an earring. And Jensen, what are you going to do?" And I said, "I don't
+care, whatever you guys want. It's not going to hit $100."
+And so they said, "Okay, well, you're going to get a tattoo." And I said, "Yes, sure,
+ﬁne." And now several years went by -- so I wasn't wrong, okay? I was in no risk of
+getting a tattoo. And so several years later, the stock hits $100 and somebody
+happened to have that placemat where all of us wrote down -- and so the thing I was
+most happy about is that our VP of HR had to get a nipple ring and -- but I got a
+tattoo.FINAL TRANSCRIPT 2018-03-28
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 13Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun Huang
+Shantanu Narayen
+Jensen Hsun HuangAnd ladies and gentlemen, if you could do this -- I'll show you my tattoo. However, I
+think that Shantanu should get a tattoo. What do you guys think? All right. So you
+know you're committed to your company if you put the company's logo on your arm,
+okay? So ladies and gentlemen...
+{BIO 3332391 <GO>}
+Leading by example. Please again thank me for having Jensen here.
+{BIO 1782546 <GO>}
+Shantanu is going to get a tattoo.
+{BIO 3332391 <GO>}
+Thanks a lot.
+{BIO 1782546 <GO>}
+I love you.
+{BIO 3332391 <GO>}
+I love you.
+{BIO 1782546 <GO>}
+You guys are great.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

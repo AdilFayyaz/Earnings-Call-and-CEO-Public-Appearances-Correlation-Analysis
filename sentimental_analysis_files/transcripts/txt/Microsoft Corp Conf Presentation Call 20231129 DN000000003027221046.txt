@@ -1,0 +1,635 @@
+FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 1 of 19Alysa Taylor, Corporate Vice President of Azure and Industry Marketing
+Unidentiﬁed Participant, Analyst, UBS
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed ParticipantUBS GLobal Technology Conference
+Company Participants
+Other Participants
+Presentation
+Okay. Thank you, everybody. I'm honored to lead this keynote with Alysa Taylor of
+Microsoft. I wanted to just thank the whole Microsoft Team. You've been fantastic
+partners at the event this year. I don't think it would surprise anybody that Microsoft
+and NVIDIA are the two most requested companies for one-on-one meetings. I think
+that says a lot about where we are in the tech curve. So, thank you Brett, Kendra,
+Mary, and the team for making yourself available for so many one-on-ones. It's
+fabulous and elicit for making the trip to Scottsdale to chat AI and a number of other
+topics with us.
+It's a pleasure to be here. Thank you.
+Oh, great. Good. Alysa, do you want to take a minute and share with the group your
+role at Microsoft?
+Absolutely. So, I'm responsible for our Azure business. So, that comprises all of our
+AI services as well as our data infrastructure, digital app, and innovation and
+infrastructure. So, that's the entirety of the Azure portfolio. And then I also have the
+responsibility for our global industry. So, everything from our regulated to non-
+regulated industries including sustainability.
+Okay.FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 2 of 19Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed ParticipantAnd that's all in the go-to-market side. So, bringing all of the things that we build via
+partner, how do we then construct that in a way to bring them to market.
+If this was a two-hour keynote, we could ﬁll it up with all of your expertise. We'll try to
+condense it to 28 minutes. So, let's hit on a couple of hot topics to start.
+Okay.
+So, I think this might be Microsoft's ﬁrst occasion to at least sit down with the investor
+community more formally post the drama of a couple of weeks ago with OpenAI. So,
+understanding that you are probably somewhat limited in what you can say, I'd love
+if you could share some perspectives. I can share with you that some of the
+questions we received had to do with, you know, IP ownership, it had to do with the
+extent to which Microsoft might be better oﬀ, assuming they are, given how things
+settled down. But I'd love your perspective, so if don't mind (multiple speakers)
+There was drama with OpenAI. But yes, no, it's been -- it's been an interesting week.
+You know, what I would say is, we are, you know, committed to our partnership with
+OpenAI. We are excited to see that Sam has been reinstated as the CEO. And we
+have a great roadmap of innovation ahead and we have perpetual use rights for the
+IP with OpenAI and we have everything we need to fulﬁll on our roadmap of
+innovation.
+Okay.
+So, business business as usual.
+Okay. Nice to hear. Let's talk about another big event recently and that is, I think you
+played a central role with Guthrie and the team at Ignite, so that was a big event. We
+had one of our team members there to talk with customers and partners and learn.
+But what were the couple of key takes for you coming out of Ignite?FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 3 of 19Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed ParticipantIt was a really exciting event for us, because we introduced a bunch of innovation
+and I would say across the entire stack of the Microsoft cloud. And so, some of the
+highlights that I would bring forward, our big announcement around silicon I think
+was a pretty prevalent part of the event was our ﬁrst entry into ﬁrst-party silicon. We
+introduced Azure Maya, which is our AI accelerator.
+We also introduced Azure Cobalt, which is our cloud-native CPU. But that really is
+part of our larger, what we call silicon to systems. So, we also had -- we announced
+the general availability of Azure Boost, which is the technology that allows you to
+oﬄoad networking and security onto purpose-built hardware, so that improves the
+performance. Also, our hollow ﬁber core which improves networking. So, lots of
+infrastructure.
+And then, we also announced the general availability of Microsoft Fabric, which is
+our new analytical data platform. This is a very important key asset in our AI services
+because it allows organizations to be able to take a bunch of -- a lot of disparate data
+from either on-prem, diﬀerent data sources, diﬀerent cloud providers, Snowﬂake,
+GCP, to be able to bring that data into an integrated data environment called
+OneLink. And then we have native AI services that are built into Fabric. So, really
+exciting announcement there.
+And then when we think about the tooling aspects, so we also brought the Azure AI
+Studio into preview. And that includes all of our responsible AI tooling like content
+safety, our Model-as-a-Service, so that you can actually govern and reason over third-
+party models. And then, Azure Arc which is our central control plane that allows an
+organization to do the management and governance of all of their cloud and on-
+prem assets. So, kind of this next-generation of hybrid. We introduced what we call
+the adaptive cloud which allows organizations to manage in a central integrated
+control plane all of their on-prem multi-cloud cloud assets and to be able to project
+those assets to their edge environment. So, it's bringing together all of the decade
+innovation that we've had around Edge, IoT, as well as application management into
+one single source.
+Okay. Let's, I mean, can we unpack the ﬁrst one a little bit?
+Of course.
+You led with it, so let's go there, the new Maya chips. So, I think, one question on
+everybody's mind is, Microsoft has an enormous and successful partnership withFINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 4 of 19Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorNVIDIA. So, I think everyone's question was, how does Maya ﬁt into that relationship?
+Is it targeting a diﬀerent workload type? Maybe you can elaborate a little bit on that.
+Yes, it's interesting. The AI workloads are, like HPC and AI workloads are diﬀerent
+than enterprise workloads. Because you actually, when you have these workloads
+come in, they are there asynchronous. So, you can have them at -- both at peak
+times, burst capacity or not at all. And so when we talk about the silicon to systems
+approach, the systems approach is really allowing us across a network of hardware
+to be able to load-balance, so that we can optimize for peak performance as well as
+cost. And so for us, you know, our ﬁrst-party silicon was just yet another addition to
+what we have built with AMD, and Intel, and NVIDIA. And so, that's the systems
+aspect of it. So, it allows us to be able to control the performance of those workloads
+across the variety of the systems and that's where things like Boost come into play, as
+well as the innovation that we've seen in the Fiber layer as well.
+So, there's a cost beneﬁt to Microsoft as well internally.
+There. Yes, so if you think about it, you know, GPU resources are very resource capital
+intense. And so you don't want them to go unused. And so, this allows us, as you it is
+opaque to our customer, but allows us to be able to balance the workload on the
+backend across. So, we have no plans to replace our NVIDIA or AMD investments.
+It's just adding to the ability to do the load balancing.
+I'm assuming you spent Ignite talking about AI endlessly (multiple speakers)
+Yes.
+With your customers. So, I think everybody could also beneﬁt from your perspective
+on how those conversations are going, you know, where we are on the adoption
+curve, where customers that are in the use-case discovery process. What are those
+use cases that are coming up in that initial wave? In other words, where are they
+getting the greatest ROI near-term? That might be helpful for everybody.FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 5 of 19The use cases that we see emerging, really, we look at it in three dimensions. So we
+look at it by very speciﬁc industry use cases, what are the line-of-business use cases,
+and then what are the individual function use cases? And so I'll give you just a
+couple of examples of some of the more prevalent, that we see. In industry,
+healthcare is one where one of the greatest challenges that healthcare organizations
+face is physician burnout. So, we actually have seen in the US, physician burnout has
+increased from 43% to 52% in the last three years. So, that's the post-pandemic.
+We're still seeing physician burnout on the rise.
+And so with technology like DAX Copilot, it is a combination of ambient and
+generative AI that can record an interaction between a physician and a patient,
+whether that be in the telehealth or an exam room visit, it then automatically
+analyzes, summarizes, and generates a clinical note that can be uploaded into the
+electronic medical health record on behalf of the physician. So, that reduces the
+administrative burden that a physician has. And you see organizations like Atrium
+Health that have deployed DAX Copilot. They have actually recorded that their
+physicians are on average getting 40 minutes a day back, and they're improving the
+overall care of their patients. And so that's a great use case of using AI technology to
+combat a very critical industry problem.
+In the horizontal space, customer service is one that we are using, we're seeing that
+as one of the most prevalent use cases. Internally at Microsoft, we have deployed the
+Microsoft Copilot for service. And in a matter of months, we've been able to increase
+the ﬁrst call responded by 31%, and actually improve satisfaction by 12%. So, you see
+these use cases where the technology is being deployed and there's real outcome
+associated with it.
+And then in the function, a great example of this is cyber professionals. And if you
+think about the sheer amount of data that a cyber professional has to reason over to
+be able to detect threats, Microsoft Copilot for security actually aids in that process
+of being able to come through all of the potential threats, pinpoint the most high
+targeted threat and then allow about cyber professional to actually work against that
+-- that threat. And so, that's where you see sort of industry line-of-business and
+function.
+And, you know, in addition to the use case, I often get asked, what is the return on
+this, what is the actual tangible monetary return, and we worked with IDC. We
+surveyed 2000 global companies. And there were some really interesting stats that
+came out of that. The ﬁrst is that, over 70% of the organizations had already
+deployed AI technology. So, that sort of shows the interest level of AI technologies.
+91% of those organizations had indicated that they had an AI project up and running
+in less than a year.
+So, if you think about just we've talked for years about digital transformation, that
+speed. So, it's just the pervasiveness of the adoption, the speed of adoption. And
+then probably most interesting to this community is that for every dollar -- it was
+reported for every dollar that the organization had spent on average, they were
+seeing a return of $3.5 return on that dollar.FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 6 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorWow.
+So, that's -- you know, that's a really -- so it's taking, those use cases are now starting
+to see clear patterns of (multiple speakers)
+Yes.
+ROI on them.
+Interesting. Let's talk a little bit about how Microsoft is scaling its AI infrastructure to
+meet that (multiple speakers)
+Yes.
+Incredible demand. So, I think there's a perception that there is a signiﬁcant supply
+shortage of NVIDIA chips out there. Can you comment broadly on the severity of that
+supply constraints and how Microsoft, you, Satya, the leadership are scaling up that
+infrastructure to meet the demand?
+Absolutely. When we think about capacity planning, it's very multifaceted. So, we
+start with demand planning, so that is both the short-term demand and then
+projections for long-term demand. And then we couple that with resource allocation.
+And so, resource allocation is both the availability of the infrastructure, but then we
+also take into account things like geo-availability, LAN, power. So you can see it's a
+very multifaceted approach to how we think about capacity planning.
+And really the systems approach that I keep talking about is so core to this because
+that is how we are able to be able to do capacity planning across our GPU
+allotments, whether that be through our partnerships across NVIDIA and others, as
+well as now our own ﬁrst-party investments in it and then being able to do demand
+shaping by geo. And, you know, we do this all wrappered in our commitments toFINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 7 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participantsustainability. So, we will actually come -- we will need to be on path for our 2025
+carbon-negative footprint within our data centers. And then we also have a goal by
+2025 to protect more LAN than we use in our data centers.
+Okay. And Alysa, as Microsoft works to stand-up that AI infrastructure as fast as you
+can.
+Yes.
+I recall a blog post in August. I think Satya and the team were talking about getting
+live on a number of H100 clusters and that there's hundreds of thousands of H100s
+that are coming live over the next year.
+Right.
+So that's a big revenue unlock, it feels to me, for Azure. So, one thing I'd love to
+understand a little bit better are what the constraints are to get that GPU supply
+ready. You mentioned a few of them.
+Yes.
+Not only getting your hands on the chips, but the power requirements are diﬀerent.
+Absolutely. Right.
+The -- literally, the LAN, the data center, the networking architecture, are any one of
+those constraints any greater than the other in terms of standing up that
+infrastructure, or is it a collection of all of those?FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 8 of 19Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorIt's a collection of all of it. I mean, I think that's why we take that integrated approach
+to capacity planning. You have to, because it is both the infrastructure, the
+geoavailability, the land use, the power structure, it's all of it. And you mirror that
+against demands today, and then the forecast against demands, and then you
+demand shape, like I said, you then sort of help. You know, we have diﬀerent data
+centers where we will -- certain workloads are more, you know, attuned to a certain
+geo.
+There are more sustainable data centers than others. And so, we work directly with
+customers to make sure that they are in the best data center possible. And then we,
+on a daily basis, monitor capacity of those both data centers and we have a weekly
+socket that we review across our leadership team on things like GPU availability and
+capacity. So, it's a very hands-on integrated approach.
+Without giving up any of your secret sauce, AWS and Google are also trying to
+stand-up their AI infrastructures as fast as possible. Are there any diﬀerences in the
+way that Azure is constructing its new AI infrastructure that might give it a
+competitive edge a couple of years out?
+You know, I think the thing that we point to, we'll continue to point to, is the entirety
+of the system. It is not just about the chips. I think people like to talk about the chips.
+We have for many years had deep partnerships across Intel, AMD, and NVIDIA. We
+continue those partnerships. You probably saw yesterday, AWS just entered into a
+partnership with NVIDIA. That is -- we have a long history with NVIDIA, and it has
+been part of how we've built out our infrastructure. But it's every aspect of it. It is the
+networking, it's the security. And we're building all of this to be able to be the most
+performant and the most cost-eﬃcient for customers.
+And we actually -- there is a benchmark of supercomputing in the industry of 500
+cloud providers and we are number one in this supercompute category. And so we
+feel like this integrated approach to both how we build out the infrastructure as well
+as how we do capacity and demand planning, is a real beneﬁt and it's paying oﬀ not
+only in industry benchmarking but also for our customers to have the most
+performant and cost-eﬀective. Okay, let's talk about the pricing a little bit on those
+Azure compute resources. Yes.
+A lot of us watched Sam Altman and the team at the recent OpenAI Developer Day.FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 9 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorYes.
+There are a number of cool announcements from that day. But one thing that struck
+me as really interesting is that Sam talked about essentially reducing the per token
+price of their premium models.
+Correct.
+Like GPT-4.
+Yes.
+Like by an extraordinary amount.
+Correct.
+3x.
+Yes.
+So, my ﬁrst reaction was, boy, if they could reduce the price per token by 3x,
+knowing that the consumption of Azure resources are a big part of that cost
+structure, does that mean that LLMs are becoming incrementally less compute-
+heavy, compute-centric? Which probably wouldn't be a great thing for Azure. How
+would you respond to that?FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 10 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorWell, I'll start by saying, we are obviously -- we continue to be very bullish on our AI
+growth. But the misnomer in the industry is that AI is an enterprise workload. And the
+reality is that digital natives, small businesses, beneﬁt from the power of AI services.
+And so by being -- by making the models more eﬃcient, we are -- and then bringing
+down the price, we are actually opening up our addressable market.
+You're almost like democratizing it.
+Correct.
+And it's a P times Q phenomenon.
+P times Q. Correct. And so it allows us to be able -- that eﬃciency allows us to
+provide these services to more and more customers where the barrier to entry
+before was price. So, eﬃciency in AI services is actually a good thing because,
+exactly to your point, it allows us to democratize the services to more and more
+users.
+Maybe a similar question. Your answer might be the same, but another question that
+investors have is that, as the bulk of compute needs changes from training of the
+models to inference of the models, is that less compute heavy on the inference side,
+such that as we go through that training to inference shift, does that change the
+resource needs for Azure?
+Well, there's this new emerging category, right, which is, you know, LLM Ops. It's, the
+ops of it. And so, how do you do things like prompt engineering, rag, ﬁne-tuning, all
+of that, we actually -- one of the announcements that we made at Ignite was Model-
+as-a-Service. So, to really bring -- so that isn't a very labor-intensive, we're actually
+wanting to bring more and more tooling to the LLM Ops space, which is a good
+thing, because then it allows people to train more models, use more models, have
+kind of the diﬀerent models for diﬀerent use cases and be able to reason and
+govern over those models.
+So, there's the compute aspect of the models and the inferencing of the models, but
+then there's the data aspect of it. And so more and more, you know, your AI is only
+as good as your data estate. And so, you see it's not just about the compute of theFINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 11 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylormodels, but it's also the ancillary services that come with when you are building or
+modernizing an app, data being a key component of that, storage being another key
+component. And so, you know, there is a -- we look at it from the AI platform side,
+compute, data services, networking and storage.
+I'm going to ask you about the data services in a quick (multiple speakers)
+Oh, good. This is one of my favorite topics.
+First, let's summarize this up to the Azure level that Bret and his team conveyed to
+the street. So, Amy on the last call gave guidance for stable Azure growth after the
+December quarter. And there's a couple of dynamics in there. It feels as if it's
+reasonable to conclude that the AI contribution to Azure's growth should improve.
+And so, stable means that the core or ex-Azure part of -- ex-AI part of Azure might
+decelerate slightly, maybe that's scale economies. But can you comment a little bit
+on that guidance? Why would ex-AI Azure growth moderate? Really, is it just -- is it
+scale?
+Well, if you think about the sheer number of workloads that you have to bring online
+to be able to deliver that stable growth, which is, you know, our forecast for H2. And
+then the other thing that I would say is, you think about Azure from the entirety of the
+Azure platform, right? You have the infrastructure layer that we've talked about. You
+have the management and governance layer, you have the data layer, you have the --
+all of the -- you know, the AI services, the tooling, everything that we provide at the
+app layer. So, there is in the workloads that make up Azure are fairly, you know, in
+comprehensive and signiﬁcant.
+And so, when we look at Azure growth, it is both around growing new workloads and
+then you'll see customers do, which is normal course of business, which is continuing
+to optimize those workloads for performance and cost. And so, you know, our
+commitment is to grow workloads across every aspect of the Azure Cloud while
+making sure that we are working hand in hand with our customers to, you know,
+maximize their price to performance.
+Okay. Can we hit a little bit before we get to data on the optimization side? I think
+there's acute interest in that.FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 12 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed ParticipantAbsolutely.
+So, I'm sure at Ignite and through the course of your day, you're talking a lot with
+customers about that, amongst other things. So, where would you characterize
+Microsoft's Azure customer base in terms of how far along they are in terms of that
+journey to optimize their spend?
+Well, optimization is an ongoing occurrence because if you think about when you
+bring a new workload online, whether that be migrating a on-prem workload to the
+cloud, whether it be building a new application, you're constantly optimizing the
+performance of that workload. And so, optimization is just, it's an ongoing part of
+cloud infrastructure and cloud compute. And so, for us, there is two things that we
+want to do. One is, work very closely. We provide a number of resources, whether
+that be Azure landing zones. We have a service called Azure Advisor that actually
+helps customers build well-architected workloads and then how they construct those
+workloads in the most performant way. And that's part of optimization.
+And so that, I think, is a normal course of business. And then as they -- you know, as
+they optimize, they bring on new workloads. And so our goal is to help customers
+build and construct the best workloads at the best performance and then make sure
+that we are working with them on that next workload.
+Okay.
+And so, that's where we, when we talk about workload growth, it is in conjunction
+with making sure that, you know, our customers are building well-architected
+services at the beginning.
+Okay. Got it. Let's talk about data now.
+Okay.
+A number of interesting topics here. So, one that intrigues me a little bit is this notion
+that in advance of, or perhaps concurrent with enterprises moving forward on AIFINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 13 of 19Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participantprojects, they need, to, quote, get their data estates in order.
+Yes.
+Are you hearing that? And to what extent is it starting to pull through, even if it's just
+in conversations today, the rest of Microsoft's Data Suite?
+Well, the -- as I mentioned, your AI experiences are only as good as the data that the
+AI reasons over. And so, it is very much, you know, step one is what is the data set
+that you want to be able to apply AI services against? And that data set has to be in
+the cloud. So, there is kind of step one, which is being able to access or migrate your
+on-prem data and then organize it and construct it in a way that the AI services can
+pull from it. And so there is a number of things that we are doing to aid customers in
+being able to get their data estate in order.
+One is, I talked about fabric. Fabric is for us a very meaningful investment in our AI
+pursuits. So, we -- Fabric is our analytical data service as I mentioned. One of the
+unique capabilities is the OneLake aspect of Fabric which allows you to bring in
+various diﬀerent disparate data sources in a -- through shortcuts. So, you can
+shortcut into data, you can mirror competitive data, and we're competitive. So, you
+know, in diﬀerent -- whether you have data in GCP or AWS, you can bring that into
+OneLake and then you have an aggregate data. And then we have applied our AI
+services directly within Fabric.
+So, if you think about how you then -- you take that data and you organize the data
+to be able to call against very speciﬁc data sets, things like Vector search become
+very important. So, we've brought Vector search into Fabric through -- it's called AI
+search. We've also brought it into our distributed data scale, Cosmos DB. You can
+have AI search natively integrated into that. So, it's -- you know, it is both the
+aggregation of the data and then actually how you construct and access the data.
+And those are two really critical, important things. And so Fabric and AI search are
+very major investments that we've made as organizations are bringing their data into
+the cloud, organizing their data to apply the AI services on top.
+And also, I'd be curious, are you seeing any evidence that AI is starting to accelerate
+the pace at which organizations are embracing the cloud? Are they -- is it boosting
+the on-prem to cloud data migration eﬀort? Is it causing any acceleration in the pace
+at which you're running your databases in the cloud versus on-prem? Is that
+beginning to happen? I'm sure it's been a constant process. I'm curious if AI is acting
+in any way as an accelerant.FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 14 of 19Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorAbsolutely. If you think about there -- when you think about AI in the terms of
+applications, you are either modernizing an application or you are building a net
+new application. So, if you even take Microsoft, what we've done with M365
+Dynamics, GitHub, that's modernizing an existing application. And so, when you
+modernize that existing application, you're bringing in the Azure OpenAI service,
+which are the API calls into your data set. That's why your data is so important. But
+then you also see an increase in things like storage, because you actually have to
+store those processes. So, you see, when it is not just about the API calls, but it's
+about the aggregation of that data, the data services increase, as well as ancillary
+services like storage.
+When you get into build, that is about kind of the entirety of the stack that you build
+upon. And that is everything from, you know, how you -- the developer services that
+you use. So, whether that be GitHub and the GitHub repos, GitHub Copilot to
+actually do the coding, then bringing data into a operational data service, so
+Cosmos DB, as I mentioned, is our distributed at scale database, then being able to
+apply the app services on top of it, as well as the developer ops management. And
+so you have this, you know, to create a net new application, you have an entirety of
+services that you construct to build a net new modern AI application. And so, both in
+the modernize and build, we're seeing really unique pull-through across the Azure
+platform.
+And so, a great example is UiPath is a customer. They modernized their business
+process software with Azure OpenAI. Their storage and networking increased. They
+then started to build out net new applications. So, building their data services as they
+brought new data services in to build out new applications increased.
+And then another great example is the customer, Real Madrid. So, they are
+continually trying to ﬁgure out how to engage with their fan base. They were able to
+originally only call from seven data sources. Now they are able to actually -- or sorry,
+ﬁve data sources. They're now able to call 70 data sources by being able to do that
+data aggregation that we talked about in OneLake. And then, a really unique thing is
+they've actually increased their fan proﬁles by 400% in two years. So, then it's a nice
+marriage of like, our ACR increases and most importantly, our customer business
+outcomes increase as well.
+This might be a good time to ask you a little bit about the Oracle relationship on the
+database on Azure. So, by the way, Alysa, your proﬁle among investors went
+massively up when you were seated in between Satya and Larry for that session. I
+think everybody in the room probably watched you then. How fun must have that
+been, right?FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 15 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorIt was very -- it was an incredible experience.
+Rivalry and defense [ph]
+Nerve-racking to have the two of them watch you as you deliver their intro. But it was
+an incredible experience. It was Larry's ﬁrst time in Redmond.
+Yes.
+Which was really kind of a momentous experience.
+Yes. And it's a big deal, not just for investors. But for large organizations, UBS. It's
+public information. We're an extraordinary large Azure customer. But we also have a
+massive Oracle database.
+As most customers do.
+Yes, exactly. So, it mattered a lot to us. So, the question to you is, what does that
+mean for Microsoft, how are you going to beneﬁt from this partnership on the
+database side?
+Well, as we've been talking about the -- how data -- how critical data is to building
+out unique AI experiences, the partnership that we have with Oracle was actually a
+direct request from our customers of being able to bring their Oracle databases into
+Azure. And so, we have a very unique partnership where you can run your OCI
+database directly in Azure, so as you're modernizing and that governance
+management and modernization can happen in a very integrated way. And for us,
+you know, it gives, you know, Oracle's over 400,000 -- over 400,000 customers, the
+ability to bring OCI directly into Azure and run natively in an Azure environment.FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 16 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorAnd so, that's a very -- you know, we've worked to be able to architect that in a way
+that is most beneﬁcial to customers. So, they can just literally take OCI, run it in
+Azure, and then have all of the ancillary Azure services that we talked about, to be
+able to do the management, governance, and modernization.
+Yes. Huge partnership.
+Huge partnership. And the incredible thing is, we're seeing a lot of interest from
+organizations come forward for this reason to say, like, it has been prohibitive for
+them to be able to bring their Oracle databases to the cloud. And now this allows,
+you know, that way for them to very seamlessly bring it into an Azure environment.
+Let's talk about a couple of the applications that bring a lot of your AI capabilities to
+the customers. So, the Copilots.
+Yes.
+So, we'll ask you about two. So, on GitHub Copilot.
+Yes.
+Color Alyssa on how the traction is progressing, what kind of developer productivity
+gains you're seeing in these early days?
+So, we talked about kind of the use cases by industry, by line of business by function.
+Developer is one of the key functions, that where we see enormous potential. There
+is a -- and this has been happening for years, but it's what's called the app gap in the
+world which is, there are more applications being wanting to be built than there are
+developers. And so, you -- this is why you see things like the low code tooling come
+online. And so, it is both about making the developers more productive and giving
+them the tools to be able to do that. And so GitHub Copilot has actually been a
+phenomenal productivity gain for developers. So, developers that are using GitHubFINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 17 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorCopilot have a increase of 55% productivity. That's an enormous number if you think
+about like making developers 55% more productive. And we have, you know, and
+that base of users is growing. So we have over a million GitHub Copilot users, paid
+users. So, it is a tool that has become very instrumental to developers and the -- you
+know, there is the making them more productive, but are they happy about it. And
+you actually see this really nice marriage of, they are more productive and they have
+reported an increase in satisfaction in their day-to-day work as well.
+Okay.
+So, that for us is a sign of true success, productivity plus gains and satisfaction.
+Got it. Let's now talk a little bit about M365 Copilot. Only been GA for a couple of
+weeks, so, understanding it's super early.
+Yes.
+But what can you share with everybody listening in and here in the audience about
+the traction that Microsoft has seen so far? Can you share anecdotes or any?
+There's a couple of things.
+Probably not metrics, but anecdotes.
+Yes. These guys will not -- you know, will not let me share too many metrics. But the --
+as you mentioned recently, GA Copilot intentional from a naming standpoint is that it
+is a Copilot for individuals, right? So when we talk about GitHub, when we talk about
+M365, it is about enhancing the productivity and both enhancing the productivity
+and what we call unleashing the creativity. So allowing humans to be more creative
+and more satisﬁed in their work. We at Ignite released our Work Trends Index which
+reported of the Microsoft 365 Copilot users, 70% of them, they indicated that they
+were more -- that they would not give up Copilot, that it had become instrumentalFINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 18 of 19Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participantinto their day-to-day environment, and that it had made them more satisﬁed in their
+work. And so, you see this, you know, for something that is so early to market, to see
+that large of a base say that it is critical to their day-to-day work is pretty impressive.
+The UBS CTO has promised that I'll have one eventually. I'm waiting. So, as soon as it
+can arrive, I'll welcome it.
+And I will tell you, PowerPoint summarization.
+Yes.
+Is key.
+Okay?
+And I highly recommend that. If you -- if any of you get PowerPoints like I do, which is
+dense and large volumes of PowerPoint slides, there is a summarization button that
+can take those very dense large number of slides and summarize them into a pithy
+summary for you.
+I look forward to that.
+Quite key.
+Let's give you a chance to make some closing remarks. I know we're out of time. So,
+maybe, Alysa, but when you think about the next three-plus years managing a
+business as broad as Azure, what are the couple of things that gets you most excited
+in terms of the growth trajectory?FINAL TRANSCRIPT 2023-11-29
+Microsoft Corp (MSFT US Equity)
+Page 19 of 19Alysa Taylor
+Unidentiﬁed Participant
+Alysa Taylor
+Unidentiﬁed Participant
+Alysa TaylorWell, I would say, the moment in time that we're in depending on the age of some of
+us, like we've lived through some pretty big shifts in the technology and if you think
+about internet, mobile cloud, we're now with this next inﬂection point which is this AI
+transformation and you've seen adoption happen at a rate that I have never seen
+before in terms of just the ground swell of people realizing and evaluating the
+potential of what AI can do both for their company, for their individuals, and I just
+think it's we're in a really unique point in time in the market and so it's exciting to be
+here and so it's not only just as we've talked about the individual AI services, but it's
+the ability across diﬀerent industries, diﬀerent functions, diﬀerent business units to
+really redeﬁne how they work and how organizations interact with our customers
+how they reinvent business processes. So, for me, the most exciting thing is just this
+inﬂection point that we are at and what -- and we are early, early days, very early days
+of what's possible.
+You're going to have an exciting 2024 I predict.
+Think so.
+Microsoft, Alysa. Thank you so much for attending the event. I enjoyed that
+conversation.
+Thank you very much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

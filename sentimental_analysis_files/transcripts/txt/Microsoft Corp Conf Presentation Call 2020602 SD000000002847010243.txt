@@ -1,0 +1,527 @@
+FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 1 of 14, Analyst
+, Corporate Vice President
+Kasthuri Rangan
+A - Kasthuri Rangan
+A - Rohan KumarBank of America Merrill Lynch 2020 Global Technology
+Virtual Conference
+Company Participants
+Kasthuri Rangan
+Rohan Kumar
+Presentation
+{BIO 22095432 <GO>}
+Okay. I'll get going here.
+Sorry. I was not expecting just some silence there. Good morning, everybody. It's a
+real delight to have Microsoft present to us.
+We once again appreciate everybody taking the time out of their days to -- the next
+several days to dial into this conference. We have to make it a virtual conference
+given everything that's going on in the world.
+But we're really proud to present an absolutely amazing lineup here.
+Our next guest here, who we'll interact with, is Rohan Kumar, who is Corporate Vice
+President of the Azure business.
+So with that introduction, quick introduction out of the way, Rohan, a real delight to
+be able to host you on this conference call, or meeting, shall we say, virtual meeting.
+And thank you, Jonathan Neilson, for everything that you do. Jonathan is here on the
+line here with us as well.
+Questions And Answers
+{BIO 22095432 <GO>}
+Rohan, maybe if you could just give us an introduction. What is your role at
+Microsoft? What are the things that you've worked on in your past several years
+serving Microsoft?
+That would be a good context to jump into some Q&A.
+{BIO 19488761 <GO>}FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 2 of 14A - Kasthuri Rangan
+A - Rohan KumarSounds good. First of all, thank you so much, Kash and team, for having me at your
+conference. I really appreciate it.
+Just by way of a quick introduction, I'm the Corporate Vice President leading
+engineering for what's called the Azure data and analytics team inside of Microsoft.
+So that's the team that's responsible for everything that we do around data and
+analytics, both on-prem and in the public cloud, so starting with the SQL Server
+product, which is an on-prem database and then all the managed services that we
+have in Azure, our operational databases, SQL, of course, open source, everything
+we do around NoSQL analytics and governance of data.
+So that's basically the team that I lead. Being at Microsoft for 21 years, grew up as an
+engineer and working on the Windows team and then moved to SQL. And I've been
+there ever since.
+{BIO 22095432 <GO>}
+I have to share with you a very ironic thing. I was the worst -- I majored in
+engineering back in India. And I was the worst programmer on the campus. I could
+program and the jobs do not run on the mainframe.
+So I decided to be a software analyst instead.
+But I've been having a blast. Ironically, had I been a good programmer, I would have
+been a programmer and I would not have had a chance to cover the industry at a
+20,000 feet altitude related to.
+So you're doing this for 25 years, I cannot believe that I failed programming, but I'm
+covering the software industry while coming up on 25, 26 years.
+So with that funny -- a slightly embarrassing self-disclosure about my background
+out of the way, let's talk about the topic that is on people's minds, the coronavirus
+impact. It looks like Microsoft's Azure business is actually beneﬁting from this. Can
+you talk about how customer buying behavior or priorities might have changed for
+the better or worse with respect to coronavirus and your particular line of work on
+the Azure Data side?
+{BIO 19488761 <GO>}
+So thanks for that question, Kash. It's obviously a very relevant and important one.
+But ﬁrst and foremost, what I would say is our focus, frankly, has been helping our
+customers, the communities, our employees and partners, just dealing with such a
+challenging time, Deﬁnitely ﬁrst responders, health care workers has been a priority
+for Azure and, in fact, all of Microsoft. We deﬁnitely, to your point, seen some growth
+in Azure consumption, particularly when you look at workloads that enable remote
+work. I mean I think we've publicly spoken about the growth in the usage ofFINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 3 of 14Microsoft Teams, which, of course, internally relies on a lot of the Azure -- core Azure
+services.
+So that's deﬁnitely an area where we've seen growth. The other workloads, of
+course, the virtual desktop, Windows Virtual Desktop and the usage of Active
+Directory.
+Now speciﬁcally, it's interesting, as you called out, when I look at the data and the
+analytics business, it's been fascinating. And Satya sort of has mentioned this, where
+we've seen two years' worth of transformation in a couple of weeks. And we
+deﬁnitely see that in several industries who are looking into digitally transform
+themselves.
+Over the last, I'd say, at least 3, 3.5 years, we've been in conversations with several of
+our enterprise customers, both medium and really large ones, around their own
+digital transformation, which could be related to them -- everyone's looking at
+becoming a data-driven company where you have decisions that are made based on
+systems that actually give you the insights that are needed. This could be around
+better engaging with customers, building better products.
+So even the class like saving in operational cost by having a very deep
+understanding of the value chain. And at the heart of it, any such transformation
+causes a modern data platform, especially heavily focused on a cloud-native design
+that allows you to very economically scale, do predictive analytics, and so that's been
+-- that's the journey a lot of our customers have been on.
+Apart from newer renovation, there is -- what I will say is there's a lot of cost savings
+element as well, right, which is now you're able to sort of really pay for the services
+that you're using and you're not pre-provisioning a lot of resources like you had to
+do on-prem.
+So if anything, I've been hearing from several of our customers who have been on
+this journey who are looking at what happened with COVID as a way in which they
+can signiﬁcantly expedite their transformation.
+So in that sense, what I feel is just given disruption that you're seeing happen around
+digital transformation, we deﬁnitely see that as a trend that's going to have a positive
+impact just all up on the data analytics business. And speciﬁcally, if you look at -- I'll
+sort of speak about a few products like Synapses, our uniﬁed analytics story that we
+launched at Ignite last year, and there's been a signiﬁcant interest in our customers
+in leveraging Synapse because the simplicity it creates, everything from data
+integration to data warehousing to big data analytics into a single uniﬁed product,
+right? So there's a cost element there where our customers are looking at that and
+saying, look. How do I move to a cloud-native service that signiﬁcantly reduces not
+just the time but the cost?FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 4 of 14A - Kasthuri Rangan
+A - Rohan KumarAnd so -- and then -- and on the operational side, of course, we're seeing signiﬁcant
+growth in the migrations.
+So imagine existing SQL server customers who are looking to move their workloads
+to the public cloud to save on cost and build more intelligent applications by
+extending their workloads. The same thing we see with Cosmos DB, where a lot of
+the NoSQL workloads around Mongo, Cassandra, draft databases. Essentially, a lot
+of our customers are looking at moving their -- expediting their move of their
+operational databases to both SQL, Cosmos DB and our open source oﬀerings.
+{BIO 22095432 <GO>}
+Got it. And speciﬁcally, what about COVID, Rohan, is catalyzing this?
+{BIO 19488761 <GO>}
+I think there's two things. There is deﬁnitely a value piece, I would say, Kash, which is
+every industry at this point is looking at the investments that they're going to make
+to -- speciﬁcally, how do they -- there is the whole cost element, right, which is how
+do they save. And so there is that -- those discussions that are happening, which is
+the business requirements don't go away. If anything, if you look at driving the
+business based on clear insights, it becomes even more important.
+So the investments that they have to make to modernize their data platform,
+analytics platform, if anything, the urgency is built out. The discussions we are having
+because of COVID is they're saying, okay. So it's not just about the innovation piece.
+How do we actually get a lot more value in terms of lower cost? Right?
+And that's really where if you look at one of the key pieces of innovation, what our
+customers are expecting is, as they modernize their data platform, there is a ton of
+friction today, like if you look at -- I'll give you a speciﬁc example.
+If you look at modernizing of the core enterprise data warehouse, you may have --
+most of our customers have an on-prem system like a multi -- like a massively
+powerful processing architecture, where you have a scale-out design, which
+eﬀectively is, in many ways, has reached its limits in terms of how far it can scale.
+Now to go from that system to something in the public cloud, the amount of services
+that need to be stitched together to create a solution is very high.
+So this was a problem we realized about three, 3.5 years ago, and we were working
+on this service called Synapse, which greatly reduces the friction.
+So it's both in terms of time to insight and the cost it takes, the amount of
+engineering eﬀort you need to do to stitch together is drastically reduced, right,
+which directly translates into not just savings on time, but savings in cost,
+maintenance or software that you don't need to write, which the system is taking
+care of you.FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 5 of 14A - Kasthuri Rangan
+A - Rohan KumarSo COVID, I'd say, has deﬁnitely pushed -- our discussions with our customers are
+really pushing to understand that aspect, which is, okay, great. This digital
+transformation, we have to continue this journey obviously.
+But what COVID has pushed forward is how do we do the same thing while reducing
+cost.
+So the aspiration doesn't go away, but the discussions have turned a lot more into
+the value creation piece. Does that make sense?
+{BIO 22095432 <GO>}
+Absolutely. It certainly does. Just a quick reminder to clients that are dialing in or
+have dialed in, if you wish to ask a question, please chat the question up on your
+portal. I will pick it up here, and I'll pose it. And I will not mention you by name. It will
+sound really smart because the question is going to come from me.
+So I'll take the credit for your smart questions, but I will not identify you by name.
+Another question for you, Rohan. Microsoft and certainly other software companies
+have talked about how there has been increasing usage of the Azure platform within
+a set of customers in certain verticals, whereas other verticals have seen usage come
+down. What is the net eﬀect of this on the Azure business, the up versus the down?
+{BIO 19488761 <GO>}
+Again, it's a very good question. What I will say is, as it's expected, right, I mean,
+every customer that we sort of speak to in every industry, almost just across the
+board, everyone is sort of going through a very, very challenging time, right, just in
+terms of the situation they ﬁnd themselves in. And it is fascinating, though, like if you
+take a look at certain aspects that are clearly changing at a very fast pace. One of
+them we talk about is this whole notion of remote everything. That has like
+foundationally changed how people work. And for the foreseeable future, this is sort
+of going to remain. And as Satya mentioned, the discussions that we've been having
+with maybe CIOs, CEOs, CTOs, in terms of the investments that they plan to make,
+like everyone's eﬀectively acknowledged that the pace at which they're transforming
+has sort of become very, very signiﬁcant.
+There's clearly a call to reduce the TCO while maintaining their innovation agenda.
+They're looking at business continuity plans. I mean, that's a pretty big thing we look
+at. They're getting at where people are like, hey, what happens if a speciﬁc region is
+not accessible, how do we ensure that our business continues? So overall, we do
+believe that we are very well positioned to capitalize on all these trends given the
+oﬀerings that we have, both for the changes in terms of how we work, how we live
+that we're seeing and also, like I mentioned previously just the whole push towards
+getting -- having this data-driven culture where insights are truly driving your
+business, which means you have to invest in the data platform infrastructure.FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 6 of 14A - Kasthuri Rangan
+A - Rohan KumarNow in terms of the overall trends, what I will say is, especially for the Azure business,
+security, productivity apps, where we basically -- our business applications, the
+investments we are making for developers, we are seeing a ton of traction around
+there. And speciﬁcally, if I look -- had to just take a look at structural changes, the
+whole play we have with digital twins and IoT, that's sort of we see there's a lot of
+traction happening around that because there is this whole notion of like how do we
+replicate a lot of the IoT infrastructure very quickly to make progress.
+So everything around smart building, automated factories, remote selling, curbside
+pickup, just given the restrictions that are there, all these are leading to areas where,
+in the past, we hadn't maybe seen a lot of growth but because of the changes that
+we're seeing.
+Now overall, what I would say is, while it's hard to sort of -- clearly, in certain verticals,
+we are deﬁnitely seeing a lot of what we believe is a temporary contraction as they
+deal with the challenges they're going through, but we absolutely remain very
+bullish and have an encouraging view of what the future holds just given the
+oﬀerings that we have.
+{BIO 22095432 <GO>}
+Wonderful. It used to be that Microsoft SQL server was not that highly regarded. Like
+15, 20 years back, people would always consider the Oracle Database or the Sabre
+database is the truly enterprise-worthy database, and Microsoft SQL server is
+departmental installation. And we do our IT buyer surveys. Perennially, over a period
+of time, Microsoft had always come in second or third in terms of consideration. Now
+in the last two years, Microsoft has shot up in #1 position with respect to what
+customers are looking at, and Oracle slipped to #2 position. How did this happen?
+And what does this mean for the future of the database market? This is not an
+insigniﬁcant market. This is even bigger than the cloud computing market as at
+stands.
+But of course, cloud computing market, the compute and storage is going to
+naturally overtake databases.
+But databases are the highest value item in that IT sector. It's always baﬄed me why
+you can spend $40,000 per processor when you spend $3,000, $5,000 per instance
+for the operating system.
+So this highest value part of the IT stack where my job is now coming out of the left
+ﬁeld and rising in terms of customer priority. Talk to us about the signiﬁcance of this
+going forward, Rohan.
+{BIO 19488761 <GO>}
+Thank you again. I think it's a great question.
+So to the ﬁrst point that you raised around SQL Server 20, 25 years ago, it was more
+of a departmental database. I mean that's a fact, right? I mean if you take a look atFINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 7 of 14how we sort of started oﬀ, clearly, you had Oracle and others who had been in the
+market for a long time. And especially when it came to sort of I remember back in
+2000 earlier, that's between 2000 and 2005, that was the time I sort of joined the
+SQL Server team as well. That part was clear where a lot of the departmental apps,
+like the Tier 2, Tier 3 kind of workloads, SQL Server was gaining prominence.
+But to your point, there were questions around, hey, what about really running the
+Tier 0, Tier 1 mission-critical enterprise workloads.
+So what I will say, Kash, is over the last -- deﬁnitely over the last almost 20 years now,
+there's two things that we are very, very clearly focused on, of course, being very
+driven in terms of the technology trends that we've seen, the -- our relationships that
+we're building up with enterprise customers to learn how best to serve them.
+So there's two things. One was, clearly, we had to make substantial investments,
+which we've done over the several releases culminating right now, most recently with
+SQL Server 2019. If you look at the journey we started oﬀ of SQL Server 2005, which
+was a very pivotal release in terms of making like fairly substantial changes
+architecturally to enable very high scale, very high throughput, very low latency. And
+ever since then, we've expanded the total types of data we're dealing with. If you
+look at the focus we've had around high availability, disaster recovery, the focus on
+in-memory processing, just looking at hardware trend, how do we leverage SSDs, a
+lot better GPUs. More recently, if you look at process and memory, that's still
+becoming a big thing.
+So there's been a very laser and intentional focus on meeting the needs of the
+highest class of demanding enterprise customers.
+So that's been one part.
+The other thing really has been around -- the focus around the developer
+experience, the ease of use. Frankly, if I had to reﬂect back, the thing that really got
+us to be successful in the enterprise was this whole combination we had with the dev
+tools experience Microsoft was building inside .NET and Visual Basic and all that.
+And just the ease of you, the ease of managing.
+So that core aspect of making things easy, your database is not complex, was very,
+very critical. In fact, that's one of the pieces of feedback we heard where the
+adoption of SQL Server grew because you don't have to learn like 50,000 diﬀerent
+knobs to go set up your database. There's a lot of intelligence that we embed to
+make things very easy. If you wanted to build a highly performant application, you
+don't have to be a rocket scientist to do that, right?
+Of course, there's a certain amount of understanding of the system, relational model,
+relational algebra to see this thing and all.FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 8 of 14A - Kasthuri RanganBut that's a constant area of focus for us, how do we make it simple. And part of that,
+like I reﬂect back on that, Kash, is the genesis of Azure, the -- you go back to our
+mission, we talk about empowering every human and every organization to achieve
+more, it's really the basis of that comes down to us being a tools company and how
+do we sort of provide that to make things easy.
+So it's been fascinating. I mean, we've seen several analysts, of course, like you
+mentioned, in a lot of reports, we are coming across as the preferred vendor to run
+mission-critical applications.
+Over the last four, ﬁve years, and this is -- I actually -- this is my hypothesis on what
+foundationally changed us and put us right at the top of the data platforms is not
+only do we have this deep understanding of our enterprise customer market
+because of our heritage with SQL Server and how we grew with that.
+But if you look at the pivot since 2010 we've made into cloud computing, and having
+oﬀerings to manage not just SQL Server, but open source databases, now we're
+getting big into analytics, we have a fairly wide portfolio of services that we oﬀer.
+And when I speak to a lot of the CIOs, and frankly, with the CTOs, they say, look, we
+prefer SQL, we prefer Microsoft because we have a path towards -- we have -- we do
+want to sort of bet on a company that is well positioned for the future.
+So the investments that I make, let's say, on-prem today, even though I may move to
+the cloud over the next maybe one or three years, how do you ensure that all the
+investments we made around the app model, business model, et cetera, carry
+forward. And there, with all humility, I say this, I do believe as a data platform, both
+on the tech innovation we've done and the business model innovation to ensure that
+our customers who've been betting on SQL Server gets signiﬁcant value as they
+move to the cloud has been super beneﬁcial.
+So focus on like performance and scale, ease of use for developers and then the
+long-term bet, just given our portfolio in the cloud and our innovation agenda, has
+really resonated very well with customers.
+Sorry, that was a long-winded answer, but I just wanted to –
+{BIO 22095432 <GO>}
+It was very passionate, and so I completely appreciate that. When you look at the
+PaaS market, I think Mike Schutz[p]h has said for a number of years now that there
+will be a pivot within the Azure cloud business to PaaS. And PaaS has certainly higher
+value, higher retention, higher margin, less capital-intensive, albeit versus compute
+and storage. Can you talk to us about what the future of the PaaS business looks like
+for Microsoft? What are the biggest things Microsoft is investing to be successful in --
+on the PaaS side? Because our sense is that your exposure to PaaS is a lot higher as a
+percentage of your overall business relative to, say, an Amazon or a Google. Because
+this is Microsoft's legacy. This is where you're really -- this is where you came out,
+right?FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 9 of 14A - Rohan Kumar
+A - Kasthuri Rangan
+A - Rohan Kumar{BIO 19488761 <GO>}
+Absolutely.
+{BIO 22095432 <GO>}
+Can you talk to us a little bit more about what are your aspirations for PaaS?
+{BIO 19488761 <GO>}
+No. I mean -- and just again, what I will say is, I think, the -- our point of view really is
+where we believe, Kash, the investments are going to happen in the future.
+So there's multiple trends that are going on right now. There's clearly this element of
+what we call lift and shift modernization where a lot of our customers have strategic
+assets in terms of applications and workloads that they want to move to the cloud.
+And of course, they want to move to the cloud with very little investment on their
+side in terms of changes they need to make, right? So there's a whole -- and when
+you look at trends like that, while the oﬀerings that we have in PaaS have signiﬁcantly
+improved in terms of compatibility, we do see -- just to sort of reduce any change
+that they need to make, it's easier to move from, let's say, you have an application
+deployed in a virtual machine on-prem, and you just basically want to rent a virtual
+machine into the cloud to host that. That's deﬁnitely, in terms of friction and all that,
+it's the easiest way.
+Our belief is, while, of course, there is -- we have a huge business around
+infrastructure, and we support our customers with both Windows Server and SQL
+Server, that's a very key play for us, that migration motion. If we look at the future of
+how applications will be written, especially when you sort of start thinking around the
+intelligent cloud and the intelligent edge, where the applications will tend to be very
+distributed, what PaaS a layer enables you is you focus a lot more on your business
+logic, your scale requirements and not worry too much about how the underlying
+resources are getting provisioned, right?
+So when you look at like these new server-less or micro services designs that are
+becoming extremely popular among the developer community, those inherently, at
+their foundation, require a PaaS service, let's say, for your data layer, right? And now
+the oﬀerings that you need, the purpose build, let's say, you need a relational
+database, you need a NoSQL database, you want to sort of use open source like
+Postgres, MySQL and MongoDB, that -- those are developer preferences.
+So that compatibility is important, but the notion of creating a VM, provisioning desk,
+provisioning the network, tying it all together, all that complexity and making sure
+that you're behind -- securely locked behind the virtual network, all of those things,
+eﬀectively, the PaaS layer makes greatly simpliﬁed.
+So when you think about time to build an application, get ready, get the app running
+and going, there is no question where -- and this is a very strong point of view we
+have, is that the investments we have made in all the path up, like services that weFINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 10 of 14A - Kasthuri Rangan
+A - Rohan Kumarhave on the data and the analytics side, the way we are sort of thinking about
+functions is the app model where you basically just write your code and then the
+compute just gets provisioned for you to sort of get going, the simplicity for the
+developers that it creates is going to be pretty amazing.
+So if I look at all app usage right now, I would say migrations is deﬁnitely a very, very
+strong play.
+But I do believe if you play out the next maybe three to seven years, over that time, I
+do believe lots and lots of new applications, that's going to be written into the PaaS
+model.
+{BIO 22095432 <GO>}
+I heard from one of your resellers that last ﬁscal '19, I believe, and I won't mention
+numbers here -- expose anybody here, but there were a certain number of
+databases installed by the incumbent market leader that were actually replaced by
+Microsoft Azure SQL Server. Can you talk to us about what are you hearing from
+customers and partners with respect to any appetite, or is it just completely made
+up, to replace on-prem databases, albeit their superiority and what-not with a
+Microsoft cloud-based database?
+{BIO 19488761 <GO>}
+So there is a lot of discussion around that. And it's -- and there's two, I'd say, maybe
+broadly two things that are driving this discussion, Kash. The ﬁrst, of course, is there
+is a general approach towards like a company imagining, hey, as we sort of digitally
+transform, how does our -- all our compute data footprint look like, right? So there is
+a very natural thing around, okay, I don't want to sort of manage data centers, I don't
+want to manage physical machines, I don't want to manage power and everything
+that comes with it.
+So there is that strategic bet around, okay, let's go move our workloads to the public
+cloud.
+Now as a part of that, obviously every customer is looking at their spend, and they
+may be using diﬀerent versions of on-prem databases on-prem, and then they're
+looking at, okay, as we move to the cloud, both in terms of what is the modern
+architecture, what's the cloud-native design that helps me as I move, as I transition?
+Even if it may not be the ﬁrst step, you may move to an IaaS-based model, but then
+for the strategic workload or a strategic application, how do I get to the design point
+that essentially helps me scale, saves me cost, helps me build out intelligent
+workloads where I'm able to leverage machine learning and AI in a way that takes
+me forward? So we basically have both these discussions around -- independent of
+which database you are sort of coming out from. There is a very healthy trend in
+terms of migrations that we see from even competitive databases, on-prem, not just
+to SQL server, but even to things like Postgres, to things like Cosmos DB, depending
+on the nature of the workload that they're running. And this -- these move to
+eventual PaaS services essentially gives them that assurance, right? Like, if you
+believe that this speciﬁc application is going to be strategic for you ﬁve years fromFINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 11 of 14A - Kasthuri Rangan
+A - Rohan Kumarnow, making that investment that essentially modernizes it, so you can -- both from a
+performance, scale, security, ease of use, predictive intelligence, integrating that,
+and there's lots of high-value capabilities we've added to our PaaS services.
+So we deﬁnitely see a lot of discussions around that. In fact, what I will say is
+migrations, not just of SQL Server, but a lot of the on-prem databases and their
+corresponding workloads to the cloud, is our #1 motion.
+{BIO 22095432 <GO>}
+That's amazing. We always like to simplify complicated things in the technology
+industry into very easy to understand terms.
+The way I explain what's going on in the database market is, I would say to clients,
+look. Ferrari is a great car, but the use case for Uber is very diﬀerent. So -- and
+people at the margin want Uber. They don't need more Ferrari.
+So that's how I would characterize a shift to the database market from on-prem to --
+it's not a question of this or that, but where the incremental demand is coming from
+is more Uber.
+In the couple of minutes that we have, I'm curious to get your perspective. Azure's
+competitive advantage is a diﬀerentiation over AWS and GCP. If you want to just stick
+to database, that's okay.
+But if you have a broader perspective, how should we think about the edge that you
+have over AWS and GCP?
+{BIO 19488761 <GO>}
+Got it. Yes. No. I think it's -- that's a very fair question. In fact, we get that asked all the
+time. The thing I always sort of start oﬀ with is, while, of course, it's important to be
+aware of what trends, what investments are going on, the thing that fundamentally
+drives our innovation agenda is what we're hearing from our customers, our own
+point of view that gets built up in terms of how best to serve them.
+So that's -- it's interesting because it's not like -- when I take a look at my own day,
+I'm a lot more worried about, hey, what issues our customers are running into with
+where we have and how we're getting the signals from them because that's really
+the richest thing that we have in terms of the investments we make.
+Now some of the things that I normally share is what we've heard from our
+customers, right? Like when they're successful in Azure, they basically share multiple
+things.
+The thing that in many ways sort of stands out is our focus just around enterprise
+security governance. These are the things that we've learned, having worked with
+customers for more than 25 years now, where -- while there is a lot of talk aboutFINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 12 of 14performance, scale and predictive intelligence and how AI is going to change the
+world, which is all true and great, the reality is some of the biggest things customers
+worry about when they look at any major transition like this is, hey, is my environment
+going to be secure?
+If I'm putting my data somewhere else, what are the guarantees you're providing
+around encryption, isolation, just given everything else that they've heard around
+leakage, et cetera, right?
+So basically, that trust around Microsoft and the oﬀering. And it's interesting, you
+look at like how we've led in a lot of our products is the core capabilities that we've
+built around security, privacy, governance of data and sort of leading with that, and
+that's what our customers tell us that, hey, you have a very unique and a strong point
+of view there, which resonates very well with them, especially for ones that are from
+regulated industries like ﬁnancial services, health care, government, manufacturing.
+So these really resonates.
+The other thing, like you said, is we sort of brieﬂy discussed is this whole -- our focus
+around not just the current lift and shift in what you really need to do maybe in the
+next one to three years, but how do we believe our world evolves.
+Like we have very speciﬁc patterns that we talk to our customers and a very deep
+engagement manner around, depending on their business need, depending on the
+time frames they're looking at, they could go down the path of IaaS ﬁrst and then
+pick the strategic workloads. Or if they have a more longer lead time, how do we
+sort of short circuit that.
+And that's the other thing that we heard from our customers -- which is Microsoft has
+such a clear point of view based on our requirements. We don't force them on to go
+here, go there. It's always a discussion based on -- and we talk about what we've
+learned, right?
+Because in many cases, migrating to a diﬀerent database may not be the best option
+if you're looking at completing the move, let's say, within three months or six months
+versus just coming, saving the cost and then really looking at how do we do that
+transition because some of that, it could take a little longer.
+And that part, which is having that clear point of view of where the future we believe
+is, why do we believe that, and we also always talk about what Microsoft is doing.
+So for us, when we oﬀer these services, Kash, it's not just -- one of the things I always
+talk about in a customer presentation is, let me tell you how Microsoft has evolved
+and what decisions we made and why did we make them?FINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 13 of 14A - Kasthuri RanganAnd our ambition, really, and this is what Satya has eﬀectively made this one of the
+requirements for us, is Azure should be the computer for the entire world and
+Microsoft, of course.
+So we talk about our own journey, what are the best we are making, and that
+resonates very well.
+So it's not we do something diﬀerent and we are selling a whole bunch of services or
+products to our customers, but a lot of the learning, that Microsoft scale that we've
+had, helps us create that very clear point of view.
+And then ﬁnally, if you look at how publicly we've spoken about our investments in
+IoT, the intelligent edge, which we believe is going to become so critical, so it's not
+just about the cloud. It's not just about applications of the future. Almost everything
+that's connected is going to be intelligent. It could be all your consumer devices. It
+could be all your manufacturing plants, connected cars, whatever you have.
+And we have invested for the last three years in an application model which gives
+you consistency across all of these.
+So you don't have to worry about am I deploying this to an ARM device, which has
+low power? Or am I deploying this on a public cloud, which is like thousands of
+cores.
+The programming model is consistent, the security aspect is consistent. And as
+people get to understand more of this, they'll realize that the consistency, like today,
+for example, SQL Server, I'll give you an example, runs on everything from an ARM
+device, which is maybe less than 1 GB to 1,000-plus nodes running a Synapse query,
+right, across petabytes of data. And as a developer, you write the same T-SQL, and
+the security models, all the built-in AI is exactly the same for you to score. And that's
+super powerful, right, as these applications become very distributed.
+So I actually think -- and part of this comes from our genesis, our understanding of
+the developer community and the broader reach we're having with open source
+right now.
+So those are the things I'd call out is stuﬀ that our customers tell us is diﬀerentiated,
+and that helps us sort of build out our agenda. Hopefully, that was useful.
+{BIO 22095432 <GO>}
+Absolutely. Now that -- we're at the end of our allocated time, but it was very in-
+depth, very insightful. Thank you very much, Rohan. Thank you, Jonathan, as always,
+for your support, for everything you do for our conference.
+So with that, I just have a quick announcement to make. I believe the next
+presentation we have will be, one -- my colleague, Wamsi Mohan, will be doing a ﬁrstFINAL TRANSCRIPT 2020-06-02
+Microsoft Corp (MSFT US Equity)
+Page 14 of 14A - Rohan Kumarchat with Michael Dell, CEO of Dell Technologies, after which, I'll be with the CEO of
+Workday, Aneel Bhusri. We've got plenty of good presentations throughout the day
+over the next couple of days. Please consult your agenda.
+With that, Rohan, once again, thank you very much.
+Jonathan, thank you very much. Have a lovely day. Tanks so much for participating in
+our conference.
+{BIO 19488761 <GO>}
+Thank you so much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

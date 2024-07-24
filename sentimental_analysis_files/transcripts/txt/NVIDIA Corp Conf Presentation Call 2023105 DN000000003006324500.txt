@@ -1,0 +1,413 @@
+FINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 10, Chief Financial Oﬃcer
+, Analyst, J.P. Morgan
+Harlan Sur
+Colette KressJ.P. Morgan CES Tech/Auto Forum
+Company Participants
+Colette Kress
+Other Participants
+Harlan Sur
+Presentation
+{BIO 6539622 <GO>}
+All right. Why don't we go ahead and get started? Good morning, Happy New Year,
+and welcome to J.P. Morgan's 21st Annual Technology and Automotive Investor
+Forum here at the Consumer Electronic Show. My name is Harlan Sur, I'm the
+semiconductor and semiconductor capital equipment analyst for the ﬁrm. Very
+pleased to introduce Colette Kress, Executive Vice President and Chief Financial
+Oﬃcer at NVIDIA. It's been a tradition, nine years to have the NVIDIA team,
+speciﬁcally, Colette, be the ﬁrst to present at our investor conference, because the
+team is driving many of the trends that you're going to hear about today, right,
+artiﬁcial intelligence, compute acceleration, next-generation compute platforms in
+automotive and gaming and IoT. And in addition to that, the NVIDIA team is driving
+an emerging software and services revenue stream. So I've asked Colette to start us
+oﬀ with an overview of what the team announced on Tuesday at CES special address.
+And then we'll go-ahead and kick-oﬀ the Q&A. So Colette, thank you for the nine
+years of support and I will turn it over to you.
+{BIO 18297352 <GO>}
+Thank you. Really pleased to be here. We wouldn't miss it, even with a great weather
+that we're experiencing, we wouldn't miss it and come here. I don't need to make an
+opening reminder statement that the presentation discussions that we will have
+contains forward-looking statements, and investors are advised to read our reports
+that are ﬁled with the SEC for information relates to our risks and uncertainties facing
+our business. Okay, now that I have that out of the way.
+I want to ﬁrst start with some of the key things that we have been working on,
+probably since we've last discussed after Q3 earnings. Ada, Ada which is our
+architecture for our gaming platforms is oﬀ to a great start. We began earlier
+launching our 4090, launching our 4080, which is also becoming one of the most
+popular GPUs in retail, and we're here today to announce our RTX 4070 Ti version as
+well. So we're fairly pleased in terms of what we're seeing. But of course, our AdaFINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 10architecture is leading and we are still working in terms of our inventory correction,
+which is going as expected right now.
+Secondly, we are focused on bringing to market a large lineup of new products,
+particularly in our datacenter, we have our Hopper architecture, working on for many
+years and a really important improvement for many of the new types of workloads
+that are hitting the market. I think we'll talk a little bit more about that today.
+We are continuing to watch China and it's opening. China has certainly been
+through quite a bit in terms of with their zero COVID policy, it's still early for us, but
+we are watching them carefully. As you know in the last year in calendar '22, really
+challenges in terms of both our gaming and our data center based on the economy
+in China and the COVID lockdowns.
+But we are here at CES. We're here for the consumer, folks, both here for gaming, as
+well as for auto. So let me kind of discuss some of the things that we discussed.
+Talked about the 4070 Ti coming to market and we are also bringing our 40-series to
+notebooks. We have more than a 170 diﬀerent notebooks probably able to see
+throughout the ﬂoor at the convention center, but it is also fueled with our DLSS,
+which really helps bring AI and ray tracing to so many of the gamers.
+So our DLSS is in its third-generation, very similar to our ray tracing architecture
+being in its third-generation. We also have more than 50 new games using DLSS 3,
+both here and available, but also coming in the next couple of quarters. So we're
+really excited to see what we can do with our 40 series. But it's not just focused on
+on-premise gaming. Our GFN will now be available with our 4080. So GFN is our
+cloud opportunity for gaming and bringing a high end 4080 is a really great
+experience for those cloud gamers. I love the fun fact also what we're bringing is
+GFN to the automotive. We decided to bring those two things together. So we have
+several of our automotive makers that are looking to provide GFN inside of the car,
+so gaming everywhere and always. So we're really pleased.
+Moving to our automotive, probably one of the key highlights of our automotive
+announcements out here is Foxconn has decided to join and has adopted our Orin
+architecture for compute in the many NEVs [ph], not just the NEVs that we are
+already a part of, but any type of NEV, new energy types of cars across the world. So
+we're very excited about that partnership and their endorsement of the Orin
+architecture.
+There is more that we are seeing in terms of Omniverse. Omniverse has of course
+now been adopted by Mercedes in their next-generation factories, similar to some of
+the other automotive companies that are really seeing the need of the digital twin of
+the factories to ﬁnd the perfect combination of how to run those factories very
+eﬃciently and using the AI. So those are some of the key highlights I wanted to start
+with. There's a couple other ones, but a really great show, and we're really pleased to
+be here in person.FINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 10Harlan Sur
+Colette Kress{BIO 6539622 <GO>}
+And I appreciate that, Colette. Thank you for that. So I'll start-oﬀ with the ﬁrst few
+questions and I'll certainly turn it over to the audience to see if you guys have any
+questions. If you hit your guidance this quarter, revenue for calendar '22 is expected
+to remain ﬂattish. It's actually much better than prior downcycles and inventory
+collection cycles for the company. And I think it's a strong reﬂection of the product
+cycles, the diversiﬁcation. As we look into this year, ﬁscal '24 consensus has your
+revenues growing. What's the team's conﬁdence on driving growth this year in an
+environment where global demand trends will be soft, help us understand the trends
+and product cycles that will drive the business this year? And then maybe longer-
+term, how do we think about the overall growth proﬁle for the diﬀerent businesses,
+right, gaming, data center, ProViz and automotive?
+{BIO 18297352 <GO>}
+Yeah. The great way to start out in talking about, it's a new year, what do we want to
+see and focus on in the new year. One of the things that, of course, we can't control
+is the macro-environment around the world. And the macro-environment around the
+world is just not the same in every single country, each one of them facing a quite
+uniqueness. But we can spend our time focusing on our opportunities in front of us.
+As you are correct, we have a large portfolio of new products coming to market. And
+those even start with our data center business, one of our more important
+architectures, our Hopper architecture supporting the massive growth that we've
+seen in AI over the last several, several years.
+So not only is it about the Hopper architecture, but remember we're also bringing
+our Grace CPU to market. We are bringing in our networking business, our latest
+DPU to market with BlueField. And we will also be looking at a large part of our
+portfolio in networking at the higher speeds that are necessary to support the
+environment of data center computing architecture as a whole.
+We're not just focused on a singular GPU type of platform, we're really focused on
+the data center computing as a whole. And the environment couldn't be more set up
+right now, as folks have really understood that the ending of Moore's Law is now
+really here. And when you're in a situation of having to make choices, the movement
+to accelerated computing and the use of AI couldn't be more important for them.
+But that's only one part of it, as you know, in gaming with our 40 series, with the
+kickoﬀ of the 4090, we really believe this is a great architecture, the excitement of
+gaming and what a third-generation of ray tracing and DLSS can provide, not only to
+just gamers, but the creators out there. There's so many diﬀerent use-case
+opportunities of that ray tracing that really takes us into the workstations on ProViz
+[ph], when we talk about what they could also do with that. The creators thinking
+about the use of ray tracing and all of the work that they are doing.
+But then lastly, we're continuing a growth trajectory on our automotive business.
+Orin has been a home-run, both working in terms of that compute platform of many
+of the NEVs, but we also have an $11 billion pipeline moving forward and we're just atFINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 10Harlan Sur
+Colette Kress
+Harlan Surthat turning point that we could be getting to grow to a $1 billion business in our
+automotive realizing that potential of that $11 billion pipeline. But keep in mind, there
+is still work to do when you will see the work coming with our key agreements that
+we have with JLR what we have with Mercedes-Benz and Daimler. All of those are still
+in the future. So the growth is still here to go forward. So those are the things that
+we're focused on as we go forward, even in the current macro-environment.
+{BIO 6539622 <GO>}
+Near-term, I think, as you mentioned, the team has been working through excess
+channel inventories in gaming as well as your ProVis business, on gaming in
+particular Q2 -- Q2 and Q3 combined your shipping about 30% below end demand
+consumption of around $5 billion. When we went back and look historically after two
+quarters of under shipping demand, but typically -- the team typically does see an
+inﬂection in the business, you had anticipated channel inventories back to more
+normalized levels exiting this quarter, is the team still tracking to this milestone is --
+and is end consumption still trending at roughly that sort of $2.5 billion-ish run rate
+per quarter plus or minus, even in -- even in this sort of tough macro-environment?
+{BIO 18297352 <GO>}
+Yes. So the macro-environment and what we're seeing in terms of demand for
+gaming. In North-America and in Europe, as we've discussed, we're seeing solid
+demand. China has gone through a lot in calendar '22, the end of zero COVID may
+improve, but it's still too early for us to say. So it has been a little bit choppy in terms
+of China, and we had discussed that in our Q3. However, still gaming as a whole, is a
+very important area for us to focus on and the demand is deﬁnitely there and solid.
+Now moving to our series of the 40 series, bringing that to market, that's one piece
+of it in terms of the demand, but also again getting the correction of the channel.
+Yes, we are on track. As we leave this Q4, our Q4 at the end of January to be near
+normal channel levels and that can [ph] in the market. We believe that this is just
+through a combination of the holiday seasons, they really, really direct focus on
+making sure working with our AIC partners and our OEMs to move that channel
+inventory. And you're correct that that sometimes takes a couple of quarters to do
+that. And we moved quickly and we think it's working quite well.
+{BIO 6539622 <GO>}
+Perfect. Before I move on to some of the product segments, let me see if anybody
+has any questions before I move forward. So let's start-oﬀ with your data center
+business, it's more than 60% of your overall revenues in the business is tracking
+towards 40% year-over-year growth in ﬁscal '23, which is more than 1.5x the cloud
+CapEx growth last year and the team has driven roughly about a 70% CAGR over the
+past three years, which is about 2x, the annualized growth rate relative to the cloud
+CapEx spending growth. Our hardware team is forecasting cloud CapEx spending
+still up high single-digits this year, but more of the spending is focused on strategic
+compute initiatives like accelerated compute, right?FINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 10Colette Kress
+Harlan Sur
+Colette KressAnd so you combine this with the next-generation Hopper ramp, H100 ramp
+continued strong enterprise adoption, strong networking demand pool. History
+would suggest that the team should grow the data center segment by double-digit
+percentage growth rate this year. Help us understand the puts and takes around data
+center business in this challenging macro-environment this year, and conﬁdence on
+driving growth for ﬁscal '24?
+{BIO 18297352 <GO>}
+Yeah, there's a focus within the company to really get these great products to market
+that we have. The Hopper architecture that we're bringing to market in feeds so
+many great things. The AI market has expanded exceptionally since our last
+architecture. And not only just the advancement of the market as a whole, just the
+complexity, the size of the models have continued to grow. We're seeing three very
+important areas in AI that were probably in their infancy, or did not exist in the last
+three years or more. And those areas are these large language models fueled by the
+natural language processing, the recommended systems are yet another one that is
+still very, very important to monetization, monetization and marketing are very key
+area. And this last one that I think you've probably all seen during the holidays is the
+focus on generative AI. Really a great opportunity of both now creating these
+models, creating these trained models and seen what is now possible to be
+produced out of generative AI. We're very excited for those.
+But you also focused on key areas of the end of Moore's Law and what accelerated
+computing needs to do. We're in the right position with our architecture to both
+improve performance of nearly 5X or more from the last generation, but also the
+energy eﬃciency, because the concept at the end of Moore's Law, really built into
+the sustainability. What are we going to do with our data centers going forward, if
+we're not focusing on the eﬃciency on there. We're all set-up for all of these right
+things as the market continues to grow, it's not just Hopper, it is a full lineup across-
+the-board. We expect our Grace CPU to help inﬂuence the connectivity of working
+with our GPU, really working in terms of the speeds of all the work in terms of the
+datacenter. And so again, not being able to control the macroenvironment, we have
+a great lineup of products to help fuel growth to good start [ph].
+{BIO 6539622 <GO>}
+And the team started shipping Hopper, production and initial shipments in Q -- your
+ﬁscal Q3, server OEM availability was this quarter by Q4. Cloud instances available
+next quarter. The team noted I think in the last earnings call that Hopper is expected
+to ship in large volumes in the April quarter. Is that still the case? And can you just
+talk about the overall sort of cloud hyperscale customer traction, design-win pipeline
+so far with the H100 and how that compares to the A100 cycle?
+{BIO 18297352 <GO>}
+Yeah, each generation now of bringing our data center architecture to market has
+had more advancements and more connectivity with our customers. When we think
+about the work that we've done to bring this to market, it's not alone, it's with ourFINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 10Harlan Sur
+Colette Kress
+Harlan Surpartners, it is with our customers, and so much of the work and the anticipation of
+Hopper may have not been an excitement of here it is, because we've been working
+on it and working with our customers for quite some time. So those relationships are
+very important. They have been helping us both qualify it, working with it and being
+ready to bring this to market. We will bring production level H100 to market. This
+quarter we started some initial ones in Q3, but that is starting here in Q4. And yes,
+we expect a ramp into ﬁscal year '24, the ﬁrst quarter as well as we continue to ramp
+H100. So this is a big undertaking. It is a fabulous product. But the relationships in
+our work will really come through.
+{BIO 6539622 <GO>}
+You know, as we talk with a lot of the users, the power users of accelerated compute,
+right. One of the things that they are anxiously awaiting is a CPU, GPU architect, do
+you see CPU, GPU architecture, which is called cache coherency. But basically the
+thought processes memory sharing like eﬃcient memory sharing between the CPU
+and GPU that's not currently available, I think Intel, AMD, I think are two years away
+with the CXL initiative, but you're Grace CPU which is expected to sample. I believe,
+in the ﬁrst-half of the year that you guys have already pre-integrated cache
+coherency in your Grace CPU. Give us a sense of, like I said, your team expected to
+sample in the ﬁrst-half of the year ramp into the market in the second-half of the
+year. First is the team tracking to its timelines on Grace, and how do we think about
+the revenue proﬁle and the opportunity for Grace?
+{BIO 18297352 <GO>}
+Sure. So let's talk about why Grace and what our overall goal was there. When you
+think about the work that has been done for AI, or the work that's been in the data
+center, you can't ever accomplish that with just one GPU. We have been spending
+years focusing on linking together multiple GPUs, essentially coming up with
+supercomputers. Supercomputers to help both the size of the models, as well as the
+eﬃciencies and speeds of the work that they are accomplishing. We've done that
+both with our own interconnects and then came together with Mellanox as well
+working on that. But, now here is another important piece of why we brought Grace
+here.
+Grace gives us the opportunity to focus on the speeds between that CPU and the
+GPUs, but also focusing, as you mentioned in terms of the memory, and how can we
+make sure that it's the most eﬃcient processes that we can do. Our Grace CPU is
+focused on very large models, a large models focusing on AI, focusing on the
+supercomputing, focusing on high-performance computing workloads and many of
+our new things that we see in the future, such as digital twins and the amount of
+work that will take into account. So, Grace and Hopper go together. Yes, we're on-
+track for sampling in the ﬁrst-half and we'll bring this to market in the second-half of
+the year. This is an area where the design-wins of working with many of our
+customers, as they see this connectivity of putting the two products together to be
+great for their opportunities and we'll continue to work on that.
+{BIO 6539622 <GO>}FINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 10Colette Kress
+Harlan SurLet's shift the focus over to gaming. Despite the challenging consumer market
+demand for the new Ada 40 series gaming products. The initial ones, the 4090,
+4080 seems quite good where we check some of the online retail sites, 4090 is tight
+availability in most places. 4080 GPU card pricing is marked up about 10%, 15%
+relative to MSRP. So, this all suggests really good demand pull-through. You
+mentioned at the special address or Jeﬀ mentioned at the special address, 40% of
+your installed-base has adopted RTX GPUs and we're now in your third-generation
+of the RTX architecture. So with the new product launch, how should we think about
+the additional penetration rate into your installed-base and typically like how long
+are these GPU replacement cycles?
+{BIO 18297352 <GO>}
+Yeah. So great set of questions and agree wholeheartedly in terms of our 4090,
+4080 and what we're seeing out in the market. 4090 sold out quite quickly. We've
+already started the restocking about working with our AICs to do so. And the 4080 is
+doing very well in terms of in retail as well in terms of selling. We have RTX now in
+our installed-base of nearly 40%. So interesting, because we were probably on stage
+here several years ago, talking about what is ray tracing and are there going to be
+games of that. And now we have in our installed-base more than 40% focused on ray
+tracing.
+Ampere architecture probably it was about a third of that. And so now here we come
+with a third-generation and there's again great opportunity, because it's not just
+about that platform, it has been about our work with the ecosystem in creating the
+games that can now use ray tracing and use DLSS. So we're on a great trajectory
+there to see that take-oﬀ more.
+As we go-forward, in the new year, I think you're going to see more of our 40 series
+come to market. Now how do we think about how much of that will be sold to those
+that are refreshing versus those that are coming in as new gamers. Always tough to
+look out, but what we have seen is, we bring a new generation of the product to
+market, two-plus years, every two-plus years we'll bring a new generation. But what
+we see is probably refreshes some of the most important gamers out there to be a
+little bit over three years. So this is a great opportunity for not only upgrading to
+Ampere, but thinking about those that are in prior generations that have not
+upgraded yet, that is a material performance increase and a no-brainer for them in
+terms of purchasing. So, I think we'll see both new gamers and that refreshed.
+{BIO 6539622 <GO>}
+Let's switch over and talk about software. On your software solutions, you're
+enabling customers to come to market rapidly by developing full stack. We've
+always talked about the NVIDIA strategy as focused on ecosystem enablement,
+right? And a part of that is full stack development, turnkey solutions, managed
+services, you're monetizing your software platforms and you've got monetization
+opportunities across all of your end markets, right? The business is running.FINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 10Colette Kress
+Harlan SurI believe the software, services and ratable type of revenue streams, I think, is
+running in sort of low sort of $100 million sort of annualized run rate today, and
+you're now selling software separately, right? You've got NVIDIA AI enterprise,
+Omniverse, AV. Like how do we think about the size of these opportunities? And
+what's the monetization time line of these software and services-based
+opportunities?
+{BIO 18297352 <GO>}
+Yeah. Software is a very important piece in terms of our success almost in each one
+of our businesses. For many years, we have put software in both the ecosystem as
+well as in our products that enables customers to take out of a box and begin their
+work that they need, because we've enabled a lot about software. But there now is
+that opportunity to sell it separately. Why? It creates more of that relationship and
+the help that is needed for many of our enterprises. Our enterprises need that
+support as they are beginning their work on AI projects or otherwise.
+So we took this opportunity to break out software and sell it separately with our
+enterprises. You're going to see it in three major areas and probably more going
+forward. But the ﬁrst is NVIDIA AI enterprise. This is a core you should think about as
+the operating system of AI available for our enterprises and not only being sold with
+us and our partners, but also being sold with several of our CSPs, putting it in their
+marketplace. They really believe that it's not just about setting up cloud instances.
+They need to support that software that they are all using with NVIDIA to do that as
+well. So we're really pleased with that piece of work that's coming together. So
+NVIDIA AI is an important piece.
+The second one we've talked about is Omniverse. Omniverse really fuels, what we
+will see as the future of 3D Internet and folks really working not only on those three
+dimensions, but what you may see in terms of digital twins and work in that piece. So
+we'll sell that, whether that be with groups inside the enterprise or even to an
+individual that may be a creative working as well.
+The third one is our focus on software for automotive. Our focus is not just on NEVs
+and creating a computing platform in the hardware infrastructure, we have a
+signiﬁcant amount of work and eﬀort and design wins as we focus on AV. And so we
+are now able to do both of selling them that hardware, but also being a part of the
+software revenue stream that will enable within the OEMs. We'll be able to share that
+with them, with Daimler and both with JLR. So that is the more of the medium and
+long term with what we're seeing in terms of NVIDIA AI and Omniverse is here right
+now.
+{BIO 6539622 <GO>}
+In automotive, as you mentioned, team has an $11 billion design win pipeline that is
+expected to unfold over the next few years, but that business started to inﬂect pretty
+meaningfully in Q2 of last year. In fact, it's driving like 100% year-over-year growth. I
+think, this quarter driven by your Orin-based platforms, which are starting to ramp.
+You also still have in front of you the revenue-sharing opportunities with Daimler,FINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 10Colette Kress
+Harlan Sur
+Colette KressJaguar Land Rover in front of you. How should we model -- think about the ramp into
+this $11 billion automotive pipeline over the next three to four years?
+{BIO 18297352 <GO>}
+Yeah, you're going to see diﬀerent stages, but we've already probably passed an
+inﬂection point that we're seeing the growth of Orin with our NEVs. Why are the
+NEVs focused on Orin? One, both the performance level and when you're thinking
+about building an electric car, you're really starting from the ground-up and
+redesigning and having that central computing platform has been very important to
+them. Both our work now with Foxconn as well as many of the top NEVs around the
+world focused on this. It is a great opportunity to continue to ramp.
+Additionally, the next phase will be coming with our design wins, both on robotaxis
+and bringing some of the early AV to market. In this case, this can be both in
+infrastructure and may have some of our software incorporated in them well. But
+further more in the long term, probably when we get to calendar '25 is when you are
+going to see production vehicles for AV start to ramp and be a more meaningful
+position in our automotive. At this point, we're going to be now seeing that software
+really take oﬀ. Right now, we're still in the hardware infrastructure that's driving our
+revenue. But again, growing into that pipeline that we have going forward.
+{BIO 6539622 <GO>}
+On the ﬁnancials, how do we think about the OpEx proﬁle relative to the revenue
+growth, given you talked about a very aggressive cadence, right? So across your
+GPU, CPU and your networking product, the team is driving a two-year cadence.
+That's an extremely aggressive cadence. And then on top of that, you've got
+ecosystem enablement, you've got software development and so on. And so how
+should we think about the R&D or the OpEx intensity and that relative to revenue
+growth going forward?
+{BIO 18297352 <GO>}
+When the ﬁrst challenges of the economy had, it was a focus of ours to really slow
+down the hiring and so that we can focus on our teams that we have, that we could
+focus on our employees that we had. And that was the very ﬁrst thing that we did is
+slowing down that hiring. And we are continuing to work to try and keep on a
+sequential basis about as ﬂat as we can in this environment. You're right. We've got a
+very large portfolio of bringing new products to market, and they're quite complex
+in that work.
+But our business model and our structure as a company allows quite a bit of
+eﬃciency. What I mean that is, remember, we're essentially one architecture across
+everything that we do. All of our software is both forward compatibility and
+backwards compatibility. So having that consistent uniﬁed architecture has really
+allowed the eﬃciencies and how we structure the organization as a whole. And in
+this environment, that is helping us fuel bring this stuﬀ together. So we'll continue toFINAL TRANSCRIPT 2023-01-05
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 10Harlan Sur
+Colette Kress
+Harlan Surfocus on making the appropriate investments to bring these products to market, but
+we're always looking for new areas to ﬁnd eﬃciencies.
+{BIO 6539622 <GO>}
+Well, thank you. We look forward to monitoring the progress and the execution of
+the team this year. And Colette, thank you very much for your support.
+{BIO 18297352 <GO>}
+Great. Thank you.
+{BIO 6539622 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

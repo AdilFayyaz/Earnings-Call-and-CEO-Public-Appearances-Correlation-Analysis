@@ -1,0 +1,511 @@
+FINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 1 of 13, VP, Advertising Technology
+, CEO
+Unidentiﬁed Participant, Analyst, Unknown
+Brian BolandGoldman Sachs Technology & Internet ConferenceÂ 
+Company Participants
+Brian Boland
+Steve Chung
+Other Participants
+Presentation
+{BIO 17384107 <GO>}
+Good morning. Thanks for spending some time with us. My name is Brian Boland.
+I'm Vice President of Advertising Technologies at Facebook and in that role I'm
+responsible for the diﬀerent businesses that you will see here today, predominantly
+the work that we're doing to extend our advertising capabilities oﬀ of Facebook. And
+I thought before we jumped into questions it'd be useful to give a brief overview of
+the diﬀerent pieces that we have, from Atlas to Audience Network and to LiveRail, to
+give you a good sense of how these ﬁt together and what we're doing, kind of the
+method behind the madness. So that we'll walk through in the next little bit.
+If you dramatically oversimplify the ecosystem, this will help put in the context what
+we're doing. We are fully focused on advertisers, we're very focused on publishers.
+And we are focused on growing their business. If you hear one of the refrains from
+us, we talk about real business results constantly and we believe that that focus for
+advertisers of helping them grow their business, on one side. And on the other, are
+new businesses around helping publishers grow their business is a core focus. So
+those are the areas that we're looking at how we could extend technologies into an
+advertiser ad server and into a publisher ad server. Then the one spot in the middle
+where we can bring those together in ways that make it even easier for people to do
+digital marketing networks and that's in that kind of exchange spaces in the middle.
+When you think about the diﬀerent eﬀorts that we have based into those spaces,
+Atlas for advertisers, LiveRail for publishers and the Audience Network, which really
+extends advertisers campaigns easily oﬀ of Facebook and helps publishers very
+easily monetize their inventory. That's the gross over-simpliﬁcation of the market and
+the areas that we are particularly focused around.
+So let's go a little bit deeper into the way that the world has changed that has made
+these eﬀorts for us important for advertisers and publishers. Now a lot of this, like,
+really calls for a next generation of tools for advertisers and for publishers and what
+has brought that around is that there is a cross-device world now. We no longer haveFINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 2 of 13a simple world, we have a desktop computer and a single browser, where all of the
+technology from the last generation just works really well. We now have this multi-
+device world. And now when we think about what unique things we bring, people-
+based marketing is a core foundation for all of these solutions that we're bringing to
+the market, of moving beyond devices, of moving beyond cookies to people,
+because fundamentally what advertisers care about is reaching people and what
+publishers care about is creating great experiences for the people who use their
+services and monetizing those experiences. And in the core, that's really about
+people. We'll talk about why people-based marketing is actually something we think
+is pretty special.
+So you know the stats; device fragmentation is happening. We know that 60% of
+people are using two devices a day. And it's even worse when you start adding more
+devices. We know that almost 25% of people are using three or more devices a day.
+That trend is going to continue. You all know that coming pretty soon there's going
+to be watches that are more and more connected. They are going to be more
+devices in your home as TVs become more interconnected. So you will have a
+growing number of devices that are connected and you will be spending a growing
+amount of time with connected devices. This creates a challenge for marketers and
+publishers who need to deliver their messages to people in a really compelling way
+that actually grows their business.
+This is a fundamental problem that has been plaguing the industry. And we're
+starting to see those behaviors stir up for people. You may start browsing on one
+device and you ﬁnish browsing on another device. You've experienced that, you
+might be experiencing it right now on your laptop and your mobile device. You hop
+from device to device. Whilst other [ph] people are shopping in stores and they have
+their device with them while they are shopping. How many times have you been in a
+store and you are doing a couple of things. You may be looking up a product or
+products in the store or you just maybe on a service, consuming content, while you
+are shopping, very common experiences that we see people doing.
+Now, while these trends have happened, people still buy physical products in
+physical stores. Now this stat of the 94% of sales still happen in physical stores from
+the US census in 2014, this blows the mind of our engineers when we share that with
+them, because they think everything shows a bit of droner [ph] if they get delivered
+to their door. But the reality is that for most consumers they are still shopping in
+physical stores.
+So we have this math and challenge for marketers where there are these great
+devices that are connected to people. But there are now more devices that creates
+fragmentation. And there is this challenge where the business that they are trying to
+grow the sales that matter to tell whether their marketing works, happens oﬀ of a
+device. That's a very large challenge for our advertisers.
+And we think about what's interesting in mobile, mobile has really grown rapidly.
+And we know that there are a couple of key things that have been missing. One of
+those is targeting and measurement. We have highlighted the measurementFINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 3 of 13challenge a moment ago. If you are seeing an ad on your device and buying
+something in a store, I can't measure that until now. And we think about the
+technology, the existing technology has been cookie-based and was really designed
+to run a desktop browser world. And it doesn't transfer well to mobile. And it doesn't
+transfer well to apps. There are no cookies in apps, it does not exist. So those old
+technologies just don't cross the device.
+And ﬁnally, formats, if you think about your experience on mobile, you went from
+having this giant screen on your desktop or your laptop or you could see
+advertisements in diﬀerent places on that screen, you now have a much more narrow
+screen. You have a narrow screen or things happen in lines. So format and the
+evolution of the experience for people is a critical evolution for advertising that
+fundamentally work well on the mobile device. So those have been the challenges
+that we've seen on mobile and that we had to experience.
+If we think about what really matters to solve these challenges, the ﬁrst one is
+people-based marketing is a solution. They can help connect the experience across
+devices. Moving the technology from cookie-based to more modern people-based
+technology is the next one. Then ﬁnally, negative advertising, where the advertising
+that we're showing is very tailored to the experiences inside those apps and inside
+that mobile experience. That native component is critical to the evolution of
+advertising being successful, because it's great for people, you actually like it and it
+drives results for advertisers, which in turn drives yield and monetization for
+publishers.
+So how are we making that real in all these products? Atlas is the ﬁrst one we'll talk
+about, which is our advertiser solution and it is an advertiser ad server. That means
+that Atlas will deliver the advertising for marketers and will help them measure it.
+And we are measuring on a real people basis and we can solve the cross-device
+problem (inaudible). Now people-based is the crux of how we think about Atlas,
+both from a targeting standpoint and a measurement standpoint. We're not looking
+at cookies, we are looking at people, because we are able to use the log-in that we
+have on Facebook in an automized way to understand the delivery of people and
+the measurement that happens afterwards.
+Now, if you look at the current world, you have an ad that you show and that ad
+shows up across all these devices and across these screens. You can't connect them,
+because they are individual devices. So in the current system, this shows up as the
+compression. But we know that's not what's really happening behind the scenes.
+Behind the scenes is a human game, right. You are behind that screen, whether it's
+your tablet, whether it's your phone, whether it's your desktop, it is important to
+understand that there is a person that it's not six individual people or six
+impressions. But now we have three people. And because we can be people-based,
+we can understand more about those people and we can understand that we
+reached three men, we can tell you their age range that we reach those folks. We can
+say how many times and where. We don't do that on an individual basis. But
+understanding that we're reaching people, not devices, is important for marketers
+who care about reach. So by building a system on people based, we have solved theFINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 4 of 13challenge of knowing what real reach looks like in a fragmented and cross-device
+world.
+Now reach is good. But reach doesn't really get to business growth. It's important to
+understand how a business has had their sales be lifted by the advertisements that
+are being shown. And if you look at what happens in clinical trials, for medical
+clinical trials, you take patients and patients are real people and you can divide those
+patients into two groups. You have a test group and you have a control or placebo
+group, right. You divide people. Then you start to look at what happens with the
+treatment, because in any situation there are going to be people who does get
+better, right. What you want to know from the medicine is did it make more people
+better than the norm that would be healed regardless. And that's the importance of
+having a test and control group, because you can start to see the speciﬁc folks who
+are healed by the treatment more than would have gotten better normally, right. And
+that gives you conﬁdence that those medicines work.
+Now, we can actually do the very same thing with Facebook's technology when it
+comes to advertising and this the same great work that's happened in direct mail for
+decades, where we can look at the population, we can divided it into two groups.
+People whose see the ads and people who don't see the ads. And that enabled us to
+look at a control group and a treatment group to really tail this back to a lift in their
+real business results, not just, hey, we are going to take credit for anybody that might
+have seen an ad. But an important part of this is a lift in their business from people
+who saw these ads. That is critical to know where to invest your dollars, is that you
+don't want to just invest dollars. So that someone sees the ad, you want to invest the
+dollars so that it actually incrementally grows your business. In this kind of
+methodology, when we look at the control group, people are still going to buy the
+products in the control group. We look at the treatment group, more people will buy
+those products if the advertising is successful and that gives businesses conﬁdence
+that that channel, that publisher is accretive to their business and helping them grow
+their business, tying it back to real business results. It helps make better decisions.
+So here's an example of the campaign that was run on Facebook where we looked at
+a last touch methodology. So just a last click got all the credit and then we looked at
+incremental lift and the last click showed a terrible ROI for that campaign. But when
+you actually looked at whether that campaign was in or out, whether that publisher
+was in or out, we saw a huge change in the ROI, a 2.2x ROI of incremental --
+incremental donations to that campaign.
+If you are looking at the old technologies, in the last touch model, they're making a
+bad business decision. If you are looking at a lift model, right, which tells the truth
+about what grew their business or in this case grew their donations, they'll make a
+diﬀerent set of decisions around their ROI, right. So they would be missing out on
+incremental donations if they were using the older models. It's fundamentally not
+good for those businesses.
+And as I said earlier, not all of the sales are happening online. We know that so many
+of the sales, 94%, are happening in the physical world. So we need to take the stepsFINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 5 of 13to be able to measure against real world sales. And through partnerships, with
+companies like Datalogics. Through the work that we've done to connect oﬄine
+conversion measurement, we can now, in a privacy-safe way, understand the
+approaches that are being made in aggregate and show lift for real world physical
+purchases through things like loyalty cards, through things like the Datalogics'
+database, which has incredible ﬁdelity and can tie that exposure that ad that you see
+on Facebook, back to an action that happens in the store that we can tie back to that
+test and control methodology and give advertisers high conﬁdence that their
+business is growing in the online world, in the physical world, because of the ads
+they're running. Then with that information, they can make more sound investments
+and they can buy advertising that grows their business in a meaningful way,
+conﬁdently. That's what we are doing with Atlas. And that's where the focus has been
+on measurement, of making the shift in the world from last generation technology to
+more modern technology that can help them connect real-world sales with high
+conﬁdence across every device that people are on.
+Now, the next piece is around the Audience Network. And this is kind of the easiest
+way for advertisers and publishers to connect the work that they are doing with the
+kinds of targeting we have in Facebook, with the easy way to reach supply on mobile
+apps. And the Audience Network was designed to take that same kind of targeting
+that we see on Facebook that advertisers have become used to, that same kind of a
+native format and be able to extend that from Facebook onto another publisher. So
+here's an ad that would show up on Facebook and that same kind of a format, the
+same targeting easily ﬂowed into the Audience Network and can be rendered inside
+somebody else's experience.
+And the important thing that we're really excited about the Audience Network is the
+evolution of native advertising. Now, these experiences that are really relevant to the
+app and tailors that experience inside the app. And as we look at how publishers
+have started to apply this, we can see that they can create these great experiences,
+where just inside their normal format is an ad, that is a native ad. It ﬁts, it feels better.
+As a person using their experience, you feel better about these ads, because they
+feel less jarring, less outside of the norm of that experience and for a publisher, they
+like these for the same reasons. Design-wise it ﬁts in, from a standpoint of people
+using their site, it doesn't feel jarring, it feels like a natural part of the experience and
+it performs really well.
+So this is one of the things we're most excited about is this evolution of native
+advertising becoming more common across the app space on the mobile devices.
+We move from a world where you used to have all these pages, where you could put
+ads, where it was easier to put ads, there was less of a tax on people who use your
+service for the ad that you may put on the page. But now that it's a single column,
+now that the consumption is so focused on your attention, it is really important from
+a user experience standpoint that we, as an industry, get this right. And publishers
+have said this is very important for their business to get this right and have their
+experience be a compelling one for people. And by the way, the more compelling
+the experience, the better the user experience, the better the ROI for the publisher.
+They can monetize much better in this environment.FINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 6 of 13Now, LiveRail, our latest piece of what we are doing in ad tech in our last acquisition.
+LiveRail is around extending a lot of the capabilities that we've built on Facebook to
+publishers on the Web and publishers in mobile. This is about bringing this concept
+of people-based marketing, of bringing the idea around cross-device, of bringing
+that same accountability of measurement beyond what we've done on Facebook
+and onto every publisher in the world. To remind you where it ﬁts in, it is the
+publisher-centric solution, designed to really focus on growing publishers'
+businesses, help them create great user experiences and drive yield at the same
+time.
+Now, LiveRail has had a great history. They've been around since 2007. They have
+built a very, very strong video business, where they have a great set of publishers,
+you can see on the screen. And they've continued to grow with these publishers,
+who have been very excited about the potential of what we can do with the
+foundation that that team has built, coupled with the best parts of Facebook. And the
+ﬁrst thing that people are excited about is the concept around people-based
+marketing, of really starting to deliver to real people.
+The challenges that the publishing industry faces are around accuracy of delivery.
+We know when we look at the Nielsen data on desktops that the Internet average,
+when you start to get to narrow audiences is 32% accurate in targeting. When you
+get just gender, it's 59% accurate, which means 4 out of 10 times, you're showing the
+wrong ad on desktop. And the Facebook data is better than 90% accurate. And we
+look at mobile, it's even worse, because as we said earlier, the targeting and data
+doesn't work there. So for publishers, this is a real challenge and as people shift
+rapidly towards mobile, this creates an even bigger problem for publishers and this
+is some of the problems that we aim to solve with LiveRail on Facebook.
+We're looking, over the next few months, to extend our capabilities to mobile and
+strengthen that inside of LiveRail, truly extend these feel-based [ph] capabilities and
+start to bring some of those best-in-class components of Audience Network into
+publishers via LiveRail.
+Now, all these pieces work well together. If we think about the most important pieces
+that underpin all this, it's the people-based aspect and I've said that 50 times in the
+last 20 minutes. But that's our focus and it is really how we make that [ph]. The
+foundation across all of these and how Atlas will be able to bring campaigns onto
+LiveRail or in the Facebook, be able to measure across all of these touch points,
+including the rest of the mobile ecosystem and the desktop. We're going to have
+Facebook seamlessly connect into publishers via the Audience Network and then
+into LiveRail. These pieces connect together and really focuses on real people, the
+foundation and real results. Whether you're an advertiser or a publisher, we want to
+grow your business by proving for advertisers that they grew their sales and for
+publishers that they actually see better yields and that's kind of the foundation of
+what we're doing.
+So thank you and we can chat for couple of [ph] minutes.FINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 7 of 13Unidentiﬁed Participant
+Brian Boland
+Unidentiﬁed Participant
+Brian BolandThat was fantastic, thank you very much. We all have tons of questions about what
+you just went through. So hopefully that helps. How much of a game changer is
+people-based marketing? I mean it was something that was maybe touched on in
+the past. But it seems like that's the message that whether it's yourself (inaudible)
+really going out with, how much of a game changer is it for 2015 for advertisers?
+{BIO 17384107 <GO>}
+So let me un-time down that a little bit. It is a game changer. But it's hard to change
+the game in the course of a year. Changing the game takes a little bit of time.
+People-based marketing is fundamentally a positive step forward for the industry,
+because it does a couple of things. One, it has taken the challenge of mobile and
+this fear of oh my goodness! I don't know how to connect desktop to mobile and my
+world is just much more complicated. It's even worse on mobile, because it's not just
+apps. But you also have a browser on your mobile device and believe it or not those
+show up as two diﬀerent things in the old technology. So your own device looks like
+two. I mean that's hard to work around. So it is a game changer to be able to tie
+these components together and to help advertisers and publishers understand their
+reach of what's going on and being able to tie back to real-world sales, which is a
+key component of that people-based aspect. These are all great game changers. It's
+going to take time.
+It seems like there is a huge education process that has to occur. That was going to
+be the next question, what are you doing to help educate the advertisers?
+{BIO 17384107 <GO>}
+Yes. If you think about the advertising industry, it's big, right? If you look at the
+agencies, there are hundreds of thousands of people who work in agencies and the
+largest brands of the world have thousands and thousands of people who work on
+their campaigns. And you're dealing with functions from the CMO to the brand
+manager to the data people who execute the campaigns, the agency sides, the
+planning, there's like lots of people involved. And there's behavior change that we
+need to help them work through of valuing and goaling [ph] their teams oﬀ of these
+types of metrics. I mean imagine, as a CMO, you could goal your team on business
+growth. So instead of saying, hey, you need to reach this campaign. But you could
+say, we want to see X % lift in sales over this quarter. That will be real. That will take
+time. And we're doing a lot of work. We've done some great partnerships with the
+agencies, with Atlas as we launched it. We've engaged very heavily with the agency
+community to work closely with them, because they are a great partner in helping
+advice their customers on what works and there is education with their teams,
+hundreds of thousands of people who need to understand these new ways to
+measure campaigns, these new ways to plan campaigns, moving away from click-
+through rates as being be all and all [ph] that people just hugged on the click-FINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 8 of 13Unidentiﬁed Participant
+Brian Boland
+Unidentiﬁed Participant
+Brian Bolandthrough rate to now looking at sales. That's a shift. Then part of it's a conversation, a
+lot of data they work with the team and helping to make that process over time.
+Do you face any skepticism, because one thing (inaudible) said in the past is that
+marketing partners -- advertisers don't put a lot of stake in the ROI metrics that
+Google gives them, because it's their platform, right. So I mean how do you
+overcome those?
+{BIO 17384107 <GO>}
+One of the things that we have held a value from early on in our measurement work
+and this measurement work is not new. This is the culmination of years of work that
+people on our management team have done to really prove ﬁrst that Facebook
+works. I mean there was a big conversation last couple of years -- three years ago,
+does Facebook work? And this eﬀort, this work, this very work here is what's solved
+that problem and proved beyond any shadow of doubt that Facebook worked.
+So that was great work from our teams. Now, the way that we did that was not by
+being completely self-referential. And not saying, hey, buy our stuﬀ, by the way we
+work and you're going to just trust me on that, right. We totally get that. We have
+deep partnerships with companies like Nielsen. So Nielsen and Nielsen OCR are
+great products and they are independent in their industry standards that we support
+and that we actually think are great for the world. We don't try to create our own
+metric there as other companies have done. We believe in companies like
+Datalogics, who is an independent company, who provides that independent that
+third-party view that can say conﬁdently this works and we are independent and they
+have not mistaken again.
+Vendors like Datalogix say they can match an oﬄine sale to an online ad with about
+70% accuracy. When you think about the level of accuracy that the industry might be
+able to get to, do you have any views, can it be better than that?
+{BIO 17384107 <GO>}
+The industry can always improve and we can always get better. What we want to
+make sure that people don't get lost is how big of a step change it is to be able to
+match at that level. So you're dealing with a world where we are moving from having
+to have surveys where people scan their grocery bags, like they unload their
+groceries, then they are recording what they actually bought that day to much, much
+higher ﬁdelity, much, much higher sample sizes and incredibly -- (inaudible) levels
+much, much lower than that. Now we have ﬁdelities to go even deeper to
+understand campaigns and creative dynamics that where never before possible. But
+the industry will always improve, it's just -- it's important that we do this. And the
+reason that we've been so slow and methodical about this, is that the privacy aspects
+and putting people ﬁrst has been a design principle for us. So we want to make sureFINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 9 of 13Unidentiﬁed Participant
+A - Steve Chung
+A - Brian Boland
+Q - Unidentiﬁed Participantwe're very clear that we were doing things in a way that protected people's data that
+we spent time with the industry regulators to make sure that we're doing things
+really well for people.
+I want to pause for a second and see, we don't have a ton of time left. But questions
+from the audience. Up, there is one, sorry, way in the back, I can't see who it is.
+Questions And Answers
+{BIO 18384322 <GO>}
+Hi. Excuse me. Steve Chung, CEO of Frankly, a mobile messaging company here.
+Two questions for you. You mentioned native advertising on mobile. And one of the
+things that it's diﬃcult to scale, I think, is the custom ad units that look really native,
+because every app looks diﬀerent. Is that a scale challenge for you? And second
+question is, how important is location awareness in all of the ad products that you
+have and is that a focus for you?
+{BIO 17384107 <GO>}
+So the ﬁrst part, on the challenge of native advertising is that we've created a very
+generalizable format that makes it easier for any publisher to be able to take in the
+information required to show a native unit. It's simply a question of prioritization for
+those ad publishers. How they want to put their design resources to take that
+information and render it in a beautiful way inside their app. If you look at some of
+the examples that we've seen people create, they get very creative and have them
+feel like a seamless part of their app, that takes work. Much like everything else in
+life, the really good things take hard work. That's the kind of thing on native, that it is
+not as easy as just drawing a rectangle and things, ﬁll it with whatever you want. But
+it does yield higher results for the publisher and a much better experience for the
+consumer. So we're seeing publishers get much better about how they can start to
+think about that as a part of their design process. Important for them not to think
+about ad that they like ad on -- or just smack on the page somewhere. But really how
+do you elegantly put it in there, takes extra work. But again, they are already putting
+that work in the core design of their product. Why take a large % of your product in
+pixel space and devalue it by not putting the time in. So we're seeing folks start to
+learn how to do that in (inaudible). Our job is to make that as easy as possible and
+help them start to work their way through it. That's what we've been doing and I
+think we've done a good job on that.
+The second piece was around location. So location -- I think location at some point
+will be very interesting. Right now, we're very focused on these components of really
+helping people understand measurements through and through and then bringing
+target ability to mobile. Mobile targeting is very, very nascent today and something
+we think we can help a lot around.FINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 10 of 13A - Brian Boland
+Q - Unidentiﬁed Participant
+A - Brian Boland
+Q - Unidentiﬁed Participant
+A - Brian BolandAnother question in the audience. Okay. So many people, I can't scan the room fast
+enough. When your sales people -- I mean you guys have a lot of messages to get
+out to advertisers and agencies this year. When the sales people are sitting down in
+these meetings, what are their kind of top two or three areas of focus? How do you
+guys get them focused on the key messages?
+{BIO 17384107 <GO>}
+You might be surprised, people-based is one of the messages. We have been on an
+evolution with our business over the last few years of ﬁguring out who we are as
+Facebook and in the last three years, we've really understood the value that we have
+and that theme of people-based has been a core theme from the core people
+products, all the way through now into ad tech. So we have a very strong dialog and
+language on people-based, being one of the foundational things that we talk to
+people about. The second thing is around real results and we actually -- from the
+Facebook side told advertisers last year incorporating our pitches [ph], if you don't
+know for sure that we're growing your business, don't spend and that's a jarring
+message that people don't expect, because they are expecting just to try to pitch
+themselves up. But really looking and anchoring towards their business and helping
+them to focus on how would they feel conﬁdent, how they prove those real business
+results is the second message that ﬂows from the core base of teams across ad tech.
+And the last one is the shift to mobile. So as we have by necessity and by
+opportunity, done more and more on mobile, that's been a core part of the
+conversation and for a lot of marketers, this last year they saw their consumers
+spending more and more and more of their time on mobile. In the last holiday
+season they spent a ton [ph] of time on mobile. So for them it's a natural interest in
+what we can do on mobile. And that's one of the big -- that's a fair big part [ph] of
+what we talk there. So real people, real results and what we can do on mobile.
+And what could you do or what are you doing to help prove out the measurement
+side of it? So when you've got some early adopters that have fantastic result. But
+when you hear -- I think Sheryl [ph] talked about it on the last call, like we could be
+doing more. How do you help accelerate that process even more?
+{BIO 17384107 <GO>}
+Yes. It's back to that ﬁrst point around education and making it operational. So when
+you explain this to CMO at the high level it sounds great.
+But they get it. But --
+{BIO 17384107 <GO>}
+Because they love it, like the -- hey, you can make my digital media accountable, that
+sounds awesome. The steps to operationalize that it's being very targeted with
+customers to help them look at the campaign, let's pick a campaign, let's measure it.FINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 11 of 13Q - Unidentiﬁed Participant
+A - Brian Boland
+Q - Unidentiﬁed Participant
+A - Brian Boland
+Q - Unidentiﬁed Participant
+A - Brian BolandSo let's start with one campaign, let's understand the impacts of that campaign and
+how we'd operationalize that diﬀerently next time and we extend beyond that
+campaign to the next set of campaigns.
+So it's piece-by-piece on an advertiser basis. And with the agencies that's been a big
+part of helping us to scale, is that as we train the agencies and have them
+understanding these new tools and what this can mean, it's helping them advise
+their clients on ways to start to apply these in a more scalable manner. It will. But
+fundamentally, this will take time.
+Right. So that was going to be the follow-up question and then we have a question
+in the audience right here. But ﬁve years from now, would you be surprised if this
+isn't the way people are doing their advertising?
+{BIO 17384107 <GO>}
+I'd be happy.
+Can it happen that quickly? Is ﬁve years enough time, is three years enough time?
+{BIO 17384107 <GO>}
+It's super hard for me to triangulate on the amount of time. I mean it is amazing, ﬁve
+years ago, two weeks ago the iPad came out the ﬁrst time. It's like that thing blew up
+over ﬁve years. So like amazing things can happen in ﬁve years for this one. Man,
+there's a lot of people who need to make changes that's heart to say.
+I was wondering what can you share with us about the economics to Facebook
+between advertisers who use Atlas, how you beneﬁt, how they beneﬁt and how
+that's split or what the economics are to you? And secondly, in terms of the
+publishers who use LiveRail, do you share data? Do they tell you who their users are,
+do you tell them what their users are doing on Facebook, things like that?
+{BIO 17384107 <GO>}
+We can't really go into speciﬁcs on the economics or on the fact that that we believe
+that people measuring more accurately is good for the industry at large and fair
+measurement, true measurement is good for Facebook as it is for any other premium
+publisher. So great measurement is great. On the data front, we have very clear
+controls in place for how data can ﬂow. We don't share individual user data with
+publishers, we don't pass that around. There are things that publishers can take
+advantage of in the system, which is probably why we have the LiveRail system
+installed on their site. So they can take advantage of these targeting capabilities,
+without having to have information around people transferred to them, veryFINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 12 of 13Q - Unidentiﬁed Participant
+A - Brian Boland
+Q - Unidentiﬁed Participant
+A - Brian Boland
+Q - Unidentiﬁed Participant
+A - Brian Bolandprotective on the privacy side. That's one of the reasons that we built this technology
+that way.
+(inaudible)
+{BIO 17384107 <GO>}
+Yes. The question really is on insight, what kind of insights we'll provide back. We're
+very early on in the product life cycle for LiveRail. But helping advertisers -- right now,
+publishers are most interested in eﬃcient delivery. Over time, I think they will be
+more interested in insights and whatnot and that will be (inaudible) later date.
+We've time for just one quick one right here.
+How do you think about third-party ad buying tools and how they ﬁt into your
+ecosystem?
+{BIO 17384107 <GO>}
+So we think they are a critical part of our ecosystem. If you look at our evolution of
+the Facebook marketing partner program, we've had a long history of being an
+ecosystem friendly and ecosystem company. We continue to plan to help a healthy
+ecosystem grow. There are pieces that we need to do from a privacy standpoint and
+from a delivery standpoint that are part of the technology foundation that we'll build.
+We expect companies to be able to build great businesses on top of that.
+All right, with that, I'm sorry, we're out of time. Thank you, Brian. Very helpful.
+{BIO 17384107 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT FINAL TRANSCRIPT 2015-02-11
+Meta Platforms Inc (FB US Equity)
+Page 13 of 132024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

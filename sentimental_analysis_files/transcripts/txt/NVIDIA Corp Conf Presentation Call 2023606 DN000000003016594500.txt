@@ -1,0 +1,430 @@
+FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 11, Senior Vice President, Gaming
+, Analyst, BofA Securities
+Vivek Arya
+Jeﬀ FisherBofA Securities Global Technology Conference
+Company Participants
+Jeﬀ Fisher
+Other Participants
+Vivek Arya
+Presentation
+{BIO 6781604 <GO>}
+I am Vivek Arya from BofA's Semiconductor Semicap equipment team. Absolutely
+delighted and honored to have Jeﬀ Fisher, the Senior Vice President of Gaming at
+NVIDIA. And I call gaming the original gangster of acceleration at NVIDIA. So really
+happy to have Jeﬀ. So what we'll do is, we'll go through a few slides that Jeﬀ has
+prepared. But then, we will get into a ﬁreside Q&A.
+With that, very warm welcome, Jeﬀ. Over to you.
+{BIO 2373419 <GO>}
+Thanks, Vivek, and thanks for having me here. I -- just to repeat, you know, I am
+talking about gaming. You guys may have thought this is going to be about data
+center and all that. But as the original gangster of NVIDIA, thank you for that. I'm
+here to talk about and I'm excited to talk about gaming to all of you. I don't know if
+you -- most of you are gamers, but I expect all of your kids are and hopefully, they're
+all GeForce gamers, so maybe you can carry back some of this back to your kids.
+First of all, I think you're all familiar with our forward-looking statements. You can
+refer to our ﬁlings online to understand and read about the risks and uncertainties of
+our business. But that PSA is now over. So let's talk about gaming. PC gaming is
+strong, and it's getting stronger. It's not the ﬁrst time you guys have heard me say
+that. And it's still true and I still believe it.
+If you look at from 2019 to 2022, in spite of the tailwinds of pandemic and work from
+home residing, we have gained 100 million gamers from 2019 to 2022, according to
+Newzoo. And from that new base, we expect to see continued growth as more
+people come into gaming. Gaming is arguably the most important entertainment
+medium in the world today. It provides competitive -- a competitive environment,
+provides a social environment, provides immersive storytelling and ultimately, we
+evolve into a complete interactive entertainment experience. And for these reasons,
+we've continued -- we see a continued growth in folks coming into gaming.FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 11This is also evident in Steam concurrent gamers. They saw a surge of concurrent
+gamers through the pandemic and work from home. But they continue to see
+growth setting new records are now 33 million concurrent gamers on Steam. And if
+you compare GeForce gaming growth to the consumer PC market, the consumer PC
+market was largely ﬂat ending 2022 from pre-pandemic in 2019. While our GeForce
+gaming sell-through, units increased a whopping 1.4x over that period of time.
+If you look at GeForce gaming revenue from the same period of time, 2019 through
+FY '23 or 2022, we've seen a 20% CAGR annual growth rate over that period of time.
+And this reﬂects also a clearing of the channel inventory through the post -- through
+the pandemic -- the post-pandemic phase. This growth is driven by new gamers and
+creators coming to the PC unit lift, as well as ASP lift. And we can see gamers valuing
+more and more the GPU in their purchase and upgrade to PC of those gamers and
+creators that we can see have upgraded their PC, on average, everyone is upgrading
+to a higher class GPU. So our ASP mix is becoming richer, as gamers choose to buy
+up to a higher class of GPU. Both ASP and units have driven this growth and we
+expect to see a similar trend going forward.
+If you look at our installed base, there's a huge opportunity to continue to upgrade
+our installed base. Only 44% of the GeForce installed base is yet to upgrade our --
+has -- is on RTX. The balance is yet to upgrade. If you look at our latest
+announcement, the 60 class of GPUs, this is starting at our 299 class, the core
+gamers. Core gamers have a much longer replacement cycle. They have prior
+generation architectures, Ampere mostly turing or earlier and lower performance
+GPUs. This class of gamer is a huge opportunity for us to upgrade. Only 18% of our
+installed base enjoys a 3060 class of performance or higher. The balance all needs
+to upgrade. I'm super excited about the 4060 launch and what this class of gamer,
+what this segment provides for us in terms of opportunity.
+And last, I wanted to share with you a bit about our Ada ramp. As you guys know, we
+have -- we launch our products, our new generations from the top down, starting at
+the top. And for reasons you're also aware of, Ada has taken us a little longer to
+move down the stack than typical generation. So for this reason, we've got a fair
+amount of history on the 699 up class of Ada, this is our 4070 tie and up. And Ada
+from -- in terms of the revenue generated is ramping much faster, three times than
+Turing and about 40% faster than Ampere. We're super pleased with the Ada ramp
+to date.
+Some time ago, it became evident that Moore's Law was -- not was slowing, and was
+not going to allow raw transistors to continue to drive the gaming market. It was
+important for us to ﬁnd alternate -- an alternate path. And in 2018, we announced
+RTX. RTX featured Ray Tracing cores, so developers could create movie-class
+cinematic games and Tensor Cores for AI.
+The ﬁrst technology we delivered -- AI technology we delivered for gaming was
+DLSS, and DLSS provided a massive performance boost. DLSS 3, our latest
+innovation is a generative AI approach to rendering games. DLSS 3 uses generative
+AI to create 7 pixels for every pixel rendered. And you guys now, I think most folksFINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 11know how Gen AI works. But it has become a very powerful performance boost and
+quality -- image quality boost to games and gamers. And we now have over 400
+games and apps that are supporting DLSS in our ecosystem.
+From the start of our RTX launch, we've continued to innovate both in Ray Tracing
+performance, DLSS and AI features inside of our chip. The result is a 16 times
+improvement from the beginning of RTX to our current generation Ada in operations
+per pixel. This is eﬀectively a function of image quality and performance. So we've
+delivered 16x image quality and performance, while our transistor count has only
+gone up by 4x. The result is that, RTX has transformed gaming and built an
+ecosystem around a new level of performance and image quality.
+Accelerated AI, a game changer for all apps, especially gaming and Microsoft gave a
+huge boost to AI on PC, working to make the PC a ﬁrst-class client for AI at the Build
+Developer Conference a few weeks back. At Build, Microsoft announced a
+framework for AI model plug-ins for all Windows apps. And they released a set of
+tools for developers -- for ISVs and developers to build and provide models for all
+the Windows apps. NVIDIA and Microsoft announced a collaboration to accelerate
+all the AI models coming to Windows on NVIDIA GPUs.
+If you look at -- if you consider AI for PC and AI for all apps as the next killer app for
+PCs, which I believe could easily happen, you will need a range of hardware to
+accelerate like gaming and like graphics to accelerate all these AI models. If you look
+at our stack from our entry laptop, all the way up to our highest-end desktop GPU
+4090, we provide a huge range. And you compare that to what I'll call DLAs or VPUs
+or whatever you call them, there's a -- these are AI accelerators that will be built into
+future CPUs and SoCs for accelerating a number of these, what I'll call, small models.
+AI accelerators will be perfect for the type of mainstream AI apps like noise
+reduction, background blur, keeping your eye gaze at the screen. So that will
+become a broad base for work for developer -- for AI developer models. But for
+heavier weight models, things that the developers really want to change user
+experience like generative AI, all the way up to full character animation, again, like
+gaming, you are going to need an entire range of performance. And we have a
+family of GPUs to deliver that range of performance just like on gaming.
+At COMPUTEX, I said last week, I forget when I got back from Taiwan, I think it was
+last week, we announced our ﬁrst AI platform for gaming, ACE for Games. And it's
+really a great example of -- and look at what the future of interactive entertainment
+and gaming will be. ACE for Games is in one of our NVIDIA AI foundries where game
+developers can bring all of their game lore [ph] or their game -- even their game
+assets to NVIDIA to train a character to become knowledgeable, speciﬁcally on the
+domain of the game.
+If you talk to a character inside of a game, you could ask anything about the history
+or lore of the game. But if you ask it something about the 2024 presidential election
+or about Vivek, you don't want it to answer. You wanted to have no clue what's goingFINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 11Vivek Arya
+Jeﬀ Fisher
+Q - Vivek Aryaon. It will take you out of context. So this is what our AI foundry does, is eﬀectively,
+you bring your assets, you train them on our models and then you have a domain-
+speciﬁc character inside of a game.
+So ACE For Gaming is -- eﬀectively is three components; Riva which is our speech
+processing. It processes the input speech. You're talking to a character. It has NeMo,
+which is our large language model Gen AI chat -- chat model, which takes your input
+speech and ultimately, Riva converts it into text and NeMo will then create a
+response. And Riva then will take that response and convert it into speech back from
+the character.
+We have another technology called Audio2face, which will take that audio stream
+and convert it into an animated character, and that's a component of Omniverse. So
+between Riva, NeMo and Omniverse, these are the three main components that
+make up ACE for Games. Developers can either take them in total or take any piece
+of it and provide -- put them into their workﬂow.
+I want to show you a demo of ACE For Games, and I want to -- also want to point out
+that while that this was recorded in real-time and while the chat and conversation is
+speciﬁc to the game, it isn't prescripted. So let's take a look at ACE for Games.
+(Video Presentation)
+A peak into the future. So just to close, gaming is strong and it's growing. RTX
+transformed gaming. We've broken loose of Moore's Law. AI will be a game changer
+for all apps and speciﬁcally for gaming, and we're really looking forward with what
+that opportunity brings.
+So thank you for listening to my opening.
+{BIO 6781604 <GO>}
+Excellent.
+{BIO 2373419 <GO>}
+Vivek?
+Questions And Answers
+{BIO 6781604 <GO>}
+I think we could watch that game all day long and not go through Q&A. But can we?
+So maybe just to start, so you showed that very impressive chart of how there's a big
+upgrade opportunity. How large is the deployed base for NVIDIA gamers? And how
+has that deployed base grown over time?FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 11A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher{BIO 2373419 <GO>}
+Yeah. We've got the installed base of NVIDIA game, there's about 200 -- let's say,
+about 200 -- over 200 million NVIDIA gamers out there and GeForce-based PCs. So
+how has it grown over time? I mean, our units have grown at about 10% annualized.
+So I think that's probably a fair estimate.
+{BIO 6781604 <GO>}
+Got it. And one interesting statistic I saw there is that only 18% has upgraded to over
+a 3060 class. So why use the 3060 as the metric, like what's so special about the
+3060 to use as the metric, right? That should be used to compare (Multiple
+Speakers)
+{BIO 2373419 <GO>}
+Yeah. I mean, it's taken us a while to get the Ada series down to that 60 class. So
+there's a lot of talk about how much opportunity and what do we think of the 60
+series. And from my perspective, it is a perfect upgrade for that huge installed base
+of gamers. And remember, we're bringing 60 series all the way down to $299, which
+is below the price of our 3060. So it's to share with the team. I mean, some of my
+optimism about what's the market we have to go pursue with that device.
+{BIO 6781604 <GO>}
+Got it. And what have you seen so far in terms of the Ada adoption trends? Because I
+think initially, you only launched the high-end SKUs last year. But now I think as you
+mentioned, you launched the 60 SKU as well. So how has been the adoption of Ada?
+And who is the typical -- is it somebody who is two generations or three generations
+old? Who's the typical gamer upgrading to the Ada?
+{BIO 2373419 <GO>}
+Yeah, that's a good question. And it kind of depends on where in the stack we're
+talking about. I mean, I shared with you how the 4070 tie is doing relative to prior
+Gens. And, in fact, the early results from lower down Ada are also very -- are very
+strong. I mean, we're -- I'm really pleased with the Ada ramp. But you talk about, who
+is upgrading. And at the highest end, those gamers -- a 4090 gamer wants to play
+with everything turned on. They want to play the AAA games, they want to play with
+everything turned on. And from perspective of Ray Tracing and DLSS, they will see a
+2x improvement Gen to Gen. I mean, so if they're upgrading from Ampere, they are
+going to see a really great improvement. If they're upgrading from prior Gen, it's
+kind of -- it's a lot more than that.
+As you go down the stack, especially in the 60 series, those gamers have a much
+longer replacement cycle, they'll go back two generations or longer. So their
+comparison is relative to a Turing or a lower-end device or something even pre-
+Turing. And they're easily -- in that class, they're even at basic raster gaming, they're
+going to see a 2x performance as well.FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 11Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya{BIO 6781604 <GO>}
+Got it. What's the typical upgrade frequency? So if I look at a conventional PC, you
+know, people might upgrade it like in the four or ﬁve, six year, right? More likely ﬁve
+year or six year timeframe. What's the typical upgrade frequency for a enthusiast
+gamer?
+{BIO 2373419 <GO>}
+Yeah, it's -- I'll tell you my expectation and that is, at the highest end, those gamers
+will upgrade every generation. I mean, they like the best, they likely have the
+wherewithal to aﬀord [ph] the high end, each Gen. And that's about every 2, 2.5
+years, right? As you get to the bottom of the stack, I think we're stretching out to
+probably 3.5 years to 4.5 years for a replacement cycle. It's probably, we see more
+upgrades than we do new PC sold so it'd be shorter than the overall PC cycle, but
+that's about the frequency, yeah.
+{BIO 6781604 <GO>}
+So averaging somewhere around 3.
+{BIO 2373419 <GO>}
+3.5, 3, 3.5 years, something.
+{BIO 6781604 <GO>}
+3, 3.5 years. Yeah. Got it. And do you collect data on when they upgrade do they
+typically -- I assume they would upgrade to a higher-end SKU, right, than before?
+{BIO 2373419 <GO>}
+Yeah. Yeah, that's a good question. I mean, they -- we have some of our gamers who
+are using our client. I think we've talked about this for GeForce now, which will help
+keep your PC upgraded with the latest drivers automatically, and helps you -- and
+will automatically set the best settings for every game, which is these days, super
+important for your hardware. They also share with us their history. And among those
+users, we can see when they've upgraded a graphics card inside of a PC. And we
+have seen generation-to-generation gamers buying up more each time. The lift from
+what they had, to what they're buying continues to increase, which is a great
+testimony to the value they place on the GPU relative to other components in their
+PC, and what they're willing to invest in a great entertainment experience. So to
+answer your question, yes, we do see a increasing investment from gamers who are
+upgrading within our base of GPU [ph] users.
+{BIO 6781604 <GO>}
+Is it an easy way, Jeﬀ, to look at how much -- so you mentioned you have seen
+double-digit kind of unit growth, right, in your installed base. What about the
+content expansion for NVIDIA is? Has that also been 5%, 10%? What is the right way
+to think about what that content growth has been over time? And I asked that
+question because I think there have been two instances where I hesitate to use thatFINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 11A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Aryaword again, crypto because it caused a lot of confusion. But that created and have a
+normal lift on the pricing side. So if you kind of normalize for that, what do you think
+has been the average content right or mix up in your installed base?
+{BIO 2373419 <GO>}
+When you say mix up, that's what you mean by content.
+{BIO 6781604 <GO>}
+Yeah.
+{BIO 2373419 <GO>}
+Okay. Well, it's a good question. I -- the -- ﬁrst of all, when we look at -- when I look at
+mix up or upsell, remember, even in the days of, I'll call it, product shortages
+throughout the pandemic and work from home and crypto as you mentioned, we
+didn't really change our GPU pricing. I mean, the way I measured upsell was from my
+core price not what it ultimately got inﬂated to in the end market.
+And what we've seen today for Ada in this class 699 and up is a $300 to $400
+upgrade in mix in the high end. So gamers who are buying our high-end of our Ada
+are buying from a much lower class of product, which is super exciting for us.
+Ampere, it wasn't -- it was -- I'll speculate, it was in the $200 to $300 upgrade range.
+And Turing was probably a bit below that, so we've seen an increasing mix of
+upgrades over time.
+{BIO 6781604 <GO>}
+So just to get it right. So what you're saying is that people who upgraded to Ampere
+on an average bought a card that was $200 more expensive. And now those who are
+upgrading to Ada are buying something that is $300 or $400 more expensive?
+{BIO 2373419 <GO>}
+Right. Relative to what they had.
+{BIO 6781604 <GO>}
+Relative to what they had.
+{BIO 2373419 <GO>}
+Yeah. Relative to what they had in their PCs.
+{BIO 6781604 <GO>}
+Right. So if you were to do a similar mix up math over long periods of time. Is that
+also kind of a double-digit avergae across your base? Or is that a simple -- we like
+simplicity, so if you give us -- units and mix up, it will help us.FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 11A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher{BIO 2373419 <GO>}
+Well, we've -- I think -- I'm not sure if I'm answering your question exactly, but
+historically, we've seen about a 10% lift in units and a 10% lift in ASP over time. And I
+don't see any reason that necessarily that trend would change.
+{BIO 6781604 <GO>}
+I see. The one other interesting thing that you also alluded to is kind of the synergy
+in NVIDIA between gaming and data center. So from your perspective, right, how do
+you beneﬁt from having data center in the same company and that it's vice versa
+right? How do they beneﬁt?
+{BIO 2373419 <GO>}
+Yeah, that's a great question. I thought you're going to ask me why are we -- are we
+going to throw all of our money at data center and -- but I like it the way you phrased
+it better. The -- eﬀectively, I've been in NVIDIA a long time, and it's easy to see how
+this company has grown. I mean, we have a uniﬁed architecture across all of our
+devices. And unlike, I guess, many companies, certainly our scale, we have a single
+engineering -- hardware engineering team and a single architecture team. And the
+core of our products is, if you took it down to the atomic level, I guess, there's CUDA
+cores. And CUDA cores were used to build our gaming franchise, but they also are
+powering our AI hardware.
+So the investment in CUDA cores will continue to drive road maps, both on the data
+center AI side, as well as the gaming side over time. Also, our -- I think Jensen just
+often describes our company as a giant kitchen and he likes to be involved in the
+cooking, as you can imagine. But inside the kitchen is -- are these really incredible
+technologies that are shared across our businesses, and while we've been investing
+and driving our AI platforms for data center for quite some time, we're now starting
+to bring them over to gaming.
+I mean, you could see ACE for Gaming is taking Riva, NeMo, Omniverse, all things
+you've seen in our other businesses, and we're now bringing them into -- formatting
+them, bringing them into a game development community. So it's a very powerful
+the company, and the way we've organized and our uniﬁed architecture is very
+powerful for all of our business. And you can see we try not to stray too far outside of
+them, because it's hard to leverage that investment.
+{BIO 6781604 <GO>}
+Got it. Just one near-term question. As you look in the back half of the year, there's a
+lot of concern about consumer spending, right, the non-rebound in China and so
+forth. So how do you think about the growth of gaming? Do you think you're
+expecting kind of a typical seasonal lift? Or do you think that right, things are going
+to be tougher in the second half, given all the consumer macro concerns?
+{BIO 2373419 <GO>}FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 11Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ FisherYeah. We are -- Q1 came in as expected and it's seasonal. I expect the year, we'll see.
+I expect the year to play out with a seasonably larger second half. I think the -- and
+I'm also assuming some stability relative to where we stand today in the world. I
+mean, anything can change. China has got some pockets of strength and also macro
+weaknesses. Europe, I would say, has a similar scenario as the US. But generally, the
+base of business, the foundations of our business relative to people want to game
+and they want to play the latest games. And (inaudible) caught it, but Diablo IV, a
+huge game is now out in open beta, soon going to be released. We expect that and
+Starﬁeld and Call of Duty next to really be drivers for folks coming out and
+upgrading their hardware for games. So in spite of the -- all of the macro, we are
+optimistic that we'll see a regular seasonality this year.
+{BIO 6781604 <GO>}
+Got it. Jeﬀ, if you look out over the next 5 years, 10 years, do you think this remains a
+hardware business? Or does it become a software and subscription business over
+time? And what would be the pros and cons if that were to happen?
+{BIO 2373419 <GO>}
+Yeah. Well, I think it's going to be a hardware business for the foreseeable future. I
+mean, I think that as games have got a long way to go to deliver what I always refer
+to as real life in real time is going to take a continued hardware investment and the
+most economical way to deliver that is really on the client. Gamer buys a PC, he can
+have the best experience local. It may continue to move up the stack.
+As you guys know, the volume of the mainstream has largely disappeared that entry
+class of GPU, but the gaming segment remains quite strong. So -- but I don't know if
+you have a question about the cloud there, but I -- ultimately, gaming will expand,
+and we'll have these massive universes. I hesitate to use a word metaverse, because
+it may be a dirty word in the room. But I do think that these large interactive shared
+experiences are going to become super important and not just important, but the
+way people are going to want to play games over time.
+So while local PCs are going to be used for rendering and some AI modeling, the
+cloud will play a more important role over time. And that -- the cloud part of that will
+likely be subscription-based. Software will always be a component of driving
+gaming, but I think what you'll be either buying or subscribing to is hardware local or
+in the cloud.
+{BIO 6781604 <GO>}
+All right. And maybe one last one. So NVIDIA has enjoyed very strong 70%, 80%
+market share, right, among enthusiast gamers. Your competitor is also bringing out a
+number of new products, and they can also buy transistors from the same foundries
+if you can.
+{BIO 2373419 <GO>}
+Yeah.FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 11Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya
+A - Jeﬀ Fisher
+Q - Vivek Arya{BIO 6781604 <GO>}
+So what gives you the conﬁdence that you can maintain this kind of very high, right,
+premium market share?
+{BIO 2373419 <GO>}
+Yeah. Well, they buy the same transistors. So that's great. I mean, at the core level,
+we're at a level playing ﬁeld, and we can then innovate on top of that. I mean, I want
+to point out that those of you read the headlines about ASPs and pricing, and we
+oﬀer a full stack. I mean, we now oﬀer -- our 4090 is actually priced below the 3090
+tie. I don't know if anybody realizes that, but -- and the 4060 is priced below our
+3060. So we have a range of prices. And if a competitor comes out with certain
+pricing, that's ﬁne. A gamer can pick between them or GeForce.
+But what we've built really is a promise of compatibility and performance to our
+gamers. I mean, we release a new driver with every major game that -- that comes
+out. GFE will update your PC or you can go get it from the web and download it.
+And that's a cadence about once a month. And the new drivers aren't ﬁxing bugs
+because the stability, compatibility is awesome for GeForce, they are improving the
+performance of new games that have come out, and they've been fully qualiﬁed on
+new games that come out. So gamers know that.
+We've also built a broad channel. Our channel knows that if they stock GeForce, that
+it will sell. So they can conﬁdently take in our new product and make it available
+globally worldwide in every country within about three weeks of us launching a
+brand-new product. So availability is huge. And we also have an ecosystem. We have
+a very large, massive team of hardware and software engineers that call on game
+developers. And the purpose of that is to make sure that games and our technology
+really shines and game developers know how to take advantage of some brand new
+things like AI and ACE. As a result, games coming out, they run best on GeForce,
+400-plus DLSS games and apps is a real testimony to that.
+{BIO 6781604 <GO>}
+Excellent. Thank you so much, Jeﬀ.
+{BIO 2373419 <GO>}
+Okay. Thanks, Vivek.
+{BIO 6781604 <GO>}
+Really appreciate your time. Thanks to everyone.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it FINAL TRANSCRIPT 2023-06-06
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 11solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

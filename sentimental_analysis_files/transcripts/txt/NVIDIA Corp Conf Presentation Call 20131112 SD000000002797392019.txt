@@ -1,0 +1,472 @@
+FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 13, VP, IR
+, Analyst, Wells Fargo
+Unidentiﬁed Participant, Analyst, Unknown
+David Wong
+Rob CsongorWells Fargo Technology, Media & Telecom Conference
+Company Participants
+Rob Csongor
+Other Participants
+David Wong
+Presentation
+{BIO 17161335 <GO>}
+Well we're delighted to have Rob Csongor, VP of IR at NVIDIA with us today. So Rob,
+I guess you're going to have a few slides. And then we'll ask all the diﬃcult
+questions.
+{BIO 3210739 <GO>}
+Okay, perfect. Hi, everyone. Thanks for having me, David. It's good to be here.
+Please note our safe harbor.
+For those of you familiar with NVIDIA, or, if you're not familiar with NVIDIA, I would
+summarize what we do in a nutshell and say that NVIDIA focuses on segments of
+markets where visual computing matters.
+All right. So within just the images on this slide, I think visual computing matters in
+special eﬀects like what you see in "Gravity." How many people here have seen the
+movie, "Gravity?"
+Two people. Everyone else is working.
+All right. So, if you've seen "Gravity," or if you haven't, the special eﬀects in "Gravity"
+are amazing and the entire visual eﬀects in "Gravity," are done using NVIDIA. So it's
+one of the areas of focus for the Company.
+But the other areas are automotive, the ﬁnance world increasingly using GPUs for
+compute of model, options models, simulating weather. And then, of course, the PC
+gaming market.FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 13So these are all examples of visual computing. We actually organize our Company to
+focus on large segments where visual computing matters. So gaming is one of the
+largest segments. Gaming is going to be over $20 billion business worldwide this
+year.
+It's being driven primarily by PC, massively multi-player games growing at 14%
+CAGR. China is our largest geo for that market. But also being driven in the US by
+blockbuster games being released this Christmas.
+And these segments, gaming, professional visualization, high-performance
+computing. And big data, allow us to consistently outperform the PC market. And I'll
+show some of the latest data on that.
+We monetize ourselves. We view ourselves as a technology company. But we
+monetize our technology in four ways now. It used to only be two.
+So when we were in the PC business, we monetized our technology in the form of
+chips and boards. But now that we're going into markets where people want to
+design their own chip, we now license our technology. And we are now delivering
+complete systems to segments of the market, again, where visual computing
+matters. So we've expanded our business model within recent history.
+So what I'd like to do here -- and I'm going to target roughly 15 minutes just to cover
+the highlights of the business, focusing on news out of our last earnings report,
+which was last week. And then open up for Q&A.
+Our last quarter, Q3, the highlights are our revenues were up 8% from the prior
+quarter. And, again, outperforming the PC market, primarily due to PC gaming, both
+desktop and notebook.
+Quadro -- so, Quadro is our professional products. Quadro was actually a record
+revenue quarter for us. Tesla was also a record revenue quarter. And then Tegra -- in
+Q2, we had our trough quarter with Tegra. And we went into production with Tegra
+4, started shipping a number of devices, automotive is a growing opportunity for us.
+And Q3 was also a record revenue quarter for automotive.
+We had near-record-high gross margins of 55.7%, non-GAAP. Those are the second-
+highest gross margins in the Company's history. Most of the dip in gross margins
+was due to our Tegra business coming back. And I'll talk a little bit more about that.
+In addition to kind of baseline businesses and GPUs that are growing, we have
+momentum in growth businesses that are signiﬁcantly ramping. So as opposed to PC
+gaming, which is growing at 6%, Tegra, Tesla. And GRID are undergoing very rapid
+growth momentum. And I want to highlight some of the things happening there.FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 13Then ﬁnally, last week at our Q3 earnings, we also announced our intent to return
+another $1 billion in capital to shareholders in ﬁscal 2015. So I'll talk a little bit about
+that.
+Okay, this is a breakdown of the moving parts within our GPU business to show you
+how we're outperforming the PC market. Overall, PC market, according to Gartner.
+And this is year-to-date, is down 11% since the beginning of the year. And in that
+same period -- and, by the way, this PC market 11% is actually both units, as well as
+revenue, vendor revenue. The numbers are slightly diﬀerent. But they're both
+roughly 11%.
+For that exact same time period, year to date, our gaming GPUs within desktop and
+notebook were up 6%, Quadro up 12%, Tesla up 43%, while our mainstream OEM
+notebooks declined 8%. Now, the mainstream OEM notebooks happen to be the
+largest volume. But they're also the lowest gross margins.
+So the net result of this is, overall, NVIDIA year to date, up 4% versus the PC market
+at 11.
+On the PC gaming growth side, there's really two things that are driving our
+business. Number one, performance leadership within desktop PCs is extremely
+important. Our chief competitor, AMD, had a release of their product. They received
+good reviews right up until we announced our product within days after theirs. And
+the end result is that we have a very good. And according to the reviews I'll show
+you, a grip, a retaining grip on the performance crown.
+One of the surprising segments for us is the emergence of gaming notebooks. So
+we quietly introduced a technology last year called Optimus, which lets us put a GPU
+into a notebook and use zero power -- zero, not low. But use zero power unless it's
+used.
+So the end result is that you saw an emergence of very thin notebooks which use the
+integrated graphics within the notebook. And then only if you're using or playing a
+game, then the GPU turns on. So the end result is you can now design notebooks
+without any penalty in battery or weight. And this is an example. So this segment of
+our notebook business is actually, of course, much better gross margin and is
+helping to oﬀset some of the decline in the mainstream notebook.
+These are some of the reviews on the 780 Ti. I don't need to go into too many of the
+details on that.
+I already mentioned the Quadro business and the -- some of the uses for it in these
+movies.
+Let me talk a little bit about our Tesla business. This is a new business for us. We've
+been investing into this business for quite a while. But in terms of revenue, it's justFINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 13recently starting to ramp. And there's a number of key indicators to look at that give
+you early indicators of our future success in this business.
+First of all, a high-performance computing system with a GPU is now referred to as
+an accelerated system. It's an HPC system with an accelerator. Okay. So just in terms
+of terminology.
+Intersect360 Research did a census of systems and what you're looking at on that left
+chart is the growth in the number of systems that now have an accelerator in it. And
+that -- you've seen a growth from 22% to 44% within the last -- from 2010 to 2012.
+Within those systems, NVIDIA is the accelerator of choice.
+So I think some -- you may have heard that Intel got into this space with their product
+last year. And, at this point, NVIDIA GPUs are in 85% of those accelerated systems.
+But probably the most signiﬁcant growth indicator to look at is that middle column.
+So none of our products, none of the products or GPUs that NVIDIA makes is worth
+anything unless there are apps that take advantage of the capability within the GPUs.
+And this is probably the single biggest driver on our ramping revenue.
+Last year at this time Q3 was our previous record quarter for Tesla. And that was
+primarily driven by one big win, the Titan supercomputer in the Oak Ridge National
+Labs, a computer called Titan. This quarter was a record Tesla quarter but without
+any signiﬁcant big supercomputer win. It was all composed of primarily application
+run-rate business that's accelerated by a Tesla, which for us, is very good news.
+So this is the data that supports that increase in run-rate revenue that we're seeing.
+There's one other business that we're very excited about. Last year we introduced a
+product called GRID, which takes a GPU and puts it into the data center. In fact, you
+guys, the ﬁnancial world, are one of the target audiences. Not very far from this
+location there are several ﬁnancial institutions that are doing trials of this product.
+The ﬁnancial world uses virtual desktops. I know that you guys use them. And
+sometimes struggle with them, in terms of the performance of those. What GRID
+does is accelerate Citrix and VMware. When you move your VDI across the screen
+and you see that stuttering, just imagine that it's now GPU accelerated. And you're
+just doing data.
+So for other companies in the world, product lifecycle management, companies that
+have to have a centralized amount of data, more than just numbers, pictures, videos,
+other forms of assets, what we've done is develop a way to accelerate virtual
+desktops.
+So the end result of that, if you look at the overall momentum, these are all the data
+points that are supporting our growing momentum there. First of all, Citrix andFINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 13VMware are using GRID. We were the Best of Show at VMware's show back in
+October, VMworld. Virtually every major OEM now is shipping GRID -- Cisco, HP, Dell,
+Hitachi, Fujitsu, IBM.
+Last week we announced Amazon has now deployed GRID servers to provide
+services for people who are looking for faster graphics and gaming. Then, the
+number of apps, GRID-certiﬁed apps, has grown.
+So there's -- the left chart there is probably the single biggest indicator or path to
+revenue. The good news is that there's a lot of desire and a lot of need for this type
+of service. But it takes time. You don't just walk into a large ﬁnancial institution or into
+a large aerospace company and show them a demo and then they say, okay, we'll
+switch overnight.
+So it takes a while and we've been in customer trials now for quite a while. And the
+customer trials are ramping. Part of the reason that the customer trials are ramping
+so signiﬁcantly is that we also have a virtual sales force now within Citrix and a lot of
+our partners that are out driving this.
+So this is a very exciting revenue opportunity for us. We are just starting to lift oﬀ. We
+have customer trial revenues. But we see this as a signiﬁcant growth driver for the
+Company, going forward.
+I mentioned in Q2 that our Tegra product lines had -- were basically in a trough.
+What we had was our previous generation Tegra 3 ramping down production and
+we were late to market with our Tegra 4. And we were late to market because we
+were -- had made a strategic decision to move in some projects, basically our next
+generation Tegra, which is called Logan. And then our phone product called Tegra
+4i. In Q3, revenue ramped back, as Tegra 4 went into production.
+So what you saw was not just a number of designs. But a number of diﬀerent types
+of designs. If I was to summarize what Tegra is about, Tegra is about Android. And
+Android is about more than just phones.
+So when you say the word "Android," I think many people equate that to phones. But
+I think, as you're seeing, Android is, right now, revolutionizing a lot more markets and
+a lot more types of devices than just phones. And this is just an indicator of some of
+them -- tablet, transformer convertible tablets, all-in-one PCs -- this quarter there was
+a display from ViewSonic that's an Android display -- set-top boxes and automotive,
+automobiles with Android coming too.
+One of the interesting highlights of the quarter was a phone was announced from a
+company, Xiaomi. For those of you familiar with Xiaomi is one of the hottest
+companies in China selling phones. And it's a perfect example of -- or a proxy for
+what Tegra is used for.FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 13The Mi3 phone is their new high-end smartphone. They market it as the fastest
+smartphone in the world. It was reviewed by the Chinese press against Apple,
+against Samsung. And it was conﬁrmed as the fastest smartphone in the world. And
+Xiaomi launched it and made that phone NVIDIA, targeting the Android gaming
+market and targeting the largest Android gaming download market in the world,
+which is China.
+So within that segment they use NVIDIA. And then for mid-range types of devices
+they use other solutions where visual computing isn't as critical. So that's a perfect
+proxy. It's a perfect example of what our strategy is in Tegra.
+But in any case, the phone launched. They sold the initial 100,000 units, I think, in 86
+seconds. The next 200,000, I think, shipped in a matter of minutes. So this is an
+exciting product.
+Let's see. Overall, I think I mentioned that this quarter was a near-record-high gross
+margin. I don't think -- what I want to show here is that with all of the initiatives and
+the focus on visual computing targeting these vertical segments, we're not just
+outperforming the PC market, we're also managing to drive margins. In all of the
+areas where visual computing matters, it takes an enormous amount of technology
+and software. And the ﬁnancial results of all of this is steadily increasing gross
+margins and cash generation.
+And even with the dip in Q3, I think Q3 dip just reﬂected the fact that Tegra revenues
+had come back in the quarter. And Tegra revenues are below the corporate average.
+So we viewed it as a good thing.
+Increased capital return. This earnings call we introduced, ﬁrst of all, increasing the
+quarterly dividend from $0.075 to $0.085 per quarter. We announced the intent to
+return $1 billion in capital to shareholders next year, inclusive of dividends and the
+share repurchases. And we announced the authorization from the Board through to
+the end of FY '16.
+So I think, in summary, summary of the growth drivers right now, GPUs continue to
+outperform the PC market. I already outlined a lot of those. And then Tegra revenues
+ramping back. I talked about Tegra 4 and about Android. I talked automotive.
+The one thing I didn't talk about is Project Logan. So Tegra 4 was late to the market
+this year. And, as a result, we lost some critical designs. Project Logan is not late to
+market. That was the beneﬁt that we received for the -- for moving Tegra 4 out. So
+we're looking forward to bringing Logan to market in the coming year.
+Okay. That's all I had.
+Questions And AnswersFINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 13Q - David Wong
+A - Rob Csongor
+Q - David Wong
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor{BIO 17161335 <GO>}
+Well thanks very much, Rob. Just one clariﬁcation. So you mentioned Logan. You had
+-- you said the coming year. Can you help us with more speciﬁcs? Are we talking
+about First Quarter, Second Quarter? When does it have to be out in order to be
+early?
+{BIO 3210739 <GO>}
+Well we haven't announced a release date. But we did show it recently at an editors'
+day in Montreal. And we showed a demo that had been running six months ago on
+our highest-end GPU, on Titan. And it's that face demo that you may be familiar with,
+David.
+And at the editors' day we showed that demo running on Logan on a mobile chip.
+So it got a lot of buzz in the press. But other than that, it's obviously out at customers.
+And then we look forward to launching it. But we don't have a launch date yet.
+{BIO 17161335 <GO>}
+Well does anyone have any questions? We've got lots of people and lots of interest.
+This is being webcast. So, let's use the mic.
+Thank you. Could you just -- I don't know your story very closely. So could you just
+tell me approximately the -- what % of your revenues is from discretionary spending,
+i.e., gaming, versus non-discretionary, which I would characterize as autos and
+perhaps other things?
+{BIO 3210739 <GO>}
+You're asking from an OpEx?
+Revenues.
+{BIO 3210739 <GO>}
+Oh, revenues. Revenues. So I would say that of the -- I mean, last year, last year for
+the $4 billion or so of revenue that we reported for the year, Tegra last year was
+about $750 million of that. The remainder of it was GPUs, split between our diﬀerent
+businesses.
+This year, the Tegra number is less than that. And we reported that it was less by
+about $300 million due to one segment of the market, in particular, Windows RT,
+that had not performed or didn't happen the way we thought it was going to
+happen.FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 13Q - David Wong
+A - Rob Csongor
+Q - David Wong
+A - Rob Csongor
+Q - David Wong
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob CsongorBut that's -- for last year, that was roughly the revenue. And then for the coming year
+we'll see. We expect Tegra to be one of the larger growth drivers for next year.
+{BIO 17161335 <GO>}
+But just to push on that, Tesla and professional graphics are the things that go into
+work stations and non-consumer-type things. So can you give us a rough percentage
+of what that percentage is, Tesla plus professional?
+{BIO 3210739 <GO>}
+Yes. We had a previous presentation. I think we had put out something in the August
+timeframe that basically said that market, at least for last year, was roughly $800
+million.
+{BIO 17161335 <GO>}
+So a little --
+{BIO 3210739 <GO>}
+And that was last year.
+{BIO 17161335 <GO>}
+A little less than a quarter of NVIDIA's revenue.
+{BIO 3210739 <GO>}
+Yes. But it's also our highest gross margin business, as you know. That's both the
+Quadro and Tesla businesses are pretty much the top of our gross margins.
+What are the eﬀects of the console upgrade cycle on PC gaming?
+{BIO 3210739 <GO>}
+The eﬀects of console gaming is actually good. Historically it's been good. And we
+expect it to be good this time. When the consoles come out, the architecture for the
+console, as you know, is frozen roughly a year ago. And during that time, of course,
+CPUs and GPUs evolve.
+So at the time that the console comes out, it's -- I would describe it as a high-
+performance mid-range PC. There's performance optimizations you can do because
+it's a console. And you can do some things to it. But, basically what it ends up doing
+is bumping what I would call the mid-range of our GPU products, which happen to
+be where a lot of our volume is.
+We talk about these very high-end products. And we sell them for $1,000. But it's not
+the volume of our GPU business. Most of it is within the $199 to $249 price range.FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 13Q - David Wong
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob CsongorAnd those are the segments of the market that beneﬁt from a lot of the games that
+are being developed for the console.
+{BIO 17161335 <GO>}
+Other questions?
+I was just wondering, what do you see as some of the best embedded opportunities
+for Tegra?
+{BIO 3210739 <GO>}
+The best embedded opportunities? When you say "embedded," I'm assuming that
+you're talking -- you're not talking about Tegra devices? Or are you --
+Well I mean, like in terms of -- like, if you look at the automotive segment. Is that --?
+{BIO 3210739 <GO>}
+Oh, okay.
+Yes.
+{BIO 3210739 <GO>}
+So it's -- we recently -- on the earnings call, Jen-Hsun was asked, what's our biggest
+growth driver, what does he see as the biggest growth driver for next year. And his
+answer was Tegra.
+So on the Tegra side, we just see the momentum of Android as just something --
+nothing short of phenomenal. Android is moving into devices and markets at a rate
+that we've never seen with any kind of operating system before.
+So everything from micro-game consoles in automobiles and displays and set-top
+boxes. Just a whole diﬀerent bunch of devices.
+So within those segments, there's a lot of those devices that are going to require
+really good visual computing. So the problem is the visibility on some of those
+devices isn't as clear. I think the car one is very exciting to us. And that's visible to
+you, at least on cars that have been announced, cars like the Audi line and BMW and
+Tesla S. Those are all using NVIDIA.
+But there's a lot more types of devices and a lot more uses for Tegra within those
+applications. So for example, within automotive the ﬁrst application use was the navFINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 13Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - David Wong
+Q - Unidentiﬁed Participant
+A - Rob Csongorsystem. But now you have rendered instrument clusters. You have collision detection,
+pedestrian detection, a lot of computer vision applications that are coming.
+Is the auto leading-edge stuﬀ, or is that older generation technology that kind of has
+a --?
+{BIO 3210739 <GO>}
+Oh, that's -- no, that's all completely leading edge. That's all research and
+development.
+Just to give you an idea, there was a report released recently about autonomous
+cars. And when you read it at ﬁrst, it looks like science ﬁction kind of stuﬀ. But you
+can already see a lot of applications going into cars where computer vision and --
+you have a -- when you park the car, there's an overhead view of the car. But there's,
+obviously, no camera there. There's cameras on the side. And then they're using a
+GPU to create a visual eﬀect that looks like you're looking at the car from above.
+So all of those are -- require a lot of visual computing. And they require very low
+power. So that's why the -- That's why Tegra is being used and not one of our big
+GPUs.
+{BIO 17161335 <GO>}
+Other questions?
+Can you talk a little bit about what's going on with Shield these days?
+{BIO 3210739 <GO>}
+Yes. Shield is our gaming device for the Android market. Shield is doing well. But the
+modest -- but the revenues are modest. And we knew it would be like this. That's why
+we've tried to understate the expectations a little bit for the revenue for Shield.
+If you read -- the number one focus that we had was, ﬁrst, to build a product that was
+really good. And if you read the reviews, the reviews are fabulous.
+But we knew that it would take time to get Shield into the hands of developers, get
+them to really become familiar with it, get them to become familiar with the
+hardware, develop applications that really take advantage of it. Discover the markets.
+Get with the right partners and get the word out.
+In a lot of ways it reminds me of NVIDIA's GPU eﬀorts in the early days. A lot of what I
+just said is actually very similar to what we did in the early days of getting GeForce to
+be a gaming platform for the PC. Shield as a gaming platform for the Android
+gaming market is a lot of the same types of eﬀorts.FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 13Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - David Wong
+Q - Unidentiﬁed Participant
+A - Rob CsongorThis one's kind of a weird, funky, or hypothetical question, I guess. But I know in our
+talking with Intel and stuﬀ, they've always said we wouldn't do any sort with
+competitors. But they've been doing little things with other guys recently. And stuﬀ.
+And they don't really compete on sort of the big performance GPU side. If they were
+to ever come to you, would you guys be interested in that? Would that be something
+of --?
+{BIO 3210739 <GO>}
+You mean from a foundry?
+Yes.
+{BIO 3210739 <GO>}
+Oh, sure. Sure, we'd love to talk to them. You'd have to ask them.
+I mean, we actually partner with Intel on a lot of stuﬀ. I mean, these notebooks that
+I've been talking about, they use Intel integrated graphics when you're not playing a
+game. Then with our GPU using Optimus technology it's zero and then it turns on.
+So it's an interesting relationship. We partner on some things and compete on
+others. But as far as their foundry goes, yes, I mean, we'd be -- of course we'd talk to
+them.
+{BIO 17161335 <GO>}
+Final question, perhaps.
+Can you talk about the size of the notebook GPU market? And also, can you talk
+about your China GPU market? I know that attach rates in China are much higher
+than the rest of the world. And what are your views on that? Thanks.
+{BIO 3210739 <GO>}
+Okay. Yes, I don't know that we -- I don't know that we speciﬁcally break out to that
+level of granularity. But let me try to answer your question kind of at a high level.
+The notebook business, for us, has been a pretty good-sized business, I would say,
+roughly half that of or maybe a little bit less than that on our desktop side.
+But it's been predominantly, up until this point, mostly mainstream OEM notebooks,
+which is much more of a low-margin. So as I pointed out, kind of the commentary on
+that business has been it's been declining just on the mainstream side, which I thinkFINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 13Q - David Wong
+Q - Unidentiﬁed Participant
+A - Rob Csongoris not a surprise to anybody. It's declining, I think, at a rate that's better than the
+market decline on notebooks.
+But then, the margin side and the revenue side is being oﬀset by emergence of
+gaming notebooks, like I just described there. And we see a lot more of the
+notebook OEMs jumping in on that. They're jumping in to make some money in a
+segment that appears to be growing.
+In a way, I think the notebook OEMs may be doing exactly what NVIDIA has done.
+You focus on a segment where visual computing matters. And then you deliver a
+product to that market. And the PC gaming market is clearly growing. So I think
+we're seeing some of that.
+Your second question was around China and the attach rate in China. The attach rate
+in China is, I think, the largest in the world for us. It is -- the attach rate in China, I
+think, last time I checked, was in the 80s. So it is a very -- it is our largest geo. It is our
+largest business. It's one of those things that you have to go see, whether it's iCafes
+in Beijing, or whether it's the IT malls or the PC gaming market in China.
+Ironically, China, which used to be synonymous for making no money in software,
+has become the poster child for how to make money in gaming software. So in
+China, everything is free. It's massively multi-player games, free to play. And then
+they -- you get all these micro-transactions. You want a faster car, you want a better
+character, all this stuﬀ. And it's only $1. So ironically that's -- again, it is our largest
+geo.
+{BIO 17161335 <GO>}
+Very last quick question. Yes, no, or $3 billion.
+Just more on Tegra 4i. Can you just talk about opportunity for further design wins.
+And opportunities, maybe, vis-a-vis Qualcomm, to -- What's the strategy there to try
+to get some more design wins.
+{BIO 3210739 <GO>}
+Yes. That's a good question. So the one thing that we announced this quarter was
+that we received voice and data certiﬁcation for our modem from AT&T. The best
+way I would articulate our strategy on Tegra 4i is to just articulate our overall strategy
+on Tegra.
+Tegra, again, is focused on Android. And Android includes phones. But it's not just
+phones. So we believe that we'll have opportunities for phones. But our strategy is
+not to take over the modem market versus Qualcomm. Do you know I mean? If you
+look at our focus, our focus is always ﬁrst on visual computing. And then, within the
+phone market, a modem helps you use your visual computing advantage versus
+other people.FINAL TRANSCRIPT 2013-11-12
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 13Q - David Wong
+A - Rob CsongorSo I think, again, within the Tegra market, as within the phone market and these
+other markets, we're going to look for areas where visual computing matters. And
+the modem helps us, in that case, within the phone space.
+Then, of course, for all other devices that are not voice, the phone is the only one
+that requires voice modem, all other devices, we believe long term, will require a
+data modem. And that, we believe, is extremely critical for Tegra.
+{BIO 17161335 <GO>}
+Thanks very much, Rob. Really appreciate it.
+{BIO 3210739 <GO>}
+Hi. thank you, David. Thank you very much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

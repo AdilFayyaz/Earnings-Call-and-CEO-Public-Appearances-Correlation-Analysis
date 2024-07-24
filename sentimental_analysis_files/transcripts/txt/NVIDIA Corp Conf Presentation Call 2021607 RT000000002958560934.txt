@@ -1,0 +1,486 @@
+FINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 12Jensen Huang, Founder, President and Chief Executive Oﬃcer
+Manuvir Das, Head of Enterprise Computing
+, Director of Investor Relations
+C.J. Muse, Evercore ISI
+C.J. Muse
+Simona Jankowski
+Manuvir DasEvercore ISI Inaugural TMT Conference
+Company Participants
+Simona Jankowski
+Other Participants
+Presentation
+Well, good morning, good afternoon, everyone. Thank you for joining us. My name is
+C.J. Muse -- and Research for Semiconductors and Semiconductor equipment.
+Thank you for joining Evercore ISI's Inaugural TMT Conference, this afternoon. Quite
+pleased to have Nvidia and more speciﬁcally Manuvir Das, Head of Enterprise
+Computing, which -- he's s quite timely given what we've heard most recently at
+Computex as well as I guess, a few months back at GTC. We also have Simona
+Jankowski on the line Director of Investor Relations.
+And with that, let me turn it over to Simona real quick.
+{BIO 7131672 <GO>}
+Thank you so much CJ for hosting us. Before I turn it over to Manuvir, I just wanted to
+very quickly cover our forward-looking statements. So as a reminder, this
+presentation contains forward-looking statements, and investors are advised to read
+our reports ﬁled with the SEC for information related to the risks and uncertainties
+facing our business.
+Okay, with that, I'll turn it over to Manuvir.
+Yeah, thank you very much CJ and Simona. I thought what I would do CJ at the
+outset is just talk a little bit about the background for what we're doing and why
+we're doing it, right? You referenced the work we're doing with enterprise customers
+and what we talked about at Computex and I think it really starts with the question of
+Jensen our CEO has taught over the last few months about the coming
+democratization of AI and really what that means is, where is today with the workFINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 12we've done over the last decade, we have thousands of companies around the
+globe using artiﬁcial intelligence in Nvidia technology when we talk about
+democratization of AI we're talking about tens of thousands of thousands of
+companies all using AI, that's what we mean by democratization and I think the
+conversation really begins with why? Why is it that we believe that all of these
+companies are actually going to adopt AI, and I would like to share our point of view
+with this slide here. There's three reasons why we think every company will use AI. I'll
+focus on a couple of them.
+The ﬁrst is that, when you democratize a technology across a wide base of enterprise
+customers, really most of the customers who use the technology will not be directly
+aware of implementing that technology. So whereas today's customers are very
+aware of AI and they're putting in the infrastructure, the hardware and the software
+that it takes to do AI, they have their own data scientists, who develop things when AI
+is democratized, every company will be using it because of the applications that they
+use, which will be built with AI. A great example is Microsoft Oﬃce, which is infused
+with AI. The work Nvidia's doing with Cloudera, which is a data analytics platform
+that has now been infused with our technology and for the user, there is actually no
+diﬀerence in the experience. It's just that there's some special hardware underneath
+in every server, and the software has all been updated. So we see a big shift coming
+where every application will be infused with AI to make it more intelligent, but the
+customer's experience at the average customer company will be that it's the same
+application that used before. So that's one aspect.
+The second aspect I want to highlight is on the right hand side of this picture, which
+is AI in every product and if you think about where we are at today, early adopters of
+AI would really internet companies, people with a large online presence, and they
+do things like for example, how do I recommend to you the next book to read, the
+next movie to watch, the next product to buy, I have a big social audience, I'm
+interacting with them but more and more now, we see companies that just built
+products regular products, where AI is infused into the life cycle of the product how
+do I design the product, how do I manufacture the product, how do I engage with
+my customers, how do I learn from that engagement and improve my product for
+the next cycle. So that's another democratization opportunity where every company
+regardless of what it does, would be utilizing in AI.
+So this is the shift that we already see underway and really the work that we're doing
+on with the hardware and the software is to prime the entire ecosystem from top to
+bottom to participate in this democratization, so that every company can beneﬁt. So
+with that, I have a couple slides just to lay out the work that we've been doing to
+enable this. This picture here represents the full platform, Nvidia is a full-stack
+computing company. Today we are much more internally a software company than
+we are a hardware company, we have many more engineers working on software
+than and hardware, and the reason is because when you use artiﬁcial intelligence,
+you use it in a variety of diﬀerent use cases, whether it's video analysis, or
+conversational AI, or cyber security, or robotics, and you need a powerful software
+stack in each of those situations to enable that capability so an application developer
+can just complete the solution.FINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 12Q - C.J. MuseSo if you look at the stack here, it starts at the bottom with servers, mainstream
+servers, volume servers, the same servers that are produced by the OEMs in the
+world today that are racked into enterprise data centers every day but now, with a
+little bit of GPU from Nvidia in every server. Then we layer on top of that, VMware
+vSphere, VMware as the de facto if you will Operating System of Enterprise
+Computing. It's got a very a very large footprint and then we've taken all of the
+essential software that we've built over the years, the frameworks, the toolkits, the
+SDKs, almost the operating system of AI if you will and we've packaged it together
+into something called NVIDIA AI Enterprise, which enterprise customers can use like
+any other platform that they deployed to-date and then all of the frameworks that
+we've built for these diﬀerent AI use cases, and so with this, we have a complete
+computing stack from the hardware to the software, making it much more of a
+turnkey experience for the enterprise customer.
+And then because of this shift now to this model, whereas we have been working
+very closely with OEMs on best-of-breed servers for AI -- bespoke servers, you do
+one thing with them, you do AI with them, they're relatively -- they have much higher
+price points because of all the hardware inside with this motion we're talking about
+here with the democratization ee worked with the OEM's to really come into the
+mainstream servers as I said and so, if we go to the next slide, what we are very
+excited about now is, we've taken all our technology and we really rightsized it for
+the mainstream. We've made smaller GPUs more, power-eﬃcient GPUs, more cost --
+lower cost GPUs and CPUs with our BlueField and then we work with all of the OEMs
+to produce systems with these servers in them and we recently announced a whole
+wave of new systems from new vendors. I'm proud to say that, as of now we have 103
+diﬀerent server and workstation conﬁgurations from 16 diﬀerent manufacturers and
+that number keeps going up.
+So this is really CJ, the backdrop to the conversation, which is we've been sort of in a
+phase where of the last decade we've developed the hardware and software for AI.
+We've got the traction we -- our business has been doing well, we have thousands of
+customers using our technology, but now we're really shifting to the democratization
+where it becomes tens of thousands and hundreds of thousands of customers.
+Questions And Answers
+(Question And Answer)
+Well, that's a great start. Thank you for that. So I guess interestingly you talked about
+NVIDIA becoming more of a software company, particularly bringing AI to the
+masses. So I was going to say actually start there. Jen, you announced a number of
+partnerships or platforms whether it's VMware, Omniverse your newly announced
+base command AI software development platform. I think a lot of this is
+underappreciated by the market, so I guess let's take a little bit deeper here. So let's
+start with VMware with VMware partnership and your AI Enterprise software suite.
+How do you think about the percentage of sockets that would both beneﬁt and beFINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 12A - Manuvir Das
+Q - C.J. Muse
+A - Manuvir Das
+Q - C.J. Musewilling to take advantage of this type of Enterprise license and how do you think
+about the TAM expansion for NVIDIA's Enterprise Hardware business?
+Yeah, I think that's a great question to start CJ. So, the ﬁrst point I would make is
+clearly, it's a TAM expansion for NVIDIA because this is new business we're entering
+with monetize software for Enterprise customers, right? We think the opportunity is
+very large because we think that any company that has an estate in their data center
+that their IT admins are managing a VMware environment and sharing our resources
+across applications and users, there'll be an opportunity for them to farm out AI
+resources both for the applications and for the in-house data scientists. So it's a for
+both the R&D side and the production side of AI. It's a very large opportunity if you
+just look at the simple math there's 8 million enterprise server CPUs a year and then
+we have a pricing model now for NVIDIA AI enterprise software its $3,600 per socket
+on a perpetual license there's an additional 25% of annual maintenance. vSphere
+which this is attached to has over 300,000 customers. So it's billions of dollars of
+opportunity over time and we're really looking forward to opening up that market for
+the ﬁrst time for NVIDIA.
+Really helpful and so I guess, could you also speak to the enablement and
+deployment of AI applications through the suite.
+Yeah. I think the way we think about that CJ is really that, it's a three layer stack, when
+you deliver technology like AI. The ﬁrst layer that people associate with NVIDIA,
+which is where opportunity tradition is been are on the hardware, right, the chips in
+the systems and then what I just talked about was the second layer, NVIDIA AI
+Enterprise, which is the operating system of AI, it's all the essential things you need
+to have a platform for AI, which I just described. But then the third opportunity, the
+third layer is all those applications on top, which NVIDIA has invested in very heavily
+over the years, whether it's CLARA for healthcare, Metropolis for video analysis of
+the Edge, and we certainly think that there is a signiﬁcant opportunity there as well
+and as we go forward over time, you can -- you will see us opening up those
+opportunities and what's interesting about that level CJ is that for each of those
+applications, what drives the opportunity is, what is that application doing. So for
+example, is there a highly trained highly paid doctor that has to spend less time
+analyzing X-rays because this application software is helping them get started with it
+that's one kind of value, right? Am I processing something at a store where I'm being
+able to control the amount of materials that goods that are inadvertently taken out of
+the store that's a diﬀerent kind of ﬁnancial calculation for the customer, right? So, I
+think at the application layer, we do them one at a time, and it's really based on what
+is the value that is being provided to the customer in terms of the application.
+So just I guess -- a little bit deeper on the application layer. Is there a license
+opportunity there as well and I guess perhaps bigger picture, as you think aboutFINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 12A - Manuvir Das
+Q - C.J. Muse
+A - Manuvir Dasyour business entirely better price over time what percentage of revenues do you
+think will become recurring?
+Yeah, I think there is absolutely a licensing opportunity and that's what I meant when
+I talked about the value, right and the licensing opportunity for each of these
+applications is diﬀerent and it's dependent on what is the value that is being
+provided to the customer and how complicated is the problem that we are solving
+on their behalf, right? So we deﬁnitely anticipate that. I think as far as your question
+about the -- how we look at that opportunity compared to the hardware. I think,
+certainly over time, we expect that the software opportunity is at least as large as the
+hardware opportunity. The hardware opportunity already in the enterprise we
+believe is well over $10 billion and we've talked about that before. We see the
+software opportunity certainly getting there getting there, and over time, we think
+that as we -- if you look at those layers of the stack from the hardware to the middle
+operating systems via applications, the value increases as we go up the stack. So we
+really see that shift changing towards the software as we go. You also asked about
+recurring, certainly that's an attractive model today both for customers as well as for
+software vendors, and we intend to fully participate in that model as we go forward.
+Very helpful. So, Omniverse, seems to have a very strong presence in many of
+NVIDIA's recent presentations. What is it that makes you so excited about this
+platform and how should we think about the opportunity of the next few years for
+the company I guess, either in terms of revenues, user growth or whatever metric
+you think is worthwhile discussing?
+Yeah, I think the reason we are so optimistic about Omniverse CJ, is because of the
+reaction we've seen. So Omniverse is basically a platform for collaboration, for
+collaborative design. It began because as you know NVIDIA as a company does a lot
+of design work, 3D work itself and we have remote teams and especially with
+COVID-19, it was necessary to work in a remote fashion. So we saw that opportunity
+and we built a software platform and as we built it and started working with early
+customers, we saw really quite high interest.
+So for example, already today, we're just launching the platform now and we have
+more than 400 companies already evaluating the platform with us and companies
+like BMW, Erickson, Bentley, some of the some of the best known companies in the
+world are very excited and are working with us but just like our own engineers were
+excited with this platform, right? So that's one reason we see this because we realize
+now that the problem the problem we began to solve for ourselves is actually a
+universal problem, because more and more companies work collaboratively, and
+there's a lot of design work, no matter what kind of company you are.
+The other reason we're very optimistic is because when you do the market analysis,
+what we realized is that over 20 million designers and engineers in the world today
+that can beneﬁt from a platform like this where they can work collaboratively, workFINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 12Q - C.J. Muse
+A - Manuvir Dasunder the house and each part of the team can produce diﬀerent parts of the
+solution that can be plugged together, right and so again we have a licensing model
+for Omniverse. We've announced that already announced at Computex for a typical
+company, they can have a starting point of about $14,000 per year for the company
+to get started with a few designers and so again, if you do the math of the number of
+designers and engineers, we think can beneﬁt from this technology was with our
+licensing model we think there is really signiﬁcant opportunity here.
+I guess, perhaps moving to your recent announcement that involving NetApp an
+base command software development platform. It seems like this is an important
+driver to create a subscription model for DGX SuperPOD and I guess, could you
+maybe highlight how we should think about the opportunity to NVIDIA. So, what
+makes this oﬀering unique versus something like using GPU as a service through
+cloud players.
+Yes, I'm glad you brought this up CJ, because this is a very important -- a strategically
+a very important initiative for NVIDIA and I'm glad to do lay -- The ﬁrst thing to
+understand is we have very strong partnerships with the cloud vendors vendors. We
+are very happy to work with them. They have done great work in making GPU based
+technology available to a wide base of customers. That's a thriving model, it will
+continue to thrive and we think for many, many customers that is the place where
+they will do the AI work and we're very happy to support all the CSPs that we can
+ask.
+That said, we deﬁnitely see a need from our customer base to complement that with
+solutions that are more hybrid or private cloud and the reason for that is because it's
+all about data gravity. AI is based on taking the data that you have and putting it to
+use and for every customer, the requirements about where they data needs to
+preside are quite diﬀerent, and data is very diﬃcult to move. So the AI computation
+capability needs to be where the customers data is and there's a large section of
+customers whose data is not in the public cloud will not be in the public cloud,
+cannot be the public cloud. So we're just covering that opportunity on behalf of our
+customer base. So that's ﬁrst thing to understand.
+Second thing is there's actually two things going on here. The ﬁrst is, the AI has been
+certainly from the outside diﬃcult technology to operationalize, and we ourselves
+are in NVIDIA are one of the largest consumers of AI on the planet, because of all the
+work we do on self-driving cars and robotics and such and so over the years, we
+built for ourselves internally our software platform called Base Command that all of
+our data scientists use every day to do the AI work, and to utilize the equipment as
+well as we possibly can and every time we work with the customer to talk to them
+about SuperPOD or provide them equipment, we give them a little tour, and we
+show them a glimpse of what we've got inside the in-house with base command and
+the question we always get from customers is why can I not get that and it just took
+us a little while to productize that and get it ready for customers and we did that and
+so we made that available now, so that's the ﬁrst thing. Base command platform isFINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 12Q - C.J. Muse
+A - Manuvir Das
+Q - C.J. Muse
+A - Manuvir Dasthis software that we use internally for years that we're now making available to
+customers and it can actually operate on equipment, like, DGX SuperPOD that we
+provide, or it can even operate with infrastructure in the public cloud and we
+announced some partnerships with public cloud providers.
+The second part of this CJ is, where is the hardware that base command platform is
+going to help you operate and so this is where we have really taken a small step, but
+a big move for NVIDIA where we have said, okay, for the ﬁrst time, we will take the
+equipment that we've got the SuperPOD, the ﬂagship product, the instrument of AI
+and we will provide it to you in a subscription model where NVIDIA takes on the risk
+of owning the equipment. NVIDIA operate the equipment on your behalf, so you can
+just consume it and you can consume it for only months at a time if that's what you
+like to do and so that's a new endeavor for NVIDIA. We're very excited about it
+because we think it really lowers the barrier to entry for customers. Many more
+customers will experience SuperPOD, and either move on to procure their own or
+scale up in the cloud and how is this diﬀerent from what people can do in the cloud
+today. The DGX SuperPOD is a unique capability. It's an instrument of AI, it's a
+combination of hardware, software, tuning packages that really allow you to do best-
+of-breed AI with all the right network and everything built-in, it's a unique capability
+and so it's been provided now to customers in this fashion so they can experience it
+for themselves.
+Interesting. So, just to be clear. So you're going to operate eﬀectively this mini data
+center for your enterprise customers, but it will be on site at the each enterprise
+player.
+Okay. So, it's a hosted oﬀering C.J. So we certainly so you referrenced NetApp we
+have a partnership with NetApp because they are the storage provider with
+infrastructure, and we're also working with Equinix, which as you well know is a very,
+very large provider of co-location space and services across the globe. In fact, a lot
+of the CSPs themselves are hosted with an Equinix. So all of these environments that
+we're providing hosted within Equinix data centers. They're not in the company's
+individual data centre.
+Got you. Well, I guess one last question on this front, I guess how do you think about
+workloads in the cloud versus on-prem for a more or through this kind of new
+partnership that you have with NetApp and Equinix, looking out ﬁve years and as
+part of that, just to respond to the question that I received, I think there's a concern
+out there that AI as a service will be hosted by cloud players and that will kind of
+minimize the amount of GPU's or other accelerators one might need. You know how
+would you address that as well as part of this question?FINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 12Q - C.J. Muse
+A - Manuvir DasYeah, that's a great question that's a two-part answer C.J. So ﬁrstly you asked about
+how we anticipate the mix between, AI workloads being run in the cloud versus on-
+premises. I think it's very important to understand that when we talk about on-
+premises or non-cloud, a huge part of that going forward will be the Edge, where a
+lot of companies do their work today. Whether you're a retail store or a factory an
+industrial company and certainly, when you're out of the Edge, right, then you're not
+doing your competition in the cloud and a lot of AI will happen in the Edge, because
+the data is coming in right there in real time, the data has to be analyzed and
+processed right there and the outcomes have to happen right there, right? So
+certainly, the edge will be a big dominant force as to where AI is deployed.
+Secondly for enterprise customers, that own data centers versus the cloud, it's a
+matter of data gravity. I think in many industries, healthcare being a great example of
+companies that have large amounts of data certainly, it's beneﬁcial for them to hold
+the data in-house. The data is really the IP and so again, it's about the computation
+needs to live with the data and CJ, this is why you see every cloud provider also
+working on non-cloud solutions, right, to move their capabilities outside of the
+public cloud, there's a reason for that, right because data gravity is what is going to
+be the dominant factor going forward. So that one part of it.
+The second question regarding the concern you raised that, if it's just going to be AI
+as a service from cloud providers, what does that mean for NVIDIA? There's a reason
+why we have thousands and thousands of engineers the best engineers in the planet
+working every day on our hardware and software, platform, we believe that we have
+the best diﬀerentiated full-stack platform for AI. Cloud partners who provide AI
+services in the cloud today use our hardware and software quite a bit in providing
+these services and so that's a great thing and we fully anticipate that as the AI
+services in the cloud continue to develop and progress and have a footprint they will
+be using NVIDIA hardware and software technology as they do today and we work
+very closely with them. We joined the engineer with them and we cater to the
+requirements that they get from their customers. So we're very conﬁdent that as
+customers adopt the public cloud more and more for AI services, NVIDIA will be
+front and center in that journey with the cloud providers and the customers. And
+then, of course, there's a complimentary world that we are working on with the likes
+of NetApp and Equinix and others on-premises and the Edge.
+Very helpful. Perhaps we can move to the hardware side of the house, we were few
+quarters into a 100 introduction into the enterprise world. Can you speak to
+reception and anything that jumps out at you that is noteworthy and worthy of
+discussion?
+Yeah, I think demand has been very strong CJ. The ﬁrst thing is all of the OEMs built
+so and qualiﬁed systems with A100, they moved very fast as you know server
+companies go through a qualiﬁcation cycle, there's some physics involved in that,
+but they saw the opportunity with us, and they really turned on a dime, and we are
+very thankful to them for how quickly they reacted and you can see that eﬀect now inFINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 12Q - C.J. Muse
+A - Manuvir Dasthe market. And then also our CSP partners adopted A100 very quickly, and the
+uptake has been amazing. In fact, we see very, very wrong demand in the public
+clouds for these A100 instances that the cloud providers have. So I think that's great.
+In terms of the areas, we've seen very strong adoption in consumer internet, ﬁnancial
+services, higher education. So overall, we are very pleased CJ and the uptake has
+been more than we had expected at the outset. So very pleased with that. Yes.
+When you think about the intelligent Edge NVIDIA's opportunity with the DGX
+platform can you speak to the work of the company has done to foster adoption
+here and how speciﬁcally does this ease the move of AI to the Edge?
+Yeah, I think C.J it's a really good point to make here is that AI is really an ecosystem
+eﬀort because you can't just build a chip and say, okay, there's a great chip,
+everybody do AI, because there's million use cases. So, you need an ecosystem of
+ISVs who produce the right application, right and this is especially true on the Edge
+because every company is trying to do something completely diﬀerent on the Edge.
+Maybe, I'm a retail store and I'm looking at people picking up stuﬀ from counters,
+and oil and gas facility and -- perimeter security. The use cases are just completely
+diﬀerent right on a factory and in robotics and many, many years ago, at Nvidia, we
+decided to take a platform approach. We put programming model on top of our
+GPU which we call CUDA, and that's why today we have 2.5 million developers in
+our ecosystem who build on CUDA.
+All of that philosophy that we chose as opposed to saying has built a dedicated chip
+for every particular use case like some kind of a PGA, kind of approach, that platform
+approach is really paying oﬀ when we come to the intelligent Edge, because one
+platform from NVIDIA, every ISV that we work within the ecosystem can quickly
+develop the application that is tailor-made for the particular use case that they're
+one. Maybe I'm working with Walmart, on a particular suite -- solution for the retail
+stores, or I'm working with BMW on the thing they're putting it on the factory ﬂoor,
+but it's the same chips, it's the same SDK, it's the same frameworks and libraries and
+I can rely on all of that and just add my IP and top that to provide a solution to the
+customer, right?
+So we think this is a really strong winning formula and this is been our approach for
+the intelligent edge. So, we have a EGX is a hardware platform every OEM is
+producing ruggedized or purpose-built form factors that can go into the Edge into a
+closet somewhere into place where it's hard, when it's cold and then we've got the
+whole software stack -- that ISVs can depend on and then the ﬁnal piece of the
+puzzle CJ, is that we built a platform called ﬂeet command. So just as we talked
+about base command earlier, which data scientists can use to develop the AI, ﬂeet
+command is a platform that can be used to them deploy the AI out the Edge,
+because if you think about the retailer for example, we work with Walmart, right and
+you can think about how many stores Walmart has around the world and if you're
+putting in a little bit of this equipment on the edge in every store in every store this is
+not traditional IT, where you can have IT people sitting in every store, walking up andFINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 12Q - C.J. Muse
+A - Manuvir Dasdown watching the equipment, because there's only two or three servers in every
+store.
+So what you really need is, you need some kind of command module that is
+centralized that manages all these systems in every store that keeps all the AI up-to-
+date that make sure nothing's been tampered with, it's all secure, and this is what
+ﬂeet command is, right? So I would say the short summary of it is, we think NVIDIA
+has a massive opportunity with the intelligent edge, because we bet on the right
+platform, the universal platform, we built the ecosystem around it, and we put the
+tooling around with ﬂeet command, to really help people operationalize.
+Very helpful. So we have about ﬁve minutes left right. I got about seven more pages
+of questions, so I'll try to put a couple together. So you have kind of more product
+you can show with the Mellanox acquisition. So you also have three chip strategy
+bringing in Arm-based CPU. So, I guess perhaps if you look out over the next three
+to ﬁve years, what gets you excited in terms of the other hardware capabilities that
+you are able to bring to bear and I guess having a full pre-chip solution, how will that
+really move the needle to the enterprise?
+Yeah, I think it's a great way to wrap this up C.J. Really the two fronts, one is with the
+data processing unit of the DPU, which is the technology that Mellanox brought into
+Nvidia, and then the other is the CPU that we announced the -- CPU based on Arm.
+They're actually in some ways diametrically opposite and it's important to
+understand. The reason we are so excited about the DPU at NVIDIA is because we
+believe that going forward, every server that is shipped will have one of these DPUs
+in it. It is a universal opportunity. So any kind of opportunity mathematics you would
+do, you just take the number of servers that have been shipped and then you just
+put DPU in every server and the reason for that is because more and more security is
+-- stakes in any data center and security is becoming harder and harder to do
+because of the sheer volume of traﬃc, the amount of data and the DPU is what
+actually enables a security solution that can actually stand the test of time in every
+data center. So we believe there will be a DPU in every server.
+The other reason is because today servers are getting bogged down because the
+CPU is being used to do a lot of the sort of the data center processing that
+surrounds the application and that's taking away oxygen from the applications
+themselves and so you need more servers to run the application than you actually
+should, if you had access to the full CPU and what the DPU does is it oﬄoads that
+work from the CPU, gives it another place to run, so that the CPU is fully free to run
+the applications, right. So we see this model going forward when every server you'll
+have a CPU, you'll have GPUs to run the applications that are suitable for GPUs, but
+you'll always have a DPU as an essential component and so we're very, very excited
+about this opportunity CJ and we think all the work we're doing, we've been laying
+the groundwork with the OEMs, with VMware, with cloud providers to trigger this
+movement to have a DPU in every server.FINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 12Q - C.J. Muse
+A - Manuvir Das
+Q - C.J. MuseNow the CPU work is in very much in contrast for this. The reason we are working on
+Grace is because for a speciﬁc situation, which is AI down at extreme high scale
+when the models are very, very large. So for example, we are now getting to models
+in natural language processing that are not just tens of billions of parameters, but
+soon we'll have trillion parameters, this is very large models and when you try to
+process these models, no matter how many servers you have, the communication
+between the CPU and the GPU becomes the big bottleneck, because you've got this
+engine called GPU, that can process this very large-scale AI, but it all has to come
+from the CPU and so we designed Grace very carefully to be a CPU that is very
+tightly integrated with the GPU there is alongside on the system and I'm saying this
+to help convey that this is a niche solution for this particular use case of high scale AI.
+We believe that for the foreseeable future, the majority of enterprise workloads will
+be running on x86 CPUs and we work very closely with the very large system of x86
+based server systems and we anticipate doing that for a long time, and I think that is
+going to be the dominant part of our business for time to come, but we've
+developed Grace to really expand the frontier, right and move the needle as to what
+best-of-breed -- looks like. So, the DPU is every server big, small, regardless of
+workload, you got to DPU -- Grace is exactly the opposite. For some small number of
+workloads, it's going to be the diﬀerence between being able to do it or not, and for
+everything else, x86 CPUs would be awesome.
+Great. One last question, I'll sneak again. So, the focus at the beginning was
+democratizing AI. We learned in the call this software opportunity is going to be at
+least as large as the hardware opportunity and I had a presentation earlier today with
+another company talked about over the next three to ﬁve years, at least the third of
+workloads done in compute using AI and so that would seem to create a strong path
+of growth here. You got 30 seconds, how do you want to close on that kind of
+framework?
+Yeah. I think, I'll close by saying, we are already in a very good point, because when
+we think about our data center business today, it is already the case that more than
+half of our data center business is this enterprise business of companies within their
+own buildings, deploying AI technology in spite of it being a nascent area and all the
+complexities that come about in adopting new technology and I think we're at the
+beautiful point now, where we have learned so much from all from all our customers
+have adopted AI, two things are clear to us. One every company will beneﬁt from AI
+and two, we have the platform that will make it possible and so we are just the right
+moment to start this journey of democratizing AI, and we working with all of the
+ecosystem C.J to make this happen, and that's why we're so happy about those
+partnerships, because this is not something that is done alone it is done in
+conjunction with trusted vendors that enterprise customers already work with, this is
+about coming to enterprise customers with solution that is easy for them to use, that
+is comfortable for them while providing new capability.FINAL TRANSCRIPT 2021-06-07
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 12A - Jensen Huang
+Q - C.J. MuseExcellent. Well, thank you for your time, greatly appreciated, and I wish you the best
+of luck.
+Thank you very much for having me and so having NVIDIA.
+Be well.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

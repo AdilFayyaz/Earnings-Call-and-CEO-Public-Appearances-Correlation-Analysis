@@ -1,0 +1,591 @@
+FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 1 of 16, General Manager Cloud Platform Product Marketing
+, Analyst, Nomura Asset Management
+Rick Sherlund
+Mike SchutzNomura Inaugural Software Conference
+Company Participants
+Mike Schutz
+Other Participants
+Rick Sherlund
+Presentation
+{BIO 1504922 <GO>}
+Okay, I think we are ready to get started. It's a pleasure to have Mike Schutz from
+Microsoft here today. We are going to talk about the cloud and Azure.
+And we also have Zack Moxcey from IR here with us today. And he has asked me to
+just mention to you that, before we begin, Microsoft may make some forward-
+looking statements during this presentation. You should refer to their SEC ﬁlings for
+the risk factors related to their business. And that's true whether you are here in
+person or listening to the web.
+Mike, I was hoping that we could get a 101 tutorial from you on Azure. We don't know
+a lot about Azure. I think it's around a $900 million run rate business, two-thirds of
+that being Infrastructure-as-a-Service, the other one-third being Platform-as-a-
+Service. Of course, your cloud business more broadly, if we counted Oﬃce 365, I
+think it's a little over a $5 billion run rate business, which would put you as the
+world's largest cloud vendor because of the Oﬃce 365 SaaS business.
+Amazon is much bigger in Infrastructure-as-a-Service. In Platform-as-a-Service, there
+is not as much competition. But there is a lot more value add I think we can get from
+Microsoft because you have some incumbency advantage. You got millions of
+people that write for .NET. If you got all that infrastructure. And the fact that you have
+a hybrid cloud strategy. So I as a user can say, well, maybe I will put some of that in
+your cloud, some of it in my cloud. It all works together.
+If we could maybe just get you to talk a little bit about Azure, what is Microsoft doing
+in the cloud. And give us a bit of a competitive assessment and diﬀerentiation, that
+would be a good place to start.
+{BIO 5995559 <GO>}FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 2 of 16Absolutely. First, I want to thank you for having us. This is an exciting ﬁrst event. And
+so we want to really thank you for letting us participate.
+There was a lot of detail built into that lead-up that you said. So I think it would be
+good for us to parse that out as we go through the conversation. But by way of
+introductions, I run product marketing for what we call the Cloud Platform solutions
+at Microsoft. And so that includes our private cloud solutions around Windows
+Server, Hyper-V. And System Center on virtualization and management; our public
+cloud platform and Microsoft Azure; and then our Enterprise Mobility solutions. And
+so, we'd love to touch on -- base on some of those because they are all interrelated
+in the eyes of our customers. And so we will talk about some of the things we are
+doing there.
+To answer your question in terms of the rough 101 with respect to Azure, Azure is our
+public cloud platform. It provides Infrastructure-as-a-Service, Platform-as-a-Service,
+as well as a number of other high-value services that are around it. And so customers
+will look to us to run their applications and workloads. But also to connect to their
+existing infrastructure that is on premises up to the cloud. And I will be able to talk a
+little bit more about that.
+It's, very high level, focusing on helping customers embrace the public cloud with --
+integrating with their existing investments on premises.
+You asked about how -- from a diﬀerentiation perspective how we look at it. You
+really have to zoom back a little bit because our focus is to provide the most
+complete Cloud Platform. And so what that means is we want to have the broadest
+set of solutions for our customers to use on premises and oﬀ by providing a
+consistent set of technologies so that customers can build and run their applications
+in the cloud, on premises, in any combination, whether that's Infrastructure-as-a-
+Service or Platform-as-a-Service.
+Then we try to connect those clouds. We provide a set of services that provides the
+connective tissue between the on-premises data center and the public cloud data
+center.
+Within that lies our fundamental diﬀerentiation. And that's on three dimensions. The
+ﬁrst is around what we refer to as hyperscale. We have the broadest set of regions
+worldwide from any public cloud provider, at 19 regions. By way of comparison,
+that's about twice as many as AWS. And for a Google's Cloud Platform, it's about 3
+times that of Google.
+What that does is it puts Azure as close as we can to our customers. Customers care
+about that. They want to have their cloud provider in their geography, in their region,
+for multiple reasons, from a data sovereignty standpoint, geopolitical reasons. But
+also just from a practicality of an end-user experience standpoint. You can't really
+change the speed of light. And so you want to have the proximity of the cloud
+service close to your customers and ultimately their customers.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 3 of 16Rick Sherlund
+Mike SchutzIn order to do that, we've invested signiﬁcantly in building out this global
+infrastructure to power our cloud service. And so you have seen us do that over the
+last several years, increasing our footprint into regions like Australia, into China. We
+have announced that we will be going into India this year. And so continuing to grow
+that global footprint so that we can be where our customers are and provide the
+global reach. But the local touch. That's one element.
+Now if you think about hyperscale, there is a couple other vendors that could invest
+at that scale and have that global reach. But it really does shrink the consideration
+set for customers because a lot of the traditional on-premises vendors won't and
+haven't invested in the public cloud at that scale. Once you are through that
+hyperscale lens, you are down to just a couple of vendors.
+Then our diﬀerentiation as it relates to the public cloud vendors, like AWS, is really
+around our focus around being enterprise grade and hybrid. Our roots are deep in
+selling and working with enterprises. We have a global sales and support
+organization. We have a partner ecosystem of hundreds of thousands of partners
+that sell and support and deploy our solutions. And again customers, particularly in
+the commercial space, want that local touch and that local reach.
+And so, that enterprise grade is a key diﬀerentiator for us because selling to this
+commercial segment, the enterprise segment, is nothing new for us and we are
+excited to help them through the transformation.
+Then from a hybrid standpoint, we have that consistent solution across on premises
+and oﬀ that integrates really well and helps customers think about their data center
+as one -- as an extension of Microsoft Azure. And vice versa. And so they can think
+about their IT assets as being inclusive of what they run and own. And then what's
+running in Microsoft Azure. And we have technology to help them extend that.
+{BIO 1504922 <GO>}
+Right. So Mike, I got about three hours worth of questions here, probably. This is
+exciting to have the opportunity to chat with you about this. As you compete against
+AWS, for example, what kinds of workloads is it that you are delivering as perhaps
+distinct from what AWS is doing?
+{BIO 5995559 <GO>}
+I think we're both in the Infrastructure-as-a-Service market. And today there is a large
+number of customers that start with Infrastructure-as-a-Service.
+We don't view that as the destination. We believe that Infrastructure-as-a-Service is a
+great place to start. It's easy for customers to get started there because they
+understand, because of virtualization, the concept of taking a virtual machine and
+putting it in the cloud and running it that way.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 4 of 16Rick Sherlund
+Mike SchutzOne of the things that our customers are ﬁnding with Infrastructure-as-a-Service is
+while it's great for certain workloads, it still inherits some of the same complexity that
+running virtualization on premises does. You still have to manage the operating
+system inside that virtual machine and so forth. And so thinking about Platform-as-a-
+Service, as well as moving into hybrid cloud services -- an example is how does
+someone extend their storage infrastructure on premises to the cloud without
+necessarily having to move their application -- hybrid cloud services, as well as
+thinking about Platform-as-a-Service, are areas where we do distinctly diﬀerentiate.
+{BIO 1504922 <GO>}
+Amazon is going to start disclosing their margins in AWS this quarter. Someone at
+Gartner had said they thought they had maybe as much as 60% gross margins. I
+stopped and said, excuse me, you said 16%? They said, no, no, 60%. And I was kind
+of astounded by that because you keep seeing it referred to as commodity business.
+But they have such enormous scale. I guess it's possible, because of the scale that
+they have, they could get those kinds of margins.
+But longer term, it would seem that Platform-as-a-Service is where, at least for
+everybody else, the fatter margins are going to be because the value add is higher.
+You are managing the infrastructure -- the platform yourself, if it is on AWS. But if I go
+to a Platform-as-a-Service vendor like Microsoft, you are managing the operating
+system, the database, the whole middleware stack for me, right. So it takes a lot of
+that complexity out.
+If I just have test and dev, I use Amazon. If I want to run my own applications and I
+don't really need your infrastructure, AWS has enormous scale and reach.
+But do you have an incumbency advantage here because everyone already runs
+Microsoft or Oracle infrastructure? Should there be some inherent advantage you
+get in Platform-as-a-Service because of that incumbency advantage that you might
+have?
+{BIO 5995559 <GO>}
+Azure, as you know, really started in Platform-as-a-Service. It was where the design
+point for where we believed the market would go long term. And then subsequently
+we have built out the infrastructure, the service oﬀering, to meet with customers
+where they are today.
+But certainly we believe that -- and from listening to customers that are doing it and
+getting the beneﬁts of moving to Platform-as-a-Service. And as you mentioned,
+we're moving the complexity of managing all the underlying parts, see tremendous
+beneﬁt and particularly agility that they get from -- for the development
+organizations to be able to respond to the business more rapidly, because Microsoft
+is taking and managing that underlying stack from the app down instead of from the
+operating system down.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 5 of 16Rick Sherlund
+Mike Schutz
+Rick SherlundFrom an oﬀering standpoint, we believe we have a more mature oﬀering in Platform-
+as-a-Service. In addition, because of what you mentioned in terms of the footprint
+that we have with developers today, we have millions of .NET developers that are
+building applications on premises and in the cloud every day and millions of
+developers that are using the Visual Studio tool set to be able to build those
+applications. And so, we're very much working with customers focused very heavily
+on DevOps and the developer productivity that Platform-as-a-Service brings. So yes.
+{BIO 1504922 <GO>}
+What I heard you say was initially you oﬀered Platform-as-a-Service. But the market
+really wanted to do test and dev kind of work. They wanted more Infrastructure-as-a-
+Service. Do you see that evolving now where the market might be ready to think
+about using the cloud to handle a lot of these workloads that are kind of outside test
+and dev that might better leverage your strengths?
+{BIO 5995559 <GO>}
+We deﬁnitely see that as organizations think about developing their application with
+the cloud in mind that Platform-as-a-Service is where they are looking.
+An example of this is AccuWeather. AccuWeather you'll know as one of the most
+heavily used weather applications and services. And given the amount of weather
+you have had here locally this year, I am sure it gets quite a bit of use.
+The thing that's interesting about AccuWeather is today on Azure. And they looked
+at the other alternatives in the market, including Amazon, they opted for Platform-as-
+a-Service on Azure. Today, they process roughly 6 billion requests per month for
+weather and temperature forecasting.
+They originally started with an on-premises infrastructure. But found that because the
+usage of their app, of course, follows the weather pattern. And when you have got
+bad weather coming, it spikes extremely high. They couldn't -- they had trouble
+keeping up with the scale or building out the capacity to be able to handle or
+predict what was going to happen.
+They also wanted to be able to go out globally. And so what we provided them is a
+global infrastructure that scales on demand and lets them write less code and
+manage less of the infrastructure and scale the demands of their customers.
+It is extremely powerful. They used to take months to do a proof of concept now they
+can do in days. It's the agility for them to respond to the needs and feedback they're
+getting from their customers, it's just tremendous. And that's largely powered by the
+eﬃciency they can get from the cloud and Platform-as-a-Service.
+{BIO 1504922 <GO>}FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 6 of 16Mike Schutz
+Rick SherlundIs the market ready, I think, to build new things on Azure or are they going to move
+existing things over? And if they are going to build new, would they pick the .NET
+platform or would they say, well, Google has got this interesting stuﬀ? There is
+Pivotal. There is all this other open source platform out there.
+Where is there -- is the best opportunity, I guess. And how would you think about this
+in terms of competing against web native modern programming standards?
+{BIO 5995559 <GO>}
+Great. I think one of the things -- the way you can think about it is that Azure, what we
+are ﬁnding, is incremental opportunity for the business, as opposed to replacing
+applications and servers on premises.
+About 40% of Azure revenue -- we have talked about this in the past, about 40% of
+Azure revenue comes from startups and from ISVs. This is largely a segment that we
+hadn't sold to signiﬁcantly in the past. And so by focusing on this segment, as well as
+enabling the existing customer sector we have in the enterprise to be able to
+embrace the cloud, presents tremendous opportunity for us.
+In that start-up area, there are some organizations that are .NET shops and some that
+use open source. And so what we have done is strike up a number of partnerships in
+the market and take a very open approach to embracing open source and Linux on
+Azure. One of the things that often surprises people is that about 20% of the
+instances and apps that run in Azure are running Linux.
+We recently announced over the last year partnerships with Docker for containers.
+We're supporting Corel S from a Linux distribution standpoint, as well as a number
+of other Linux distributions in Azure. If organizations have a preference for Java and
+node.js and want to build them on a Linux Docker container, we love that.
+At that same time, we are also helping our .NET -- millions of .NET developers build
+modern cloud-based applications using the latest technology.
+{BIO 1504922 <GO>}
+Mike, that's one of the interesting things that new management has brought to
+Microsoft of this ability to acknowledge that there is open standards out there and
+we need to embrace those. It doesn't feel necessarily good when you report
+earnings and you see that, well, you are cannibalizing some of your business. But
+they sort of have to do it because that's where the market is going.
+But I hear really good things from Silicon Valley about Microsoft in the cloud. It
+seems like Azure is a product that people respect and I think your ability to support
+open standards takes people by surprise because it's not the history of Microsoft.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 7 of 16Mike Schutz
+Rick Sherlund
+Mike Schutz
+Rick SherlundBut I guess to that degree that you are supporting open standards, you can appeal
+to the incumbency advantage that you have with all these .NET developers, the
+ability to -- I don't know if people are going to move workloads to the cloud. But the
+ability to be compatible and have all the stuﬀ work together. But then appeal to --
+because of your scale advantage, be able to appeal to new developers with a
+platform that is more open standards based, it would seem like you are building this,
+architecting this, to address both camps.
+{BIO 5995559 <GO>}
+Yes. And as you think about how we're building this platform approach that says we
+want to have the most complete Cloud Platform to run the next generation of
+applications in the mobile ﬁrst and cloud ﬁrst world, that is core to our strategy.
+From a shareholder standpoint, we are able to monetize and expand our
+addressable market by bringing Linux to Azure. We have not been able to think
+about how would we monetize a Linux deployment in the past. By looking at
+partnerships with Oracle, with SAP, with Salesforce to be able to run those
+applications that integrate with Azure and even run on Azure -- non-Microsoft
+databases running on Azure, at the end of the day it's meeting the customer where
+they are.
+{BIO 1504922 <GO>}
+Right.
+{BIO 5995559 <GO>}
+We certainly believe that our ﬁrst party application and services are quite
+competitive. But at the end of the day if the customer decides that they would like to
+run another platform, we would love to meet them exactly where they are.
+{BIO 1504922 <GO>}
+It's interesting to see the press releases and conference calls where you're working
+with Oracle; you're working with Salesforce. In the cloud, it is really necessary, right,
+because you have got to integrate. You got to play well with others because it is the
+platform.
+And if you are just trying to push your platform to the exclusion of things that your
+customer needs to run, then it's not going to be a suitable platform for them. So
+that's an interesting environment.
+Now you own your own data centers. I have asked Oracle, don't you need to own
+your own data centers? And they argue, no, no, we can just use colocation, which a
+lot of the SaaS industry uses. But they will be a competitor in infrastructure and PaaS
+as well.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 8 of 16Mike Schutz
+Rick Sherlund
+Mike Schutz
+Rick Sherlund
+Mike Schutz
+Rick SherlundDo you need to own your own data centers in this business or is it just that they
+haven't really gotten to any meaningful scale yet so they're okay using colocation.
+But ultimately there is important scale advantage that derives from having your own
+data centers?
+{BIO 5995559 <GO>}
+As I indicated earlier, the most important thing is to be where your customers are.
+And therefore taking that global scale approach is the most important.
+{BIO 1504922 <GO>}
+But can't you do that through colocation as well?
+{BIO 5995559 <GO>}
+We will look at any and all ways to get into the market and there will be diﬀerent
+factors that we weigh to do that -- some we may own; some we may not.
+An example is we have a joint venture in China to be able to bring Azure in China.
+And so the main part is to make sure that we are able to bring our technology to
+customers where they are. And there's huge economies of scale when you think
+about the global scale that we need to deploy at. And so we will work at any and all
+ways to do that.
+{BIO 1504922 <GO>}
+I think as we look at Platform-as-a-Service, who do you see as your ultimate
+competitors in that business?
+{BIO 5995559 <GO>}
+I think that because Microsoft Azure was early in the market in PaaS, we feel like
+we're in a good spot. But you can deﬁnitely see that Google and AWS are investing
+in those places.
+Then, there are some non-cloud vendors that are investing in Platform-as-a-Service.
+But it's early days in PaaS. So it's going to be interesting to see how it all plays out.
+{BIO 1504922 <GO>}
+Amazon, I was at their re:Invent conference in Vegas in November and they
+announced the SQL relational database. But I don't typically think of them as being --
+having as much of a platform. They will give you SQL Server, Oracle database. But
+you own it and run it, right? Do you see them coming up with more and more of
+their own platform and trying to be a broader Platform-as-a-Service vendor?FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 9 of 16Mike Schutz
+Rick Sherlund
+Mike Schutz
+Rick Sherlund
+Mike Schutz{BIO 5995559 <GO>}
+I can't really speak, obviously, to where AWS is going to invest. But we do believe
+that where our investments have been in terms of building the Platform-as-a-Service
+layer that is inclusive of data. And then our hybrid cloud approach, will continue to
+be diﬀerentiating the market.
+On the hybrid point, we have really -- it is an area that is very diﬀerent than the other
+players in the market because our view that customers will have existing investments
+that they want integrate with as they look to extend their assets to the cloud, rather
+than a rip-and-replace model.
+{BIO 1504922 <GO>}
+If we look at scale advantage, I have thought you are probably a little under $1 billion
+in a run rate business for Azure right now. But your Oﬃce 365 is run out of the same
+data centers. Is that right, same infrastructure?
+{BIO 5995559 <GO>}
+One of the things that we talk about in terms of the most complete cloud is by
+having Oﬃce 365 and Microsoft Azure as oﬀerings for customers is really important.
+There are areas where Oﬃce 365 is oﬀered where we don't yet oﬀer Azure. But we
+deﬁnitely focus on having the complete solution for a customer (multiple speakers)
+{BIO 1504922 <GO>}
+I am just trying to think of the scale advantage that you have because you have also
+got Xbox LIVE. You have got Bing. So you have got actually some pretty big scale
+businesses that I think of as data center or cloud businesses that we -- if we didn't
+look at those and say, well, that's around a $1 billion business, it probably
+underestimates the scale opportunity that -- for leverage and margins that you might
+have.
+{BIO 5995559 <GO>}
+From an infrastructure perspective, because of all those properties. And we operate
+some 200-odd public cloud services, consumer and commercial. And so it's that
+global infrastructure that is operated by the same team that does provide us learning
+of how to build a very diverse platform that runs high transactional on one side and
+very, maybe, high I/O on the other. And so it's provides us a great diversity of
+applications to be able to learn and build the best platform so that when our
+customers want to put their applications in our cloud, we can do that.
+It also does provide us those economies of scale that come with deploying that
+really broad global infrastructure.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 10 of 16Rick Sherlund
+Mike Schutz{BIO 1504922 <GO>}
+As you go out to the market, if everyone is already running your technology in their
+business, which almost everybody is. And to the degree that you give them some
+hybrid cloud capabilities so they can choose where they want to run things, is
+anyone actually moving that infrastructure over to you or you just, look, it works, just
+leave it where it is?
+But it would seem that having the ability to integrate new stuﬀ in the cloud with the
+infrastructure that you already run, there would be a very nice complement to
+getting all that from one vendor.
+{BIO 5995559 <GO>}
+Absolutely, I think that's our whole approach is to oﬀer the hybrid cloud solution.
+And there is -- there are customers who think about, maybe I don't want to run my
+own data centers over time.
+But for the vast majority of customers, Azure is incremental to what they're doing.
+And so instead of having to provision their infrastructure for max capacity, for Black
+Friday, they can provision for the average Tuesday and then they can use Azure for
+their peak capacity needs. That compatibility that we provide makes it really easy to
+do that.
+Another really interesting area for Azure is we are able to increase our addressable
+market by monetizing and selling solutions into workloads that we haven't before,
+like storage, as an example. We have a hybrid cloud storage solution called
+StorSimple. It's called Azure StorSimple that basically plugs into a customer's
+existing infrastructure. That could be a VMware infrastructure, it could be a Hyper-V
+infrastructure. And it's just a SAN.
+Then what it does is it tiers that data up to Microsoft Azure for backup, for archival.
+And for replication. And so a company -- for example, Paul Smith in the UK, a pretty
+well-known retailer, uses StorSimple as their bottomless storage repository for their
+ever-increasing storage needs on premises behind a virtualized environment. In that
+model, it's almost like simplistically when you take a picture with your phone, it
+automatically copies it up to the cloud.
+It's the same model for the enterprises. How can we connect the cloud to our
+customers seamlessly so that the end user doesn't have to know it, IT doesn't have to
+worry about it. But their ITF that's now are inclusive of what they own and operate
+and what's running in the cloud.
+Storage is one. We have never really been able to monetize storage in the past. But
+yet that's an area where we are able to think about it now. And again another
+example of how Azure is incremental to the existing Windows Server and System
+Center and business on premises.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 11 of 16Rick Sherlund
+Mike Schutz
+Rick Sherlund{BIO 1504922 <GO>}
+Yes, I think your business is growing over 100% a year. But Amazon, obviously they
+have much bigger scale, probably around $5 billion or so in revenues right now. At
+their re:Invent event, they said they were growing over 40% a year. That kind of
+surprised me because last year I think it was 70% and there were some expectations
+that maybe it could be 100% this year as they started to really gain more traction.
+But Google came into the market a little over a year ago -- or about a year ago, I
+guess, with a price cut, a pretty hard price cut, about 50%, which is surprising to me
+that Amazon immediately matched pricing because they have all the customers and
+they are going to let Google set price in the market.
+What is going on? Is this pricing always going to be just some ﬁxed percentage
+above cost and you're just passing all the beneﬁts on to consumers such that it
+makes it really hard if you don't have the biggest scale to really get the margins out
+of this business?
+{BIO 5995559 <GO>}
+I think there is a couple diﬀerent dimensions to think about. One are the core
+services like compute, networking. And storage and Infrastructure-as-a-Service. And
+in those, the economies of scale that a hyperscale cloud provider can provide do
+provide that opportunity to give back some of that to the customers as the vendor
+scales.
+What I think, though, we are seeing at the same time is that the price conversation
+we're having with customers is changing. They are looking at value and they're
+looking at the premium services that we can deliver. We have talked about how --
+recently about how about 60% of our customers are using -- Azure customers are
+using higher value services. And that's a key way that we will drive these premium --
+this premium value to our shareholders by also oﬀering this value to our customers.
+There is a thing like PaaS or the Enterprise Mobility suite that is a per-user
+entitlement for customers to secure their mobile infrastructure and provide identity
+management.
+And so, the ability for us to meet customers where they are from a pricing
+perspective and look at the market dynamics there. But also to continue to upsell
+customers to our premium services is very key to what we are (multiple speakers)
+{BIO 1504922 <GO>}
+It could be it is not that customers don't care about price; it is just that everyone is
+the same, right, in this market. Now the market is pretty eﬃcient in pricing the
+storage and compute.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 12 of 16Mike Schutz
+Rick Sherlund
+Mike Schutz
+Rick Sherlund
+Mike Schutz{BIO 5995559 <GO>}
+It also is the realization that that's typically where a customer may start. But then they
+build around it and they really want to look at the most complete solution to build
+around that. And so looking at additional services left and right is helpful for them.
+And it's not just about running a VM in the cloud or a gigabyte of storage at a very
+cheap price; it's all the other value they can get from it.
+{BIO 1504922 <GO>}
+So it's not so much that Infrastructure-as-a-Service is a good business for Microsoft to
+be in; it's that it leads to potentially much higher-margin premium services, like
+Platform-as-a-Service.
+{BIO 5995559 <GO>}
+That's right.
+{BIO 1504922 <GO>}
+Okay. I'm going to skip over to one other topic and then we will open it up. This
+enterprise mobile management, Intune, I know that if I get Oﬃce 365, the E3 version,
+the enterprise version, I think I get a low-end version of Intune that's thrown into that.
+And if I am managing desktops and laptops, particularly with Windows 10 perhaps
+coming, I can also get Intune as part of that same console so I can manage mobile
+devices as well.
+It's just that historically we haven't really thought that customers would trust
+Microsoft to manage their Android phone or their Apple phone. But with Satya
+onboard now, he seems to be making friends. He plays well with others. So sort of
+wondering now if maybe Microsoft doesn't have a big opportunity going forward to
+play well with others and manage those other mobile platforms?
+{BIO 5995559 <GO>}
+I think that, to zoom out just a bit, there is two fundamental secular trends in place.
+One is around mobility and bring your own device. And so all of us are using devices
+that are multiple form factors, in smartphones and tablets. And we may not have
+bought those devices. But in addition, enterprises are buying these types of devices,
+too. So the mobility is absolutely clearly a secular trend.
+The other one is SaaS applications. And so in addition to needing to work on and
+connect to the applications that are provided by my organization inside the
+Company, SaaS apps. So whether that be Salesforce or Oﬃce 365, CRM, Box,
+Concur, or Workday, you have it, users are bringing their own cloud. And therefore
+the intersection of cloud-based SaaS applications and mobility presents a real
+challenge for IT from a security perspective in helping end users be productive from
+anywhere.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 13 of 16Rick Sherlund
+Mike Schutz
+Rick Sherlund
+Mike Schutz
+Rick Sherlund
+Mike SchutzThe Enterprise Mobility suite that we have built, that has a combination of mobile
+device management and mobile application management that's powered by Intune
+is the name of the service, has data protection by encrypting ﬁles with Microsoft
+RMS.
+Then, last, the identity management, the user management is in providing single
+sign-on to all of these SaaS applications. And providing a control that IT can get by
+being able to control who has access to which apps, not just the ones that run on
+prem. But in the cloud, is the multilayered approach that we have taken with the
+Enterprise Mobility suite. And it's a fantastic companion to Oﬃce 365.
+And so from a go-to-market perspective, Oﬃce 365 and the Enterprise Mobility suite
+in many ways have become a way for organizations to help users be productive on
+the devices that they want, using the best productivity apps that they can. And help
+them secure the applications and data, as well as making sure the user is who they
+are and they have access to the information, all with a single solution.
+{BIO 1504922 <GO>}
+When Apple ships a new version of the OS, you are available day zero for supporting
+the Apple products. They have got a relationship with you. They trust in conveying
+details of the new OS. So you are able to support that right away?
+{BIO 5995559 <GO>}
+Both Google and Android and iOS have a set of APIs that all the mobile app and
+mobile device management vendors use. And so we are absolutely able to work
+with them to provide the right level of capability when they release those products.
+{BIO 1504922 <GO>}
+Is the relationship with Google as good as it is with Apple in terms of the support
+that you get from them?
+{BIO 5995559 <GO>}
+We work with both companies equally well.
+{BIO 1504922 <GO>}
+So you would say that relative to the other EMM vendors, you don't see a
+competitive disadvantage being at Microsoft trying to support those platforms.
+{BIO 5995559 <GO>}
+No. We have had a great success with Intune as it has matured through the years to
+be able to now expand the oﬀering to Android and iOS.FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 14 of 16Rick Sherlund
+Mike Schutz
+Rick Sherlund
+Mike Schutz{BIO 1504922 <GO>}
+Windows 10, what is the implication of Windows 10 in terms of managing mobile
+devices?
+{BIO 5995559 <GO>}
+If you think about the other strength that we bring to bear with respect to this
+mobility trend and Enterprise Mobility is the fact that System Center Conﬁguration
+Manager, our PC management product, is very highly deployed in the enterprise.
+We estimate that two out of every three PCs is managed with System Center. And
+with System Center and Intune, we are able to provide a single solution to manage
+any device, whether that be a PC, a tablet, or a phone of just about any ﬂavor, with
+one console.
+That really resonates with IT because they cannot think about silos of devices. But
+think about how to manage that. That extends with Windows 10. So we will continue
+to manage Windows on the corporate network really well. But Windows 10 can also
+be managed as a mobile device using MBM. And so we will be able to provide
+solutions across PCs, as well as all the other form factors.
+{BIO 1504922 <GO>}
+Great. I am starting to feel a little guilty hogging you all to myself. So why don't we
+open it up to investor questions? Investors will be a little bit shy. They will probably
+grab you after.
+In terms of the breaches that we have seen, the high-proﬁle breaches. And thinking
+about security in the cloud, I am sure that must be one of the ﬁrst questions every
+SaaS company or every cloud vendor has to address in terms of security. Is there any
+reason to believe that security is any worse or any better as you move to a company
+that might have some scale advantages in managing security?
+{BIO 5995559 <GO>}
+I think that the scale that we have certainly provides us the ability to see some of the
+malicious activity and then act on it. One of the things that we do talk to customers a
+lot about is we view it as -- a lot is about trust.
+So in terms of the vendors that we believe customers will look at for cloud, there is a
+security element, there is a privacy element. And then there is a compliance element.
+And so from a security standpoint, we are very focused on providing not just the
+underlying security of the platform. But also the tools so that organizations can own
+their own encryption keys, as an example, like who has access to their data. And so
+by oﬀering a service that we call Key Vault, a customer can bring their own key andFINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 15 of 16Rick Sherlund
+Mike Schutzwe don't have access to that key. And so they can actually help ensure that the data
+is encrypted and that they manage their own key. So that is one example of some of
+the security capabilities we are providing.
+Another one is at the user authentication layer. We have got within Azure Active
+Directory, again, a core part of the Enterprise Mobility suite, is we have some
+technologies to provide anomalous user behavior detection. Think of it as when a
+credit card company identiﬁes fraudulent activity on your own -- on your credit card,
+this is identity theft of a diﬀerent variety. This is user name and password theft, such
+that now you have got somebody who might be impersonating you trying to log into
+the enterprise.
+We use some of our own machine learning capabilities to identify if a user is trying to
+authenticate from two locations where a Delta wouldn't be able to get them there in
+time and wouldn't be -- it would be physically impossible to that. And we can block
+that access. We can require two-factor authentication for additional security. And so,
+security is a big element.
+We're also very focused on privacy. You may have seen recently that we received ISO
+27018, a really high standard for privacy, as well as some standards in the EU around
+the EU model clause as well. Privacy is very important.
+Then, we focus a lot on the compliance certiﬁcations that our customers need,
+depending on what industry they're in or what geography they're in.
+And so, those three elements are really helping the dialogue with customers,
+especially enterprise customers, as they think about moving to the cloud.
+{BIO 1504922 <GO>}
+Mike, we're out of time. And Zack. Thanks so much for Microsoft for being with us
+today.
+{BIO 5995559 <GO>}
+Thanks so much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the FINAL TRANSCRIPT 2015-03-12
+Microsoft Corp (MSFT US Equity)
+Page 16 of 16transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

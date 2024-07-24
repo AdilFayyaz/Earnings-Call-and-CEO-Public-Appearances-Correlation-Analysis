@@ -1,0 +1,561 @@
+FINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 1 of 14, EVP of Operating Systems
+, Analyst, Credit Suisse
+Unidentiﬁed Participant, Analyst, Unknown
+Phil Winslow
+Terry Myerson
+Phil Winslow
+Terry MyersonCredit Suisse Technology Conference
+Company Participants
+Terry Myerson
+Other Participants
+Phil Winslow
+Presentation
+{BIO 6300579 <GO>}
+All right. Good morning, everyone. Very excited to have Ali Baba here but we are
+going to transition onto the next keynote. Anyway, very excited to have Microsoft
+joining us; Terry Myerson, Executive Vice President of Operating Systems. So the way
+I'd break that down is you are the platform dev guy. So last time I checked platform
+was kind of important in Microsoft.
+{BIO 17496274 <GO>}
+I think it's important to everything.
+{BIO 6300579 <GO>}
+Everything, exactly. Before we get started, I just have brief remarks there. Before we
+get started, Microsoft would like to inform you that this presentation does contain
+forward-looking statements which are predictions, projections, or other statements
+about future events. These statements are based on current expectations and
+assumptions that are subject to risks and uncertainties. Actual results could materially
+diﬀer because of factors discussed in Microsoft's press release and the comments
+made in the presentation as well as risk factors listed in the Microsoft SEC ﬁlings.
+Microsoft does not undertake any view to update any forward-looking statements.
+And with that said, I'm going to turn it over to Terry, who has a couple of sort of just
+brief remarks to level set things and then we will get into Q&A and then we will open
+up to the audience later. Terry?
+{BIO 17496274 <GO>}
+Thanks, Phil. Let me start by complimenting you on your bowtie. It's very nice.FINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 2 of 14Phil Winslow
+Terry Myerson
+Phil Winslow
+Terry Myerson{BIO 6300579 <GO>}
+Thanks. I went all in today.
+{BIO 17496274 <GO>}
+I thought I would start by talking about one question that is probably on many
+people's minds and that is who will be our next CEO? This is probably -- there's one
+thing that I can oﬃcially share on that front and that it will not be me. So hopefully we
+can relax a little more in the next period of time.
+So the group I lead at Microsoft is our Operating Systems Group, which includes a
+family of products starting with our Windows embedded products, which has
+enabled so many of our enterprise customers to get their industrial products onto
+the Internet, connected, remotely manage them. And so forth through our Windows
+phones, through our Windows tablets and PCs to the platforms and services which
+power our Xbox product as well.
+So it's a pretty exciting set of products to work on. It is somewhat humbling to work
+on as well given all the diﬀerent users and the people that depend on these
+products around the world. I get a lot of questions about so many of our products
+are used in enterprise settings. We certainly get tremendous questions about the
+consumer usage of these products as well and I think heading into the holidays,
+there's quite a bit of cautious optimism that things -- this is going to be a good
+holiday for us.
+I just looked this morning at Amazon's website, reviews of some of the new tablets,
+the Dell Venue Pro is running at 4.5 stars, which is pretty exciting for me to see
+because I think just that sort of customer feedback and the customer response to the
+product are kind of the most important thing and empowers us and gives us --
+inspires us to do great work.
+Our most recent IDC reports show us outselling the iPhone in one-third of the
+markets they track, which is pretty exciting and of course the new Xbox One, we are
+selling them as fast as we can make them and so trying to make more.
+{BIO 6300579 <GO>}
+I think you guys sold a few yesterday -- the holiday. That's great.
+{BIO 17496274 <GO>}
+You know, we've just recently brought these products together into one group. We
+are kind of -- we are very focused on shipping things for this year but our investment
+thesis going forward is really rooted in the fact that we want to have one platform
+that powers all of our devices so that developers can really target the aggregate
+scale of Microsoft with their investments, the one thing that we have incredible scaleFINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 3 of 14Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslowwith these devices today in terms of getting our developers today target one device
+at a time and we see incredible opportunity to make Microsoft the most compelling
+place to develop our applications if we can bring both the innovations and the
+audience together across all of our devices.
+At the same time, each of our device form factors does require a unique tailored
+experience I think to really delight the customer. Xbox has got this magical
+experience on a 4-foot screen that I wouldn't want in my pocket on a 4-inch screen
+and likewise I wouldn't want to scale up Windows Phone into a 4-foot screen. So
+tailoring the experiences to each form factor is another key part of our investment
+thesis.
+The third one is bringing our cloud services together so that all of our devices can
+take advantage of the cloud services, which have historically been unique per
+device. We've had Windows LIVE. We've had Xbox LIVE. And now want all of our
+devices to be able to take advantage of those.
+So it is a very exciting time. Device categories are growing and expanding fast and in
+many ways what we focus is on delighting customers because with each happy
+customer we get, the future feels bright.
+Questions And Answers
+{BIO 6300579 <GO>}
+With that said, obviously you now lead all the OS groups as you mentioned across
+the Company. Maybe if you could give us a little more detail on your strategy of
+actually bringing out that common development platform across all these diﬀerent
+devices, like how are we going to actualize that?
+{BIO 17496274 <GO>}
+Today Microsoft has many platforms. We have many platforms and many devices that
+are out there. The number of devices that connect to Windows updates every day --
+I'm not sure every day but within a month I think it's close to 1 billion devices every
+month that are connecting with Windows Update. We have all of our PCs, we have
+PCs which run on the desktop mode, we have PCs which run the tile mode. We have
+phones. We have these embedded devices, we have servers and each of these
+devices has unique ways for developers to target them.
+And that is both a strength because it enables developers to do very targeted
+applications for these devices but it also doesn't create the opportunity of the
+aggregate scale of all those devices. So enabling developers to write a game which
+can run on both Xbox and Windows is a very interesting opportunity enabling
+productivity apps to run on the workplace but also on the phone and tablets, this is
+just an opportunity we see we can bring to developers and focus on.
+{BIO 6300579 <GO>}FINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 4 of 14A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson
+Q - Phil WinslowSo what are the beneﬁts to the end user as well in addition to the Company itself
+from this common development platform?
+{BIO 17496274 <GO>}
+Well on each of these device categories there's always the killer apps and then
+there's the tail apps and they synergistically work together. On the PC, Oﬃce is the
+killer app which drives productivity and it is this magical combination of Oﬃce and
+Windows put together that makes these devices the core productivity experience for
+people.
+On Xbox, I don't know which alien shooting game is the killer app but each of those
+-- there's these magical apps that put together with the Xbox platform drive the
+consumer demand for the device. But our goal is to enable those magical
+applications across all of our device categories and again, we are coming back to
+sort of end-user apps but it's just as important are these embedded enterprise apps
+and industrial apps that are just common across all Windows devices around the
+world but we want to bring those across all categories.
+{BIO 6300579 <GO>}
+Now you've been the head of this new group since July so I guess two questions.
+Like what are some of the early kinds of progress in the strategy? But also too, what
+are the hurdles or challenges that you foresee that you are going to need to
+overcome over the next couple of years in this role?
+{BIO 17496274 <GO>}
+Progress is always -- visible signs of progress will come from shipping products and
+having delighted customers with those products and that is not something that takes
+many years but it certainly takes many months. The products we just shipped this
+holiday really were planned by individuals completing Xbox One, conﬂicting
+Windows 8.1. These are challenging and exciting things -- I think we've just -- very
+important products that deliver to the market and talked about the results from
+those. But the fruits of the one Microsoft changes that Steve made really will be seen
+in 2014 and 2015 and beyond.
+{BIO 6300579 <GO>}
+Let's go back to a comment you made about devices. You talked about some of the
+new Dell laptops, Asus, the two in ones.
+{BIO 17496274 <GO>}
+That was a tablet, actually.
+{BIO 6300579 <GO>}
+Sorry, tablets but then the Asus, the transformer book, these new devices, how is
+Microsoft helping I guess your OEM partners bring some of these new devices to
+market and sort of with the functionality but at the appropriate price points?FINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 5 of 14A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslow{BIO 17496274 <GO>}
+Every OEM conversation has this sort of bipolar nature to it. Every OEM has his
+interest in participating and leading in terms of the premium category so they want
+to -- they have -- each OEM, each partner has their view to the diﬀerentiation they are
+providing and they want to invest in and they want to deliver that diﬀerentiation on
+the Windows platform so they can participate in the premium category and capture
+the margins in the premium category. And at the same time, each of these partners
+is interested in the scale that comes from sort of the lower price -- opening price
+point devices. And we engage with our partners on both of those dimensions.
+What is the diﬀerentiation they would like to bring and invest in so the premium
+device margin can be captured? Then what is the both the technology and the
+distribution and business investments we can make to capture the opening price
+point as well?
+{BIO 6300579 <GO>}
+Let's stick with the device theme here and John (inaudible), this is for you if you are
+out there. So let's talk about ARM versus Intel. He's my semiconductor analyst. ARM
+versus Intel -- I just want to talk about support in terms of your backwards
+compatibility of the operating system and the applications and how you kind of
+manage the backwards compatibility but also wanting to bring on new partners like
+ARM, expand the device ecosystem there with Windows RT. How do you balance
+that?
+{BIO 17496274 <GO>}
+The core -- the familiarity with Windows and the compatibility Windows not just of
+applications but also of drivers is the core of our business today. And it's interesting,
+we talk a lot about applications but device drivers are a whole nother element to
+this. As an example of this, I was with the customer weeks ago and there was a
+discussion of printers that they purchased years ago and they've got to be
+compatible with their devices and so there's this whole ecosystem built up around
+compatibility with Windows that's incredibly valuable to our customers. And that
+compatibility is x86.
+It is a market which Intel and AMD serve. They are great partners and they are both
+investing in very exciting innovations and we are partnering with them or
+participating in the whole spectrum from the new innovation for premium products
+all the way down through opening price points.
+At the same time, the ARM ecosystem has its own set of rich innovations that we
+need to participate in and the devices they are focused on. And so we've got a great
+partnership with QUALCOMM and that's yielding some very exciting progress.
+{BIO 6300579 <GO>}
+All right. So we are talking about sort of the overall platform strategy Windows. One
+more question about Windows before moving on to Windows Phone. But if we thinkFINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 6 of 14A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myersonabout 8.1, obviously a big interim release, maybe talk about how we should expect
+sort of the cadence of we'll just call it big boy Windows versus Windows Phone. The
+cadence of the versus -- we used to think about, okay, big launch, a couple years
+later, big launch. This was kind of this intermarry 8.1. Is something changing with the
+release of 8 and how you deliver to the platform?
+{BIO 17496274 <GO>}
+With Windows we have a consumer set of devices.
+{BIO 6300579 <GO>}
+Does this apply to all device categories?
+{BIO 17496274 <GO>}
+There is a consumer set of devices and then there's what I will call an enterprise set
+devices and one thing that we will continue to do and I think really -- the world has
+shown that there really is two diﬀerent customers really have divergent needs. The
+consumer really is ready for things to be upgraded on their own, things to be require
+-- you are able to require a certain set of experiences and do things to consumer
+devices that IT pros are not as -- they want to have -- this is part of the infrastructure
+of running their business. So they value us giving them the policies and the controls
+to do that.
+With the consumer versions of our products and the enterprise versions of our
+products or the professional versions of our products, we will be focusing on serving
+each of those customers and delighting them and there may be diﬀerent cadences
+or diﬀerent ways in which we talk to those two customers. And so it is 8.1 -- there's 8.1
+Pro and they both came at the same time. That's not clear to me that's the right way
+to serve the consumer market. It may be the right way to continue serving the
+enterprise market.
+{BIO 6300579 <GO>}
+So let's transition to Windows Phone. Actually one of your partners, Nokia, Q3 had
+good momentum in Windows Phone. It seems like some of that is picking up. Where
+are we on Windows Phone and what do we need to see in Windows Phone to take
+that next step to bring the market share higher?
+{BIO 17496274 <GO>}
+Windows Phone has got a product that -- it's kind of like so many of -- it's done quite
+well in what I will call the opening segments, actually. It's getting to delivering a
+high-quality experience in opening segment really is a tremendous software project
+and a very important -- it is important hardware (inaudible) to get done as well. But at
+the place where excellent hardware engineering -- sorry, excellent software
+engineering where someone can really focus on tuning the experience on a tight
+electrical bond is a place where we've been able to diﬀerentiate, take share in
+double digits and outsell the iPhone in many markets.FINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 7 of 14Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson
+Q - Phil WinslowIn the premium categories, it's a place where we've delivered some great innovation.
+I am very proud of the Lumia 1020 work, the work that we've done on the camera
+with Nokia there and we are exploring innovations like that with other partners now.
+But I think really our success with Windows Phone is going to be proportional to our
+success with Windows. As Windows grows and becomes more vibrant and more
+important in people's lives than the PC, then they will want a Windows Phone with it.
+So to me the most important thing for Windows Phone success is Windows success.
+{BIO 6300579 <GO>}
+Let's talk about -- there is a little company you guys are buying called Nokia. And so
+from a sort of platform perspective, you being the development guy, how does
+actually owning the hardware OEM change I guess the development process or the
+cadence that you can deliver a product?
+{BIO 17496274 <GO>}
+For the operating systems group, we are focused on being a platform provider to all
+of our ecosystem partners and so whether it be Dell, HP, you mentioned Asus, Acer,
+Lenovo, these are all important partners that we will work with and in the highest
+integrity way to deliver their innovation to our platform and to delight customers
+together with their devices. So that's the most important thing from an operating
+systems group perspective.
+From a Microsoft perspective, having the Company's ability to innovate in hardware I
+think is exciting for us to be able to create new device categories ourselves, to be
+able to deliver -- in some ways Microsoft being able to deliver a premium experience
+that is a pure expression of what Microsoft thinks a device should be does allow us
+to also at the same time enable our OEM partners to diﬀerentiate and let their
+devices be what they would want them to be. And so I think it's very exciting for
+Microsoft. In the same way as having Microsoft store, having Microsoft devices gives
+us the conﬁdence to let other partners go free and do their own thing.
+And so I think it's just very exciting for Microsoft and then as a platform group, we
+love all of our partners.
+{BIO 6300579 <GO>}
+Let's switch gears to the Xbox now. I wonder if you could talk about the Xbox One
+launch and sort of how you are approaching this versus 360 especially sort of just
+with the context of sort of this total platform perspective?
+{BIO 17496274 <GO>}
+I thought you were like an enterprise software --
+{BIO 6300579 <GO>}
+I know. We are mixing it up now. Eventually I will get to the enterprise stuﬀ.FINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 8 of 14A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson{BIO 17496274 <GO>}
+The living room is an important -- it's a key part of all of our lives and the PC is a part
+of our life from 9 to 5. Xbox in our living rooms and our homes is part of our lives I
+guess from 5 to 9. And we do more with our families in that living room than play
+games and shoot aliens. And so having the ability to innovate and delight customers
+in that living room is just an important opportunity for us.
+{BIO 6300579 <GO>}
+Then I guess how do you tie this into sort of the Xbox into that total platform strategy
+across all devices? Where does Xbox ﬁt into this? Sometimes I get the question it's
+like why do you even need Xbox? Is it part of the platform ecosystem?
+{BIO 17496274 <GO>}
+I don't think there's any part of our -- what we do, we are one person both at home
+and at work. We do work at home. Who we are as a person doesn't stop when we go
+to work and so being able to provide a platform that people enjoy using throughout
+their lives is just critical.
+The entertainment assets we have developed through Xbox will diﬀerentiate our
+PCs, phones. And tablets. The cloud services we built up through Oﬃce 365 and
+Windows LIVE will help diﬀerentiate things we do in the living room. So it really does
+all work together synergistically.
+We do have these core Xbox audience of young men that is diﬀerent than perhaps
+sort of the core audience or the Windows PC right now and we do have these two
+brands, Xbox and Windows. And so sometimes those two diﬀerent assets can make
+the conversation more complex but fundamentally the notion that people want a
+device that can serve both their life and a work and play mode, I think it applies to
+every device category and it applies to more than just Xbox. Xbox is a device and a
+brand but that sort of under appreciates what that product is and what it means to
+Microsoft.
+{BIO 6300579 <GO>}
+All right, let's go back to Windows now that we touched phone and Xbox. But one of
+the things that people look at often is just the size of the application ecosystem tied
+to a platform for the success. How many in the app stores that are -- how do we think
+about where you guys stand right now with Windows 8 in particular and then also
+Windows Phone? Then what are the goals of the milestones you want to see to say
+okay, look, this is being accepted by the application developer community. It is a
+vibrant ecosystem.
+{BIO 17496274 <GO>}
+Windows 8 runs over 1 million Windows desktop applications today and so we start
+with a notion of people are buying these Windows PCs. They are happy with these
+Windows PCs because it runs so many of the things they expect to run on aFINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 9 of 14Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslow
+A - Terry Myerson
+Q - Phil Winslow
+Q - Unidentiﬁed ParticipantWindows PC. Then we have the new applications that people are writing and there I
+think we have not done the work to aggregate the scale of Microsoft well. That's to
+me the biggest opportunity with this new operating system is to bring all of our
+devices together so that users can target all of them and there's tremendous
+opportunity there for us to do good work to enable our developers to do good work
+and it's just a big focus.
+{BIO 6300579 <GO>}
+I'm going to ask one more question and then I'm going to open it up to the
+audience and then I've got a few more here if there are no questions from the
+audience. But one of the things that resonated from what you are saying here is that
+enterprise and consumer, that's a question I get a lot about Microsoft is can any
+company sort of eﬀectively do both in one platform? So how do you respond to
+that?
+{BIO 17496274 <GO>}
+Well I think the answer is yes.
+{BIO 6300579 <GO>}
+Hopefully. And why is the next question.
+{BIO 17496274 <GO>}
+As I just think about -- it's what the customer demands. If you look at what the
+customer is asking for from their products or what I want my products, I want --
+there's going to be a set of devices in my life. I'm going to have a phone, I'm going
+to have a tablet, I'm going to have a PC. And going to have a TV. I'm going to have
+other devices and I'm going to use these devices as one person. I'm going to use
+those devices during my day at work and I'm going to use those devices when I'm at
+home.
+And so we get focused on what -- we listen to customers. We respond to customers -
+- what they want. We focus on the diﬀerentiation we can bring the customers on
+each of those devices and this is what customers are looking for, what they need.
+And so this is what we are going to do.
+{BIO 6300579 <GO>}
+On it. I will pause for a moment. I think there's a question up here in the front but
+also just raise your hand. So one in the front and then if we could also get a
+microphone in the back there ready for the second question.
+Terry. Good morning. Thanks, Phil. A couple of two questions. One has to do with the
+number of new devices that you were talking with the Dell device, two in ones,
+tablets coming. What is exactly the consumer value proposition? There are a lot of
+price points coming out. There are a lot of devices coming out. I walked into BestFINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 10 of 14A - Terry Myerson
+Q - Unidentiﬁed ParticipantBuy, walked through and said wow, there's a lot. But I didn't really -- it was more
+confusion than it was clarity.
+So what exactly is the consumer value proposition of these new devices and how are
+you communicating that? Because if it's all hinged upon Windows, as a consumer,
+there's not a lot on Windows that I really want to do on a smaller device that's a
+mobile device. So I just wanted to ask that to get I guess overall the context.
+So basically it is what's the value proposition on these new devices and why should
+Windows 8 or Windows mobile -- sorry, why should Windows mobile really be
+predicated on success with Windows because I feel like they are diﬀerent
+experiences.
+{BIO 17496274 <GO>}
+Well there's a couple questions in there. Who are our customers? Our customers,
+who are the people that feel aﬃnity to the Windows brand? Who are the people that
+feel trust and (inaudible)? There's 1 billion people or more that feel trust and aﬃnity
+with the Windows brand. Windows helps them in their lives to be more productive.
+That is the anchor. We're not talking about embedded industrial devices now, we're
+talking about a consumer. So you start there and say those are the people that we
+start with in terms of oﬀering them new device categories.
+I think we talked about Xbox a few minutes ago. One of the things -- one of the
+reasons I'm so excited about the Xbox platform being part of Microsoft is it does
+bring tremendous entertainment assets, has allowed tremendous entertainment
+assets to be developed within the Company and so I think we not only do some
+good work to leverage all those entertainment assets across more screens but it will
+be a critical part of our strategy in terms of diﬀerentiating us across all device
+categories.
+So it's not so much that a Windows laptop will be used at the same time with every
+Windows Phone. It's a notion that you do start as you move into new adjacent
+markets or new adjacent devices categories, you are going to look at and say who
+are your current customers today and how can we extend our delight of those
+customers or extend our business with those customers?
+And phones is a diﬀerent market than tablets. But I do think that the individual that
+uses a laptop is also interested in a phone. The individual that uses a tablet is also
+interested in a PC. So that's the thesis about it all working together as one device
+family.
+What is that as a consumer, just what is exactly is that value proposition that's going
+to push me -- again what I have in Windows and what I have with my PC is what I've
+had for a while, I've had it in a work environment. It was my introduction to
+computing. But it seems like the market is going past that. How do you get the
+thought -- how do you get the consumers back into Windows? What's the valueFINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 11 of 14A - Terry Myerson
+Q - Unidentiﬁed Participant
+A - Terry Myersonproposition you are trying to create in the cloud for the consumer that's going to
+draw them?
+When you made the comment that Windows should be the driver for Windows
+mobile that confused me because it's a little bit backwards looking from how I see it
+but maybe I don't understand the vision.
+{BIO 17496274 <GO>}
+I think I start with the customer base of Windows is that we are Microsoft. We are not
+-- we have built oﬀ of what the great technology assets and customer base that we
+have today to delight the customers we have more in new ways and serve them in
+more parts of their lives. That is the core of the strategy of what we do.
+A question on -- I guess there are some people that believe that Windows, the
+operating system business, Windows in particular is bloated and operating expense
+should be cut drastically and that the days of selling and operating system in the
+mobile phone space or the tablet space are just over because that's been obviated
+by your competitors. So how do you respond to that, number one?
+Number two, that could be a particularly large source of cost savings for Microsoft.
+Number two, given the new structure of the organization, how possible is it to
+actually just take down the investment in consumer operating systems and we are
+building operating systems for consumers that you plan to actually sell for a license?
+Thanks.
+{BIO 17496274 <GO>}
+So we invest in the operating -- I think you have to separate the investments we
+make in terms of the experience we want to deliver for both consumer and
+enterprises from the -- separate out the ﬁnancials. There is a level of -- there's
+innovations we can deliver and customer delight we can deliver when we are
+investing in the whole stack from the operating system through the applications to
+the cloud. And so everything we do pivots oﬀ of delighting the customer, satisfying
+the customers, delivering new value propositions to the customer.
+So we can maximize that customer impact when we are working with a customer at
+all layers of the stack. You start with that notion. If all you are doing is investing in one
+layer, the stack, you are constrained with what you can do for the customer.
+Now in terms of how we allocate our R&D resources or partition them across
+diﬀerent layers of the stack, that's an allocation decision that Steve has made over
+time and certainly bringing things together in the way they are now gives us a new --
+a diﬀerent form of transparency on how we are allocating resources. So it's always a
+discussion we are having about how to deliver the highest return from our
+investments. But from an innovation or customer delight perspective, I thinkFINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 12 of 14Q - Unidentiﬁed Participant
+A - Terry Myerson
+Q - Phil Winslow
+Q - Unidentiﬁed Participant
+A - Terry Myerson
+Q - Unidentiﬁed Participant
+A - Terry Myersoneveryone involved can point to -- take our enterprise customers, the ability to invest
+in security and management at the steepest layers of the stack does diﬀerentiate us
+today with many, many customers. Does monetization change over time when we
+delight the customer in that way? I don't know.
+But you've got to start with the innovation thesis. You've got to start with how you
+satisfy and diﬀerentiation, how you diﬀerentiate to the customer and the operating
+system that Microsoft delivers today is fundamental to all of that diﬀerentiation we
+deliver, whether it is at a productivity desktop in the enterprise or a game console in
+the living room.
+I know we are running out of time so just one quick question was Apple recently
+introduced its operating system and all of its updates are going to be free. How does
+that change your pricing strategy with Microsoft in the future?
+{BIO 17496274 <GO>}
+As I understand Apple's announcement, they announced that upgrades to an
+already purchased Apple product of the operating system would be free. Windows
+8.1 is a free upgrade to Windows 8. And so --.
+Well I did not say Windows will be free. We're going to keep the SOA intact here.
+(multiple speakers) I said Windows 8.1 is a free upgrade to Windows 8. (multiple
+speakers) And it's just something that not to be too repetitive but satisfying our
+customers -- delighting our customers and aggregating the scale of our platform is a
+big focus.
+{BIO 6300579 <GO>}
+There's time for a couple more questions if they are some from the audience still.
+So you've got a pretty diverse set of responsibilities. Can you just talk about what
+your ﬁnancial incentives are?
+{BIO 17496274 <GO>}
+Personally?
+Well yes.
+{BIO 17496274 <GO>}
+You're getting good. I think the Company publishes -- I am not an Executive Oﬃcer
+of Microsoft so I think what the Company publishes is what they publish.FINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 13 of 14Q - Unidentiﬁed Participant
+A - Terry Myerson
+Q - Phil Winslow
+A - Terry MyersonSo just broadly I mean the question -- it's really interesting to delight customers with
+the Xbox and things like that. But are you -- how do you think about revenue and
+proﬁt? There's been a lot of questions about that and it would be great if you guys
+could be dominant in Windows Phone but the reality is it's a fraction of what the
+opportunity is in business operating systems. So how do you think about again kind
+of devoting your resources relative to what the proﬀer pools are?
+{BIO 17496274 <GO>}
+Well there's three dimensions of what we focused on. They really -- there is customer
+satisfaction, scale and the ﬁnancial mix, the ﬁnancial return. They really do -- the
+three of these things do work synergistically together over the long-term. The more
+customer satisfaction we drive, that does help drive scale. Scale helps drive
+longitivity of the platform and our opportunity to get value from our customer.
+So we really focus on all three and in this audience, it seems completely reasonable
+to me that the folks who want to be on the ﬁnancial return but certainly in terms of
+leading the operating systems from Microsoft, all three have to be top of mind at all
+times -- customer satisfaction, scale. And ﬁnancial return.
+And in the enterprise space, we get value diﬀerently than in the consumer space and
+there's diﬀerent macro trends going on in each but -- and customer satisfaction is
+looked at diﬀerently in each. But focus on all three of those dimensions. My team, my
+leadership team, our discussions with the Microsoft leadership team, we really do
+look at customer satisfaction, scale. And the ﬁnancial return.
+{BIO 6300579 <GO>}
+We use the safe word mistletoe on your pay plan. You won't have to answer that.
+Actually one last question for me as we just have a couple minutes left here. But
+obviously you have been tremendously successful with Windows 7; 75% of
+enterprises are now -- the last time you reported on Windows 7. You've got the end
+of life of XP coming up in just a few months. One of the questions I get is how does
+the success of Windows 7 and enterprise impact the eventual adoption or not of
+Windows 8 in enterprise?
+{BIO 17496274 <GO>}
+The large enterprise deployments take place in waves and the Windows 7
+deployments that are completing now started a little while ago and we are having
+frankly some great discussions right now about enterprises moving to Windows 8 or
+8.1 and adopting the beneﬁts of Windows 8.1. Years from now we will be sitting on
+the stage hopefully talking about the deployments, the great deployments of
+Windows 8 point something, 8.1, 8.2. I don't know. I am not announcing a product
+release.
+But through enterprise deployments or this gets back to the enterprise versus the
+consumer question, consumers are in this place where they expect the software toFINAL TRANSCRIPT 2013-12-04
+Microsoft Corp (MSFT US Equity)
+Page 14 of 14Q - Phil Winslowjust upgrade itself. Enterprises are not in that place. Enterprises want to think about
+these deployments as mission-critical infrastructure that they want to manage the
+rate of churn of and that is a way of doing business that we embrace and support for
+enterprise customers.
+{BIO 6300579 <GO>}
+Perfect. We are at the mark. So I appreciate your time, Terry, coming down. Like I said
+before, its executives like yourself that make this conference special. So thank you for
+coming down.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

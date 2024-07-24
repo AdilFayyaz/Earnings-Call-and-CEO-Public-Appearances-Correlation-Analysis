@@ -1,0 +1,499 @@
+FINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 12, Director IR
+, Analyst, BMO Capital Markets
+Unidentiﬁed Participant, Analyst, Unknown
+Ambrish Srivastava
+Chris EvendenBMO Technology, Media & Entertainment Conference
+Company Participants
+Chris Evenden
+Other Participants
+Ambrish Srivastava
+Presentation
+{BIO 4109276 <GO>}
+All right. Thank you. Welcome everybody for our next session with NVIDIA. Welcome
+to Chris Evenden who is part of the IR team at NVIDIA. The format is a little bit
+diﬀerent than all my ﬁreside chats. We're going to start oﬀ with Chris giving us a
+quick overview. He has a nice slide deck. I will move the slides. Then after that we'll
+start a cozy ﬁreside chat and then open it up to Q&A.
+{BIO 18934997 <GO>}
+Cozy, cozy. Thanks, Ambrish. So I just want to spend like maybe ﬁve minutes just
+framing NVIDIA and the Company we are now. So we see our mission is to become
+the world leader and we believe we are the world leader in visual computing. And so
+we sell technologies into markets in which that matters. So gaming is one. The
+second one (is) workstation. That's actually a computer-generated rendering of a car,
+it's another photograph of the car; hard forms of computing and cloud data centers
+and smart devices as well. And the technologies we use, the technology we have
+that diﬀerentiates us in that market is the GPU. And we sell that in a number of ways.
+We sell it either as pure IP, as a chip, as a GPU or as an SoC, a system on chip, which
+is actually primarily a GPU, the diﬀerentiation graphics cards or is actually whole
+systems is another business where we're moving into now.
+The way I think of the business today. The gaming PC and workstation businesses
+are stable, solid, strong generators of cash. The cloud and data center businesses,
+we've got two businesses in that, we have got a business we call GRID which is for
+cloud applications and Tesla which is high performance computing. The Tesla
+business is now a proven growth business. It's very proﬁtable, growing very strongly.
+Cloud, it's very early days, lots of trials, lots of interest in that business. But revenues
+probably next year sometime.
+Smart devices, we had a slower start, we had a good year last year, we had a slow
+start this year because of a product delay but now we're growing strongly into theFINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 12back half of the year. Then ﬁnally IP, IP is really a business that we've only just started,
+we've just majorized, if that's actually a verb, the GPU so that we can actually
+package it up and -- so that now is a stand-alone technology to companies building
+their own devices.
+So let's take a closer look at those. So obviously, the new businesses growing very
+strongly oﬀ a smaller base. I think what surprises people the most is that our core PC
+business has been doing so well. And that's really a result of -- this chart, I should say,
+is the ﬁrst nine months of this year compared to the ﬁrst nine months of last year.
+And so you can see our business, our GPU business which people think of as a PC
+business and therefore must be aﬀected by the same malaise that's aﬀected the rest
+of the PC industry and must be doing poorly and that's actually not the case. As you
+can see from this chart, we've signiﬁcantly outgrown the market. And that's because
+we are focused on a segment of the market not the whole PC market.
+The mainstream PC market is, without question, slow. It was slow last year, it's slow
+this year. And there is some evidence of perhaps some bottoming out that's coming
+out of Taiwan now that I have been reading about. But it's certainly very weak.
+But the PC gaming market is a completely diﬀerent story. That's showing very strong
+growth. We believe the market as a whole is growing at about 10% a year. And
+similarly the workstation market of professional visualization, professional graphics
+has been very -- a strong performer for us, particularly in the last 12 months actually.
+But over the period that we are talking about as well.
+Tesla is our high performance computing application. So this isn't graphics. This uses
+the GPU but the GPU is actually a very powerful parallel processor. So this is using
+the processing path of non-graphics task. So that might weather modeling or it
+might be derivatives pricing, for example choosing an example closer to home. It's a
+relatively small base now to the run rate of about $200 million. But it's showing very
+strong growth. We have reached critical point with that business. This is actually, of
+all businesses, the one I personally get most excited about because we were at a
+very stable $100 million a year sort of level for a couple of years. And recently we've
+broken out of that and I think the reason is that we now support enough applications
+and we now have big enough channel in terms of all the obvious computer vendors
+now sell service based on our technology. So that a year ago our group (would have)
+sold directly into a customer and now we're getting business generating itself, if you
+like in the sense there might be a guy, a research where Johnson & Johnson looking
+at drug interactions knows that we accelerate protein modeling, (inaudible)
+delivered on Tuesday. And so it's happening that way now. So that business is really
+beginning to scale. About half of the world's supercomputing installations are
+testing our software. We are obviously making a big business of the ones that have
+implemented it and we expect that to continue to grow. We have very strong market
+share there.
+GRID is a brand new business. So I don't have revenue numbers to sort of report to
+you today. What I can report is customer trials. And so the basic, I should have to
+take a step back. And the basic philosophy here is to make virtual desktopFINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 12infrastructures such as those of VMware and Citrix work better particularly to
+improve -- speciﬁcally to improve the user experience in those implementations.
+Citrix's industry show -- user show conference in July this year (inaudible) and they
+all said that the user experience is the biggest obstacle to implementation because
+the IT departments are wholly convinced with the nature of virtualization. They love
+the security, they love the manageability, they love the total cost of ownership. So
+they start a pilot project and then the users look at it and think well this is (about in)
+1995, why would I want to do this and rejects it. And so we can remove that obstacle,
+we can improve user experience, we can support video, we can support new user
+interfaces. I mean, the basic implementations don't even support some of the
+transitions within PowerPoint, right, that 3-D support is so limited.
+So customer (uptake), we were at 150 customer trials last quarter, we are at 212 now.
+So there is clear growth, clear excitement there, enterprise IT being what it is, that's a
+18 to 24 months purchase process. So I wouldn't expect to see material revenues
+until the back half of next year probably.
+Tegra is our mobile devices. It's a system on chips, it's the whole multimedia
+computer on a single chip. Good year last year, slower start to this year. But now we
+are starting to (motor) again. Xiaomi phone is shipping in China to great reviews.
+Our automotive business is particularly strong. We see that as doubling this year,
+next year and the year after. We actually have $1 billion to $2 billion worth of business
+already booked for automotive. So you see that we have 23 brands, 116 models
+which could be as many as 30 million cars that we ship with Tegra (inside and over
+the) next few years. And it's still a huge market opportunity for us, not just phones,
+phones is certainly a very large opportunity for us. But it's broader than that.
+We see the opportunities for Tegra to be anywhere where visual computing
+intersects with Android. So Android is all about being ubiquitous. So wherever
+Android is and wherever visual computing matters to Android that's what we think
+we can make (a curve it) with Tegra. So phones is one of those markets but so too is
+tablets, set top boxes, gaming devices, automotive as well and there is probably
+some others that I haven't named. I suppose this is what putting ahead, we recently
+had our LTE modem certiﬁed at both Vodafone and AT&T as well.
+Then the ﬁnal route to market if you like is IP. We have spent 20 years about being
+some of the most core -- the most key -- I want to avoid to use of the word
+fundamental because fundamental has a very speciﬁc meaning in the context of
+patents. But the most fundamental patents and graphics. We hear from analysts and
+as you can see here we have over 500 key graphics patents and there is no one that
+even comes close. We have about 6,400 patent assets, that's patents and patents
+that have been ﬁled but not yet granted. We have 6,500 engineers working on
+patents.FINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 12Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris EvendenAnd so we're ﬁling, we've actually accelerated the ﬁling rate, we're ﬁling at around
+500 to 1,000 a year, generating quite a lot of IP then so we would like to monetize
+that value. And our primary path to monetizing that is actually to license our graphics
+(cores) and another technologies that we have. But we are also in parallel looking at
+companies that might be infringing our IP. And we will have conversations with them
+as well where and when we think it's appropriate.
+Then ﬁnally cash return. I mentioned that we have a strong cash generation business.
+Our fundamental philosophy is to return cash to shareholders through a dividend,
+obviously out of our free cash ﬂow. But we actually do actually have a lot of cash
+now. And now that we have passed the discontinuity of the crash in 2008, we feel
+conﬁdent of our continued cash generation ability. So we started a dividend and we
+have a large cash reserve that we are returning through share repurchases.
+So we started at the end of FY13. We are almost a year -- almost exactly a year (I think
+with) calendar. So think about calendar 2012, calendar 2013, calendar 2014. So we've
+recently announced our intention to return $1 billion in next year. One of the
+challenges there is that most of our cash is generated abroad. So we recently
+announced a convertible oﬀering, which is essentially a way of borrowing against the
+cash we have oﬀshore and enabling us to return it to shareholders.
+So I think in summary the way I think that the company is strong cash generation
+from our core businesses, proven growth opportunity with Tesla, growth option with
+GRID and ﬁnally some good prospects on the IP licensing business as well. Okay?
+How is that for time, I should be looking (at the) clock?
+Questions And Answers
+{BIO 4109276 <GO>}
+So Chris when you end up to come to the BMO Conference, who wants to be the
+next (TI)?
+{BIO 18934997 <GO>}
+Who wants to be the next TI?
+{BIO 4109276 <GO>}
+Who wants to be the next TI? So I am going to ask the easiest question ﬁrst, which is
+very hard to get traction on the mobile side. So A, what's the commitment that the
+Company has in mobile. And not just handsets also extending it to tablets, that Intel
+now committing to guiding to greater than $2.5 billion operating loss next year in
+mobile eﬀort, kind of (pales) your loss that you have so far in terms of (multiple
+speakers)?
+{BIO 18934997 <GO>}FINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 12Q - Ambrish Srivastava
+A - Chris EvendenIt is a very competitive market and I think one of the key factors that's going to lead
+to success in that market is having a product that you can -- what actually
+diﬀerentiates the user experience, right. So you have to be able to show to a device
+manufacturer that you can improve the experience that the users go through. So just
+saying (I have got) a greater level of integration or I have got a better Wi-Fi chip or
+one of those things, that doesn't diﬀerentiate the user experience, they are
+necessary to a degree. But they are the price of entry. And I think that's where the
+visual computing angle comes in and I believe that really does enable us to
+diﬀerentiate the user experience.
+Gaming is the most obvious application of that. Gaming is signiﬁcantly better on a
+device that's got an NVIDIA GPU in it, not just because of the silicon. But because of
+the driver software and the ecosystem we build around it as well. We put a lot of
+investment into the whole product if you like rather than just the chip itself.
+But not just gaming also web browsing experience, the zooming in on a PDF, right.
+And so you can render much faster than you otherwise would. That's what we mean
+by the visual experience. And by putting in an advanced, we just -- our new SoC
+includes Kepler which is a PC level GPU, which is programmable to use general
+purpose computing tasks as well. So you can just as a GPU is good at taking data
+and turning that into an image, it's good at taking an image and turning that into
+data as well. So we can process data from the world around us and do (what brings
+to reality) or we can in a car for example, we can tell you thanks for all the backup
+cameras that you have now; it's very easy for us to use the GPU to tell when you are
+moving out of the white lines on a highway and allow the drivers now to collision
+avoidance, autonomous parking, all those things.
+{BIO 4109276 <GO>}
+Is that what it does in Tesla, your --?
+{BIO 18934997 <GO>}
+It's a similar sort of technology that is applied in Tesla, yes. We built all that
+technology, we built the development infrastructure. The platform CUDA is the
+platform for those of you who are not aware. Now we are bringing that to mobile,
+gesture recognition is another example of an application for mobile devices that you
+might want to have. So all that you think diﬀerentiate the consumer experience. So
+we think that gives us a strong competitive position.
+Now with respect to the amount of money that Intel is undertaking to invest in the
+market, I think that does illustrate just how hard it is for an x86 vendor to move into
+the ARM ecosystem, right. And this is very much an ARM ecosystem. And Intel is -- I
+don't know when before Intel has ever found itself to be an interloper in somebody
+else's ecosystem. That's a new game for them. So they're clearly serious about it.
+And I would never -- again, they have got a lot of clever engineers, a very well
+managed company. But they've got to try extra hard because they're moving into
+somebody else's ecosystem.FINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 12Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris Evenden{BIO 4109276 <GO>}
+Okay. Now, I'll turn to an easier question, to something that you guys have been
+doing a good job, not taking away anything from your Tegra for shareholder return.
+You guys have turned around and you have committed to it and the recent oﬀering
+illustrates that. What's the right way to think about capital allocation? And tied to that
+capital structure, is there a commitment you're going to be making beyond what
+you've done, X % of free cash ﬂow? Are you evaluating some of those metrics?
+{BIO 18934997 <GO>}
+So we are evaluating some of those metrics. And we haven't undertaken to actually
+commit to one right now. I think (inaudible) I think we're currently paying out
+something like 25% of free cash ﬂow in dividend. So obviously we've got plenty of
+room to increase that in the future which is what is expected of the dividend payout.
+Obviously also we expect our free cash ﬂow to increase as well.
+And we still have $3 billion in the bank. So we have plenty more to return. And as far
+as we've got it in public commitments that we've disclosed, $1 billion next year. So
+probably $160 million of that $170 million is dividend if we carry on at the same rate
+and that leads another $840 million and $830 million to be share repurchases. So
+that's the commitment we've made so far. Then we'll re-evaluate it and we have a
+model that says this is how much cash we actually need to operate on and obviously
+it's signiﬁcantly less than $3 billion.
+{BIO 4109276 <GO>}
+Yes, okay. So let's just switch to businesses where you have pretty unique IP and you
+have taken into newer areas, you have gone and opened up a new front so to speak
+in heterogeneous computing. Tesla, as you were saying, I think it used to be less than
+$100 million, now you are broken through close to $170 million, $200 million kind of
+run rate. What is the (time). And you had a slide up there, Intel put up -- and I don't
+know how they sliced and diced it. But they had a market share which was measured
+-- understood --?
+{BIO 18934997 <GO>}
+I am sure they sliced it in a way to give them the biggest market share. (If you like), I
+would do the same.
+{BIO 4109276 <GO>}
+95% market share is the number that jumps out of the --
+{BIO 18934997 <GO>}
+(They haven't). So the Intersect360 data which is a third-party research organization,
+they said we had 85% share. That was back in July. So I supposed technically that's
+out of date. Intel had 4% and then other was 11%. So that's FPGAs and AMD (and
+things). So Intel obviously has been pretty active in this market. We actually -- I mean,
+if you remember back when they launched Larrabee, they launched it as a graphicsFINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 12card and we said at the time no way is that a graphics card. But one day it will be a
+Tesla competitor. And we were very clear about that from the very beginning and
+that's exactly where it ended up, right. They admitted that it wasn't going to be a
+graphics card after all and although Pat Gelsinger went on public (stages and said
+things he) said, it never was a graphics card.
+So now they're certainly very active in that space, that's actually good for us in the
+sense that the biggest obstacle we had to Tesla adoption was persuading people
+that they needed to move away from ordinary CPUs. And that's an obstacle because
+it requires some software development on their part and we do a lot to make it as
+easy as possible but there is some eﬀort required. And we go in there and we say
+look this -- you are going to run into a power war, you are going to run into a
+performance war, you need performance per watt, you need to use our technology
+but there is some work. And the obstacle is them thinking well, I'll just wait for a
+faster Xeon to come out and everything will be ﬁne and I want (to continue to work
+and it'll) just get automatically faster and I'll be ﬁne.
+And now Intel is going in with Xeon Phi which is essentially -- it isn't the old Larrabee.
+So it's like a very graphics card like architecture and they're saying the same thing
+with us. And so now they are saying yes, Intel is saying as well, no you can't rely on
+new Xeon, you're going to have to -- and when Intel tells you can't rely on new Xeon,
+it's quite convincing from NVIDIA self serving as when I tell you that you can't rely on
+new Xeon.
+So then they are faced with the choice between us and Intel and Intel can throw
+some money at that problem and get some good marquee wins. But ultimately when
+it comes down to application support and developer support, we are by far the
+incumbent in that regard. We support many more codes.
+Intel tries to make the case that you can port and run x86 code natively and that is a
+true statement only in a very, very narrow speciﬁc sense. And it's a true statement in
+the sense that yes you can run the code natively on Xeon Phi. But it actually runs
+slower than the regular Xeon if you do that. We measured it as running at 0.6, 0.7
+times (as soft). So it's actually a meaningless statement.
+So if you actually want to get any beneﬁt from the parallel, get (inaudible) Xeon Phi,
+you have to do essentially exactly the same work that you do with us. So it's a very
+analogist, except that we've done a lot of the work already on a lot of the main mass
+libraries that are out there like VMD, NAMD, AMBER all those things were already
+ported, MATLAB, all these things are already ported to our hardware. So we've done
+a lot of work for you. So we're quite way ahead of them in that regard.
+So they just announced a new Chinese super computer and that certainly takes not
+the ratings in some regard. But I don't think they made much money on that
+purchase. I mean certainly ask Intel yourself just how much they made on that. I
+mean it was I think 32,000 Ivy Bridge CPUs and 48,000 Xeon Phis; this is public
+information. So if you charge a $1,000 for one and $1,500 for other, you get a $104FINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 12Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris Evendenmillion for that piece of business if they were charging standard prices for that. So I
+would ask Intel, how much they made on that deal.
+{BIO 4109276 <GO>}
+And you put up on your slide you had a TAM. So what are some of the big
+applications that are driving adoption and why have you been able to break through
+the $100 million barrier?
+{BIO 18934997 <GO>}
+Well so the obvious -- so, it's a broad supercomputing category which is a broad, a
+multi-use supercomputer like Titan Oak Ridge National Labs, which is used for a
+number of things. So I can't talk into speciﬁcs, maybe one example to give you (as
+some extra dynamics) which I talked about on stage. So that's where you have two
+proteins and you literally model the attraction, the electrostatic attraction between
+each individual atom in those two protein molecules. And protein molecules kind of
+have thousands of atoms in them. And the actual shape of those molecules really
+aﬀects their eﬀectiveness of drugs or whatever. So that's a very, very complex, very
+intense mathematical problem that runs extremely well on GPUs. So that's very
+promising area for us.
+Why have we broken out? And I think it comes back down to software support. It's
+now that that guy who is doing that work, I think I mentioned it earlier on (inaudible)
+he knows that Tesla will help him, he knows that IBM stocks Tesla. So he can just
+phone up, is it regular IBM salesman and get a server delivered, whereas before a
+year ago, we had to evangelize it. So that $25 million a quarter level in retrospect I
+believe is the level that we can support directly that our team had the bandwidth to
+support directly. And the reason we don't break out that now is because we don't
+have to support our sales directly, it's happening through a broader sales channel.
+And so we can actually ﬁnally start to scale that business now.
+{BIO 4109276 <GO>}
+And staying with the newer businesses, GRID; it seems the customer trial traction is
+really building and AWSA has adopted it.
+{BIO 18934997 <GO>}
+Yes.
+{BIO 4109276 <GO>}
+When does it become. And please deﬁne it for us, a meaningful percentage of
+revenues that you can say, you know what guys, this is beginning to set the needle?
+{BIO 18934997 <GO>}
+That's an interesting question. My best guess is second half of next year. So we
+started trials earlier this year an 18 to 24 months. But the software is maturing all the
+time. And we're supported natively in XenDesktop 7. We have a large degree ofFINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 12Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris Evenden
+Q - Unidentiﬁed Participant
+A - Chris Evendensupport. But not quite yet as complete support in VMware. And so we are looking to
+extend that support. So yes, the second half of next year. So (inaudible) deﬁne
+meaningful for me, I don't know. I would hate to be drawn on stage to give a
+number. But I would think it will be material at some point in the second half of next
+year.
+{BIO 4109276 <GO>}
+Okay. I did not mean to put you (multiple speakers). I just wanted to get a sense for
+it. Now just one more question and then I am going to open it up to the audience to
+see if there are any questions because I have a long list, I can't keep going on. AWS
+(inaudible) that's a publicly announced (event). What application or what kind of
+uses are being deployed towards?
+{BIO 18934997 <GO>}
+It's completely general purpose, right. It depends on what Amazon's clients actually
+want to use it for that. But it is graphics and the cloud. So this is not HPC; this is
+actually accelerating the graphics. So we also have an agreement with Amazon on
+the HPC side as well, their AC2 data processing cloud as well.
+{BIO 4109276 <GO>}
+But you haven't done any analytics to see okay this is the kind of --?
+{BIO 18934997 <GO>}
+It's only just announced, it's only just begun. So it's too early to talk about that.
+{BIO 4109276 <GO>}
+Okay. Great. Okay. Well let me see if there are any questions from the audience, if
+there are any.
+{BIO 18934997 <GO>}
+It's the end of the day. No one has got anything left.
+There is a (inaudible) for NVIDIA that I've heard from some other investors that
+basically a little bit to the question that was asked earlier. When are you guys going
+to shut down Tegra and return even more of cash to investors? How does sort of give
+up on this mobile eﬀort? How does, I think you have spoken to this a little bit. But
+how does Jen-Hsun or you sort of react to that situation?
+{BIO 18934997 <GO>}
+Yes. So we're pretty proud of how we spend on Tegra. And Jen-Hsun also thinks that
+mobile computing is strategically hugely important. We have some great devices out
+there now. We certainly had a diﬃcult ﬁrst half of this year. But don't characterize it
+by just that six months. I mean it's -- I think the issue there was pretty clearly prettyFINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 12Q - Unidentiﬁed Participant
+A - Chris Evendenwell known. Tegra 4 was later than we we'd liked it to have been. And as a result, we
+weren't in a position to be compete for the major tablet wins and probably weren't
+really in a position to compete so much, would actually ship in the ﬁrst half of this
+year.
+So that gave us a very slow start this year. But we made the choice. When we realized
+that Tegra 4 is going to be late, we could have accelerated it. But that would likely
+have delayed Tegra 5. And they need to have a knock-on eﬀect where you'll never
+be on time for anything ever again.
+So we decided to let Tegra 4 stand or fall on its own and make sure we've got Tegra
+4i on time and get Tegra 5 ready on time. And both of those things were -- we have a
+very aggressive schedule on both, aggressive in the sense that they are both on
+time. I mean, I'm not expecting everything to go perfectly for them to be on time. So
+Tegra 4i would start sampling in February. Having said that, we would sample it in
+the ﬁrst half of the year and those of you who have been following semiconductors
+for a while know that the ﬁrst half of the year generally means like early July, right.
+And we start (sampling in) February. So we are four months ahead, three or four
+months ahead of schedule on that.
+Then Tegra -- Logan, project Logan is the codename, that we actually started
+something in July and that's along with the PC level, PC class graphics in a mobile
+tablet and that's what real discontinuity in terms of visual experience for consumers.
+And more importantly, it's on a time frame to win designs in ﬁrst half of next year,
+unlike their taking another illustration. Tegra 3 to Tegra 4 was 24 months; Tegra 4 to
+Logan is about nine months, it's completely diﬀerent scenario.
+So also to answer the other half of your question which is the cost aspect, there is a
+law of synergy between what we do in our other businesses like Tesla, for example
+the GPU in Logan, that's the GPU we have to develop for GeForce and for Quadro
+and for Tesla anyway, it was already there. Now there were some extra tweaks that
+had to be done. But we actually allocated formal cost to Tegra just because the cost
+allocation is fairly simplistic I guess.
+And so, if we were to shutdown Tegra, you don't save as much money as you would
+think, right. That's not eﬀective as the way we allocate cost, which is perhaps in
+retrospect now that we're hearing these questions, you are not the ﬁrst person to
+have asked that is -- perhaps was something we should have thought about more
+when we thought about how we allocated costs.
+What is NVIDIA's plan with the SHIELD game device?
+{BIO 18934997 <GO>}
+What is our intention or --?FINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 12Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Ambrish Srivastava
+Q - Unidentiﬁed Participant
+A - Chris Evenden
+Q - Ambrish SrivastavaYes. It doesn't seem as though it's being promoted heavily during the Christmas
+season?
+{BIO 18934997 <GO>}
+Yes. So we have two intentions, there is two way SHIELD can succeed for us. One, we
+sell a whole bunch of them. Two, it helps build gaming in the Android ecosystem,
+right. So gaming obviously is a particular strength for us because of the impact of
+visual computing has on it and our 20 years experience in gaming.
+And so we want Android to be a target platform for developers of hardcore games
+because the more they move that way the more it plays to our strength. So SHIELD is
+part of that eﬀort in a sense that it's a target. And I'd say here is what gaming on an
+Android device can look like, can play like. And so we can give you console quality
+games now in SHIELD. And also it links into the wider gaming ecosystem powered
+by NVIDIA. So it is something if you have a game in PC at home, you can play the
+game on your couch from your SHIELD just using the (little book in) screen. And in
+fact, we've just announced the trial in California of online gaming, streaming gaming.
+So the game actually exists on a server somewhere and you subscribe for the game,
+some (monthly fee for your) model and you play it on your SHIELD. So we just quietly
+started (debate on that). So that's a several thousand people playing that today.
+So it's part -- it's an integral part of a broader gaming strategy. But in terms of
+NVIDIA in general and of Android in particular, we really want to build. If we could,
+we have -- you see on the PC side of the business, we have a proﬁtable defensible
+niche, (I kind of overheard me), a proﬁtable defensible niche in gaming in a PC
+market. Then when we tell you today the PC market is an attractive market, yes, we
+have a growing high proﬁtable business inside the PC market.
+Now people tell me that -- I thought just one of you here just told me, the mobile
+computing market isn't an attractive market either. But if I can make gaming matter
+in that sense as well then I've got a proﬁtable defensible growing segment there as
+well, right. So that SHIELD is integral for those eﬀorts.
+{BIO 4109276 <GO>}
+I had one last. There is one there.
+(inaudible; microphone inaccessible)
+{BIO 18934997 <GO>}
+Yes. We've just posted them and they should be available now on our website.
+{BIO 4109276 <GO>}FINAL TRANSCRIPT 2013-12-10
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 12A - Chris Evenden
+Q - Ambrish Srivastava
+A - Chris EvendenChris, I had a last question on the core GPU business and you're right most of us
+didn't believe you when you were saying that that's doing better. But now what are
+the dynamics in the PC market, everything you hear from a supply chain and from
+where the sales are low end is where the volumes appear to be. So what is the right
+way to think about the core GPU business, the high-end discrete GPU volume is
+going to stay at a certain level?
+{BIO 18934997 <GO>}
+I think overall from a revenue perspective, it's going to be fairly stable. I think from
+units level, it's probably going to go down because the low end I think will continue
+to decline and the high end will continue to grow. And so in a revenue perspective
+they'll oﬀset each other, in a proﬁt perspective it'll more than oﬀset because the high
+end is more proﬁtable.
+In a unit perspective, it won't look so attractive because at the low end you've got a
+large number of only moderately proﬁtable business. And so some of that I think will
+continue to go away. I think there is a lot of pressure on mainstream notebooks,
+there is a lot of price pressure. So GPU is one of the more expensive elements of the
+(bond) so you get a little pressure there. You've got new technologies like SFPs and
+touch now competing for (parts of bond) as well. So it's a diﬃcult place to be.
+Overall the GPU business will be ﬁne. But if you look at that particular mainstream
+business, the mainstream PC business I think will continue to suﬀer. I think it's a
+tough place to be.
+{BIO 4109276 <GO>}
+Okay. Thank you very much.
+{BIO 18934997 <GO>}
+Thank you. Thanks everyone.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

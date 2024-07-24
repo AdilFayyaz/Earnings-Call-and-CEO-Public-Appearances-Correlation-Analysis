@@ -1,0 +1,586 @@
+FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 1 of 15, VP Server and Tools Business Development and Strategy Team
+, Analyst, BofA Merrill Lynch
+Unidentiﬁed Participant, Analyst, Unknown
+Kash Rangan
+Bob KellyBank of America Merrill Lynch Global Technology
+Conference
+Company Participants
+Bob Kelly
+Other Participants
+Kash Rangan
+Presentation
+{BIO 22095432 <GO>}
+Thank you. So much for coming out to our conference in muggy San Francisco.
+Delighted to be able to introduce our next Company. Bob Kelly, Corporate Vice
+President at Microsoft in the Server and Tools Business and (inaudible) in the IR
+Department. Bob's going to be talking about his business for about 15-20 minutes
+and then we'll open up for questions and answers. With that, Bob, take the stage.
+{BIO 16032998 <GO>}
+Thank you, Kash, appreciate that. It's good to see everybody here. As Kash
+mentioned, my name is Bob Kelly. I've been at Microsoft for almost 17 years. I have
+done everything you can possibly imagine in the Server and Tools business. And it's
+a pretty wild time in our segment right now. And what I wanted to do is just set some
+framing essentially for you for how to think about the Server and Tools business. It's
+one of those, I'm expecting that since you're here you know it's not a little secret. But
+it's a little secret to the rest of the world about this business that we have that's
+almost $19 billion large. So let's tell you a little bit about what we see going on in the
+ecosystem.
+But before I do of course, this presentation does in fact contain forward-looking
+statements. And so take them as they are.
+There are a few things to remember about the Server and Tools business. The ﬁrst is
+it's really a big business. It's a $19 billion business for Microsoft with a ﬁve-year CAGR
+of 11%. That's pretty stunning and if you look at underneath that, the hardware market
+this year, the server hardware market, is going to decline. So growing 11 points in a
+market that's actually declining is really pretty shocking. Very, very strong business
+for the Company.FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 2 of 15Our contribution margin continues to grow year-over-year at nearly 50%. This is a
+very, very healthy business and getting healthier every year. There are six separate $1
+billion businesses within the Server and Tools business. That is a remarkable
+statement. Having started on Server and Tools when Windows Server was shipping
+3,000 units a month to a business that's now got six separate $1 billion businesses
+across the management, the database, the OS category and more, is a phenomenal
+achievement.
+And yet we're also continuing to grow our share position. We have grown 4 points
+over the last year in Hyper-V market share. That's versus VMware and the market
+itself. SQL Server Premium, our high-end SKUs are growing greater than 20% over
+the last ﬁve quarters. And Windows Azure, if you will, the new addition to our
+portfolio has added over 50 services just over the last year. Remarkable, remarkable
+success story and actually one that we think is really just set for its next phase of
+growth.
+There are some things I want you to understand though as we see them. Because I
+think for you to understand how we see them will help you frame up how you want
+to look at our success or our failures.
+There are really four fundamental transformational trends that are occurring in the
+ecosystem. And these trends are all built oﬀ of sort of the underpinning, if you will, of
+the virtualization of compute, storage and network. The computer, storage and
+network virtualization.
+These four trends you see outside the ring, they're very important because it's
+actually these trends that are forming the strategic direction that we're taking for the
+Server and Tools Business.
+The ﬁrst is these new social and app patterns. You see Facebook and Twitter and
+Pinterest and LinkedIn. Massive scale. But these new social and application patterns
+are really driven oﬀ of a whole new set of verbs like share. They have intelligence
+built into them. They auto-ﬁll search. These are really intelligent applications that
+have a very new paradigm for how applications are being built. And it's not just
+consumer applications, these new kinds of apps are now ﬁnding their way into the
+commercial sector as well.
+The data explosion. This is a staggering statistic. 90% of the world's data was created
+in the last two years. IEC is predicting 44X growth of data over the next ﬁve years.
+Now this could either be the most daunting thing that hits customers or a
+tremendous opportunity to drive new applications and new scenarios around
+insight. And that's how we're viewing it. We think there's actually this really unique
+opportunity where data becomes the new platform and the tools around data, the
+Oﬃce 365 and the BI category, really become very, very powerful for where the
+customers actually derive new value and new scenarios for their own businesses.FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 3 of 15The consumerization of IT. How many of you are carrying a smart phone or an iPad?
+Or maybe even a Surface, dear God. Consumerization of IT is a reality. This is
+something that is so true -- every one of us is bringing these devices into the
+business and expect our applications to be there. This is a huge burden on IT. They
+have to build new systems to secure, to manage and stay compliant with corporate
+policy on devices they do not control. By 2015 it's forecasted that there will be more
+than 2X the number of smart devices than there are people on the planet. This is the
+new reality and business has to deal with that new reality.
+And ﬁnally, cloud computing is just exploding like crazy, whether that's Windows
+Azure or AWS or Google's cloud platform or Salesforce or Rackspace, just
+tremendous capacity being built. When you have that much capacity with these
+other trends, you have a really unique opportunity to create new value and to go
+drive transformational change, both within the industry and within the customer.
+Now, we are responding to this aggressively. And we call this cloud OS the modern
+platform for the world's apps. Fundamentally what's happening to this new world is
+going to require a new way of managing systems. A new way of deploying services.
+A new way of what today we think of as resource management that an operating
+system does, now at global scale. Now a system that's distributed across millions of
+servers in order to deliver against the needs of those transformational trends.
+So this modern platform for the world's apps fundamentally transforms the data
+center. And I need you to think of the data center not just as the four walls that some
+customer owns. But instead the walls are now logical and they're now wherever their
+applications are. And so this new cloud OS has to take into account that the data
+center's being redeﬁned.
+It enables and empowers people centric IT. It turns out actually it's not just the
+devices that are important, it's actually the user experience. The user has now
+become the center of IT, not the other way around. For so long it's been that central
+IT made the decisions about what users did. In this new world, the users are making
+the decisions and IT has to deal with it. IT has to manage, secure and comply.
+This new platform will unlock insights on any data, small, big, whatever kind of data
+you want to have. The key is insights. It's not about the data per se, it's really about
+what can we derive from the new patterns that are emerging and a new ability to
+actually see into shocking amounts of data that otherwise three years ago we would
+all thrown away and discarded. Now you can actually keep that data and actually do
+really interesting things to ﬁnd out more about your users, about your business and
+therefore take better action.
+And ﬁnally, this modern platform also enables a whole new class of business
+applications. This cloud OS is really a whole new construct. It's no longer thinking
+about things as a singular machine, it's now this vast distributed fabric that enables a
+whole new class of applications, a whole new case of user scenarios and in fact a
+new way of thinking about IT.FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 4 of 15So what makes the cloud OS unique? Microsoft's approach to this, with this cloud
+OS, is to have one consistent platform that spans the customer's data center, our
+own data center and third party service providers. One consistent platform that
+allows the customer to deploy applications or solutions or infrastructure where they
+want to. But expect a certain level of consistency. This cloud OS enables ﬂexible
+development.
+What that really means is we will support not just dot net in a world-class way, we'll
+support running Linux on our fabric, we'll support PHP and Java. In fact, we do today
+at scale. Flexible development means also that the developer, the customer can
+build an application and decide where to deploy it later. That's the way the customer
+wants to build applications. They want to build them and deploy them wherever they
+see ﬁt based on what their business needs are.
+But this cloud OS also needs to have a uniﬁed management approach. Our uniﬁed
+management approach means a single pane of glass through which the Company
+can look at all of their assets, no matter where they're deployed, on their premises,
+on our premises or in third party. That is a really important part, because at the end
+of the day what today they think of as their data center, tomorrow is now just a
+logical boundary and they need to be able to manage all those assets through that
+one single pane of glass.
+As part of that, they need a common identity fabric, meaning you need to be able to
+log into a set of assets that are deployed anywhere on the planet and be able to
+federate across multiple platforms. You need integrated virtualization across this
+platform, one that has the common layer for virtualizing any part of the stack on my
+premises, your premises or third party service providers and ﬁnding this complete
+data platform. So this cloud OS absolutely is unique because it actually enables this
+set of capabilities against the premises where customers want to deploy their
+applications and their solutions.
+Now it's not just us talking about this, we have tremendous momentum. Tremendous
+momentum. What you're going to see on this slide is a lot of ampersands. What that
+really means is our approach is fundamentally an and approach, not an or approach.
+It's not the private cloud or the public cloud. It's not Microsoft or the service
+providers. We have fundamentally an and approach.
+93% of the Fortune 1000 use Active Directory as a primary log in and our Windows
+Azure active directory has 265 billion authentications against it. It is the same
+software, with 3 million entities, corporations, businesses using Azure Active
+Directory.
+46% of the databases deployed in the world are using SQL Server. And 300,000
+SQL Azure databases in Windows Azure. Similarly on the 76% of enterprise apps are
+using Windows Server and we have over 100,000 websites hosted in Windows
+Azure. All of these are in. Our core strategy is to deliver a fabric that's cloud OS that
+allows the customer to deploy their solution where they see ﬁt. And that's reallyFINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 5 of 15Q - Kash Rangancritical because the customers tell us every single day that IT cannot get in the way of
+them running their business. They must be able to actually do what they see ﬁt,
+based on whatever rules or regulations they have in play.
+We've had a tremendous year of product momentum, tremendous. Whether it was
+Windows Server 2012 or System Center 2012 where we neutralized the playing
+ground vis-a-vis VMware and have now a competitive oﬀering to go take a bunch of
+share. Or SQL Server 2012, where we really upped the game and show signiﬁcant
+revenue growth and share adoption in our database category. Or Windows Intune,
+our management server. A SASS oﬀering for managing the PC environment. These
+are all tremendously successful products for us and are accelerating our growth in
+each of these categories.
+And of course over the next 12 months we have signiﬁcant products coming as well.
+In addition to those, as I said, 50 new services that we've delivered on Windows
+Azure this year, we just yesterday announced a whole new set of updates to
+Windows Azure as well at our Tech Ed event down in New Orleans. Windows Server
+and System Center Blue, which you've heard on the Windows client side of Windows
+Blue, Windows 8.1, there's also a server release coming at that timeframe where we
+will bring a bunch of the innovation that we have around Windows Azure into the
+server release itself. So that customers can take the advantages that we have of
+Windows Azure and deploy it on their premises.
+SQL Server 14 has a feature called Always on Backup, meaning that it actually literally
+is doing a continuous backup into Windows Azure and the customer therefore has a
+disaster recovery solution built in the box. Cloud BI, visual studio, Windows Intune,
+all of these are key products that we will innovate on and reiterate on over the
+course of the next 12 months.
+With that, that is a quick view of how to frame the Server and Tools Business through
+the lens of this cloud OS. There are lots of diﬀerent categories we play in. The
+database category, the OS category, the management category. And we're
+incredibly successful. But as the world moves to these new demands it's imperative -
+- our customers tell us it's imperative that we have a fabric that enables them to
+deploy solutions anywhere they see ﬁt.
+So with that, I'm going to pause and we'll sit down and take some Q&A. Thank you.
+Questions And Answers
+{BIO 22095432 <GO>}
+Thanks so much, Bob. So I'll ask a couple of questions and feel free to jump in with
+your questions as well.
+We've heard a lot about as the work that Azure -- or you guys have been doing with
+Azure and Amazon Web Services has been talking about their infrastructureFINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 6 of 15A - Bob Kelly
+Q - Kash Rangan
+A - Bob Kelly(inaudible) strategy as well. How do you see Azure playing alongside AWS? Is it
+going to be a head-on conversation or are you guys in diﬀerent segments of the
+market? How do you see your unique strengths and points of diﬀerentiation versus
+Amazon Web Services?
+{BIO 16032998 <GO>}
+I see a couple of diﬀerent things. One is the ﬁrst and foremost there are lots of
+buzzwords around cloud. Infrastructure as a service, platform as a service, software
+as a service. They're all diﬀerent ways of thinking about the core capabilities, if you
+will, of the platform.
+In real terms, infrastructure as a service is just sort of the current application model
+but delivered as a rented VM from the cloud. Platform as a service is a set of
+managed APIs. What Windows Azure does is it delivers both. We have a full set of
+platform as a service capabilities and a full set of infrastructure as a service capability,
+meaning that customers can actually deploy both the existing application model and
+the new application model into Windows Azure. So that's what it is.
+We feel very good about what we've built. But the reason why we think we're actually
+going to be successful versus Amazon is really because at the end of the day we
+think we're targeting the enterprise customer ﬁrst and Amazon is targeting the
+startup ﬁrst. Those are two diﬀerent starting points. I'm not trying to denigrate their
+business at all, they've done a successful job of really capturing momentum around
+the startup ecosystem. But the presence we have in the enterprise space, if Amazon
+owns the consumer credit card, Microsoft owns the enterprise credit card. And if we
+can establish this beach hold where customers can actually extend their data center
+into Windows Azure using IAS or pads, we think we have a really, really strong
+position and diﬀerentiated oﬀer versus AWS.
+{BIO 22095432 <GO>}
+Got it. We hear a lot of private clouds, public clouds. You guys have a public clouds
+oﬀering. You also have a product load oﬀering which you enable product data
+centers to. Where do you see your customers spending most amount of investment
+dollars? Are they going towards public clouds or private clouds or what's
+interestingly called hybrid clouds? Which (inaudible) there?
+{BIO 16032998 <GO>}
+Well obviously based on our strategy we think that the end state is some notion of
+hybrid, between our cloud, their cloud and a third party cloud. And given where we
+are in the life cycle, if you will, or the adoption of public cloud technologies, which is
+relatively early in its life cycle, the vast majority at least of the spend against Server
+and Tools, of the $19 billion, is on software that customers are deploying on their own
+premises. But we have very, very, very early signs of very strong momentum.
+Last year I stood up here, I told you that we had 100,000 customers on Windows
+Azure. Today we have 200,000. We're adding 1,000 customers a day. We have
+30,000 customers who have adopted our infrastructure as a service oﬀering thatFINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 7 of 15Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob Kellywent live in April. We really just have seen tremendous momentum. We have 50% of
+the Fortune 500 who have at least one application on Windows Azure.
+So we have very strong momentum. Additionally, if you look at all the software that
+we sell as cloud software for Server and Tools Business, either delivered through
+Azure or delivered through the service provider, that's over $1 billion in the trailing 12
+months.
+So we've seen really solid momentum. We have tremendous capability in private
+cloud and huge revenue and we're starting to see the early signs of software
+delivered through Windows Azure and through service providers getting to scale. So
+a long way to go. But really good start.
+{BIO 22095432 <GO>}
+As you look at the business model and (inaudible) when (inaudible) if you like, is
+(inaudible) a business model of Azure, the public (inaudible) oﬀering versus the
+private is more ratable (inaudible) acquisition versus the license. I know that in your
+core Server and Tools Business the majority of the business is structured as a
+programming contract that's ratably recognized. But when you look a the
+incremental value of an Azure deal versus a regular Server and Tools deal, are you
+breakeven from a revenue dollar perspective, margin dollar perspective? What is it
+that you've gained? What is it that you give up? The puts and takes of that?
+{BIO 16032998 <GO>}
+This is one of those questions where you know I'm not rally going to answer it.
+{BIO 22095432 <GO>}
+Yes.
+{BIO 16032998 <GO>}
+I'm going to answer a diﬀerent question. Put it in context. Today the Server and Tools
+Business, which is $20 billion revenue, is in a category of enterprise software of
+about $100 billion. That $100 billion participates in a total $2 trillion IT business. We
+think what's happening here is actually the entire $2 trillion is being dusted up.
+Entire $2 trillion is up for grabs. And there are going to be major winners and major
+losers in this transition. Okay? So we actually don't look at it as a cannibalistic or a
+substitution risk. We look at it as really signiﬁcant potential for revenue and margin
+dollar growth.
+Second thing to remember, every analyst I've ever looked at says about 70% of every
+enterprise IT dollar is going to maintaining existing systems and only 30% to new
+capabilities. So if you could unlock the ability to deliver the backlog of apps, there's
+huge opportunity there as well. That's what we're seeing. We actually see that this
+cloud thing is additive to our business, not subtractive. And because we have such a
+strong position on premises, with multi-year contracts, we're able to monetize that
+transition to the hybrid world very eﬃciently and very eﬀectively.FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 8 of 15Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob KellySo with the macro we're playing in a way bigger pool and we believe fundamentally
+that it's additive to what we're getting today. And we can transition at the rate the
+customer wants to. So for us it feels a win-win.
+{BIO 22095432 <GO>}
+And if you look at the large enterprise, we've got 7,000 of those using Azure. What
+are some of the applications and workloads they're running on Azure?
+{BIO 16032998 <GO>}
+We're seeing everything, right? Obviously you see everything from Cheeseburger or
+(Zingali) consumer facing applications. Then you go into the core enterprise and you
+see applications like a company called EasyJet. EasyJet is a company in Europe that
+does basically seasonal ﬂights. That's kind of the core business model. The way they
+used to have to do it before was in spring they'd ship a bunch of servers and people
+to a site in an airport, stand up systems, collect the fees, collect the tickets and then
+collapse it all and go.
+Well now what they do is they actually have a handheld, a scanner. They use
+Windows Azure as a giant service bus in the cloud that's integrated with their
+mainframe. And so now they have this cloud fabric that allows them to completely
+transform their business using existing assets.
+Or you've got companies like Milliman, who are doing Monte Carlo simulation where
+they actually need tremendous compute capacity. But only on demand. So they can
+stand up thousands of compute nodes, run a simulation, pass oﬀ the answer and
+deﬂate all those. Very, very diﬀerent application patterns. But both very real.
+We also see Boeing has built a consumer facing experience for immersive -- they
+wanted to show oﬀ the Dreamliner. So they wanted a consumer facing experience
+for how to sort of see what the thing it like. And they built this really rich client fed
+application. So everything and all the above. And we'll see more and more and more
+of the core, if you will, transaction capabilities of applications on prem moving to the
+cloud as well.
+{BIO 22095432 <GO>}
+Got it. The (inaudible) talk about and the industry itself has been talking about the
+management of an automation oﬃcer on top of the virtual machine installed. How
+big is your VM install base and how do you view the management opportunity? How
+is Microsoft going to monetize that?
+{BIO 16032998 <GO>}
+If you look at IDC's data, IDC has Hyper-V share just north of 30% and VMware share
+just about 55%, if my number's correct. We. And as I said, we've grown a point a
+quarter over the course of the last four quarters. Aggressive growth and we will get
+to a point where in essence in the enterprise space it'll be two platforms. Customers
+will have a Hyper-V based world and an ESX based world.FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 9 of 15Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob KellyThe money is not in the hyper visor. The money is in the automation and in the
+management. Our systems and our portfolio, one of our $1 billion categories, is a
+very important piece of the way that we monetize. But more importantly it's also a
+very important piece of the strategy for this cloud OS.
+The cloud OS, again has this construct of deploy the application wherever you see
+ﬁt, whatever suits your need best. System Center is the single pane of glass that
+allows you to manage, monitor, provision, update all of those applications wherever
+they sit. So our strategy is really fundamentally about unlocking the power of that
+cloud OS.
+A ﬁnal thing I'll say is for those customers who do want to migrate oﬀ of a competing
+stack, System Center can manage ESX and can manage and provision that
+infrastructure as a customer decides to move over.
+{BIO 22095432 <GO>}
+Are you seeing customers do that?
+{BIO 16032998 <GO>}
+We've seen a tremendous interest, let me say it that way because there's still -- we
+released 2012 last October-November. Tremendous interest from customers of
+moving oﬀ of or deploying next to ESX over the course of the next 12 to 18 months.
+{BIO 22095432 <GO>}
+Are you more bullish on the database industry or your vertical gain share in the
+database industry?
+{BIO 16032998 <GO>}
+Absolutely the latter. The thing that's happening across the ecosystem is -- or I
+should have said both as an option. Well both is an option. But I think you have to
+say more. I think our -- look, if we -- our revenue is growing 20X %. If you look at the
+industry for the database category, it's growing 6%, 7%, 8%, somewhere in that
+range. So we're growing anywhere from 2 to 3X in that market. That's a good start,
+okay?
+The competitors have a stronger position than we do in that category from a revenue
+standpoint. And so we have worked -- but very, very strong product, very strong
+momentum.
+Additionally, as you look into the public cloud space, this is unlimited opportunity for
+us. And as applications kind of migrate to that new world of delivering databases of
+service, the whole notion of tier 1 apps gets disrupted. And the iceberg that Oracle
+holds in the enterprise will start to melt. And it will melt because the market's moving
+to the public cloud as a way to consume and deliver that service, not because we
+were chipping away at it.FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 10 of 15Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan{BIO 22095432 <GO>}
+Before I turn it over to the audience, what are your thoughts on the open source
+initiatives, open stack, closed stack? What do you feel from your customers as to
+whether they want Microsoft participating?
+{BIO 16032998 <GO>}
+I'd say it's a complicated answer. The ﬁrst is honestly I don't think open stack has a
+chance of having any success in the public cloud. And the reason I say that is the
+economics of the public cloud are such that you have to be at extraordinary scale in
+order to derive and deliver those economics. It's just ﬂat out true. And the only
+players that are going to be doing that at scale are the Microsofts, the Amazons, the
+Googles, maybe the Salesforces. But they're very, very few and far between. Because
+it's such a huge capital outlay. It is such a huge commitment.
+So for someone to take -- for OpenStack to be successful in the public cloud, one of
+the bigs would have to take OpenStack and completely weld that thing to their oﬀer.
+That's the only way it will ever get to scale and real usage in the public cloud.
+Now if you look at the private cloud, I think actually OpenStack does have a likely
+shot at gaining some traction. And for somewhat good reasons. I mean the
+ecosystem historically has never wanted a one-horse raced. It prefers a two-horse
+race and if you could have a three-horse race, that'd be great. So I think that there
+will be enough momentum around an OpenStack like (Plaeda) from HP or from
+others for private cloud.
+So very diﬀerent dynamics. I like our chances in both worlds. But I ﬁrmly believe that
+the public cloud space is one that just won't have any momentum.
+{BIO 22095432 <GO>}
+And (inaudible) to the private cloud, are customers pausing because they're
+evaluating OpenStack? Would their assessment of the maturity of OpenStack, vis-a-
+vis your guys' product (inaudible)?
+{BIO 16032998 <GO>}
+If someone could ﬁnd me a customer who's deployed OpenStack at scale, I'd like to
+talk with them.
+{BIO 22095432 <GO>}
+Apparently eBay has been using (inaudible).
+{BIO 16032998 <GO>}
+Who's that, eBay?
+{BIO 22095432 <GO>}FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 11 of 15A - Bob Kelly
+Q - Kash Rangan
+Q - Unidentiﬁed Participant
+A - Bob Kelly
+Q - Unidentiﬁed ParticipantYes.
+{BIO 16032998 <GO>}
+Yes, I know there are some. I know there are. I have not had the chance to talk to
+them because they're just hard to ﬁnd. There's an awful lot of interest in OpenStack.
+There's not an awful lot of deployment. That's the big diﬀerence. And quite frankly,
+as it moves forward if it needs to have Hyper-V or System Center integration. And
+customers demand it, we'll do it. We're not afraid of that by any stretch of the
+imagination. I just don't see enough momentum behind it yet, I see a lot of noise.
+{BIO 22095432 <GO>}
+Got it, okay. At this point, are there any questions from the audience?
+You're ﬁrst to China with the Azure platform versus AWF. Can you talk a little bit
+about the partner that you chose and your expected uptake?
+{BIO 16032998 <GO>}
+One of my core responsibilities is actually China and speciﬁcally for delivering a
+Windows Azure oﬀering into China. The company that we've chosen to work with
+over there is 21Vianet. Essentially there are really four players you could work with
+over there. The telcos and 21V. And so in real terms, it was imperative that we work
+with a local company that's part and parcel of what it will take to actually operate in
+China to comply with local regulations, et cetera. And it was also imperative for us
+that we do so in a way that is actually beneﬁcial to the ecosystem at large. And 21V is
+the number one non-telco hoster at data center operator in China. So we chose
+them for very speciﬁc reasons.
+There is just unending upside for us in China. Unending upside. As all of you know,
+we have a massive piracy challenge across Microsoft software, particularly in China.
+Steve has said in times past that it cost the Company billions of dollars a year. That's
+a lot of proﬁt. That could be utilized in lots of good ways. So it's much harder to steal
+a service than it is to steal packaged software.
+So services are going to be absolutely key to our success in China. We're very, very
+excited about the early momentum. We have Coca-Cola, (inaudible), Redbox, a
+whole bunch of really great customers who have adopted us in China and hopefully
+later this year we'll be in general availability there.
+Talk about the growth that you're seeing in Azure an the revenue growing and the
+opportunity for Microsoft. But when I think about it from a customer perspective,
+what is the ROI that customers are getting from going over to Azure and how does it
+compare to other platforms out there?FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 12 of 15Q - Kash Rangan
+Q - Unidentiﬁed Participant
+A - Bob Kelly
+Q - Kash Rangan{BIO 22095432 <GO>}
+ROI's a funny because at the end of the day they have to have something to
+compare it against. And really that's not how customers tell us that they're looking at
+Azure. What they're looking at Azure for is actually agility, not cost reduction. And
+actually it's because fundamentally they can't deliver what they need to deliver in the
+current construct. Even with server virtualization, it still takes too long to provision the
+environment, to provision the application architecture, et cetera.
+If you had an instant on capability, then you can get to the application much faster.
+But that's actually the ﬁrst thing we're seeing is actually agility, not like TCR or ROI.
+So very few of the customer (inaudible) look like that. Whereas all the on premise
+world looks like that. Tell me about the ROI, et cetera. So public cloud, at least from
+our experience, doesn't look like that just yet.
+Given your relations -- I mean given your install base at how important you are on
+premise today, isn't that a little bit of a conﬂict of interest if you're, I guess, trying to
+free-up maintenance dollars? Essentially those maintenance dollars could have paid
+the guys that were -- buy your products or have them buying the products for
+decades. Isn't it a little bit of conﬂict of interest that you might have to manage or
+may not be best positioned to manage when you're trying to grow this essentially
+disruptive or really disruptive technology?
+{BIO 16032998 <GO>}
+Again, it's not the kind of conversation we typically have with the customer. It really
+does turn out, everyone here is familiar with what Andreessen said, right? Software is
+going to eat the world. If you look at the $2 trillion of IT spend, the vast majority of it
+is in non-hardware or software things. It's in maintenance, it's in people costs. And all
+these things are actually -- software can automate. That's really the play. So it's not so
+much that we have a conﬂict of interest, it's really much more about the fact that
+where you talked about software automation, sometimes you do get people saying
+what does it mean for my job? Right? Do I have that problem?
+But every time that this has occurred, more jobs have been created, not fewer. And
+what happens is you shift where people do their work. Why should people be doing
+the sort of plugging together of things if you could automate that? That's always
+been the sort of value of software in an IT.
+So most of our conversations are more about what scenario can I unlock? Not if I use
+public cloud, do I have to lay oﬀ my IT staﬀ? We rarely hear anything like that.
+{BIO 22095432 <GO>}
+I had a question on your growth rate in the business is far and above the server unit
+growth rate. Can you just help us break the gap between that growth rate and the
+server unit growth rate? What is that?FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 13 of 15A - Bob Kelly
+Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob Kelly{BIO 16032998 <GO>}
+So there are a few things. I'm glad you asked this question because it's another
+important way to think about what's going on with Microsoft and how we're thinking
+about our play. Over the course of the last 18 months, we have fundamentally
+changed the way that we license our database and our OS/management products.
+The database was always licensed by the per PC or per box. We ﬂip it to per core.
+On the OS, we went from per box to per CPU. Why?
+With virtualization and core density, there was just so much more power out of each
+of these boxes. And so customers weren't having to buy as many boxes and
+therefore we weren't monetizing it eﬃciently. So by ﬂipping the core and CPU, we
+actually are able to more eﬃciently monetize fewer boxes and we now have a
+common unit of monetization across the private cloud and the public cloud. Those
+are two very important parts of how we're going to market and how we actually drive
+more value. So even in a shrinking hardware market, we're monetizing more
+eﬃciently.
+The second big thing that we've done is --
+{BIO 22095432 <GO>}
+More for the timing when you made the transition?
+{BIO 16032998 <GO>}
+Well over the 12 and -- 18 months. Depends on which release we're talking about.
+SQL's about 18 months, (inaudible) Windows is about 10 months ago, okay?
+The second big thing that is happening is we're seeing a tremendous shift to our
+premium SKUs. Through a combination of the density and the desire for customers
+to soak their boxes longer. And our licensing packaging around our premium SKUs
+is shifting our dollar per unit dramatically up.
+{BIO 22095432 <GO>}
+I'm assuming the rough map, you had about 200,000 customers for Azure, about $1
+billion run rate. It's not a big amount of money per customer works at about 5,000
+boxes. So I'm sure there's a pretty big distribution of customers that spend a lot
+more money, a lot less money. Where are we in the adoption cycle relative to a
+customer's IT budget and where is Azure slotted in? And how would a customer
+think about spending more money there for new projects?
+{BIO 16032998 <GO>}
+I'll answer the second question ﬁrst. It's absolutely for new projects. That's absolutely
+where we see the dollar slowing. Everyone's carrying these devices around, every
+app has to get mobilized, if you will. There's a whole new set of scenarios that are
+coming because of these apps. There's data and BI and just huge scenarios that are
+being unlocked. And customers are saying new apps. That's the ﬁrst thing.FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 14 of 15Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob Kelly
+Q - Kash Rangan
+A - Bob KellyThe second thing is, look, we are early, early, early in the cycle of a transition of $2
+trillion. Even if you take AWS at $2 billion and you take us at whatever number you
+want to take us at, there's still a rounding error on overall category. So we are very
+early in this cycle, it'll play out over a long period of time. It's material but not
+material. It's going to take time for us to see this burn itself out.
+{BIO 22095432 <GO>}
+I'm surprised nobody asked about Rackspace. This is another infrastructure of the
+service company. What do you, (inaudible) is the lead analyst on this stock. Do you
+ever see Rackspace as a contender in the enterprise?
+{BIO 16032998 <GO>}
+Well ﬁrst of all, I love Rackspace. I mean they're a great company. I really do. And the
+reason I think they're a great company is because they have a very unique value
+prop, which is maniacal support. And there are lots of customers who will pay for
+maniacal support full stop. They don't have the technical capability, if you will, of a
+software driven company like us. But that's not the point. They have a very loyal
+customer base. Will they have penetration in the enterprise? Of course they will. Will
+they have the app scale advantages we have? No. They don't have the cost structure
+to do it, nor quite frankly do I think they have the appetite to do it.
+So I think they're a real player, I like them. At the end of the day, I wouldn't trade my
+position for theirs.
+{BIO 22095432 <GO>}
+Got it. With that, that was very insightful. Thank you very much. Good to see the
+product of Azure and thank you as a customer coming out (multiple speakers).
+{BIO 16032998 <GO>}
+Thanks, everybody. Appreciate it.
+{BIO 22095432 <GO>}
+Thank you for your time and presence as well. Have a great day.
+{BIO 16032998 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in FINAL TRANSCRIPT 2013-06-04
+Microsoft Corp (MSFT US Equity)
+Page 15 of 15connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

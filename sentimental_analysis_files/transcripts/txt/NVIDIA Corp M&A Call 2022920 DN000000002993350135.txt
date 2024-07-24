@@ -1,0 +1,271 @@
+FINAL TRANSCRIPT 2022-09-20
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 19, Executive Vice President and Chief Financial Oﬃcer
+, Founder, President and Chief Executive Oﬃcer
+, Head of Investor Relations
+, Analyst, Wells Fargo
+C.J. Muse, Analyst, Evercore ISI
+, Analyst, J.P. Morgan
+, Analyst, Morgan Stanley
+, Analyst, Jeﬀeries
+, Analyst, Cowen and Company
+, Analyst, Needham & Company
+, Analyst, Bernstein Research
+, Analyst, UBS
+, Analyst, Goldman Sachs
+, Analyst, Bank of America Merrill Lynch
+, Analyst, Truist Securities
+Simona JankowskiGTC Financial Analyst Q&A
+Company Participants
+Colette Kress
+Jensen Huang
+Simona Jankowski
+Other Participants
+Aaron Rakers
+Harlan Sur
+Joseph Moore
+Mark Lipacis
+Matthew Ramsay
+Rajvindra Gill
+Stacy Rasgon
+Timothy Arcuri
+Toshiya Hari
+Vivek Arya
+William Stein
+Presentation
+{BIO 7131672 <GO>}
+Hi everyone and welcome to GTC. This is Simona Jankowski, Head of Investor
+Relations at NVIDIA. I hope you all had a chance to view GTC's news fact keynote this
+morning. We also published several press releases and vlogs detailing today's
+announcements. Over the next hour or so we'll have an opportunity to unpack and
+discuss today's news with our CEO, Jensen Huang and our CFO, Colette Kress in an
+open Q&A session with ﬁnancial analysts.
+Before we begin, let me quickly cover our Safe Harbor statement. During today's
+discussion, we may make forward-looking statements based on current expectations.
+These are subject to a number of signiﬁcant risks and uncertainties and our actual
+results may diﬀer materially. For a discussion of factors that could aﬀect our future
+ﬁnancial results and business, please refer to our most recent Forms 10-K and 10-Q
+and the reports that we may ﬁle on Form 8-K with the Securities and Exchange
+Commission. All our statements are made as of today, based on information
+currently available to us. Except as required by law, we assume no obligation to
+update any such statements.FINAL TRANSCRIPT 2022-09-20
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 19A - Simona Jankowski
+Q - Toshiya Hari
+A - Simona Jankowski
+Q - Toshiya Hari
+A - Jensen HuangQuestions And Answers
+{BIO 7131672 <GO>}
+With that, I would like to welcome you to the Q&A session with Jensen and Colette.
+We'll be taking questions over Zoom. I think you're all familiar with the interface, but
+as a quick reminder, please use the raise hand feature on Zoom if you'd like to ask a
+question. Then unmute yourself when called upon. Let me pause for a moment here
+to review the queue before we approach our ﬁrst question.
+And our ﬁrst question will come from Toshiya Hari with Goldman Sachs. Please go
+ahead.
+{BIO 6770302 <GO>}
+Hi. Can you hear me okay?
+{BIO 7131672 <GO>}
+Yes, we can.
+{BIO 6770302 <GO>}
+Okay. Great. Jensen, ﬁrst of all thank you so much for the keynote. I'll probably have
+to wanted another 10 times to fully digest everything that was announced there. But
+just on the Omniverse it seems like your customer engagement has broadened very
+signiﬁcantly since you provided us with an update last time. Can you remind us how
+you're thinking about the contributions to your P&L? Am I realize this is relatively
+nascent and this is a very long-term strategy for you guys? But how should we think
+about -- as analysts how should we think about the contributions to revenue growth
+and your proﬁtability going forward?
+{BIO 1782546 <GO>}
+Yeah. Thanks for that, Toshiya. There are three components to the Omniverse
+platform. The ﬁrst component is the simulation platform, it's called OVX, the
+Omniverse computer. And OVX had a ﬁrst generation prototype, but the volume
+scale out is based on second generation OVX-2 which is powered by Ada, L40s, and
+CX-7 and BlueField-3. And without belaboring the reason why in terms of
+performance is a giant leap over Ampere as you saw in the keynote. It is all based on
+your rendering and the performance is really incredible. And so we're in full
+production with that now, we're ramping and trying to get the OVX computers to
+customers as fast as we can. We have quite a large number of customers signed up
+to receive OVX computers.
+The second component has to do with the Omniverse applications that are built on
+top of it. And there are applications that span the entire range of design, build and
+operate inside a company. So when you're designing your car or designing your
+factory or designing your product all the way to manufacturing it to operating it,
+Omniverse will be involved. I believe that Omniverse will be one of the ﬁrstFINAL TRANSCRIPT 2022-09-20
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 19A - Simona Jankowski
+Q - Timothy Arcuri
+A - Simona Jankowski
+A - Jensen Huang
+Q - Timothy Arcurienterprise applications next to the web browser, if you will, next to web applications
+that spans practically every organization. In fact, we showed you few examples where
+design was involved, marketing was involved, product conﬁguration was involved,
+manufacturing was involved in simulation and operations as well.
+And so it's just about every single organization has the opportunity to engage
+Omniverse and work on a single source of truth. So the second is applications,
+they're typically by user. The third application is a new type of database and it's
+called Omniverse Nucleus, and we have just put that up in the cloud and we're
+going to host that as a managed service. Think of Nucleus as a database, but is a
+new type of database because it's interactive, it's shared. And so you pull you bring
+in your -- the data -- the three dimensional data or metadata or whatever or behavior
+data, physics data or relationship data, supplier data which component goes with
+and which supplier, et cetera. And you bring in all of that data associated with a
+product or a building where it could be a (inaudible), it could be JT ﬁles, which
+characterizes the 3D geometry. It could be a ERP system to associate which vendor
+goes with which component. And you bring in all of that data into Nucleus. Nucleus
+is shared by all the people that use it, it's an active distributed database, it is in 3D,
+it's the world's ﬁrst large scale USD database. And that business model will probably
+be like a cloud database business model. And the more people that are connected
+to it, there'll be a storage component associated where there'll be a used
+component associated with it.
+And so Nuclear is -- think of it as a cloud database and we just we announced today
+that, Omniverse Cloud would be hosted in the cloud and that Omniverse cloud is
+basically the database. So we're in the process of ﬁne-tuning the pricing associated
+with each one of the -- in the case of the system that part of is very well understood.
+In the case of the pricing of the applications and services we're in the process of ﬁne
+tuning that in the case of the nucleus database in the cloud, were in the process of
+ﬁne tuning that as well. But from my sense is that it will be very -- if you will,
+conventional compared to the likes of things that I've just described.
+{BIO 7131672 <GO>}
+Thank you. Our next question will be from Tim Arcuri with UBS.
+{BIO 3824613 <GO>}
+Thanks a lot. Can you are hear me?
+{BIO 7131672 <GO>}
+Yes.
+{BIO 1782546 <GO>}
+Yes, Tim.
+{BIO 3824613 <GO>}FINAL TRANSCRIPT 2022-09-20
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 19A - Colette Kress
+A - Jensen HuangPerfect. Awesome. So Jensen, I think a big theme here are really these new
+infrastructure as a service oﬀerings with the BioNeMo and the Omniverse Cloud.
+And I guess I had two questions. First, maybe Colette, update us on -- I think you said
+back in March, I think you said $100 million a year revenue run rate that you gave for
+recurring software and services revenue. So ﬁrst question is, can you give us an
+update on that?
+And then second of all, Jensen, I'm sort of curious about the business model for this
+stuﬀ. Are you going to just oﬀer instances on AWS and other clouds or ultimately it
+seems like maybe you can oﬀer your own cloud for this? And it seems like maybe
+this is sort of an inﬂection for you to look more like CSP or a hyperscaler in itself.
+Thanks a lot.
+{BIO 18297352 <GO>}
+So, Tim, thanks for the question. Let me ﬁrst start with your ﬁrst part of the question,
+as we had talked earlier about, we already have a run rate of software and services
+that we provide. That number is in the couple of $100 million and we're going to
+continue to grow from that. We have great new oﬀerings even today, but also
+oﬀerings that we've been working on for some time as well.
+I'll move to Jensen and he can talk a little bit more.
+{BIO 1782546 <GO>}
+Yeah. Remember accelerated computing is a full stack computing approach. The
+method of using brute force transistors and the advances of Moore's Law has largely
+ran its course. Going forward, the opportunities for continuing to variety, price
+performance curve of Moore's Law has ended. And so if you wanted to be able to
+do larger scale computing and to do it in a cost eﬀective way, after 15 years -- almost
+20 years of pursuing is already computing. I think the very, very broadly, almost it's
+conventional wisdom that accelerated computing is really the path forward and it's
+an opportunity for us to not just stay with Moore's Law but go into a much more
+turbocharged accelerated computing law. And artiﬁcial intelligence, of course has
+beneﬁted from that, molecular dynamics has beneﬁted from that, weather and
+climate simulations is going to beneﬁt from that. There is so many diﬀerent things --
+diﬀerent ﬁelds of ray tracing NVIDIA's own business, core business of computer
+graphics has beneﬁted tremendously. And so we -- the ﬁrst part, it's a full stack
+challenge.
+The -- our architecture is available in every cloud and our partnership with cloud
+vendors CSPs is really in two parts. There is the internal consumption part, which is
+about using NVIDIA's accelerated computing stacks to accelerate their workloads. It
+could be recommender systems, it could be speech AI, it could be very large scale
+queries or and now of course the emergence of large language models, which is on
+question with the most important AI model of the decade. And if not the most
+important AI applications of the decade. And so that's for internal consumption. For
+external consumption in the public cloud, NVIDIA is a partner. And if you will, maybe
+even an extended sales and marketing force of all the CSPs because we -- through
+our ecosystem, through our evangelism of the platform and through the softwareFINAL TRANSCRIPT 2022-09-20
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 19A - Simona Jankowski
+Q - W illiam Stein
+A - Jensen Huangdevelopers and all the startups to the 12,000, 13,000 startups that are work -- that are
+built on NVIDIA. And all of these companies that are using NVIDIA's accelerated
+computing go into the cloud. We are essentially the business attractors of a very,
+very signiﬁcant part of their public cloud service. And we're going to continue to do
+that.
+There is several areas where we believe that we might be able to simplify further and
+democratize to reach of NVIDIA's accelerated platforms, because it's fairly
+complicated to put these systems together into -- and couple it up yourself in the
+public cloud. And those two areas associated with large language models, which we
+announced today, that we will have NVIDIA managed services. And these managed
+services would basically be, think of it as AI training, but is a domain speciﬁc AI
+training is designed to be super good at large language models. And so the eﬀort
+and the cost of training with NVIDIA services running in these clouds and we'll run
+initially in -- we're going to run our services in cloud as we can. And when they use
+our service, they could substantially reduce the cost of training a large language
+model or training what is called a prompt, how to tune that large language model for
+your speciﬁc application.
+And then the second thing is Omniverse which requires just a giant amount of
+engineering we've been working on for a year to bring Omniverse into the cloud
+and we have currently running on AWS. But our goal is to have it run in all the cloud,
+so that all of our partnerships with the CSPs have the beneﬁt and opportunity to
+attract customers that are using Omniverse. And so, in a couple of diﬀerent areas,
+large language models per se for -- looking for English, well for language and also
+for chemistry and biology. And then also Omniverse those platforms are so
+complicated. We thought we would stand up NVIDIA managed services and make it
+a lot easier and cost eﬀective for people to use it. And we'll probably do a lot more
+of that going forward, especially in the areas that are very, very hard to do.
+{BIO 7131672 <GO>}
+Thank you. Our next question will come from Will Stein with Truist.
+{BIO 15106707 <GO>}
+Great. Thank you for taking my question and I'll add my thanks for all the incredible
+announcements you made today. Some of them, maybe a little bit confusing to us,
+so many in there -- quite technical. But Jensen you made one that was curious where
+in -- I think related to autonomous driving transitioning from (inaudible) Thor. Can
+you detail what conditions led to that decision? And maybe also remind us of your
+progress with your big customer announcement from about a year ago, I think what
+you talked about Mercedes-Benz adopting the technology and maybe remind us if
+there have been similar relationships that have been built to the same level with
+other OEMs that we might have missed. Thank you.
+{BIO 1782546 <GO>}
+Yeah. Thanks a lot Will. I'll roll backwards. Mercedes-Benz ships the ﬁrst car in 2025,
+late '25. And we also announced that JLR, all of the brands of JLR in their entire ﬂeet
+of all the brands are going to also be powered by NVIDIA's full stack and that isFINAL TRANSCRIPT 2022-09-20
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 19A - Simona Jankowski
+Q - Aaron Rakers
+A - Jensen Huang
+Q - Aaron Rakersshortly after 2025. And so we're pushing forward in both of those. We also have Orin
+designed into about 40 diﬀerent cars and companies. And not to mention medical
+instruments and IoT Edge AI servers and in robotics of all kinds. And so Orin and the
+chip that is in the self-driving -- in our self-driving car stack is really just a
+phenomenal homerun and it started ramping a couple of quarters ago and it's going
+to be ramping quite fast going forward from here.
+And so I think there is something like $11 billion with the pipeline in the next several
+years, that is associated with Orin and the systems associated within the software
+associated with it. But the reason why we decided to change Atlin [ph], which was a
+next generation Orin to a brand new architecture is because the three processors
+that are inside a robotics processor. One of them is a GPU, one of them is a CPU, and
+one of them is our Tensor Core. These three processors made such enormous leaps
+in the last two years.
+We made the hard decision to swarm for and put these three new technologies into
+it, rather than waiting another two years. Because robotic system has a cycle time
+about two years. Every two years, we announced a major leap. And so we just, we
+didn't want to just miss it. With Atlin, that the previous version, which is based on the
+next generation of Orin, what was just missed it. And so we decided to bite the
+bullet and really just hunker down and work hard and it was just too much for us. We
+couldn't bear waiting another two years, I mean that's kind of the simple fact of it.
+All of these projects, their projects at the heart and you love it and you have to love it
+building it. It's incredibly hard work and there is a lot of imagination that goes into it,
+a lot of passion and hard work that goes into it. And I just couldn't imagine waiting
+another two years to get Hopper in there and Grace in there and Ada in there. And
+so -- so we decided to just do it now. And so that's the reason why it's is probably -- it
+was probably if I could say 60% passion and just couldn't bear not bringing that
+technology to the world and 40% just hard work, it was a lot of hard work, but the
+passion overcame the hard work.
+{BIO 7131672 <GO>}
+Thank you, Jensen. Next question will come from Aaron Rakers with Wells Fargo.
+{BIO 6649630 <GO>}
+Yeah. Thank you. Can you hear me?
+{BIO 1782546 <GO>}
+Yes, Aaron, nice to hear.
+{BIO 6649630 <GO>}
+Thank you. Thanks for doing this call. I want to go down now that you've talked
+about today Hopper being in full production which accounts like, I guess, maybe ﬁrst
+question on that is just to conﬁrm that the pace of the Hopper ran [ph] it is now
+largely as anticipated, given some of the questions around the China export

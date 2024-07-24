@@ -1,0 +1,598 @@
+FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 16, VP IR
+, Analyst, Morgan Stanley
+Unidentiﬁed Participant, Analyst, Unknown
+Joe Moore
+Rob CsongorMorgan Stanley Technology, Media & Telecom
+Conference
+Company Participants
+Rob Csongor
+Other Participants
+Joe Moore
+Presentation
+{BIO 17644779 <GO>}
+All right. Thank you very much. So I'd like to Rob Csongor, Investor Relations VP of
+NVIDIA, to talk about all things graphics and Tegra.
+I do apologize. But I need to give a quick safe harbor to start. Please note that all
+important disclosures, including personal holdings disclosures and Morgan Stanley
+disclosures, appear on the Morgan Stanley public website at
+www.morganstanley.com/researchdisclosures, or at the registration desk.
+So what, maybe you could just start us out, just give kind of a few minute overview of
+NVIDIA's position in the market. And then I have a bunch of questions to ask you?
+{BIO 3210739 <GO>}
+Okay, sure. I guess I would just start that, in arguably one of the toughest years, I
+think, for the PC market, one of the things I always like to mention to people right
+before we get into whatever the newest headwind is on NVIDIA, that we were able to
+achieve a record year. We had record revenues, record gross margins, record cash.
+We announced a dividend. We repurchased shares.
+We had a record year for Tegra. We said we would grow the Tegra business by 50%
+and we did. And I don't know any business in tech last year that grew by 50%.
+And this was despite one of the lousiest years, I think, in memory for the PC market.
+And one of the toughest environments for mobile. I think at this point last year -- last
+year versus now, I mean, we started last year with a ﬂood in Thailand. We had supply
+issues with our 28-nanometer with TSMC. The Android market was in a -- had a very
+rough start, I would say. So at that time, there really wasn't a low-price point, $199, for
+a quad-core tablet. And all those things, basically, developed over the year.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 16So I think we're very proud. We're very proud that we were able to execute through
+that. I think one of the things that we don't often do and we'd like to do is to just
+highlight and showcase the fact that we've been executing pretty well through some
+pretty tough headwinds over the last four years.
+I think one of the number one questions we get, as a company, is how is it possible
+for your GPU business to grow when the PC market is ﬂat or declining? And we've
+been trying to show the Street a little more transparency into our business and show
+that, really, 5% of the PC market, which represents PC gaming, work stations. And
+high-performance computing, really drives the majority of our business in terms of
+gross margins. And those segments of the market are very robust.
+So if you look at the last four years, our GPUs have grown consistently. We grew our
+GPU business 8% last year, excluding the chipset business, which we're exiting. I
+already talked about the Tegra business.
+And I think going into this year, our position this year versus last year is just night and
+day. Last year we had Fermi, our Fermi generation of GPUs. This year we have Kepler.
+Last year we didn't have any real designs and Android was in disarray. This year we
+had a good year and established our position in tablets. Last year we had no LTE
+modem. And now we do.
+So I would say that this is probably one of the most signiﬁcant developments in
+terms of why our position is better now than it was last year. This week we
+announced the Tegra 4i, which is our ﬁrst integrated LTE processor, mobile
+processor. This opens up a fair amount of the mobile market for us. This is the focus
+of our acquisition with Icera. And at this point we're extremely pleased that roughly
+20 months after acquiring Icera we now have a world-class integrated LTE processor
+and we're engaging the market with it.
+We announced Tegra and i500 at CES. So right now, our family of products at the
+application processor side starts with a best-of-class app processor, as well as an LTE
+modem. But now we have the additional integrated part that allows us to address a
+larger segment of the phone market.
+So I think, going forward for the year, I would say there's lots of questions. We also
+announced a few surprises this year. We have a new GPU business, a new growth
+business for GPUs, which is called GRID. This is selling GPUs into the cloud. And
+server-based products, basically GRID Enterprise, GRID Professional. And GRID
+Gaming. We're going to talk a lot more about these new segments and this new
+business at our upcoming GPU technology conference, as well as our investor day
+on April 11th.
+And of course, in terms of our core business, I would say for this year the status of
+our business going forward to this year, I think we have Kepler this year, PC gaming
+continues to be strong and robust, I think notebook, the notebook market we see as
+declining. But we're looking forward to another year of good share on notebook.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 16Q - Joe Moore
+A - Rob CsongorThe Quadro business, which had declined last year some amount, is ﬁnally
+transitioning to Kepler. So you may noted in Q4 that our Quadro business was up
+10% after several quarters of relative weakness.
+So -- and then Tesla is a growth business for us right now, one of our growth
+opportunities, which is to sell GPUs into high-performance computers.
+So I think just relatively, year to year, I would say that's kind of my quick summary of
+the state of the business and why I think we're looking forward to the next year and
+beyond, versus last year.
+Questions And Answers
+{BIO 17644779 <GO>}
+All right, that's great. NVIDIA, to me, is one of the more intriguing stocks that we
+cover, in the sense that there's a lot of opportunities that are diﬃcult to model,
+diﬃcult to know exactly what they're worth. And yet all seem pretty exciting. So I'd
+like to walk through some of those. And I'll go through the product portfolio and
+leave some time for questions at the end. So I may not get through everything.
+But I think the most mundane thing that could really work out for you guys is
+graphics. And I think the -- I'm pretty bullish on the attach rate commentary that you
+had, that the gamer market continues to be robust. But also, what about
+competition? Your competitor, AMD is in a lot of diﬀerent things on a stretched R&D
+budget, is spending money on varying consoles. And I just -- it seems like they're
+stretched a little bit thin.
+Is this a time when you guys should be putting more money into PC graphics to sort
+of accelerate away from them?
+{BIO 3210739 <GO>}
+Well I'm just smiling because you're the right person who's asked me why we're not
+spending more money on PC graphics. Frankly, at this point, we're in the position
+right now of leveraging the investment we made in Kepler. So we're going to enjoy it
+for just a few seconds.
+I think we gained a lot of share this year, thanks to Kepler. I think we'll enjoy good
+share again this coming year. We're going to enjoy the beneﬁts of Kepler throughout
+this year.
+Now, having said that. And people always ask about AMD, we've been telling people
+that AMD doesn't -- AMD is there. And we expect them to ﬁght just as hard as they
+ever have. So as far as we're concerned, we said it last year and we said it -- we're
+saying it this year, we expect nothing diﬀerent, nothing diﬀerent.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 16Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe MooreThey are our competition for GPUs. And we're going to ﬁght them just as hard this
+year as we did last year. And just as hard as we fought them the year before. So
+there's no change.
+{BIO 17644779 <GO>}
+Great.
+{BIO 3210739 <GO>}
+But for now. And, by the way, you know that it took us years to develop Kepler right?
+So instead of doing game consoles or instead of doing Xbox 360 or Wii, we were
+developing Tegra. We were developing GRID. We were developing virtual GPU
+capabilities into the GPUs. We were developing CUDA and high-performance
+computing. So the -- we have to pick and choose where we invest.
+{BIO 17644779 <GO>}
+That makes sense. Then, with GRID, again, I don't have a lot of numbers around GRID
+for my model. I mean, can you talk about how GRID could play out and what the
+revenue opportunity is for you guys? Who, ultimately, is paying you. And how much
+they're going to pay you. And how big it could be?
+{BIO 3210739 <GO>}
+Well the short answer is no, I can't tell you today. No. We're going to talk a lot more
+about GRID this year. And coming up very soon, in fact. So at our upcoming GPU
+technology conference, which we're actually -- we're opening up to the ﬁnancial
+community. Jen-Hsun is actually going to give a presentation immediately following
+his keynote which is speciﬁcally targeted at the investment community.
+{BIO 17644779 <GO>}
+Okay.
+{BIO 3210739 <GO>}
+So -- and we're going to talk a lot more about the new businesses that NVIDIA is in.
+In a lot of ways, NVIDIA's business is changing quite a bit.
+{BIO 17644779 <GO>}
+Yes.
+{BIO 3210739 <GO>}
+And so, we know that there's lots of questions about these new businesses.
+Sometimes it's better for us to get -- make a little headway into the market, establish
+some customers and stuﬀ, before we roll it out to you guys and say, hey, guess what
+we think.
+{BIO 17644779 <GO>}FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 16A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob CsongorSo you're not going to tell me today how to model it.
+{BIO 3210739 <GO>}
+I'm not going to tell you how to model it today. But we, obviously, believe on each
+one of the -- I can -- let me talk a little bit, maybe qualitatively about it.
+Our GRID is divided in three. We have a GRID Enterprise product. I think the value
+proposition of GRID enterprise is that we'll accelerate an existing VDI
+implementation. So we'll accelerate an existing Citrix or VMware type of setup. So
+the good news there is that there's obviously a market for VDI. For those of you who
+have used it, it's very convenient and very good. And could use a little performance
+boost. And acceleration, particularly for graphics-intensive applications.
+So that's what we've done. We've worked very closely with Citrix and VMware and
+Cisco and all of these guys to accelerate an existing implementation. And we think
+that's going to -- we think there's a market for that.
+The second market is a little bit of a tougher one to try and size. It's -- we're -- it's
+called GRID Professional and we're deploying, basically, a -- we're working with
+partners to accelerate and deliver certain speciﬁc applications as a SaaS, software as
+a service. So applications like SolidWorks and Autodesk.
+The third one is GRID Gaming. And that one's a potentially very large business. And
+we demonstrated it and we've demonstrated it on stage as somebody's simply
+interacting with a television. There's no game console connected to it. There's no PC.
+There's no set-top box. It's just a television with an Ethernet wire.
+So if you look at it from that perspective that what's the available market that NVIDIA
+can deliver the goodness of a GPU to, it's gone from a PC with a large power supply
+and a GPU to any display that's connected to the Internet.
+{BIO 17644779 <GO>}
+And this is, arguably, bigger than the console market in terms of the way people are
+looking at --
+{BIO 3210739 <GO>}
+It's potentially -- let's -- I mean, we haven't gone out and positioned this as a console
+competitive.
+{BIO 17644779 <GO>}
+But you have announced partners. And they're interesting partners, because they're
+actually working with carriers on actual implementations, right?
+{BIO 3210739 <GO>}FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 16Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe MooreYes. We announced a number of middleware partners. To people who are in that
+industry, they know exactly who those middleware guys are. To most people, I think
+they don't know them.
+{BIO 17644779 <GO>}
+Right.
+{BIO 3210739 <GO>}
+But if you look closely, you realize these are the guys who are building a lot of the
+infrastructure for some very large service providers and carriers.
+{BIO 17644779 <GO>}
+Okay. Great. That's helpful.
+Then on Tegra 4, there's been a lot of back and forth about who has the best
+products in apps processors. I was probably a little too cynical on Tegra 4 before it
+was announced. But you've put out some pretty impressive stats, I mean, much lower
+power consumption, the same use case, a higher number of design wins at this point
+than Tegra 3 had over its life.
+The -- what is it, you think, that's making that a compelling sale. And how do you
+broaden it out beyond what you had in Tegra 3?
+{BIO 3210739 <GO>}
+Well Tegra 4's position is to be the fastest -- the world's fastest mobile processor.
+And that's our anchor position. It was our anchor position last year with Tegra 3. The
+only diﬀerence last year was that we were the world's fastest mobile processor
+without a modem.
+So when you have the world's fastest mobile processor without a modem, you can't
+sell into a lot of phones. We could sell -- so, what we did is, we sold into tablets. And
+that's what you saw. So when our business grew 50%, we jumped on the tablet
+market and we were able to grow it, really, with just a couple designs.
+This year, you're going to see a lot more tablets and a lot more SKUs from vendors, a
+lot more ﬂavors. Everything, I think, in the Android world is going to be better --
+more functionality at lower price, more oﬀerings, more options. I think you're going
+to see a lot more connected tablets this year, because the telcos and the carriers are
+oﬀering modem support, basically, as a family plan thing. You basically throw it in, as
+opposed to you get a new bill every month now.
+So let's see, what else? Well we were talking about the idea of --?
+{BIO 17644779 <GO>}
+Yes, I mean, it's worth noting just how high your market share was and how last year.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 16A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor{BIO 3210739 <GO>}
+Oh, right, right.
+{BIO 17644779 <GO>}
+Of the merchant market, which was limited, because Samsung and Apple have so
+much share. But, I mean, you guys had -- you swept almost everything else, most of
+the Windows RT stuﬀ --
+{BIO 3210739 <GO>}
+That's right.
+{BIO 17644779 <GO>}
+-- as well as a lot of the other tablets.
+{BIO 3210739 <GO>}
+That's right. So the Tegra 4 position relative to Tegra 3, then, is that, yes, we -- I think
+with the benchmark results that you were talking about, we reestablished our
+position as the fastest mobile processor. But the diﬀerence now is that we have LTE.
+{BIO 17644779 <GO>}
+Right.
+{BIO 3210739 <GO>}
+And we have a modem. So the i500 is out there and selling and sampling. I think this
+week the ﬁrst phone guy announced. So I think ZTE announced this week that
+they're building a Tegra 4 phone. And they're building an upcoming phone that will
+also have Tegra 4, as well. It's an i500.
+{BIO 17644779 <GO>}
+Okay.
+{BIO 3210739 <GO>}
+So I think you'll see more announcements, particularly on the phone side, later in the
+year as you get closer to production.
+Then, the big news, obviously, for us this week is the Tegra 4i.
+{BIO 17644779 <GO>}
+Right.
+{BIO 3210739 <GO>}FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 16Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob CsongorSo I think the -- the quick answer to your question is, NVIDIA's entering the
+connected device market this year, which we think is very signiﬁcant in things far
+beyond just phones.
+{BIO 17644779 <GO>}
+And I think -- so this comes down the LTE modem. And I think this is tricky for
+investors, because we're so used to thinking of an existing ﬁeld of baseband
+competitors. You guys are relatively news to this. When we go and ask your
+competitors what they think of this kind of software-deﬁned approach that you're
+taking with Icera, they're all cynical, because they're your competitors, maybe. But
+can you talk -- can you give us any comfort that this is going to be something that
+you can have a large presence.
+I mean, it sounds like you're sort of the second guy to market in the LTE space. Is that
+right? And are you going to -- would you expect that to turn into that type of
+baseband market share position that is number two that would have.
+{BIO 3210739 <GO>}
+Well I think we have a secret sauce. I mean, we have an architectural strategic
+position. Our position is a software-deﬁned radio, as opposed to a ﬁxed-function
+device. The implications of that are pretty signiﬁcant.
+What it means is that Tegra 4i is half the size of the competing product from
+Qualcomm. That's pretty signiﬁcant.
+So now you have to prove yourself. And you have to get qualiﬁed. So you have to
+prove yourself by going through all the same battery of tests that we're very familiar
+with. So we did a couple designs last year, with some phones and tablets to kind of
+cut our teeth and get ourselves in.
+To many people, they may think of this as the ﬁrst product from NVIDIA. But, I mean,
+Icera's been making modems since 2006.
+{BIO 17644779 <GO>}
+Yes.
+{BIO 3210739 <GO>}
+They have 95 diﬀerent carrier qualiﬁcations in a large number of countries. So
+they're very, very familiar with the process and this is not their ﬁrst modem.
+{BIO 17644779 <GO>}
+Okay.
+{BIO 3210739 <GO>}FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 16Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe MooreSo I think at the end of the day, it's devil's in the details.
+{BIO 17644779 <GO>}
+Yes.
+{BIO 3210739 <GO>}
+If we can deliver advanced features. If we can deliver performance. If we can deliver
+it at low power, then I think it'll make -- I think we'll be ﬁne.
+So if you're in Mobile World Congress this week, that's exactly what we're showing.
+{BIO 17644779 <GO>}
+Okay. And the fact that you've been qualiﬁed already on data, I mean, that, in itself, is
+fairly relevant, because you still have tablet opportunities and things where
+(inaudible).
+{BIO 3210739 <GO>}
+Sure. No, our competition will say, yes. But it's not voice.
+{BIO 17644779 <GO>}
+Right.
+{BIO 3210739 <GO>}
+But anyway, of course. I mean, we've done voice qualiﬁcations.
+{BIO 17644779 <GO>}
+Yes.
+{BIO 3210739 <GO>}
+We -- the tablet I use right now is an Asus Vivo RT with an LTE modem. It's an Icera
+LTE modem. So I mean, that's obviously -- we announced that last year.
+{BIO 17644779 <GO>}
+Yes.
+{BIO 3210739 <GO>}
+Which was the data modem qual.
+{BIO 17644779 <GO>}
+And is the voice qualiﬁcation, does that take longer, or is it harder to get carriers
+comfortable with that?FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 16A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore{BIO 3210739 <GO>}
+Yes. It takes longer.
+{BIO 17644779 <GO>}
+Okay.
+{BIO 3210739 <GO>}
+Yes. The voice qual typically takes longer. And that's why for people who've asked, I
+would describe this year, I mean, from NVIDIA's perspective, this is an extremely
+exciting time that we're engaging the connected device market and the market -- the
+market is welcoming an alternative solution.
+So I think for us, going into this, it's very exciting. But in terms of devices, visibility, in
+terms of revenue, I think this year is primarily a build and validate year, build and
+certify.
+{BIO 17644779 <GO>}
+Okay.
+{BIO 3210739 <GO>}
+And when you look at the revenues, I think it's mostly -- at least from phones, is really
+going to be 2014.
+{BIO 17644779 <GO>}
+Okay. Great. Then you formally announced Grey last week, the Tegra 4i.
+{BIO 3210739 <GO>}
+Right.
+{BIO 17644779 <GO>}
+I emailed you that. So this is an LTE integrated with a quad-core A9. And I could feel
+smoke coming from the email like, no, it's much more than that. So maybe you could
+just tell us your view of what this is?
+{BIO 3210739 <GO>}
+Yes. That's because your email just that we just kind of super-glued the two of them
+together and that's it. It's just -- I was never going to show --
+{BIO 17644779 <GO>}
+No harm --FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 16A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor{BIO 3210739 <GO>}
+I was never going to show our engineering department your email, because it would
+just be such an insult.
+Yes, I mean, the Tegra 4i has been a focus. I talked about it earlier. And I'm not
+kidding. It is the focus of everything -- it's the number one focus product since we
+acquired Icera. That product is designed for one purpose and one purpose only, to
+just nail perf per square millimeter and perf per watt.
+So when we looked at that chip, we looked at it from a complete top-down re-
+architecture of taking everything, the best of everything we've learned so far. The
+modem side was relatively easy. It's pretty much an i500. The rest of it was pretty
+diﬃcult, though. I mean, that's all basically custom architecture.
+So we had a number of potential engines that we could use. We had our Tegra 4
+graphics engine. We had this new second generation four-plus-one, which is
+basically our battery saver, the ability to have a single core running at very low
+power. So we had the second generation implementation of that.
+So we basically, if you look at what Tegra 4i is, it is the Tegra 4 graphics engine, 60-
+core instead of 72. It is -- it uses the same Chimera computational photography
+engine that we have in Tegra 4. It has a very diﬀerent CPU architecture, though. So
+what we did is we basically created a custom, souped-up version. And again, you're
+looking at perf per square millimeter, perf per watt. You could go quad A15 or you
+could go quad A9, 1.0 gigahertz, the original engine.
+So the variant that we built, internally we refer to as R4. So it's a custom co-
+developed with ARM that is basically a souped-up Cortex A9 four-plus-one, clocked
+at 2.3 gigahertz.
+So it's -- it is the sweet spot, we believe, of perf per square millimeter.
+{BIO 17644779 <GO>}
+And what does that translate to in terms of the price of the phone that you're
+enabling.
+{BIO 3210739 <GO>}
+Well the target, everything that we've been -- we kind of look at the market or, at
+least, similar to -- if you look at how Strategy Analytics or some other market research
+ﬁrms look at it, they -- anything above, like, $200, $299, is a super phone. We can
+address that with our discrete GPU. But the large segment of the market that we
+believe is opening up for us now is that $99 to $199 range of the market, which is not
+quite at the low end, the low end that's kind of currently addressed by companies
+like MediaTek. But the $99 to $199. And at that segment, it's us and Qualcomm.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 16Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor{BIO 17644779 <GO>}
+That fully capable LTE smart phone at that price point.
+{BIO 3210739 <GO>}
+Right, a fully -- I mean, basically what you're looking at is, the sweet spot of the
+market next year as being a 1080p LTE smart phone.
+{BIO 17644779 <GO>}
+Okay. Great. Any questions from the audience? I have more, if not.
+(inaudible). Sorry, can you talk about the R&D investment proﬁle? There's clearly
+been a lot of investments in things like Kepler and Tegra.
+{BIO 3210739 <GO>}
+Right.
+(inaudible), et cetera. I mean, should we know be -- have we now got past the peak
+of the R&D investment proﬁle?
+{BIO 3210739 <GO>}
+Yes. So it's a good question. I mean, we get the question on our OpEx. Last year we
+grew our OpEx, we targeted $1.4 billion non-GAAP. And we came in just underneath
+it. So we basically spent exactly what we said we'd spend.
+In Q1, our OpEx went up, again pretty much exactly as we expected it to, because --
+and in the earnings call that we recently had, we articulated the reason why. We're
+bringing LTE to market. It is absolutely the right thing to do.
+Now, in terms of R&D expense, all of the projects that we currently have on our plate
+are funded R&D project. We're -- you, obviously, know that if we built Shield last year,
+for example, we had -- we were paying engineers to build it last year. So in terms of
+Kepler, Shield, GRID, LTE -- all of those products are basically products that were
+funded out of last year's OpEx.
+The increase in Q1 is largely based on taking LTE to market, which is -- I mean, this is
+our time to do this.
+So I think, in general, if you look at our proﬁle, OpEx as a percentage of revenue, I
+think over the last four years you'd see that we're pretty consistently right around
+31%. But during that time, we've grown our operating income considerably. So
+operating income four years ago was at -- OpEx was 31% as a percentage of revenue.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 16Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed ParticipantBut operating income was at 8%. That grew to 20%. So we -- yes, we've spent more
+every year, in terms of a percentage of revenue, it stayed pretty ﬂat. And we've
+grown income quite a bit during that time.
+Yes? I'm going to let Joe pick them.
+You guys are typically pretty reluctant to talk about Project Denver. But I'm
+wondering what is your view, maybe big picture wise, of the ARM server market and
+what segment do you think you guys have the best capability to play in? What sort of
+broad brushes will you give us?
+{BIO 3210739 <GO>}
+So your ﬁrst assumption was correct. Yes. We're not talking a lot about Project
+Denver right now. But I think we will, relatively shortly. I mean, it -- the things that
+we've disclosed and we've talked about are things that you probably already know.
+I don't think it's any secret that power is important to more things than your cell
+phone battery. I think that most people know that the exaﬂop initiative, which is the
+initiative to build an exaﬂop supercomputer by the year 2018, the number one
+technical obstacle to building that supercomputer is power.
+So anyone who's familiar with supercomputers in the server and data center market
+knows that power is a major obstacle and a hurdle to achieving a breakthrough. So
+we've, obviously, invested in a lot of high-performance computing, parallel
+computing, CUDA. We have a lot of experience in deploying the next-generation
+supercomputers. You guys know that in Q3 we launched Titan, which is now the
+world's fastest supercomputer, which is now driven by 18,000 GPUs. So it's,
+obviously, a segment of the market that we care a lot about.
+Now, today, all of those implementations are x86. And we've disclosed that we're
+working on something called Project Denver that is a ARM-based product. And the
+only thing we've said other than that is that it's not a general purpose 64-bit CPU,
+because somebody was -- somebody had started propagating some information
+that, oh, we're just going to go into the general purpose CPU business. I mean,
+NVIDIA never does that. We never do -- we never just do a general purpose CPU.
+Typically, we're going to go ﬁnd a diﬃcult problem and build something very custom
+to solve that problem. And it's typically very diﬃcult to do.
+So other than that, I don't -- there's just not a whole lot that we're talking about yet.
+But hopefully we will soon.
+In April, with this other stuﬀ, would that come up or is it post-April?FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 16A - Rob Csongor
+Q - Joe Moore
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor
+Q - Unidentiﬁed Participant
+A - Rob Csongor{BIO 3210739 <GO>}
+I don't know is the honest answer. I think this -- for the upcoming GPU technology
+conference, you're going to hear a lot more about GRID and I think right now, in
+terms of the milestones of new opportunities for NVIDIA, we, obviously, have
+enough of them right now. But the GRID is the one that I think a lot of people are
+interested in. We're already generating revenue with it and we're already kind of well
+along with our alpha customers. So the time for us to talk more about that business
+is probably coming up.
+{BIO 17644779 <GO>}
+We have time for one more.
+{BIO 3210739 <GO>}
+Okay.
+How do you look at your high-margin Quadro workstation business. And in
+relationship with the big boy coming in to the competition, what do you think of that,
+because that's a pretty high margin business and you can surprise to the upside, I
+think?
+{BIO 3210739 <GO>}
+Okay, which big boy are you talking about?
+I mean the biggest boy in the world.
+{BIO 3210739 <GO>}
+The biggest boy in the world?
+I don't know. Intel showed some interest --
+{BIO 3210739 <GO>}
+Oh, in the Tesla business.
+Yes.
+{BIO 3210739 <GO>}
+Oh, the -- yes. Okay, sorry, I thought you said Quadro.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 15 of 16Q - Joe Moore
+A - Rob Csongor
+Q - Joe Moore
+A - Rob CsongorSo your question is about Tesla, right? Okay. We continue to believe that the Tesla
+business represents a great growth opportunity for NVIDIA. It's been relatively slow
+developing because it's a new paradigm and a new way of doing compute. The
+early adopters for the Tesla business have predominantly been a lot of -- the
+universities and supercomputers. In each of these cases, there is custom work that
+people are doing, basically. And the revenue is very lumpy. We'll do an installation
+and then it kind of -- the installation's done and then the revenue drops down.
+You may have noticed that in the last quarter, after we were done with the Titan
+installation, revenue went down. But not quite as -- it didn't go down all the way. And
+the diﬀerence now is that we're starting to develop a run-rate business.
+And the deﬁnition of a run-rate business is, a designer designing a landing gear can
+open up his newest version of ANSYS, which is one of the standards for doing
+physical simulation. And he has an oﬀ-the-shelf product he bought from Dell, a
+PowerEdge server or something like that. And it is simply accelerated by Tesla
+without him knowing it, oﬀ-the-shelf software, oﬀ-the-shelf hardware.
+You know what I mean? They don't have to write code and develop a code. So I think
+you're seeing a pickup in the run rate business of it.
+Intel coming into the market, ﬁrst of all, of course, validates the market, for us. I don't
+think Intel does anything unless they think its a big potential market. And I think they
+simply can't ignore the beneﬁts of high-performance computing.
+So I think that helps us. That helps us validate the market.
+But in the meantime, we have six or seven years of code writing that we've been
+doing that we think competition has to catch up on.
+{BIO 17644779 <GO>}
+And unfortunately, with that, we have to wrap up. We're out of time.
+{BIO 3210739 <GO>}
+Okay.
+{BIO 17644779 <GO>}
+Thanks very much, Rob. I appreciate.
+{BIO 3210739 <GO>}
+All right. Thanks a lot. Thanks, Joe.FINAL TRANSCRIPT 2013-02-26
+NVIDIA Corp (NVDA US Equity)
+Page 16 of 16This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

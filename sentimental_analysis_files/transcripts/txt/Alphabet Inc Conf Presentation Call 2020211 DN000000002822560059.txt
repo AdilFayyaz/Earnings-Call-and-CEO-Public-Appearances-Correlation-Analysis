@@ -1,0 +1,488 @@
+FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 12, Chief Executive Oﬃcer
+, Analyst, Goldman Sachs
+Unidentiﬁed Participant
+Heather Bellini
+Thomas Kurian
+Heather BelliniGoldman Sachs Technology & Internet Conference
+Company Participants
+Thomas Kurian
+Other Participants
+Heather Bellini
+Presentation
+{BIO 2268229 <GO>}
+All right. Good morning, everybody. Thank you for being with us this week. We are
+very honored to have Thomas Kurian with us from Google. He joined Alphabet in
+November of 2018. He assumed the role of CEO of Google Cloud and prior to
+joining Alphabet, he was at Oracle, many of you probably have known him from his
+years at Oracle, he was there for more than 20 years. So I'm going to read the Safe
+Harbor statement ﬁrst, then Thomas is going to come up, he has got some slides to
+go through and then we'll go into the ﬁreside chat and open it up for questions to
+the audience.
+So with that said, okay, so this is from Google. Good morning -- Alphabet sorry.
+Good morning, everyone, and welcome to a conversation with Thomas Kurian, CEO
+of Google Cloud. Some of the statements that Mr. Kurian may make today could be
+considered forward-looking. These statements involve a number of risks and
+uncertainties that could cause actual results to diﬀer materially. Any forward-looking
+statements that Mr. Kurian makes are based on assumptions as of today and
+Alphabet undertakes no obligations to update them. Please refer to Alphabet's Form
+10-K for a discussion of the risk factors that may aﬀect its results. And Thomas, I
+welcome you on stage, for what you take it from here.
+{BIO 3811076 <GO>}
+Thank you. Thank you, Heather. Thank you all for giving me the time to speak with
+you. Our strategy at Google for cloud computing is to help organizations advance
+and transform. I think there's clickers.
+{BIO 2268229 <GO>}
+Here we go.FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 12Thomas Kurian{BIO 3811076 <GO>}
+There you go. Is to help organizations in diﬀerent industries accelerate how they use
+digital technology.
+We do that with four important capabilities. Infrastructure, Platform, Solutions for
+speciﬁc industries to help transform digitally, and our Expertise as Alphabet in
+building and running some of the world's largest consumer services.
+Let's look at what we're doing with each of these pieces. I'll start with infrastructure
+as a service, then talk about our digital platform, talk about our industry-speciﬁc
+solutions and our development organization or engineering function is organized
+around these three principles. Okay.
+So infrastructure. Our vision for infrastructure this last year, we have signiﬁcantly
+expanded our infrastructure to a number of regions globally. We also have
+introduced a number of new capabilities in infrastructure. I think we should switch
+this -- it's -- okay. The -- so if you look at our infrastructure oﬀering, we brought in the
+number of regions in which we can deliver infrastructure.
+Second, we see infrastructure executing in four contexts; our data centers, what we
+call public cloud; in a customer's data center, hybrid cloud, we introduced the
+technology last year and we have a lot of customers now using it, Ruth mentioned on
+the earnings call a technology called Anthos, which is seeing strong adoption, this is
+to allow people to run our cloud inside their data center. We also oﬀer the ability to
+run our cloud and orchestrate workloads and manage them in a consistent way
+across their premise, Google's Cloud and other public clouds.
+The beneﬁt to customers is twofold. Number one, you get to train your organization
+on one technology. Second, you get to manage in a consistent way across multiple
+cloud environments. And operationally, from a security and monitoring point of view,
+that's signiﬁcant beneﬁts. Lastly, in a number of regulated industries, like ﬁnancial
+services in Europe, where the regulators are concerned about concentration risk.
+This technology gives people choice in how they can move workloads across
+multiple platforms. And so we introduced this notion of multi-cloud and now when
+you talk to large customers, they -- you will hear a lot about it.
+Finally, we're bringing the same technology to a 5G network. To transfer a 5G
+network from just being about bandwidth and connectivity to being an application
+delivery environment. And so you'll see us providing a single platform across these
+modes of execution.
+From a why we win, the diﬀerentiation that we see a lot of the reasons why we win
+are based on technology diﬀerentiators. First, we have deep support for core
+enterprise workloads. Metro Group, the largest retailer in Germany runs their SAP
+system on Google Cloud. And the reason is, they never have to take down the
+system ever, either for patching, maintenance or upgrades, super important for aFINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 12retailer, that's running supply chain order management. We're the only cloud
+provider, that provides that.
+From a security point of view, Fortinet, Palo Alto, McAfee, Splunk a number of the
+leading security companies use our cloud to run their own cyber oﬀerings. The
+reason is our cloud is diﬀerentiated from the point of view how we handle cyber
+security.
+And lastly, customers in a number of industries are choosing us for the freedom and
+portability that our multi-cloud technology based on a standard called Kubernetes,
+which is getting a lot of attention in the developer community provides. An example
+is ANZ Bank that uses it to run between their data centers and Google Cloud, a
+hybrid environment, or BBVA, a large ﬁnancial institution in Europe which runs their
+consumer banking system again between their premise and Google Cloud. There is
+a number of these customers are very interested in having that deployment
+ﬂexibility.
+The second piece of our portfolio is our platform, we see three, four important
+capabilities in our platform. The ability to build applications, to manage data at scale,
+to do analytics, to use Google's AI and machine learning, and to collaborate with
+people.
+In each of these segments, we have diﬀerentiators not only technologically, but
+capability wise.
+Let's look at them just brieﬂy. For developing applications, we are the only cloud
+provider that partners with open source companies. So if you are a company that
+wants to build with the most popular open source tools, whether that's MongoDB,
+Elastic, Conﬂuent, Redis, we announced the partnership last year, and we have a
+number of companies using these technologies along with our platform.
+If you want to do analytics, UPS came to us with a problem a year ago. And the
+problem, they were trying to solve was when trucks breakdown, it is taking a long
+time to schedule the ﬂeet, multiple hours, they wanted a solution to reschedule the
+delivery vehicles. They're able to reduce that time from seven hours to a few
+minutes, saving many, many dollars in terms of cost eﬃciency and obviously
+improving customer satisfaction, because packages get delivered on time.
+For those of you, who use the Gillette razor, the analytics on customer, supply,
+demand forecasting that Procter & Gamble runs, runs on Google Cloud, the reason
+they chose us and migrated from another cloud provider to us was because of
+scalability and capability for analytics portfolio.
+And lastly, if you listen to Hulu and you call their contact center. A software agent
+answers the phone, improving the quality of customer service and lowering the cost
+of customer service. That software agent is a Google software agent, that speaks aFINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 12natural language and can translate your questions in nine languages and eliminates
+the need for a human being to have to wait for a contact center agent.
+These are all examples of capability that we oﬀer around data processing that are
+very diﬀerentiated in the market.
+Lastly, as we observed how organizations were struggling to use Artiﬁcial
+Intelligence and Machine Learning to both automate their business process and to
+improve decision-making. We have now built a set of industry-speciﬁc solutions.
+These are sold ﬁrst of all to a line of business executive, not to an IT audience, they
+are priced based on value, not on the cost of the infrastructure, and they're very
+highly diﬀerentiated because of the advanced capabilities that Google has in AI and
+Machine Learning.
+Let me give you just two or three quick examples. Uniqlo, a leading retailer wanted
+to optimize its inventory, and the reason it needed to optimize inventories in the
+past, people went to the store to buy a product. Now they order at home and want
+to pick up in the store, the order at the store want to deliver home, and so inventory
+has become much more ﬂuid. The cost of inventory is very high and they wanted an
+algorithm to optimize, demand forecasting and what we called buy optimization.
+They work with us to optimize that. Frankly speaking for most retailers, inventory
+optimization is a huge issue and with the emergence of e-commerce is becoming
+more complicated and helping them with their problem allows us to enter many
+retailers with highly diﬀerentiated value proposition.
+Recently, we announced a partnership with Lufthansa. Lufthansa wants to keep its
+planes ﬂying on time and the biggest issue aﬀecting the ability to keep the planes in
+the air and on-time is, how they schedule logistics for maintenance and crews when
+the planes come into the airport. They use our technology for optimization to solve
+this problem.
+Lastly, if you are a media company, and you record sports, for example, one of the
+things you need to do a strip out the advertising in the sports and optimize the
+delivery of fragments of that information so that it can be rebroadcast. Our computer
+vision is used by many media companies to optimize that. Because we are selling to
+the line of business, we've also introduced a set of solutions that business users can
+use to collaborate with one and other -- could you go back one slide please, to
+collaborate with one and other, to build APIs, for example, to do analytics and to
+build low code applications.
+This allows us not just to sell outside of IT to business audiences, but it also gives
+people the ability to build a vast -- large number of applications on our platform,
+thereby, making our platform more sticky.
+Our diﬀerentiators in this segment largely come to the unique capability that Google
+has in understanding consumers and understanding buying behavior and also
+optimizing AI.FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 12Next slide, please. So if you look at industry-speciﬁc solutions. In retail, we obviously
+understand a lot based on our search expertise, how to allow people to discover
+products. Many retailers are working with us to improve product discovery, because
+of our expertise in search. They would love to have the ability to take the inventory
+that happens to be in the store and make it available to everybody so that they can
+see what's available in the corner store rather than having to go online. That's an
+example obviously, we have unique expertise in that area.
+In media, if you look at lots of media companies that are moving to streaming, the
+fact that we've built an infrastructure for YouTube allows us to diﬀerentiate the kind
+of capability we oﬀer media companies. An example of a customer that looked at
+our technology and other players and chose us with Activision Blizzard, because they
+wanted advanced capability in the network.
+And so in these areas, we have lots of diﬀerentiators. The result of all of this has led
+to growth. I think you've seen that we've announced that we're at over a $10 billion
+run rate, we're at 53% year-on-year growth, but Google Cloud platform is growing
+signiﬁcantly faster than that 53% number. We are winning not just small deals, but
+large deals and the representation of our success is also can be seen in the backlog.
+Ruth discuss a lot of this on the earnings call, so I just want to reiterate it, and we are
+very conﬁdent in the progress we're making.
+Where are we focused going forward? Five important things: expanding our
+addressable market; accelerating our direct sales force; growing the presence in
+indirect channels; maintaining customers through a Customer For Life program to
+lower customer churn. Let's look at each of these quickly.
+Total addressable market. We've introduced a lot of products last year. As we've
+introduced these products, they've expanded our reach. Hybrid cloud, we
+introduced a product in April last year, we've got lots of customers now using it.
+Multi-cloud, a value proposition that we oﬀer uniquely among all the hyperscalers,
+lots of customers now are interested in it. This expands the market. When you look at
+regulatory compliance, we now meet the regulatory compliance requirements in
+many markets that lets us sell in those markets. We've introduced new enterprise
+solution support for SAP, VMware, Oracle et cetera, making it easy for people to
+move these workloads to us. And when you look at the maturity of our products, if
+you look at the leading analysts, Gartner Group and Forrester Research combined,
+we're in 20 Leaders quadrant. One of the other hyperscalers is in '20 and another
+one is in fewer. So our product are now mature in a variety of these opening up our
+ability to reach people.
+Last year, we trained 750,000 developers, increased the number of certiﬁed experts
+by 3.5 times. And today, if you're in the IT community, the highest-paid certiﬁcation
+as measured by global knowledge is Google's Cloud certiﬁed professional. And that
+reﬂects the demand people are seeing for our technology.FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 12Here, our customers that have chosen to use us, we would not have been able to
+serve, for example, the Department of Transportation or the Arizona government,
+because we didn't have compliance certiﬁcations, now we do. We would not have
+been able to serve for example Home Depot, because we needed to provide some
+more capabilities from a product maturity point of view, they run their entire analytics
+estate [ph] on our Cloud. And because we didn't have SAP before last year, we
+didn't run somebody like Cardinal Health. So every time, we build a new capability
+and we mature our products, it opens up new markets.
+From a sales point of view, we've scaled our direct sales organization. We've said
+publicly that we're going to triple the size of our sales force and we are well on that
+way. While we have scaled our sales organization, we've also improved productivity.
+So not only we added more people, each of them is also more productive. And we
+have done that by bringing in a new leadership team, specializing our salespeople
+by industry, so if you're a bank, you talk to somebody who understands banking and
+building a set of solutions that are repeatable. I talked about our products so that
+they sell based on business value, not just on IT feeds and speeds.
+We have scaled our solution delivery capability, unlike some of the other players,
+we're partnering with system integrators to deliver solutions, because they represent
+capability that we don't want to build and it broadens our reach through them.
+We've introduced enterprise support. Today, if you're a big customer and you're
+worried about like Sabre, a super mission-critical system, we're very competitive in
+enterprise support, you get 15-minute response time from us.
+And lastly, we've done all the things that people are wanted on contracting, pricing
+everything that enterprises want.
+Finally, recognizing that we need to scale more quickly. We've expanded our work
+with partners. So we look at our partners in four dimensions. Can they broaden our
+reach?. These are resellers, value-added distributors, who can take us into more
+countries and more market segments we can touch directly. Can they accelerate how
+quickly a customer can consume cloud by delivering solutions, can they speedup
+migrations, for example, we have a lot of work with managed service providers,
+because many companies that outsourced IT, when they want to move to the cloud,
+they say, I don't have the expertise to run and manage the infrastructure. So we have
+lots of work going on with managed service providers, and then we have specialized
+work with ISVs and partners.
+To give you a sense, our year-on-year growth with partners in terms of revenue that
+they inﬂuence grew 190%. They brought us 13 times as many new customers in 2019
+than 2018, and we have seen strong growth in both certiﬁcations at partner-sourced
+deals.
+Here are examples of partners. Just to give you a sense of reach, last week, we
+announced with Airtel, one of the largest telecommunications companies in India. A
+plan to distribute our technology to hundreds of thousands of small and mediumFINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 12Q - Heather Bellinibusinesses. Somebody that we would not be able to reach directly, but through
+them, we are able to reach.
+We also introduced for ﬁnancial services, a partnership with Temenos, a large
+ﬁnancial institution ISV that many ﬁnancial institutions now ﬁnd that because they run
+on our cloud, they can run it reliably, securely and with great uptime.
+So going forward, you will see us focused on executing the plan that we've laid out,
+which consists of focusing on large customers, we now on a global basis touch many
+of the leading companies in the world in every industry, not only in every industry,
+but in every geography.
+Next slide, please. And if you look at many of the leading verticals, in retail, in
+ﬁnancial services, and in communications. Many of the leading companies in those
+industries use our cloud to transform their business.
+So to summarize, our strategy is fairly simple. We see cloud as a vehicle to deliver
+capability, new capability to organizations to help them transform digitally. We
+focused on three important things infrastructure, our platform and industry-speciﬁc
+solutions. In each of these segments. We have highly diﬀerentiated products,
+allowing us to penetrate both the IT organization in companies, as well as the line of
+business. And in many industries, the IT budget is controlled by business executives.
+So it allows us to enter many companies more quickly with these oﬀerings.
+Our products continue to mature, as I said, we are in as many leader squadrons as
+everybody else. And that allows us to open more markets for our sales and our
+partners, and we're very focused on going direct to a set of customers and then
+through partners broadening our reach and we're very conﬁdent in the execution
+plan we have through our direct and indirect channels.
+I hope this gives you a view of what we're doing and we continue to be very focused
+on growing this business as an important part of Alphabet's overall revenue growth
+plan. Thank you.
+With that, we'll take questions.
+Questions And Answers
+{BIO 2268229 <GO>}
+Yeah. So why don't you have a seat, Thomas will go through a couple of these and
+then we'll open it up to the mic runners in about 10 minutes and so. But ﬁrst of all,
+thank you, it's a great presentation. I wanted to ask ﬁrst about you joined the ﬁrm as
+CEO of Google Cloud a little over a year ago. What's been the most surprising to
+you?FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 12A - Thomas Kurian
+Q - Heather Bellini
+A - Thomas Kurian
+Q - Heather Bellini
+A - Thomas Kurian{BIO 3811076 <GO>}
+The most surprising I think is the interest from customers in being able to work with
+Google. The -- every customer we talk to says, we love the technology, amazing
+engineering. We didn't have salespeople and customer service people that we
+could work with, and the fact, that you built that capability now with a great sales
+team, great customer service professionals. And these are people who come from
+industry -- enterprise backgrounds, SAP, Salesforce, a variety of companies we've
+been able to attract talent, that's been enormously helpful in reassuring customers
+and that's reﬂected in the work we're doing with many of the large customers.
+{BIO 2268229 <GO>}
+And if you look at the recent disclosure changes which I think we are all very thankful
+for. Any views as to why you decided to kind of give those out when you did would
+be interesting, but also you can see in the numbers that you reported that actually
+Google Cloud is accelerated growth, is a lot of that due to the increasing -- increase
+in sales headcount that you mentioned?
+{BIO 3811076 <GO>}
+Yes. As we've added salespeople, large companies, if you're a Procter & Gamble, if
+you're a Colgate, if you're a Whirlpool, if you're an Airbus, you want somebody to
+talk to both on the sales side as well as on the customer service side. We've
+introduced world-class people and it's partly because of our product strength,
+Google's brand as an engineering leader, we're able to track some of the best sales
+talent in the industry. And that gives customers conﬁdence that we're becoming
+much more capable as an enterprise Company, that's why we're seeing the growth
+in customer wins.
+{BIO 2268229 <GO>}
+And if you look out kind of setting your business plan for the next couple of years,
+right, next two or three years, what would you say are your top priorities? What are
+the kind of top three things that Sundar is counting on you for in this business?
+{BIO 3811076 <GO>}
+I think on the product side, if you look at -- I'll just use ﬁnancial service as an
+example. The CIO has a certain budget, but many of the programs are -- the
+program budgets are controlled in retail banking by the Head of Consumer, Head of
+Institutional, Head of Risk, et cetera. And so when we build these industry-speciﬁc
+solutions, they're highly diﬀerentiated. No one has that capability, and that allows us
+to sell, not just in IT, but to the business owners.
+If you look at retail, it's a similar thing. We go to retailers and they ask us, hey, this
+whole e-commerce thing is helping me grow, but the cost of shipping one T-shirt
+from my store to the home, that's becoming a big cost driver for me. And if the
+fashion cycles are fast, maintaining an inventory assortment of size, color, all that is
+really going to be a huge cost driver. Can you guys help me optimize?FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 12Q - Heather Bellini
+A - Thomas KurianSo ﬁrst thing that we're very focused on is building that suite of industry-speciﬁc
+solutions, because while there's AI and machine learning technology, most
+organizations don't have the skillset with data scientists to build that. So the faster we
+can do that, the more we can help customers.
+Second, I think is we are building out in the platform area, things like data
+warehousing as a service. We have really amazing technology that Google has built
+for many, many years, which are being used at enormous scale. We're focused on
+maturing and ﬁnishing out that product segment. And then lastly, we are super
+committed to delivering that vision of multi-cloud. And the reason we believe that --
+in that is that, most large institutions, most government agencies cannot go and sign
+a contract where they're locked into a cloud provider before the technology that we
+invented and gave into open source existed, you really had no choice. And so now
+we are committed to making that vision possible.
+I would say those are the three primary things on the product side. On the go-to-
+market side, we are very committed to growing our direct sales and our partners.
+And we've been very clear with the partners, we're a software and solutions
+Company, we're not a services Company. So it attracts the big partners to work with
+us, people like Accenture, Deloitte, a number of them, because they know there's
+very clear lines of separation in what we do and how we partner with them.
+{BIO 2268229 <GO>}
+So some people would say -- and again, now that you've given out the disclosure, it
+helps contextualize this for people. But if you look at the size of AWS today, if you
+look at the size of Azure, and now that we've got the numbers for Google Cloud, we
+can look at that. Some people would argue it's too late, right? So the market has
+already been decided. What's your take on that? How early are we really, and how
+do you see your opportunity to kind of close the gap over the next ﬁve or ten years?
+{BIO 3811076 <GO>}
+So great questions. Three important things I would say. If you look at Intel server
+shipments, which is a proxy for compute in 2018 and 2019, 80% of the shipments still
+went to on premise data centers. That is not counting the percentage of servers
+already sitting there that are amortizing. So if you assume that, that is a proxy for
+where the estate of IT sits, it's super early stages, number one.
+Number two, if you look at the market of where cloud is, I tell people, if you went
+back to 2000 and ask somebody what's cloud? They say, it doesn't exist, a thing in
+the sky, but they were using cloud, it was called Software-as-a -Service, Salesforce
+NetSuite, Intuit. Most of those were about convenience. The same thing, you could
+get on premise but delivered in a more convenient way, because you didn't have to
+do the upgrades and all of that yourself.
+Then if you went forward to 2006 and looked at cloud, that was the emergence of
+infrastructure-as-a-service. And infrastructure-as-a-service was not -- was shut down
+your data center and use mine and most of it was an economic argument, cost-
+eﬃciency. It will be cheaper and more eﬃcient if you run it in mine. Where peopleFINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 12Q - Heather Bellini
+A - Thomas Kurian
+Q - Heather Belliniwant cloud to be is not about those two things. It's really about, can you give me new
+capability that I could not get before? And so when we look at the market, number
+one, we are very focused on executing our plan. Lateness, earliness, I don't worry
+about that, as I tell people, for those of you, who watch the game between Kansas
+City and the Houston Texans, nothing against Houston, a great team. If you looked at
+the end of the ﬁrst half, I think somebody would have chosen a particular outcome, I
+don't think it turned out that way.
+So we're very conﬁdent, we are not distracted by anybody telling us about where we
+are in the market, we are focused on executing. When we win customers and when
+customers say, what you're oﬀering is truly unique, we're very conﬁdent in executing
+that plan. And we don't think the way the cloud and the market looks like three years
+out, is going to be the way it does today.
+{BIO 2268229 <GO>}
+And open source, you have a unique way, you're going about partnering with
+people with companies in the open source community that is very diﬀerent than
+what AWS is doing, diﬀerent than what Microsoft is doing. What are you -- I mean,
+maybe it would be helpful, maybe not everyone in the audience knows to say how --
+to talk a little bit about how you're partnering with them and how that might be an
+attractive opportunity for maybe to people to start building companies on top of
+your platform ﬁrst versus others.
+{BIO 3811076 <GO>}
+Open source technologies at the heart of them, it's where the developer ecosystem
+lives. Each of the successful open source projects are driven by a community of
+developers that love that open source project and want to use it in enterprise
+context. So what we have done is we said, if an open source company builds, invest
+and puts a lot of resources in both building a product and a community, they should
+have a distribution model that protects their future revenue stream. So what we've
+done with the leading open source companies Elastic, Conﬂuent, Redis, MongoDB, a
+number of them, is take that open source technology, we help them build a cloud
+service, because people who want to use the open source technology don't want to
+have -- to have the operational burden of running the service. Customers gets, you
+can use your existing Google credits to consume the service. We handle through our
+experts called site reliability engineers, the ﬁrst line support and we share the
+revenues with the partners.
+Obviously, that is a very diﬀerent strategy in some of the other cloud providers are
+doing, where they're building their own solutions and becoming a threat to the open
+source community. So our goal is to foster that innovation, to attract developers and
+our long-term view is that platforms that win are diﬀerentiated, not by the solutions
+that the platform provider provides. But by the ecosystem of solutions that run on
+that platform. And so it's not just a near-term thing, it's a long-term strategic bet that
+the platforms that win are not those that are diﬀerentiated just by the cloud provider
+solutions, but by the ecosystem of best-of-breed solutions available on it.
+{BIO 2268229 <GO>}FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 12Q - Unidentiﬁed Participant
+A - Thomas Kurian
+Q - Heather Bellini
+Q - Unidentiﬁed Participant
+A - Thomas KurianSo I'm going to ask the mic runners see if there's any questions in the audience.
+We've got about ﬁve minutes left. Does anyone have any questions for Thomas?
+There's one right back, sorry, go ahead, Melissa.
+Hi, Thomas. Thanks for your remarks. You talked about software-as-a-service. What
+are the sort of ambitions for Google in software-as-a-service?
+{BIO 3811076 <GO>}
+So when we -- when you look at our industry-speciﬁc solutions, what we're trying to
+do, a lot of investment has gone in business process automation, right, ERP, supply
+chain, logistics, whatever it is. We are not trying to replace those solutions, because
+the business process implementations take years, they're very long cycles, there is a
+lot of cost associated with it going to a customer and telling them please rip out your
+supply chain. However, what we are doing is helping them using our data analytics
+and machine learning extract data from these solutions and be much more
+intelligent in how these applications function.
+Let me give you a concrete example. Macy's as a customer of ours. They wanted to
+optimize how they do their supply chain. They were told by ERP vendors that it's a
+long project, because they would have to re-implement their ERP system. The reason
+that their supply chains were not eﬃcient is because a lot of the supply calculations
+were being done based on rules rather than based on AI models.
+We have helped them keep their existing supply chain application extract the data
+from it, use our machine learning and AI platform and analytics platforms, and
+optimize their distribution center in terms of eﬃciency. We were able to do it with
+them for the ﬁrst distribution center between June and August last year. Much
+shorter time window, but delivering extremely high value from them -- for them,
+because we it helps them optimize a big cost item in their overall revenue line.
+{BIO 2268229 <GO>}
+Right here.
+Since you referenced the NFL playoﬀ, there were an awful lot of AWS commercials I
+mean, really a lot. I mean, what do you think about that strategy of mass advertising
+in order to keep the market share gain I guess?
+{BIO 3811076 <GO>}
+We've got a very focused demand generation program, digital demand generation,
+where we're expanding top-of-funnel online and then bottom-of-funnel conversion.
+We've hugely optimized our spend as well as our eﬃciency in that area and we're
+driving that digital demand to our own organization, meaning sales teams as well as
+to partners. I think, given -- I think you would expect Google, given our experience in
+advertising that we would know how to do digital reach pretty well.FINAL TRANSCRIPT 2020-02-11
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 12Q - Heather Bellini
+A - Thomas Kurian
+Q - Heather Bellini
+A - Thomas Kurian{BIO 2268229 <GO>}
+I'm going to wrap up with one last question. Just you made an acquisition of Looker,
+I guess maybe over the summer, if I recall correctly. How do you think about M&A
+supplementing the technology capabilities that you already have? How do you think
+about putting the pieces together, that you think you're going to need to continue to
+innovate and diﬀerentiate over the next 10 years?
+{BIO 3811076 <GO>}
+We've been -- we've done not just Looker, which -- but a bunch of smaller
+acquisitions. We look at the -- at our ability to expand our reach through
+complementary products in the market segments we're in. And one of the beneﬁts
+of scaling our direct and indirect distribution is, when we acquire something, we now
+have a much more scale distribution channel through which to inject the technology
+into market, thereby allowing us to accelerate things. So we are very focused on
+executing our plan, we are not dependent on acquisitions to grow you've obviously
+shown that. And we'll make acquisitions appropriately when the time is right.
+{BIO 2268229 <GO>}
+Great. Thank you, everybody. Thomas, thank you so much. We appreciate your time.
+{BIO 3811076 <GO>}
+Thank you very much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

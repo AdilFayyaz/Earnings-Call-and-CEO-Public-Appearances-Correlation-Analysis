@@ -1,0 +1,605 @@
+FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 1 of 14, EVP of Oﬃce Product Group
+, Director and Senior Equity Research Analyst, Deutsche Bank
+AG, Research Division
+Karl Emil Keirstead
+Rajesh Jha
+Karl Emil Keirstead
+Q - Karl Emil KeirsteadDeutsche Bank Technology Conference
+Company Participants
+Rajesh Jha
+Other Participants
+Karl Emil Keirstead
+Presentation
+{BIO 1542979 <GO>}
+Okay. Good afternoon, everybody. Let's get started. I'm Karl Keirstead, on the
+Deutsche Bank software team. We are delighted to have Microsoft keynote for the
+2nd year in a row at DB's tech conference. And delighted to have Rajesh Jha, who
+heads up the entire Oﬃce business for Microsoft be our lunch keynote. Thank you.
+So much.
+{BIO 6218647 <GO>}
+It's great to be here, Karl.
+{BIO 1542979 <GO>}
+I promised to read a little message before we start. Before we begin, Microsoft may
+make some forward-looking statements. I wish you would during this presentation
+and you should refer to their SEC ﬁlings, for the risk factors relating to their business.
+And that's true whether you're here in person or listening on the web. So with that,
+we have a lot to talk about.
+Questions And Answers
+{BIO 1542979 <GO>}
+I thought maybe I would start with a question that's actually not speciﬁc to the Oﬃce
+business. But Microsoft at large. As everybody here knows. And knows acutely, if
+you've been holding the shares from the '20s up to the mid-'70s, it's been an
+amazing, amazing run for Microsoft in the last couple of years. And sometimes it's
+hard for us on the outside to appreciate the change going on in Microsoft since
+Satya came aboard. But I know your clients ask you about it. So maybe you could
+share, as an insider, I think you've been at Microsoft for what, 27 years, something
+like that?FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 2 of 14A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead{BIO 6218647 <GO>}
+That's right.
+{BIO 1542979 <GO>}
+What your observations are about the organization and the energy, level since Satya
+came aboard? It feels like a pronounced change. But we'd love to hear your views.
+{BIO 6218647 <GO>}
+Yes, sure. I mean, like you mentioned, Karl. I came to Microsoft straight out of school
+many, many years ago. We won't count exactly how many. But the thing, of course,
+any -- it always comes down to having a clear strategy and executing to that strategy
+but you just can't overstate the importance of culture. And Satya has been, has been
+very clear about the culture that he wants to see at Microsoft and he's driven that by
+personal example. You all have seen the work from Carole Dweck on growth
+mindset. On the whole, I mean, it may seem superﬁcial. But he really tries to live it.
+He tries to get his senior leadership team to live it. And the idea here is that you're
+always learning. You don't start from a presumption of knowing what's right. And that
+is now for me, it is, I would say, a large part of the organization. The other thing that
+Satya has really driven is a strong sense of accountability on the engineering teams
+where just holding us accountable, where revenue is often a trailing indicator of the
+work you do. And having the engineering team take more direct accountability for
+driving user satisfaction and usage growth. And as long as you're working and
+executing clearly to the strategy, then the right business is also going to happen.
+Also the way we executed the senior leadership team, I probably don't see Satya
+one-on-one very often. I mean he's always available, should I need to. But we get
+together at senior leadership team every Friday, most every Friday. And so the idea
+is all the hard conversations are done in the open. It's done as a team. And it's done
+with the mindset that we are always trying to learn and trying to get better. And it is,
+again, very easy to underestimate the impact of something like that. But it's really
+borne great results. Our employees are satisﬁed. And people are focused on their
+work and I feel that we are pulling as one, one leadership team.
+{BIO 1542979 <GO>}
+And it certainly feels to me on the outside that Microsoft is starting to attract some
+fresh, top-tier talent, not that you -- that process stopped. But when I check with
+recruiters about where top-tier engineers, top-tier data scientists are going,
+Microsoft is making that list again.
+{BIO 6218647 <GO>}
+Now it's great to see. I mean, we've always been able to attract talent. But now if I
+take a look at the diversity of talent that we are able to bring in, folks from diﬀerent
+open-source frameworks, folks in productivity, on data, on AI. We feel great about
+the talent at Microsoft and also the talent that already exists and harnessing that in a
+more productive way.
+{BIO 1542979 <GO>}FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 3 of 14A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh JhaYes. Good. So maybe let's turn to a couple of the big drivers going on in the tech
+space today. I know everybody in the audience is following in and 2 that certainly are
+popping up a lot, over the last several years are cloud. And more recently, AI and
+Machine Learning.
+{BIO 6218647 <GO>}
+Sure.
+{BIO 1542979 <GO>}
+So the cloud journey is a key part of the unit you're running.
+{BIO 6218647 <GO>}
+Yes.
+{BIO 1542979 <GO>}
+Because the transition of the traditional Oﬃce business to a cloud-hosted Oﬃce 365
+one might be the single biggest thing going on inside Microsoft for a lot of
+observers. And maybe, before diving into exactly that transition, I'd love to ask you,
+broadly, about SaaS or cloud adoption? When we look at the results that a lot of your
+peers are putting up, whether it's Salesforce or Workday or ServiceNow or, frankly,
+even the SaaS units inside Oracle and SAP, it feels like everybody, including
+Microsoft, is seeing a stronger adoption curve, just in the last year or so. So as you
+talk to clients, Rajesh, what do you think is the catalyst for -- it feels like SaaS
+adoption to have picked up as acutely as it has in the last year? What's happening
+out there? It's even occurring inside Deutsche Bank, where we're publicly embracing
+Salesforce and Workday as well. What do you think is happening at large?
+{BIO 6218647 <GO>}
+I'd say, of course in Microsoft we've been all in on the cloud. And not only has it
+been good for us, it's been great for our customers because our customers can now
+take advantage of our global hyperscale enterprise-grade cloud. But the biggest
+payoﬀ for our customers has been the rate of innovation on the cloud is probably in
+order of magnitude, if not more, faster. And I mean, with Oﬃce, speciﬁcally, we are
+seeing great adoption. I would say, we have now upwards of 100 million active users
+in the cloud, commercially. And this is across diﬀerent platforms, more than 90
+million iOS and Android oﬃce users. We are seeing increasing usage of our core
+workloads, not just exchange in mail, by OneDrive. And SharePoint and Yammer and
+Skype. But also our newer workload like Team. And some of the, the SaaS is
+movement, how the mix shift from on-premises into the cloud. And with Oﬃce, we
+are -- I think, we shared this data a couple of months ago, at the Financial Analyst
+Brieﬁng. But for Oﬃce, we are now 50% commercial Oﬃce within the cloud. And we
+think by FY '19, we'll have 2/3 of commercial Oﬃce in Oﬃce 365 and exchange will
+be north of that 70%. So there is a bit of a mix shift for sure. But also the cloud in
+many ways is democratization of -- it's not just economies of scale, which is obvious,
+also economies of skills. Today, there are many segments where you take the
+sophisticated capabilities that many vendors produce. It's hard for our customers to
+go stand those things up. And be able to consume it, even if they ﬁnd the capitalFINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 4 of 14Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jhaoverlay for it. When you deliver it over the cloud, you naturally start out with a very
+consume-as-you-go model, a simple model. And so with Oﬃce 365 now, we are
+starting to see small businesses that couldn't really run a lot of our capabilities like
+Skype Conferencing or OneDrive and SharePoint. They can now actually consume
+that. And in emerging markets, we see the same thing. So there are couple of secular
+trends, which are economies of scale, economies of skills and, of course, device
+proliferation, where the consumption now isn't down to you being on-premises. You
+can consume it from any device.
+{BIO 1542979 <GO>}
+Yes. Those factors certainly feel like they're picking up steam of late.
+{BIO 6218647 <GO>}
+Yes.
+{BIO 1542979 <GO>}
+And Rajesh, on the second one around, AI in general, we always listen to Satya. On
+the stage, he's always talking about these trends. How does the enterprise spend on
+AI and Machine Learning, how -- it feels super early stage. But how do you think
+those mega trends impact the Oﬃce business? How might a customer apply AI to
+Oﬃce, for instance?
+{BIO 6218647 <GO>}
+Well I think AI is going to be pervasive. It is starting to already be there with Oﬃce.
+Every single day, we have tens of billions of signals that come to our cloud, as our
+users use Oﬃce. And now all of these signals actually belong to the customer. This
+doesn't belong to Microsoft but we are able to take these signals and give value
+back to our end users and our customers, who, who do I work with? What
+documents do I look at? Who am I going to meet next? What's trending in my work
+group or in my organization? What messages are ﬂowing through the system? All of
+these are signals. And today, if you take a look at, let me give you a couple of
+examples. If you take a look at PowerPoint, we now are at the point where we can
+have end users have a digital designer in the cloud, working on their behalf, telling
+them the right content. If I'm actually producing some content, it knows what is the
+relevant content in the enterprise process that I should be linking or reusing. It helps
+me picking the right design template, getting the styles right in Word. In PowerPoint,
+again, like, more and more workplaces are diverse and globally co-located. And
+PowerPoint, I don't know if you guys have seen some of the recent demos of the
+PowerPoint Translator. But I could be talking here. And I have real-time transcription
+and translation into one of tens of languages. With Word, it's like you have your
+professional editor, in the cloud, working on your behalf making sure your content is
+professional, that the tone is gender-neutral, that's geopolitically appropriate. With
+Excel, I throw in something like a country label. And I can tell Excel, "Hi. recognize
+that as an entity." So if I now go into the cell next to it. And I type GDP. Excel will auto
+populate the GDP next to it. It doesn't treat it like a text string anymore. We can tell it
+to treat it like entities.FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 5 of 14Q - Karl Emil Keirstead
+A - Rajesh Jha{BIO 1542979 <GO>}
+That's neat.
+{BIO 6218647 <GO>}
+In Outlook, we have AI that knows who do I work with? Who am I close to,
+organizationally? And what should I prioritize or focus on? Am I spending my time
+correctly in meetings? If you send me a note, Karl, saying, "Can you send me the
+deck from yesterday?", Outlook will soon suggest for you what that deck might be.
+You can right-click on it. We'll detect the natural language query. You can right-click
+on it and it will suggest the right thing. And if you don't get it right, that's a signal
+back to us. And a billionth signal back to us, just so we can get our relevance correct.
+And this is not just about end users, AI working for end-user. For IT professionals, we
+see signals ﬂowing through our cloud and oﬃce. We see signals ﬂowing through
+Windows, Enterprise. We see signals ﬂowing through directory and networks. And so
+we're able to triangulate all of these signals. And suggest to the SISO, hey, these
+patterns look suspect or maybe you want to turn on to FA for these set of folks, or for
+the encryption policy for these set of folks. I mean, I could go on. But I think AI is
+going to be incredibly pervasive. Now some of these AI capabilities are going to just
+be in the existing products and make them better. Some AI capabilities. So we've got
+this thing called -- it's not, it's in early preview right now. Something we called
+Workplace Analytics. That, we think is a value-added service that will add to Oﬃce
+365. Now, what does Workplace Analytics do? I talked about AI, for end-users, AI for
+IT. Workplace Analytics is for people who are decision makers. Leaders for
+organizations, HR, sales professional. I'll give you a couple of examples. Last year, I
+bought 3 companies. So obviously, what's top of mind for me is "Hi. are these
+companies that I acquired, are they getting progressively more integrated, with the
+rest of the team?" And the Workplace Analytics, what it does is, it takes a look at the
+communication pattern between groups of people, collaboration patterns, meetings
+patterns. And sure enough, I found that one of the three was actually starting to drift
+further apart. And so it was easy for me to go and get the right processes and
+connections in place. One of our customers, early customers who work with
+analytics, they discovered that the correlation between their salesperson eﬃciency
+was directly correlated to the size of the internal network. Not so much, how much
+time they spent with the customer, that matters. But not as much as the size of
+internal network. So they did their reorg around that core factor. So AI is going to
+permeate, I think, existing experiences, generate new capabilities. It all starts with the
+fact that if you have data, if you have high-quality signals, if you're able to iterate on
+that quickly, loan and experiment and get the right relevance, then you can create
+value back for your users and your customers. And that's why cloud is so much more,
+inherently, in a way, they've been on-premises because these models, these AI
+models, these Machine Learning models, they have to be iterated, they have to be
+personalized, they have to be creative. Nothing's more annoying than having an
+assistant getting it wrong for you. Even if they get it wrong 1 out of 3 times, you lose
+your trust in that. So the UI has to be done tastefully. And so on. I mean we are very
+bullish in what we can do, in terms of generating user value and customer value, with
+AI on our existing infrastructural oﬃce. And I think LinkedIn is the other data set. If
+you think about the fact we have 0.5 billion people. And people's Rolodexes in
+LinkedIn. And who follows whom. And what speech do you click on in your work
+context. So yes, AI's going to be big.FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 6 of 14Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha{BIO 1542979 <GO>}
+I'm excited to see how the AI trend aﬀects Microsoft, going forward. So I'll be
+watching.
+{BIO 6218647 <GO>}
+We're on it, Karl.
+{BIO 1542979 <GO>}
+Sounds like you are on it. Let's zoom in, maybe at some of the broader themes, of
+cloud and AI, zoom in a little bit into Oﬃce.
+{BIO 6218647 <GO>}
+Sure.
+{BIO 1542979 <GO>}
+So inside Microsoft, this is a roughly $25 billion business. I think if you are a
+standalone, you'd probably be a top 5 software company. Growing at 6%, this past
+quarter, on the -- at least, on the commercial side. That's a terriﬁc growth rate. So
+Rajesh, can you run through what a couple of the key growth drivers are for Oﬃce.
+I'm sure you've got some continued seat growth, as ubiquitous as you are. You've
+got ARPU growth maybe driven by the transition to some of these newer versions.
+What's driving that commercial growth of 6%?
+{BIO 6218647 <GO>}
+It's what you said, Karl. I mean it's both seat growth and ARPU growth. But before I
+get into that, let me just share what I think is more foundational which is, we are very
+anchored in what our mission is with Oﬃce. With Oﬃce, we want to empower every
+individual, every organization to succeed. Whether you're in a work context, your
+home context, whether you're in school. And we are really grounded, actually,
+creating experience with a product that people love and they trust. Want to enable
+communication, collaboration, creativity in letting people work anywhere, work on
+cross-devices. So when you started a mission like that. And you take a step back on
+that. So the ﬁrst thing, I would say is monetization of Oﬃce. If you get people
+engaged in your product because they love it, because they trust it, because it does
+the right things for you, then you earn the optionality to monetize. Without usage,
+without earning the trust and love of end-users, that is not an option. So we start --
+we are very grounded. And are rebuilding the right experiences. And so with Oﬃce,
+we are going to take advantage of it, not just AI, as I talked about. But also natural
+user interface increasingly, mobility patterns. So we stopped to think about Oﬃce,
+being relevant in diﬀerent segments. So one of the ARPU drivers for us -- I mean,
+letting, actually a seat growth driver, let's -- we have, like I said, about 50% of our
+commercial Oﬃce in the cloud with Oﬃce 365. And by FY '19, we think we'll be
+about 2/3 of our way there in the customer transition to the cloud. But it's not just a
+mix moving to the cloud from on-premises. Oﬃce is an incredibly horizontal product.
+So do you think about, what does a small business want from Oﬃce, in terms ofFINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 7 of 14Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirsteadproductivity, communication and collaboration. When you go to markets like Kenya
+or Indonesia or India, where people's only devices -- these are information workers.
+Their devices are going to be phones. What does Oﬃce mean to those users? When
+you think about baggage attendants, working in the airlines, the folks who work in a
+corporate oﬃce, their needs we understand today. But if you are a worker in a fast
+food restaurant, if you're a baggage attendant, baggage handler, if you're a cleaning
+staﬀ at a hotel; what does Oﬃce mean to those folks? So as we've started to create
+new services, we've launched Microsoft Kaizala in India, we are -- seeing how -- I
+mean, the early reception's been good and then we'll launch it in a few more
+emerging markets. We've got this frontline SKU in Oﬃce 365. We aimed at the -- not
+the information workers. We're thinking about a speciﬁc small business SKU. We're
+adding more value there. So we've seen seat growth, because now it's aﬀordable to
+these folks. So they don't need capital overlay. But more importantly, they've got the
+right product and the right services. So we both see an expansion in seat growth,
+overall. And if you remember our analyst brieﬁng from a couple of months ago, the
+Oﬃce Commercial seats have grown 8%. So it's not just a movement to the cloud,
+the overall base is expanding.
+{BIO 1542979 <GO>}
+Yes. And that's amazing, just how ubiquitous Oﬃce is, that you're still growing seat
+counts about that clip.
+{BIO 6218647 <GO>}
+Oh, yes I think the -- when you stop to think about all the billion people who are ﬁrst-
+line workers or front-line workers, these small businesses who were never able to
+aﬀord and run Oﬃce. There's a lot we can do there. Now, in terms of ARPU driver,
+the ﬁrst users who moved from on-premises into the cloud for Oﬃce, they wanted
+professional-grade e-mail with exchange online and Outlook. But like I said, as they
+started to get engaged, as they started to use it, they've started to increasingly opt in
+into our hero SKU, which is E3, which has not just messaging and calendaring. But
+document storage; modern intranet sites, that work on your phones with SharePoint;
+conferencing with Skype; Yammer. We've added Microsoft Teams to the hub for
+collaboration. And over the last 2 or three years, it's been great to see the uptake on
+our SKU. So customers are now moving to a cloud, not for one workload. But
+increasingly for our hero SKU. Then as you know, we've added E5, that has advanced
+security and compliance capabilities, that's got phone system in the cloud, that has
+business analytics in the cloud. And so the early momentum on E5 has been great.
+Now, some of the workloads in E5, we're going to see a longer sales cycle, things
+like PBX in the cloud. It's -- there are existing vendor contract that have to be worked
+through. But the Advanced Threat Protection, Lockbox, conferencing. These are
+super easy for our customers to switch on. And so that drives the ARPU. And the
+other thing I would say on ARPU is Microsoft 365 takes the user centricity of Oﬃce
+365. And we're thinking about the entire needs of a modern workplace, by bringing
+management on cross devices with EMS. And in Windows 10 Enterprise in the
+desktop. That's going to be one of the ARPU drivers for us.
+{BIO 1542979 <GO>}FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 8 of 14A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh JhaOkay. And Rajesh, on the transition of 365, you mentioned on the commercial side,
+Microsoft is already transitioned roughly 50% of the commercial base in ﬁscal '18. So
+how long do you think it might take to get that to 100%? And will it ever get to
+100%? And for the customers that are not yet ﬂipped on to Oﬃce 365, what are the
+most frequent, sort of, 2 or 3 objections that are keeping them on-prem, that you and
+the sales teams are chipping away at slowly and you'll eventually get to. But what are
+they? What are those holdups?
+{BIO 6218647 <GO>}
+Yes, I'd say, like I said, FY '19, we think 2/3 of our Oﬃce base is going to be in the
+cloud. For messaging, like Exchange Online Outlook will be 70%, something we've
+(backed hard). We are running about a year ahead of where we thought we would
+be two years ago. If you go back, I don't know, what we have shared exactly. But
+internally, we think we are running about a year ahead on the customers' transition.
+Now in terms of, all customers eventually move to cloud. Given our installed base
+and the diversity of the regulatory context of these customers' (inaudible) existence,
+I think it's a stretch to say all. But we tend -- like 2/3 of the customer. And there's a bit
+of a carrot in here, too. If you move to the cloud, you get a much faster rate of
+innovation because of the AI and the ML that we can go run and we see signals. In
+terms of what gets in the way for customers, I would say regulatory issues for public
+sectors, that's important. And so you will see with Microsoft Cloud, we are very, very
+intentional about being in the markets that make sense. And we think about it as one
+Microsoft Cloud. Azure, Dynamics, Oﬃce, we do business cases together. Should we
+go into this country? How much public sector does that unlock? And these things do
+make a diﬀerence. When you are a bank, which is global. And as you well know,
+you've got certain considerations that we have to work through. But we are chipping
+away. We want to serve our customers the best we can. And we think the way is
+cloud. It doesn't mean we are going to stop doing on-premises products. The OpEx
+investments that we make today on engineering, on billing for the cloud, or billing
+for on-premises, they are 90%, 95% shared. So yes, there's an additional test burden.
+But we are going to support our customers. Whether they're on-prem or the cloud,
+we want to make it really attractive for them to move to the cloud. And we are very
+humble about what are their blockers and we're just chipping away.
+{BIO 1542979 <GO>}
+Yes. Good. I'm sure you'll get there. Let's talk a little bit about some of the
+adjacencies around Oﬃce, where Oﬃce can actually act as an accelerant. So one
+that I know is on the topic -- on the minds of everybody, is Azure, where you've had
+amazing success at Microsoft. And it feels to me like there's a -- there's synergies
+with the transition to Oﬃce 365. You even just mentioned that you internally think of
+this as one broader Microsoft cloud, although for reporting purposes, it's quite
+separate obviously. But it feels to me like these are self-reinforcing trends. In other
+words, customers that make the leap to cloud-deployed Oﬃce are probably more
+inclined to use Azure. And I'm sure there's a great cross-sell there. So do you mind
+describing those synergies, starting with Azure?
+{BIO 6218647 <GO>}FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 9 of 14Q - Karl Emil Keirstead
+A - Rajesh JhaYes, sure. I mean, ﬁrst, I would say, from an engineering perspective, Scott and I, we
+plan together in terms of a data center footprint. Where should we build these data
+centers. Where should we build the edges. And the networking investments because
+the customers, that is their expectation of us anyway. When they come to the cloud,
+they do end up using not the -- if I remember correctly, 90% of our customers today,
+90% of Fortune 500 customers use at least one cloud for Microsoft. The interesting
+thing is 60% of them use at least 3 clouds for Microsoft. And so if you pause for a
+second and if you think about it, look, if you use Oﬃce 365, you're going to want to
+protect the directory. You're going to protect the devices and so you use Enterprise
+Management Suite, Enterprise Mobility Suite, Yammer. That's exactly what you would
+use to protect Azure as well. Dynamics and Oﬃce 365, we have integration, whether
+it be on our web launcher how we integrate or whether it'd be in Outlook and, if you
+were trying to extend a business process in Dynamics, you would use Power apps
+and ﬂow. That's exactly what you would use to extend to Oﬃce 365. You can go into
+SharePoint. And you can create a business for oﬃce, workﬂow front end, the Power
+Apps, the right to data, back to Dynamics. And these are not things that we are
+contriving. These are things that our customers are naturally asking for. As they
+started to use Oﬃce 365, we sold the EMS. As they start using Dynamics 365, they
+want better integration with Oﬃce. So we do think the reason that 60% of our
+Fortune 500 customers use at least 3 clouds for Microsoft is because there's a
+natural synergy.
+{BIO 1542979 <GO>}
+Yes, got it. Then on the -- maybe on the LinkedIn side. I think it was May 16 that you
+announced that deal. I don't think it got closed till a while later. But Microsoft has
+largely left LinkedIn alone, it feels like. So what is the synergy story that's pending,
+Rajesh, that we can look forward to? Either on the go-to-market or product
+integration? In what way is 1 plus 1 equals 3 on Oﬃce plus LinkedIn?
+{BIO 6218647 <GO>}
+Yes. We continue to be very, very excited about our LinkedIn. Our ﬁrst priority, like
+you said Karl, is to continue to grow our engagement -- engage users and members
+on LinkedIn and engagement there, because I mean, that is a ﬂywheel that we feel
+just has a natural momentum. And we want to do what we can to keep that growing.
+If you think about LinkedIn and Oﬃce, it's what we talked about during the time of
+acquisition. You bring in the LinkedIn identity and proﬁle, together with the Oﬃce
+identity and proﬁle. So I know the meetings, the trending documents, the trending --
+the people you work with. And LinkedIn has the same context. And how can we
+bring that proﬁle from LinkedIn or the identity and experiences together with the
+Oﬃce, in Oﬃce and Outlook. Those are things you will be seeing coming out shortly.
+If I'm in Microsoft Word and I'm creating a resume, which actually happens a lot, we
+can connect directly to the LinkedIn web services and get the trends to the skills and
+get that properly to write into Word and actually go a step further. While I'm creating
+the resume, why don't I not expose you to the jobs that may be relevant based on
+the construct of your resume? Take Dynamics and LinkedIn. We now have the
+Dynamics 365 for sales in our GTM and our product integration with our LinkedIn
+Sales Navigator. So a sales person can now use LinkedIn, 0.5 billion people, to ﬁnd
+the relevant people to sell with or sell through and do the social selling. On
+Dynamics that recently we announced the Dynamics 365 for talent, where LinkedInFINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 10 of 14Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirsteadrecruiting and learning, you can bring that together so an HR professional can now
+get a complete life cycle of staﬃng, recruiting, on-boarding, training, retaining. So
+you'll see more and more, the integration we're doing in LinkedIn and Dynamics and
+Oﬃce.
+{BIO 1542979 <GO>}
+Okay. Look forward to that. And on the organically built products, do you want to talk
+for a minute about Teams? That seems a pretty exciting product. You, I think, made
+some announcements just this week actually?
+{BIO 6218647 <GO>}
+Yesterday.
+{BIO 1542979 <GO>}
+How big can that be?
+{BIO 6218647 <GO>}
+Teams can be huge because I do think we were seeing a pretty fundamental shift in
+the way the modern workplace is evolving. You take a look at the new generation of
+workers, their expectation of why they work and how they work is pretty diﬀerent.
+They expect it to be inherently collaborative. And actually, as all of us know, most
+material work happens in the context of teamwork. So Oﬃce 365, there are a bunch
+of collaboration tools. But Teams, we think, is really the hub for teamwork for
+Microsoft. In the last four months, ﬁve months, we've grown from 50,000 customers
+using Microsoft Teams to over 125,000 customers. And the growth is just continuing
+to increase week-over-week. We continue to innovate and the nice thing about
+Microsoft Teams is we've engineered that so that the experience is cloud delivered.
+Even the UI's cloud delivered. So the rate of innovation, we think we can keep that
+level very high. Over the last few months, we've done mobile meetings. We've
+expanded the surface area for Extensibility Microsoft Teams. Yesterday, we
+announced perhaps the most frequent requested feature by our customers. Every
+customer interaction that I've had, what they want is, ability to have somebody
+outside their organization with the right ID policies and controls. But for these guest
+workers to be able to collaborate in the documents, be a part of the meeting, be
+part of a chat. And now that's all possible, as of yesterday, we started to roll that out.
+Now remember, the Microsoft Teams is available to anybody in our hero SKU E3. This
+isn't one of the products that we put in our E5 tier because we thought it was so
+foundational to the way the workforce is evolving, that we just address that by
+putting that in our core SKU.
+{BIO 1542979 <GO>}
+Got it. That's exciting. On the -- you touched a little bit earlier on the Dynamics side
+just to complete the picture of adjacent businesses. I've always felt, frankly, that
+Microsoft has a massive opportunity to take on more of the SaaS space or call it the
+"business application market". Dynamics is a terriﬁc start but it feels to me like
+there's further that Microsoft can go to become a real rival to Oracle and SAP andFINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 11 of 14A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jhathe broader ERP space. Do you share that view that there is a bit of a whitespace
+opportunity for Microsoft to grab, whether it's organically built or via acquisitions?
+{BIO 6218647 <GO>}
+Let me -- as you've seen. And as I mentioned, 60% of our FORTUNE 500 use 3 or
+more clouds from us. We want to be really ground in what are we seeing from our
+customers? What are, like you said, are our adjacencies? Where do we have natural
+strengths? I talked about the billions of signals that come in, into our cloud with
+Oﬃce 365. So you take the Oﬀ -- the Microsoft Graph. You take the Dynamics user
+interactions, the schemas in Dynamics. You take the Oﬃce as a deep understanding
+of people and groups and documents and so on. And we construct a Microsoft
+Graph. So that's the source of our core and then we are going to evolve from that.
+But the other great addition to our cloud data assets, which I think is our core, is the
+LinkedIn Graph. Now Satya's talked about the intelligent cloud and the intelligent
+edge. In many ways, Oﬃce is the intelligent edge. But the other important node here
+is the intelligent data or the intelligent network. So you take the Microsoft Graph, you
+take the LinkedIn graph, that's our intelligent network. So we start from that core.
+Now if you take LinkedIn and Dynamics together, that's like a $5 billion business:
+70% in the cloud. Dynamics itself is growing 75% year-on-year. So we are very
+excited about the Dynamics business. (inaudible) being very ground in what we are
+seeing as our natural assets: would be Microsoft Graph and a LinkedIn graph. And
+the usage that we see from our customers. We'll go from there. I think the LinkedIn
+recruiting in Learning Solutions combined with the Dynamics 365 for talent, I think is
+an example of something that you should expect to see from us on bringing these
+assets together.
+{BIO 1542979 <GO>}
+Makes sense. I'll ask you one ﬁnancial question. I know you're going to look for (Mike
+Spencer) to give you a good answer. But I got a feeling you know it. On the gross
+margin side, inside Oﬃce 365, you obviously don't disclose what it is. But we try to
+back into it. And we feel like at some point in time, Oﬃce 365 gross margins should
+be able to get close to the pure play SaaS group. I don't think you're there yet. But
+what will it take, beyond just scale for you to get there and can you get the Oﬃce
+365 gross margins up to, call it 75%, 80% level. Is that realistic?
+{BIO 6218647 <GO>}
+Let me answer your question. And not answer your question. But the ﬁrst thing I'd
+say is when you take a look at some of these pure SaaS providers, they are more
+point solutions. Oﬃce 365, I talked about what our mission is, in terms of
+communicate, collaborate, create, analyze. So we are the full suite of services. Not all
+these services have the same margin structure. You take something like Skype, which
+is a transaction, a meeting. That has a diﬀerent cost proﬁle than something like
+inﬁnite storage for documents or mail. Now, of course we want to take Skype there
+too, where every meeting, it's a very important artifact, where we probably want to
+record it, transcribe it, translate it, give you automatic notes. But you get my point
+which is the cost proﬁle, we are such a wide range of services. The cost proﬁle, the
+margin proﬁle, for every individual feature is very diﬀerent from each other. So that's
+why, I think, you shouldn't really be thinking about Oﬃce 365 as one of these pointFINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 12 of 14Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jhasolutions. We are a full suite of product (inaudible) needs. That being said, we
+absolutely are going to be best-of-class for what we do. There are a few things, of
+course, that are margin drivers for us. One is the premium SKU mix. And we've talked
+about just what a great journey it's been, for us to take our early customers from a
+single workload, which is about messaging and calendaring to an entire E3 suite.
+And then we want to get them to E5 capabilities and then we want to get them to
+the entire Microsoft 365. So that's basically the levels you should think about of how
+we can try the premium mix, which I think is the biggest factor in driving margins.
+The other one I would say, from an engineering perspective, we continue to drive
+CapEx and OpEx eﬃciency. More recently, we brought in our consumer mail back in.
+What used to be Hotmail or outlook.com and Exchange Online together. So we've
+taken the ﬁxed costs of the 2 messaging systems and collapsed them together. And
+on the operational side, we are starting to see the scale play out for things -- the
+ﬁxed costs on things like support and compliance. So I think we like where we are on
+the margins and I deﬁnitely think we have room to go, both with trying to bring in
+mix and just doing the engineering and the operational rigor.
+{BIO 1542979 <GO>}
+Got it.
+{BIO 6218647 <GO>}
+But it's a wide range of services and not all the features are the same time.
+{BIO 1542979 <GO>}
+Rajesh, just to close, the next Microsoft event that at least I'll be at, will be the big
+Ignite event at the end of September. I know that's not necessarily pure Oﬃce. That's
+a much broader conference. But I take it the focus of that event will be just
+continuing to drive product innovation. And pushing the cloud adoption. What are
+the couple of major themes that you can give us a quick preview on for that big
+Ignite event?
+{BIO 6218647 <GO>}
+Yes, ﬁrst of all let me just say, we are all very grateful that the hurricane impact was a
+little less modest, I mean a little less severe than we thought. But still a pretty
+signiﬁcant impact for a lot of folks so our prayers...
+{BIO 1542979 <GO>}
+The event is in Orlando.
+{BIO 6218647 <GO>}
+Yes. So the prayers are with everybody in Florida. But Ignite is the world's largest
+event for IT professionals and enterprise developers. A couple of themes that you
+should expect to see at Ignite, for us to expand on: artiﬁcial intelligence, of course.
+From an infrastructure perspective, productivity perspective, business-application
+perspective, hybrid, cloud, how all of these things come together. You should expect
+to hear a lot of that and how that experience has evolved in a world where we haveFINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 13 of 14Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirstead
+A - Rajesh Jha
+Q - Karl Emil Keirsteadbillions of signals, again. So that's -- we're -- we remain excited about that and you'll
+hear more about that. The other one is Microsoft 365. Microsoft 365 is a big deal, not
+just for Microsoft but more importantly, for our customers. Microsoft 365, if I could
+just take a minute and expand on what it is. And will it just (inaudible) Microsoft 365
+is. It's about pivoting on the user's complete needs. So not just the product ready
+services that come with Oﬃce. But how do you manage these on diﬀerent devices.
+When you are on your desktop, how does Windows 10 Enterprise light up? How do
+we innovate all the way from the Silicon, into the operating systems, into the cloud to
+run AI and ML models. And bring it back into oﬃce and experience this. How do
+these experiences, how you interact with Oﬃce? How does that roam for you from
+device to device? Three out of 4 IT prof -- SISOs, they expect to get hacked in the
+next year. This is a sobering statistic. It just blew me away. I think about ransomware,
+the ever-sophisticated cyber threats and Oﬃce -- with M365 or Microsoft 365, how
+do we bring the end-to-end protection on a user basis network directory application,
+how do we bring that all together? So enabling the end user to be creative, to be
+able to collaborate on any device, while keeping IT and the organization secure. So
+you'll see a lot of our M365 there, too.
+{BIO 1542979 <GO>}
+I'm excited for that.
+{BIO 6218647 <GO>}
+So am I.
+{BIO 1542979 <GO>}
+So thank you. And I don't think anybody would have anticipated, let's say ﬁve years
+ago, that Oﬃce would be the kind of growth engine it is for Microsoft. So it's a
+fantastic success story and congratulations on that. And thank you very much,
+Microsoft, everybody for coming to our event this year.
+{BIO 6218647 <GO>}
+Well thank you, Karl. And thank you, everyone. Thanks for having me here.
+{BIO 1542979 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of FINAL TRANSCRIPT 2017-09-12
+Microsoft Corp (MSFT US Equity)
+Page 14 of 14the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

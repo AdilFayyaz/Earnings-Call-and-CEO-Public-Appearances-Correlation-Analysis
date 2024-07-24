@@ -1,0 +1,946 @@
+FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 22, President and Chief Executive Oﬃcer
+, Vice President of Healthcare
+, Co-Founder & Chief Strategy and Innovation Oﬃcer
+, TD Cowen
+, TD Cowen
+, TD Cowen
+Matthew RamsayCowen 43rd Annual Health Care Conference
+Company Participants
+Brad Gray
+Kimberly Powell
+Molly Gibson
+Other Participants
+Daniel Brennan
+Matthew Ramsay
+Steven Mah
+Presentation
+{BIO 17978411 <GO>}
+Thank you for coming and welcome to what I think should be a really exciting and
+maybe diﬀerent type of session than you guys are used to. And my name is Matt
+Ramsay. I lead the semiconductor research practice at Cowen, and I guess we'll start
+by addressing the elephant in the room, why the hell are you listening to a
+semiconductor analyst at a healthcare conference. But I'm really excited to talk about
+the topic of AI in healthcare with the leading AI company in the industry, NVIDIA.
+I started working with the NVIDIA folks about 10 years ago, and they were a gaming
+company. About $15 billion market cap and have, in the last 10 years, basically
+invented the science of artiﬁcial intelligence and accelerated computing and are
+now the sixth or seventh largest company in the stock market. And one of the
+biggest areas of focus, not just in Big Data, not just in automotive is healthcare. And
+really excited to have Kimberly Powell come and spend some time with us. She leads
+to healthcare AI business at NVIDIA across all of these segments among with us. The
+guys that you probably know, Steve, Dan, thank you for co-hosting with us -- with me,
+and we'll have hopefully a good discussion.
+I'm going to spend a little bit of time with NVIDIA to start with and have Kimberly
+introduce what NVIDIA is doing in healthcare. What the business looks like. How
+across diﬀerent healthcare verticals they're using AI computing for -- to help
+companies speed innovation and do things that are disruptive and exciting.
+So, anyway, and then, Dan and Steve will introduce the other panelists and kind of
+go from there. So, if there's -- if you guys have any questions that are about
+healthcare, I'm not your guy, but if it's anything about AI computing, then we'll go
+from there. But Kimberly, thank you. Thank you all so much for being on the panel.FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 22Kimberly PowellAnd if you want to spend a couple of minutes, just introducing to this audience what
+NVIDIA is doing in healthcare, and then we can go from there.
+{BIO 22145194 <GO>}
+Absolutely. So, if you don't mind, I will kick it oﬀ with -- as a reminder, this
+presentation contains forward-looking statements and investors are advised to read
+our reports ﬁled with the SEC for information related to risks and uncertainties facing
+our business. Now we got that over with, thank you for joining us. I'm glad we have a
+packed house.
+I've been at NVIDIA for 15 years, and as Matt said, we are known as a gaming
+company. We aren't known as being in healthcare sector. But I started the practice 15
+years ago, because there was this revelation that said in order for us to do eﬃcient
+computing, computing that is going to take us through the next 10, 20, 30 years, and
+beyond, Moore's law is ending and we need this idea of accelerated computing. The
+problems and challenges that were coming to the industry needed a paradigm shift.
+So, we took that gaming and that graphics technology and we invented a new
+paradigm called Accelerated Computing. We've since gone through our next
+transition, which is into an AI computing company.
+So, if you think about the three most advanced computing approaches in the world
+today, computer graphics, accelerator computing, and artiﬁcial intelligence, our job
+in the healthcare business unit is to essentially make that accessible to healthcare
+and healthcare broadly. So, some of the ﬁrst things that we ever worked on was
+actually here in Boston. Radiologists, who are inventing new mathematical
+approaches to things like CT reconstruction.
+In order to reduce the radiation, in order to have it clinically viable, where you could
+turn around these images in a time, where a patient is still with a doctor in critical
+care, you needed accelerated computing. And so it absolutely triggered us to say
+what we are building is going to be applicable broadly.
+So, we made our ﬁrst journey in medical devices. It is the core of our business today.
+Brad and his team are inventing some of the most important new tools and
+platforms, helping us understand biology. It's such an exciting time, because it takes
+something I'm deeply passionate about, which is imaging, and it marries it to
+something that the world has conquered and really used as a new tool, which is
+genomics and the insights we can really pull out of biology and it marries us to in.
+And I think the next 10 years that this technology is going to enable us, it's going to
+take us to places we've never seen before.
+In this journey of an Accelerated Computing company, we were discovered by the
+computer scientists, who are looking at deep neural networks that this was the right
+platform, this was the right architecture in order to do this new thing called Deep
+Learning. This reinvented for the second time thing called Deep learning. So, we had
+the opportunity to now look at how Deep Learning was transforming and how it
+could be applied into Healthcare. We build right now the industry standard tools forFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 22Q - Matthew Ramsay
+Q - Daniel Brennandeveloping AI for all imaging types, whether that be radiology, pathology, surgical
+video. And it's taken us along on this journey to say, the world -- the number of
+applications -- maybe think about driving a car, for example, maybe you're looking at
+about 12, maybe 24, algorithms to drive the car, that's usually why you can get your
+license at 16.
+Well, the number of algorithms that a clinician potentially needs to use in order to do
+his or her job is on the order of hundreds thousands if not hundreds of thousands.
+So, we need to create the capabilities of giving the scientists the subject matter
+experts, the clinicians the ability to develop AI applications. And so, we build those
+tools of software and the services now to put it in the power of the hands of the
+healthcare industry.
+And then in this new realm, the ChatGPT realm, if you will, it has been discovered
+and highly leveraged Generate being a company whose put it to fantastic use, where
+we have the ability, the invented many, many years ago, decades ago to represent
+chemicals and proteins in a sequence that looks just like characters that are the same
+thing you feed into a ChatGPT model and it can reason about it, it can generate new
+ideas and it can bring us into yet the next, I think, paradigm shift in healthcare.
+And so, these are the -- some of the areas that NVIDIA focuses on. This is how we
+sort of understand the market by listening to the innovators in the market, the
+academic communities, building the hardware. But more importantly, the software
+platforms and services to put it into the hands of all of the passionate and innovative
+thinkers in the industry, so that we can really see a future we haven't seen before,
+where we can start to take medicine as a science and more and more push it into the
+realm of an engineering practice.
+So, if -- that is a bit of a summary of where we are and what we're doing, and happy
+to have --
+Questions And Answers
+{BIO 17978411 <GO>}
+(Question And Answer)
+{BIO 15426025 <GO>}
+Great. My name is Dan Brennan, I cover life science tools and diagnostics with Steve
+Mah and a third colleague, and I follow NanoString, who's up here on the podium.
+And for those of you, who aren't in the healthcare ﬁeld, so NanoString is amongst a
+handful of companies tackling new ﬁeld, single-cell spatial biology. Ten years ago
+single-cell sequencing analysis became a new technology and it's really proliferated,
+but the spatial context of looking at single cells is brand-new. NanoString was one of
+the leaders rolling out their ﬁrst platform a few years ago, and now they're just
+embarking upon their newest platform, which is truly single cell in situ in this -- kind
+of in the native tissue and it's themselves and a handful of companies going after it.FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 22A - Brad GraySo, there's a tremendous amount of excitement, but there's also uncertainty from
+investors about really where does this go? And is it a cool discovery tool? It doesn't
+really lead to some new insights that you can ﬁnd, new drug signatures and really
+bend the curve if you will. So, it's interesting. I just hosted Brad on the prior panel
+and they have their comics platform and they've made a big, big deal out of their
+informatics approach to their single-cell technologies, it's atomics and it's a cloud-
+based approach, whereas the other players really haven't gone that route.
+So, it's very interesting to ask Brad now with that long introduction about, and
+atomics I believe is obviously incorporating NVIDIA. So, Brad, maybe walk us
+through a little bit about when NanoString kind of how you came in to start to work
+with NVIDIA? When you made the decision? How you decided that you needed to
+harness their technology? And what it's going to hopefully allow you to do with
+atomics.
+{BIO 16814265 <GO>}
+Yes. Thanks, Dan. Well, there's a lot of faces in here. I don't know how familiar you're
+with NanoString, so let me back up and explain a little bit about what spatial biology
+is.
+Spatial biology, as Kimberly said, well, it's kind of the marriage of traditional imaging
+technologies, look at tissue, like anybody would through microscope when you're in
+high school and genomic technologies that look molecule by molecule at every RNA
+or protein in a cell. And spatial biology allows us to see how cells are talking to each
+other, all the diﬀerent unique cell types, what the physical architecture of a tissue is
+at a molecular and cellular level. So, think of it as, tissue is almost like it's made of
+legos and every cell is the -- might look the same, but they're actually unique lego
+blocks and they serve diﬀerent functions.
+And in the past, biology is basically, ground up that tissue and built a big pile of
+legos and said, is it mostly orange or green or red, it's not even really looking at the
+shapes. And then single-cell biology came along and allowed us to capture cells and
+droplets and look at each lego piece individually and say, there's cubes here and
+there's long skinny ones and there are some circular ones, and these are diﬀerently --
+serve diﬀerent functions. Well now, spatial biology allows us to look at the tissue on
+an intact basis, see all those legos, how they ﬁt together, and what they're doing.
+The -- with spatial biology, the ﬁrst application is spatial biology on research. So,
+we're -- it's a new tool discovery researchers are ﬁguring out basic questions about
+how tissue works. And then later translational researchers will help take those
+insights and make them into new diagnostics and new drugs. But it's -- we're at the
+very beginning of what will, without a doubt, be a 10-year revolution in the ﬁeld of
+biology. The customers, who're applying it today are academic medical centers like
+Harvard and the (inaudible) biotech companies, and the like, that's who our
+customers are.
+So, what are some of the opportunities and challenges unique to spatial biology that
+got us into informatics? Our cosmic system is capable of taking a tissue of a millionFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 22Q - Daniel Brennancells and visualizing a thousand diﬀerent RNAs in each of those cells with its X, Y, and
+Z coordinate. So, it can generate a data set from a single one centimeter by one
+centimeter piece of tissue box, like a mold that you might have removed or a tumor
+that was biopsied. That's about half a gigabyte in raw data. And that's at 1,000 plex.
+We announced just last month that we'll be going to 6,000 plex so 6,000 unique
+molecules times a million cells, which could be 3 terabytes to 6 terabytes of data for
+a single sample. So, that's an unprecedented amount of data.
+And the nature of the data is such that the human mind can't really make sense of all
+the diﬀerent relationships and signals that are happening. So, we began to realize as
+a company several years ago, that suddenly we were in -- a bunch of engineers and
+chemists were embarking on one of the biggest informatics challenges in
+healthcare. So, we added two amazing women to our Board of Directors to help us
+with that, the Chief Data Oﬃcer of Moﬃtt Cancer Center, named Dana Rollison and a
+woman named Janet George, who now runs the cloud computing portion of Intel
+that was at the time, the AI/ML leader of Oracle, to help us think about how are we
+going to help our scientiﬁc customers, actually, get insights out of all this data, and
+how are we going to prepare for them.
+Around the same time, we embarked on two aspects of spatial biology. One is,
+building compute, an unprecedented amount of compute power into our actual
+systems to do raw image analysis on the system. And then secondarily, stream into
+the cloud to store and analyze, and work together on the data sets using the elastic
+compute power and storage capabilities of the cloud.
+So, NVIDIA was the company, whose GPUs we selected to build into our CosMx
+Spatial Molecular Imager. The GPU architecture they oﬀered was 5x faster at doing a
+very important function, which was identifying the cell boundaries so that every RNA
+and molecule can be assigned to the right cell called cell segmentation. It's an
+AI/ML-based algorithm that runs on an NVIDIA card inside our latest product CosMx
+Spatial Molecular Imager. It is fundamental. If we assign the molecules to the wrong
+cell, we'll absolutely get misleading results. So, that's critical.
+And now, once we get those terabytes and terabytes of data into the cloud, there's a
+whole another set of opportunities to apply informatics and AI/ML to look at those
+datasets to learn from them, to see patterns that will be hard to see without those
+tools. And we have an opportunity to work with NVIDIA on how we optimize those
+algorithms for NVIDIA processors in the cloud, taking full advantage of their
+roadmap of ever-increasing power of the GPUs.
+{BIO 15426025 <GO>}
+So, now Brad, maybe as a question, you're only as good as what you've done today.
+And you're talking about increasing the number of things you can look at by six fold
+over the next year, and you're probably talking about tripling that again at some
+point through the whole transcriptome to 20,000 genes. So, not only doing more,
+but then you're also going to develop more insights and you probably want to
+speed it up, which is one of the factors we hear a lot and it's probably not the
+informatics side. So, long way of saying and may Kimberly, like what is the roadmapFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 22A - Brad Gray
+A - Kimberly Powellbetween what you're doing today, and how important is, I mean, further progress
+using the existing chips or future chips that will allow you to scale and do kind of
+bigger, faster, better.
+{BIO 16814265 <GO>}
+Yes, I'll start and Kimberly can build on if she likes.
+So, for us to -- the number one thing we can do for scientists is give them tools that
+extract the maximum amount of insights from the precious tissue samples they have.
+And so, driving up the plex from one marker that you might look at or staying to your
+microscope through conventional means, to the 1,000 we oﬀer today, to the 6,000
+we oﬀer next year, to the 20,000 that we cover the entirety of the human genome.
+That is our mission. And we're going to push it as far and as fast as we possibly can.
+Each time we're successful, we make the informatics challenge harder, though, on a
+kind of geometric way. So, we're pushing the chemical and engineering and optical
+ability to extract data from the tissue, but we're going to need Kimberly's help to -- in
+taking advantage of NVIDIA and others kind of compute resources and to make
+sense of all of that over time. So, we're experts on the ﬁrst piece, but we rely on
+partnership and outside help on the informatics piece.
+{BIO 22145194 <GO>}
+Yes. And I think the way we think about the problem is, we think about it, in what we
+call a full stack. You can think about NVIDIA as a layered cake. Again, a lot of people
+know us for the chip and the chip architecture itself, and that is absolutely
+fundamental. For example, in our latest architecture, we have hardware silicon that
+does -- it's called the transformer core that is vital to being able to do these large
+language models like ChatGPT.
+However, you need to be able to expose that technology not only all the way out to
+the application developer, but across GPUs in a single node, across nodes inside of a
+data center and do it at 1,000x scale. So, these models take many, many thousands,
+5,000 to 10,000 GPUs working in unison across an entire data center networked with
+NVIDIA's networking and doing that level of processing for weeks and months at a
+time.
+And so, in order for us to give Brad and his team, who are not computer architects
+and we don't want them to have to be, the ability to access this, we have to look at
+these application challenges at every single level. At the individual chip level, the
+system level, the data center level, and the ability for these applications that they're
+trying to do, like cell segmentation at scale, as he's going to 60x his data set and
+being able to do that at scale. So, we take a full stack approach. And it's quite a
+unique position for our company to not only be designing and architecting the
+silicon itself, but also have all the components to go at a data center scale, and then
+the software investments that NVIDIA has made over the last two decades allows for
+these application development to happen at a very rapid pace.FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 22Q - Matthew Ramsay
+Q - Steven Mah
+A - Molly GibsonSo, for example, I think we all have heard of Moore's Law and the end of Moore's
+Law. With full stack optimization, we can see speedups of a million times over a 10-
+year period, where Moore's Law would be many orders of magnitude lower than
+that. And you can't just do that on chip architecture alone. It's just not possible
+anymore. So, this full stack optimization is super important.
+And then the other aspect of what Brad said is, machine learning and artiﬁcial
+intelligence is part of those X factors. If you had to compute everything in its full
+physics-based computation, it would be too computational intense and too
+expensive. But artiﬁcial intelligence can help us augment that, can help us essentially
+be a functional approximator of some of these more diﬃcult calculations that is also
+part of that X factor.
+And so, we work with the leaders in the ﬁeld, working and pioneering approaches
+that are never done before because they exercise our full stack more so than we
+could ever do just sitting in our own back oﬃce. And that is largely the chart of our
+team is to partner up with innovators and to make sure that we apply that whole
+stack for them to achieve their life's goal, which is spatial genomics and eliciting all
+the amazing parts of biology we don't even understand yet.
+{BIO 17978411 <GO>}
+Steve, you want to go ahead and introduce yourself and Molly and the Generate
+team?
+{BIO 21796111 <GO>}
+Sure. Yes. So, Steven Mah, one of the analysts at TD Cowen, covering life science
+tools and diagnostics, speciﬁcally covering data-driven drug discovery and also
+synthetic biology. So, yes, it's my pleasure to introduce Molly Gibson, CIO of
+Generate Biomedicines. So, our thesis and this is derived from a recent multi-analyst
+piece we did, which is the primer on AI and data-driven drug discovery.
+So, basically, just settling on the thesis side -- of the -- side, the return on investment
+dollars and the -- using the traditional drug discovery model hasn't been realized,
+right? So, even though there's been multiple advances in R&D technologies,
+multiple advances in terms of understanding human biology has not been reﬂected
+in increased clinical successes. So, our thesis is that, by applying artiﬁcial intelligence
+to these vast amounts of data that NanoString is generating and others, we'll be able
+to increase the probability of clinical success and deliver better drugs and at a lower
+cost. So, maybe with that kind of introduction, Molly, maybe can you spend a few
+minutes on Generate, and how you're using AI?
+{BIO 20208012 <GO>}
+Absolutely.
+So, Generate -- at Generate, we focus on using ML and AI to generate novel proteins.
+And so, proteins, we're really interested in them, because almost everything in
+biology happens because of proteins. So, if you think about DNA, it's really kind ofFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 22Q - Steven Mahthe software, proteins are how that software is executed. And so, to us, historically,
+proteins have been discovered for medical purposes through this process of drug
+discovery. And it's really the discovery word that is so interesting to us from the
+perspective that, it's really empirical process, it's very bespoke. And like was
+mentioned, it's -- it really leads to challenges in economies of scale. It's not a
+scalable approach.
+And so, if you think about what could actually give us the returns on investment that
+we want and we actually lead to successful molecules having an understanding of
+how protein leads to a particular function and to particular clinical outcome is really
+essential. And that's something that's just not seen today. And a lot of that become --
+comes down to the fact that we're discovering these through these really empirical
+processes, trial and error essentially, these medicines. And at the end of the day, you
+get out whatever comes out at the end of the funnel, not what you want, not what
+you've speciﬁed. And so, to us, the question is, can you actually ﬂip that on its head?
+Can you actually say, this is the molecule I want, now what is the sequence, the
+protein sequence, the amino acid sequence that would fold into the right protein
+and gives us the right function?
+And if you think about the combinatoric of this, it's really -- it blows up insane to a
+place, where really AI and ML are the only way we can imagine being able to do that.
+So, the standard protein is about 100 diﬀerent amino acids, each amino acid can be
+20 diﬀerent letters. And so, if you think about any diﬀerent combination of that, that
+combination is more than the atoms per meter squared. So, the combinatorics isn't
+same. And so, we're asking that question of, can you actually start to use ML to
+understand the rules by which these proteins function, be able to specify a particular
+problem, and then you able to not just learn those rules, but then generate novel
+proteins.
+And so, we're applying those two problems, where we can actually say, I want an
+antibody, for example, so like anything like the antibodies that protect us against
+COVID or HUMIRA, for example. We want antibody that does that. And because of
+that, we're going to be able to dose this drug at a reasonable interval, maybe six
+months to a year. We're going to be able to give it to these patient populations that
+are in high need, high risk very safely. So, more eﬀective, more safe molecules for
+people faster.
+And to me, the thing that gets really exciting about this is, one of the challenges in
+drug discovery is that we haven't been able to see the same types of economies of
+scale that you see in the tech industry. And so, you've not seen those kinds of returns
+that you have on your technology. And so, really about putting the technology ﬁrst in
+the biology, we're able to ﬂip that on its head and think about these economies of
+scale that we want to see in drug discovery, and more importantly, the successes that
+we want to see. A lot of the challenges, which I've discovered today is, is not just
+discovering the molecules, but making sure that they're successful. So, being able to
+do this more drugs faster and more successfully.
+{BIO 21796111 <GO>}FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 22A - Molly Gibson
+A - Kimberly PowellThanks for that. And maybe this is a question for the whole panel here. We've heard
+people say that they have the best algorithms. My personal opinion is that it is table
+stakes. And where the rubber hits the road is, how you're actually taking your
+functional data or your mass data and then using that to train your machine learning
+algorithms. So, I'm curious to get your guys' perspective on that. And especially with
+you, Molly, how are you -- how you are generating data to train your machine
+learning algorithms?
+{BIO 20208012 <GO>}
+Yes. So, to me, this is kind of a conversation we have all the time, which is like out of
+all the components of compute algorithms and data, what's the most important? At
+the end of the day, it's all of them. It's important that you're thinking about all
+components of that. And so, when we've thought about, for example, for data, it's
+not just any data that's important, it's the data that's going to be able to give you the
+most information, the most high-quality information at scale.
+And so, to us, what I -- when we think about the question of, can you get to what -
+how protein functions in the body, we know that sequence dictates structure of a
+protein, the three-dimensional structure of the protein, and then dictates function.
+And so, the most important things, pieces of data for us are two things. One is
+structure, which is incredibly generalizable across any type of data that you -- any
+type of protein that you want. And so, we've built out a cryo-EM core, four diﬀerent
+microscopes, it's one of the largest in the country, have been able to produce
+structural data in mass to test things that we actually generate with our algorithms.
+So, instead of protein prediction -- structure prediction, where you already have the
+answer of the structure that you want to test. For us, when you generate something
+new, there's no answer, you don't have the answer. So, you have to actually test it.
+And so, we're doing that with our cryo-EM core. And then there's also function. So,
+high-throughput functional data is also the second thing that we want to be able to
+do. So, we're constantly generating a fully automated lab, where we can generate
+the function of the molecule itself. And so, it's not just that we have more data, it's
+that we have the right type of data for the questions that we're answering, which is
+really important to us and how we're investing on data.
+{BIO 22145194 <GO>}
+Yes. I think, Steve, to comment on this is, there's a few fundamental things to think
+about, what Molly described and so many of the tech bios, we call them, who have
+realized that it's not just a single algorithm. And what I -- my version of what Molly
+said is two things. One, it's about the method. And two, it's about turning it into an
+engineering process. It's repeatable, it's auditable, it's studiable. And that is a really a
+fundamental diﬀerence. And so, all three are absolutely important. No person with
+the most chips wins, no person with only the data wins, and actually, no person with
+just an algorithm wins. Because that algorithm and the data is ever-changing. I mean,
+as we know healthcare, the platform technologies are not standing anywhere near
+still. And so, the methods development is super, super critical across the gamut here.FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 22A - Brad GrayAnd the other thing to realize what's diﬀerent now is not just that we have the ability
+to build something like ChatGPT, which honestly was able to be born because of the
+Internet, let's say. But now through lab automation and through platforms and digital
+biology, we now have the necessary data feeders. And so, it's -- we -- this is new. This
+isn't within the last ﬁve years that terabytes of cryo-EM data is coming out. These
+things are winning the Nobel Prize, new microscopes, new platforms are entering the
+market and getting more accessible all the time, and then we're able to automate
+them. And so, the scales of the data are completely unprecedented.
+And then this meeting of the capability of generative models in AI is going to be
+able to help us make sense of it, reason through this data, discover things nature has
+never seen before, right, which is what the Chroma algorithm has done is, nature
+would go through 4 billion years of evolution and say, okay, that worked, and on to
+the next job. It didn't sit there and say, what other proteins might work. No, it just had
+to move on, right? It had to be very eﬃcient. Well, here, because we can generate
+data, we can encode this data into these models, we can explore like we could never
+explore before. And not in a 4 billion evolutionary time scale, we're talking now
+within a week or two weeks or a month. So, this is what's super transformational is
+this new method and the ability to generate data at the scale and at this resolution
+and ﬁdelity.
+{BIO 16814265 <GO>}
+Yeah. Just build on, I think both made great points. Our -- I want to go back to the
+question of kind of the relative value and importance of data algorithm and
+compute, we -- our tools are the data-generating tools. So, obviously, if you haven't
+tested in biology, if you haven't tested the right sample with the right tool, the data
+doesn't exist. There's no way you can get any insights no matter how much your
+computer or your algorithms.
+But our goal is to help people generate the most interesting data to put it into the
+cloud, whereas algorithms evolve and as compute power evolves, it can be queried
+over and over and over again and have a long life of generating insight by insight.
+So, this is why the -- having a data-intensive production, extracting the maximum
+amount of data out of tissue, getting that to the place, where it can be shared
+amongst collaborators all around the world -- actually, we haven't met -- that place in
+the cloud is called our atomic spatial informatics platform.
+And the critical aspect of it is -- because algorithm innovation is such a huge part of
+what's happening in science on these new datasets. We have a total -- totally open-
+source approach. The algorithms that we provide on Day 1 are open source, you're
+going to be able to look at the code and R or Python to ﬁgure out exactly what we're
+doing. There's no black box. And as you are an academic, who invents a new
+method, you're going to be able to upload it straight to our cloud and take
+advantage of the compute power and architecture and visualization tools and the
+residency of the data to innovate on algorithms.
+We're not going to be -- NanoString Technologies is not going to be the algorithm
+inventor of the world, the huge academic environment is. And then the beauty ofFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 22Q - Matthew Ramsay
+A - Kimberly Powellhaving it all in the cloud is, as successive generations of technology and GPUs and
+CPUs come out, we can forever take advantage of those improvements in speed and
+processing power, et cetera, without a scientist ever having to throw out their old
+server and buy a new one. We're totally taking that out of their hands. They had
+access to NVIDIA's entire roadmap of technology by virtue of putting it in the cloud
+and letting the data centers deal with the upgrade cycles.
+{BIO 17978411 <GO>}
+I think that's a really sort of interesting segue to something that I wanted to ask. And I
+talked to NVIDIA's founder, Jensen Huang, he's sort of the founder of AI, so to speak,
+along with their Chief Scientist, Bill Dally. And we talk a lot about pushing -- what you
+guys have been talking about here, pushing the boundaries of more data, more
+compute intensity, higher up the AI stack. And then there's a separate vector, which
+is democratizing AI. And actually getting these sort of compute intensive, cost
+intensive models to be accessible by the masses. And Brat you touched on it brieﬂy
+by putting things in the cloud. I remember going to demonstrations three or four
+years ago, where taking ultrasounds and enhancing them through AI and piping it
+back down into the doctor's oﬃce and having things where you can infer 50-100x
+resolution. And all of those things are really cool, but they're deployed in how many
+hospitals in the world? Just because most folks can't aﬀord $300,000
+supercomputer let alone know what the heck to do with it if they had it, right?
+So, I guess what I want to talk a little bit about Kimberly is just, NVIDIA announced a
+couple weeks ago, and this has been coming for a while, so the DGX in the cloud,
+right? So, imagine that example of -- instead of doing ultrasound piping into the
+cloud, piping it back at real time, taking the ultrasound, saving it as a video ﬁle,
+uploading it with a few doctor's notes, and then getting something back from the AI
+that you can use, and that can be done on a subscription basis or a per-query basis.
+Anyway, if you could spend a little bit of time about that other vector of
+democratizing AI of things, maybe we've solved, but are deployed in a fraction of
+where they should be deployed globally in the healthcare space?
+{BIO 22145194 <GO>}
+Yes. It's a super important point, which why our move to the cloud is so important.
+And if you go back just 5-10 years ago, supercomputing centers are largely funded
+by large government entities and there's 10 of them in the United States,
+programmable by another 10 people in the United States. And so, that's really been
+one of our core missions is how do we make that more and more accessible. One
+way you make that more and more accessible is through software and applications.
+So, I've spent the last 15 years of my life with my entire team partnering with
+application developers, codifying what we can into to libraries that are reusable by
+everybody, right? Working with the open source community such that these
+frameworks that helped develop all the algorithms are accelerated and are available
+everywhere. So, the software part piece of it has been ongoing for a long, long time.
+We decided to put this CUDA, which is our -- essentially our way to program a GPU
+on every GPU that NVIDIA ever made all the way into our gaming GPUs that back
+when we did it didn't know you were going to run generative AI algorithms on yourFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 22Q - Matthew Ramsay
+A - Molly Gibsongaming rig, but now you do because you can create gaming animation characters
+with it. And so, that was just an amazingly wise decision, but part of the
+democratization, and the ability for this large software ecosystem to abound and
+really democratize it from that regard.
+Now the second thing that Matt described is, we invented the DGX, which is
+essentially our AI supercomputer. One for our own AI scientists, but also for a lot of
+the academic Godfathers in the world who said in order to further this research, we
+need to have very dense, very high-performance computing.
+And so, AI has triggered not only does the astronomy team at Oak Ridge National
+Labs need a high-performance computer, but now with ChatGPT like generative AI,
+every enterprise needs access to this level of supercomputing. So, the only way you
+can do that is not by building more data centers. Actually, in some countries, there
+were some moratoriums on building more data centers, because we're going to hit a
+power limit very, very quickly here.
+And so, no, it's how do we make this supercomputing superpower technology for
+doing very now common generative AI tech in the cloud. So that, once again, it's
+completely democratized to every enterprise. You don't want just one company, who
+can aﬀord the computer to win. We need all companies to be able to exercise this
+technology and push our industries forward. So, that was a big conscious move is to
+make the computers, because it is one of the three ingredients tremendously
+accessible in this architecture that we've built in DGX and our data center scale
+computing architecture needs to be readily available in the public clouds than it is
+now.
+{BIO 17978411 <GO>}
+Totally makes sense. I don't know, Molly or Brad, do you guys want to spend a little
+bit of time on how you've felt the process has been onboarding with NVIDIA? I
+mean, is the stuﬀ accessible? How's the experience been? Your competitors that
+maybe are doing things in traditional methods rather than in AI compute method?
+Like why are they doing that? I mean, it seems as computer architect in a
+semiconductor person, it seems very, very obvious to me. I mean, we used to talk
+about the companies that had data or the ones that had the advantage. Now it's the
+ones that can actually manage the data and get conclusions out of it that have an
+advantage rather than just collecting data for data sake. I'm just wondering what
+your experience has been onboarding with NVIDIA and competitors of yours that
+might not be -- why not -- Molly, do you want to kick oﬀ? Go for it.
+{BIO 20208012 <GO>}
+Sure. Yes. So, I mean this is something that we've been talking about a lot is, one of
+the things that what Generate is very good at is and we're experts at is building the
+algorithms that allow us to generate novel proteins. And we can do that well with
+access to the types of computers we have today, but when we think about being
+able to do that at scale to democratize type of capability beyond our pipeline to
+others in the ﬁeld academics that have hypotheses maybe that they want to test andFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 22A - Brad Gray
+Q - Matthew Ramsay
+A - Kimberly Powelldo this at scale and really allow the world have access to these types of
+technologies.
+Being able to do that in a scalable way becomes -- becomes a bigger engineering
+problem, where the types of experts that NVIDIA has, the type of hardware that
+NVIDIA has will enable us to do that type of scaling capability to not only just
+generate 100 molecules that we could potentially test in the lab, but hundreds of
+millions of molecules that we can go into the lab and test across many diﬀerent types
+of targets, many diﬀerent types of diseases and really start to tackle the drug
+discovery problem with engineering fashion, which is one of the places that is kind
+of the next frontier of what we're working on.
+{BIO 16814265 <GO>}
+Yes. My -- relays great things about working with NVIDIA. I mean, I think the ﬁrst way
+we began working with NVIDIA was the selection of one of their cards, I think it's the
+4K as the GPU processor on our new instrument, which was selected, because the
+CUDA instruction set was super easy to work with for the image analysis since
+algorithms we need right on the box. It was 5x times faster to 20x faster, depending
+on the situation of anything else we tested. And interchangeability and knowing that
+that kind of CUDA library set was going to be on every NVIDIA chip.
+It gave us the idea that hey, over time, we can actually slot out this version and into
+new versions and upgrade the computer in a really seamless way on future
+generations of the cosmic system. So, that's been positive. I think the next step,
+which we haven't fully realized will be to take our cloud-based computing, work
+together to optimize the code for NVIDIA GPUs and direct the computer resources
+towards taking advantage of those. And I think we're just at the outset of atomics. I'm
+sure opportunities like that will present themselves over time. And I think NVIDIA has
+made it really easy for companies to engage that way.
+{BIO 17978411 <GO>}
+I think one of the things that we've been focusing on genomics and drug discovery
+here, but just to level the conversation and give Kimberly an opportunity to do that
+and talk about the other verticals of healthcare that NVIDIA is attacking, I think you
+guys have identiﬁed sort of 20 independent verticals and have teams that are
+working across all of those. Some of the things are similar in terms of onboarding,
+oﬄoading things to the cloud, getting AI compute in the hands of all of these
+researchers, but I think each vertical market also brings its own unique little industry
+challenges.
+And so, I mean there's investors here that our shareholders across companies and
+lots of verticals in healthcare. So, maybe some of the investments that your team is
+making. What's the scale of the team now? If folks aren't using AI-based computing
+and/or maybe on the fence about it, just kind of give the picture of what NVIDIA is
+doing to set them up on board?
+{BIO 22145194 <GO>}FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 22Yes, sure. Yes. And I'll give the team of experts that we've been so lucky to hire. I
+think it's the fundamental diﬀerence is, we have lots of Ph.D.s in genomics in
+computational chemistry. We have cardiothoracic surgeons on staﬀ and it's really so
+that we can have a really deep application level. There's no way you can go the full
+stack. If one, you don't have somebody translating the biology application or the
+clinical application to all the way down to that chip level to really have these many
+orders of magnitude X factors.
+So, it's one of the things we're really-really proud of is attracting this amazing talent
+that you might have studied to be a surgeon her whole life, but now can imagine
+how instead of touching maybe 1,000 patients' lives, how can I touch 100,000 or 1
+million patient lives through by way of technology? Some of the other areas, if I
+could draw some analogies, what Brad is describing to you in Bionano is exactly
+what any medical device company can and should be doing, and are at diﬀerent
+paces, I would say. And the idea is this, any -- imaging is core to the entire healthcare
+delivery process from screening all the way through to robotic surgery and image-
+guided therapy. And so, there's so much AI enhancement that can be made and/or
+optimization on the sensor technology itself.
+If we want to make an ultrasound machine that is super cheap or an MRI on wheels,
+like Hyperﬁne has done, you reduce the cost of the technology of the sensor, you
+reduce its footprint, you make it more accessible, but you have to apply a lot more
+computation on the back end to recover the lack of sensor abilities, and then also to
+guide, the user who is not maybe a trained sonographer or a trained technician.
+And to me, that two thirds of the world that doesn't have access to proper surgery or
+diagnostic and medical imaging could now potentially have it. And it's this mix of the
+ability to now put this computational ability in the instrument itself, do things in real-
+time, but always be connected to a cloud resource to enhance on an even more
+cost-eﬀective analysis manner, and pipe that back down to the user. This is no
+diﬀerent than the car industry. You do some decision-making on the car, you do
+some up in the cloud.
+And so, medical devices and this idea of creating that capability as one, it's
+essentially how can as a medical device can I become software-deﬁned? How can I
+as a medical device become much more cheaper and accessible by way of using this
+technology? And then thirdly, as a medical device makers, which many of these are
+large companies, who've acquired lots of diﬀerent companies. They now have an
+opportunity to optimize a lot of engineering.
+We have a general-purpose computer platform that can plug into any sensor on the
+planet. We have a general-purpose software platform that can run any AI developed
+on the planet. And so, they can now realize an AI platform, their own API AI platform,
+run it on instrument or on cloud wherever they see ﬁt for the application that it's
+useful for. And so, I see that as becoming the real transition in healthcare is a lot of AI
+platforms, GE HealthCare, for example, their Edison platform is an initial realization
+of this, Siemens and their Rad Companion.FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 15 of 22Q - Matthew RamsayThese are realizations of software-deﬁned AI platforms-as-a-service that can be
+connected to all of their devices and rapidly -- much more rapidly bring innovation
+to market. So, that's what I'm super excited about, and it's a known architecture. It's a
+known need of this hybrid compute in sensor, in cloud and being able to draw real-
+time insights.
+So, another area that is very, very exciting would be exactly what we're experiencing
+in our own consumer life with ChatGPT. I mean, natural language processing and
+truly pushing the next paradigm of being able to sift through, whether it be payer-
+provider or clinical trial information and draw new insights to be able to design and
+predict clinical trials on a much more eﬀective basis, being able to predict
+readmission rates in your patient population and developed new operational
+eﬃciencies in the healthcare practice being able to reimagine call centers and
+processing of new payer systems.
+This natural language and this capability is going to be completely transformational.
+But we all know, it speaks a slightly diﬀerent language than ChatGPT that's today.
+And so that's the whole idea to be able to customize these models so that they're ﬁt
+for function for either the operational purpose or for the clinical or biomedical
+purpose is another super exciting area that really cuts across all of healthcare in
+earnest, and really can I think make these electronic health records in the operations
+of what's happening in the health -- in the hospitals themselves, truly
+transformational.
+{BIO 17978411 <GO>}
+I guess one thing I wanted to ask about and this comes up in the AI work that NVIDIA
+is doing in the automotive industry towards autonomous driving, right? And that
+technology moves at one speed and the regulators move at a diﬀerent speed, let's
+just say, to be kind. And as I started oﬀ this conversation, I probably know less about
+healthcare than most of the people in this room. But I've seen the way that regulation
+pushes back against innovation in the auto space, even as simple things of taking
+away a visual rearview mirror and replacing it with a camera-based one, which
+doesn't seem like that big of a deal, but got massive regulatory push back in the
+auto industry and took a long time to happen.
+There's a lot of things that the three of you have been talking about, and the pace of
+computing innovation is going to accelerate massively. That's my own view in a lot of
+diﬀerent verticals, healthcare in particular. How did the regulate -- I mean, this is a
+big broad conversation. But Kimberly, your teams like and how do you interact with
+the regulators? Like what is their thought or simulated protein versus traditional
+methods and that can matter across a whole bunch of areas, right, imaging of like we
+have the AI machine that's going to diagnose brain cancer rather than radiologist
+actually doing it.
+How does that pass the FDA? How does it pass and liability lawsuits? I don't know.
+Maybe I'm opening up a big can of worms here, but I think that's a super interesting
+topic that I get asked about in the automotive space a lot and I'm quite certain it
+applies to healthcare. So, if anybody wants to take a crack at that one.FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 16 of 22A - Kimberly Powell
+A - Molly Gibson{BIO 22145194 <GO>}
+Yes. I'll take it. It is a huge can of worms without a doubt. But I think it behooves and
+is upon all of us to have a relationship with the regulatory bodies. Just as we need to
+educate ourselves about diﬀerent ﬁelds so that we can make a diﬀerence, we need
+to help educate the FDA and also be educated on the FDA. And so, we've gone oﬀ
+and built processes into our own platforms to adhere to medical-grade hardware
+and software platforms.
+A lot of that has to do with things like documentation, sounds simple, but it is
+absolutely imperative to have traceability back to all of the software, which, by the
+way, now is a lot to run a single algorithm. There's a lot of software that is running
+that and ﬁnally documenting that and passing that on in a way that can be audited is
+something that we're doing now. So, we're taking the onus upon ourselves, because
+we feel like otherwise, we could be in the critical path.
+We can't just have all these layered cake that I just described and say good luck GE
+or good luck brand new startup that has an amazing idea. I mean, it's more about
+making pace with the innovation. So, a couple of things: one is, learn it and if you
+can from a product perspective, apply yourself, you should. And I think the other
+thing that's also I think the world is learning in real-time and the automotive industry
+learned is, what are other methods that might be able to be used to help?
+One of the methods that had to be discovered in self-driving cars was simulation.
+Because NVIDIA creates games that simulate the natural world, you can apply that
+same technology to driving your car in a simulated digital twin, physically accurate
+world. So, you can predict -- you can not only create the training data, synthetic data
+generation to ﬁnd that corner case of an unfortunate child, who might run in front of
+the car, but be able to generate enough of those scenarios that now you have a lot
+more conﬁdence that your AI is going to catch it, so synthetic data generation.
+And then to replay that in the hardware in the loop world. If my car actually saw this,
+how would it react? And so, these systems are plate -- ways that we can get an
+auditable trail, enhance our data that the corner cases that the world doesn't see
+very often and build more robust development systems. It comes back to that notion
+of the method. And so, our methods are going to have to evolve.
+You don't just make an AI algorithm that can circle a lung nodule, because guess
+what, when people had COVID and they might have had lung cancer, it's a
+completely -- it up the skates the problem to some degree. So, you have to retrain
+the algorithms for COVID-presenting patients. And so, it has to be this ever-evolving
+loop and we have to ﬁgure out processes and tools in order to facilitate it. But so
+one, I think it's just be active and learn both directions; and two, think about how
+technology can actually be applied to make it easier.
+{BIO 20208012 <GO>}
+Yes. I think I'd expand on that and just kind of emphasize the education component
+of it to us as we've been thinking about developing and actually taking AI-generatedFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 17 of 22A - Brad Gray
+Q - Matthew Ramsaymolecules into the clinic and into people. A lot of what we're realizing is that for the
+FDA, they're just behind what the technology actually is. And so, it's not that they're
+worried about anything in particular of AI-generated molecules. In a lot of ways, we
+have lots of reasons to do that. They're going to be safer for people.
+It's just a fear of the unknown. And so there's a lot of education. Like can we decide
+both ways of us educating the FDA and other regulatory bodies as well as learning
+from them. What areas that they need more conﬁdence in. And so, from the
+beginning, we've been working on those types of questions since the day we were
+founded. As you can imagine, our -- if you're creating new molecules, new proteins
+that have never been seen by nature before, our own immune systems have never
+seen those proteins before.
+So, you could imagine a scenario in which those you have a large immune reaction
+to these molecules. But if we understand that process, we can actually reduce that
+immunogenicity to a place well below what molecules that nature discovered has.
+So, we've actually been able to show that we can learn how the immune system
+responds to proteins and be able to reduce that to safer levels than what our
+traditional discovery methods have been able to do. And so, as long as we can both
+show that in every possible preclinical model that we can demonstrate and share
+that and continue to educate the regulatory bodies on with where we actually
+believe that we should be safer in almost every way than a molecule, it was
+discovered through nutritional random mechanisms will be good.
+I can imagine a world in which -- in the future today we're using the -- all of the same
+safety and regulatory processes and preclinical models and animal models that
+traditionally you're seeing before drugs go into people. I imagine a world in which
+we'll change that completely, where you could actually get rid of animals and start to
+do things like either simulation or you could do things, where you can actually have
+human organoid models, where you don't need animals anymore, but through a
+combination of data AI and new experimental methods, you can start to more easily
+represent what the human body is. Like, a mouse is not a human, but we use it all the
+time to simulate what a human looks like and we can do better.
+And so, being able to have that conversation back and forth as to what we should be
+believing and what we believe that these methods can do for us. And then also learn
+where the potential pitfalls are or the potential concerns are, and we can address
+those rapidly through this iterative process, the better it will be.
+{BIO 16814265 <GO>}
+I'll just say, the life science tools industry, we're lucky enough not to be regulated.
+And now our scientists -- our scientiﬁc customers are incredibly fast-moving and
+embrace innovation and change faster than the other markets. I think we have a
+possibility to be one of the fastest areas of application within healthcare for these
+new computed AI approaches.
+{BIO 17978411 <GO>}FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 18 of 22A - Brad Gray
+Q - Matthew Ramsay
+A - Kimberly PowellYes. So, Brad, actually talking about that, and spatial being essentially used for go
+commanding diagnostics given maybe use AI to discover patterns or whatnot. There
+should be any issues with that as long as you both go through the regulatory process
+of validating the marker recently in -- programs.
+{BIO 16814265 <GO>}
+Yes. I think the next several years of spatial biology are largely focused on discovery.
+Discovering patterns in tissue that might predict, who responds to a drug or who
+doesn't and AI will help us make those discoveries. AI may or may not be required to
+steal them into diagnostics, I think we just don't know that yet. But I think without a
+doubt, it can be a helpful tool in the discovery endeavor. And that, of course, has no
+regulatory issue whatsoever.
+{BIO 17978411 <GO>}
+Okay. And then maybe a question for you, Kimberly: in healthcare you have a unique
+perspective, because you can actually see your customers and I know there's some
+sensitivities potentially. But are you saying most of the interest from the discovery
+aspect or the -- in the translational, where you're taking discoveries and trying to
+move them into clinic or is it in clinical trials or --
+{BIO 22145194 <GO>}
+Yes. I will say that early discovery and discovery has been very active part. But as of
+late, there's a couple of other areas that are picking up. So, early discovery, which
+Molly and her platform are really all about is you can apply these generative AI
+methods to target discovery to identiﬁcation of a lead to now the optimization of
+these interactions and understanding how they're going to interact in the body.
+And so, literally, every stage of drug discovery has now fully been aﬀected by the
+generative AI era. There are models that are being applied to each and the
+combination of these models can potentially replace what's known today as what
+we're doing in virtual screening. And so, the early discovery is, I think, it's a well-
+known future that it will be heavily in silicon, informed by, of course, wet lab. But you
+might go from a lot of the early discovery being -- I don't know what the ratio is, but
+80% wet lab, 20% compute to 80% compute, 20% wet lab.
+Now that some of the other tools that I was describing later on are becoming super
+useful in clinical trials. I mean, you have pharma companies, who are sitting on
+decades' worth of images. You can use these same approaches, where unlabeled
+data can now be shoved into these algorithms and they can be trained to do pretty
+phenomenal things and things that are a lot cheaper than hiring a radiologist to
+annotate clinical trial data, and frankly, probably more precise, because when you're
+looking at whether patients are responding in their tumor response, the accuracy of
+that measurement can be a responder or non-responder. So, there's a lot of
+potential, I think, opportunity in the imaging space.
+And then just as DALL-E and some of these other algorithms have showed us, being
+able to build multimodal algorithms from patient outcomes and their phenotypicFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 19 of 22Q - Matthew Ramsay
+A - Brad Grayimage data is going to produce a lot more translational applications as well as
+clinical trial opportunities and eﬃciencies and improving that. We know that's the
+most expensive part of developing drugs. And we know that we're not very good
+with this 10% -- success rate -- excuse me, after we get into patient. So, that's a
+function of garbage in from the early discovery and garbage out, but it's also
+obviously a huge function of how we're choosing and monitoring the patients in
+trials.
+And then I'll go further to say, on the commercialization side, of course, the natural
+language processing is a huge tool there. To be able to constantly be able to analyze
+what's going on in the real-world data and be able to discover the goods and the
+bads of your medicines and be able to feed that back into the whole loop. So, while
+today I think there's a lot of pent-up focus on early, the other two are really coming in
+earnest, especially after ChatGPT moment has happened and now the
+ubiquitousness of being able to apply AI to images. And partially, I feel like we've
+made a great contribution and some of the open source tools we've made in the
+imaging space that the ﬁeld has really said, we've got a lot more we can do with the
+image data that we have, so --
+{BIO 17978411 <GO>}
+I think we have just a couple of minutes left. And again, this has been super
+interesting and I very much appreciate you guys all being part of this. And so, I have
+to sort of ask the devil's advocate question at the end just to make this fun. One of
+the things that we spent my team and Sammy has spent a lot of time in the
+autonomous car arena, diﬀerent levels of automated driving and all of the diﬀerent
+things that have gone into that as a science and as a technology application into a
+very slow-moving industry in the automotive space.
+And if you were to had a conversation with NVIDIA's founder Jensen 10 years ago, I
+think he -- his timeline for when we were all going to be sitting around and not
+having steering wheels in cars would have been a little bit oﬀ. He's admitted that.
+And the realities of moving and transforming a huge and incumbent industry take
+time, right? So, my gut tells me there's going to be some of that in the healthcare
+world. There's huge, huge potential here.
+I think Jensen's described AI and healthcare as the next billion-dollar business for
+NVIDIA. Just for all three of you, what's like hindering the pace of adoption and
+innovation? Is it -- do we have too much data and not know what to do with it? Do we
+not have enough data scientists? Is it the cost of the hardware? Is it regulation? Just I
+don't know how you're thinking about, but if we could get rid of these two or three
+factors, things could move a heck of a lot faster, because the two of your companies
+are making things move quickly, but you're the outlier rather than maybe everyone
+doing it at the pace you are. So, let's just use that analogy comparing to the auto
+industry that just took longer. What do you think of the impediments to this AI
+innovation in healthcare?
+{BIO 16814265 <GO>}FINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 20 of 22A - Molly GibsonI mean, I think one of the things in -- our customers are scientists and they are --
+every scientist's individual scale of data generation is pretty small. And machine
+learning algorithms need massive training sets, more than honestly can be
+generated by any one individual scientist. So, I think what's required to truly unlock
+machine learning's potential on scientiﬁc data sets is a paradigm of sharing and
+pooling data that honestly is new to that community.
+Most scientists have viewed their data as precious to themselves, it's proprietary.
+They want to go back and look at it over and over again. It's very hard to generate.
+They don't have a single repository for all that data (inaudible). So, I think that's one
+of the rate limiting steps in the scientiﬁc ﬁeld. Now, certain areas that we're working
+hard by creating a single repository in a data lake for all the spatial biology data ever
+generated on our platforms to go to help create a situation, where the data is all in
+one place and allow us to get to that scale. But I do think in the scientiﬁc world
+ﬁnding data sets still the clean algorithms is part of what is rate limiting.
+{BIO 20208012 <GO>}
+Yes, I'd agree with that. I think it's -- it comes down to a cultural component in the
+scientiﬁc community, and this is something that surprisingly that doesn't just persist
+between companies, it's even within scientists individually in their own companies,
+which I think is probably quite surprising to people, who aren't familiar with the ﬁeld
+that there is this kind of ownership over data in scientiﬁc arena. It's one of the things
+that at Generate, we spend a lot of time. Building from the very beginning, the data
+is a collective asset.
+And by having that mantra over and over and over again, that you can't even really
+see your data until it goes into a central repository at Generate was something that
+was -- it doesn't sound like a big step, but in many companies, many biotech
+companies that you would see, that's not happening. In many companies, you'll have
+data on individual computer. It might be an Excel spreadsheet. And if someone
+leaves a company, it's -- who knows where that data goes.
+And so, there's a lot of cultural components to it. And I think that extends beyond the
+biotechs to the pharmas that are then eventually the real kind of commercializer and
+developers of the drugs, like we spent a lot of time talk into pharma companies
+about their view on the type of technology that we're developing at Generate and
+how they would use it. One of the challenges is that each of those were generating
+novel proteins.
+Protein engineering has been a ﬁeld for decades. There are people, who have
+trained to engineer proteins for drug discovery. And so one of the cultural changes
+is getting those people on board with the fact that there's a new way to do things,
+because they've been trained for last 20 years in their way of doing something.
+So, there's multiple cultural elements to this that I think will be the bigger barriers
+than all of the other things that are still challenges, like generating lots of data,
+getting the right -- the regulatory agencies to be educated. But I think those things
+will move faster than getting the full community to kind of change into this way ofFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 21 of 22A - Kimberly Powelldata is a collective asset, integration between computation and experimentation and
+the view that there is a new way to do things in a ﬁeld that has been around for
+decades.
+{BIO 22145194 <GO>}
+Yes. And I guess I'll kind of clean it up to some extent. In the healthcare delivery side
+of things, I mean, I think we can all recognize we have a bit of a systemic problem in
+the healthcare system itself, whereas I'm talking to a friend on the soccer ﬁeld and
+last year, we helped achieved the Guinness World Record for the fastest time to
+sequencing diagnosis with Stanford on Oxford Nanopore's genomics platform. And
+this helped a child know that his -- he was going to be on death's doorstep soon
+because of a heart failure. He was put on a transplant and he is alive and well today;
+or a seizing child, who was able to be sequenced within hours of its like knowing it
+just needs sort of that vitamin D supplement; and this dear friend on the soccer ﬁeld
+talking about how his mom going through this diagnostic odyssey and she actually
+has a mutation that is 80% treatable, but hasn't known that for the last six months.
+So, part of it to me is, we're making this technology more readily accessible. The
+genome is going down to $100. Can we -- how, why, and can't we make it more a
+standard of care? And so, that's why we continuously partner with these clinicians,
+who have a dream of changing that standard of care and showing that it's actually
+plausible and being able to kind of create that inside the healthcare system. That's
+truly a challenge.
+I think other ideas are, one I think unique vantage point NVIDIA does have is
+because we work across so many diﬀerent industries, you can see how a car and a
+spatial genomics platform are not that dissimilar in what they need and how they can
+become more software-deﬁned. As Brad was telling you, informatics is going to be
+his innovation engine in the not too distant future. So, you have these 40-year-old or
+more medical sensing device companies that have built the platform, but now how
+can they innovate on a -- in a software-deﬁned way and realize huge economies.
+Some of that is a problem of reimbursement. If the reimbursement isn't there what,
+would drive them to sort of disrupt their own innovation, innovators dilemma kind of
+a thing.
+So, that's -- so, on healthcare, those are not that solvable, but the more we can make
+these world records known and advertise to really see the possibilities, you hope
+that it can start to have some formidable change in healthcare delivery. And then I
+have to agree with Molly just us being a tech company, I went to J.P. Morgan several
+years ago where I had a conversation, I won't say with who, a large pharma and their
+CIO was saying, we're never going to do AI in house, we're going to farm it all out.
+And Jensen, of course, respectfully disagreed and said, why would you ever say
+that? This is the biggest technology breakthrough of our time. How silly would it be
+for you not to become well-versed in how to use this technology and apply it
+everywhere?
+You can, of course, drug discovery -- I mean, pharmaceuticals is one of the most
+challenging industries on the planet Earth. But get educated on how to use AI, investFINAL TRANSCRIPT 2023-03-07
+NVIDIA Corp (NVDA US Equity)
+Page 22 of 22Q - Matthew Ramsay
+A - Kimberly Powell
+A - Brad Gray
+A - Molly Gibsonin it to some degree, and partner on another degree. If you're not doing some of it
+internally, how would you even pick a good partner?
+So that was just a little bit of humorousness that I think is starting to change pretty
+rapidly here. But it's that notion of change management and culture tech-ﬁrst
+biology seconds in some ways. I know that's a little hard for people to hear maybe,
+but and a little self-serving perhaps. But it's -- we believe in it and we hope to
+contribute to it. And I think that the end of last year and generative AI in biology was
+absolutely a milestone. It was an eye-opener milestone and I'm excited to see what
+this year brings.
+{BIO 17978411 <GO>}
+Well, thank you, everybody, for -- hopefully, you guys found this conversation unique
+and interesting. And thank you to the three panelists, Steve, your partnership in
+pulling this together, and thank you all so much.
+{BIO 22145194 <GO>}
+Thank you.
+{BIO 16814265 <GO>}
+Thank you.
+{BIO 20208012 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

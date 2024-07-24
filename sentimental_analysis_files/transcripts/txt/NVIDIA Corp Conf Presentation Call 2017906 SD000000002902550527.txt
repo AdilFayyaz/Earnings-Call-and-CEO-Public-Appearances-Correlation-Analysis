@@ -1,0 +1,513 @@
+FINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 12, Executive VP & CFO
+, VP and Semiconductor Capital Equipment and Specialty
+Semiconductor Analyst, Citigroup Inc, Research Division
+Unidentiﬁed Participant, Analyst, Unknown
+Atif Malik
+Q - Atif Malik
+A - Colette M. KressCiti Global Technology Conference
+Company Participants
+Colette M. Kress
+Other Participants
+Atif Malik
+Presentation
+{BIO 15866921 <GO>}
+Atif Malik. I am part of the Citi's Semiconductor and Semiconductor Equipment
+team. It's my pleasure to welcome Colette Kress, CFO NVIDIA, to our keynote
+ﬁreside chat. Also a warm welcome to Simona and Shawn Simmons in the IR team.
+I have about 48 questions, I'm going to go with them ﬁrst. And then I'll give you
+some time for questions at the end.
+Questions And Answers
+{BIO 15866921 <GO>}
+Colette, NVIDIA has gone through an amazing transformation from a PC hardware
+company ﬁve years ago to become a leader in AI platform computing. Some
+investors still don't quite get your platform approach to various end markets. Maybe
+you can help us understand how -- what's a building block, how do you layer
+software on it to address various end markets like gaming, training, inferencing and
+auto?
+{BIO 18297352 <GO>}
+Thank you. I think that's a good place to start about how we have diﬀerentiated our
+sales, how we've begun this era of AI and how we're taken part in it. Under our
+Datacenter business is where a signiﬁcant part of our AI work is. And so when we talk
+about our approach in terms of a platform business, it actually has to stem back all
+the way to 10 years ago. 10 years ago, when we initially had our GPUs and made a
+decision to actually take our CUDA developmental language and make it available
+on every single one of our GPUs. At that time, people couldn't understand the need
+for that overall compute language, how would we be able to get it in the hands of
+many. And here we are 10 years later. So over those 10 years, we've been able to
+train, teach, instruct many people from research, higher education and folks that areFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 12Q - Atif Malik
+A - Colette M. Kressnow currently out in the enterprise, those that are in some of our key hyperscales of
+the use and how to program on a GPU. Those were some of the initial building
+blocks that we used to what has now formed in terms of a very important AI
+business. The era of using deep learning and deep learning techniques for AI
+stemmed with research using an overall GPU. What they were able to ﬁnd over that
+period of time was you could get to near superhuman capabilities by programming
+a GPU to where software writes software using deep neural nets that are very similar
+to where and how a brain is organized. So that began some of the very ﬁrst pieces of
+deep learning and deep learning training in terms of what we see today, where
+we've expanded tremendously on top of that and that initial platform of the GPU and
+with CUDA. We work with many diﬀerent speciﬁc libraries, deep neural net libraries
+and components that help people write what they need for AI. Then lastly, we think
+about the frameworks, the frameworks that we support across the AI universe. There
+are many open source frameworks. And we're agnostic to OSs or frameworks. But
+really looking to democratize AI across with the overall platform work that we do.
+Right now, we probably have more software developers at NVIDIA than we do
+hardware developers building out this platform where we have a leverage platform
+all the way down at the hardware level. And we're able to go industry by industry
+with each of the software levels. So that's what we mean when we refer to our
+platform. Our platform encompasses more than just a GPU chip. It complete -- it is
+really a full stack that has been enabling the AI markets that we see today.
+{BIO 15866921 <GO>}
+Okay. Great. And I'm going to start oﬀ with the Datacenter segment and then move
+on to Gaming and other segments. Matt Wood, Director of Deep Learning at
+Amazon, recently commented that the goal of AI at AWS is to allow any developer
+with any level of skill to build intelligence into their business and applications.
+Google and Microsoft, among others, also oﬀer cloud-based AI systems for
+customers to build their own AI architectures. How are your products being
+employed to help cloud service providers achieve this?
+{BIO 18297352 <GO>}
+Sure. So over the last 18 months, we've seen a very large growth of using GPU
+computing in the cloud. When we initially started, there was a lot of discussion with
+the hyperscales as they were using this for their internal applications. But what they
+found was there is a tremendous demand for GPU computing for the cloud as well.
+They're essentially building for the demand that they see. This overall GPU
+computing expands quite a broad list of types of work that people are doing. With
+the overall GPU instances that are now available from Amazon to Microsoft to
+Google to many of the other hyperscales across the world, they are doing all forms
+of computing and accelerated computing. They're using this as an ability to get
+started where they may continue to hold their overall clusters and their workloads
+continuously in the cloud or, though, it may move them to their overall labs and
+build them out there. But some of the things that are occurring in the cloud are what
+are occurring overall in our overall Datacenter business. These are things such as AI.
+You have researchers that are opening up instances that they are able to use all
+diﬀerent types of frameworks and start working with applications. Key applications
+that you are seeing are things such as video encoding, things with natural language
+processing, voice translation are very common types of things as well as imageFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 12Q - Atif Malik
+A - Colette M. Kress
+Q - Atif Malikcategorization and detection. Initially, with just that from an AI, you also have high-
+performance computing in the cloud. This is, again, the roots of our business and
+where it started. But you are also seeing them taking advantage of not having the
+clusters in an on-premise but in a cloud environment. We also enabled what we refer
+to as our GRID platform, which allows you to either have workstations or PCs in the
+cloud, applications that are very graphic-intensive running down to your overall
+monitor or such. Those are also common things that we're also seeing with the cloud
+providers. We've opened this up to researchers now with the cloud availability.
+We've opened it up to enterprises. So IT organizations to just higher education now
+have the capability and the access to GPU computing. They are pulling those
+instances worldwide. We're seeing a vast increase in terms of these instances and
+what we're doing. And you can see that in our Datacenter results.
+{BIO 15866921 <GO>}
+Okay. Hyperscale public cloud takes the eﬃciencies of server virtualization to new
+levels. With these high levels of eﬃciency, public cloud is likely to push the forces of
+demand elasticity higher and be an important driver of workload growth in the
+future. Volta clearly is a computing beast. How should we think about the balance in
+performance and cost improvements versus workload growth and its impact on the
+Datacenter growth longer term?
+{BIO 18297352 <GO>}
+Sure. So when we think back of the era of virtualization and the virtualization of many
+of the data centers, it was a time to really improve the overall utilization of the data
+centers, which, back then, probably had about 10% to 20% overall utilization. And
+we've massively improved that. But it was a little bit of a diﬀerent type of compute at
+that time. At that time, you were experiencing a signiﬁcant amount of web servers,
+web applications and so really the overall compute was really just providing for an
+overall web application, not necessarily the compute that we're seeing today. Right
+now, the workloads that we are experiencing for AI need a signiﬁcant amount of
+computing calculations. So when we are at a time where the slowdown of Moore's
+Law is right in front of us, it is now even more important that we ﬁnd means to
+improve the overall capability and the overall compute that can be taking place into
+the data center. Therefore, the need for these higher-end workloads, the need for
+the higher-end performance that we have such as Volta. Volta is probably the
+highest-performing processor that is out there. We launched it back in May. And
+we're now in full production in terms of Volta. The trade-oﬀ in terms of the
+performance and the cost, the overall performance improvement that you have from
+Volta just from our past architecture is more of a 10x overall improvement. So when
+you think about that versus a non-GPU server or a standard CPU server, you can
+essentially get one server with approximately 4 GPUs, which would take the place of
+more than 100 servers that did not. So immediately there is also a TCO advantage or
+a cost improvement in terms of the overall infrastructure that they can see for the
+workloads. Additionally, they can complete the work tremendously faster. And we
+can do these higher-end types of calculations that are necessary with our AI
+workloads.
+{BIO 15866921 <GO>}FINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 12A - Colette M. Kress
+Q - Atif Malik
+A - Colette M. KressOkay. NVIDIA has talked about a $30 billion data center opportunity with inference
+at $15 billion, training at $11 billion and high-performance computing at $4 billion by
+2020 at its analyst event this year. My understanding is that training is all GPUs or
+majority GPUs today. How is your new Volta inference card doing versus some of the
+other architectures that are being talked about in the market, whether it's an ASIC
+approach or whether it's a DLU or diﬀerent acronyms that are used for these
+(inaudible) chips?
+{BIO 18297352 <GO>}
+Sure. So we've broken down our market for data center into many of the diﬀerent
+types of workloads. Yes, from a deep-learning training perspective, the use of Volta
+and its performance as well as many of our other types of platforms such as P100 or
+even our Kepler products have done very, very nicely in training. Most of the training,
+you are correct, is done on GPUs today. It's necessary just because of the size of the
+data load that is necessary and the overall performance that an overall GPU can
+provide in that overall parallel processing. That is a big part of our overall TAM as we
+go forward. But you did mention inferencing and our view in terms of inferencing.
+Inferencing is an area that has not been done traditionally with GPUs. It has generally
+been a CPU market or some other types of form (facs), custom ASICs or FPGAs. Very
+common in terms of very simple types of problem-solving. But those that need to be
+run quite often. What we're seeing now in the inference market is a much, much
+more types of complex inferencing that needs to be done. The way you should think
+about it is the complexity of the type of the data. You are seeing the voice translation
+that takes a signiﬁcant amount of compute to do even that one simple type of
+inferencing, even if it is on the edge of something to do. We are not here to believe
+that a GPU is for all types of inferencing because there is going to be simple
+inferencing that we're not necessary for. But the more complex types of calculations
+we do believe that a GPU is well served. Now we're still in the early stages of Volta in
+terms of a rollout. We have introduced Volta with a Tensor Core that allows the
+multiprecision, which is (barely) necessary for inferencing. But we also have speciﬁc
+inferencing cards in our Pascal lineup, P40 and P4, which are also doing very well
+and exciting customers in terms of the response that they can get with the data sets
+that they're doing.
+{BIO 15866921 <GO>}
+Great. On your earnings call, you talked about shipping systems to more than 300
+unique customers with 1,000-plus in the pipeline. Can just give us some color on
+what and who some of those customers' end markets are in terms of whether its
+training or inferencing or enterprises? Any type of commentary on those 1,000-plus
+customers?
+{BIO 18297352 <GO>}
+Sure. So we've talked about our hyperscales and our cloud service providers.
+Sometimes those are the same, sometimes those are diﬀerent. Some of our
+hyperscales are purchasing for their internal applications and essentially every
+hyperscale, large hyperscale on the planet is deﬁnitely one of our customers.
+Additionally, the cloud service providers are also a key part of that. But then that now
+moves into very important industries that may be using the GPUs in a cloudFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 12Q - Atif Malik
+A - Colette M. Kress
+Q - Atif Malik
+A - Colette M. Kressenvironment internally on their premises. We see places such as oil and gas,
+manufacturing, you see ﬁnancial services. You see automotive to be some of those
+key areas and types of customers that are looking at that. We've looked at also our AI
+supercomputers, our DGXs. Out DGXs are opportunity for enterprises to
+immediately get started with a full soup-to-nuts supercomputer available for AI that
+is a container version that can just be plugged in. So we are seeing some of the
+same types of industries, also healthcare as well as our hyperscales purchases those
+DGXs and the expansion. So we'll continue both to focus on the enablement of the
+cloud, which allows them ﬁrst access and that may move to on-premise and move
+into areas where you see large datasets, whether that be high retail, ﬁnancial
+services, what you see in terms of ERPs. And you see our connections with IBM and
+SAP on those prime examples of where we see the proliferation of our data center.
+{BIO 15866921 <GO>}
+All right. I know Citi (isn't) looking into investing to Chatbox and some of those
+applications. Edge computing is an emerging paradigm which uses local computing
+to enable analytics at the source of the data rather than relying on cloud computing
+to relate data from IoT devices. Is this an attractive market for NVIDIA? How do you
+plan to be successful in this market without a major presence in smartphones?
+{BIO 18297352 <GO>}
+So when you think about edge computing, it is an important area of inferencing and
+really some learning that will take place. But there are certain parts that we will be.
+Not necessarily an area that we would look out in terms of an IoT or a smartphone.
+But really thinking about very important areas that exist. One of those would be
+thinking about our smart cities and seeing our work in terms of the surveillance that
+is going on. Many of our overall cameras that we see today are one by one and not
+necessarily connected well, connected well that you can extract a signiﬁcant amount
+of intelligence from them. We see this as a very important edge area and a
+signiﬁcant amount of investment that is going on around the world to improve that.
+Manufacturing, robotics are also a very -- also a key area of edge computing, as they
+think about how they add that intelligence into those robotics as those robots may
+be out in the world and not necessarily centered back in terms of the data center. So
+we'll look industry by industry in terms of where we can best beneﬁt. And I think
+there are tremendous opportunities at the high-level edge that we can participate in.
+{BIO 15866921 <GO>}
+Okay. Then July quarter was the transition quarter for the company as you guys were
+volume ramping Volta. What are your expectations for the Datacenter sales in the
+back half of this year?
+{BIO 18297352 <GO>}
+So our Second Quarter was an important quarter for us. At the very beginning of the
+quarter, we announced Volta at our GTC. We dazzled many with the excitement over
+the performance improvement over Pascal. And I think most of expectations were it
+would take us some time to actually get into full production. Within Q2, we got to full
+production of Volta. We shipped a material amount of Volta within the quarter andFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 12Q - Atif Malik
+A - Colette M. Kress
+Q - Atif Malik
+A - Colette M. Kresssome of that you will see rolling out in our cloud service providers or with our
+hyperscales soon. So when we think about the back half, we know we're now
+available at full production. We know we have a full line-up of diﬀerent data center
+products and we're ready to move that. We only guide 1 quarter out and we guide at
+our total level. But we do believe our Datacenter business is probably one of our
+fastest-growing businesses that we have.
+{BIO 15866921 <GO>}
+Great. Moving on to the Gaming segment. Gaming end market drivers are easy to
+understand. But overall opportunity is a bit diﬃcult to model. If I have to break down
+the Gaming drivers into 3 buckets, you have new cards for superior titles, faster
+frames, then you also have an accelerating eSports adoption, which grows the
+volume and then you have a new category, which is GPUs for cryptocurrency mining.
+Just focusing on the Gaming part, with respect to the core Gaming, you have -- you
+launched Pascal last year. It has been a very successful launch. Typically, you refresh
+your platform every two years or so. How has the Pascal launch gone so far this year
+and in which innings we are in terms of the upgrade to Pascal platform?
+{BIO 18297352 <GO>}
+Yes. So deﬁnitely there are many diﬀerent drivers that have been fueling the overall
+gaming market and the PC gaming market. But there has been a deﬁnite evolution
+over the last ﬁve years of PC gaming. A gaming market that was highly focused on
+gamer to game and being a great gamer. And I'm not saying that's not still a piece of
+it. But you've added a new part of it, which is the overall social platform that comes
+with it. eSports has now allowed others to visibly watch others game and it's not
+necessarily just about being there to watch the actual game. But if there is a lot of
+social pieces about just being there with your friends, not necessarily being the top
+player. But deﬁnitely one of the players with the top gear is probably what is key. But
+keep in mind, probably one of the key things about gaming which is true is games
+drive gaming. And there is a great continued portfolio of great games with game
+developers that we work with for months on end before they launch that enables us
+to really grow this industry going forward. So when we think about our Pascal, our
+Pascal products came out about a year ago and have done tremendously well, both
+from overall sales but also from an upgrade standpoint from those gamers that have
+been with us for some time. We're probably tracking a little bit faster than prior
+generations in terms of there. But we think we are set up very nicely for the holiday
+season that is right around the corner. In terms of our full lineup now, Pascal, for the
+overall gamers, it is still the best platform out there both from a review standpoint, a
+user standpoint. And we think we are very well positioned.
+{BIO 15866921 <GO>}
+Okay. And can you talk about the units of these key dynamics between the desktop
+and the thin/light notebook market?
+{BIO 18297352 <GO>}
+Yes. So when you think about what we're seeing right now in terms of a trend of
+gaming is the overall mobility of gaming. Gamers like to game everywhere, whetherFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 12Q - Atif Malik
+A - Colette M. Kress
+Q - Atif Malik
+A - Colette M. Kressthat be in the backseat of the car, whether that be taken to the friend's house,
+whether that be in the family room, wherever they want to game in a lot of diﬀerent
+places. But they also do love the ability of their thin and light, their thin and light
+notebook. So what they don't want to give up is the high-performance and they still
+want thin and light. So what we did is we came out with Max-Q, which enables
+essentially the same numeric performance that you would get in terms of a desktop
+on a 1080 into a notebook version as well. That enabled tremendous, now, more
+mobility with about that exact same performance that you would see in terms of a
+custom desktop. Don't get me wrong, the custom desktops still come with all its
+paraphernalia around it in terms of its multiple screens and things like that. But now
+these high end mobile laptops for gaming are a very big trend. And we're very
+pleased with the wide reception both in the OEM industry in terms of the gamers.
+{BIO 15866921 <GO>}
+Okay. And now since the AMD bigger cards are ﬁnally out, how are GTX 10-Series
+cards fending oﬀ competition?
+{BIO 18297352 <GO>}
+Well we haven't exactly seen the cards. I think they are mostly still in reference
+architectures. It's been long seeded in terms of coming. I think we're still very, very
+well positioned with the cards that we have. They are looked at in terms of extremely
+best-of-breed, strong performance and very well aligned to the actual games in
+introducing a great experience to them. So we feel very conﬁdent with our overall
+fan base, our overall installed base that they will continue to buy NVIDIA.
+{BIO 15866921 <GO>}
+Okay. And what are your views on longer term cryptocurrency mining demand? And
+what steps has NVIDIA taken to avoid cannibalization of core gaming market from
+these cards?
+{BIO 18297352 <GO>}
+Cryptocurrency has been a very interesting market dynamics over the last couple of
+years. I think you'll remember two years ago, when the Bitcoin mining market came,
+it was probably one of the shortest-lived cryptocurrency time periods because that
+moved to the overall compute moving to custom ASICs. That wasn't a market that we
+particularly paid any attention to or were even a participant in terms of that. But the
+newest cryptocurrency market took quite a leap ahead in our Second Quarter that
+we just ﬁnished to where we had planned cryptocurrency cards that would be
+available to miners and exclusively for miners. So what we mean by that is we did not
+enable the capabilities for graphics with those cards. You'll see those cards in our
+OEM business not in our overall gaming business. And those were available
+throughout most of Q2. But there was very, very strong demand for mining as the
+overall price of Ethereum, one of the most popular cryptocurrencies, was very, very
+high. And so what you had seen in some of those shortages is there was a possibility
+in terms of some of the gaming cards that they might have bought as well. But we
+covered most of cryptocurrency with our cryptocards that we had developed and
+that was probably about $150 million in our quarter. So our statement that we haveFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 12Q - Atif Malik
+A - Colette M. Kressmade is, although it peaked a lot in Q2 and has come down and we'll probably see a
+residual amount in our Q3 or Q4 as we move forward, cryptocurrency is here to stay.
+The markets the world is demanding wants to see cryptocurrency. This one may have
+served its time or may go on for a little bit longer. It's too tough to tell. But we'll
+probably see cryptocurrency moving forward. I think we have the ability, given the
+breadth of GPUs that we already build, to develop GPUs exclusively for
+cryptocurrency with little to no additional investment. We're able to serve that
+market quite eﬀectively. And we will serve that market eﬀectively. The only problem,
+the market doesn't have a TAM. The market has market dynamics, it just doesn't have
+a TAM yet. We are not sure where this will seed. So it will probably continue to be
+quite volatile.
+{BIO 15866921 <GO>}
+Okay. And switching to auto. A company has announced strong partnerships with
+major carmakers this year. How is NVIDIA's self-driving platform approach diﬀerent
+from competitors like Intel Mobileye?
+{BIO 18297352 <GO>}
+So we're probably one of the key platform providers for automotive that talked
+about autonomous driving and its need for AI, that this was really an AI problem.
+And we began this in the early days, really discussing about this and now that is
+really coming to fruition with many of our partners that we're working with. We have
+longstanding partnerships both with the OEM manufacturers, with the Tier 1s, with
+many of the startups. We're probably working with more than 225 diﬀerent types of
+car manufacturers. I think it's important to note that we look at it as a full
+supercomputer solution, a customizable, conﬁgurable in terms of which and how
+they want to think about it. And most of our work with them has been focused on
+what conﬁguration and the overall dynamics of the software that they want to
+incorporate. So jointly, we are often in development with them. And development
+both at the Tier 1s, with the OEMs and with many of the startups as well. So our
+platform is being well-recognized. But we're still in the early stages of this. As you
+know, though, we are in the Tesla Motors' cars that are currently on the road with
+their autopilot. We've also announced partnerships with Audi that we'll have
+something towards probably the end of the year or the beginning of this year -- next
+year for zFAS and then later in probably 2020, 2021 in terms of the Level 3. We
+expect most car companies to be focused on Level 3 -- near Level 3 for that 2020,
+2021 time frame. That's why you start to see the partnerships now. These are long
+design cycles. There's a signiﬁcant amount of development work to both master the
+safety part of it and master exactly what we're doing to help them in terms of
+delivery. Now how that compares to many others out in the market? Given its AI
+needs, that overall performance is very key with the underlying processor. We will
+see what types of combinations Intel and Mobileye will put together. But that was
+obviously something that a smart camera wasn't going to be able to do it and they
+looked for the overall compute. So we'll see how that comes together and how it
+compares to our overall AI solutions in terms of what we're seeing. There's other
+people focused in the markets that may have microprocessors and those may be
+available for Level 2 or for connectivity. But again, most car companies really have
+focused on the signiﬁcant amount of compute that is necessary and are looking for
+higher level types of compute to do that.FINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 12Q - Atif Malik
+A - Colette M. Kress
+Q - Atif Malik
+Q - Unidentiﬁed Participant
+A - Colette M. Kress
+Q - Unidentiﬁed Participant
+A - Colette M. Kress{BIO 15866921 <GO>}
+Okay. Can you map us the ASP progression as you go from Tesla Autopilot
+opportunity this year to a driverless taxi by 2020? How does it impact your ASPs?
+{BIO 18297352 <GO>}
+Sure. So let's -- so if you think through, right now, what we have in our automotive
+business. Although we announce a lot of the partnerships for the future, currently,
+most of our automotive revenue that we have today is focused on our infotainment
+business. Our infotainment business is 8 to 10 years' worth of long-term
+engagements that we've had for premium infotainment systems. Those have ranged
+in terms of average ASPs of about $50 to $100 each. And as we probably move to
+the Level 3 types of things, our hopes is that something that would probably double
+in terms of overall ASPs for infotainment to Level 3. It's still early to say what the
+expectations are for Level 4 or even from a Level 5 in a robo-taxi, a taxi that is
+essentially within a deﬁned community, a deﬁned area that is very, very well mapped
+and, essentially, is completely driverless without even a steering wheel. Those are
+probably going to be pretty important supercomputing deliveries there. So you're
+easily going to probably see something in the $1,000 or more as we go forward. But
+I think it's still early to see where that will land out.
+{BIO 15866921 <GO>}
+Okay. Let me see if there are any questions in the audience or I'll keep going. If you
+have question, raise your hand. Over here.
+What is the M&A plan to your growth strategy?
+{BIO 18297352 <GO>}
+I'm sorry.
+M&A plan to your growth strategy?
+{BIO 18297352 <GO>}
+So we have been a company that has built what we have today primarily from
+organic. We have focused singularly on a GPU. And a GPU that has been well-
+developed, well-designed for the key markets that we're going after. We have
+chosen those markets carefully from gaming, ProVis, data center and automotive,
+because, one, we thought they were large markets; two, we thought there were hard
+problems to solve in there that a GPU would be best engineered to do. So our M&A
+has mainly been focused on small, medium types of teams that we have bought,
+early-stage types of businesses that can be well inﬂuencing on some of the
+businesses that we've already established. I think that is consistent with what we may
+see going forward. As much as we want to think about something to bolt with moreFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 12Q - Unidentiﬁed Participant
+A - Colette M. KressAI power, there is not a lot of large AI out there to do. So we will continue probably
+in the range of small and medium to do going forward.
+You guys are doing a lot of things so well. You're growing revenues over 50%-ish,
+earnings over 30%-ish. You have a terriﬁc balance sheet. You are returning capital to
+shareholders as a more mature company might do. Could you walk us through
+maybe a big picture rendition in terms of how you allocate capital, talk the Jensen
+Huang plan ﬁve years ago, for these introductions today? What might have been the
+total cost for the Volta? What stages did you take it in? And how are you planning for
+the future for your end markets?
+{BIO 18297352 <GO>}
+Well okay. So a lot of diﬀerent questions in there. So the allocation of capital. The
+Number 1 focus is going to always be on focusing in terms of the investment back
+into the business. And probably our key area of focus is always going to be in the
+engineering standpoint. We stand by some of the most innovative products that are
+out there. And we have taken some pretty extreme risks to build some of the
+greatest products that we have today. So nothing is going to change there. That
+investment largely comes from people, largely comes from hiring overall
+engineering. Sure, we need to support them with the tools that they need to do the
+jobs. But we spend a signiﬁcant amount combing the world looking for the best
+engineers. And most of those best engineers are doing their lifework at NVIDIA. And
+so we have probably the strongest population of GPU engineers everywhere in
+there. So that's going to be our ﬁrst piece. We have to think about all the
+surrounding facilities, infrastructure that they need, which we have built out as well.
+The products that you use or our data center or our gamers use, we also use at the
+company. So we practice that data center work as well (as) internally. And we have
+some of the largest conﬁgurations of our work even in terms of internally. So that's
+going to be a key use in terms of our capital. We will continue to look at our
+suppliers and our vendors that help us in terms of manufacturing that to both be the
+best-of-breed and taking something such as a Volta to overall market. Probably a
+very big feat, one of the largest processors out there. But we successfully brought
+that to market. So after we do that, there is that opportunity for investments,
+investments in our partners, investments in startups, investments in terms of M&A.
+And those we can interchangeably do, those that are on the platform and how do we
+help them grow their businesses, how do we use our partner community to also help
+grow our business. And then what we can do in terms of small M&A. After we ﬁnish
+that piece, we'll look in terms of what we have available for capital return. Our capital
+return program is a long-term program, it's not a short-term overall program. We
+had various peaks of that where we were returning more than 100% of our cash ﬂow,
+as we worked on still building some of our products. But we felt it was important to
+reward our shareholders for being with us during that time. And we returned that
+cash back to shareholders. So we still have a dividend, we still increase the dividend
+at a reasonable rate. And we still buy back our shares in opportunistic times to do so.
+So I think those are our key areas of how we think about our return. And even
+through the use of that overall capital, yes, we've continued to improve our margins.
+The margin is not just focused on a gross margin perspective but focused on an
+operating margin perspective. And that's going to be, probably, the key metric thatFINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 12Q - Unidentiﬁed Participant
+A - Colette M. Kress
+Q - Atif Malik
+A - Colette M. Kresswe think about going forward. Operating margin is more aligned to a platform
+business, where we make investments in OpEx, make the investments in the software
+that you see on the revenue and not necessarily at the gross margin on that cost.
+And I think, we've done really well on that and that's going to continue to be our
+focus.
+Can you explain what makes your Pascal and gaming chips so diﬀerentiated for
+professional gaming, what we call, I guess, eSports? What would be broadcast?
+{BIO 18297352 <GO>}
+And so when you think about -- the question was regarding our Pascal high-end,
+whether it be you could take that to gaming or you can take that to overall
+workstations, what is -- what is core to us in terms of our platforms. Yes. There is, bar
+none, some of the best-performing chips in terms of just raw stats in terms of
+performance. But we don't look at that as being the only thing that keeps our
+gamers coming back and/or designers in terms of on our workstations. It's really
+about the work that we are doing with the overall ecosystem behind. We are working
+with game developers every single day in terms of helping their games that they
+want to bring to market, well optimized on Pascal and bringing to life some of the
+great features that they want to bring in their games. We've spent months and
+months in terms of that prework so that game works ﬂawlessly and at the day that
+the gamer buys the Pascal, downloads the overall drivers, they're up and running in
+a really short amount of period of time. That is the expectation and/or the promise to
+each of those gamers that it works seamlessly. You can add that same piece in terms
+of the workstations and the applications that are both forward compatible and
+backwards compatible. All of the top design ﬁrms know that NVIDIA will continue to
+optimize so that works overall seamlessly. So working that ecosystem and not just
+the actual chip has enabled ours to continue to be best-of-breed in terms of the
+market.
+{BIO 15866921 <GO>}
+With that, we're almost out of time. Colette, thanks for coming to the Citi conference.
+{BIO 18297352 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of FINAL TRANSCRIPT 2017-09-06
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 12the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

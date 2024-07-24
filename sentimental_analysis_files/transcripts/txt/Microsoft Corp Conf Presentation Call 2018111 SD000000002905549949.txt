@@ -1,0 +1,699 @@
+FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 1 of 16, Co
+, Unknown
+, Senior Analyst, JP Morgan Chase & Co, Research Division
+Unidentiﬁed Participant, Analyst, Unknown
+Tycho W. Peterson
+Q - Tycho W. Peterson
+A - Chad M. RobinsJPMorgan Healthcare Conference
+Company Participants
+Chad M. Robins
+Peter Lee
+Other Participants
+Tycho W. Peterson
+Presentation
+{BIO 4279327 <GO>}
+Okay. I think we're going to go ahead and kick it oﬀ. Thank you, everybody, for
+coming. I'm Tycho Peterson from the life sciences team at JPMorgan. Today, we have
+a very interesting panel. We have Chad Robins from Adaptive Biotechnologies, one
+of the founders; and Peter Lee from Microsoft.
+Questions And Answers
+{BIO 4279327 <GO>}
+I think to kick it oﬀ, maybe I'll just ask each of you to give a little bit of an
+introduction. Maybe, Chad, talk a little bit about Adaptive, the role the company
+plays and why sequencing in the immune system is important?
+{BIO 17183354 <GO>}
+Sure. And Tycho, thank you for having us, we appreciate it. Adaptive characterizes
+cells of the adaptive immune system at a very precise and exquisite level. You have
+these attacker cells, which are pathogens that come into the body. And then you
+have the defender cells of your immune system. The primary defender cells are T
+cells and B cells. And their job, it is to bind to kill and then remember these foreign
+perturbations that come into your body. And what's unique about these immune
+system cells is that their DNA actually rearranges. And what we're able to do is we're
+able to use next-generation sequencing technologies to characterize and read this
+DNA at a very exquisite level. And now the goal and the vision of Adaptive is to
+translate the precision and scale of the immune system to diagnose and treat
+disease. We have a ﬁrst commercial product in blood cancer. It's called clonoSEQ.
+And that's for measuring minimal residual disease or to be able to predict relapse or
+whether or not that cancer is gone after a treatment. And we have a pipeline of
+diagnostics related to this concept of whether your immune system is competent orFINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 2 of 16A - Peter Lee
+Q - Tycho W. Peterson
+A - Peter Lee
+A - Chad M. Robinsnot. And I'll save the discussions on the partnership and the antigen mAb after Peter
+does his introductions.
+{BIO 1416324 <GO>}
+Great. And let me add my thanks, it's really great to be here. And I'm just thrilled to
+be in this great partnership with Adaptive Biotechnologies. I'm Peter Lee. And I'm a
+Corporate Vice President at Microsoft. And I run an organization that was created by
+Satya Nadella and Harry Shum shortly after Satya took over as the CEO. Internally, it's
+called NExT. And our organization has deep ties and reach into Microsoft Research.
+And we can be viewed as kind of internal venture fund that is supposed to spark
+new projects and empower teams through a disciplined investment process to grow
+into new product engineering teams and new lines of business for Microsoft. So
+that's essentially our mission. Our focus areas traditionally have been in silicon
+futures, particularly silicon strategy and technologies for the data center, for the
+cloud and also in AI machine learning. And not too long ago, Satya Nadella asked us
+to take on health care strategy for Microsoft. And so we've been on the hunt for the
+smallest set of partners where we can really go deep on research and development
+and really make a diﬀerence in the world and bring new product and business ideas
+to the fore. Then so Adaptive Biotechnologies is really very, very much top of mind
+and just an incredibly thrilling and important partnership for us.
+{BIO 4279327 <GO>}
+Do you want to talk a little bit about how the partnership came about? Obviously,
+you're both based in Seattle. But maybe what's the history and what led you to
+Adaptive in your search.
+{BIO 1416324 <GO>}
+Do you want to start?
+{BIO 17183354 <GO>}
+Sure. Sure, I can get started with that. So I should say this has been a long-term vision
+for Adaptive. We spun out of the Fred Hutchinson Cancer Research Center in 2009. I
+founded the company with my brother, Harlan Robins. And he has -- had a long-term
+vision that you could use the immune system to diagnose disease, perhaps as a
+universal diagnostic for many, many years. Although it took us probably close to a
+decade to develop all the chemistries and technologies and informatics that led us
+to believe that this was possible. And so over the course of the last two years, we put
+the ﬁnal piece together, which we'll explain in more detail in a minute, that links up
+those immune receptors to the pathogens that they bind to and getting that
+functionality of your immune system receptors. And so that led us to say, hey, we can
+start ﬁlling out this map of your entire human adaptive immune system, or what we
+call the immunome. And we can start ﬁlling it out with chemistry. But what we
+realized is that it would take some very, very sophisticated machine learning and
+cloud compute power to truly get at this problem and to be able to impact patient
+care. So we set out and we started talking to a variety of diﬀerent partners in the big
+data, large market cap, machine learning experts. And I think some of the
+assumptions that we went into in our discussions were change based on the partnersFINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 3 of 16A - Peter Lee
+Q - Tycho W. Petersonthat we wound up talking to. And Microsoft had this just deep commitment to doing
+this, to really putting resources in. I'm not just talking about the ﬁnancial resources in
+terms of investment, I'm talking about the resource commitment from an FTE
+perspective. And they had the capabilities, it was the team. There was an incredible
+synergy between members of the team at all levels. Starting with Peter and I, who
+happen to have season tickets, a couple of seats away from each other at the
+Seahawks, to the scientist level, from the technology level to even at the board level.
+There is all these connection points. And this kind of massive commitment to say
+we're in this -- we're not only in this right now, we're in this for the long term. We
+want to make this the cornerstone. Peter convinced me. And I had many discussions
+with the executive leadership team, his team at Microsoft, that this was going to be
+the cornerstone of Microsoft genomics eﬀorts because they could diﬀerentiate their
+strategy based on going after a very tractable problem, which is the diﬀerentiating
+around immunomics and sequencing the adaptive immune system. So this deal has
+been in the works for several months. And I think we couldn't -- I echo Peter's
+comment, we couldn't be more trilled to have Microsoft as a partner.
+{BIO 1416324 <GO>}
+Yes. We got a lot done during halftime at the Seahawks game. When you think
+about, from the perspective of Microsoft, what reason do we have to be in the world
+of health care? It's just a huge, vast ocean. In fact, I joked that when Satya Nadella
+asked us to take this on, I felt like he threw us in the middle of the Paciﬁc Ocean and
+ask us to ﬁnd land. I mean, where do you go? And so you quickly -- from Microsoft,
+you quickly start to focus on, well, where will the cloud and where will AI matter. And
+that starts to take in the discussion about possible precision medicine futures and
+now the fundamental technologies. And that quickly gets you into the genomics
+space and omics space. And so of course, there are big players there already. And so
+it doesn't fully kind of rationalize our reason to be in this space. And so we started to
+ask the question, well, where could we really kind of go deep and be best-in-class
+and really gain some conﬁdence in this space. And that got us into a broad-ranging
+discussion. But one thing that rose to the top was, all of the interesting scientiﬁc and
+commercial work going on, generally speaking, in and around the immune system.
+We actually had, through Microsoft Research, some interactions with Harlan Robins
+and other scientists at Adaptive biotechnologies and at the Fred Hutch. Our
+relationship with the Fred Hutch gave us more insights. And one thing led to
+another. And we were consistently led to Adaptive Biotechnologies as being the
+leader in this space. And so as we started to interact, we just arrived at this, just to
+this incredibly beautiful -- from our perspective, incredibly beautiful -- scary big. But
+incredibly beautiful machine learning problem that if really directed in a focused way
+with a lot of engineering ﬁnance and engineering excellence, it could really solve
+some important problems. And it just really went from there. It was then left to Chad
+and me to get creative on the deal structure. And as Chad mentioned, it took a few
+months but we got it done.
+{BIO 4279327 <GO>}
+And maybe let's look ahead a little bit and think what's your vision for the
+collaboration. What do you think it ultimately could mean for patients at the end of
+the day?FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 4 of 16A - Chad M. Robins
+A - Peter Lee{BIO 17183354 <GO>}
+So let me give you the longer-term vision. And then let's back it up into tangible
+near-term milestones because I think it's important to separate the 2. The longer-
+term vision is that based on a blood test and based on understanding your immune
+receptors and the antigens that they're binding to that we can diagnose multiple
+diseases at one time. If you think -- I think about the immune system as -- or this
+project, there's an x-ray for the immune system or a molecular stethoscope. We will
+get there eventually. That's not currently how the agency, how the FDA and how the
+payer community work. So in the shorter term, we want to break this up into going
+after what we call low-hanging fruit, unmet medical needs, diseases that are
+extremely hard to diagnose that are either slow, invasive. They're done more by a
+rule-out test. Let's take multiple sclerosis, where you're doing 50 tests to determine
+what you don't have and then settling on a disease diagnosis of what you do have.
+This is more of a rule-in test, where you know at a molecular level. If you have that
+immune receptor or combination of immune receptors, because those immune
+receptors are speciﬁc to the antigen that they bind to and because that antigen is
+speciﬁc to that disease, we know that we can potentially diagnose that disease. So if
+you think about areas, hard-to-diagnose auto immune disease and certain chronic
+pathogens perhaps. And I'm using this more as examples because we're coming up
+with a prioritization matrix of the disease states that we want to diagnose ﬁrst. But if
+you think of things like Lyme disease, even in the cancer space, if you look at the
+high-risk populations, we would narrow that down. We wouldn't say, hey, let's go
+after general screen ﬁrst. We would more say, let's target BRCA-positive, 40-year-old-
+plus women for ovarian cancer, whereas a diagnosis at Stage 4 is fatal. But if we were
+able to diagnose that at an earlier stage, there's kind of a massive patient beneﬁt. So
+yes, that's really kind of how we think about it. We also think, though, that if you look
+at some of these screens of biological systems, such as the x-ray or the MRI, they
+weren't initially indicated as a screen of a system, they're indicated for a speciﬁc use.
+So we believe. And we look forward to working with our partner, Microsoft. And
+working with the agency, working with the payer community education, to kind of
+over time, as we layer in diagnostic after diagnostic after diagnostic that, ultimately,
+we can get this to be a screen for the entire system. Actually, I'll leave it at that, I've
+got a couple of more comments. But...
+{BIO 1416324 <GO>}
+Well maybe I can just add to your question about how does this partnership work.
+There are 2 -- at least 2 components, important ones there. One is how are we
+working together to develop the technology, advance the science and develop the
+technology. And the other part is, what is the business arrangement that we have.
+And those are 2 very important things that we've had to put a lot of thought into. On
+the technology side, roughly speaking, you can think of 3 components. One is data
+and, ideally, label training data and, super ideally, a hell of a lot of it. And that's really
+important. And what is extremely impressive about Adaptive Biotechnologies is that
+they have large amounts of labeled and unlabeled data but also the ability in a really
+high throughput way to generate more labeled data, super important. Second is
+algorithms for machine learning. That's something that we're very proud of, our
+capabilities and our contributions. If you go to half the Silicon Valley startups trying
+to do any kind of imaging, by and large, they'll be running REsNet 50, which came
+directly out of our labs. And we have much, much more sophistication in a cloudFINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 5 of 16Q - Tycho W. Peterson
+A - Chad M. Robins
+Q - Tycho W. Peterson
+A - Chad M. Robins
+A - Peter Leescale to bring to bear on that. Then ideally, if we put these 2 things together, we get
+models, machine learning models, that give you the basic AI intelligence. And so we
+have just almost a perfect working relationship where there's data, there's algorithms
+and then turning those models into diagnostic tools and technologies as it goes
+back to Adaptive Biotechnologies. I think that's a very, very nice and comfortable
+and clean setup. Then on the business side, we're trying everything we can to just
+keep this as clear and simple with respect to intellectual property, with respect to go-
+to-market, with respect to Adaptive's future business prospects and success, try to
+keep things as clean and clear as we can. Then that just liberates our engineering
+and development teams to be unencumbered by any complications, just focus and
+get the work done.
+{BIO 4279327 <GO>}
+I think one of the advantages, I think, of your assay technology is the ability to look at
+retrospective data sets. Is that something you leverage here in this partnership?
+{BIO 17183354 <GO>}
+Absolutely. One of the things -- we've designed our assay to be able to characterize
+retrospective samples. I think that's a huge advantage for us as we develop the
+training set data. We can do that at scale. And we can do it quickly. So the technical
+term, if you look at how samples are stored and especially in the cancer setting and
+formalin ﬁxation, FFPE sample, we -- the assay does work on FFPE. We don't need
+fresh samples, we use DNA as an analyte. So there's many, many diﬀerent reasons
+why we can move rapidly to develop really massive quantities of data that Peter and
+team can then apply their machine learning algorithms to, to hopefully get us to an
+answer quicker.
+{BIO 4279327 <GO>}
+How do we think about time lines here? And as we think about maybe some initial
+milestones and then, ultimately, commercialization around some of the initial disease
+states, how far out is that? Is that a couple of years?
+{BIO 17183354 <GO>}
+I look at the ﬁrst set of diagnostics being kind of the 3 to four years' time line. I think
+this concept of a universal diagnostic and working with the agency and the payer
+community is probably more a decade out. But I think one other comment on why
+Microsoft is really a great partner for us is they have a commitment to shipping
+product as do we. We've already commercialized their ﬁrst diagnostic. We have
+other diagnostics in the pipeline related to immune competence. And we were very
+keen on not having this be some mega moonshot that says, hey, maybe 10 years
+later, we're going to have something. We believe that it's a tractable problem and
+that we can make signiﬁcant headway in several disease diagnostics in the short
+term. And short term being a 3; to 4-year time horizon.
+{BIO 1416324 <GO>}
+And in terms of shipping product, there may be 2 comments to make there. One is
+the scale of the machine learning problem that we're talking about is literally webFINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 6 of 16Q - Tycho W. Peterson
+A - Chad M. Robins
+A - Peter Leescale. And that's a fairly daunting prospect. It's not unknown to us. Our team has
+done a huge amount of machine learning foundational work that is actually present
+in the Bing search engine, for example. So we're conﬁdent about our ability there.
+But we are also cognizant of the fact that to get to that level of scale, you have to
+start from the ﬁrst day addressing and ensuring the level of kind of engineering
+precision and excellence. You can't bolt that on later. And just in terms of innovation
+process, just speaking out purely as a manager, the nice thing about that is then that
+guarantees, from the ﬁrst day, that you are thinking in terms of product and shipping
+quality. Super important. The other thing to say is, remember for me and Microsoft,
+this is part of our cloud and AI imperative and it's also part of trying to think about
+what is our role broadly in the genomics space. And so these sorts of activities really
+give us also a broader kind of reason to be exploring things. It has led us to other
+partnerships and investments. And so we also entered into an agreement with G&A
+and Nexus, for example, including an investment. And we can already see that, that
+partnership also leads to more and more kind of sparking of innovative ideas. So in a
+way, it's almost perfect for us. If you think about my organization, there is the sort of
+awe-inspiring moonshot of this universal blood test. It's just super inspiring, attracts
+talent like crazy, at the same time, what we see as a prospect of a steady stream of
+intermediate products coming out of the pipe. Just very few times in my career have
+I been in a situation that has had that combination quite like this.
+{BIO 4279327 <GO>}
+Maybe you could touch on the regulatory and reimbursement side of things. You
+alluded to that earlier. It's an evolving landscape. We had a panel earlier this week
+on a dual pathway. We've seen Foundation and Exact go through that successfully.
+I'm just curious, when do you start to think about payer engagement and how you
+think about the regulatory side of things, too?
+{BIO 17183354 <GO>}
+Sure. You can't start, either regulatory or payer engagement, early enough. I'll say
+that. And I do have to say the diagnostics industry has been challenging because of
+the fact that there is no universal payer coverage. You've got the government payer
+coverage, Medicare, Medicaid. And then you go kind of one by one on the private
+payer side and there's tech assessment bodies, et cetera. It's a very complex web to
+navigate. That being said, we're encouraged, I think, the dual-track pathway, with the
+next-generation sequencing, natural coverage decision that you're referring to for
+Medicare. And really the mentality around how the FDA is thinking about problems
+is, in the last year, kind of with the new -- with Scott Gottlieb at the helm, has been
+incredibly, I think, impressive. We're also seeing on the payer side as well a
+willingness to engage in dialogue earlier than has been previously. So it will take a
+lot. This concept is -- I think there's 2 components that are challenging about the
+concept. One, we alluded to earlier of having kind of this screen of a biological
+system but at a molecular level. That's a challenging concept. I also think -- but at the
+end of the day, your -- the immune system is a beautiful system to be able to do that.
+And so I think -- again, I think it's the early engagement. And we're encouraged.
+{BIO 1416324 <GO>}
+We're counting on you guys, too.FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 7 of 16A - Chad M. Robins
+Q - Tycho W. Peterson
+A - Chad M. Robins
+A - Peter Lee
+Q - Tycho W. Peterson{BIO 17183354 <GO>}
+A lot of challenges.
+{BIO 4279327 <GO>}
+How about as we think about kind of the practical implications from a patient
+perspective, data interpretation, what is the treatment paradigm ultimately look like
+for patients if they're getting diagnosed earlier on? How do you think about that side
+of it, early diagnosis? And potentially, there may not be an established treatment
+paradigm for some of these areas.
+{BIO 17183354 <GO>}
+Yes. I think that's a great question. And I guess more simply put is what are you
+going to do with the information if you have it. And I think there are certain disease
+states, high-risk disease states, where there's a clear unmet medical need. And there
+is a clear kind of translation of that information into actionability. And so clearly, if
+you diagnose certain cancers earlier, you can take that information and cut out the
+tumor, start treatment earlier. I think clearly, in certain autoimmune disorders, if you
+had that information earlier, you could get on the right treatment. And this all goes
+to this concept of precision and personalized medicine to say let's get the right
+treatment for the right patient at the right time. There are certain areas that are
+fraught with kind of political considerations and questions. And frankly, I think
+perhaps you stay away from them at ﬁrst until there is -- information for the sake of
+worrying people, I'm not sure is the place to start. That's -- unless there's a treatment
+that you can do something about it, I think we start in those areas ﬁrst where there's
+kind of a clear clinical utility, clear actionability. Then as things develop, as new
+medicines develop, we can talk about layering on the additional diagnostics.
+{BIO 1416324 <GO>}
+Yes. Just a little bit on a tangent. I've actually -- one conversation that Chad and I
+have had several times pertains to the research and development program and what
+things are we going to target ﬁrst and what is the rationale for doing that. And so
+there are -- if you talk to the machine learning folks, there are certain criteria and
+certain way of thinking about it, same thing comes out of the biology side. But there
+is also a third component, which is the business side and the need to be creative and
+inventive and cognizant of the regulatory landscape on that. And so you sort of want
+a framework where you're taking into account all 3 of those things in order to frame
+the decision process about what are our targets, in what priority or order and how
+do we focus our teams that way. And that's an ongoing discussion that, I think, is
+going to give us a lot of insight. One thing also, when you're at a conference like this
+one, I'm sure it's much more for you than for me. But even I get an earful from
+stakeholders who have their own suggestions and thoughts about where we should
+be, how we should be targeting our things early on. Then so all of that is sort of
+input. And I think we'll have an interesting time trying to decide basically what is the
+priority list.
+{BIO 4279327 <GO>}FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 8 of 16A - Peter Lee
+Q - Tycho W. Peterson
+A - Chad M. RobinsCan you talk a little bit about the type of data you're going to be collecting? I think
+you're also collecting phenotypic data, outcomes data. How do we think about the
+data side of it?
+{BIO 1416324 <GO>}
+Right. So there's -- there are already some very interesting data sets that Adaptive
+has access to in terms of antigens, in terms of blood bank samples, blood bank
+samples correlated with speciﬁc disease states. And then that technology to take
+naive samples, inoculate them and, in that way, generate remarkably high rates of
+new label data sets. And so I think of those things as a combination of both labeled
+and unlabeled training data or corpuses. Now one thing that I've been instructed to
+do is not assume too much knowledge of machine learning. And so to put it very
+simply, machine learning, the way that we're conceiving of it, which is a deep
+learning paradigm, has 2 phases: the training phase and then an inference or
+execution phase. And the data assets that Adaptive has and is able to create give us
+a gold mine for that ﬁrst training phase. And so what we're able to do even with the
+unlabeled data sets is start to do automated feature extraction at large scale. That
+will be informative and drive up the accuracy of other inferences for whatever
+diagnostic applications we come to. And so the kind of data privilege that we have in
+our hands here is just very, very, very important for the whole program, at least on
+machine learning side. One other thing I wanted to say. And this has more to do with
+culture and agility. Being Microsoft, we do get into a lot of partnerships with grand
+plans to extract insights from data. And probably, many of the organizations
+represented in this room do this also. Generally speaking, after the decision is made
+to go with those things, it gets to be a frustration in the delays to overcome the
+technological, regulatory and strategic hurdles and actually get the data into the
+hands of data scientists and machine learning researchers. The thing that I found so
+exciting here is, literally, within 2 hours after signing the partnership agreement,
+Adaptive had signiﬁcant data sets in the hands of our machine learning researchers.
+And I think within 2 hours after that, we had some pretty deep questions back to
+Adaptive. And so just that level of agility, again, just reinforce the reality of the
+signiﬁcant data assets that we have to work with.
+{BIO 4279327 <GO>}
+How about from a patient consent perspective? I mean, do you need patients to kind
+of opt in to the development path here? We had a panel yesterday with 23andMe,
+they talked about the high level of patient engagement they have as they've kind of
+gone down their own path on drug development. What level of consent do you have
+for payers in this -- patients in this process?
+{BIO 17183354 <GO>}
+Well there's 2 diﬀerent stages of data development and generation. The ﬁrst, in
+terms of -- we can actually buy these massive leukopaks, basically they drain people
+with blood. We can create these huge pools of naive receptors, transfect and
+challenge them with diﬀerent antigen presentations, basically the disease or the
+pathogen that they bind to. Then we can use our sophisticated suite of technologies
+and start ﬁlling out the map. And we don't need patient consent for that. Then
+secondly, there are...FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 9 of 16A - Peter Lee
+A - Chad M. Robins
+Q - Tycho W. Peterson
+A - Chad M. Robins
+Q - Tycho W. Peterson{BIO 1416324 <GO>}
+By the way, let me interrupt you. I want to say one of the things that, ﬁrst, for us and
+for both of us is we're learning each other's language and lingo. One thing I will
+never get comfortable with, I hope, is the lingo of draining someone's blood. I just
+wanted to get that straight.
+{BIO 17183354 <GO>}
+We don't (toggle it), we buy it, although -- on many of our own experiments in the
+early days. So -- but then secondly, we're going to sequence well-characterized
+disease states. For example, one of the data sets that we're targeting is the Women's
+Health Initiative. And this is 30 years of very well-characterized data with the clinical
+data associated with the underlying molecular data sets. And the patients' consents -
+- in many, many cases, the patient consents have already been done for us. So that
+being said, it's clearly an area where our general counsel and legal and we make
+sure that we have the kind of right consents. Anything we do prospectively, we
+absolutely have to make sure that we have patient consents to be able to do this
+work on.
+{BIO 4279327 <GO>}
+Is there any therapeutic angle here potentially around discovery that can be
+leveraged into drug development that you can partner up with? Or...
+{BIO 17183354 <GO>}
+Absolutely. That's the hope. I think the ﬁrst step is for pharma and biotech
+companies to better understand how their therapies are impacting patients. And I
+think, actually, this is a good time to mention. And I think it relates to your timing
+question, what's important to note is, we already developed the delivery mechanism
+to be able to perform these tests. So there's really 2 components of it. One is
+creating this massive map, which crosses all of your attacker cells to your defender
+cells or your T cell receptors to your antigen. And it's like a huge VLOOKUP table in
+Excel. And the second component is when a patient walks into a doctor's oﬃce and
+gets his blood drawn and then sequenced. We've already developed and perfected
+over the course of eight years this bulletproof technology to sequence a patient's
+immune receptor. Once we have that, the idea is then you can map those receptors
+to this massive data table and have, knowing if you have receptor 2, 18 and 9 billion,
+that, that those correspond to. And are speciﬁc to, I should say, let's take Lyme's
+disease. So I think that gives us kind of that head start to say, hey, this isn't a
+theoretical exercise. Once the map is created, it's just truly a matter of leveraging it
+with the core technology. And Tycho, what was your question again because I don't
+think I answered it?
+{BIO 4279327 <GO>}
+We'll go back to it. What about the risk of over diagnosis, labeling healthy
+individuals as patients due to false positives? How do you think about that aspect
+where you have situations where the immune system can naturally correct and you
+don't necessarily need intervention? How do you think about that in this process?FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 10 of 16A - Chad M. Robins
+A - Peter Lee
+Q - Tycho W. Peterson
+A - Chad M. Robins{BIO 17183354 <GO>}
+Yes. So we've been having a lot of discussions on this. And it's a better question for
+Harlan to engage in. But I think -- ﬁrst of all, we're doing a lot of work on this right
+now. And I think there's a lot of dogma in the ﬁeld that happens to be incorrect. But
+if you think about your immune -- let's take your immune system and the properties
+of it to begin with. And then maybe we can kind of back into the question. So your
+immune system is actually the best natural diagnostic, right? It's job is to take a very
+small perturbation and amplify the signal, okay? Other aspects of it: it's highly
+speciﬁc, it's highly accurate and it's highly systemic. So you should be able to pick --
+it's not a localized reaction. So you should be then able to pick it up in the blood.
+Now the question of whether -- and there's diﬀerent types of immune system cells.
+And they go through diﬀerent stages in terms of their immune cascade. The
+question of whether you have an immune reaction that you're picking up early that's
+leading to an incorrect treatment decision, I think the jury is still out as to whether the
+immune system is actually doing that at a level where -- once we're able to pick it up,
+we believe that it's already done its job. And you actually do have that disease.
+{BIO 1416324 <GO>}
+It's a really -- from a computer science perspective, this is really an interesting
+question and will be one of the things that we'll be mostly anxious to learn. One of
+the things in deep neural nets turns out to be that you don't actually get black and
+white answers, yes or no answers. You get conﬁdence levels or signal strengths, just
+codiﬁed in terms of neural activations in the deep neural net structure. And so it's
+not the case that you get, yes, 100% Lyme's disease or no, you will get 97%
+conﬁdence that it's Lyme disease. It's also possible to get conﬂicting signals of these
+things. And so exactly what will be common and how that information then is taken
+into a diagnostic regime I think is actually one of the most interesting aspects of this.
+One of the steady things then to realize is that the machine learning models are a
+little bit like living entities in and of themselves. The more data that we can feed, the
+more clarity in those ultimate signals that we get. And so this has also been an
+evolving point here. And in a way, another element that I think is so exciting here is
+when we are thinking about this sort of deeply embedded artiﬁcial intelligence into
+these tools, we are entering into a regime where the kind of accuracy and precision
+of the answers given by these tools evolves and ideally improves over time.
+{BIO 4279327 <GO>}
+Where do you ultimately see the immune screening technology on the universal
+panel side once you have it out, settling out? Is it a primary preventative screen? Is it
+something for patient selection for a clinical trial? I mean, how do you see ultimately
+the use case when you do have the universal test?
+{BIO 17183354 <GO>}
+Again, I think that's a matter of time horizons and breaking it up into kind of tangible
+milestones over time. I think the goal would be to have it be a checkup at your
+doctor's oﬃce, every time you go in and have your blood drawn that you would have
+your immune system sequenced. If you think about it this way, Tycho, your immune
+system should know what you have -- what diseases you have before your doctorFINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 11 of 16A - Peter Lee
+A - Chad M. Robins
+A - Peter Lee
+Q - Tycho W. Peterson
+A - Peter Lee
+Q - Tycho W. Petersondoes. So we've talked -- in the ﬁeld, we've talked about this cancer immunotherapy
+and the term harnessing the power of the immune system to kind of ﬁght cancer.
+This is really an immunodiagnostic, it's really you're harnessing the power of the
+immune system to diagnose disease. And it should be able to tell you, your doctor
+before. And that's where I see it going, in the longer term kind of -- but in the shorter
+term as you start kind of layering on disease diagnostics, I think they'll be kind of
+speciﬁc to diﬀerent disease states. Again, hard to diagnose autoimmune disorders or
+chronic pathogens, a high-risk cancer patient, et cetera. Then it's a matter of letting
+the data -- we're an extremely data-driven company. And now we have a very high-
+powered machine learning data partner. And some of it is truly a matter of letting the
+data drive and tell us what this is actually capable of.
+{BIO 1416324 <GO>}
+I (sure love) the concept of a blood test that everyone takes every year, talk about a
+way to very clearly drive cloud consumption. I think it's as simple as that for us.
+{BIO 17183354 <GO>}
+It's also going to be good for patients.
+{BIO 1416324 <GO>}
+Indeed.
+{BIO 4279327 <GO>}
+Pater, can you maybe talk a little bit about other tools that Microsoft has in its
+disposal that you developed that can be brought to this partnership?
+{BIO 1416324 <GO>}
+Right. I've mentioned before that, well, a big part of our team and our internal
+investments has been in silicon innovation, silicon strategy. And some of you might
+be familiar with the fact that Microsoft has -- in fact, the cloud business has been very
+rapidly evolving the silicon computing fabrics in the cloud. We're entering into what
+is -- what we refer to as the post-CPU era as silicon scaling is hitting certain limits.
+That infrastructure, just looking ahead to the future, is likely to become very
+important for the kinds of workloads that we're contemplating here. Having
+customized ASICs, reconﬁgurable computing fabrics. And having these things
+embedded in the network infrastructure of a cloud, of a global data center, all of
+those things, I think, are going to end up being -- if we meet with any amount of
+success, we'll be approaching a scale where those things are important. We already
+see that within Microsoft, for example, in the Bing search engine. If you use Bing in
+North America, you may not notice. But your web search results are being ranked
+entirely in the network of our data centers, not in the computing cores, in the data
+center blades. And that just happens for a whole host of technical reasons driven by
+scale. And we're really contemplating the same scale here with Adaptive.
+{BIO 4279327 <GO>}FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 12 of 16A - Chad M. Robins
+A - Peter LeeAs we think about the way this partnership is structured, is there room to expand it
+over time? How do you think about the partnership evolving? Are there -- is it
+(inaudible) in the disease areas?
+{BIO 17183354 <GO>}
+So absolutely. I mean, I think, ﬁrst and foremost, the structure of the partnership
+where Microsoft allowed us to keep all of our assets together by making an
+investment in the parent company. And then on top of that, providing the resource
+commitments in terms of their people and expertise, I think, is very, very important.
+Second, if you look at the size of the problem and the dollars that it's going to take
+to be able to truly solve it, we're partially funded for that. But depending on the
+results that we see. And I'll let you speak for yourself in terms of kind of additional
+down the road interest in kind of moving forward at a greater scale. But we --
+absolutely, we've been really looking at this as a long-term partnership. And that was
+-- if you look at our assessment criteria. And one of the reasons that we chose
+Microsoft to partner with was their long-term orientation around this. We actually
+don't know the true cost of what it's going to take to sequence the entire immune
+system. But you can start ﬁlling out this puzzle and make signiﬁcant headway. But
+because of that issue actually that you asked me about earlier, about being able to
+use the technology on retrospective samples, we're able to do this at a fraction of
+the cost of some of the other technologies and strategies out there that are going
+after early detection, for example. We're talking in the low hundreds of millions of
+dollars as opposed to the billions of dollars. And that's meaningful not just in terms
+of a cost perspective but also in terms of a timing perspective which, by the way,
+dovetails into that question of kind of that false positive issue that you are bringing
+up. And when you start looking -- one of the reasons that if you look at -- for
+example, looking at peripheral mutations of the -- look in cancer genomics itself,
+having to run kind of large-scale prospective clinical trials, part of it is in relation to
+the type of sample those types of technologies work on. The other has to do a
+signal-to-noise problem, whereas if you're really trying to catch a disease at its
+earliest state, the tumor has to shed enough stuﬀ, peripheral mutations, that you're
+able to pick it up. So you're truly looking at -- you have a needle in the haystack
+problem. That being said, I really hope that some of these companies solve it
+because it's great for the patient population. And I also want to say that these
+technologies are potentially complementary, right? You're just looking at it from the
+genomics of the cancer versus the host response or how your body's responding to
+the cancer. I'm just bringing the case up of cancer because I think there are large-
+scale eﬀorts underway in cancer. But it is, as we've mentioned throughout the
+discussion today, I think what's important to note is getting your immune system
+and, again, from a business perspective and from a patient perspective, why we think
+it's one of the largest addressable kind of opportunities is because it does cut across
+autoimmune disorders, infectious disease, cancer, even kind of neurological
+disorders, depressions and allergy and things that you may or might -- may not think
+(remediated), there is mounting evidence across a large body of publication that
+shows that many of these disorders are remediated . So again, I think that we'll let
+the data drive but really interesting problems.
+{BIO 1416324 <GO>}FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 13 of 16Q - Tycho W. Peterson
+A - Peter Lee
+Q - Tycho W. Peterson
+Q - Unidentiﬁed Participant
+A - Chad M. RobinsWhat I tend to tell people is the cost of something like this, of a real AI system, is
+inﬁnity. And that the reason is, these are fundamentally learning systems. So let's take
+a simple example. Let's take the Microsoft translator, which does language
+translation. It's never done. There is an inﬁnite amount of engineering because you
+can always improve the quality, say, of English to Russian and Russian to Chinese.
+You can always integrate more data. You can always improve the algorithms. And in
+fact, that is the model. And so the real question isn't so much how much will it cost
+and what will be done. But at what point will we start being able to recoup some of
+that investment and then get ahead of it. And those -- when you're in this sort of AI
+regime, those are really the fundamental questions. And if you need -- you need to
+be very kind of analytical and throttle elements of the investment in order to ensure
+that you are on a glide path to the point where you're able to get ahead of the
+ongoing cost of -- march towards more and more intelligence.
+{BIO 4279327 <GO>}
+I guess, as we think about what the output of this venture may be, certainly, the kits
+and the panel and the assay itself, I guess from Microsoft's perspective, is there a
+software opportunity here as we think about the interpretation either on the part of
+the physician or the reference lab?
+{BIO 1416324 <GO>}
+Yes. I think, ﬁrst of all, just -- again, just from the pure computer science perspective,
+the beautiful thing about machine learning is that the algorithms generally have
+broad applications. So obviously, we are very, very -- we have blinkers on, we're very
+focused on the speciﬁc problems that Adaptive has brought to us. But we recognize
+through a lot of experience that those algorithms are likely to have much broader
+application. And so you have to train yourself to always be open minded to those
+possibilities. And the arrangement that we have, while the intellectual property
+portfolio of Adaptive remains very complete and clean, it still gives us an opportunity
+to look for this new applications. And so that's a really important element. I just look
+at this as how can Microsoft be relevant and become competent broadly in this
+genomics space? And so having a great partner just not only gives us a chance to
+get competent. But it gives us a chance to learn, learn how to be good. And so I
+have a lot of faith that if we do become good at this that, that will open up
+opportunities to invest in yet a broader set of areas in the genomics space.
+{BIO 4279327 <GO>}
+I think we'll open it up to questions from the audience, if there are -- we have one
+there. Do you have a microphone?
+Okay. So part of my questions were answered in the last few dialogues. But my ﬁrst
+question is, have you thought of looking at it as a biomarker as well? So when you
+start giving the drug once you diagnosed the cancer, can you keep looking at the T
+cell receptors and see if they are going down?
+{BIO 17183354 <GO>}FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 14 of 16Q - Unidentiﬁed Participant
+A - Chad M. Robins
+Q - Unidentiﬁed Participant
+A - Chad M. Robins
+A - Peter Lee
+Q - Tycho W. PetersonAbsolutely. As a matter of fact, we're doing that today. Part of that battery of assay --
+I'm sorry, tests around this concept of immune competence, we are partnered with
+85 biotech and pharma companies, many around the immuno-oncology space,
+autoimmune disorder space, et cetera. And that is one of the things that we're
+looking at, speciﬁcally to look at diﬀerent levels and how the drugs impact the
+clonality really of the immune system. And can that provide informative information
+for how a patient is treated. The technologies that we developed in the last couple of
+years that bind those receptors to the antigen and really, we're starting to
+understand and characterize the functionality of the receptor. And this is back to an
+earlier question is once you kind of know the diagnosis and what it's binding to, can
+you potentially use those immune receptors therapeutically? Obviously, that space
+has started in cellular therapy within oncology and cancer with the CAR T space. We
+have eﬀorts underway in using naturally occurring TCRs to try to move the ﬁeld from
+working in blood cancers to working in solid tumors. But I think there is quite a bit of
+hope with the information and the amount of data that we're collecting and our work
+with pharma that there's a chance not only to be able to help the pharma companies
+better understand what their drugs are doing and how they're impacting patients
+and how ultimately the clinician can change treatment decisions based on immune
+system information. But to be able to hopefully be able to use immune receptors in
+the therapeutic context as well.
+That was one of my questions that you could even...
+{BIO 17183354 <GO>}
+This is like Back to School, like 27 parts?
+Then, well, there's one other thing that you might want to look at because I think
+there's a huge need. So in the neuromuscular space, there -- it's been very hard to
+ﬁnd biomarkers. And there's a good enough reason to believe that a lot of the
+neuromuscular diseases have an immune component to it and a T cell component
+actually, speciﬁc T cells, which I'm imagining they'll have speciﬁc T cell receptors. So
+not only is diagnosis tough there but also a biomarker. People are not able to run
+clinical trials because there are no biomarkers to ﬁnd. So that's one exciting space to
+look at where there's a huge need.
+{BIO 17183354 <GO>}
+Thank you.
+{BIO 1416324 <GO>}
+Great.
+{BIO 4279327 <GO>}
+Anyone else?FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 15 of 16Q - Unidentiﬁed Participant
+A - Chad M. Robins
+A - Peter Lee
+A - Chad M. Robins
+Q - Tycho W. Peterson
+A - Peter Lee
+A - Chad M. RobinsDoes the partnership cover any of your nascent drug development work? Or is that
+option?
+{BIO 17183354 <GO>}
+That's not currently contemplated by the partnership.
+{BIO 1416324 <GO>}
+We're -- I think in something like this, the -- actually, the reason I'm having it
+(hanging) is that every leader within Microsoft probably approaches this a little bit
+diﬀerently. For me, it's very important when you're trying to drive some innovation
+process to get to some early wins quickly. And that, for me, dictates a level of focus
+that would be -- that I think we would, at least on our side, push pretty hard. But once
+we start to really understand that, that we're able to work very, very well together
+with a lot of agility, then we might feel freer to kind of expand the space of
+collaborative possibilities. Now that's not something that I can just dictate on my
+own. This is typically a situation where, I guess, we have to go to another Seahawks
+game and ﬁgure out a way to hash out. But it's that sort of kind of push and pull. And
+something I've appreciated in the partnership speciﬁcally with Chad is just the kind
+of easy level of transparency and just kind of sharing our philosophies, concerns,
+what gets us excited about this. Good.
+{BIO 17183354 <GO>}
+Absolutely.
+{BIO 4279327 <GO>}
+Any other questions from the audience? Okay. We'll conclude it at that. I want to
+thank you both for taking the time today. Congrats on the partnership.
+{BIO 1416324 <GO>}
+Thank you very much.
+{BIO 17183354 <GO>}
+Thank you. Appreciate it.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the FINAL TRANSCRIPT 2018-01-11
+Microsoft Corp (MSFT US Equity)
+Page 16 of 16information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

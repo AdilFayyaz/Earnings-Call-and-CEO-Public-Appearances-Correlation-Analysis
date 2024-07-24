@@ -1,0 +1,491 @@
+FINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 1 of 13, Senior Vice President, Software Engineering
+, Vice President of Hardware Engineering
+, Senior Vice President, Hardware Technologies
+Julie Broms, Senior Manager, Hardware Engineering
+, Senior Product Manager
+Shruti Haldea, Product Line Manager, Pro Mac - Apple
+, Chief Executive Oﬃcer
+Tim CookApple Event
+Company Participants
+Craig Federighi
+John Ternus
+Johny Srouji
+Laura Metz
+Tim Cook
+Presentation
+{BIO 14014370 <GO>}
+Hello and welcome back. It's great to have you join us. I'm really excited for today
+and the news we have to share with you. It's amazing to think that this is our third
+major event in just the past two months. In the midst of enormous challenges this
+year, our teams have remained focused and they haven't stopped innovating. We're
+on an unbelievable pace of new product releases, delivering more new products this
+fall than ever before, starting with upgrades to our powerful operating systems as
+well as our other remarkable products, the incredibly capable and aﬀordable Apple
+Watch SE and Apple Watch Series 6 putting the future of health on your wrist, an
+entirely new ﬁtness experience with Apple Fitness Plus, a convenient way to
+subscribe to Apple services with Apple One, the new and more powerful 8th
+generation iPad, and the stunning and versatile new iPad Air, the amazingly capable
+and compact HomePod mini, and we began a new era for iPhone with iPhone 12,
+and for people who want the most out of their iPhone, iPhone 12 Pro.
+We're so excited iPhone 12 mini and iPhone 12 Pro Max will begin shipping this
+product, but there is just one more thing. It's time to talk about the Mac. We love the
+Mac. It's in our G&A, and it's the tool that we used to build our phenomenal lineup
+of products. Our users love it too. Today, the Mac is stronger than ever. It continues
+to lead the industry in customer satisfaction as it has for over a decade, and more
+customers than ever are choosing the Mac.
+In fact, the Mac business grew by nearly 30% last quarter, and the Mac is having its
+best year ever, and the Mac continues to attract new users. Today, over 50% of
+buyers are new to the Mac, which is simply amazing, and all around the world,
+people use the Mac to do remarkable things. Like the Mac itself, they challenge the
+status quo, they take chances, they create, they innovate, they use the Mac to help
+change the world, and we would like to celebrate them.FINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 2 of 13John Ternus
+Johny Srouji(Video Presentation)
+It's great to see how people use the Mac to do such amazing things. The Mac has
+always been about innovation and bold change. In June, we announced that the Mac
+is taking another huge leap forward by transitioning to Apple Silicon and we
+promise that the ﬁrst Mac with Apple Silicon would arrive by the end of this year.
+Well that day is here.
+To tell you more, here's John.
+{BIO 22135753 <GO>}
+We love the Mac and our teams have been working tirelessly to deliver the best
+lineup of notebooks and desktops that we've ever have. Well, now it's time for the
+Mac to take a gigantic leap forward. To do this, we needed to develop a new set of
+advanced technologies. So for the past several years, we've had our teams working
+with a singular purpose of deﬁning and building the next generation of Mac. And at
+the core of this eﬀort is the Silicon. We've been making Apple Silicon for more than a
+decade. It's at the heart of iPhone, iPad and Apple Watch. And now, we want to bring
+it to the Mac, so the Mac can take a huge leap forward with the incredible
+performance, custom technologies, and industry-leading power eﬃciency of Apple
+Silicon.
+And as we've said, we're developing a family of chips, and we're going to transition
+the Mac line to these new chips over the next couple of years. Well, today we are
+incredibly excited to announce our ﬁrst step in this transition with our ﬁrst chip
+designed speciﬁcally for the Mac. And we call it M1. M1 has been optimized for our
+most popular low power systems where small size and power eﬃciency are critically
+important. It is a stunningly capable chip and it assures in a whole new era for the
+Mac.
+Now, let's get started by spending a few minutes on a deep dive into this new chip
+with Johny.
+{BIO 19052877 <GO>}
+M1 is a break-through chip for the Mac. Our approach with M1 was to deliver
+industry-leading performance and features, while relentlessly focusing on power
+eﬃciency. As a result, M1 delivers a joint leaping performance per watt, and every
+Mac with M1 will be transformed into a completely diﬀerent class of product.
+M1 is the ﬁrst system-on-chip or SOC for the Mac. Let me show you what that means.
+Until now, a Mac needed multiple chips to deliver all of its features. It's hard chips for
+their processor, IO, security, and memory. Now, with M1, these technologies are
+combined into a single SOC, delivering a whole new level of integration for more
+simplicity, eﬃciency, and amazing performance. M1 also features our uniﬁed memory
+architecture or UMA. M1 uniﬁes its high-bandwidth, low latency memory into a single
+pool within a custom package. As a result, all of the technologies in the SOC canFINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 3 of 13access the same data without copying it between multiple pools of memory. This
+dramatically improves performance on power eﬃciency.
+M1 is the ﬁrst personal computer chip built using the industry-leading 5-nanometer
+process technology, with incredibly small transistors measured at an atomic scale, M1
+is remarkably complex. It packs the largest number of transistors we've ever put into
+a single chip. M1 has a massive 16 billion transistors and we use all of these
+transistors to give M1 amazing performance and leading-edge technologies. And our
+goal is to make each of these technologies best in class.
+The incredible performance of M1 starts with the CPU which features two types of
+cores; high performance and high eﬃciency. Each performance core is designed on
+a single task of thread as eﬃciently as possible while maximizing performance.
+We've been advancing it year after year. And now with the huge improvements in
+M1, when it comes to low power silicon, our high performance core is the world's
+fastest CPU core, and M1 has four of these incredibly fast high-performance cores, so
+multifaceted workloads take a huge leap in performance as well.
+To handle life of workloads more eﬃciently, M1 brings high eﬃciency cores to the
+Mac. They use a tenth of the power while still delivering outstanding performance.
+This equals the most eﬃcient place to unlike the tasks and allow the performance
+cores to be used for the most demanding workloads. And M1 has four of these
+eﬃciency cores, which on their own deliver similar performance as the current
+generation dual-core MacBook Air at a much lower power.
+And ﬁnally, M1 has our latest performance controller that the (inaudible) for
+maximum performance and eﬃciency. Altogether, the 8-core CPU in M1 is by far the
+highest performance CPU with ever created. And more importantly, it delivers this
+performance at the lowest possible power. In fact, the M1 CPU leads the industry by
+delivering the world's best CPU performance per watt.
+Let's take a look. Here is the CPU performance on power usage of the very latest PC
+laptop chip and here's M1. M1 delivers signiﬁcantly higher performance at every
+power level and adjust in watts, the thermal envelope of MacBook Air, you can see
+that M1 delivers up to two times the CPU performance of the PC chip, and M1 can
+deliver the peak performance of the PC chip while using just a quarter of the power.
+This is a big deal. What you are seeing here with M1 is extreme level[ph].
+When you look back at the single-threaded performance of low power silicon in the
+Mac, gains in performance per watt have been very small from one chip to the next.
+But when we look at M1, we see a massive 3 times improvement in performance per
+watt. This is unheard of. Now, what about graphics? We design GPUs that deliver the
+maximum graphics performance and the thermal envelope of each of our products.
+This results in a balanced system with a GPU that complements the incredible
+performance of our CPU complex. Typically, PCs got to achieve this balance with
+integrated graphics. To get great graphics performance, they have to use a discreteFINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 4 of 13John Ternus
+Craig Federighichip, which consumes a lot of power. M1 is diﬀerent. With its integrated graphics, we
+get the best of both worlds, incredible performance and low power.
+The GPU in M1 beneﬁts from years of thorough analysis of Mac applications. It's the
+most advanced graphics processor we've ever created, and with up to eight of these
+GPU cores, M1 is capable of executing nearly 25,000 threads at a time. From
+teraﬂops to texture bandwidth to ﬁll rate along with its incredible eﬃciency, M1's
+GPU is in a class of its own. Here is the graphics performance on power usage of that
+same PC laptop chip and here's M1.
+M1 delivers signiﬁcantly higher performance every power level, with M1 delivering up
+to 2 times more graphics performance than the PC chip. And again, M1 can deliver
+the peak performance of the PC chip while using just one-third of the power. When it
+comes to personal computers, M1 has the world's fastest integrated graphics. Now,
+Apple Silicon is more than just a fast CPU and GPU. We pack our chips with powerful
+custom technologies.
+M1 features our most advanced Neural Engine. With a 16-core design, it's capable of
+executing a massive 11 trillion operations per second. The entire M1 chip is designed
+to excel at machine learning, and tasks like video analysis, voice recognition, and
+image processing will have a level of performance never seen before in the Mac.
+Finally, M1 integrates our latest generation Secure Enclave. It's faster than ever and
+brings best-in-class security to the Mac. So that's M1, our ﬁrst SOC design for the
+Mac. With its 8-core CPU featuring the world's fastest CPU core along with an 8-core
+GPU that delivers the world's fastest integrated graphics, M1 leads the industry-
+leading performance per watt, and it has leading-edge technologies like the Neural
+Engine, Thunderbolt and USB 4, a faster Secure Enclave, our latest ISP and more.
+With its unique combination of remarkable performance, powerful features, and
+incredible eﬃciency, M1 is by far the best chip we've ever created. And we're
+absolutely thrilled to bring to the Mac.
+Now, back to John.
+{BIO 22135753 <GO>}
+It is so incredibly exciting to think about the Macs we can build, with the
+performance and capability of M1. The Mac has never had a chip upgrade this
+profound. But the Silicon is only part of the story. For all Apple products, it's a tight
+integration of our hardware and software that makes the user experience so
+amazing. To deepen this integration on the Mac, we use Mac speciﬁc software
+workloads to optimize the architecture of M1. And in the same way, iOS and iPadOS
+are built to maximize our A-series chips, macOS Big Sur has been built to maximize
+M1. To hear how it unlocks entirely new experiences and capabilities, let's turn it over
+to Craig.
+{BIO 6190419 <GO>}FINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 5 of 13For the ﬁrst time ever, we've been able to design macOS for our own silicon. I'm so
+excited about what this means for the platform. Our latest release, macOS Big Sur, is
+absolutely incredible on M1. Big Sur introduces a bold new design, powerful updates
+for apps like Safari in Messages and the latest improvements to our industry-leading
+privacy features. And by designing the whole system together, hardware and
+software, we're able to make the things you love about your Mac even better.
+Your Mac now instantly wakes from sleep, just like the iPhone and iPad. Let me show
+you, but ﬁrst, let's set the mood.
+(Video Presentation)
+How cool is that? And with M1, things you do every day, like launching apps are
+nearly instantaneous, and Safari, which is already the world's fastest browser, really
+shines on Apple Silicon. It's now 1.5 times speedier at running Java script and almost
+2 times more responsive. The whole system is distinctively snappy and system
+animations are buttery smooth. The sheer speed of M1 together with macOS
+technologies like Metal deliver a huge boost to the most demanding apps, so you
+can render 3D animations in a raw video footage with ease.
+Now, part of the secret behind this breakthrough performance is M1's uniﬁed
+memory architecture. We built macOS on Apple Silicon to use the same data formats
+for things like video decode, GPU, and display, so there is no need for expensive
+copying or translation. And macOS gives apps access to more graphics memory
+than ever, unlocking breakthrough performance for task ranging from color grading
+6K video to playing graphically intensive games for performing real-time machine
+learning inﬂuence.
+Big Sur also features advanced power management, which intelligently allocates task
+between M1's performance and eﬃciency cores, automatically optimizing for
+lightweight tasks like reading a node or performance intensive tasks like playing a
+game. So your Mac gives you quiet performance and even better battery life.
+When it comes to security, M1 represents a major leap forward. For years on iOS,
+we've worked to continuously advance the state of the art for computer security. And
+with M1, we're bringing this architecture to the Mac. This includes not only hardware
+veriﬁed secure boot automatic high performance encryption for all your ﬁles, but
+also new security protections built deep into the code execution architecture of M1,
+giving you the most advanced security of any personal computer. macOS Big Sur is
+engineered down to it's core to fully take advantage of all the capability and power
+of M1, and it does this all while maintaining everything you love about macOS.
+Of course, we've optimized all of our apps for M1, from every app that comes with
+macOS to every other app made by Apple. Apps like Pages, Numbers, and Keynote,
+and GarageBand and iMovie are showing us how great performance can be with M1.
+For example, with Logic Pro, you can run up to 3 times more Instruments and eﬀectFINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 6 of 13John Ternusplug-ins. And Final Cut Pro can ﬂy through tasks like rendering a complex timeline
+up to 6 times faster. We can't wait for you to unleash your creativity.
+Now, macOS Big Sur has incredible technologies that enable you to run a greater
+range of apps than ever before. First, our universal apps. Simply put, universal apps
+are the fastest, most powerful apps you can get. Universal apps include a native
+binary version built for Apple Silicon as well as a native version for Intel processors.
+The two come together into a single app that you can download from the App Store
+or from the web, meaning that one app can run on all of your Macs.
+We're hearing a lot of excitement from developers as they get ready to launch their
+universal apps. For example, Omni Group is bringing universal versions of all of their
+great Mac apps and Adobe is bringing universal versions of their apps, starting with
+Lightroom next month, and other ﬂagship apps including Photoshop early next year.
+For existing apps that haven't yet upgraded to universal, Big Sur includes an
+amazing new technology, Rosetta 2. On M1 systems, Rosetta seamlessly runs apps
+built for Intel based Macs. So even without an app update, you can keep working on
+that Fusion 360 project and get to the next level in your favorite game.
+Thanks to Metal and M1, some of the most graphically demanding apps actually
+perform better under Rosetta than they did running natively on previous Macs with
+integrated graphics, it's really incredible. The transition to M1 is also great for
+developers. M1 scales up the architecture that they're already accustomed to on
+iPhone and iPad, so they can optimize their code across the whole family. And these
+new Macs can do something that no Mac has ever done before. For the ﬁrst time
+ever, you can run your favorite iPhone and iPad apps directly on your Mac. You have
+more games to play, more content to watch, and more apps for everything you want
+to do, altogether you get access to the biggest collection of apps ever for the Mac
+and it's only going to get better as developers continue to build new apps for M1.
+Here are some of them in action.
+(Video Presentation)
+It's amazing to see developers take advantage of the incredible performance and
+features of M1 and Big Sur. We can't wait to see them re-imagine what apps can do.
+Over to you, John.
+{BIO 22135753 <GO>}
+The combination of M1 and macOS Big Sur is super exciting. It truly takes the Mac to
+a whole new level. So now, we have all the technologies we need for the next
+generation of Mac and it's time to introduce the ﬁrst Mac with M1, a product where
+the power eﬃciency of M1 changes everything. Here it is.
+(Video Presentation)FINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 7 of 13Laura MetzThis is the new MacBook Air with M1. In the ﬁrst, MacBook Air was pulled out of that
+envelope, it deﬁned the category of thin and light notebooks. And our users have
+been loving it ever since. Now with the groundbreaking eﬃciency of M1, the new
+MacBook Air will completely redeﬁne what a thin and light notebook can do. To tell
+you all about it, here's Laura.
+{BIO 18783784 <GO>}
+MacBook Air is the most popular Mac. In fact, it's the world's best selling 13-inch
+notebook. Users love its stunning retina display, great everyday performance, and
+incredible portability, all in a sleek wedge-shaped design. These days, users are
+working more from home, learning remotely, and using the air to stay connected,
+making performance and battery life extremely important. And we're thrilled that M1,
+our ﬁrst chip for the Mac, enables MacBook Air to do things that were previously
+impossible on such a thin and light notebook. With eight incredibly powerful cores,
+the CPU source to a whole new level of performance that's up to 3.5 times faster
+than the previous generation. So if you're editing family photos or exporting a video
+for the web with iMovie, the new Air believes this right through it. Or if you're
+working in light room, you can manage huge raw libraries that unheard of speeds,
+turning your Air into a mobile photo studio, and with the world's fastest integrated
+graphics that feature up to 8 cores, Air delivers up to 5 times faster graphics
+performance. That's the biggest leap ever for MacBook Air.
+So when it comes to gaming, you can play immersive graphically-intensive titled at
+signiﬁcantly higher frame rates. And for the ﬁrst time, you can add multiple streams
+of full quality 4K Pro res video without dropping a frame, that's mind-blowing for
+such a thin and light notebook. And when you compare MacBook Air to the best
+selling Windows laptop in its class, the new Air is up to 3 times faster. And what's
+even more amazing is that with M1, MacBook Air is faster than 98% of PC laptops
+sold in the last year.
+Now, let's talk about that Neural Engine. With 16 cores, machine-learning workloads
+are up to an astonishing 9 times faster than the previous Air, so apps like Final Cut
+Pro, they use ML-based features such as Smart Conform to intelligently frame a clip,
+can do so in a fraction of the time. And even storage gets a performance boost with
+SSDs that are up to 2 times faster. Thanks to the M1 storage controller and latest ﬂash
+technology. The tasks like previewing massive high-res images or importing large
+ﬁles are super quick. What's also remarkable is that with the industry-leading
+eﬃciency of the M1 chip combined with the power management and macOS Big Sur,
+the new Air delivers all this performance without a fan. So, no matter how intense the
+task, MacBook Air is completely silent, and that same incredible eﬃciency also
+delivers extraordinary battery life with up to 15 hours of wireless web browsing and
+up to an amazing 18 hours of video playback, that's six hours longer than before.
+And when you're video conferencing, which can rapidly drain the battery, you can go
+up to twice as long on a single charge. This is the longest battery life ever in a
+MacBook Air. And if users connect with friends, family, and coworkers remotely, we
+know camera image quality matters even more. So we're excited that with M1,
+Apple's latest image signal processor comes to the Mac. This ISP delivers betterFINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 8 of 13John Ternus
+Julie Bromsnoise reduction and greater dynamic range for sharper images and more detail in
+shadows and highlights, as well as improved auto white balance combined with ML-
+enhanced face detection, so you look more natural on your FaceTime calls. In fact,
+everything looks stunning on the 13-inch retina display, which now supports P3 wide
+color for even more vibrant true to life images. And with the Secure Enclave in M1
+combined with Big Sur, Air delivers best-in-class security with features like Touch ID,
+which make it easy to unlock your Mac and make secure online purchases using
+Apple Pay, with just the touch of your ﬁnger.
+And ﬁnally, all these powerful features with a completely new level of performance
+are delivered in a sleek, wedge-shaped design. With M1 and Big Sur, we've taken the
+MacBook Air and transformed it into something far beyond any other thin and light
+notebook. And even with this gigantic increase in performance, along with its new
+features, the Air still starts at just $999. And for education, it starts at just $899,
+delivering way more value than ever before. So that's the new MacBook Air. With M1,
+it has jaw-dropping performance, 3.5 times faster CPU, 5 times faster GPU, all in a
+silent fanless design. It also has a more vibrant retina display, improved camera
+quality, and incredible battery life up to 18 hours, the longest-ever in a MacBook Air.
+So once again, MacBook Air completely redeﬁnes what a thin and light notebook
+can do.
+Back to you, John.
+{BIO 22135753 <GO>}
+This new MacBook Air is amazing. So think about what we've done here. We've taken
+our most popular notebook, and with M1, giving it more performance, the 98% of PC
+laptops sold in the last year. A huge increase in battery life, and at the same time, we
+pulled out the fan, not just noise. With that unbelievable combination of
+performance and portability, it is by far the best MacBook Air we've ever made. But
+that's not all, because today we're bringing M1 to another beloved[ph] Mac and here
+it is.
+(Video Presentation)
+This is the new Mac mini. The tremendous level of integration oﬀered by the system
+on a chip design of M1 allows us to pack a remarkable amount of performance and
+capability into its compact design. To tell you more about it, here's Julie.
+Mac mini delivers the Mac desktop experience in an incredibly small form factor. Our
+users love its outstanding performance, array of connectivity and signature design.
+And most of all, they love its versatility. It's why you'll ﬁnd Mac minis everywhere
+from home oﬃces to home theaters, studios to render farms.
+Today, M1 comes to Mac mini, bringing a seismic shift and what an ultra-compact
+desktop can do.FINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 9 of 13John TernusWith the 8-core CPU in M1, Mac mini delivers up to 3 times faster CPU performance
+than the previous quadcore version. This is a monumental leap in CPU performance
+for Mac mini. So if you're a developer compiling a million lines in Xcode or musician
+using Logic Pro to take music production to a whole new level, performance never
+skips a beat. And the 8-core GPU gives the mini a gigantic six-fold increase in
+graphics performance. This enables you to do things you wouldn't have dreamed of
+before on the Mac mini, like designing a graphics intensive game in unity, or when
+the work is done, cranking up the graphic settings while playing a great game like
+Baldur's Gate III.
+The mini has an outrageous amount of performance in such a compact design. In
+fact, if you compare Mac mini to the top selling PC desktop and its price range, the
+mini is just one-tenth the size, and yet, it's up to 5 times faster. Mac mini just blows
+the competition away and there is more with M1 bringing the Neural Engine to Mac
+mini, machine learning workloads take a quantum leap forward with up to 15 times
+faster ML performance than the previous generation. This means the new Mac mini
+will supercharge innovative features that are powered by ML, like magically
+increasing the resolution of a photo in Pixelmator Pro, giving it more sharpness and
+detail.
+It also makes Mac mini a great machine for developers, scientists, and engineers,
+utilizing deep learning technologies like TensorFlow or CreateML, which are now
+accelerated by M1. And with the Mac mini's advanced thermal design, M1 is
+unleashed, easily sustaining its breakthrough performance while the mini stays cool
+and quiet.
+When it comes to connectivity, there is an array of IO, including two USB-C ports that
+now support both Thunderbolt and USB 4, to connect a wide range of peripherals,
+including the Pro Display XDR at a full 6K resolution.
+With the M1 chip and Big Sur, our most versatile Mac packs a staggering amount of
+performance and incredible new features, and even with all of its power and
+capability, Mac mini now starts at just $699. That's a $100 lower than the previous
+generation. No other desktop combines such breathtaking performance with such
+an aﬀordable price.
+So, that's the mighty new Mac mini, powered by the M1 chip, it takes an enormous
+jump in performance with a 3 times faster CPU, 6 times faster GPU, and the Neural
+Engine that boosts M1 performance up to 15 time. The new Mac mini is a
+phenomenal desktop that's far more versatile and far more capable than ever.
+Now, back to John.
+{BIO 22135753 <GO>}
+This really is the most incredible Mac mini we've ever made. Thanks to the
+integration and phenomenal graphics capabilities of M1. This new mini will enable
+high performance general purpose computing in a way that was never beforeFINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 10 of 13Shruti Haldeapossible in such a compact design, and there has never been a Mac mini like it, but
+we're still not done. You've seen how the eﬃciency and integration of M1 yields
+incredible capability and performance in the MacBook Air and Mac mini. That
+performance is so good that it's also an excellent choice for another one of our most
+popular Macs, a perfect Mac for many creative pros.
+(Video Presentation)
+Here is the new 13-inch MacBook Pro. With M1, our most popular and aﬀordable
+MacBook Pro dramatically changes your expectations of what a compact Pro
+notebook can do. And to tell you all about it, here's Shruti.
+The 13-inch MacBook Pro is the best selling notebook in its class and it appeals to an
+incredibly wide range of users. Students rely on it to get them to college and pros
+use it to channel their creativity and produce all inspiring work. Users love it because
+it delivers powerful performance and has a gorgeous display, all in a sleek and
+portable 3-pound design. And with M1, the 13-inch MacBook Pro becomes way more
+powerful and way more pro. The 8-core CPU delivers up to 2.8 times faster
+performance. This is game changing for developers using Xcode, who can now build
+their apps nearly 3 times faster than before. And for photographers using
+Photoshop, who can apply ﬁlters and eﬀects to high-res photos faster than ever.
+When it comes to graphics, the 8-core GPU is up to a whopping 5 times faster. So,
+whether you're using Shapr3D to design a new product or constructing an
+immersive new world in Cinema 4D, the new MacBook Pro handles it all with ease.
+And when compared to the best-selling Windows laptop in its class, it's up to 3 times
+faster. In fact, the new 13-inch MacBook Pro can do things that no other compact 3-
+pound Pro notebook can do, like playback 8K progress footage in full quality in
+DaVinci Resolve without dropping a single frame. And when it comes to machine
+learning, performance is spectacular. Thanks to the Neural Engine, ML is up to 11
+times faster than the previous generation, which means for on-device ML task that
+use the Neural Engine, the 13-inch MacBook Pro is the world's fastest compact Pro
+notebook.
+The new MacBook Pro also features an active cooling system. This allows it to sustain
+its remarkable Pro performance when ripping through intensive tasks like video
+transcode in Compressor. And even with all this unbelievable compute power, the
+battery life is simply amazing. Thanks to the eﬃciency of M1 running Big Sur, the new
+MacBook Pro delivers up to an incredible 17 hours for wireless web browsing and up
+to 20 hours for video playback, that's 10 more hours than before, and that's the
+longest battery life ever in a Mac.
+And with this combination of performance and awesome battery life, the productivity
+of our pro users goes through the roof. For instance, software developers can
+compile 4 times as much code on a single charge. The new Pro also has studioFINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 11 of 13John Ternusquality mics with an improved signal to noise ratio. So whether you're on a FaceTime
+call or recording a vocal track, audio will be super clean and it beneﬁts from the M1's
+advanced camera ISP. So when users are connecting with coworkers on video calls,
+they'll have sharper video with less grain and better contrast and detail in low light
+conditions.
+With Big Sur and the Secure Enclave, you get best-in-class security features like
+activation lock, which helps protect your Mac if it's ever lost or stolen. And ﬁnally,
+with its two Thunderbolt ports with USB 4 support, the new Pro connects to more
+peripherals than ever, including the Pro Display XDR at full 6K resolution.
+All these mind-blowing leaps in performance, new features, and amazing battery life
+still ﬁt in the same incredibly portable 3-pound design. With Big Sur and the M1 chip
+at the heart of the 13-inch MacBook Pro, it shatters the limits of what a compact Pro
+notebook can do. And with all this performance and new capabilities, the new Pro is
+still just $1299 and just $1199 for education, an incredible value for both students and
+pros alike. So that's the new MacBook Pro.
+With M1, our most popular MacBook Pro gets a tremendous boost in CPU graphics
+and an outperformance. And along with its studio quality mics and improved camera
+performance, it has the best battery life ever in a Mac. This is more than a massive
+upgrade. The 13-inch MacBook Pro is the ultimate expression of what the M1 chip can
+do.
+Now, back to John.
+{BIO 22135753 <GO>}
+We couldn't be more thrilled about the new Mac mini, MacBook Air, and MacBook
+Pro. They are the ﬁrst of a new generation of Mac. It's the same Mac experiencing
+(inaudible) if faster and better in so many ways. These systems oﬀer up to 3.5 times
+faster CPU performance and up to 6 times faster GPU performance, which is the
+largest generational improvement we've ever had. They bring many of the best
+features from iPad and iPhone like instant wake, long battery life, incredible ML
+acceleration that's up to 15 times faster, and industry-leading security to the Mac.
+And by building upon a common architecture, these new Macs can now tap into the
+world's largest and most vibrant software ecosystem.
+We're also proud that these products have been carefully designed to support our
+net zero carbon goal. The cleanest energy is the energy you never use, and thanks to
+the eﬃciency of M1. Energy consumption has reduced by up to 60% when these
+products are in active use. So while there is always more to do, we're thrilled with the
+progress we've made. It is so exciting to be able to reinvent three of our most
+popular and aﬀordable Macs.
+And to make things even more exciting, you can order the new MacBook Air, Mac
+mini, and MacBook Pro starting today, and they will all be available next week. And
+macOS Big Sur will be available this Thursday. These new systems with M1 join theFINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 12 of 13Tim Cookrest of our Mac product line, including some phenomenal products that we've
+introduced over the last year. This is by far the strongest Mac lineup that we've ever
+had.
+The transition to Apple Silicon is going to have a profound impact on the Mac. It will
+bring performance and capabilities that have never been possible before. This
+journey will take a couple of years to complete and we have a long way to go. We're
+oﬀ to one heck of a start. We are so proud of this new family of products and we
+can't wait to see what our users are going to do with them.
+Now, I'd like to turn it back to Tim. But before I do, here is a short ﬁlm we made to
+celebrate these new Macs. I hope you enjoy.
+(Video Presentation)
+{BIO 14014370 <GO>}
+This truly is a huge day for the Mac and a huge day for Apple. Advancements of this
+magnitude only come from making bold changes. The M1 chip is by far the most
+powerful chip that we have ever created. It makes these Macs dramatically faster,
+provides all new capabilities with extraordinary battery life, and enables the Mac to
+run more software than ever. This is exactly why we are transitioning the Mac to
+Apple Silicon.
+At Apple, our mission is to create products that play a meaningful role in people's
+lives. 2020 has been a year, unlike any other, in so many ways. We are inspired by
+the strength, resilience, and creativity we've seen displayed by people all around the
+world. We are also extremely proud of our teams and the work they've done to
+deliver such incredible products during these challenging times. We're looking
+forward to seeing what you will do with these products. We're also looking forward
+to 2021 and bringing even more amazing experiences to you.
+Thank you for joining us. Stay safe, stay well, and have a great day.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT FINAL TRANSCRIPT 2020-11-10
+Apple Inc (AAPL US Equity)
+Page 13 of 132024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

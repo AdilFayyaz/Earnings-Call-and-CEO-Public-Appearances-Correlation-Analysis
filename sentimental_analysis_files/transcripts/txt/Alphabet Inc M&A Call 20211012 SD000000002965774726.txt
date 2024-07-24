@@ -1,0 +1,2413 @@
+FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 64Aleksandra Aleksic, Product Manager, Looker, Google Cloud
+Alison Wagonfeld, VP, Marketing Google Cloud
+Brad Miro, Developer Advocate, Google Cloud
+Dane Hanson, Director of Product Marketing, Data Cloud, Google Cloud
+Derek Downey, Developer Relations Engineer, Google Cloud
+Erika Trautman, Director, Product Management, Google Workspace
+Gerrit Kazmaier, VP and GM Database, Data, Analytics and BI Solutions, Google
+Cloud
+Ines Envid, Director, Product Management, Google Cloud IaaS
+, VP and GM, Google Workspace
+, Head of Customer Engineering, Google Cloud
+Kady Dundas, Director of Product Marketing, Google Workspace
+Leigha Jarett, Developer Advocate, Google Cloud
+Matthew Izatt, Product Manager, Google Workspace
+, Chief Diversity Oﬃcer, Google
+Nikita Namjoshi, Developer Advocate, Google Cloud
+, Developer Advocate, Google Cloud
+, CEO, Google and Alphabet
+, CEO, Google Cloud
+, Chief Product Oﬃcer, Atlassian
+Ray Bajaj, CTO, Cardinal Health
+, Global CTO and CDO, Walmart Inc.
+Jonathan ChamGoogle Cloud Next '21 Day 1
+Company Participants
+Javier Soltero
+Jonathan Cham
+Melonie Parker
+Stephanie Wong
+Sundar Pichai
+Thomas Kurian
+Other Participants
+Joﬀ Redfern
+Suresh Kumar
+Presentation
+{BIO 20723026 <GO>}
+Hey there! We are about six minutes from the kickoﬀ of Google Cloud Next, and I'm
+glad you're here. I'm Jonathan Cham, coming to you live from our Sunnyvale
+campus with a few of my Cloud Next colleagues. Over the next three days, you'll
+have complete access to our keynotes, demos, Q&As and sessions where you can
+engage with our Google experts live!FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 64And when you can't be with us in real time, customize your on-demand playlist to
+watch your favorite content anytime, anywhere.
+In the next few minutes, we're going to share some of our Google Cloud Partner and
+Customer Award Winners, and you'll meet a few of our sponsors who created video
+introductions just for you.
+First up, check out how Accenture combines its industry expertise with Google
+Cloud's technology to deliver transformation. At scale.
+(Presentation)
+It's awards season around here and we want you to recognize our partners who are
+on the front lines of digital innovation and driving exceptional results for customers.
+Today, I'm excited to share the Google Cloud Partner Awards.
+Here are our global winners in nine industry categories. Our reseller partner of the
+year is DoiT International. Services Partner of the Year, Deloitte. In the Industry
+Solutions Category, Capgemini. The Breakthrough Award, TCS. And Expansion, Wix.
+Our Technology Partner of the Year, Palo Alto Networks. Our Public Sector, Deloitte.
+Diversity, Equity and Inclusion Partner of the Year is GoPomelo. And ﬁnally, our Social
+Impact Partner of the Year award goes to Atos.
+To see all of our winners recognized across regions, check out our website.
+Congratulations to our global winners and a big thank you to all of our Google
+Cloud partners that are enabling and accelerating Cloud transformation for our
+customers every day.
+Next up, meet Atos Maven Wave, a leading Google Cloud digital transformation
+partner with more than 11 partner specializations and four-time Google Services
+Partner of the Year award winner. Most recently, the company was named Global
+Social Impact Partner of the Year. Here's more.
+(Presentation)
+And now, I'm thrilled to announce the Inaugural Google Cloud Customer Awards.
+These awards recognize customers that innovate and create industry-leading
+solutions and exceptional customer experiences with Google Cloud. There are some
+truly outstanding success stories impacting our world in countless ways, which is why
+it's my honor to present to you our Customer Award winners of 2021 in the following
+categories.
+Social Impact, Diversity, Equity & Inclusion. Cross-industry, we have multiple winners
+in this category. Retail. Again, lots of winners in this category as well. Manufacturing.
+Communications and Service Providers.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 64Alison Wagonfeld
+Sundar PichaiMoving on to Financial Services. Again, many winners in ﬁnancial services. Gaming.
+Healthcare and Life Sciences. Media and Entertainment. Government. And our ﬁnal
+customer award in the category of Education. Congratulations to all our winners.
+Google Cloud is proud to be a part of your story.
+And ﬁnally, we want to thank all our sponsors for being great partners and
+continuing to support us, including Deloitte, our four-time Global Services Partner of
+the Year winner. Here's how Deloitte can help with your digital transformation
+journey.
+(Presentation)
+Thanks for watching our Cloud Next '21 pre-show. We'd like to thank our sponsors,
+Accenture, Atos Maven Wave, and Deloitte. Thanks to our partners and our
+customers, and congratulations to all our award winners. We hope you enjoy these
+three days of Next. Be sure to build your custom playlist, share it on social, and join
+the conversation on Twitter and LinkedIn with #GoogleCloudNext.
+Now, stay right here. The live keynote is about to begin.
+Hi, everyone. I'm Alison Wagonfeld with Google Cloud. Welcome to Google Cloud
+Next, and thank you to our Google orchestra composed of Bay Area Googlers. We
+are coming to you live from our Google Cloud Campus in Silicon Valley, where I'm
+here with Sundar Pichai and Thomas Kurian.
+We have an incredible lineup over the next three days with live keynotes, demos,
+and Q&A with our leadership, and over 140 sessions covering all our Cloud
+solutions. Our customers and partners will share how they're using Google Cloud
+and Google Workspace technology to tackle their greatest challenges and
+opportunities. We're humbled to support their work and share their stories. Thank
+you for being here with us.
+And now, please join me in welcoming Google and Alphabet CEO, Sundar Pichai.
+{BIO 15004624 <GO>}
+Hi, everyone. Welcome to Google Cloud Next 2021. We are happy you're here. Of
+course, I'd be happier if you could actually be here, in person. Don't get me wrong,
+Thomas is Great company, but he still doesn't laugh at my container jokes.
+So while many of us are still waiting for a return to normal, it does feel like we are on
+our way. The question is, will we recognize normal when we get there? The
+pandemic has sped up digitization in all aspects of our lives. It's changed how we
+visit the doctor, how our kids learn in school, and how we connect with one another.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 64And it's made the future of work our present, giving us renewed opportunity to
+transform our organizations. From our work with customers, Thomas and I have
+learned there are three things that position us to be most helpful to businesses. First,
+our Cloud platform. It's designed to help enterprises transform through digitization,
+built on the deep investments we've made in technical infrastructure over the past
+23 years.
+Looking at our networking and data center investments alone, we have the largest
+network with the lowest-latency of any Cloud provider. With our expansions into
+Warsaw, Delhi, Melbourne and Toronto this year, we now have 28 regions, with plans
+for ten more. And it's all connected by 19 subsea cables.
+Our Grace Hopper transatlantic cable will be the ﬁrst to incorporate novel optical
+ﬁber switching. Second, our enterprise customers beneﬁt from our consumer scale
+and innovation. We have a deep and broad consumer ecosystem of devices and
+services. YouTube connects a global community of viewers and creators. Android,
+Nest, Assistant, and Maps are loved by people around the world.
+We have the unique ability to connect consumer ecosystems with enterprise
+ecosystems. For example, the realistic voices and language understanding that
+powers Google Assistant can improve enterprise customer experiences and increase
+satisfaction. And the underlying visual technology that enables Google Lens to help
+people shop or learn about a new ﬂower in their garden can help manufacturers
+identify defects.
+Third, we oﬀer comprehensive security that helps organizations, including ours,
+protect what matters. Security is foundational to everything we do. We have a long
+history of building it into every layer of the computing environment. We're a pioneer
+of zero-trust computing, and have deep experience running this model at scale.
+On its own, any one of these pillars would be helpful to customers. Put together, they
+can be transformative which is the mission of Google Cloud. We continue to drive
+innovation through our products. Over the past year, we've had more than 1,500
+product and feature releases. That's about four a day.
+They're all designed to be helpful, from Smart Canvas in Google Workspace that
+makes collaboration richer, to new AI-powered industry solutions, and Big Query
+Omni for data analytics across any Cloud. We've also made signiﬁcant partnership
+announcements. For example, we teamed up with global telecom leaders such as
+Ericsson, Nokia and T-Systems to deliver 5G edge and hosted computing solutions.
+What I'm most excited about is how our strengths in Cloud, Consumer and Security
+are helping top enterprises accelerate their transformation.
+Ford chose Google as their transformation partner because of our strength in
+consumer and cloud. Together, we are innovating in electriﬁcation, connectivity, and
+self-driving technologies. Ford is harnessing Google Maps to help drivers navigate,FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 64Thomas KurianGoogle Assistant to help drivers concentrate, and Google Play to keep passengers
+learning and entertained.
+L'Oreal partnered across Google to build a virtual try-on experience. They are
+harnessing the best AI models as well as using YouTube to build a community of
+fans, and Google Shopping to make it easy to discover and buy their products.
+We are humbled that so many organizations continue to put their trust in Google
+Cloud. And we are committed to helping you solve the biggest challenges you face.
+I'll be back a little later to talk more about how we do that.
+But ﬁrst, I'll turn the stage over to Thomas Kurian, CEO of Google Cloud, to talk more
+about our mission.
+{BIO 3811076 <GO>}
+Thank you, Sundar. Hello, everyone. It's a pleasure to be here on Google's Silicon
+Valley campus today for the moment we all look forward to all year long, the
+opportunity to connect with you, our customers, partners and developers, and to
+share all the amazing, exciting stuﬀ we've been working on.
+A special thank you to all our sponsors, especially our Luminary Sponsors, Accenture,
+Atos/Maven Wave, and Deloitte. Let's ﬁrst hear from some of our customers about
+the amazing ways in which they have accelerated transformation with Google Cloud.
+(Presentation)
+Now, it's not a secret that many of the biggest and most innovative tech companies,
+leaders such as Spotify, Twitter, Shopify, Mercado Libre, ShareChat, Dapper Labs, and
+so many other exciting startups and tech leaders choose Google Cloud to help them
+build, scale, and innovate. Still, other customers are transforming using our purpose-
+built industry solutions.
+The Home Depot, for instance, used contact center AI to reduce customer resolution
+time by 91 million minutes. Procter & Gamble creates personalized omnichannel
+journeys from over 275 million consumer records. IKEA Retail use Recommendations
+AI to increase eCommerce click-thru rates by 30% and increase order value by 2%.
+FIH, a Foxconn company, used Visual Inspection to identify defects 10 times more
+accurately. Mr. Cooper, a leading mortgage services provider, used Document AI to
+process mortgage documents 400% more eﬃciently. And Bank of New York Mellon
+developed a liquidity solution that predicts nearly 40% of securities settlement
+failures with 90% accuracy.
+We are helping many businesses drive durable innovation through long-term
+partnerships with Google's Transformation Cloud. To help them transform, we focus
+on ﬁve key themes.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 64Suresh KumarOne, are we the best at understanding and using data in our industry? Two, do we
+have the Industry's leading technology infrastructure? Three, are we creating the
+best hybrid workplace for our passionate and talented employees? Four, do we
+know that our data, systems and users are secure now, and that they will be secure in
+the future? And ﬁve, are we working together to address the most important
+challenges facing our world today?
+We help organizations address these important questions. Let's start with the ﬁrst
+question. Are we the best at understanding and using data in our industry? We help
+organizations unify their data across multiple clouds and silos, combining
+unstructured and structured data and making data every employee's super power.
+Using Data Analytics and AI together, Schrodinger accelerated clinical drug
+discovery by 60%, ﬁnding new breakthroughs faster. Like many states around the
+United States, the Wisconsin Department of Workforce Development confronted a
+wave of new unemployment claims. Using Google's data cloud, they clear over
+750,000 unemployment claims, reducing claim time from weeks to just days, and
+disbursing over $2 billion in unemployment beneﬁts.
+Walmart is transforming the experience for the approximately 220 million shoppers
+around the globe who visit a Walmart store, club, or eCommerce Web site each
+week.
+I'm honored today to welcome Suresh Kumar, Executive Vice President, Walmart's
+Global Chief Technology Oﬃcer, and Chief Development Oﬃcer.
+{BIO 21073281 <GO>}
+Hi, Thomas, and hello, everyone! I'm excited to be here today to share about how we
+at Walmart are innovating on behalf of our customers, our associates, and the role
+that our partners like you, Google, have played in our innovation journey.
+Now, I came to Walmart at a time of incredible digital transformation, and jointly with
+my team, created a robust execution plan to accelerate the transformation across
+three areas, building great customer experiences, optimizing our business, and
+modernizing our platform and our infrastructure.
+Each of these three priorities are individually important, but when you bring them
+together, in the scale of a business like Walmart, it has a massive impact. If you move
+at speed, you can completely transform global operations and disrupt entire
+industries. Some of our most data intensive are critical decisioning process are
+getting the BigQuery treatment.
+Through this, not only are we seeing signiﬁcant savings that will continue as we
+migrate more and more data over, we are also seeing the ability to use the data in
+interesting ways, including enabling analytics at scale, and turning data into
+actionable insights. From a data migration to BigQuery standpoint, 97% of the tablesFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 64Thomas Kurianused for data warehouse have already migrated to the cloud, and 30% of a big data
+have been migrated with plans to almost double that by the end of this ﬁscal year.
+And the cherry on the top is that BigQuery has allowed us to integrate with pretty
+much any data visualization tool and analytics tool that's out there. Thereby,
+improving our processing time by 23%, and, of course, needless to say, a much
+better user experience.
+Using BigQuery has had a direct impact on our business. And a current example is
+our ability to close our ﬁnancial books in three days instead of ﬁve days, and that's a
+pretty big deal. Leveraging our Cloud has enabled us to unleash the potential of AI
+across our entire business. This goes from predicting demand to managing in-stock
+levels to optimizing supply chain, to freeing up time for our associates to serve our
+customers.
+As one example, Express Delivery which is our two-hour [ph] delivery service, which
+we launched last year, actively uses AI behind the scenes as the customer is creating
+their order. Multiple (inaudible) work in unison to optimize the delivery route and
+determine if the customer is eligible for express delivery.
+We are building our own AI and ML capabilities to power multiple areas of our
+business including classiﬁcations, natural language processing, forecasting,
+regression, computer vision, predictions, process automations and a whole lot more.
+So, to wrap up, I'm really excited about the opportunity Walmart has to drive
+innovation and to further disrupt the retail industry. I hope you will agree that our
+work together is making a huge diﬀerence for our customers and our associates.
+Thank you for having me.
+{BIO 3811076 <GO>}
+Thank you, Suresh. Tens of thousands of incredible organizations, like Walmart,
+choose Google's Data Cloud for four reasons. First, Google's Data Cloud is the most
+complete and uniﬁed data and AI platform to help you manage every stage of the
+data life cycle, from running operational transactions to developing analytical
+applications. We help customers unify data lakes and warehouses as data lake
+houses to reduce complexity and to combine structured and unstructured data.
+Built-in Data Science and AI with support for MapReduce, Spark, and Presto enable
+continuous learning and experimentation. And, we support real-time streaming that
+natively uses open source standards like Beam and Flink. Google's Data Cloud is
+unmatched for speed, scale, security and reliability.
+BigQuery, one of the most successful and beloved data warehouse solutions, with its
+unique serverless approach, during a typical week, helps more than 3,000 diﬀerent
+organizations analyze more than 200 petabytes of data. And thousands of customers
+use Dataproc to run Spark and Hadoop clusters easily.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 64Aleksandra AleksicSpanner, a fully managed relational database with unlimited scale and multi-zone
+and multi-region consistency serves more than one billion requests per second and
+provides a ﬁve nine SLA. Google Data Cloud's Vertex AI oﬀers the AI pioneered at
+Google Research and DeepMind, so that every data scientist and ML engineer can
+now build, deploy and scale AI Models faster and with 80% less code, using AI the
+same way Google does.
+For instance, GE Appliances, an appliance manufacturing leader for more than a
+century, is using Google Cloud, including AI at the edge, to build innovative digital
+products with over-the-air updates. Finally, Google's Data Cloud is more open
+standards-based. You can choose from Postgres, MySQL, Redis, MongoDB, or
+migrate from Oracle or SQL Server. And we have strategic Partners with leading
+data-driven applications.
+For instance, C3 AI has made its entire lineup of AI software Based applications
+available on Google Cloud. Our customers can analyze, govern, and visualize data
+from many databases and storage systems on Google or other Clouds, including all
+of Google's databases, Google Sheets, BigQuery, using LOOKER, our premier BI and
+embedded analytics solution.
+Today, we are thrilled and excited to announce that we will be integrating Tableau, a
+leader in data visualization, with Looker, Google Sheets, and BigQuery. Tableau
+customers will soon be able to use Looker's semantic model, enabling new levels of
+data governance and access to data.
+Let's take a look. Aleks, over to you.
+Thank you, Thomas. In this demo, we're going to show you how you can seamlessly
+use Looker and Tableau together to answer your critical business questions.
+Let's say, I work at an eCommerce company and our Looker model provides a
+consistent view across the organization for our most important business metrics.
+Here, for example, you can see the deﬁnition for gross margin. Our Looker
+dashboard is based on that same semantic model. Since it provides trusted insights
+at a glance, I can immediately see that sales are up. However, did I miss anything?
+Let's ﬁnd out.
+Say I'm more comfortable working in spreadsheets. I can now take advantage of the
+new integration between Looker and Google Sheets. With a couple of clicks, I have
+access to my governed and trusted Looker data in Sheets, and I can easily connect to
+my data models.
+To understand which factors are impacting sales, I'll drag and drop ﬁelds from my
+model into a pivot table to break out sales by category over time. Since it's pulling
+from Looker, I can trust that all the data deﬁnitions are consistent. I can use familiarFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 64Thomas KurianSheets formulas and formatting to get insights faster and understand how speciﬁc
+products are selling.
+We see a notable downward trend month over month for activewear. I want to share
+these ﬁndings with my marketing team, who's using Tableau. Now I can use the new
+Tableau and Looker integration to combine data from my Looker data model with
+marketing data to build a more comprehensive view of my business.
+Next, I'm going to plot sales by category, and then add marketing spend to the view.
+Tableau makes it easy for me to drill down on relevant data. Now I can see that social
+marketing spend was signiﬁcantly lower for activewear, and this is why there's a
+downward trend in activewear sales.
+I'm going to publish this result on Tableau online and tag my marketing team so they
+can take action. Leveraging integrations between Tableau, Sheets, and Looker, allows
+our teams to build powerful visualizations using trusted data. We can then share
+these visualizations throughout our organization to drive informed decisions, action,
+and impact.
+Back over to you, Thomas.
+{BIO 3811076 <GO>}
+Thank you, Aleks. The second question customers ask is, do we have industry-
+leading technology infrastructure? We're experiencing great momentum with our
+Open Infrastructure Cloud. Many of the most demanding and technically advanced
+customers in the world disproportionately choose us.
+Take, for example, leading media companies and streaming services, such as
+Univision and Globo, the largest media group in Latin America, they use our very
+high-performance networking, computing and storage to broadcast media,
+including live events such as the recent Tokyo Olympics.
+Leading telecommunications companies are also choosing Google Cloud. Reliance
+Jio, the world's second largest mobile carrier, is automating its 5G network.
+Vodafone is processing over a billion network events each day. AT&T is delivering
+new multi-access edge computing solutions, and Telus is migrating critical IT and
+network workloads, all to Google Cloud.
+Leading data management companies, including Databricks, Redis, Cockroach Labs,
+Couchbase, Elastic, Inﬂux Data, MariaDB, MongoDB, Neo4j, and Singlestore are all
+growing faster on Google Cloud than on any other Cloud and they love our storage
+scalability and advanced infrastructure.
+MongoDB, for instance, has more net new customers via Google Cloud Marketplace
+than any other Cloud. Leading cybersecurity companies, such as Palo Alto Networks,FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 64Exabeam, F5 Shape, Splunk, Broadcom, and ForgeRock are also choosing Google
+Cloud for its performance, global scale, and underlying security.
+Customers are migrating and transforming SAP and VMware workloads to Google
+Cloud. In the last year, we've added three times the number of SAP customers as the
+prior year, and we're accelerating. PayPal, for instance, has an SAP/HANA scale out
+supporting 40 million business transactions daily and 200 billion records touched in
+just 30 seconds. Mitel, in Canada, migrated over 1,000 VM wear virtual machines in
+less than 90 days to Google Cloud VMware Engine.
+Nylas, an API platform company, chose our Tau virtual machines along with Google
+Kubernetes Engine, as they saw over 40% better price performance than on a
+competitor. Customers choose our open cloud infrastructure for three main reasons.
+First, we make your path to migrate and modernize using the Cloud easy with
+migration tools, new serverless and container capabilities, and Managed services as
+your developers spend more time building experiences that your customers love.
+Second, we oﬀer transformative capabilities with cutting edge performance and
+security. And our network oﬀers three times the throughput of other Cloud
+providers. Third, we remain, and were, the very ﬁrst and only Cloud provider with a
+clear, multi-cloud strategy.
+We provide you with a consistent developer experience built on open source to
+write once and deploy anywhere. Many customers like Plaid, a ﬁnancial services
+leader, use Anthos to deploy, operate and manage applications across multiple
+clouds.
+Recently, we introduced Anthos for virtual machines, standardizing the way that you
+manage applications across both virtual machines and containers. For multi-cloud
+data, BigQuery Omni lets customers analyze data across Google Cloud, AWS, and
+Azure.
+With it, Johnson & Johnson, was able to combine data in Google Cloud and AWS S3
+using BigQuery Omni without needing to migrate data. Customers also want to
+expand where they use Google Cloud, whether in their private data Centers or out
+on the edge.
+For instance, some workloads cannot move to the public cloud entirely due to the
+need for large amounts of local data Processing, extremely low latency, or strict
+regulations. To solve these challenges, we're announcing today, Google Distributed
+Cloud, a portfolio of hardware and software solutions that extend our infrastructure
+to the edge and even into your own data center.
+To tell you more about it, please welcome Ines from our Google Cloud Distributed
+Cloud Team.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 64Ines Envid
+Thomas KurianThank you, Thomas. Google Distributed Cloud is a set of fully managed services
+running on Google managed hardware. Based on open APIs and built on Anthos, it
+gives customers greater deployment ﬂexibility and ensures more consistent
+operations across hybrid and multi-cloud environments more than any other cloud
+provider.
+There are four deployment scenarios depending on your speciﬁc needs. Google's
+network edge. This allows customers to leverage over 140 network edge locations
+around the world. Operator edge. This scenario is designed to accommodate
+emergency services and applications with a stringent latency and reliability
+requirements for a speciﬁc operator. Customer edge, this scenario supports
+customer's own edge locations such as retail stores, factory ﬂoors, or branch oﬃces,
+which require localized compute and processes. And ﬁnally, customer data centers.
+This deployment option is speciﬁc to customer-owned data centers and co-facilities.
+Google Distributed Cloud also includes a hosted mode to run sensitive workloads
+and address data, sovereignty, security, and privacy requirements. It does not require
+connectivity to Google Cloud at any time to manage infrastructure, services, APIs or
+tooling. You have the choice to manage it yourself, or host through a designated
+trusted partner.
+Back to you, Thomas.
+{BIO 3811076 <GO>}
+Thank you, Ines. Partners like HPE, Dell, Cisco and NetApp are key as we deploy
+Google Distributed Cloud globally on best-of-class hardware. I am pleased to
+announce the expansion of our partnership with NetApp in two important ways. First,
+NetApp is our primary partner supporting Google's Distributed Cloud storage
+infrastructure. Second, for customers using Google Cloud VMware Engine, they now
+have preview access for NetApp Cloud Volumes.
+We are the only hyperscaler to provide customers with this choice. Deep
+partnerships with T-Systems and Thales have also enabled us to address the evolving
+sovereignty requirements for Cloud technology in Germany and France. The next
+question we hear is, how can we provide the best environment to help employees
+create and innovate together, especially in a hybrid workplace?
+Hybrid is redeﬁning how we all work, making it less about where we work, but more
+about the quality of our experience. Studies estimate that more than 48% of
+employees will work remotely post-COVID. Google Workspace is the best platform
+for hybrid Work with Simple, powerful and secure tools to help people communicate
+and collaborate with one another, no matter where they are.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 64We introduced Smart canvas to help content creators remove friction from work
+ﬂows and enable teams to stay connected outside of meetings to foster well-being
+and reduce video call fatigue. We made communication and Collaboration
+completely seamless.
+For instance, users can easily present and collaborate in meetings, create meeting
+notes from the Calendar, present in Meet directly from Docs, Sheets or Slides, and
+collaborate directly from Chat and Spaces. We optimize collaboration from all
+mobile devices to provide great experiences for frontline workers, who make up
+80% of the global workforce.
+One of America's largest hospital systems, CommonSpirit Health, is advancing its
+patient care mission during the pandemic by making its frontline doctors and nurses
+productive with Google Workspace. Since hybrid work has removed the notion of a
+physical location for work, Google Workspace created Spaces, a uniﬁed digital
+location for work.
+Today, more than 3 billion users move securely and seamlessly between Mail, Chat,
+Audio, Video and now Spaces. And you, too, can choose among the over 5,300
+public apps in our marketplace and you can also add thousands of private apps to
+enhance your workspace.
+Now, I want to step aside for just a minute and tell you about a hidden secret in our
+portfolio products. AppSheet. Our local platform that makes it easy for everyone, not
+just professional developers, to build amazing apps and workﬂows.
+For instance, property managers at Crawford Properties [ph] use the AppSheet to
+build a mobile app to log, track, and resolve problems with headquarters. Replacing
+a multi-step manual process. We're also partnering with Citrix, because employees
+sometimes need access to windows and Mac OS applications and desk tops, directly
+served from the cloud. We're expanding our partnership with Citrix today to deliver
+an integrated desk top as a service solution, purpose built on Google Cloud.
+Now customers ask us, do we know that our data, systems and users are secure? And
+how do we keep them secure in the future? You know, as more digital users access
+more data from more locations, the risk of cyber security breaches is accelerating. By
+pioneering new approaches to security, Google keeps more people safe online than
+anyone else in the world.
+Take, for instance, JetBlue. It's keeping its systems secure, protecting the data of all
+its travelers, and modernizing its security operations using Chronicle to detect
+threats across petabytes of security telemetry, and eliminating data blind spots.
+Commerzbank, one of Germany's largest banks, is using our new Certiﬁcate
+Authority Service to verify machine and workload identity, improving security,
+simplifying operations and eliminating entire classes of threats. Secure-by-defaultFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 13 of 64Sundar Pichaidrives customers to choose Google Cloud. First, we have implemented zero trust at
+the core of our services and our operations, enabling you to trust nothing.
+Second, we have built cloud-scale threat detection and response, allowing you to
+detect everything. And third, we know it's not just about tools. We provide the
+advisory services you need to transform security operations. We keep customers safe
+with BeyondCorp Enterprise which enables Zero Trust Access for all users. Today,
+we're expanding Beyond Corp to all your applications, modern and legacy, Web and
+desk top, and even to production environments.
+We keep customers safe by eliminating software supply chain vulnerabilities. Over
+the past two decades, we pioneered an approach to secure our own software supply
+chain. We are now making that technology available through the SALSA open source
+framework, and as managed services in our cloud to help you secure your own
+software supply chain.
+We keep customers safe by integrating chronicle's threat detection capability, with
+our security Command Center, allowing you to respond faster to potential risks. And
+we keep customers safe by bringing our security expertise to you with our Google
+Cybersecurity Action Team, a team of our leading security experts who can help
+shape your security transformation, from your very ﬁrst implementation, through
+responding to a major incident, and engineering new solutions as needs change.
+Finally, we continue to expand our secure ecosystem, with companies like Fortnet,
+Palo Alto Networks, Thales, and so many more. Today, I would like to welcome a new
+security partner, Cybereason, with whom we are collaborating to deliver a new
+extended detection and response oﬀering that will combine Chronicle's capability
+with Cybereason's MalOps engine for faster, easier threat detection and response.
+Our products, our new Cybersecurity Action Team and our partnerships all make the
+world safer from cyber threats. To talk more about how we help keep each and every
+one of you secure, and how we're addressing some of the most important
+challenges facing our world, I'd like to invite Sundar back. Thank you.
+{BIO 15004624 <GO>}
+Thank you, Thomas. Security is top of mind for businesses of all sizes, as well as the
+public sector. And despite the progress that has been made in cybersecurity, large
+scale breaches continue to make headlines.
+That's why, in August, Google announced we will invest $10 billion over the next ﬁve
+years to strengthen cybersecurity. That investment includes expanding zero-trust
+programs, helping secure the software supply chain, and enhancing open-source
+security.
+A new challenge is keeping collaboration secure and private, as we move to hybrid
+work environments. To help, we're introducing a new Work Safer program. ItFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 14 of 64Stephanie Wongprovides the highest level of security for your email, meetings, messaging and more,
+and brings together Google Workspace with Titan Security Keys, BeyondCorp, and
+other secure technologies, products and partners.
+Now every kind of organization and business can access the same security
+protections that make work safer at Google. Security is an issue that aﬀects us all.
+And this brings us to the last question Thomas posed. Are we addressing the most
+important challenges facing our world? Climate change is one of the most profound
+challenges we face, and it will take all of us working together to solve it.
+Sustainability has been a core value for us for more than two decades.
+Google has been carbon neutral since 2007, and we've matched our operations with
+100% renewable energy over four consecutive years. Last year, we set out to make
+our third decade of climate action our biggest yet. That included a bold commitment
+to operate on 24/7 carbon-free energy across our oﬃces and data centers by 2030.
+And last week, we announced new ways we're helping one billion people make
+more sustainable choices. When it comes to enterprises, one of the most important
+sustainability choices is where to run your technology. IDC predicts Cloud
+migrations, over the next four years could reduce carbon emissions by over 1 billion
+metric tons or the equivalent of removing 200 million cars oﬀ the road for a year.
+We are proud that Google Cloud is the cleanest cloud in the industry. Earlier this
+year, we introduced a way for customers to choose the cleanest regions to run their
+workloads. Today, we are expanding our portfolio of solutions and partnerships to
+help reduce your carbon footprint.
+First, we are focused on giving you greater transparency around carbon emissions
+data. We are announcing carbon footprint, a new service to measure, track, and
+report the gross carbon emissions associated with your Google Cloud usage. Having
+this data at your ﬁngertips is really important. And we know that many customers
+track sustainability data in other places. That's why I'm happy to announce that
+Google Cloud emission data will integrate directly into Salesforce's Sustainability
+Cloud.
+We also want to give you the tools to act on that data. So today, we're introducing a
+new tool that will alert you when you have idle workloads and make
+recommendations to reduce carbon emissions. It's all part of our goal to help make
+your Cloud transformation secure and sustainable, and solve for what's next.
+So on behalf of Thomas and myself, let me thank you once again for trusting us to be
+a partner with you on this journey. And we hope you enjoy the next three days.
+Thank you.
+{BIO 19738557 <GO>}FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 15 of 64Gerrit Kazmaier
+Stephanie Wong
+Gerrit KazmaierHello and welcome to our very ﬁrst spotlight. I hope you enjoyed the opening
+keynote. For the next hour, we will be diving in to all things data. I'm Stephanie
+Wong, a developer advocate, and I'm here with Gerrit Kazmaier, who leads
+database, analytics, and BI solutions at Google Cloud.
+Thanks, Stephanie. I am very excited to be here, and to share with everyone what we
+have been working on. The team thought we start on the light side of things here,
+and start with a joke. One of my favorite jokes, actually. So here it goes. A SQL Query
+walks into a bar and approaches two tables and asks, can I join you? Okay. I guess I
+guess we roll the video instead.
+(Presentation)
+{BIO 19738557 <GO>}
+And welcome back. So, what are we solving for today? This spotlight session is about
+how to leverage data as your most strategic business asset, especially as you adapt
+to and anticipate change.
+Data has the power to transform stagnant businesses into proﬁtable ones, streamline
+operations to improve people's lives, and identify areas of waste to radically reduce
+unnecessary spending. It can be used to solve businesses and world problems, both
+the simple ones and the ones that keep people up at night.
+It has the potential to accelerate progress faster than a think tank or world summit.
+And it's largely untapped. As you learn more about Google Cloud capabilities and
+make progress on your data Cloud journey, you can unlock your own 10X mindset as
+external factors accelerate the pace of change.
+Never before have we faced this much uncertainty, and now is the time when every
+company can turn data into an ability. The reality today is that too many companies
+struggle to remove the barriers to turn data into intelligence.
+This is exactly what we are seeing with our customers, turning data into intelligence
+and delivering value is no longer a nice to have. It is essential. A recent study shows
+that only 32% of the companies surveyed gain value from their data investments, and
+this is the result of diﬃcult-to-access, slow, unreliable, complex and fragmented
+systems.
+Many companies just feel overwhelmed with the demand for the various types of
+working with data and of doing it at scale. They feel walled in with a lack of
+integration, a lack of openness, a lack of portability, and very poor APIs.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 16 of 64Stephanie Wong
+Gerrit KazmaierIt is time to re-imagine our data cloud strategy that is unlocking your data advantage.
+Build great applications that understand and interact with your customer, and
+operational databases that scale to billions of queries per second, react on any event
+in real times and process millions of data streams, analyze petabytes of data without
+sizing or tuning your data warehouse anymore, and ultimately, optimize your
+processes with hundreds of machine learning models in production.
+This is how you unlock your data cloud and unlock your data advantage. To build
+your data cloud, you need your systems to be simple. And this requires a partner
+that meets you where you are today and helps you to mature where you want to be,
+but at your own pace.
+Making the complex simple is our business. It has been for decades, building
+systems that mask the complexity of the entire internet behind a simple, single
+interface, and building applications with billions of users. It all runs on data and
+analytics. So, you can say that data is our DNA, and we can't predict the future, but
+we can plan for it.
+And we are deeply grateful to work with tens of thousands of organizations who built
+their data clouds on Google Cloud and unlocked ultimately their data advantage
+from databases to analytics to streams to lakes to AI, and built a uniﬁed data cloud
+together with us.
+{BIO 19738557 <GO>}
+It's leaders like you who are accelerating their use of data to transform complexity
+into simplicity. This week at Next, you'll hear from leading organizations that have
+chosen Google Cloud for their data Cloud strategy over market alternatives.
+Verizon Media is one of these customers. Verizon uses BigQuery and Looker to scale
+their massive enterprise media warehouse, supporting monthly scans of more than
+one exabyte of data. The performance improvements include 90% plus productivity
+improvements across the board and lower overall TCO compared to other cloud
+providers.
+Almost overnight, traﬃc to Chess.com tripled. The pandemic and successful series,
+"The Queen's Gambit" created a perfect storm. Ten years' worth of growth occurred
+in just six months, and daily active users rose from 280,000 to more than one million.
+There's no way to handle that surge without the move to Google Cloud. Using
+BigQuery's near inﬁnite ability to scale in response to demand, this meant that
+Chess.com didn't have to forecast site traﬃc and worry about unexpected surges or
+waste money by over-provisioning servers that go unused.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 17 of 64Stephanie Wong
+Ray Bajaj
+A - Stephanie Wong
+Q - Ray Bajaj
+A - Stephanie WongTake AutoTrader. It's U.K.'s largest online automotive marketplace and they were
+able to migrate more than 60% of their current Oracle footprint to Cloud SQL.
+AutoTrader builds their data cloud by leveraging Cloud SQL, BigQuery and Looker
+to deliver access to their data to all of their users.
+And with Cloud SQL as a fully managed service, AutoTrader release cadence has
+improved by over 140% year over year, enabling an impressive peak of more than
+450 releases to production on a single day. And this is how you build your data
+advantage.
+{BIO 19738557 <GO>}
+When Cardinal Health migrated to Google Cloud, they enabled disaster recovery,
+increased their ability to respond to business challenges, and leveraged machine
+learning to drive business eﬃciencies, all while reducing their cost by 25%.
+We would like to welcome Ray Bajaj, CTO of Cardinal Health to share their data
+transformation story. Ray, thank you so much for joining us here today.
+Thanks, Stephanie, and I'm really happy to be here today. Cardinal Health is a
+pioneer in healthcare industry for leveraging the cloud as our primary source of
+infrastructure, achieving our cloud transformation journey goal with more than 80%
+of our workload fully migrated on to the cloud.
+Our journey to Google Cloud started in 2018, leveraging the security and ﬂexibility
+of Google Cloud allows us to scale and innovate at lower cost, which empowers the
+organization to focus on building the future of healthcare and driving better
+outcomes across the healthcare ecosystem.
+Questions And Answers
+{BIO 19738557 <GO>}
+So, why Google Cloud?
+With Google, we can deliver modern data insights capabilities to our engineering
+teams so that they can transform our whole business, while also improving the
+customer experience, helping the organization evolve in adjacent areas of
+healthcare.
+We also selected Google Cloud because of its ability to partner with SAP and run
+massive ERP workloads reliably.
+{BIO 19738557 <GO>}FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 18 of 64Q - Ray Bajaj
+A - Stephanie Wong
+Q - Ray Bajaj
+A - Stephanie Wong
+A - Gerrit KazmaierNow, what outcomes have you been able to realize as a result of this?
+We leverage Google's Looker and BigQuery to develop episode analytics, a data-
+driven, predicted cost-tracking tool that enables community and quality practices to
+accurately measure the cost of care and provides clearer insights into value-based
+performance.
+{BIO 19738557 <GO>}
+Well, Ray, Cardinal is clearly at the forefront of these shifts, and we can't wait to see
+what's in store for you. So, thank you so much for being here with us today.
+Thank you.
++++presentation
+{BIO 19738557 <GO>}
+Organizations like Cardinal Health are solving complex challenges with Google
+Cloud. But what is holding others back from using data to accelerate innovation?
+Companies are looking for solutions that can simplify their data landscape to move
+from a state where every scenario requires a new tool to an agile platform that
+combines data analytics, databases, data engineering and science, security and
+governance into a single platform. To move from data at rest to a platform where
+data is accessible in real-time.
+Our vision is to provide a platform that allows data to unfold its full potential.
+Ultimately, enabling us to reach new horizons ranging from newly built digital
+experiences, products and business models could advance machine learning and AI
+to ultimately empowering humans to reason beyond their own biological capacity.
+And we have built the industry's most simple, intelligent and best integrated cloud
+data platform that enables businesses to fuel their own digital transformation. And
+this is how you unlock your data advantage, to seize new opportunities, improve
+operational eﬃciencies and deliver new use experiences that delight customers,
+partners and your employees.
+Thanks to you, our customers and partners, Google's data platform is one of the
+fastest growing clouds fueled by the demand for products like BigQuery. And here
+comes the most exciting part. Today, we are excited to announce a number of new
+product innovations. And the ﬁrst announcement goes out to all of the data
+engineers in the world who are using Spark on Google Cloud.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 19 of 64A - Stephanie Wong
+A - Gerrit Kazmaier
+A - Stephanie Wong
+A - Gerrit KazmaierOpen standards are at the heart of our Data Cloud strategy, and at Google, we
+follow an open approach that enables ﬂexibility and choice. And today, I'm excited
+to announce Project Big Spark. It is the world's ﬁrst autoscaling serverless Spark
+service in existence. And regardless of whether you are a BigQuery user, a Dataproc
+user or a cloud AI user, we have created an integrated ecosystem around Spark that
+the factor standard for data engineering workloads.
+We want to make it easy for you to onboard on our platform of Spark and never limit
+your ambition with data science and data engineering.
+{BIO 19738557 <GO>}
+Our long history in the open source community has shown us that betting on the
+community ﬁrst is always the right strategy to give our customers portability and
+optionality. We're excited to make Spark a ﬁrst-class citizen on our platform and to
+automate the productionalization of your data engineering and data science
+workloads.
+The next announcement goes to all of the data scientists. As enterprises consolidate
+their data platforms, the distinction between advanced analytics and data science
+and machine learning is really diminishing.
+Today, more than ever, data scientists are looking for uniﬁed interface to be able to
+seamlessly connect their entire data estate, and also run all explorations with SQL,
+Spark and auto machine learning libraries. With Vertex AI, we have simpliﬁed the
+experience for data scientists with 80% less code required to train a model
+compared to any other platform.
+As a product of Google's Vertex AI's credit sheet, I am happy to announce the
+preview of AI Notebook for Vertex AI that oﬀers a fully managed, scalable and
+enterprise-grade IDE combined with easily enforceable policies and user
+management.
+{BIO 19738557 <GO>}
+These AI Notebook innovations are great examples of Google bringing together the
+power of data and AI. Google truly aims to fast-track innovation by eliminating the
+need for data scientists to shift context between aspects like data analytics, data
+science and machine learning.
+That is right on. And here is an exciting announcement to all of the developers. We
+are adding a Postgres interface for Spanner, which continues our commitment to
+openness and reinforces our eﬀorts to democratize the access to Spanner.
+With this new Postgres interface, enterprises can take advantage of Spanner's
+unmatched global scale, ﬁve 9s of availability, and strong consistency using skills andFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 20 of 64A - Stephanie Wong
+A - Gerrit Kazmaier
+A - Stephanie Wong
+A - Gerrit Kazmaiertools from the popular Postgres ecosystem. And starting today, you can create a
+Spanner database that uses PostgreSQL dialect and connect with its open wire
+protocol. This interface supports Spanner's rich feature set using the most popular
+Postgres data types and SQL features, and thus, democratizing access to Spanner for
+millions of developers out there.
+Our commitment to the ecosystem has been longstanding with ongoing support for
+Cloud SQL, for MySQL, Postgres, and SQL Server, so you can lift and shift your
+databases. Our mission with Cloud SQL is compatibility, and we were the ﬁrst cloud
+provider to support Postgres 13.
+{BIO 19738557 <GO>}
+These announcements are so exciting because Postgres has emerged as a popular
+choice for operational databases. Postgres is known and loved for its stability and
+feature set and has built an active and growing ecosystem of developers and tools.
+Our investments in Postgres are a step in the right direction to continue meeting
+developers where they are with the tools they love.
+We are excited to announce new ways to help organizations going beyond
+traditional business intelligence to analyze, access and act on data. Looker continues
+to integrate with the other oﬀerings in our portfolio, as well as continues to innovate
+with our core product.
+And to address the needs, we are continuing to simplify the experience across
+BigQuery, Looker and Data Studio, together with Connected Sheets. Today, we are
+announcing new enhancements which bring the reality of augmented analytics to
+more people with Looker solution for Contact Center AI to help businesses leverage
+AI and converse naturally with customers and deliver outstanding experiences.
+We are also announcing a new Looker Block for healthcare NLP AI, which creates a
+user interface to advance AI and natural language functionality, and this helps
+healthcare providers to gain deeper understandings of their patient data.
+{BIO 19738557 <GO>}
+Part of the secret sauce lies in Looker's in database architecture and semantic layer
+which makes it possible for business users to trust data no matter how they
+experience it via a dashboard, E-mail or text alert or even a custom application.
+We are excited for these recent innovations, but we couldn't do this alone. Together
+with our community of customers, partners and developers, we are delivering
+innovation across a variety of use cases. We are able to create new solutions and
+accelerate your journey to transform data in to value.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 21 of 64A - Stephanie Wong
+A - Gerrit Kazmaier
+A - Leigha JarettNext, I want to announce an important partnership with Informatica. We have
+partnered with Informatica to help hundreds of customers succeed with their journey
+to the cloud.
+Together, we are helping customers move mission critical workloads to the cloud
+and integrate with Google Cloud technologies, such as BigQuery. Today, we are
+excited to announce that we are deepening our partnership with Informatica even
+more.
+First, for existing Informatica power center customers, we are so pleased to
+announce our migration factory, which will help to accelerate migration of data-
+driven workloads to Google Cloud with Informatica Cloud.
+Second, we are pleased to announce our new services on Google Cloud's
+Marketplace, which will include Informatica's integration and enterprise data catalog
+oﬀerings.
+And we are continuing to invest in key product integrations with databricks. Our
+engineering and product teams continue to work together to deliver the joint road
+map, and we have multiple customers using our latest enterprise security and
+performance enhancements of databricks on GKE.
+In Q4, we will also deliver databricks SQL, databricks photon on Google Cloud, as
+well as we are launching new datacenter regions together in EMEA and APEC. Our
+AI teams are engaged to allow customers to experiment and develop models on
+databricks and Vertex AI together and deploy models at scale in to production with
+Vertex MLOps suite.
+{BIO 19738557 <GO>}
+So much goodness. Okay. Before we get into the live demo, I recommend tuning in
+to more sessions to hear from all our customers this week. Join the chief data oﬃcer
+panel discussion and listen to our product strategy sessions for database, data
+analytics, BI and AI.
+We can't wait to hear from you, connect with you. Join us in our community and
+share your expertise and ask your questions. But most importantly, start to build your
+data cloud and unlock your data advantage.
+Okay. Time now to get hands-on and check out our products in real action. Join us
+for live demo and interact with our experts and one another, and then stick around
+for the live Q&A following the demo. I'll see you there.
+Hi, everybody, I'm Leigha.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 22 of 64A - Nikita Namjoshi
+A - Leigha Jarett
+A - Nikita Namjoshi
+A - Brad Miro
+A - Derek Downey
+A - Brad Miro
+A - Leigha Jarett
+A - Nikita Namjoshi
+A - Leigha JarettAnd I'm Nikita.
+And welcome to the Data Cloud live demo. If you're just joining us from this
+morning's keynote and spotlight, you heard some of the latest innovations we
+launched, Earth Engine, Spark on Google Cloud, PostgreSQL interface for Spanner,
+and Vertex AI Workbench, all to help organizations (technical diﬃculty) complex
+patented [ph] data system and simplify them, bringing together data on a massive
+scale to explore a real-world scenario for climate and supply chain analytics.
+In order to do this, we're going to need the whole data team. Say hi, everybody.
+Hello. I'm Brad.
+Hi. I'm Derrick.
+Now, a quick reminder. This demo is truly live and you can engage with us directly.
+So, ask questions, say hi in the chat window, and hit those emojis.
+I think I see some coming in now. I see lots of hearts and ﬁre. A lot of people saying
+hello in the chat. Thanks, everyone, for joining us today. So, if you can't see this or
+the chat, just go back to the Next Event Website and click on the blue Join the
+Interactive Experience button.
+Okay. Okay. You're actually joining us for our weekly stand-up at Cymbol Superstore,
+a ﬁctional U.S.-based grocery chain focused on sourcing from local producers. Like
+many diﬀerent industries, we need to bring in together disparate data sources to
+build resilience.
+Speciﬁcally, for us, drought in the western U.S. has impacted our producers, and our
+supply chain has been disrupted with decreased shipments week over week. We
+need to better understand how to manage inventory to prevent stock-outs, and
+ensure we can scale in both how we analyze information and how we run our
+transactions.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 23 of 64A - Nikita Namjoshi
+A - Leigha Jarett
+A - Nikita Namjoshi
+A - Leigha JarettAll right, team. So, to address this supply and scale challenges that Nikita just
+mentioned, we have four diﬀerent workloads. First, I'm going to evaluate the best
+climate information to identify at-risk producers. Then, Brad will mature our data
+pipelines to transform that data. Next, Derek will dig into scaling our transaction
+processing. And ﬁnally, Nikita will show how we're gaining new insights by evolving
+our data science capabilities.
+Let's get into it and let's keep hearing from all of you out there, our data pros.
+Leigha, you're up ﬁrst.
+Great. Thanks, Nikita. So, in order to gain insight into our supply chain, ﬁrst, I need to
+evaluate the risks. So, I'm focusing on ﬁguring out how drought impacts the very
+source of our grocery products. And to do this, I turn to Google's platform for earth
+science data and analytics, Earth Engine, which has a huge catalog of satellite
+images for things like climate, weather, crop lands and much more.
+There's currently over, like, 50 petabytes of data in the catalog. Plus, more and more
+images are added each day. So, let me just go ahead and bring up this cool little
+application that I built using the Earth Engine Code Editor so I can walk you through
+the three datasets we'll be using today.
+First is going to be crop data from the USDA NASS Program, which I can grab right
+from the public data catalog by searching. This dataset is going to contain one
+image of the U.S., here, going back all the way to 1997. And each ten-meter pixel in
+this image has actually been assigned a crop type.
+Let me just close that. The second dataset contains the outline of agricultural ﬁelds
+and we're going to use Earth Engine to assign each one of these ﬁelds the crop type
+that is most prevalent among the sales that cover it. So, in this view that I'm showing
+right here, the pink ﬁelds are alfalfa and the dark green ﬁelds are almonds.
+Leigha, these visuals are super helpful, but can we export this data for analysis in
+other environments?
+Yes. I'm actually going to push this into Cloud Storage and BigQuery in just a sec.
+But ﬁrst, I want to add in some additional signals on drought.
+So, this third dataset that I'm using is a collection of both short and long-term
+drought indicators, meaning that we can see what drought looks like for each ﬁeld
+time. Now, using datasets like this does require some deep subject-matter expertise.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 24 of 64A - Brad MiroSo, special thanks to our real-world partners at Climate Engine who build solutions
+on top of Earth Engine's API, helping organizations ground their analytics projects
+with scientiﬁcally accepted methodologies.
+Okay. So, you just saw how we used geospatial data and I want to know how you use
+it in your analysis. So, go ahead and answer that poll so we can see. All right,
+everyone. So, with these layers in place, we can start exploring drought risk. Let me
+just go ahead and zoom to this ﬁeld.
+And here, I'm going to show an almond orchard northeast of Modesto, California
+and overlooking that is the long-term drought indicator. So, this orange tint that
+you're seeing means that this ﬁeld has experienced pretty high levels of drought
+over the last ﬁve years.
+Now, if I go ahead and just zoom out a bit, we can actually see that the entire Central
+Valley in California is pretty drought stressed. So, my last step was to calculate
+drought risk for each of the ﬁelds I showed before and this will tell us which farms
+and produce types are potentially at risk for not meeting customer demand, which is
+just one consideration to inform symbols resilient strategy.
+Better yet, we can incorporate this geography data with other spatial stuﬀ like store
+and customer locations that are already inside of BigQuery. And anyone who knows
+me knows that I love BigQuery. If you agree, let me see in the emojis.
+All right. So, the code editor has been great for interacting with Earth Engine, but
+making these calculations at scale requires a diﬀerent approach. So, I went ahead
+and created Earth Engine tasks for batch processing to run these calculations over all
+the data in ﬁve-day increments for 10 years.
+I also set up a cloud function to run every ﬁve days going forward so that we'll always
+have fresh data. Now, just as a quick recap, we jumped into Earth Engine to evaluate
+earth science data that indicates climate risk for our farm ﬁelds.
+Now, we'll have fresh drought data available in Cloud Storage. So, just think of the
+power of integrating huge amounts of specialized data giving us a complete picture
+of supply risk for our business.
+And I think I can see the poll results coming in now. It looks like lots of people are
+using geospatial data for all diﬀerent kinds of things, and if your answer wasn't in the
+poll, just go ahead and let us know in the chat.
+So next up, Brad will transform and push this data into BigQuery for geospatial
+analysis with our existing data. So, Brad, over to you.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 25 of 64A - Leigha Jarett
+A - Brad Miro
+A - Leigha Jarett
+A - Brad MiroOkay. That was pretty cool, Leigha. Thanks. All right. So, to gain more insight in to
+how drought is impacting production, my main focus has been building out the data
+transformation pipeline to push farm ﬁeld drought indicators from Cloud Storage
+into BigQuery.
+Speaking of batch processing, as you know, to assist with inventory management,
+price optimization and product assortment, we use Spark to standardize our large-
+scale data processing and we Google Cloud Dataproc as our long-running clusters.
+For you Dataprocs out there, we'd love to know how you're using Spark today. So, let
+us know while I go ahead and pull up the Cloud Console. So, here is a Dataproc
+cluster we currently use to schedule high Spark gaps. (Technical diﬃculty) cluster
+with price bar code. This code is typical boiler plate code, right, to do basic data
+transformations.
+In this case, we are processing the Earth Engine ﬁles from Cloud Storage performing
+type checking and mapping to ensure proper ingestion into BigQuery using the
+Spark BigQuery Connector.
+Okay. So, this is pretty cool, but I think having a batch work ﬂow that's scheduled on
+a continuously running cluster seems like it can be kind of wasteful. So, is there any
+way we can make this more eﬃcient?
+That's a fair point, Leigha. There is still some overhead in management here, and for
+hardened batch cases like this, it would be preferred to have these jobs run on their
+own discrete resources.
+Good news, with the new serverless option for Dataproc, we can submit a price work
+job without spitting up any infrastructure. These automagic [ph] capabilities, I can
+spend more dev time writing code and less time on managing infrastructure.
+All right, Brad. First oﬀ, I'm pretty sure that you just set me up for that, and second,
+you deﬁnitely made up that word, automagic.
+Yes. But can I get some emoji love for that? Anyway, I'll now go ahead and export
+this notebook to a Python ﬁle using NB convert. Okay. And next, let's go and use the
+Cloud SDK to submit a serverless price Spark job. We can use the Dataproc API and
+call batches to submit a serverless job.
+So, I'm showing you here a price Spark job but I can also submit Spark jobs in
+(inaudible) or SQL. With auto provision and auto scale, no infrastructure
+conﬁguration is needed. This helps (technical diﬃculty) powerful distributed dataFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 26 of 64A - Nikita Namjoshi
+A - Leigha Jarett
+A - Derek Downey
+A - Nikita Namjoshi
+A - Derek Downeyprocessing model. With these capabilities, there's no need to manually create into
+clusters.
+So, once I've submitted (technical diﬃculty) some long-term gap data and then
+some (technical diﬃculty) to a new solution for creating long running clusters or a
+place where our infrastructure team can manage Dataproc clusters. Now, fortunately,
+we feel that Spark and GKE is our use case and let's just utilize our existing GKE
+infrastructure.
+So, clearly, it's been a busy week for me using Spark serverless to create pipelines to
+push drought data into BigQuery. But the eﬃciency and improvement we'll gain but
+not needing to manage cluster overhead will be worth it. Now, you can let me know
+in the chat if you're as excited about Spark serverless as I am.
+Okay. Let's see how everyone's using Spark today. Looks like notebooks are pretty
+popular.
+And automation through air ﬂow. That's cool, too. Okay. Great. Thanks so much,
+Brad. So, now that we have greater insight into supply risks, we need to scale our
+transaction systems to handle more orders and allow us to understand the potential
+business impact of these climate risks while hopefully while lowering costs.
+So, this brings me to Derek, DBA. Derek, you've been focusing on this eﬀort. So, can
+you let us know where you're at today?
+Yes. Absolutely, Leigha. We have a new grocery chain that has struggled to maintain
+their on-prem databases as they've grown. There's an opportunity to solve their
+underlying scaling problems with Cloud Spanner. I spent the last few weeks
+validating Spanner's ability to scale and the ease of maintenance while keeping
+strong consistency for this point of sale workload.
+I migrated some of the new chain stores to Spanner already. Using granular instant
+sizing, I only provisioned a portion of a Spanner node to handle the required load.
+As we move the remainder of stores, we can easily scale up without down time or
+app changes.
+Quick question, Derek. We've been really focused on reducing the cost and
+complexity of building scalable applications. So, I'm wondering how does adding
+Spanner impact that eﬀort?FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 27 of 64A - Leigha Jarett
+A - Derek Downey
+A - Nikita NamjoshiYes. That’s a great question, Nikita. One way we've been doing this in other
+environments is to standardize on Postgres. Postgres is a well-established open
+source database with an active ecosystem that our development and ops teams are
+already familiar with.
+I tried to get the team to add an elephant emoji so you all could show some love for
+Postgres, but anyway. Spanner just announced the PostgreSQL interface. This gives
+us the beneﬁts of Spanner without having to complete retrain our application teams.
+Having this data will help us maintain velocity for new features, even as our database
+needs evolve. Here. Let me show you. So, I've connected into our Spanner instance
+using the PSQL command line tool. From here, I can explore the schema, just like I
+would in any other database, any other Postgres database.
+You can see that both the Postgres data type and the Spanner data type is available
+to the information schema. So, this will make it familiar to anyone who already knows
+Postgres.
+Awesome. Thanks, Derek. This is really cool (technical diﬃculty) for the scalability that
+this is going to bring our team.
+Absolutely. And as a quick summary, I highlighted how Spanner allows us to get
+started small and scale as needed using granular instant sizing, and how the new
+PostgreSQL interface reduces friction for our teams already familiar with Postgres.
+Nikita and Leigha, using existing data is golden and I'll keep onboarding more
+stores. Nikita, I believe you need this data for some of the BigQuery analysis you
+were working on. You've been busy ﬁguring out how to evolve our ability to make
+sense of all this data. Can you show us how that works?
+Yes. Absolutely. I was hoping that you'd ask. So, to ensure that we're managing stock
+to meet customer demand, my focus this week was on evolving our data science
+case for exploratory analysis. I combined the transactional data that Derek has been
+working on with the job data that Leigha and Brad pushed into BigQuery. This way,
+we can gain insight into which products are most at risk of not meeting customer
+demand.
+So, my ﬁrst step was to integrate all of our transactional data within BigQuery,
+primarily using federation with Cloud SQL and Spanner. This provides a uniﬁed
+environment for aggregation and analysis where we can join transactions back to
+producer details and the associated drought risk scores.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 28 of 64A - Derek Downey
+A - Nikita Namjoshi
+A - Brad Miro
+A - Nikita Namjoshi
+A - Leigha Jarett
+A - Nikita NamjoshiNow, as you all know, we recently migrated to workbench, which has really, really
+helped with our basic compute and resource management.
+Quick question, Nikita. Is Vertex AI Workbench (technical diﬃculty)?
+That is an excellent question, Derek. Vertex AI Workbench contains recently updated
+managed notebooks to bring forth more integrated data engineering capabilities
+into our data science environments. So, we can ingest and analyze data and deploy
+and manage ML models all from one spot.
+Now, let me show you a little bit about what this makes. After I provisioned the new
+managed notebook, my ﬁrst task was to analyze the demand on the high-volume
+SKUs and for that, I used the BigQuery connector to view and query the sales data.
+With Vertex AI Workbench, I can inspect BigQuery metadata, preview tables, and
+automate basic SQL construction entirely from my notebook environment. Okay. It's
+my turn on the emojis. I want to see the ﬁre emoji for (technical diﬃculty) who are as
+excited as I am about being able to access BigQuery from the notebook interface.
+Looks like I'm not the only one.
+Hey, Nikita, hold on. Sorry to interrupt your emoji fest, but I see you're working out of
+the lakes project but are able to pin other projects you have access to like the ops
+project. Is that new?
+Yes. That's correct, Brad. Vertex AI Workbench actually enables me to interact with all
+services via my own identity. The BigQuery plug-in also provides some templated
+code to help build out queries and project results to pen this data frame.
+So, here, we can see -- it looks like I just need to refresh. Sorry about it. I'm just going
+to refresh my JupyterLab instance here. I guess I had it open for too long.
+And I guess while Nikita is doing that, like who uses Jupyter now? Let's see the ﬁre
+emojis lighting up. I see some now. I personally use it a lot in my day-to-day.
+All right. Thanks, Leigha. So, perfect. You can see a simple view of all transactions by
+the day of week. And Vertex workbench actually also allows me to launch diﬀerent
+kernels entirely in the same instance. So, Brad, I think you are working out of a price
+Spark notebook earlier, is that correct?FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 29 of 64A - Brad Miro
+A - Nikita Namjoshi
+A - Leigha Jarett
+A - Nikita NamjoshiYes. So, the data (technical diﬃculty) at the back end as a part of Spark on Google
+Cloud. We can access all supported kernels on the cluster, including high Spark.
+Well, from my analysis, I just needed a Python kernel. So, let me show you what's
+going on in this notebook and what I've been up to this week. You can see here that
+I've done a deep dive into the data. I plotted the transaction volume. I've created a
+heat of purchase accounts across various departments (technical diﬃculty) the short-
+term drought index across various crop types, like corn, dry beans, pears and rice.
+But my last task, and the most important task, was to map SKUs to suppliers and
+calculate a risk score based on the aggregate ﬁeld data. So, to do this, I started with
+our mapping table, which you can see a sample of right here. This helped me to
+determine (technical diﬃculty) and I calculated a weighted risk score that takes into
+account each product's demand and the associated farms' overall drought risk, and
+you can see each of these measurements in this data frame right here.
+Ultimately, this goal will help us to prioritize managing items where we're most at risk
+of not meeting customer demand. So, as a quick summary, I use (technical diﬃculty)
+to connect active data accessible for query and create a weighted risk score for each
+one of our products, combining both climate and demand data. Leigha, I went
+ahead and put all of this back into BigQuery just to keep it centralized.
+Awesome. Thanks so much, Nikita. That risk score is going to be huge in helping our
+team understand supply risk. So, to make sure the broader team has a trusted view
+of all this information, I started incorporating everything into a Looker dashboard.
+Now, with Looker, we deﬁne our metrics like average risk using LookML, Looker's
+data model, and Looker uses this to compile SQL queries and send them back to
+BigQuery on our behalf so that our non-technical users can explore the results of
+these eﬀorts.
+So, let me show you this dashboard that I've been working on. And ﬁrst oﬀ, you can
+see this custom map layer that I use to visualize drought risk across farm regions in
+the west and we're able to take (technical diﬃculty) geospatial functions and drill
+from this aggregate view all the way to producer or even grocery prepped level. Let
+me show you.
+So, I'll drill to ﬁelds ID and then I can jump right in to Looker's explorer to bring in
+some more (technical diﬃculty). Maybe I want to speciﬁcally look at products that are
+at risk in this region where we're quickly expanding.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 30 of 64A - Leigha Jarett
+A - Nikita Namjoshi
+A - Leigha Jarett
+A - Nikita Namjoshi
+A - Brad Miro
+A - Derek DowneyMaking all this data accessible to the broader team is really important. So, can we
+make sure that the marketing team is aware of this so that they know how to hold oﬀ
+on coupons or advertisements for these products?
+Yes. Actually, we can set up a schedule from Looker so that the regional marketing
+teams are always notiﬁed if new products seem to go at risk. So, putting this all
+together, we used Earth Engine to process new earth science data signals. We used
+Spark [ph] to eﬃciently transform geospatial data and push drought indicators into
+BigQuery, Spanner to scale our transaction systems, ensuring we have the
+infrastructure to handle future growth, and Vertex AI Workbench plus Looker backed
+by the power of BigQuery to evolve our data science capabilities and service
+important trends back to key decision makers.
+So looking across the services, anyone is able to explore and take action on insights
+that combined climate data and transactions. Now, we can understand where
+products may go out of stock due to increasing drought conditions, and identify
+areas to build resilience against changes in our climate. So with this geospatial
+information we're given a whole new set of data so that we can not only be
+considerate of our customers, but also ﬁnd ways to be more considerate of our
+planet.
+And with that, it looks like we're right about at time. So thank you so much for joining
+us today as we've shown how Google Cloud can oﬀer a world-class experience for
+creating a scalable, uniﬁed data platform. And a special thanks to my colleagues,
+Nikita, for showing us Vertex AI Workbench, Derek for introducing us to Spanner and
+its Postgres interoperability, and Brad for walking us through Spark on Google
+clouds.
+And thank you, Leigha, for showing us Looker and Earth Engine. Last but certainly
+not least, thank you all out there so much for your engagement. We love those
+emojis and seeing all of your comments in the chat. So stay tuned for our live Q&A
+which is going to cover everything from our spotlight through this demo.
+Thank you. Bye.
+Thanks, everyone.
+Thanks.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 31 of 64A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit KazmaierBye.
++++qanda
+Thanks o much data cloud team. What a cool demo. I'm Dane Hanson. Welcome,
+everyone. I'm the director of Product Marketing for Data Cloud. Joining me today is
+Gerrit Kazmaier. Gerrit?
+Hey, Dane. I'm Gerrit. I'm the Vice President of Data Analytics, Databases and Looker.
+And I do look forward to everyone's questions.
+I do too. A reminder that this Q&A is live, you can engage with us directly. So ask
+your questions, say hi in the chat, hit those emojis, and if you can't, just go
+(inaudible) the Experience button.
+So let us jump right in. But before we do, I do want to see what you would like most
+today. So we have some quite exciting set of announcement, and is it for you Let's
+go BigQuery, is it Big Spark It Up, Postgres For All on Spanner, or is it Show Me the
+Earth Engine?
+So while we wait for those results, tell me, Gerrit, what are you most excited about?
+I'm really excited about two things; openness, and simplicity. All of our
+announcements were made to make data more accessible, more simple to use from
+Postgres for Spanner, from cross-cloud analytics with Omni, from serverless arch
+from Looker and Tableau, everything is in the spirit of making data simple to work
+with and creating an open ecosystem around GCP for working with data.
+That's right. And being open and simple is really what it's all about and that's what
+we saw from the demo as well. Just as a reminder that our friends from the live demo
+are sticking around to help answer the questions. So you might see their faces
+throughout the show. It's like we've got some of the poll results. It's all about the
+BigQuery, look at those hearts come in. So this is really good.
+It's Let’s Go BigQuery.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 32 of 64A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane HansonAll right. So let's get into our ﬁrst question, it's from Tiana [ph]. She asked about the
+availability of Earth Engine. We saw the great demo earlier from the team. How can
+folks get their hands on this? How can they access it? And another follow-up
+question which is how does it work with BigQuery GIS?
+Awesome. Hey, Tiana, awesome question. So ﬁrst of all, Google Earth Engine is now
+in preview, which means that you can go to google.com/earthenginepreview and
+register, and we will be reaching out to you to set you up with an account.
+The second key piece of what you've seen earlier is that; A, in Earth Engine, you have
+a data lake of satellite imagery, and you get the means to do geospatial analysis on
+imagery data. And that results, they can be brought into BigQuery to match them up
+with all of the data you have residing there or using BigQuery ML, for instance, as we
+have seen. So all in all, awesome packets, a lot of data and a great integration
+directly back into BigQuery.
+I love this. And it's really what only Google can provide, with the best of our data and
+the best of our analytics solution. This is a great solution.
+That's exactly right.
+So another question comes in from Chris, multi-cloud, look, this is an exciting area.
+We just released BigQuery Omni as a general availability. That’s exciting. What are
+Google’s plans around data management? Does it have plans, Gerrit, to expand our
+multi-cloud approach to other data management services?
+Great question, Chris. And I think it all starts from recognizing a basic fact, for the
+majority of companies, multi-cloud is a reality. And when we talk about data silos, we
+have to recognize that a modern data silo is a multi-cloud data silo. And at BigQuery
+Omni, we wanted to bring simplicity to multi-cloud, which means that you can do
+cross-cloud analytics. And we are constantly evaluating which of our data services
+make sense in an omni-delivery, and basically following our customer scenarios,
+where you are taking us to, and you can expect much more to come in that direction.
+This is great. We really go forward with multi-cloud as more and more companies are
+using that as their norm.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 33 of 64A - Gerrit Kazmaier
+A - Dane Hanson
+A - Leigha Jarett
+A - Dane Hanson
+A - Gerrit KazmaierI think it's 90% of the companies that you surveyed actually say that multi-cloud for
+them is the reality they are living in today. So that plays through that complexity and
+delivers multi-cloud cross cloud analytics.
+Okay, good, good. Thank you, Gerrit. Our next question comes in from Anon at CVS
+Health. He asked this question to Leigha actually. So Leigha, is there any map that
+reveals all the services? I think you might have shown this at the tail end of the demo,
+but maybe you could go back and do sort of an overview about the visualizations,
+the capabilities of Looker, how does Looker and BigQuery play a role with the
+visualizations for that map of Earth Engine.
+Awesome. Yes. Thanks, Dan. So basically, I think what this question is asking is if you
+can visualize the actual semantic model that you're creating in Looker to connect all
+your diﬀerent data assets. And actually, earlier this year, Looker launched the LookML
+Diagram, which is available in Looker’s marketplace. So you can directly, in Looker,
+create a visualization of your data models, whether your data is in BigQuery, Spanner
+or other places that are connected to Looker. So check it out.
+That's awesome. Thank you, Leigha. The next question comes in around our Cloud
+SQL and Cloud Spanner capabilities. We oﬀer both capabilities today, as you know,
+Gerrit, which one is for which purpose? Could you talk a little bit about how Spanner
+is our fully-managed database service? What is your recommendation, what use
+cases to use Cloud SQL as well as Cloud Spanner?
+That is a great question because both of them are actually pretty awesome services.
+Cloud SQL is really a managed service that you can decide whether you want
+Postgres or MySQL. And it's really for those customers who want to leverage
+basically perfect compatibility with the Postgres or the MySQL ecosystem, use all of
+the packages, use everything which is around that type of system. And it's a really
+highly reliable, high performance managed service that you're providing.
+Spanner sits on the other end of the spectrum, if you like. It's a cloud native
+database. It combines a unique set of abilities. It has ﬁve 9’s of availability that is
+unheard of. It has global consistency. It's horizontally scaling, all of the things that
+you want to use when you're building massively scaling global applications. And so
+if you are looking on that spectrum, that's really about scale, and yet having strong
+consistency, then Spanner is the way to go.
+And the good news is, from today's announcement, that you can use Spanner with a
+Postgres interface, which means that you don't need to relearn or take another toolFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 34 of 64A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Nikita Namjoshiset chain in order to work with it. You can basically seamlessly apply your Postgres
+skills, and go cloud native with Google Cloud Spanner.
+That's awesome. Let me ask another question. It's about our recent partnership with
+Tableau. This is pretty exciting partnership.
+Yes.
+We've done a lot with them. And could you talk a little bit about how this strategy
+and this partnership help our Looker customers speciﬁcally,
+It is really about simplicity and openness. This announcement means that if you are a
+Tableau customer, you will be able to use Looker semantic models built and LookML
+for trusted data access, for data governance, for high performance database access.
+If you are a Looker customer, it means that you can add Tableau self-service data
+visualization right onto your Looker scenario.
+So the bottom line is that it makes very working with data more simple. It helps our
+customers who are trying to ﬁnd the right balance between self-service and
+ﬂexibility, and strong governance and semantics. It truly brings together the best out
+of two worlds.
+That’s great. And I think it's really a reﬂection of our open strategy for the data cloud.
+Again, it brings more community, more customers, more use cases, more capabilities
+that we can bring as part of one ecosystem.
+That's exactly right.
+That's awesome. The next question comes in from Andrew. It's speciﬁc and another
+question to actually Nikita, about the live demo, we showed an integration of Vertex
+AI. How does this work with BigQuery ML or BigQuery Machine Learning? Nikita,
+could you take that question?
+Absolutely. That's a great question. So for those of you who don't know what
+BigQuery ML is, it basically allows you to build and train machine learning models
+with just a few lines of SQL. So in the demo, we showed how you can use Vertex AIFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 35 of 64A - Dane Hanson
+A - Gerrit Kazmaier
+A - Dane Hanson
+A - Gerrit KazmaierWorkbench to have access to essentially the BigQuery console, but from a notebook
+interface, which I'm super excited about. So you could actually create and train your
+ML models and SQL, and do all of this from the notebook interface, but still have that
+connection to BigQuery and be able to use whatever tabular data you have stored in
+your BigQuery.
+Okay, that's awesome. Thank you, Nikita. Next question comes in from Jeﬀ, another
+question on Looker. Could you talk a little bit about how the Looker is enabling these
+new sets of API-driven experiences? Speciﬁcally, Jeﬀ is asking, what are the
+considerations that we should have in place for the way we integrate it with other
+tools that we should be using? Could you talk a little bit about how we can now
+connect with Sheets? So there are some new things that we connect with Looker.
+Hey, Jeﬀ, awesome question. And I do want to re-text it with the following statement,
+Looker is going to be a key element of any data landscape. Basically, what Looker is
+doing is giving you two amazing things. One is it gives you a model semantic layer.
+Basically, you can describe your data landscape with very rich annotations. And this
+semantic layer is connected directly to the database system. For instance, when it
+runs on BigQuery, it completely delegates all of the queries right into BigQuery, so it
+delivers stellar performance.
+And Looker, as a whole, has a really amazing API ﬁrst concept, which means that it is
+so beyond AI. It allows you to build data rich applications. It allows you to basically
+renovate your customer experience, your websites, your internal applications and
+make them really data rich.
+And last but not least, we kind of gave it away here, we are also integrating more and
+more products with Looker semantic model. For instance, we are adding connected
+sheets as a way how you can analyze and discover data described in LookML. So
+check it out. It's going to make a big diﬀerence in your landscape as well.
+This is great. We are almost out of time, so we're just going to take one more
+question before wrapping things up. The last question is from Gerard. He talks about
+how, at USDA, many of the methods are using diﬀerent visualizations, so whether it's
+Tableau or Esri. How does this complement our strategy with how we're connecting
+all this data? It's over 50 petabytes of data. How do we connect all that data with
+Earth Engine and enable all these diﬀerent ways to process it with these diﬀerent
+tools?
+Absolutely. Hey, Gerard, great question. So ﬁrst of all, it starts with making sure that
+there is data, and with Earth Engine you get this amazing data lake of satellite
+imagery and GIS data available to you.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 36 of 64A - Dane Hanson
+A - Javier SolteroThe second piece is that you need to have a powerful processing framework. And by
+the integration to BigQuery, you can use the most scaling, the fastest warehousing
+system on this planet to analyze this data alongside with all of the rest of your data,
+of your business data.
+And last but not least, like you said, it's about complete openness. The
+announcements that we have share today with LookML allows you -- that you can
+connect Tableau, connect to Sheets, Looker visualizations, all on top of that right tool,
+and make sure that you are using the visualizations tool that you like the most.
+But before we close it oﬀ, because I think we are out of time, Dane and I have a very
+important message for all of you. And here it goes.
+Right here. Thanks to Gerrit as well as our friends over on the demo set for
+answering some great questions and it's really been awesome hearing from all of
+you. Be sure to hop back over to the next website, Javier Soltero will share all the
+great things happening with Google Workspace. Thanks so much for joining us.
++++presentation
+{BIO 16235492 <GO>}
+Hello, everyone. Welcome to Google Cloud Next. All right, we've had a lot of great
+content so far, not to say I learned a lot just now watching the Data Cloud session. I
+hope you're ready for even more. I'm Javier Soltero, vice president and general
+manager for Google Workspace, and I'm super excited to be with you today.
+Though, to be honest, I really was hoping we could all be in person by now.
+Since ﬂexibility is one of the key themes for today, we'll embrace what we have to
+work with, even if we can't be together. Although the last 18 months have been ﬁlled
+with uncertainty, we continue to be inspired by customers and users who found new
+ways to create and stay connected. Driving innovation and embracing change are
+always challenges for every business, whether you're 10 people or 100,000. The goal
+seems simple. Empower your teams to work eﬀectively together, in part, by ensuring
+that your technology is an enabler, not a blocker.
+As we've evolved Google Workspace, we've been focused on helping individuals,
+teams and entire organizations drive innovation and greater impact with the tools
+they use every day. And ﬂexibility has been foundational to our approach. It's why we
+decided to not only be cloud ﬁrst, but cloud only. It's why we've always prioritized
+user choice. It's why we take a zero-trust approach to security, and why we make sure
+any product innovation we introduce is truly built for everyone.
+And those principles are core to why our customers choose us. Millions of
+companies, schools, government agencies and other organizations rely on Google
+Workspace to help them navigate whatever challenges they may face. They're also a
+big contributor to our own continued success as a business. Google has run on whatFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 37 of 64is now Google Workspace for the last 15-plus years, and it's part of why we have
+been able to continue to innovate and adapt as we scale.
+In that time, we've grown to over 144,000 employees made 213 acquisitions, added
+dozens of oﬃces around the world, and more than quadrupled the number of
+annual searches we support. We've weathered changing market conditions and user
+preferences, and competitive challenges just like any business, just like your
+business.
+One constant for us has always been our tools, which were designed to meet ever
+shifting needs and circumstances. Today, we'll walk through some of the most
+impactful innovations in our toolset that help unlock the full potential of individuals,
+teams and organizations in a ﬂexible, more eﬀective hybrid workplace.
+First, let's talk about collaboration. Eﬀective team collaboration powers creativity and
+innovation. It's how people work towards shared goals, build team culture and are
+able to achieve substantially more than they would on their own. With everyone's
+time in such high demand and the explosion of collaboration tools giving us no
+shortage of ways to reach one another and work together, collaboration can often
+feel fragmented. Conversations and workﬂows scattered across disparate channels.
+Now more than ever, the technology you choose should work intelligently and
+eﬀectively across every medium to enable collaboration wherever it happens. Last
+month, we introduced Spaces, the central place for ﬂexible team collaboration and
+Google Workspace. Spaces are built to be tightly integrated with Calendar, Drive,
+Docs, Sheets, Slides, Meet and Tasks to provide a uniquely better way for people to
+engage in topic-based discussions, share knowledge and ideas, connect across
+organizational boundaries and build team culture, all in the service of moving
+projects forward.
+In the same way that a group of people can accomplish more by working together,
+our integrated experience is greater than the sum of its parts, helping people better
+collaborate and manage their time and attention. By thoughtfully bringing together
+collaboration surfaces and channels, the goal is to help people stop thinking about
+where and focus instead on the what.
+To continue investing in this area, we've been working with customers to understand
+their needs, especially the changing circumstances we've all been facing. In line with
+feedback we've gotten, we'll be adding inline topic threading, more powerful
+search, robust security and admin tools for content moderation, and discoverable
+spaces. We hope this makes it even easier for organizations and teams to both
+proactively share and ﬁnd the knowledge they need to deliver greater impact.
+Those of us working remotely realized early on how crucial it is to cultivate a sense of
+human connection with our colleagues. No matter where or how we work, we all
+need to be seen, heard and understood. Towards that end, in the last 18 months,FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 38 of 64we've invested here in bringing functionality to Google Meet that makes connecting
+virtually almost as natural and rewarding as connecting in person.
+This includes AI-powered noise cancellation, low light mode, and live translated
+captions, along with a new intuitive user interface complete with polls, Q&A and
+breakout rooms that help make meetings more productive, inclusive and immersive.
+With all of these improvements, we're seeing customers who previously opted to use
+third party meeting solutions reconsider moving to Google Meet.
+We've also invested in making our tools reﬂect the new ways people are working. To
+support hybrid and distributed teams, we've added the ability to set working hours,
+work location, and recurring out-of-oﬃce notiﬁcations from count. We also
+introduced the ability to RSVP to a meeting with a virtual or in-person location. All
+these investments are geared toward helping people better manage their time and
+ultimately protect their well-being. Well-being has been a central focus for us at
+Google over the past year, and for countless organizations supporting their
+employees during this long period of remote work.
+Two clear bright spots we've seen in pivoting to remote work have been; one, an
+increased in empathy for our coworkers lives outside the oﬃce; and two, an
+increased focus in collaboration equity, or the ability for everyone to participate
+equally and fully. For more than a year, we've all been reduced to digital video tiles,
+and it's had a democratizing eﬀect on meetings. We thought a lot about how we can
+sustain this equity as more of us move into a hybrid model.
+Next month, we're launching Companion Mode, which oﬀers a uniﬁed experience
+for people in the oﬃce and their remote colleagues. Those in the oﬃce can still use
+the best of in-room audio and video from Google-made hardware. But they can also
+join the meeting using Companion Mode on their laptop. This lets them fully
+participate in the meeting with access to chat, whiteboarding, Q&A and polls, along
+with the ability to share content just as they would from home. We think it's
+imperative to provide one uniﬁed meeting experience regardless of where and how
+people connect.
+And as more people head back into shared physical spaces, we're enhancing our
+meetings hardware to give organizations greater choice and ﬂexibility. We have two
+new all-in-one video conferencing devices, the Google Meet Series One Desk 27
+and Board 65, with new standards of audio, video and whiteboarding capabilities
+built in. These devices can turn any room or shared space into a collaboration hub.
+We also have new third party devices coming to the Google Meet ecosystem,
+including this Logitech Rally Bar and this new Rayz Rally Pro speaker dock that will
+automatically launch Google Meet for video meetings and provide an improved
+audio experience from a mobile device.
+Lastly, we're partnering with Cisco to bring interoperability between our video
+conferencing devices. So you'll be able to launch a Google Meet meeting on WebExFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 39 of 64Q - Joﬀ Redfern
+A - Javier Soltero
+Q - Joﬀ Redfern
+A - Javier Solterodevices, and WebEx meetings on Google Meet hardware. This sort of partnership is
+crucial in delivering on our vision of Google Workspace for everyone.
+Last year, our focus was on introducing an integrated experience across our ﬁrst
+party products. This year, we're prioritizing strengthening the platform that supports
+and extends. This is so important, because our success is measured not only by how
+people use and love our products, but by the ecosystem that thrives around them.
+And what we're seeing in the numbers here is remarkable. Google Workspace has
+more than 3 billion users, and a stunning 4.8 billion apps have been installed in
+Google Workspace today. There are more than 5,300 public apps available in the
+Google Workspace marketplace, plus thousands more private apps that customers
+have built for themselves. It really shows what's possible when you combine great
+ideas, easy to use APIs, and the ability to reach a user base that's 3 billion strong.
+While users and developers have been able to build on apps like Gmail, Drive and
+Docs for years, we're now in the process of making it just as easy to integrate with
+Chat, Spaces and Meet. If Google Workspace is how it's done, then the Google
+Workspace platform is how it’s integrated.
+Miro has already announced their plans for integrating in Google Meet, and today
+we're pleased to announce a new integration for Chat and Spaces from Atlassian.
+Joining me now to share more, please welcome, Atlassian’s Chief Product Oﬃcer
+Joﬀ Redfern. Hey, Joﬀ, great to have you with us.
+{BIO 21998624 <GO>}
+Thanks for having me. I'm delighted to be here.
+{BIO 16235492 <GO>}
+For those that aren't familiar with Atlassian, can you tell us a little bit more about it?
+{BIO 21998624 <GO>}
+Absolutely. At Atlassian, our mission is to unleash the potential of every team. Our
+team collaboration and productivity software helps teams organize, discuss, and
+complete shared work. But at the same time, we believe there is no one tool to solve
+all of the complexity of teamwork and collaboration.
+Every team is unique. Each team has its own Snowﬂake, and they should be able to
+use the best tools for the job. We focus on building the best-in-class collaboration
+solutions, and then deeply integrating it with all the other tools that teams need to
+get things done.
+{BIO 16235492 <GO>}
+It's so true that the nature of every role in team within an organization and the
+challenges they face are unique. Can you tell us a little bit more about theFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 40 of 64Q - Joﬀ Redfern
+A - Javier Soltero
+Q - Joﬀ Redfern
+A - Javier Soltero
+Q - Joﬀ Redfern
+A - Javier Solteroopportunity that Atlassian sees in building for Google Workspace and how you got
+started?
+{BIO 21998624 <GO>}
+Yes. Today, Atlassian solutions already extend and connect with thousands of tools
+from collaboration, chats, security, DevOps, and a whole lot more. And we're excited
+to continue to extend our partnership with Google Workspace to deliver for our joint
+customers. Work is everywhere. People’s chat and inboxes, it's all ﬂooded with work.
+And to help turn that clutter to progress, we believe in integrating Trello and Jira,
+and our other tools everywhere work is.
+The Better Together integration helps Atlassian and Google customers to make
+workﬂow across their organization. Rich content and easy actions help move work
+forward. In fact, we are Workspace customers and this is what led us to dream up our
+initial integrations. One of our ﬁrst launches together was the Trello integration in
+Gmail, and that was back in 2017. Today, more than 7 million people have installed
+that which is really impressive.
+{BIO 16235492 <GO>}
+That's awesome. Today, we're so excited to announce the new Jira bot that connects
+to Google Chat to Spaces and enables users to create issues, monitor them, all
+within the space that you're already using for collaboration.
+{BIO 21998624 <GO>}
+Well, Workspace is unique, and that it oﬀers such a signiﬁcant opportunity to reach
+over 3 billion users. And today, Atlassian and Google have invested in a number of
+Workspace products to help users work better together, whether that's unfurling
+Google Five Links across Atlassian products, embedding an important Google Docs
+and Jira Work Management, or creating new Trello cards from Gmail. But there's
+more, and we'll continue to listen to our customers and then follow their needs.
+{BIO 16235492 <GO>}
+It's great to see the power of Jira built into Chat and to Spaces. It's such a powerful
+example of how developers can build new experiences from across the platform,
+from Gmail to Chat to Spaces to Drive. Thanks, Joﬀ. Really excited to have you here
+with us and I'm very excited to continue to develop our partnership.
+{BIO 21998624 <GO>}
+Thanks, Javier. Have a great show.
+{BIO 16235492 <GO>}
+As we work with Atlassian and all our partners to build and deliver new experiences,
+rest assured that every one of them is designed with security in mind, starting with a
+zero-trust approach to identity in Google Workspace. We also employ a rigorousFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 41 of 64vetting process to ensure partner apps are secure before becoming available in the
+Google Workspace marketplace.
+Finally, we recognize that it's not always developers, but the person closest to the
+problem who best understands how to make work more eﬃcient and impactful. To
+better empower these users, we're providing them access to custom no code
+AppSheet apps right from Gmail with dynamic email. This lets users interact with
+data directly and securely from their inbox to get things done in powerful new ways.
+This new experience is available today, and you'll see it in action in the upcoming
+demo in a few minutes.
+Now, we've talked about the powerful new experiences in Google Workspace and
+the platform that surrounds it. But neither of those can transform the way your
+organization works without a broader foundation for security. We've seen too many
+headlines lately about data and security breaches, and it's a powerful reminder that
+modern collaboration requires modern security.
+Legacy collaboration tools were built for a bygone era. And these headlines make it
+clear that a band aid approach to the security problem with legacy tools just doesn't
+cut it. We built Google Workspace with modern collaboration and security in mind to
+keep your people and your data safe.
+Let's talk about what makes Google's approach unique. First, because we're cloud
+only, we don't have the same vulnerabilities that legacy collaboration tools and
+infrastructure have. With Google Workspace, there's no need for thick client
+applications, email attachments, or on-prem identity directives, each of which
+provide bad actors with too many opportunities for attack. And all our security
+protections are included with Google Workspace, which means you don't need to
+spend money on security add-ons, and you're less susceptible to supply chain
+attacks.
+Second, our entire platform is built on the BeyondCorp security model, which is
+Google's unique approach to zero trust. This lets employees work securely from
+anywhere on any device without the need for a clunky VPN.
+Finally, we're best in class at automatically detecting and preventing attacks, from
+phishing, to malware, to supply chain, to ransomware. Every day, we've about 15
+billion spam messages, 100 million phishing attempts and 3 million deceitful URLs
+from reaching our customers. All of this comes together to provide Google
+Workspace customers with the most trusted way to connect, create and collaborate.
+All right, now how are we working to enhance that security vision even further? Well,
+I'm excited to announce some new capabilities that build on this unique approach to
+security.
+First, we've already made client-side encryption available in beta for Drive, Docs,
+Sheets and Slides, and now we're bringing it to Google Meet as well. Client-sideFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 42 of 64A - Erika Trautmanencryption gives our customers complete control over the privacy and conﬁdentiality
+of their data.
+Next, we're introducing data loss prevention for Chat. You can think of this as part of
+our promise to enable collaboration without compromise when it comes to security.
+With data loss prevention in Chat, you can support spontaneous conversation while
+preventing sensitive and conﬁdential information from leaking outside of your
+organization. Admins can control what users share inside and outside their domain
+on Google Chat, and they were alerted about any violations.
+Finally, I'm excited to share the Drive labels is now generally available. This gives
+organizations the ability to classify ﬁles stored in Drive based on their sensitivity
+level. Labels also integrate with Google Vault and Google Workspace data loss
+prevention to prevent external sharing, downloading and printing of sensitive ﬁles.
+Just another example of how Google Workspace enables collaboration, while
+providing the right controls to manage access and protect data.
+So we've talked you through a lot today. And the common thread is that we're
+continuing to build a modern productivity solution, one that seamlessly brings
+together the right tools and the right way to help you more eﬀectively collaborate,
+that supports hybrid and distributed work and that lets you extend and customize
+solutions for your organization, and of course, one that's secure by design. It's a
+platform that helps you unlock the full potential within your organization so that you
+can innovate, even thrive amid the disruptions of today and tomorrow.
+There will always be certain things that are out of our control, but with the right
+people and tools in place, as we've seen ﬁrsthand with our customers, we can always
+be prepared to eﬀectively adapt no matter what comes next. Though in this case, it
+just so happens that I actually know what's coming next and it's our demo with Erika
+Trautman, director of Product Management for Google Workspace. Stay tuned to see
+what we just talked about come to life.
+Hello, everyone. I'm Erika Trautman, product director for Google Workspace. There
+has been a ton of innovation in Workspace this past year. And in the next 15 minutes,
+I get to share with you all the progress we've made, helping teams of all sizes to
+connect, create, and collaborate.
+This demo has two parts. In the ﬁrst, I'll be showing you Workspace in action through
+a little story that we've created. And then I'll hand it oﬀ to my colleague, Matt Izatt,
+who will show you all the ways developers can build on the workspace platform.
+And as a reminder, before we get started, this is truly a live session, so you never
+know what's going to happen. If you haven't already, click the button that says Join
+the Interactive Experience on the next website, and then we'll see you in the live
+room where you can interact with chats, and do fun stuﬀ like take polls, which we're
+going to try out right now. How many employees have you or your companyFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 43 of 64onboarded virtually this year? Let us know in the poll below, under 10, 11 to 25, 26 to
+50, or more than 50.
+I know that for me, recruiting and getting people in the door, that got harder during
+the start of the pandemic, taking that brand new person that you work so hard to
+ﬁnd, bringing them up to speed, making them feel like they're part of the team and
+really enabling them to do great work those critical ﬁrst few weeks on the job. And of
+course, it is so overwhelming to be that new hire. You're learning not just the role,
+but the tools, the processes, the people, and the culture maybe remotely. So I want
+to show you how workspace is making this easier.
+Please meet our hero Pablo. He's in exactly this position. He's about to receive an
+oﬀer letter from his dream employer Symbol manufacturing, which by the way, is not
+a real company in case you are wondering, so don't go look it up. His hiring
+manager Allison is going to help onboard him at the company. Allison is really, really
+excited to get Pablo onboard, and there are a ton of steps in the process that she's
+going to help him through.
+So we'll show you how she uses Workspace to help streamline that experience for
+both of them even when it requires using third party software or custom tool the
+Symbol team built within Workspace. The point here, as Javier mentioned, is that
+workspace is a platform that brings together the right tools in the right way, at the
+right time, whether those tools are built by Google or someone else.
+Okay, before we get back to Pablo’s and Allison's story, let's see what you have been
+experiencing here in the poll. Wow, it looks like 48% of you say that you've
+onboarded more than 50 people this year. That is a lot. So I think you are going to
+be able to relate to Allison.
+When you were recruiting and onboarding, what was the ﬁrst thing that you did? I
+think probably you sent them an oﬀer letter and ﬁngers crossed, hope they signed it.
+Allison uses the DocuSign integration in Google Docs to do just that. So here you
+see, Pablo is going to check his personal Gmail on his mobile phone, and he just
+scrolled past it, there's an oﬀer letter in there. He's going to click on that and open
+up DocuSign right there within the email.
+He clicks this. It's a nice cover letter Allison has sent him, clicks to open the
+document itself. Okay, great, start date is right. They spelled his name right, salaries
+what they talked about. I think he's going to accept. He signs the oﬀer letter with his
+ﬁnger right there on his phone without leaving Gmail. Come on, Pablo, sign, sign.
+And he signs and click Submit, and Allison, she's so relieved.
+In other systems, Pablo might have had to stop what he was doing, open another tab
+to review and sign the agreement, go back to Gmail, hopefully remember where he
+left oﬀ. It's just unnecessarily disruptive if you're signing a single contract. But if
+you're someone who reviews and signs contracts all the time, it's incredibly onerous.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 44 of 64So deep integrations with leading third party apps like DocuSign save you valuable
+time and keep you focused on your core job.
+Audience, if you have any favorite Google Workspace integrations, we would love it
+if you would share those in the comments, because it's a great way to help everyone
+who's out there, discover -- everyone who's there to discover the best of what's out
+there.
+All right, back at Symbol, when Pablo returned his oﬀer letter, that kicked oﬀ the
+onboarding process. So let's see what happens next. Pablo is now at home on his
+personal email and he sees an email from Allison come in at the top there. He opens
+it, notices, this is not a typical email. This is an AppSheet dynamic email, which allows
+him to interact with the forum without ever leaving his inbox. So what he's doing
+here is selecting his laptop, accessory type, desk type, T shirt size, really important.
+He enters his address, click Submit, and just like that, Symbol can now send him his
+stuﬀ. This is especially important because Pablo is going to work remotely initially.
+Just like with the DocuSign example, the dynamic email lets him complete his tasks
+where he is in Gmail, saving him the time and hassle of toggling back and forth
+between tabs and apps, just to ﬁll out a form. And by the way, if throughout any of
+this, you have questions regarding dynamic emails or AppSheet, please comment
+below so that we can address them in the Q&A.
+Let's fast-forward to Pablo’s ﬁrst day on the job. He's received his equipment. He's
+excited to work. He's in calendar, notices. We've got a one-on-one with Allison
+coming up. He's going to click on that Calendar Invites and join the meeting with
+Allison. Allison welcomes him to Symbol, oﬀers to give them a short overview of
+calendar and meet. So here she's showing him how to set up his working location
+and working hours, so that his colleagues who are global know when he's available
+and when he's oﬀ.
+Features like these, only available in Google Workspace, really improve employee
+well-being and overall job satisfaction. They help employees better coordinate how
+and when to work together, ensuring both productivity and time to recharge even
+though our oﬃces might be in our bedrooms or our kitchens. Honestly, Pablo is
+going to spend a lot of time in meetings. So Allison shows him all the great new
+features that have been added to Meet over the past year.
+The interface is new and easier to use. Here, she's showing him how to get into some
+of the advanced features. He's deﬁnitely going to want to turn on noise cancellation,
+which is great for ﬁltering out dogs barking or neighborhood construction. And if
+you're having trouble hearing someone, you can just click on the Closed Caption
+button to follow along in live captions, even in a diﬀerent language than what's
+being spoken, which blows my mind. AI-powered translated captions in meetings
+are launching soon, and only Google Workspace oﬀers this built-in for everyone.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 45 of 64There's also a host of new features which she's showing in here to boost
+engagement. So chat polls, these magical little breakout rooms that she's going to
+show that transport you to smaller groups where you can brainstorm, whiteboards,
+integrations with Google Docs.
+At this point, the one-on-one wraps up and Allison suggests he goes into Gmail and
+start exploring the Spaces he's been added to. We've recently launched Spaces,
+which are the evolution of Rooms in Google Chat, and they're the central place for
+team collaboration in Google Workspace. Pablo looks at the team Space and noticed
+his team has written him a bunch of welcome messages, which is really great. He
+responds.
+And now, he's going to browse the spaces that are available to him, and he
+discovers one particularly relevant to his work, quality inspector managers North
+America. Awesome, that's him. In this space, he can connect with his colleagues,
+discuss ideas and collaborate on projects easily. Spaces are unique and that they're
+tightly integrated with the entire Google Workspace product set. So Calendar, Drive,
+Docs, Sheets, and Slides, Meet and Tasks, bring all the tools you need to engage in
+topic-based discussions, share knowledge and ideas, move projects forward and
+build communities and team culture.
+Pablo notices there's a little bubble with Allison's image, which means she said him a
+direct message, turns out this is public ﬁrst project and Allison shared a document
+with him, which we can see in the preview here. Pablo opens the document and
+notices his coworkers already pre-populated some of the core information, so
+facilities, number of workers per facility on the ﬂoor and types of tasks that they
+perform.
+Pablo’s job is to optimize the process that managers use to create tickets and send
+them to their quality inspectors on the frontline. Okay, to do this, at his prior
+company, Pablo would have needed to secure IT assistance at a minimum, and more
+probably a contractor and probably a budget to go build an app. So not fast, not
+easy. Instead, Pablo is going to use AppSheet. He connects his sheets to AppSheet,
+and after about an hour of customization, he's created a quality inspection app that
+his team can use.
+So he opens it up to ﬁle his ﬁrst ticket to one of his quality inspectors. Now what? All
+right, over on the manufacturing ﬂoor, we meet Adu [ph], a quality inspector
+reporting to Pablo, and he's just received a pop-up notiﬁcation on his phone with the
+inspection ticket Pablo assigned to him. So he pulls up the AppSheet app that Pablo
+created and performs the inspection. He's going to take a picture of the completed
+job.
+Let's get -- let's see if he get -- we can get him over there into the AppSheet app. He
+noticed that he's got it, yes, there we go. All right, he's now in the app and you're
+going to take a picture of the job once it's completed. He's going to annotate that
+and submit it as closed, and that then will notify Pablo on Pablo’s side of the app.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 46 of 64A - Matthew IzattSo hopefully, you saw how easy it was to make collaboration more eﬃcient between
+an oﬃce and frontline worker. He used a really simple but powerful AppSheet app to
+eliminate the whole back and forth between emails and chats, and then maybe
+switching to an external ticketing system, and then more emails and more app --
+more chatting.
+At this point, if any of you can think of useful applications for AppSheet in your
+organization, please share those with us in the form below. So think about all of
+those repetitive tasks that make you crazy day to day, those are the kinds of things
+that AppSheets can automate for you.
+All right, back to Pablo, let's see if we're okay, still on AppSheet here for just a quick
+second. We're going to get back to Pablo’s day to day in his ﬁrst week on the job any
+moment here. Let’s see, I'm looking here, you guys have some really interesting --
+scrolling through here, Asana, people like the Asana integration. I saw people use
+HelloSign. That stuﬀ is all fantastic.
+All right, can we -- are we back to Pablo? We're back to Pablo. Back to Pablo, it's the
+end of his ﬁrst week on the job. He pulls up calendar in the sidebar while in Gmail,
+and he noticed that he should be joining the team meeting, so he clicks to join. On
+the call, Allison introduces Pablo to everyone and asked him to share his reﬂections
+on his ﬁrst week. And he is really proud of the app that he built in AppSheet,
+especially since this is a tool the entire team can adapt.
+He shows how easy it is to create requests, assign one to an inspector, follow the
+status. He also pulls up the request that he sent to Adu that was already completed.
+And if Pablo was joining from a conference room, because hopefully someday he
+will, he could use Companion Mode, a feature that's only available in Google Meet
+to seamlessly join and share from his laptop while using in-room audio and video.
+And with some congratulatory emojis from his colleagues, Allison closes oﬀ the
+meeting, and the weekend can begin.
+I think it's fair to say that Pablo helped us with quite a lot of demos in his ﬁrst week
+on the job. So thank you, Pablo. And I hope that you can see how at every turn,
+Google Workspace helps people connect and collaborate to get more done with an
+intuitive and integrated set of tools.
+With that, I'd like to introduce my colleague, Matt Izatt, who's going to take us under
+the hood and talk about how you can build on the Workspace platform.
+Thanks, Erika. Hi, everyone. I'm Matthew Izatt and I lead product for the Google
+Workspace platform. Under the hood is a powerful engine. Let's talk about how you
+can take advantage and build on the Workspace platform. As Javier mentioned,
+more than 4.8 billion apps have installed in Workspace to date. This stunning
+number illustrates Workspace is more than a hub for work. It's a powerful enabler of
+workﬂows.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 47 of 64The opportunity to build on the Workspace platform is massive. Nearly half the
+world's population is already using Workspace. That's a huge audience, whether you
+want to grow an existing business app or build an entirely new business on the
+platform. To help you build experiences to reach these 3 billion users, we've
+delivered a range of tools so you can innovate, from no-code options like
+AppSheets, as Erika just covered, to powerful scripting with Apps Scripts, to a
+complete sets of easy-to-use APIs.
+And we’ve been listening to your feedback. Developers want to use their own
+preferred language and tools when building integrations like Workspace add-ons or
+shout outs, or even using our large collection of REST APIs. So we’ve opened up the
+platform to support development with any tools, any language, on any public cloud.
+Of course, if you're using Google Cloud, why wouldn’t you take advantage of Cloud
+Run, Cloud Data Store, and Cloud AI to power your app? So there’s a big
+opportunity to build on the Workspace platform with the tools and languages of
+your choice.
+Now, let’s take a look at how the process works across the three core stages of our
+development; the design, develop, and publish phases of your app.
+Starting with the design phase, we’ve created the card builder tool. This tool allows
+you to lay out the visual design and user experience of your app. There are range of
+templates. And you can also drag and drop components of the app around like a no-
+code platform. But for more advance developers, you also have the ability to see the
+code in the editor, and make updates there as well.
+As we move on to the develop phase, you now have a range of language and
+tooling to choose from, whether using options from Google like Apps Script or your
+own preferred language and tooling.
+While Apps Script is a great option for developers, we have invested in and
+extended the Google Workspace platform to embrace a wider range of industry
+standard tools. So developers can use their own tech stack and use their existing
+code when building for Workspace.
+When your integration is complete, congratulations, you're ready to publish it for
+public to use in the Workspace Marketplace, where it will be available for billions of
+users.
+It’s worth nothing that there are more than 5,300 publicly available apps in the
+Marketplace today. This number really highlights the diversity of use cases and
+remarkable opportunity for developers in building for Workspace.
+And of course, if you're developing a custom app for using your own organization,
+you have the ability to publish that app privately, so it remains exclusively for the useFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 48 of 64of your organization.
+So there you have it, a quick tour of how you design, develop, and publish new
+integrations for Workspace.
+Now, let’s hear from you. What Workspace platform technologies are you curious to
+learn more about throughout the conference? Is it developer tools and languages
+like Apps Script or AppSheet? Or maybe it’s product integration through add-ons or
+shout outs? Or perhaps data APIs or data access through Workspace APIs?
+But that’s enough about the technology platform. Why don’t we take a look at a few
+real world examples of integrations developed for Workspace? And let’s start with
+the Copper CRM add-on for Gmail.
+(Inaudible) identiﬁed a problem. Workspace users needed a simple, but powerful
+CRM solution that is built to work with apps in Workspace. So naturally, they build a
+solution.
+Here, you can see it in action. As a sales rep receives an email from a customer, the
+Copper add-on detects the email. After installation, the Copper add-on will detect
+the email and pull up the customer information automatically.
+With the customer’s information right next to their email, simply we click through the
+installation. We eventually get to CMB [ph]. There we are. As you can see, the
+Copper add-on has detected the email and pull up the information automatically of
+the user. And with the customer’s information right next to their email, the sales rep
+has all the insight they need from Copper, and can craft the best response for the
+customer, all without leaving Gmail.
+Copper is a perfect example of business that has grown alongside Workspace. And
+today, 100% -- yes, that’s correct, all of their business comes from Workspace
+customers. These are customers who value the best in class CRM solution with deep,
+native integration to critical Workspace apps such as Gmail, Drive, and Calendar.
+The opportunity to build for the Workspace platform spans multiple surface areas.
+So let’s take a look at how this looks in giant [ph] spaces with the brand new Jira bot
+from Atlassian.
+Here, you can see a customer service rep jumping into the customer success chat
+space to report an issue with the customer. After a short discussion in the space, the
+rep creates an issue in Jira via the Jira bot. Every time there’s a status update on the
+case, the Jira bot will update the team members in the chat. This saves the entire
+team valuable time they might have spent going back and forth to Jira and checking
+updates. It also helps the team focus on collaborating together to help the customer
+instead of navigating their tools.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 49 of 64A - Erika Trautman
+A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier SolteroWe’d love to hear what Workspace integration or apps you're using, or would like to
+see. Please share in the comments so the community hears what are some of the
+best.
+These are just a few examples of how developers are innovating in Workspace and
+driving business value for themselves and their customers. We can't wait to see what
+you create and innovate on Workspace. Whether it’s a no-code app, or a
+professionally developed solution. Either way, we provided a rich canvass for you to
+start with and believe the best is yet to come.
+So looking at the chat, it looks like you're excited to get going and ready to get
+started. Visit developers.google.com/workspace to learn more about integrating
+with Workspace.
+Thanks to my colleague, Matt, for taking us under the hood with Workspace today.
+And a special thanks to you, our audience, for your engagement. We love seeing
+your comments on chat. Now, stay tuned for our live Q&A, covering everything from
+our spotlight and this demo. Thank you so much. We’ll see you soon.
++++qanda
+Thanks so much Erika and Matt. It’s absolutely awesome to see all the new
+experiences coming into Workspace.
+Hi everyone. Welcome to the live Q&A. I'm Kady.
+{BIO 16235492 <GO>}
+And I'm Javier. So excited to see all of you and engage with all of you today.
+Absolutely. And before we start, just a reminder, this is an absolutely live Q&A. And
+that means you can engage with us directly. So please ask questions in the chat, tell
+us where you're from. We would love to hear from you.
+And if you can't, just go back to the Next event website and click on the blue button
+that says join the interactive experience, and you’ll be all set.
+So to get this going, let’s go ahead and start with a poll and see who we’ve got
+together today.
+{BIO 16235492 <GO>}
+Let’s do it.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 50 of 64A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier SolteroAll right. So we want to hear what’s your role at work? Do you work in the IT
+Department? Are you a developer? Are you a person who uses Workspace just in the
+process of your daily work? Or something else entirely? Let us know in the chat.
+All right, Javier, while we wait for those results, why don’t you answer a question for
+us?
+{BIO 16235492 <GO>}
+Let’s do it.
+Tell us, what are you most excited about in Workspace these days?
+{BIO 16235492 <GO>}
+Well, I'm excited about the pace at which we’re delivering some amazing new
+capabilities for people. But I'm also excited about the way we’re bringing the
+Workspace products closer together and helping people be that much more
+eﬀective at getting the work done, collaborating with their colleagues, building
+documents. Basically coming -- translating ideas and turning them into reality by
+using our products. It’s very exciting. And we can't wait for all the stuﬀ that we’re
+going to come out with this year and next.
+Absolutely. And I feel like as I’ve seen the chats coming in, customers are talking
+about examples of how they're using Workspace, how they're going to use some of
+the new AppSheet innovation in Gmail. So it’s really exciting.
+Okay, our poll results have come back in. And it looks like -- do you want to read the
+results?
+{BIO 16235492 <GO>}
+Yes. Well, it looks like we have pretty even split between our IT folks and developers,
+which is great, and consistent with like one of the key -- there’s a lot of great content
+for all of you at Next. And then we also have a healthy portion of end users and other
+folks. So, widening the audience, trying to make this highly relevant topic for a lot of
+people, not just technology professionals, people use this every day, so I'm excited
+to see this many people.
+Absolutely. All right, let’s jump in with our ﬁrst question.
+{BIO 16235492 <GO>}FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 51 of 64A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Erika TrautmanLet’s do it.
+It comes from Lucy [ph], who says, I saw the news about the new Work Safer
+program. Can you tell us a bit more about that?
+{BIO 16235492 <GO>}
+Sure. Thank you for the question, Lucy [ph]. So we’re announcing Work Safer as a
+way to bring the best of Google Workspace and of Google Cloud Security together
+to help companies rise to the growing threat of cybersecurity incidents, et cetera.
+And so it brings together Google Workspace with some exciting innovating from our
+Security team. And for those customers that have broader, more diverse
+environments, we partnered with two of the best names in the security business; Palo
+Alto Networks, and CrowdStrike, to create a complete solution for these companies
+to be able to remain secure in a much more challenging environment.
+That’s great. That’s great to hear a kind of an all in one solution.
+{BIO 16235492 <GO>}
+Yes.
+All right. Let’s move on to question number two. And this one is going to be for
+Erika. And it comes from Michael Etsefron [ph], who asks, is it hard to collaborate if
+members are using diﬀerent platforms to join? For example, he’s running oﬀ of
+Google’s toolset, but has a partner who’s using a diﬀerent platform?
+Yes, this is a really important question, Michael [ph]. Thank you for that. I think the
+reality is that we live in a world where there’s diﬀerent sets of products that you or
+your partners, or your customers are going to be using. And it’s fundamental to our
+way of viewing the world that Workspace should not be a walled garden. It should
+integrate. It should connect and make those tasks easier for you.
+So on the Drive doc sheet slides side, we invest really deeply in making
+interoperability with Microsoft in particular, totally seamless and very easy to use. So
+for example, you can open up Microsoft documents in the Google Editor and have
+the full interactive experience. Those changes will be saved back to your Microsoft
+document including comments. All of those changes are updated in real time.
+But there’s also a really important third party compatibility component, which I would
+love for my colleague, Matt, to discuss.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 52 of 64A - Matthew Izatt
+A - Kady Dundas
+A - Erika Trautman
+A - Kady Dundas
+A - Javier Soltero
+A - Kady DundasYes, it’s fundamental to us that whether using tools which interoperates with the
+Workspace Suite, or things will complement the types of functionality that we oﬀer,
+that these all work together.
+I think one example that we recently announced, our new partnership with Miro,
+which is a company that does virtual whiteboarding or collaborative canvassing. And
+you can imagine that as you're working with that toolset, not only are you building
+things on your virtual canvass, but you're scheduling meetings, you're holding
+meetings, with which you want to collaborate in real time while changing things
+within that tool.
+And so what we are doing is making it really easy for you to schedule a meeting in
+Calendar, join a meeting in Meet, and at the same time be working in your Miro
+whiteboard. So yes, we believe very strongly that all these things should work better
+together; other Workspace and partners that are really great experience for our
+customers and users.
+That’s great. Thank you. All right, our next question comes from Ben Bing [ph], who’s
+with Chandra Ausry [ph] and asks, must we have or use Gmail or company email for
+using the rest of Google Cloud and Workspace?
+And I think Erika, this is probably one for you.
+Sure. Yes, happy to take that.
+We have tailored oﬀerings that don’t require you to migrate emails. So Workspace
+Essentials is perfect for that. It includes the Workspace product set but without email,
+so it integrates easily. And we also have deep interoperability with Outlook and
+Calendar.
+Got it. Great. Javier, we’re going to move to you next.
+{BIO 16235492 <GO>}
+Okay.
+And the question comes from Hannah [ph]. And Hannah [ph] says that her team
+loves new features, like being able to jump right into a meet from a doc, and is
+wondering, will integrations like that be extended to other apps inside Workspace?FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 53 of 64A - Javier Soltero
+A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas{BIO 16235492 <GO>}
+Yes. In fact, we’re very excited to continue to advance the opportunity of bringing --
+to start actually from the real time collaborative experience that Google Docs
+pioneered, now actually 15 years ago. I think yesterday was our 15th birthday. One
+more and we can drive.
+And be able to allow users to go from working in real time with others in the
+document to easily getting into a live video feed where you can hear and see each
+other. And sort of that progression I guess is really important part of ensuring
+seamless collaboration, and it applies, we see to both our own editors, as well as
+Matt mentioned, third parties over time.
+Yes, got it.
+{BIO 16235492 <GO>}
+Yes.
+Makes sense. But we’re going to stay with you, Javier with this next question, which
+comes from Carter [ph], who says, my company uses a lot of point solutions like
+Zoom and Slack, in addition to having Microsoft and Google licenses. So what would
+you say is the argument for consolidating?
+{BIO 16235492 <GO>}
+Well look, one of the strongest aspects of Google Workspace is the element of
+choice, the choice that users make billions of users have made to select individual
+products for key roles in their lives, at work, et cetera. And so we’re guided as we
+reﬁne these products, by that sense of aﬃnity that people have to the approach that
+we bring.
+That approach is best expressed and nurtured I think through deeper and better
+integration between our products to create something that’s ultimately net new, and
+at the same time, we recognize that there are other companies around us and this
+vibrant ecosystem of ours that oﬀer diﬀerent points of view, and diﬀerent aspects of
+what we also provide. And we believe that there’s ample opportunity for users to
+make an informed choice and really recognize -- it comes down to familiarity with the
+product, the sense of security that you get from an integrated solution, and
+ultimately the cost.
+So it’s a choice everyone makes, and over time, we feel really good about the
+continued growth of our ecosystem.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 54 of 64A - Erika Trautman
+A - Kady Dundas
+A - Javier SolteroThat’s great. That’s great. Thank you.
+Erika, we’re coming back to you with a question from Myles [ph], who asks, how do
+you plan to win over diehard fans of Excel and other Microsoft creation tools?
+All right, a good challenging questions from Myles [ph].
+Well, as Javier said, we introduced Docs and Sheets about 15 years ago. And that
+fundamentally re-thought what a ﬁle should be. Our belief is that these experiences
+need to leverage the best that the internet has to oﬀer; so, interactivity, connectivity,
+and data. And they shouldn’t just be a physical -- a digital representation of a
+physical piece of paper that lives on your hard drive. And that’s in stark contrast to
+the mental model that legacy solutions have evolved from.
+Over the years, we’ve invested a ton in user experience and making this incredibly
+easy to adopt. And the great thing is that all of this ease of use which billions of
+people take advantage of is [ph] has Google Security in meshed and underpinning
+the whole experience.
+I would call a couple of features that I hope people are aware of. But if they're not,
+they should be. So connected sheets for example, if you weren’t aware, allows Sheet
+users to analyze billions of rows of data. Yes, billions, in a single sheet. So that really
+pushes the envelope for what a productivity tool can do.
+And our innovation around smart canvass, which really supercharges interactivity,
+intelligence, and connection to rich data in the form of these modular building
+blocks that transcend the ﬁle boundaries. So we bring in smart chips that bring rich
+information about people, events, ﬁles, templates, we have tables, and task list. All of
+that really further enhances what these ﬁles should be.
+So what I would say is for any of the Microsoft, diehard Microsoft fans, we would love
+to give you a tour, and I bet we could change your mind.
+Got it. Great, thanks, Erika.
+All right Javier, we’re coming to you next with a question from Juliet [ph], who
+comments that there have been a lot of security breaches lately in the news. And
+what are we doing from a Workspace perspective to protect customers from these
+sorts of attacks?
+{BIO 16235492 <GO>}
+Well, it’s a great question. And thank you for the question.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 55 of 64A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier SolteroA lot of these attacks originate from the architecture and habits that went along with
+legacy products, right; the sharing models, the approach for storing content, the
+reliance on heavy, powerful clients that store a lot of information locally on them but
+don’t necessarily provide the best degree of security.
+Google Workspace was born on a diﬀerent era and has -- it had since the very
+beginning a diﬀerent point of view about the design and the approach to security.
+And it comes, I guess, as part of us being cloud only, right? Like, we grew up and
+we’re architected for the distributed world in which we live in now. And it is the
+reason behind why our products are so eﬀective.
+So we’ve continued to invest around that to make it even clearer how along with
+enhancements and innovative capabilities from Google Cloud security, like the
+encore, et cetera, we establish a completely diﬀerent model for securing content
+while ensuring the absolute best and most eﬀective level of collaboration within a
+company, and beyond a company; so externally with other third parties, et cetera,
+and partners.
+Absolutely. So it’s really architected to be safe in this world.
+{BIO 16235492 <GO>}
+Yes, yes. And actually, look, we mentioned this idea of habits, right? Like, these -- the
+notion of attachments, right, the model that people grew up with when productivity
+tools, digital productivity tools were ﬁrst introduced. Is the main vector through
+which a lot of these ransomware and other terrible things tend to start, right?
+Somebody, either opens an email, like a phishing attempt, or a malicious attachment,
+something that gets spread through various diﬀerent tools that people are used to
+using.
+And companies are really desperate, say, how do we actually put a stop to this? And
+by the way, can we do that in a way that actually works us towards a sense of
+transformation in our company? So it’s not just about securing your communication
+and collaboration, but ultimately taking that full opportunity to make it more eﬀective
+at the same time. So it’s pretty exciting.
+That is exciting.
+And you have been working in this space for so long. You mentioned the legacy
+tools. And from Acompli, to work at diﬀerent companies, you’ve been so focused on
+the productivity market. What have you learned across those diﬀerent experiences
+and diﬀerent products that is most important and the knowledge that you use today?
+{BIO 16235492 <GO>}FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 56 of 64A - Kady Dundas
+A - Matthew IzattWell, listen, I think the most honest answer to that question, and it may surprise some
+of you, is you can't please everybody, right? You're building products that play these
+very crucial roles in people’s personal lives, and at school, and at work. And part of
+their power is that they are horizontal in nature. They allow people their canvasses
+for creation, articulation of ideas, et cetera.
+And so you have to be very careful and deliberate about the process you use to
+evolve those products. And so as I mentioned earlier, we began our journey as
+Google in the collaboration space in a very particular point in time where it allowed
+us to have a diﬀerent point of view, a more modern approach, and an eye towards
+simplicity that didn’t undermine the sophistication and power of the products that
+we were doing. That’s what we are really strongest at.
+And so as a result, the task of evolving those opinions in products like Docs or
+Sheets, or Gmail, or Meet, any one of these products, they are the representation of
+a point of view that Google is bringing, that customers are actually informing and
+helping us reﬁne over time. But it ultimately requires that we really understand what
+it is that we believe the right result is for our customers. And that may mean in some
+cases that these products are uniquely powerful for key scenarios, and are not
+necessarily just like something that can be used for -- they're not multi-tools, right?
+So it’s a really exciting and challenging journey for us.
+Absolutely. And having that strong point of view, it’s a great opportunity to get
+feedback from all the customers who are listening now. Please share your feedback
+in the chat. We want to hear from you.
+All right, we have another question. It’s coming in from John [ph], and it’s going to
+be for Matt. And John [ph] asks, what are you doing to encourage developers and
+ISVs to build for Workspace?
+Yes, thanks for asking the question. I know we talked a lot about customers and
+users. But at the heart of the successful platform is developers. And so what makes
+the developer want to build on the platform?
+Let’s start with our open philosophy. Google as a company for a long time has
+believed in the openness of data, the openness of access to platform, and that
+extends to Workspace. We built an extensive set of APIs and frameworks, and they're
+completely open. You can go build something today right now.
+Secondly is reach. If you are building something on a platform, you want an
+audience, right? You want to build a business on a platform, you want to have
+success, your customers have success. And we have -- or Workspace certainly has a
+lot of reach. We’re talking about 3 billion users and millions of paying businesses
+and paying customers. This is fundamental for why you want to be on the Workspace
+platform.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 57 of 64A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier SolteroFinally, I mentioned APIs and frameworks. We’ve put a lot of eﬀort into -- we did put
+a lot of eﬀort into making sure they are easy to use and easy to build on. I say easy
+from a developer point of view. It shouldn’t take you months and months of trying to
+deduce how something works from coding [ph] and documentation, rather it should
+be something that you could build up a prototype in an afternoon. And we believe
+we have made it that way for you.
+And ﬁnally, you’ve seen a lot of logos on our slides today, at our discussion point
+today. These are really proof points; Atlassian, Miro, DocuSign -- of the success our
+partners are having, and in fact that we believe in being better together.
+Absolutely. Thanks, Matt.
+Okay, Javier, we’re coming back to you with a question from Laura [ph].
+{BIO 16235492 <GO>}
+Hello Laura [ph].
+Yes. Laura [ph] is asking with COVID still keeping a lot of companies remote, what is
+Google and Google Workspace team doing to oﬀset the diﬃculties of distributed
+work?
+{BIO 16235492 <GO>}
+A lot, is the honest, simplest answer. Now look, I think there is a -- it’s a two-part
+answer. From one side, as an organization, we have to listen to people. We have to
+get feedback from employees. We’ve learned a lot from each other and about the
+diﬀerent situations that our employees have to face on a daily basis.
+It’s informed our point of view, as I mentioned earlier this idea of having an opinion.
+We know that just because work doesn’t take place in a speciﬁc named location any
+more, that there aren't like a whole host of new problems and opportunities that you
+have to address. Not just with products by the way, but also with policies that a
+company adopts, like recovery days, and home oﬃce type end, et cetera.
+Now from a product perspective, we have this incredible opportunity to channel
+those learnings, along with the input that we get from our customers from around
+the world, and even our users to say how are we helping and how can we be more
+helpful, I guess, in such a broad uniform sense of the word, by helping people not
+just use these products, but be successful with them.
+And again, this involves a whole lot of listening, which is why I'm great to have -- it’s
+the dynamic experience here with Cloud Next, and also all these great conversations
+with users and customers that we’ve been having every -- so, it’s a never-ending task.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 58 of 64A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier Soltero
+A - Kady Dundas
+A - Javier Soltero
+A - Melonie ParkerAbsolutely. Across two parts; the work and the product.
+{BIO 16235492 <GO>}
+That’s right.
+Yes. All right, well, it looks like we are out of time. So, I’d like to thank everyone for
+joining us today and a huge thank you to Javier, Erika, and Matt.
+{BIO 16235492 <GO>}
+And thank you, Kady.
+Of course. It’s great to be here altogether. Thank you everyone online for joining in
+today.
+And I’d like to remind you that even though we ﬁnished the live Q&A, the day is not
+over yet. And there is actually another great session that is about to begin shortly.
+And it’s from our own Chief Diversity Oﬃcer, Melonie Parker, who is going to be
+leading a DEI spotlight session that talks about the importance of STEM in creating
+pathways to jobs in tech. It’s a really important topic, and I hope you all tune in to
+check it out. The details are on the Next website.
+Thanks so much for joining us. Bye.
+{BIO 16235492 <GO>}
+Thanks everybody.
++++presentation
+{BIO 21008144 <GO>}
+Hello everyone. My name is Melonie Parker and I am Google’s Chief Diversity Oﬃcer.
+I’d also like to introduce Malaney [ph] who’s with us today. She’s going to be
+providing ASL interpretation.
+Is it great to be back for my third Google Cloud Next. This time, we’re going to look
+at nurturing and developing pathways to careers in tech. Today, I’d like to talk about
+how building a more diverse inclusive culture is not just a competitive advantage for
+us at Google, but it’s a responsibility as well.
+And as we get started, I want to let you know that the chat is open so you can
+engage with each other during this session. I want you to share your thoughts, shareFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 59 of 64where you're tuning in from, and we’ll have a few of our folks on hand to join the
+conversation.
+We’ll also get into what we’re doing to widen pathways to tech careers at Google
+and across our industry. But ﬁrst, I am so proud to say that Google is committed to
+making diversity, equity, and inclusion a part of everything we do, from how we build
+our products, to how we build our workforce.
+I work hand in hand with our CEO, Sundar Pichai, and as part of our executive
+leadership team, to bring our global DEI strategy to life.
+I also lead a passionate group of people whose work touches over 140,000
+employees, stretches across nearly 60 countries, and helps millions of users who use
+our products and our platforms to run their households, their businesses, and their
+lives.
+And personally, I travel down a very unlikely path to land this position. I'm a black
+woman who grew up in a small town in North Carolina. My brother and I are proud
+alumni of HBCUs. And we were the ﬁrst generation in our family to bring home a
+college degree, which I earned at Historically Black University, Hampton University.
+And unlike many of my peers, I didn’t have anyone at home to explain the unwritten
+rules of corporate America or to help me navigate my career. Instead, I cobbled
+together a community of mentors, managers, and inspirational voices who helped
+me ﬁnd my path.
+And that’s an idea that I want to focus on today. Access, opportunity, and networking
+are critically important building blocks for a successful tech career. And that’s
+especially true for folks like me who come from non-traditional backgrounds.
+Too many people from underrepresented communities ﬁnd themselves confronting
+systemic inequalities, such as a lack of access to STEM education, or access to high
+speed internet that disrupt the pathway to tech careers. And for many who do
+navigate the pathway, we’ve seen how the wake of inequality can foster a sense of
+imposter syndrome once on the inside. It’s that sinking feeling of doubt in our
+abilities and a feeling like a fraud, or that we don’t belong, and that for some, it will
+linger for an entire career.
+Overcoming inequality and creating access to opportunity, including for our
+underrepresented talent, this is a top priority at Google. And we’re taking decisive
+actions that create opportunities and steadily grow a workforce that reﬂects the
+world around us, to launch programs that support our communities globally, and to
+build products that better serve all of our users.
+In other words, to build for everyone. We need to weave diverse perspectives in to
+every step of our design, engineering, and testing processes.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 60 of 64And innovative ideas can come from everyone; from Googlers at the grassroots
+level, to engaged leaders, and to established diversity councils across the company.
+As an example, the Google Meet team worked on a light enhancement feature to
+better represent all skin tones in an inclusive way during our video calls. And
+through feedback from a diverse group of testers, the team was able to determine
+the right algorithm that better work for all individuals across the skin tone spectrum.
+And this ensured that all video calls on Meet work well for everyone. And it was
+thanks to the collaborative work and questioning how do make products equitable
+for all.
+And another example, Google has internal teams to foster equity through
+technology, empowering our black plus community to innovate in the digital space
+by supporting their educational journey, and helping them land roles in the tech
+industry.
+And we’ve also built external programs like Cloud Career Jumpstart. It’s a 12-week
+learning course for underrepresented students with Computer Science, or
+Information Systems related majors, or the relevant experience that oﬀers free access
+to Google Cloud Associate Cloud Engineer Training to prepare for the certiﬁcation
+exam.
+We just published our diversity annual report. And I am excited to share that 2020
+was our best year yet for hiring our black plus and Latinx plus Googlers in the U.S. It
+was also our best year ever for hiring women in tech in the U.S. and globally.
+In addition to hiring, we’re also redoubling the focus on retaining Googlers from all
+underrepresented groups. And then full transparency, this is an area where we can
+and we must do better. Google depends on the best, brightest, and most diverse
+talent to not only help us solve today’s challenges, but also to co-create solutions to
+tomorrow’s problems. So we are building a lasting model of inclusion and belonging
+that helps all employees feel seen, connected, supported, and I hope proud to be in
+service.
+Belonging is key to re-recruiting our workforce and acknowledging that not
+everyone experiences our culture the same way. Despite our best eﬀorts, some team
+members are still feeling left out. There is work to do around building the culture
+that we’ve all been working so hard to co-create. Clearly, there’s some other missing
+element. And as diﬀerent as we are, we all have the same underlying need to feel
+value, to feel like our contributions matter, to feel like we belong here.
+But being included isn't necessarily feeling like you belong. Being invited to the
+table is not the same as being welcome at the table and being valued like you
+belong.
+Personally, I’ve been inspired by the work of John Powell. John is an expert in the
+areas of civil rights and civil liberties. And he’s a professor at Berkeley and he leadsFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 61 of 64the Institute of Othering and Belonging. And he looks at our primal need as team is
+to belong, and what fosters belonging and what prevents it.
+And if you think about it, one of our primal fears is to be ostracized by a group.
+Aside from food and shelter, we need to belong. And we’ve evolved to ensure that
+we could maintain access to the resources that the group has. Many behaviors are
+dictated by this need to be accepted by others.
+But we’re also guided by the fear of losing that very acceptance. And we’ve evolved
+to protect ourselves and our loved ones by determining who’s in and who’s out. And
+that comes down to identifying who’s the least risk, those that we perceive most like
+us and relegating those who aren't to the out crowd.
+And John calls that primal sorting of people into ins and outs; the cool kids versus
+the non-cool kids, as othering. And we don’t necessarily do this consciously. But it is
+the behavior that stems from our unconscious bias, the subtle ways that we send
+messages, even virtually, of who’s cool, and who’s not, who’s valued, who’s not. And
+that’s why I believe that our work, it’s not truly possible until we foster this sense of
+belonging.
+And as evolved humans, we have control over this. There are ways to check in with
+ourselves, noticing are we turning inward, focusing on only who and what we know,
+versus turning outward to connect with and explicitly work with other groups, and to
+seek ways to build common ground. And that would foster belonging and empathy.
+And this means that we need to co-create the workplace experience with our
+internal communities, and redeﬁne what it means to be a Googler, by
+acknowledging where we can do better, and by ensuring everyone feels like they
+belong, is positioned to do their best work, and can conﬁdently bring their authentic
+whole selves to work each day. And for underrepresented talent, this can make the
+diﬀerence between surviving and thriving in their career.
+And for those of us who are accustomed to muting parts of who we are, authenticity
+empowers us to do our very best work.
+Last summer, at the start of the global racial justice movement, I realized that I could
+no longer cope switch, or check parts of myself at the door in an act of self-
+preservation to lead our deep work in racial equity, and address the systemic and
+structural barriers. I needed to reconcile the most vulnerable parts of my own
+identity as a black woman with the black woman who happens to lead diversity at
+Google.
+And I know that this is the type of workplace environment that we strive to build. And
+with our collective, consistent eﬀorts, that is what we’ll do. We know that Google is
+most helpful when our products and our services reﬂect the needs of the people
+who are using them.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 62 of 64To best serve our diverse global community of users, we need a more representative
+workforce. And while we’re making progress, we know equalities persist around
+access, opportunity, and networking for underrepresented talent. But through
+investments in creating pathways to STEM and with help from allies, we can broaden
+the talent pipeline, improve product design, and fulﬁll our mission of making DEI
+part of everything that we do.
+What’s this look like? There’s a real cognitive shift happening both inside and outside
+of Google around diversity, equity, and inclusion, and how we can best build for
+everyone. Externally, we’re creating pathways to careers in tech as early as
+elementary and high school. We’re expanding recruitment beyond the usual
+campuses like Stanford, Berkeley, Harvard, Yale, and doubling down on higher
+education institutions like Hispanic serving institutions, and Historically Black
+colleges and universities, serving underrepresented talent.
+Why? Because we know that 25% of black graduates with STEM degrees for
+example, they come from HBCUs, just like the one I attended. So this year, we began
+deepening and sustaining at relationships with HBCUs.
+In June, we announced a historic, unrestricted $50 million grant that allows the
+presidents of these esteemed institutions to allocate resources in a manner that they
+see ﬁt.
+We’re also broadening career pathways to include a major growth with Google
+career readiness investment that supports our Hispanic-serving institutions around
+the U.S., a signiﬁcant economic opportunity grant for workforce development, and
+digital skills training to thousands of Hispanics, and a career readiness program for
+Native American indigenous serving institutions. And that’s just the slice of the work
+that we’re doing externally.
+And while I mentioned that 2020 was Google’s biggest years in terms of hiring black
+and Latinx talent in the U.S., we know that there’s much more work to do inside of
+Google to retain and grow our talent. So broadly speaking, we’ve developed racial
+equity education for all Googlers and incorporated it into our new hire orientation.
+We’ve doubled the size of our retention and progression team. Now, we’re on a path
+to triple this team by 2022. And this enables us to provide one to one support like
+coaching, networking, and internal mobility opportunities to help underrepresented
+Googlers grow and thrive. And we’ve rolled out an innovative onboarding program
+for our new black Googlers so that they feel more supported right from the start.
+Our employees want to know that they can grow and thrive with us, and that’s one
+reason why we’re working to increase leadership representation among women,
+black, and Latinx Googlers.
+We’ve introduced pathways to sponsorship, for women in technical leadership roles.
+It’s designed to accelerate their careers. We leverage partnerships with more thanFINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 63 of 64two dozen community and professional organizations. And these partners oﬀer
+professional development, as well as networking opportunities for
+underrepresented Googlers.
+We also oﬀer skills building initiatives like the Cloud Technical Residency program.
+And with great intention, we’ve begun building a culture of belonging for all
+Googlers as I’ve described earlier.
+We’ve been very open about our successes and our challenges. And I invite you to
+explore this further at diversity.google.com.
+Now, I know many of you are wondering what can I do? So as you weigh your own
+strategies around engagement and retention, consider the role of allies in driving
+results. Allies can be leaders, managers, and peers. They support folks in
+marginalized groups to which we don’t identify.
+Internally, we’ve created a number of pathways for allies that are seeking to support
+our underrepresented colleagues. These include an Allyship Pathway, with group
+exercises for allies and resources for practicing or encouraging inclusive behaviors.
+We also have Google in Residence. Experience Google’s software engineers teach
+introductory computer science classes on HBCU campuses.
+And we have Faculty in Residence. We have more than 50 faculty members from 30
+HBCUs to design project-based industry-informed content, and to implement that
+content in their classrooms.
+Google has doubled in size in the past few years. We know our DEI commitments
+need to keep pace. Operating at this global scale, it heightens our sense of
+responsibility around DEI. And to paraphrase my colleague, Amy Jean-Baptiste,
+there’s no blueprint to doing this work perfectly.
+And while we don’t have all the answers, we’re eager to share what we’ve learned
+and also to learn from others. And in the spirit of learning leadership, I hope I’ll be
+invited to share more discoveries and progress at Google Cloud Next ’22.
+In closing, when our mission is to build for everyone, we have to work with everyone.
+So with help from allies and through smart investments and creating pathways to
+STEM careers, I am conﬁdent our talent pipeline will ﬂourish. Real, meaningful
+change can take years, we know. But there’s no need to wait for change to come.
+If you haven’t already, please head over the chat room and join the discussion. There,
+you can share some of your successes and your challenges around creating
+pathways to tech careers. This kind of dialogue can open minds and truly inspire
+change.FINAL TRANSCRIPT 2021-10-12
+Alphabet Inc (GOOGL US Equity)
+Page 64 of 64I look forward to share more progress with you next years. And I’ll bring others along
+who have been on this journey with us to share their experiences.
+Thank you for wrapping up day one of Google Cloud Next with me. It’s been great
+sharing this time with you. We look forward to seeing you all here tomorrow for day
+two, which kicks oﬀ with our developer keynote. Until then, be sure to register at
+g.co/cloudnext for access for all of our content and join the conversation on social
+using hashtag #googlecloudnext.
+See you tomorrow.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

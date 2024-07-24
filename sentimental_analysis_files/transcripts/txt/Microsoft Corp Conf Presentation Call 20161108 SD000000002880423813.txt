@@ -1,0 +1,1142 @@
+FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 1 of 29, Corporate VP of Cloud & Enterprises
+, Analyst, Sanford C. Bernstein
+Unidentiﬁed Participant, Analyst, Unknown
+Mark Moerdler
+Takeshi Numoto
+Mark MoerdlerSanford C Bernstein Technology Innovation Summit
+Company Participants
+Takeshi Numoto
+Other Participants
+Mark Moerdler
+Presentation
+{BIO 16855032 <GO>}
+Welcome, everyone. Again, for those who don't know me, my name is Mark
+Moerdler. And I cover global software for Bernstein. It's with my distinct pleasure to
+welcome Takeshi Numoto, Corporate VP of Cloud and Enterprises. Takeshi has been
+with Microsoft since 1997 and brings to today's discussion deep knowledge of
+Microsoft's commercial products and commercial cloud solutions. And since he
+doesn't have a jacket on, I'll take mine oﬀ and roll my sleeves up. So we can hold a --
+(Inaudible)
+It's okay, I want to be relaxed. And we'll lay into lots of interesting questions.
+So what I'm going to start oﬀ with is some, what I would call, speed dating questions,
+blast questions, get some quick answers to some questions that investors have
+asked us at a high level, can give (inaudible).
+I'd like to start at a high level with what makes up Microsoft's cloud platforms, what
+are the products.
+{BIO 21693553 <GO>}
+When we talk externally about Microsoft Cloud and cloud run rate as a revenue
+metric, as an example, we're talking about the commercial cloud service oﬀerings we
+have. So that includes things like Azure. And it's inclusive of all the underlying oﬀers
+that it has, like EMS or Power BI, as well as Oﬃce 365 and Dynamics 365.
+{BIO 16855032 <GO>}
+Excellent. At a high level, why do you have so many datacenter regions worldwide?FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 2 of 29Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler{BIO 21693553 <GO>}
+Well it's really customer demand driven, in the sense that our customers need, in
+terms of their IT environment and what they look for, is very, very complex. So
+whether it be from regulatory requirements like data residency or the ability to really
+have datacenters close to wherever they want to deploy their applications and
+solutions, that's kind of what we look at in terms of giving our customers the option
+to be able to deploy their solutions and their applications closer to either their
+employees or their markets that they're trying to address.
+{BIO 16855032 <GO>}
+So how big is a datacenter region or a datacenter? And are they comparable
+between what a Microsoft and Amazon and Google might build?
+{BIO 21693553 <GO>}
+One thing I ﬁrst want to clarify is, when we talk about 38 regions for Azure, which is
+something you may have heard about, region is not a datacenter. Region is
+essentially a logical representation of one or more datacenters.
+So we typically set up -- there are some regions that are represented by huge
+datacenters, where one large datacenter is a region. But there are other cases where,
+more typically, we're aggregating multiple datacenter locations. So that they're
+within network latency proximity, such that we can logically represent it as one
+logical datacenter. And we call that a region. And we have 38 of them announced in
+the world. And that's more than basically what all of our competition oﬀers by a wide
+margin.
+And again, like I said, the reason we oﬀer this is because we are really geared
+towards the enterprise needs. And when you think about one of the key reasons
+enterprise customers look to us is the ability for them to deploy their applications
+and solutions closer to where they need to have their application solutions
+deployed.
+We're also unique in the sense that we oﬀer -- essentially, we're the only global
+provider that is legally licensed to operate our cloud services and oﬀer them in
+China. And we oﬀer that through a partner called 21Vianet. And we also have a
+unique -- essentially a data trustee model in Germany, where we have datacenter
+oﬀerings in Germany, where the data controlled, in terms of the access to the data, is
+controlled by our partner and not by Microsoft directly. And that gives them,
+particularly customers in Germany and Europe, additional isolation in terms of data
+sovereignties.
+{BIO 16855032 <GO>}
+Great. Thank you. And how big is your datacenter footprint? I mean, could we say it's
+built to support 10% of the world's compute -- I mean, what's a fair metric of whatFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 3 of 29Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdleryou've built to date?
+{BIO 21693553 <GO>}
+We can share with you a bunch of the collateral we have in terms of the sheer scale
+of our datacenters. Because it is quite impressive. Sometimes people talk about the
+cloud and, a lot of people immersed in kind of things like a server room. And then
+think, well, we have a cloud, too. But the sheer scale of our datacenters. And let
+alone the sheer scale of the regions that aggregates multiple datacenters, is quite
+staggering. We could sort of show you sort of video reel [ph] that talks about the
+amount of concrete used in just one datacenter, the number of cabling that's used in
+one datacenter that can exceed -- essentially that can circumvent, encircle the earth
+multiple times and things like that. And the scale is quite impressive.
+{BIO 16855032 <GO>}
+Any sense in terms of -- is it built out to capture some big portion of the world
+capacity?
+{BIO 21693553 <GO>}
+I think your question implies that the cloud is largely sort of a mere shift from a trend
+[ph]. So for us -- and sort of the customer adoption pattern bear this out -- cloud can,
+of course, be a place where you shift your workloads. But so many times, cloud is
+also a place where you do new things that you didn't do before. If you want to do
+advanced analytics, or if you want to learn a machine -- have a machine learning
+(inaudible) that you want to apply against your data, they may not have been
+activities that were done on-prem.
+So we're surely not thinking about building out our datacenter capacity as a
+percentage of the world's computing capacity or even on-prem capacity; we're just
+really doing it on the basis of customer demand. And basically scaling to meet the
+needs of the customer demands.
+And the consumption growth for Azure has been very substantial. In Q1, I think we
+talked about our Compute, Azure Compute growth doubling year over year again.
+And overall consumption growth was around over 120% year over year. So we're
+basically looking at -- we're seeing all this customer interest in consumption growth
+across the world. And how do we keep up with the capacity. And we don't think
+about it in the ratio that you talked about.
+{BIO 16855032 <GO>}
+Okay. That's fair.
+Little more detail -- where are we in the Azure adoption cycle? Is this still the early
+adopter, the guys kicking tires? Is this enterprises running large production
+enterprise workloads? How should we think of it?FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 4 of 29Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto{BIO 21693553 <GO>}
+I would say it's not -- it's certainly not just the, quote-unquote, early adopters. I would
+say, what the best -- one way to think about it is almost like an early innings, if you
+play baseball.
+{BIO 16855032 <GO>}
+Okay.
+{BIO 21693553 <GO>}
+So everybody's playing the game. Everybody's into the game now, with varying
+degrees. Some of the customers are starting with sort of the tiptoe in the water,
+maybe with SaaS applications like Oﬃce 365 or just, on Azure, maybe something like
+disaster recovery. Then, there are other customers that are far deeper into it in terms
+of really deploying mission-critical applications, like SAP and running that in Azure.
+And so the question is essentially -- my answer to the question is the participation
+into the cloud is really taking oﬀ across our customer base. The degree of which.
+And the sophistication with which, they do it is still high variable. But the level of
+participation into the cloud, I think, has broadened dramatically over the last year or
+so.
+{BIO 16855032 <GO>}
+Okay. And you expect that to continue, obviously?
+{BIO 21693553 <GO>}
+Yes.
+{BIO 16855032 <GO>}
+Good, excellent.
+What is Microsoft's cloud value proposition to customers versus some sort of an
+enterprise software vendor, a Workday or some other vendor? And in the future, do
+you see customer using multiple clouds, like Azure or AWS with Compute. And
+Oracle Workday for apps? Or how do you think of the world moving over the next
+number of years?
+{BIO 21693553 <GO>}
+The journey that we see customers going on -- their entry point into the journey to
+the cloud could be diﬀerent depending on the customer. Some customers may startFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 5 of 29Mark Moerdler
+Takeshi Numoto
+Mark Moerdlerby introducing SaaS applications into the environment, whether it be Oﬃce 365 or
+Dynamics 365. That may be one part of their journey.
+Or they might start with infrastructure ﬁrst. And may start with something like storage
+or disaster recovery. Or they might actually start using the cloud in terms of
+developing net new applications that the -- that's sort of hard to conceive or deploy
+on-prem. And particularly around things like new data and AI type applications.
+So whether you start with a SaaS ﬁrst or infrastructure ﬁrst, or net new application
+into the cloud ﬁrst, what we see customers evolving to is that they end up needing
+all three. So you might actually start with one of these three diﬀerent scenarios. But
+over time, customers will essentially need all these, whether it's a SaaS thing or IS
+[ph] thing or net new application development platforms.
+And we see this in the customer number. So in Q1, for example, we talked about how
+of the Fortune 500 companies, not only do we have 90%-plus of our Fortune 500
+customers running their business on Microsoft Cloud. And over 60% of them are
+running three or more of the Microsoft Cloud oﬀerings, which is basically a 20-point
+improvement year over year. And it kind of goes to show us, customer may start in
+one of the diﬀerent entry points. But actually evolving to use more of it.
+And so compared to other application-centric vendors, our really [ph] approach is
+we're far more comprehensive. And that's why we see even partners like SAP
+basically bring their applications to run on Azure. We've made some announcements
+on this a few weeks ago. And no application that you know in the enterprise stands
+alone. They're never in a silo, they have to be integrated with diﬀerent applications.
+The data needs to be shared across diﬀerent applications, then there's a huge role
+that a horizontal application platform and a cloud platform like Azure can play.
+And of course, if the customers want to go essentially deploy a SaaS application
+purely with SAP or Workday, we will actually have connectors in other integration
+points, whether it be things like Active Directory, to go integrate. So we want to make
+sure all customers have a way to use Azure, whether it's conjunction with that
+existing SaaS app or using Azure as a horizontal line of business model.
+{BIO 16855032 <GO>}
+Okay. Brilliant one of the [ph] numbers. You said that 60% of the customers are
+running -- of the 90% of the Fortune 500 are running three or more solutions. But
+that's still, again, in early innings within their opportunity to build out and use Azure,
+correct?
+{BIO 21693553 <GO>}
+Yes. First of all, that 60% isn't within the 90%.
+{BIO 16855032 <GO>}FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 6 of 29Takeshi Numoto
+Mark Moerdler
+Takeshi NumotoOkay.
+{BIO 21693553 <GO>}
+So it's actually 60% of (multiple speakers) the base. And when we talk about three, it
+is sure that there's even within the three 60 that's already using three of our services.
+We have a lot of consumption growth opportunities, because they may be starting to
+use one of the three services. But they can use more of that volume of that same
+service, in addition to consuming more of our service. So there's a lot of opportunity
+there.
+{BIO 16855032 <GO>}
+Excellent.
+Can you provide a sense of the opportunity for Azure from third-party SaaS and
+solution vendors building and running on top of Azure? If you had -- gave SAP as an
+example, how big of what's going to run, or you think could run on Azure, is going to
+the other SaaS members?
+{BIO 21693553 <GO>}
+I'm not quite sure I get particularly ﬁxated on the notion of a SaaS or not. It is
+interesting to really think about the opportunity we have for how essentially the
+enterprise ISV application can essentially move to take advantage of something like
+Azure. So given historical relationship we have with so many of the enterprises ISVs,
+we have an opportunity to work with them and talk about how their enterprise ISV
+solution can take advantage of cloud. And they can also move from essentially an
+on-prem business model to one in the cloud.
+So as an example, Esri delivers their geospatial solutions on top of Azure. They're
+historically been an on-prem solution. But now, they bring their cloud solution to the
+cloud. Teninose [ph] as a core vacuum [ph] solution has historically been an on-prem
+solution. They're working with us (inaudible) via the cloud. And so we have an
+opportunity to think about whether it's delivered as a sort of a multitenant SaaS
+application or deliver it as essentially a cloud host as solution that isn't necessary
+SaaS or multitenant. There's a huge opportunity for us to work with enterprise ISVs to
+bring their solution to Azure and help them essentially transform their business.
+At the same time, we also have an opportunity to work with net new ISVs that are net
+new to the world or are developing net new solutions. And we can oﬀer them sort of
+a faster and hopefully a better chance of succeeding in the marketplace, because
+they can use Azure to ingrate with enterprise environments. Most enterprise
+customers, for example, don't necessarily want to set up another directory or
+authentication scheme with a new SaaS vendor, particularly if you are an established
+[ph] player. And so we can oﬀer them help by saying -- hey, if you integrate with
+Azure and Azure AD [ph], as an example, you can oﬀer sort of a uniﬁed
+authentication scheme to your application that enterprise CIOs and CSOs would likeFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 7 of 29Mark Moerdler
+Takeshi Numoto
+Mark Moerdlerto be able to be able to manage your applications. And so we have an opportunity
+to onboard net new enterprise ISV stacks [ph] as well.
+So both whether it be helping transform existing enterprise ISVs or bring net new
+enterprise ISVs into Azure, I think we have a great opportunity. And those, of course,
+all catalyze consumption of Azure.
+{BIO 16855032 <GO>}
+So following on that, why Azure versus some other cloud platform or building your
+own datacenter?
+{BIO 21693553 <GO>}
+Well I think it boils down to there are three, four things that we're focused on at the
+Microsoft Cloud level. It's not initially just an Azure segment. But it's sort of a
+Microsoft Cloud segment that we're focused on.
+First, we talked about sort of our global scale and having this set level of regions so
+that you can actually have -- can address your data residency needs, you can
+essentially deploy -- have far more options than what the competition oﬀers in terms
+of being able to deploy solutions and applications closer to where you need it,
+whether it be market or employees or partners. That's one advantage.
+Then, we are very, very much focused on really making it easy for both our partners
+and customers to be able to trust our cloud implementation model. So trust is a
+huge deal and a key enterprise design point for us.
+So when you think about the work we do around security or the amount of
+compliance work we do, we have far more -- we have more compliance certiﬁcation
+than any other global cloud vendor, when you think about SoC [ph] or ISO or even
+vertical compliance standards like HIPAA or PCI, or you name it. And we have more
+than any of the competition. And that essentially lowers the barrier both our
+customers and partners to use Azure. And that's a huge diﬀerentiation point.
+Then thirdly, I think, a big one is really a deep notion of hybrid. For us, hybrid isn't
+just a mere notion of connecting public clouds on-prem. Or it's not even about just
+moving virtual machines to between on-prem and public cloud. It's far more of a
+complete consistency in the platform. So all the way from the application layer, from
+things like productivity or business application, data technologies like SQL, all the
+way down to identity and infrastructure, we provide a really consistent platform. And
+that essentially enables both our partners and customers to be able to have a much
+more ﬂexible deployment model, where you can focus on your app. And then
+deploy -- think about what the best way to deploy it. And those are three big
+diﬀerentiations we have versus the others.
+{BIO 16855032 <GO>}FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 8 of 29Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi NumotoExcellent. So does that then deﬁne the approach almost as you're giving clients a
+ramp to the cloud versus a rip and replace [ph] to the cloud?
+{BIO 21693553 <GO>}
+Certainly, that's part of it. Like I said, a lot of the cloud consumption is taking place
+not initially just as a lift in shift --
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+-- but also using net new. And also like new scenario that combines what you already
+have on-prem. So net new doesn't mean it's in the isolation of on-prem; oftentimes it
+shares data, or it shares the technology that you already have on-prem. And then
+using the cloud to extend it further.
+{BIO 16855032 <GO>}
+So is that why you've been focusing so much energy on AI is because of machine
+learning, because it creates new use cases?
+{BIO 21693553 <GO>}
+Well for us, from a cloud perspective, consumption is almost our prime directive.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And so we want to do everything we can to drive the cloud adoption and
+consumption. And that could be by enriching new oﬀerings, like delivering new
+oﬀerings and use cases like AI. Wouldn't you like to be able to add speech
+recognition to your application, would you like -- what other scenarios where face
+detection can be useful, or emotion detection can be useful in your own
+applications? And we oﬀer those as APIs that you can use to build apps as Azure.
+That certainly adds to the new scenario where the business opportunity isn't just the
+monetization opportunity we have for the APIs for oﬀer for that. But also the broader
+application consumption that it brings for sure.
+And similarly, that's why we're so focused on essentially expanding our TAM. So to
+speak, of our cloud oﬀering by embracing OSS solutions. Because when you think
+about supporting all variants of Linux, including Red Hat, having not just the
+operating system support but broad set of OSS technologies, whether it's on theFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 9 of 29Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numotodata side, like MySQL or Mungo [ph], or if it's the language and frameworks that a lot
+of the OSS developers are familiar with. We're spending a lot of time making sure
+that our SDKs for PHP or no Goldman Sachs [ph] and whatnot are all ﬁrst-class. So
+that we can bring in more OSS developers into Azure. And that's certainly showing in
+customer adoption. Because when you think about Azure VMs, over a quarter of the
+VMs running in Azure is Linux right now.
+{BIO 16855032 <GO>}
+Right. Okay. So if you're opening up the opportunity for open-source, you're
+opening it up for Linux, the SaaS guys are -- many of them are running on Linux or
+other open-source capabilities. Does that shrink the opportunity for Windows
+Server?
+{BIO 21693553 <GO>}
+Not necessarily. When you think about -- as you might expect, we're fairly rigorous in
+tracking our installed base and sort of share in the enterprise in terms of what
+percentage of the servers stops running the [ph] enterprises, Windows versus Linux.
+And we're not initially seeing a dramatic shift at all in terms of Windows business in
+that regard. Continues to be pretty healthy. Even if you think about our on-prem
+business results in Q1, we reported a double-digit growth in premium versions of our
+server products. Part of this is, as customers become increasingly more sophisticated
+as the use the cloud [ph], they want on-prem technologies that are sort of more
+compatible and copasetic with the models themselves. And so that's driving sort of
+more of a higher addition adoption on our on-prem servers, too.
+And so I don't initially think of cloud transition as essentially a shrinkage of the
+Windows Server opportunity. But it's really certainly more of the cloud giving us an
+opportunity to participate in markets we haven't participated in before in the Linux
+market. And that's why we're embracing.
+{BIO 16855032 <GO>}
+So following on on that -- should we feel as investors comfortable that Windows
+business is a continuing, growing business, given all the puts and takes of everything
+else?
+{BIO 21693553 <GO>}
+We certainly think about the lifetime value of the Windows Server. And whether it be
+on-prem and we have a very healthy and growing mix of annuity. And we are actually
+doing things like Azure hybrid use rights, which we're baking into the annuity
+business model, where if you essentially buy Windows Server, then you actually can
+take that license and deploy it to essentially run Windows Server more cheaply in
+Azure. And so we're basically, again -- that's almost -- you can think of it as a hybrid
+business model. And that's one way to make sure that our -- the customer's journey
+into cloud is accretive to our business overall.FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 10 of 29Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler{BIO 16855032 <GO>}
+Excellent.
+So one more on Windows -- how should we think about how much of the Windows
+Server use case is tied to hosting traditional Microsoft Windows workloads like
+Exchange and SharePoint, et cetera?
+{BIO 21693553 <GO>}
+When we look at the use cases, there's just a vast amount of long-tail applications
+that are deployed on Windows Server. The ﬁrst-party applications, like SharePoint
+and Exchange, are certainly important applications for us. But in terms of the overall
+impact to the installed base of all the Windows Server out there, I mean, I wouldn't
+say it's that dominant.
+{BIO 16855032 <GO>}
+Okay.
+Changing gears -- Dynamics -- we haven't really -- investors haven't really focused
+yet on Dynamics. But yet, this quarter, we had a really good result on Dynamics CRM
+online. The cloud version seemed to be growing very fast. Where is the focus for the
+Dynamics product? Is it midmarket, is it enterprise? How should we think about it?
+{BIO 21693553 <GO>}
+Well I do think it's both. Historically, you might be recalling that some of the assets
+originally that we started Dynamics business with were based on acquisitions that
+were more centered around midmarket.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And so that might cause you have to -- hey, that's kind of a midmarket-based asset.
+But when we think about our business growth, we're seeing really, really strong
+business growth in our what we would call VPE space as well. And so increasingly,
+the Dynamics business is not just a midmarket business; it's certainly growing rapidly
+in the enterprise as well. And we've had some market wins, whether it's VHV that's a
+switcher from Salesforce, or -- they get a customer like American Online's [ph]
+adopting CRM. So we are seeing adoption in the enterprise for sure.
+{BIO 16855032 <GO>}FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 11 of 29Takeshi Numoto
+Mark Moerdler
+Takeshi NumotoAnd is that today's predominantly Dynamics CRM? How do we think about it long
+term? Is it more of a mixed VRP, is it new products within the Dynamics family?
+{BIO 21693553 <GO>}
+Well actually, one of the things we've most recently done -- and we should spend
+[ph] more time increasingly on it -- is we've announced a new approach to our biz
+apps where we are now going out to market under the uniﬁed branding around
+Dynamics 365.
+And what we're doing there is to really break down sort of the vendor-imposed silos
+that exist in the market today, where there was a CRM. And there's ERP. And that was
+treated completely diﬀerently. But that kind of a segregation of duties and
+separation and segmentation was largely vendor based, where what the customer
+really wants is the ability to think really about -- hey, how do I actually run the
+business in the best way possible from essentially a lead all the way to cash?
+And so, we've now gone onto market. And it's available today in the market called
+Dynamics 365, that essentially uniﬁes the assets we've had traditionally in what we
+used to call Dynamics CRM, as well as our ERP assets. And basically having one
+uniﬁed cloud oﬀering that can essentially handle that process end-to-end.
+And in addition to doing that, in addition to unifying sort of our [ph] CRM product
+and an ERP product, we've also done it in such a way so that it's not just this one
+large monolithic thing you have to buy. If you just want to start with customer service,
+if you just want to start with sales automation, if you just want to start with ﬁeld
+service or project service automation, you can just get going with just essentially the
+scenario you like, knowing fully well that the platform is fully integrated. So that you
+can add additional applications, business applications. And then actually consume
+all of our capabilities. But we're done it in a way where you can actually start in a
+bite-sized way.
+And we think that the way we both approach the products. And even the pricing
+model and the licensing modeling, is quite disruptive to the marketplace. And we'll
+quite bullish.
+{BIO 16855032 <GO>}
+Excellent.
+So is that fully integrated just Dynamics 365? Or does that span into the Oﬃce 365
+with a similar name. And Azure. And other products?
+{BIO 21693553 <GO>}
+Dynamics 365 is our uniﬁed biz app oﬀering from across sort of the CRM business
+processes all the way to operations and ﬁnances. And that product, as a biz appFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 12 of 29Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdler
+Takeshi Numoto
+Mark Moerdlersuite, does integrate with Oﬃce 365. So there's a lot of capabilities that it oﬀers
+where if you get an email in Oﬃce 365 within Outlook, if there's -- let's say, if the
+customer emailing includes like a quote number of whatever --
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+-- it would recognize that and essentially prompt that same quote from the backend
+system in Dynamics 365. So there's a lot of integration across the products. But
+Dynamics 365 does not encompass Oﬃce 365. Those are basically peer products
+that integrate across each other.
+{BIO 16855032 <GO>}
+So future upsell opportunities?
+{BIO 21693553 <GO>}
+Absolutely.
+{BIO 16855032 <GO>}
+Okay.
+Can you give us a sense of the cross-sell advantages of having Oﬃce 365, Dynamics
+365, Azure -- how much -- how big you think of it as being a sell a module and upsell
+to the other, or sell a suite? How big is that. And how sticky is that opportunity?
+{BIO 21693553 <GO>}
+Well I mean, again, some of the numbers I quoted, I think, sort of speak to this point,
+where we are seeing more and more of our customers use multiple of cloud
+oﬀerings.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+So going to 60% of Fortune 500, 20 points increase over year over year is a
+substantial movement.
+{BIO 16855032 <GO>}FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 13 of 29Takeshi Numoto
+Mark Moerdler
+Q - Unidentiﬁed Participant
+Q - Mark Moerdler
+A - Takeshi NumotoRight.
+{BIO 21693553 <GO>}
+And I think it does speak to the power of really thinking about Microsoft Cloud
+holistically.
+I think I get a lot of questions from this community that essentially attempts to take
+kind of what I think of as a very narrow comparative view on Azure versus AWS, or
+Google versus Oﬃce 365, in a pretty category-by-category narrow way. But the real
+power that we are seeing in our customer adoption of cloud is that they end up
+needing all of the elements of the cloud. And we're uniquely positioned to be able
+to address their need holistically and the opportunity to be able to essentially
+address their needs across these diﬀerent cloud needs that they have. Then, we're
+seeing that in the numbers, I think.
+{BIO 16855032 <GO>}
+Excellent.
+So let me open it up for a couple questions from the audience. Keep the questions
+short. So that I can -- I'll be able to make sure that I repeat it. So it's on the mic. Thank
+you.
+Questions And Answers
+(technical diﬃculty).
+{BIO 16855032 <GO>}
+So the question is, can you go through the methodology, internal thinking in terms
+of insourcing your datacenters versus outsourcing it?
+{BIO 21693553 <GO>}
+Well when you say insource and outsource, I use -- it sounds like you're asking kind
+of a lease-or-build kind of a question. Because whether the facilities are leased or
+not, I want to make sure like we actually do run the datacenter operations ourselves.
+So it's not like Azure datacenters is somehow outsourced in terms of its operation,
+whether the underlying assets are leased or built ourselves. So that's one clariﬁcation
+I wanted to.
+Then, it's really -- I hate that you might not like this answer. But it's really on a case-
+by-case basis. Sometimes we know we have to think about our ability to get to
+market quickly. And sometimes a lease might be a faster option. Build might take
+slightly longer, as you might imagine. If you think about the long term, cost of buildFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 14 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numotomight be slightly cheaper. Like we have to think about all these elements. Then, on a
+per-country and per-region basis, we think about what the best way are to do it.
+And none of the businesses are ﬁxed in stone, in the sense that -- again, a region
+encompasses multiple datacenters. So a given region might encompass datacenters
+that have two diﬀerent implementation models, one that's leased and one's built. But
+it's one region that we represent to the customers. So really, it's an implementation
+detail that we think about in a very case-by-case way.
+{BIO 16855032 <GO>}
+Excellent. Next question? Good. That's easy.
+So if we then look at the Microsoft Cloud vision, when you look at the commercial
+side of the business, what is your expectation of how much, how fast that
+transformation on [ph] the cloud is? And is it going as fast as you'd like it to go?
+{BIO 21693553 <GO>}
+Well I guess we would always like it to go faster.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+Right? If you just ask (inaudible) hey, your Azure growth is pretty substantial, are you
+satisﬁed, he would say -- hey, I want more. Of course, he will say, I want more. He tells
+me I want more all the time. (Inaudible)
+But overall, I think we are quite encouraged by the growth we're seeing. We are
+continuing to see triple-digit growth in consumption. Compute consumption, like I
+said, doubled year over year. And this is not the ﬁrst time it's been ongoing for quite
+a while. And we have a lot of work to do.
+But the notion of essentially having a real technology stack that we can bring to bear,
+both in our public cloud that also has a consistent platform that customers use on-
+prem seem to be resonating. And that's really also helping -- the cloud approach is
+also helping us address new TAM that we didn't participate in before. So overall, I
+think we're quite bullish.
+{BIO 16855032 <GO>}
+Excellent. So what would be the limiting factors, or are there any, in continuing to
+grow at the rates you're growing. And within both the Azure business and the Oﬃce
+365 business?
+{BIO 21693553 <GO>}FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 15 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark MoerdlerHmm.
+{BIO 16855032 <GO>}
+Or maybe there aren't any.
+{BIO 21693553 <GO>}
+Well of course, we can always execute better and go faster. And that's across both.
+On the Azure side, we need to do a great job of consistently balancing two key
+growth levers. One is to acquire new customers. And we're basically adding about
+200 subscriptions a week now. So that's a high run rate of either customer
+acquisitions.
+But at the same time, we have to do a great job of the customers we acquired in
+growing their consumption.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And that's all about how do we make their product easier to use, how do we engage
+with the customer with some of the sales resource investments we made. So that we
+can actually help them accelerate their consumption to the cloud? And so those are
+things we just have to go continue to fully execute on.
+But it is really upon -- the market momentum is clearly [ph] behind us. And so it's
+really upon us to seize the opportunity.
+{BIO 16855032 <GO>}
+Excellent.
+Changing gears over to SQL Server -- who do you see as the biggest direct
+competitors to SQL Server? How would you compare yourself against what Oracle
+delivers today versus Aurora [ph] delivers today?
+{BIO 21693553 <GO>}
+So we think we have a really disruptive value proposition with particularly SQL Server
+2016. If you think about all the value and capability we've added to the product. And
+whether it be our in-memory capability. So you can do advanced analytics right on
+top with the database, all the in-memory OLTP [ph] performance implements we
+made, or in-memory of BI [ph], all these capabilities we added would be essentially
+an add-on product in the Oracle product realm.
+{BIO 16855032 <GO>}
+Right.FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 16 of 29A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler{BIO 21693553 <GO>}
+And so we've documented ROI diﬀerences, where the total cost of ownership is --
+we are basically 12x cheaper. So we are really bringing on a diﬀerentiated value prop
+to the table. And folks like Gartner really recognizes us in the sense that we're like
+the tippy-top right top corner in their Magic Quadrant now two years in a row.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+So we're sort of bringing that increased value proposition to the table and really are
+seeing an opportunity to growth the business, both from our existing base but also
+by taking share.
+{BIO 16855032 <GO>}
+Excellent.
+What do you see as the key diﬀerentiators in the new version of SQL Server that
+could drive further adoption?
+{BIO 21693553 <GO>}
+Well the total -- the TCO [ph] value diﬀerence in the capabilities (inaudible) I just
+talked about, I think, in and of itself, is a big lever. Another one that's worth talking
+about. And goes to my previous statements around hybrid, is that we really are
+thinking deeply about what it means to deliver hybrid capabilities. So in SQL 2016,
+you can actually deploy SQL 2016 on-prem and have some basically set policies on
+what portions of your table getting drifted [ph] and stored in the cloud, while your
+application can remain unchanged, where the database would basically provide a
+uniﬁed query back from the data that sits across your on-prem in cloud.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And that's an example of how we're delivering a true example, a really rich example
+of hybrid use cases, where our on premise sales motions can really catalyze also a
+dialog around the cloud in a way that makes sense for the customer.
+So it's not -- SQL 2016 isn't just a growth opportunity for SQL for the license business
+per se. But it's also a great way to engage customers in the cloud.
+{BIO 16855032 <GO>}
+Excellent.FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 17 of 29A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi NumotoOﬃce 365 -- you have the E3 version, you have the E5 version in the market today.
+What do you see as the core things that are driving -- are going to drive people to
+E5? And is that where you end? Is there future possibilities of keeping to expand up
+the market in terms of capabilities and price?
+{BIO 21693553 <GO>}
+There are two answers I have on that, actually probably three. One is, of the Oﬃce
+365 E5 motion per se, within that sort of product dialog, we're just seeing a
+tremendous amount of customer reaction, particularly around our security value
+propositions. Because we approach security not as a bolt-on product but essentially
+intrinsic to securing the workload. And customer customers want the secure Oﬃce
+365 workload.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+The security elements of Oﬃce 365, particularly on things like advanced threat
+protection, is really resonating. And that security portion of the E5 rally [ph]
+proposition, I think, is going really well.
+Then, we can certainly do a lot more to accelerate the adoption of essentially the
+analytics and voice capabilities, where we are really happy with the fact that the way
+we're participating in the market -- these are all big market opportunities where we
+have an opportunity to grow both in terms of advanced analytics in BI and also voice.
+And having E5 as a vehicle to do that gives us a lot of opportunity.
+{BIO 16855032 <GO>}
+Excellent. Okay. So E5 gives you opportunity, especially on the security side. And
+we're heard that earlier today from another speaker on how much that is resonating,
+security and compliance, et cetera. Analytics seems to be a part of it. How important
+is the voice oﬀ [ph] capabilities within E5? And what more can you do there?
+{BIO 21693553 <GO>}
+I'm not sure I'm sort of the best person to talk about our opportunity in voice. Again,
+it's a huge opportunity that has a horizontal application that essentially is necessary.
+It's not something that a small population of your employee needs; it's something
+that everybody needs.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And that has a lot of resonance and compatibility with the way we general sell oﬀ
+into the cloud. And so we're just generally bullish on the opportunity.FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 18 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+Q - Unidentiﬁed Participant
+Q - Mark Moerdler
+A - Takeshi NumotoOne other thing I'll talk about in terms -- in relation to E5 is that only is Oﬃce 365 E5
+a great opportunity. But we're also helping the Company rally around, particularly
+around this notion of security by creating an oﬀering called Secure Productive
+Enterprise --
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+-- that really makes it easy for customers to buy essentially our products across
+Windows, Oﬃce. And EMS altogether.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And that essentially, from an upsell opportunity from a security perspective. And
+making it easy for customers to buy and transact with us, a way, a solution that
+essentially protects their Windows device, protects their mobile device, protects
+their Oﬃce 365 environments across their endpoints -- that actually is something
+that we're very bullish on.
+{BIO 16855032 <GO>}
+Excellent.
+Let me see if there's another question from the audience. Then I will continue. Yes?
+(technical diﬃculty)
+{BIO 16855032 <GO>}
+Question is on the Azure Stack and where you are. And what the customer feedback
+has been.
+{BIO 21693553 <GO>}
+The customer interest and feedback on Azure Stack has been tremendous. We've
+just seen -- I forget the exact number. But certainly higher than expected numbers
+we had in terms of the downloads in customers that are trying them out. And we've
+just dropped essentially a technical preview, too, at a night a few weeks -- a month
+ago. And the customer feedback and the interest in our strategy of really delivering
+a hybrid cloud solution, where you can both use the public cloud services that we
+have as well as create an environment that's highly compatible with what we oﬀer in
+public cloud on-premises, is resonating really well.FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 19 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler{BIO 16855032 <GO>}
+Excellent.
+So let me ask a little more on Azure, since there's obviously a lot of questions in this
+space. Azure accelerated this quarter, being obviously quite bullish on the
+opportunity, companies building more datacenters on it. What is driving it? Is it
+simply the fact that you're moving a little farther in in the innings. And there's more
+people driving adoption? Is there some other magic going on in here?
+{BIO 21693553 <GO>}
+I think it's sort of combination of three factors. One is we are seeing quite healthy
+growth from our existing customers.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+So once customers get going on Azure, month over month, year over year, the
+consumption from the customer we've already acquired for Azure is going well. And
+that's the big driver of our consumption growth.
+Another one, of course, is that we are really focused, in addition to consumption
+growth, acquiring new customers. And I talked about 200,000 new subscriptions.
+And that's sort of a metric we can look at in terms of what's the velocity of the
+customer acquisition. Because we all need to get customers started.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+Initial consumption might be small. But we have to get them going as quickly as
+possible. So that that can grow over time.
+Then, thirdly, as consumption grows, we are seeing a really healthy growth in our
+premium services. As the consumption growth happens in the customer, their use
+patterns and use cases become more sophisticated. So perhaps it may have been
+originally just sort of the base compute storage and network initially. But we're
+seeing good growth in things that we call Azure Premium Services, like database
+services or advanced analytics services or machine learning services. And we're
+seeing, I think, nine consecutive quarters in terms of [ph] this growth on those
+premium services. That essentially is catalyzing consumption growth.
+{BIO 16855032 <GO>}FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 20 of 29A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi NumotoExcellent. And that move up the stack to the more premium versions -- what are the
+things that are going to continue to drive that coning improvement in premium? And
+what can be done to add to that capabilities?
+{BIO 21693553 <GO>}
+Well I think it's three things. One is we certainly continue to have to invest in our
+product and make the product richer and better over time. Secondarily, we're seeing
+a nice ROI from some of the sales investments we've made, in terms of really having
+dedicated resources that can engage deeply with customers in how they can use the
+cloud in deeper and more sophisticated ways. And continuing to sort of drive good
+returns from that is another one. And thirdly is the work that we're doing here under
+our ISV ecosystem, where the more -- we have all this tech. But then what are the
+solutions that ISVs and partners and SI partners build in terms of practices that
+deliver value to the end customer? And building that ecosystems while they're
+growing [ph] can further accelerate that consumption.
+{BIO 16855032 <GO>}
+Microsoft's always been a very partner-centric organization. Obviously, initially you
+were selling the cloud for downloading direct. Now you're selling, I guess, a lot
+through the cloud. How do you see that mix? What do you do to keep driving that
+ecosystem to get bigger and better?
+{BIO 21693553 <GO>}
+You're absolutely right. We have a strong DNA as a company in being very partner-
+centric. And it's really important for the cloud. Because particularly when you think
+about a product like Azure, it's not like end customers wake up and say I want a
+virtual machine, or a database. It's all in furtherance of a solution. And that solution
+comes in the form of a solution that the customer develops by themselves. But more
+likely, it could be from an IV [ph] or an SI partner implementing before them.
+And so the notion of really cultivating a partner ecosystem to be able to better take
+advantage of cloud and where we [ph] invest is important to us. And that's part of
+the reason we're investing in new business models like CSP Partner Program, which
+enables our partners to essentially deliver a ﬁnished service from their end, building
+on top of Microsoft Cloud service, not just Azure but also Oﬃce 365 and Dynamics
+65.
+{BIO 16855032 <GO>}
+Most of the SaaS vendors haven't to this point taken a direct-only model. Most of the
+-- many of the infrastructure PaaS vendors have taken almost a shopping cart -- pick
+a couple of these things and dropping. Why do you have -- can you drill a little more
+the advantage of the approach you're taking today and what the long-term payouts
+to Microsoft is from that?
+{BIO 21693553 <GO>}FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 21 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi NumotoWell there are two ways to think about it. One is we certainly would like to engage
+with these SaaS vendors of the customer --
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+-- so that they deliver their SaaS, perhaps even unbeknownst to the customer that it
+runs on Azure. But it's Azure (inaudible) their needs. That's a key engagement model
+for us. And we announced, since our partnership with Adobe as an example, where
+they're bringing their marketing cloud, document cloud, creative cloud -- those are
+all SaaS solutions -- to Azure. And that's an important opportunity for us. But at the
+same time, like I said before, no apps, particularly in the enterprise, can live in a silo.
+That data has to be shared. And the application has to integrate with other systems.
+And so there is an opportunity for us to basically provide a platform that both SaaS
+application vendors and customers use collectively so that they can share data. And
+that, I think, is sort of the best of both worlds.
+{BIO 16855032 <GO>}
+Excellent.
+So you've obviously -- you started out with a purely Microsoft-centric oﬀering in
+Azure. You've expanded it by adding third-party and open-source databases and
+other technologies. How do you think through what to add, when to add it. And
+whether you add it just simply as something that is available on virtual machine
+versus something that's more of a platform play?
+{BIO 21693553 <GO>}
+I think we are certainly striving to be incredibly feedback driven. Rather than having
+teams sit in Redmond and think about what technology to add next, we actually have
+a lot of signals we get from our own consumption. We can see, okay, where are
+people stuck in their consumption? Can we improve their documentation? Can we
+improve better [ph] samples? Can we -- we have so many points of data to be able
+to collect.
+Even in our own documentation -- I don't know whether you know this. But all of our
+core documentation now is on GitHub. And anybody in the community, anybody on
+the internet, can basically sort of give us feedback on, hey, we need things like this,
+or we need more capabilities like this, or you need to document how this is done.
+And essentially, that can be commented and get us in an open way. And our teams
+look at it and then say -- hey, how can we actually take that as a feedback to either
+improve our documentation to include the way our products are presented, or
+essentially change capabilities of the product?FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 22 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi NumotoAnd I think we're being really feedback driven, given that we now feel like we have
+critical mass of footprint in each of our communities. GitHub recently gave us an
+award for being one of the biggest contributors to their code base, because we also
+contribute to their code, too. And so this engagement model that we have with a
+broader set of communities in being really feedback driven is, I think, the way we're
+going to drive it.
+{BIO 16855032 <GO>}
+And so the same feedback type loop is being used as to -- we need to add ZYZ's
+brand Linux or some open-source or some NoSQL database -- it's based on
+customer interest?
+{BIO 21693553 <GO>}
+Absolutely. Yes. Totally.
+{BIO 16855032 <GO>}
+And so the more the customer interest, you're constantly monitoring that to make a
+decision of it. And the way you think about it -- I don't want to put words in your
+mouth. But can I ask, does Microsoft think about, purely from a consumption model.
+And therefore whether they're consuming someone else's or they're consuming
+Microsoft's, that something we want to chase after?
+{BIO 21693553 <GO>}
+Yes. I think, like I said, we've gotten really clear, typically around Azure, that
+consumption is our prime directive.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And so, of course we like our own software, too. We love it. If people use our
+software in our cloud, that's kind of the best case.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+But at the same time, we are going to basically be clear on the fact that it's -- prime
+directive is consumption. So particularly for many of our customers, it's not like
+they're really picking between two technologies. They already have a preferred
+technology. And they're saying -- hey, how can I use Azure for this?
+And so it really makes sense for us to basically be where they are. And sort of
+basically try to embrace all the things that people want to do, whether it's OSSFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 23 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numototechnology from a language and framework or operating system standpoint, or
+database standpoint; and be as big-tented as humanly possible.
+{BIO 16855032 <GO>}
+So is that the reason why the push to have SQL on Linux?
+{BIO 21693553 <GO>}
+That's certainly one of the elements. We also saw a great opportunity to add value,
+frankly. Because some of the capabilities we have in SQL is really, really great. And
+how do we actually deliver it to more set of developers so they can write
+applications that are exploitive of all this in-memory capability or all this advanced
+analytics capability? And this essentially again addresses the TAM for SQL --
+{BIO 16855032 <GO>}
+Okay.
+{BIO 21693553 <GO>}
+-- expands the TAM for the SQL business.
+{BIO 16855032 <GO>}
+And so, given the market expansion for purely traditional SQL databases to now
+NoSQL and Hadoop databases and all the rest of it, do you -- how should you think
+about that? Do you think of this as being SQL opportunity in [ph] the traditional
+market. And then these other variants into other parts of the market? Do you think of
+SQL moving into being able to support what was more nontraditional, because
+you've added some capabilities in that respect?
+{BIO 21693553 <GO>}
+Yes. Well again, we certainly are working to expand the relevance of the product. So
+when you think about a lot of the capabilities like Hadoop, these added capabilities
+in SQL 2016, called PolyBase, for example, that allows you to basically write a query
+across your relational databases and your non-relational data sources in a uniﬁed
+way --
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+-- and then you get sort of a uniﬁed result back -- that's another way to continue to
+essentially expand the aperture in which SQL can be useful.
+At the same time, we're also directly embracing a lot of NoSQL type technologies as
+well. We have things like Dot TV as a service in the cloud. And we've basically made
+the API for Dot TV compatible with long wave CI [ph]. So that if you're familiar withFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 24 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numotolong wave TV, you can actually use Dot TV essentially exactly in the same way you're
+already familiar using long wave TV, as an example.
+So across the data technology portfolio, we have a broad base of technology from
+not just SQL. But other capabilities like Dot TV. We have HD Insights, which is
+essentially a managed Hadoop service. And even more advanced technologies like
+Azure Data Lake, which is highly diﬀerentiated in the sense that now you have a fully
+managed service where you can literally put in petabyte objects. And the system will
+handle sort of a charting of (inaudible) and queries automatically for you.
+And so we have this broad portfolio, again all in furtherances of recruiting more
+applications and data to be leveraging Azure.
+{BIO 16855032 <GO>}
+So given the breadth and depth of what you're oﬀering, can you give a sense of how
+much of that was traditionally, ﬁve or 10 years ago, addressable by what Microsoft
+sold?
+{BIO 21693553 <GO>}
+I guess, many of the new things, particularly the things that exist only on Azure,
+probably would not have been addressable previously. These are all net new TAM
+expansions. And also, when you think about -- this is why I go back to -- don't think
+just about Azure versus AWS in the sense that the way that really -- I spent a lot of my
+time thinking about Microsoft cloud holistically.
+So for example, Azure Data Lake technology originally sort of started oﬀ with some
+of the capabilities that were originally built for Bing, in terms of having a huge data
+store that's capable of indexing the internet. And that technology was originally used
+ﬁrst-party only for Bing.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+But now, the market expanded to have more people and require that level of
+capability. And we ﬁgured out a way to essentially oﬀer it as a commercial service on
+Azure.
+And so this isn't just a work of the Azure team showing up in Azure that all of the
+cross-Microsoft team's capabilities showing up through Azure. Things like face
+detection or emotion detection is all very similar in the sense that it's essentially a
+way for Microsoft as a company to surface investments we've made in places like
+Microsoft research that can now shine through the lens of Azure.
+And there's a lot of capabilities that we oﬀer in Oﬃce 365 that is essentially
+engineered by the Azure engineering team that shows up. And so we're trying to beFINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 25 of 29Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdlerreally customer-centered in the way of don't package and monetize products based
+on what engineering team did the work, to essentially think more ﬂexibly about --
+regardless of which engineering team does the work, what's the best place for it to
+show up for the customer, whether it's in Oﬃce 365 or Azure. And that's why we're
+really sort of rallying around Microsoft Cloud as a whole in the way we're running the
+business.
+{BIO 16855032 <GO>}
+And that cloud reaches not just commercial cloud; you're then feeding that into
+some of the Bing and the Windows Live and the Xbox Live and everything else.
+{BIO 21693553 <GO>}
+Cross-pollenating where appropriate.
+{BIO 16855032 <GO>}
+Yes.
+{BIO 21693553 <GO>}
+But of course, when you make it a commercial oﬀering, you have to go through all
+the compliance, interpretation (inaudible) that's the value that the Azure team often
+has in commercializing technology.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+But I just wanted to give this example of the way to think about how Microsoft Cloud
+is really a manifestation of Microsoft engineering capacity showing up in a way that
+makes sense for customers regardless of where the engineering org is.
+{BIO 16855032 <GO>}
+Okay. And that's signiﬁcantly diﬀerent from what we saw many years before within
+Microsoft.
+{BIO 21693553 <GO>}
+I do think this whole notion of being more customer-centric and having engineering
+output through customers in the packaging that makes sense is something that
+we're increasingly getting better at.
+{BIO 16855032 <GO>}
+Okay. And your speed to market, in terms of going from an idea to something in
+there, is that also improving through the changes in the development strategies and
+processes?FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 26 of 29A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+Q - Unidentiﬁed Participant
+Q - Mark Moerdler{BIO 21693553 <GO>}
+Yes. I mean, I've been at the Company 19-plus years.
+{BIO 16855032 <GO>}
+Yes.
+{BIO 21693553 <GO>}
+And at no time have I experienced the speed with which we are delivering new
+capabilities. In fact, one of the things we're constantly working on is how do we keep
+our partner ecosystem and our own sellers in ﬁeld and partners all trained up and up
+to date on the level of new things coming down at a ferocious rate.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+And you could argue that's a good problem to have. But it is something we have to
+work on. Because we want to make sure that the products and the customer
+representation of the products is reﬂecting the latest and greatest.
+{BIO 16855032 <GO>}
+Right. Okay. So I guess that's also part of the value prop, is where you can get the
+clients going from on premise to running either hybrid cloud or pure cloud, for lack
+of a better word, that the clients are going to be able to get much faster, more
+capabilities, new improvements, et cetera, et cetera on it. Is that having that
+feedback into the traditional on-prem customers and driving the acceleration of
+them upgrading to the latest versions of Windows Server, SQL Server, et cetera?
+{BIO 21693553 <GO>}
+Well that's certainly our intent. And that's what we're trying to execute against.
+{BIO 16855032 <GO>}
+Excellent.
+Are there any other questions from the audience? Yes?
+(technical diﬃculty)
+{BIO 16855032 <GO>}
+So the question is, for a Fortune 500 company running on AWS decides to move
+over to Azure, what's the cost to do it, what's the time to do it?FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 27 of 29A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi Numoto
+Q - Mark Moerdler{BIO 21693553 <GO>}
+The answer for that is, in many aspects, our conversation with the customers aren't
+initially about switching what they've already done. It's about -- like your next
+workload, you may have already done this. But for your next project -- cloud
+penetration, cloud consumption is happening at such a rate that oftentimes, it's far
+less about switching. But it's far more about the next opportunity, what's the net new.
+And increasingly, customers, particularly those that may have invested heavily in
+AWS is deﬁnitely looking at a multi-cloud strategy. They're saying -- hey, I just want to
+make sure that I'm not single-vendored in the cloud. And I want to be able to
+manage a portfolio that sits across diﬀerent clouds.
+And that, of course, gives us an opportunity to say -- hey, now you're next project is
+going to be Azure. Perhaps you should relook the one you've done before. But our
+ﬁrst -- the likelihood of success isn't to focus on the switch. But to actually focus on
+the next workload.
+{BIO 16855032 <GO>}
+So that would imply that the amount of greenﬁeld opportunity is massive at this
+point, compared to the ability or interest in taking from one cloud vendor to
+another?
+{BIO 21693553 <GO>}
+Right now, I certainly believe the market expansion and momentum is such that the
+growth does not initially have to come at the expense of the other.
+{BIO 16855032 <GO>}
+Okay. So that does that mean that we're just not going to see --
+{BIO 21693553 <GO>}
+That doesn't mean there aren't competitive situations, that doesn't mean there aren't
+competitive bids.
+{BIO 16855032 <GO>}
+Right.
+{BIO 21693553 <GO>}
+There's always procurement experts in every company. And so we get to earn our
+business for sure. But also, at the same time, it's not initially about always a switch is
+required for us to win.
+{BIO 16855032 <GO>}
+Right. Okay. Much of it is not switch.FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 28 of 29Q - Unidentiﬁed Participant
+A - Takeshi Numoto
+Q - Mark Moerdler
+A - Takeshi NumotoOne last question, I think, from the audience.
+(technical diﬃculty)
+{BIO 21693553 <GO>}
+Yes. Let me explain what we've done in terms of essentially simplifying our pricing in
+October, which is what we really have done. It may have come across as a price
+reduction. But it's really a simpliﬁcation, in the sense that we have historically had
+Azure pricing that was somewhat diﬀerent based on your contractual (inaudible)
+used to buy Azure.
+And when we basically are seeing a lot of growth, particularly from customers that
+we may have not traditionally engaged with us before, they may have not -- we've
+learned that a lot of them actually don't know to sort of check all of our channels of
+distribution and ﬁnd out the greatest price. Because they're maybe a startup, they
+may be a relatively unengaged customer with a Microsoft distribution mechanism.
+And so in order to make sure that we simplify our pricing model, particularly for
+Azure. So that we reach new audiences in the most price-competitive way. Because
+we were already price-competitive in the way we priced it overall. But it wasn't the
+most visible on the website. So we just simpliﬁed it. So that the website prices
+basically reﬂect the oﬀers we have in other channels.
+{BIO 16855032 <GO>}
+Excellent.
+So I do apologize, we're going to have to cut in here at this point.
+Takeshi, thank you so much, I really appreciate all your time and eﬀort.
+{BIO 21693553 <GO>}
+Thank you. Thank you very much.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT FINAL TRANSCRIPT 2016-11-08
+Microsoft Corp (MSFT US Equity)
+Page 29 of 292024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

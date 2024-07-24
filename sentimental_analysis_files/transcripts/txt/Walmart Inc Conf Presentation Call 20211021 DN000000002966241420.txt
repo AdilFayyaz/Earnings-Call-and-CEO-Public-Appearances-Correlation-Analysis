@@ -1,0 +1,516 @@
+FINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 1 of 13, Executive Vice President, Global Chief Technology Oﬃcer and
+Chief Development Oﬃcer
+, Analyst, KEYBANC CAPITAL MARKETS
+Edward Yruma
+Suresh Kumar
+Edward Yruma2021 KeyBanc Technology Leadership Forum
+Company Participants
+Suresh Kumar
+Other Participants
+Edward Yruma
+Presentation
+{BIO 4940857 <GO>}
+Good afternoon, everybody. Thanks for joining us. My name is Edward Yruma. I'm
+KeyBanc's Internet Retailing Analyst. We're really excited today to have this ﬁreside
+chat with Suresh Kumar, the Chief Technology Oﬃcer and Chief Development
+Oﬃcer for Walmart.
+I know many of you are familiar with Walmart. But I think this is a fascinating business
+that really has been about innovation since its inception. They've innovated with
+concepts like the superstore with innovations internationally, and now really in our
+opinion becoming a real innovator in future technology and being an omnichannel
+leader.
+Suresh has a fascinating background and I think as you guys are going to hear with
+this ﬁreside chat, he is to bring a lot of energy to the business. There is the standard
+disclaimer that's provided, I think that is also on the IR website. And just as a note, we
+will be taking some questions via Q&A using the Zoom chat feature. We would ask
+though that this is really technology focused discussion today, and that we not touch
+on the quarter right now.
+So with that, Suresh, thank you very much for joining us.
+{BIO 21073281 <GO>}
+Ed, thank you so much for having me. Really excited to be with you virtually.
+{BIO 4940857 <GO>}
+Yes, that's great. We'd love to hear a little bit about your background. I know, we saw
+you at Analyst Day, and I've heard your background, but maybe for the broaderFINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 2 of 13Suresh Kumar
+Edward Yruma
+Suresh Kumaraudience, I think your background as a technologist at heart is super interesting and
+important asset to Walmart, we'd love to hear a little bit about it.
+{BIO 21073281 <GO>}
+Sure. I've been with Walmart now for about 2.5 years, really loving it over here. I've
+been in technology all of my career. I actually did my Ph.D. in aerospace engineering
+and then being in Computer Science ever since then. I started oﬀ ﬁrst with IBM, then
+spent a bunch of time at Amazon, then I managed the cloud infrastructure for
+Microsoft for a few years for about ﬁve years and then I was at Google when -- when
+the Walmart opportunity came by, it was so compelling, and so interesting that I
+decided to come and be at Walmart, and I've been here ever since. I manage all of
+the technology for Walmart across all of its segments.
+{BIO 4940857 <GO>}
+I guess just to start and certainly I think it is a good segue from your background, you
+guys have made some signiﬁcant shifts, you moved to cloud, can you talk about your
+overall data lake and cloud strategy, and then kind of broadly speaking, how should
+we think about your datacenter footprint?
+{BIO 21073281 <GO>}
+Absolutely. So, the cloud is central to our digital strategies, the foundation on which
+we are building our customer experiences, foundational to our data and analytics,
+and it's based on which we are building all of our ML and AI models which are really
+impacting every aspect of our -- every aspect of our business.
+So if you actually take a step back, there is a lot of changes that are happening in
+retail many of them are disruptive. In fact, I like to think of this as sort of the third
+innings or the third disruptive cycle in retail, and it's technology led, and we really
+want technology -- we want to position technology so that Walmart is a leader in this
+retail disruption, that's not only already happening, it's actually accelerating because
+of COVID and cloud really becomes a central part of that. It's the foundation, like I
+said, we have actually built a very unique hybrid cloud. We have got our own private
+cloud and we combine that with sort of the best of public and we've also got a very
+extensive edge network and we bring it all together, in this layer that we call WCMP,
+the Walmart cloud native platform that allows us to be able to workload and to be
+able to seamlessly move them around this mix of public and private clouds.
+And so we believe that this is something that gives Walmart a very unique edge,
+because it's purpose-built for what we are trying to do. We talked a little bit about
+data, we have actually moved over 150 petabytes of data into the cloud, and this is
+allowing us, not just to go a lot faster and to get deeper inside, but it's also allowing
+us to unleash the potential of AI and ML on all aspects of the business.
+So it's very, very exciting, cloud is really the underpinnings oﬀ all the digital
+transformation that we are pushing through.FINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 3 of 13Edward Yruma
+Suresh Kumar
+Edward Yruma
+Suresh Kumar
+Edward Yruma{BIO 4940857 <GO>}
+Can we click[ph] down on that a little bit more and kind of thoughts around public
+versus private cloud, and then maybe just stepping back, I think it was publicly
+disclosed that Sam's and E-com have moved to cloud, I guess what's still left are
+international and U.S. superstores.
+{BIO 21073281 <GO>}
+Right. So, the way to think about public and private cloud is that ultimately we want
+to create an environment, where we take our workloads whether they are data-
+intensive workloads, whether they're ML workloads, whether they are customer-
+facing workload and we want to put them in those environments that are best suited
+for that particular type of system or that particular type of a workload. So we use the
+best of the public cloud for things like elastic capacity, to be able to burst up and
+down. We are actually getting into the holiday season, so we need a lot more
+capacity. We use the public cloud to be able to do that. We also use the public cloud
+for a lot of the best of the fast capabilities like specialized hardware for ML and AI, as
+an example.
+And then we use our own private cloud to be able to run a lot of the steady-state
+workloads, the static workloads and we use edge to be able to push all of the
+(Technical Diﬃculty) sensitive workloads. So that's how we think about sort of the
+diﬀerence between edge, private, and public and in terms of migration, it's an
+ongoing -- it's an ongoing process. You're right, all of our e-commerce today runs on
+the cloud, all of Sam's runs on the cloud. The main focus really is to start building out
+a lot of new capabilities on this stack, and that's why we really focused on making
+sure that our entire data estate lives on the cloud because we can then use that to
+run advanced analytics, we can use to run ML and AI, that whole thing is going to be
+done by the end of the year and then beyond that we are going to be looking at,
+opportunistically, what are the things that really need to reside on the cloud because
+we don't necessarily want to move everything just for the sake of moving.
+{BIO 4940857 <GO>}
+And to that end, I believe at Analyst Day you were kind of highlighting some of the
+early wins, the machine learning. I think you talked about (inaudible)optimization, I
+think you highlighted facilities maintenance.
+{BIO 21073281 <GO>}
+Right.
+{BIO 4940857 <GO>}
+I guess just stepping back from that though how can you create a more personalized
+consumer experience with machine learning and then over time, do you think that ifFINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 4 of 13Suresh Kumar
+Edward Yrumathey have a personal experience will drive better sales and proﬁtability for the
+business?
+{BIO 21073281 <GO>}
+Yeah. There is absolutely no about it, I think ML and AI, are going to profoundly
+change the way in which we not only serve our customers and the customer
+experiences, but it's also profoundly changing the way in which we actually do
+business on the -- on the back end. So for those of you who -- who are not there, the
+two examples that I talked about around using ML for markdown that one particular
+eﬀort alone saved us over $30 million and that is really an example oﬀ ML and AI
+helping us do our business better.
+Same thing with facilities maintenance also and that particular thing actually saved
+us over $40 million a year. But when it comes to personalization, I think one of the
+power of ML and AI is that it can -- it can allow you to create personalized
+experiences at scale, is something that back we had not been able to do even just a
+few years ago. Like the kind of things that we are now able to do using ML and AI,
+using the models, this would have been unbelievable even just ﬁve or 10 years ago,
+but I think really speaking what makes it powerful is not just the models, right. So we
+can, I'll give some examples about sort of the personalized experiences that we are
+able to create, we do something called predict the baskets. So grocery customers
+typically they go, they buy 30 plus items, right. So sometimes when I go to shop, I
+forget a few things, and then my wife says, hey, you forgot the avocado. I actually
+don't eat avocado but my daughter does. But this is where ML and AI actually come
+in, because we can look at your history, we can look at the preferences, we can -- we
+can know the fact that you typically shop for avocados and then predictively, we can
+-- we create this quick add on experience.
+It's all possible, not just because of models, but it's possible because of the power of
+the data, and Walmart is uniquely positioned more than anybody else because we
+have sort of that end-to-end view of the data, right. So we know you as a customer,
+your shopping habits not just online, but also inside the store, and we are in a
+unique position to be able to pull all of that to create that personalized experience
+that is tailored for you, that actually cuts across all of these diﬀerent channels, that is
+where really the power actually comes in.
+And -- but it models also, for example, we just announced that we bought a
+company that is into virtual ﬁtting, so just think about it, you can take a piece of
+clothing or an apparel and using ML, we can virtually drape it on diﬀerent types of
+models and in fact you can put your own -- you can put your own photo and ML will
+actually drape the clothe on you. It uses similar technology to terrain mapping. But it
+becomes powerful because you combine that with Walmart data, and I think that is
+the exciting part of it -- it's going to have a very profound eﬀect. Now it's already
+having that and it's going to continue to have that going forward.
+{BIO 4940857 <GO>}FINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 5 of 13Suresh Kumar
+Edward Yruma
+Suresh KumarYou know, Doug has always impressed us with his embrace of technology and being
+kind of forward-thinking, but as a technologist is it hard to get by other operating
+partners, given that so many of them are merchants that have work their way up the
+rank. How do you help them balance kind of the art of retailing versus the science
+and particularly as you start thinking about things like AI.
+{BIO 21073281 <GO>}
+Yeah, I think, Ed, the power of AI is to actually help you whether you are a
+merchandiser or whether you are a operator makes your job that much more
+eﬀective and that much more eﬃcient. So I'll give you an example, we are starting to
+build out the ability to be able to do assortment planning in an omni way across --
+just think about the complexity of this problem, right. So hundreds of thousands, in
+fact, millions of SKUs that you now have to ﬁgure out which product needs to be in
+which location, how many of them per (inaudible) and then how do you manage that
+in a much more dynamic way. Of course, the art of retailing but what ML and AI
+allows you to do is to bring all of that information together and to be able to
+synthesize it and to be able to gain insights into that, that you can act on, and I think
+that mix, our merchandiser is much more eﬀective and that much better at what
+they're doing and they love it.
+We are starting to roll out tools and tools and experiences, we rolled out something
+Me@Walmart for our associates, we are doing something very similar for other
+corporate associates as well and as people start seeing the power that these systems
+can bring them, they just become better at the jobs that they are doing.
+{BIO 4940857 <GO>}
+Zooming out a little bit and thinking about it from a senior management perspective,
+how do you think technology and data tools have enabled you and the other senior
+managers to better manage the business and I guess, we think a lot of agility, do you
+think that this is helping Walmart become more agile?
+{BIO 21073281 <GO>}
+Absolutely. I think, we have been able to unleash the power of data, not just to better
+serve the customers, we are able to make a lot more decisions faster, ultimately, we
+are a lot more -- we operate a lot more eﬃciently. I told you about the Me@Walmart,
+this is an all-in-one mobile app that we have rolled out for our store associates. It
+combines ML, it combines voice, it includes camera and vision and it basically
+simpliﬁes tasks for our associates, so that they can spend more time helping our
+customers.
+So if this is out in the ﬁeld and this is one example of how we can -- we are using
+technology to go faster, but it's not just over there. It's an areas that normally you
+would not think oﬀ. We are now closing our ﬁnancial books in three days, almost half
+time that it used to take us before and you can imagine the amount of complexity
+that we have got across Walmart, right. So being able to pull out that together and to
+be able to -- to close our books basically means that we get better insights into ourFINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 6 of 13Edward Yruma
+Suresh Kumarbusiness and we are able to make decisions a whole lot faster. So eﬃciency,
+productivity, and insights, I think ultimately is making us be a lot more nimble, and
+we can react and we can serve our customers a whole lack better than what we were
+able to do before.
+{BIO 4940857 <GO>}
+I'd love to dive down a little bit into the tech stack, I would love your perspective on
+e-commerce software strategy and particularly as it relates to kind of what you want
+to do in-house versus your partnerships and examples, like using (inaudible) and
+LatAm and then kind of broadly speaking, your push to integrate other e-commerce
+providers, software providers in the Walmart marketplace, Shopify e-commerce,
+(inaudible) commerce?
+{BIO 21073281 <GO>}
+Right, exactly. So, look we have built a world-class technique. We want to make sure
+that we build all the strategic part of the technology all by ourselves, because we
+believe that -- that's a competitive diﬀerentiator for us.
+So as part of leading retail disruption, we have been building out our technology
+organization, all of our U.S. e-commerce business is on our own platform. We talked
+about the whole product platform. So, this whole notion about build versus partner,
+it really comes down to a few things, right. So given our scale, we want to build and
+we want to focus our tech on areas that are core to our business, where ownership
+actually gives us the agility to be able to adapt the software to our business needs.
+And especially where there are really no good commercial (inaudible). So, on the
+converses that been rolling out our own software is prohibitively expensive in some
+areas or markets because they have got some very, very speciﬁc market
+requirements, then we'll leverage commercial software and assuming of course that
+software that can actually scale to what we need. So, but having said all of that,
+where we are taking the technology stack is that we are building our software in a
+such a way that we build these to do usable services that can be leveraged in
+multiple markets, so Spark chocolate[ph] is one example. This was built as software
+as a service. It was actually deployed in Mexico ﬁrst and then it was used in the U.S.
+We have now in ruled out in brand new customer facing app that combines sort of
+the traditional shopping with the online grocery shopping and pick up, all in a very
+seamless and way that platform, that foundation is now going to be reused and
+leveraged and customized for Mexico and for Canada.
+So the technology stack that we are starting to build out is more around modular
+services and by the way, you talked about Accel[ph] Partners that is what allows us to
+actually take our technology and now oﬀer it for others as well. The Adobe
+partnership that we announced, very, very exciting is something that I'm particularly
+very excited about, in not only the brand new recognition for us because we are now
+taking our technology, and we are now oﬀering it for others, but we have done it
+such a way that through the Adobe partnership, not only other retailers can make
+use of that we have build order online pick up inside the store and those types of
+omni-solutions, but that also allows other retailers to quickly come on WalmartFINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 7 of 13Edward Yruma
+Suresh Kumar
+Edward YrumaMarketplace and to participate in the Walmart marketplace. So it's not just about
+building our technology and it's not just about taking the technology, modularizing
+it, (inaudible) it and making it available for others, but it's also kind of creating the
+overall ecosystem.
+So everything kind of builds on itself and everybody gets a beneﬁting from that.
+{BIO 4940857 <GO>}
+Clearly COVID has changed all of our behaviors. So many of us are working,
+shopping from home. I guess what are some of your priorities in transforming your
+consumer experience management system. Are you trying to engage with
+consumers more through social media and then how do you gauge kind of
+consumer sentiment and usage of digital services?
+{BIO 21073281 <GO>}
+Absolutely COVID has changed a lot of things. As we -- but our focus really in terms
+of listening to our customers that has not changed. And clearly, what has happened,
+as we went through -- as have been going through COVID actually, is that the things
+that our customers particularly care about, whether it is around great merchandise,
+value, convenience, those things don't change, right, whether COVID or no COVID
+customers really want great merchandise, great value and they want convenience.
+The thing that has become more important, as we have gone through COVID is that
+customers also care about safety, and they want to make sure that the place that they
+shop and the base in which they shop, safety becomes an important part of it.
+So our focus and through technology has really been in terms of listening to our
+customers also to provide them mechanisms, where the safety aspect of
+convenience also gets highlighted using the payment capabilities for our fuel
+pumps, we rolled out more Scan and Go in the Sam's Clubs; all of these things we
+have put our capability to be able to do pickup for pharmacy. These are all stuﬀ that
+we have heard from our customers in terms of things that are important for them,
+and so we keep constantly listening to our customers and we use that to close the
+loop in terms of the features that we roll out. And we do that every place, so it's not
+just listening to customers when they shop online, it's not just about listening to
+customers when they shop inside our stores or on our clubs.
+We look at what's going on outside of Walmart properties as well. We look at trends
+inside social media and again it's a part of data, right, so we collect all of that, we
+synthesize it, we've got modules that run over it and that informs us in terms of what
+the next thing to do is.
+{BIO 4940857 <GO>}
+One of the questions we received from the audience and you can talk about your
+data commercialization initiatives and how you can monetize the data, maybe justFINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 8 of 13Suresh Kumar
+Edward Yruma
+Suresh Kumarzooming out even a bit more, advertising that was a big deal for the business, even
+Doug talked about that a lot. How does the relationship with Trade Desk work?
+{BIO 21073281 <GO>}
+Absolutely, so, advertising is a key component of our ﬂywheel, right. Our strategy is
+actually to oﬀer performance-driven advertising that is very, very unique to our
+advertisers and its unique because we are the only players where we can combine
+insight from, in terms of what our customer preferences are and our customer
+behavior is, not just online, but also oﬄine inside of our stores. Nobody else can do
+that, right. And what this allows us to be able to do is to be able to allow our
+advertisers and our suppliers to be able to connect with our customers and to be
+able to draw insights in terms of their shopping behavior, what products work -- what
+products don't work in ways that nobody else can do. And o that's the reason why
+advertising becomes a very important part of how we allow our advertisers to be
+able to connect to our customers and we've talked a little bit about -- about DSP and
+about Trade Desk. Trade Desk is our -- is where we are launching on demand side
+platform or DSP with Trade Desk and this basically allows advertisers to be able to
+reach customers on properties outside of walmart.com as well.
+And so I think of it -- let's say, that you are Pampers and you want to be able to reach
+of your customer, your typical customer is a the young mom with a small child, you
+might be going to some other location like in Scary Mommy and before you want to
+be able to reach out to your customer through that and to be enabled through
+things like the Trade Desk partnership. Data obviously, I keep talking about it,
+becomes a very, very key part of being able to do all of this, and our data insights are
+very key for our advertiser or partner on suppliers to be able to ﬁgure out the
+shopping -- the needs of our customers and to be able to therein also ﬁgure out how
+to better craft their products, to be able to -- to be able to best serve them, and so
+that's how it's all coming together and it's really just part of the Omni ﬂywheel, if you
+would.
+{BIO 4940857 <GO>}
+How hard is it to attract top technology talent to Walmart and how do you become
+kind of high in the stack of employers choice?
+{BIO 21073281 <GO>}
+We are already very high in being a top talent attractor. We are able to attract really
+great talent from pretty much all parts of the industries, diﬀerent locations and I think
+the main reason why we have been very, very successful at being able to attract
+really great tech talent is that people get excited about the commitment to the
+purpose of save money and live better.
+But it's also about the scale, having -- being a technologist at Walmart means that
+you get to work on problems that are very hard, that are -- I keep talking about data,
+ML all of these things, these are not just hard problems, but they are problems where
+working on those can have huge impact and you can have huge impact at scale,FINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 9 of 13Edward Yruma
+Suresh Kumar
+Edward Yruma
+Suresh Kumarright. And you combine that with purpose which is really about save money live
+better, that combination is magic and I was attracted to it. That's the reason why I
+came and that story is very, very compelling. We can attract and we continue to
+attract talent from all diﬀerent -- from all diﬀerent parts, right whether they are data
+scientists, whether they are full stack developers, whether they are front end
+developers, you name it. Walmart is a fantastic place to come and work and we are
+seeing that all the time.
+{BIO 4940857 <GO>}
+In one of your comments you mentioned Walmart Pay. I know I used it, you guys
+were kind of early in implementing digital wallet in store. I guess just assessing it
+though what's worked and what hasn't, how can you increase usage, how does the
+ﬁrms ﬁt in and would you ever use Apple Pay?
+{BIO 21073281 <GO>}
+So, look, I think when it comes to whether it's -- whether it is ﬁnancial instruments,
+whether it is payment instruments, the primary thing that we focus on is what do the
+customers want and one thing is very clear, our customers want a lot of choice, right.
+And that's -- and some of them want to be able pay immediately, some of them want
+to be able to pay in instalments, some of them want to make use of a diﬀerent
+payment instrument. So that is the reason why we oﬀer Walmart Pay, we oﬀer Aﬃrm,
+all of these things are new ways in which we serve our -- we server our customers in
+terms of what they -- what they want.
+So overall, we continue to keep looking at opportunities based upon what our
+customers want, but it also needs to make sense in terms of the overall ecosystem
+that we are trying to build and largely it is the business strategy that we continue to
+follow which is really starting with the customer -- focus on the customer and make
+sure that it also works in terms of the -- in terms of the larger strategy. So, you will
+hear us as we continue to evolve, we will continue to make changes to it and that we
+make changes you will -- you will hear about it.
+{BIO 4940857 <GO>}
+You also touched a little bit about in-store checkout technology. I know you guys
+were also early in using mobile checkout. I remember doing this at the Sam's
+prototype number of years ago. I know in some instances of a Superstore at Walmart
+Plus you have mobile checkout. I guess what prevents you from using it more
+broadly and then I guess, do you think that cashier-less stores are the future?
+{BIO 21073281 <GO>}
+So again, I think the main thing is really about listening to our customers and
+reducing friction. And as far as checkout is concerned, we are trying to make
+checkout as easy as possible where the customers want it. So taking customer-ﬁrst
+lens in technology, whether it is in Sam's or in Walmart, one thing became very, very
+clear, customers don't like to stand in long lines -- at the checkout lines. So that's theFINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 10 of 13Edward Yruma
+Suresh Kumar
+Edward Yrumareason why we deployed -- we built and deployed Scan and Go and it solves a very,
+very big customer pain point that is available in Sam's Club and it is also now
+available for Walmart plus customers and you can use this to check out you're
+shopping and then when you come to the checkout line, you don't have to stand in
+these long line. It's a great beneﬁt to our customers, they love it. Not everybody
+wants to always use all of the diﬀerent technologies. And so when you think about
+cashier-less store versus that having cashier, diﬀerent customers end up having
+diﬀerent preferences.
+So to the extent that mobile option -- checkout options resonate, those things we are
+making it available. There are other options that still involve cashiers and we are
+trying to -- we will have that, we are making our associates more eﬀective, so that
+they can spend more time helping our customers. We will continue to have all of
+these pieces.
+{BIO 4940857 <GO>}
+Can you talk a little bit about blockchain. I think you guys even touched on that at
+the shareholders meeting over the Analyst Day. But how has the use of blockchain
+helped the supply chain and the warehouse and the enterprise when you apply
+blockchain technology?
+{BIO 21073281 <GO>}
+So, blockchain is another technology that I am very, very excited about. We use that
+primarily in terms of food transparency. It's actually for leafy greens during the
+production phase and basically what it allows us to do is to be able to transparently
+track the entire, from production onwards. And so if there are industry recalls, you
+can very quickly identify if Walmart received products from the impacted source and
+so doing (inaudible) investigations, recall, we can narrow the scale -- we can narrow
+the scope on those customers and we can very quickly take action.
+So that's a very common area and we will continue to double down on that, but we
+are also starting to look at Blockchain in multiple diﬀerent areas as well, where we
+can look at blockchain as a mechanism to be able to automate the transactions
+between suppliers, carriers, logistics, those are all areas where we will continue to
+use blockchain regeneration as another one right so that we can calculate the
+carbon footprint. Sustainability is a big thing, factory audit, sourcing -- ethical
+sourcing, surplus supply chain, lots and lots of diﬀerent areas where traceability,
+transparency and ability for us to be able to chain together multiple diﬀerent events
+around a particular product or a particular item becomes very, very important.
+Blockchain is going to continue to evolve over there.
+{BIO 4940857 <GO>}
+The questions we got from the audience is about how has digital transformation
+changed your technology choices in data and analytics. (inaudible) databases and
+analytics moving to the cloud or shifting in your types of data architectures?FINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 11 of 13Suresh Kumar
+Edward Yruma
+Suresh Kumar{BIO 21073281 <GO>}
+Absolutely. I told you right, data is one of the key things that we are actively moving
+to the cloud. We've already moved, 150 petabytes of data. We want to make use of
+the capability that cloud allows us to be able to leverage. So in particular by moving
+data to the cloud. We can run our normal analytics a whole lot faster, 23% faster and
+gives a better experience as well. It's because it's scalable, it's elastic, it costs less
+because we don't need to have these massive data footprint that we don't need it,
+but the most important thing in my mind is really the fact that we can run advanced
+analytics and we can run ML workloads on it a whole lot back than we can do it on in
+monolithic on-prem databases, so that's why, we have kind of all-in -- all-in in the
+sense that all the things that we need to run advanced analytics and ML workloads
+we are moving all of that to the cloud.
+{BIO 4940857 <GO>}
+I know this is kind of a critical time of your business heading into holiday, the retail
+analyst community, we're all focused on markdowns and near-term conditions, but I
+guess just I'd love to get your longer-term position, thinking -- you're putting on your
+technologist hat when you think about what would be the most disruptive
+technology over the next 5 or 10 years, what do you think it will be, will it be voice, is
+it AR and then probably just as a ﬁnal question from me, how do you help ensure
+that Walmart can have the foundational work done, so you are ready to meet some
+of these new challenges.
+{BIO 21073281 <GO>}
+Yeah. So I deﬁnitely think that any technology that ultimately end users friction for
+our customers makes it more convenient for them engenders more trust make it
+safer, these are the technologies that are going to continue to have an outsized
+impact that as far as retail is concerned, that's on the customer experience side. And
+any technology that helps us to be more eﬃcient, be more nimble will allow us to
+generate insights faster and to be able to act on them, those are the technologies
+that are going to continue to have a big impact when it comes to how we run our
+business. So if you think about it in these two axes, on the ﬁrst one. In fact, on both of
+these, I think ability to handle large amounts of data and to be able to reason over
+that data and that's where ML and AI comes in, I think that's going to continue to
+happen, right. So there is no dearth of the kinds of use cases that we can have with
+advanced ML and AI modules. When it comes to reducing customer friction making
+shopping easier, better even more enjoyable certainly voice is a very natural
+extension, right. So we started oﬀ in desktop and now we have got really, really
+powerful phones, but even that I think over a period of time, the most natural way in
+which you are going to interact with a system that's out there including for shopping
+is going to be -- to be through voice and voice is going to continue to become a
+very important part of it.
+We are already seeing that with our Sam's, we rolled that out for our associates and
+our associates just allow that feature where they can -- whatever information they
+want, they can just ask, right. So they don't need to go into the back room and ﬁndFINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 12 of 13Edward Yruma
+Suresh Kumar
+Edward Yrumasomething and try to ﬁnd an answer for it. On the shop ﬂoor, hey, how many items
+are there in the back room, and it will just tell you, and you know what to do about.
+So, anything that reduces friction is good and voice reduces friction. Therefore, I
+think that's going to continue to have a big impact.
+AR-VR is very interesting. I think AR. We are already starting to see the impact of that
+with our associates, right. We deployed something where it helps our associate -- it
+guides our associates in terms of how the stock, restock items on the shelf and it
+guides to which shop and which location in the shop.
+So it's again about reducing friction, and creating eﬃciency. With our customers, I
+think the example, that I gave you in terms of what you're ﬁtting that's another
+example, where you don't have to actually go buy an item before you ﬁgure out how
+exactly it's going to work, think about AR for furniture, right, so you can take the
+furniture and you can place it in your living room. Let's say you are trying to buy a
+tent for your next vacation, you want to see how good it is, you don't want to actually
+buy and try to set it up and then ﬁnd out that it's not working for you. AR-VR
+becomes very important for that. So I think these types of technologies, are going to
+continue to evolve, but I look at it primarily from, is it reducing customer friction, is it,
+making it easier for them to shop and on the back end, is it allowing us to drive
+insights better and faster and be able to reason our data more eﬀectively.
+{BIO 4940857 <GO>}
+With that, we and others, I'm sure on the call hope that your app and your analytics
+capabilities and all these great things you are doing in technology stack allow us to
+get all the toys and our kids Christmas dresses this Christmas without hassle, without
+friction as you guys always do. So, Suresh, thank you very much. For audience, thank
+you for the question. If we didn't answer your question, please feel free to email the
+Walmart IR team. And thank you very much for your time this afternoon.
+{BIO 21073281 <GO>}
+Ed, thank you so much for having me. It's great talking to you and to be on the call
+with you. Thank you.
+{BIO 4940857 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in FINAL TRANSCRIPT 2021-10-21
+Walmart Inc (WMT US Equity)
+Page 13 of 13connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

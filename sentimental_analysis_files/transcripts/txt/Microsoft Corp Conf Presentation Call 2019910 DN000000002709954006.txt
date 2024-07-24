@@ -1,0 +1,756 @@
+FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 1 of 19, Executive Vice President, Microsoft Azure
+, Analyst, Deutsche Bank
+Karl Keirstead
+Jason ZanderDeutsche Bank Technology, Media & Telecom Conference
+Company Participants
+Jason Zander
+Other Participants
+Karl Keirstead
+Presentation
+{BIO 1542979 <GO>}
+Okay, good morning, everybody. Thanks for attending DB's Annual Tech Conference.
+Great seeing a lot of people that I know well here, so thanks for coming. I hope you
+guys have a fantastic two days. One of the highlights for me is, I think, we've got a
+pretty amazing keynote line-up. So, it starts now with Jason Zander, the head of -- the
+EVP of Microsoft who heads up Azure, a pretty special keynote to have. But in
+addition to Jason, we've got the CEO of VMware. We've got the head of Salesforce's
+service cloud, just a fantastic line-up.
+Let's start it now with Microsoft, and maybe Jason, do you want to give a quick
+minute on your history at Microsoft? I think you've been at the ﬁrm for a couple
+years, right?
+{BIO 20468487 <GO>}
+Just a couple, yeah. Thank you for having me. I'm pleased to be here. Jason Zander,
+EVP for Azure. I run all of our product work that we've got. Obviously, Azure, I think
+you're very familiar with that, is our public cloud oﬀering. We build it of course
+worldwide. We support our own products, Oﬃce 365, Xbox Live, et cetera, and of
+course make it available to customers. Great growth on that.
+I've actually been with Microsoft since 1992. When I joined, we were still selling DOS
+4, and Windows 3 was new, if you remember that. So, it's been a little while. With the
+team along the way, I was one of the engineers that created the .NET framework. I
+ran the ﬂagship Visual Studio developer tool products, and stuﬀ like that, and I
+moved over to the Azure team in 2012 to go work for Satya Nadella, who was the
+EVP of the division at the time.
+And at this point, my team does everything from datacenters to all the software
+involved, plus silicon all the way out to crazy stuﬀ like quantum computing. So, it's
+kind of a dream job for a systems engineer in the middle of a big inﬂection point, so
+lots of fun.FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 2 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason Zander{BIO 1542979 <GO>}
+We -- I know, you can't comment on the size of Azure, but we've put it at about $13
+billion, and you do disclose the growth rate, 68% in constant currency. So, that is
+seriously almost unheard of to have a business at that scale growing at 68%. You
+must have the funnest job out there.
+{BIO 20468487 <GO>}
+It's huge fun. So as you mentioned, 68% growth on constant currency, and it's just
+really exciting. I mean, the fun thing for me, of course, is we're working with a lot of
+companies on their digital transformation. We have industries that are shifting as we
+speak. They're looking for trusted tech provider, so just an awesome opportunity
+both to build that technology base but be a trusted partner. So, the innovation
+agenda, some of the really cool stuﬀ in industry, it's a signiﬁcant amount of fun.
+{BIO 1542979 <GO>}
+Yeah, well, I'm having fun watching your progress. So, I think everybody here in the
+audience has been on this theme probably for about four years. We have. It feels like
+that was about when Azure was starting to get its sea legs. And in 2015 was when
+AWS ﬁrst -- or Amazon ﬁrst reported AWS numbers, and that was kind of a shock to
+the street to start paying attention to this theme.
+So, I think over the span of four years, everybody's been monitoring it pretty
+carefully, but we don't have the degree of visibility you do to sort of some of the
+underlying trends. So maybe I'll start by asking if you were to look at the last, boy, six
+months or so, what couple of shifts are occurring. What changes are occurring in the
+cloud infrastructure market that are most signiﬁcant to you that you'd ﬂag for the
+Group here today?
+{BIO 20468487 <GO>}
+Yeah, I think we deﬁnitely continue to beneﬁt from IT spending. We're deﬁnitely
+continuing to see that, as companies want to accomplish two things, really. One of
+them is to become much more agile in delivery to the business, and that's just
+important, especially as entire industries start to shift and their expectations change.
+And of course, they're doing that on a tighter budget, as well, so they do need to
+save money.
+And so, obviously the value that we have in the cloud is this kind of hyperscale
+capabilities that we've got, allows you to run those workloads. I can run them at a far
+cheaper beneﬁt. I can actually start having the cloud do task that I'm otherwise
+paying my own personnel to do. That actually frees them up and that budget, you
+can apply it towards the innovation agenda. So, we're deﬁnitely beneﬁting from that
+continued growth that comes through with that.FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 3 of 19Karl Keirstead
+Jason ZanderI think you're also seeing us land quite a number of very large kind of mega deals.
+You've seen us do the announcements, Fortune -- top Fortune 50 companies that,
+again, are looking at Microsoft as their trusted partner to be able to carry forward
+their innovation agenda, as well. And so, those things are driving obviously a lot of
+that growth that you're seeing, and that's on a worldwide basis.
+{BIO 1542979 <GO>}
+Satya said, I think in response to a question on a recent call, that after that big AT&T
+deal, just on the subject of these chunky deals, that he's got sort of line of sight to
+more of them. So, I think the ones that Microsoft has talked about is you're public
+with AT&T. I think Chevron, Walmart, Walgreens are couple of the other big ones.
+But do you want to just address that, because it feels like that's a big change, where
+in the last six months to nine months, we're seeing not $50 million, $100 million
+deals drop, but we're seeing like $0.5 billion to $1 billion multi-deals drop? And you
+know, is there any unique catalyst for those big deals starting to happen, because it's
+a clear shift in the last quarter or two?
+{BIO 20468487 <GO>}
+Absolutely. I think you're starting to see us deployed for this type of technology,
+increasingly in Tier 1 workloads, the things that are the most core to a business.
+Obviously, we do do a signiﬁcant amount of work when it comes to like the back
+oﬃce, you know, IT and other work like that, as well. But if you look at these kind of
+Tier 1 workloads, they run the business itself.
+So generally, when you see those very large deals, you're seeing us also integrate
+and supply technology and partner very deeply with that. You mentioned a few that
+are great, AT&T, Walmart, Chevron are great examples of that. Now, for those cases,
+what you can look at is the technology that we're bringing to bear, like I said. It's
+more than just what we would traditionally have done, which would have been an
+operating system, like Windows Server, SQL Server, Exchange, things like that.
+Those are for, again, running your back oﬃce. And of course, we have all of that.
+That's actually an exciting growth area, as well. But when you start seeing the much
+larger deals, you're seeing a more strategic integration of our technology
+capabilities and skill sets going along with these partners, which they're world-class
+in their space, as well. And if you put those two things together, that's super
+important.
+And I think if you look at the transition in a lot of industries, it is interesting such that
+the hiring for software engineers has continued to grow rapidly, and it's not just ISPs
+like us. It's automotive companies, it's Fin sector, it's basically healthcare. All these
+folks are hiring more and more engineers as the technology becomes more and
+more a core part of their business. So again, I think you need that kind of structural
+advantage of the cloud and the edge. And then, frankly, in some cases, you mightFINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 4 of 19Karl Keirstead
+Jason Zanderactually wind up competing against the cloud vendor, in which case having a
+hyperscale cloud vendor like us to partner with, it's a necessity.
+{BIO 1542979 <GO>}
+Yeah. Jason, you talked a little bit about these big deals beginning a trend where
+you're hosting Tier 1 workloads. So this notion of workload type on Azure is a hard
+one for us on the outside to see. We can sit down with your customers and ask them
+what kind of workloads you're running on Azure, but the aggregate picture is tough
+to get at.
+So maybe I can ask you for a little bit of color from a few other ways, maybe sort of
+traditional or raw computer storage-type of workload versus let's say premium. What
+portion of Azure might be a migration of existing or legacy workloads versus net
+new? Is there any other cut that you can give us to help us ﬁgure out what kind of
+workloads are running in Azure today?
+{BIO 20468487 <GO>}
+Yes. And if you look at the customer journeys around this, there are some interesting
+things. We do have some born-in-the-cloud companies. I think one of the best ones
+early on that we had is Jet.com, which of course was acquired by Walmart, who
+eventually also became a partner with us. So, we have some born-in-the-cloud
+startups that just go straight to that.
+However, if you look at the bulk of our business, it is highly focused around a lot of
+the work we do with enterprises. And those circumstances, as you mention, they've
+got existing workloads. They have been running them in their own datacenters or
+leased datacenters for a long time. They want to have a better position on their
+CapEx, and again, they want the agility associated with that. So, it's very frequent that
+we'll start oﬀ by doing some level of migration. How do I take the existing workloads,
+get them into the cloud? But I get more eﬃciency. I can run it more cheaply. I can,
+again, get the agility in there.
+And then, we move into the innovation. I actually think that Chevron is a top Fortune
+50 company, fantastic partner, very forward-leaning company, and we started the
+same way. We did essentially kind of your enterprise control plane, the software
+agility so that their engineers could move quicker, but -- and to start oﬀ, just a few
+workloads. And then, all of a sudden, three became hundreds, and just the hockey
+stick just kicked in.
+And then, once we got there, we started doing more innovation, to the point where
+we're doing IoT for upstream oil and gas expiration, looking at seismic and other
+things, as well. So again, moving beyond kind of like your SAP portfolio and a bunch
+of those things, which were the ﬁrst round, into this kind of innovation side. So, that's
+an awesome journey, and the cool thing is we actually did it together along the way.
+So, the teams and the companies both came along for that ride.FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 5 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead{BIO 1542979 <GO>}
+Yeah. And Jason, I'm sure this happens, but when we talked to some large Fortune
+100 customers, we do pick up anecdotes of friction as they're attempting to migrate
+existing workloads into Azure, or AWS, or Google Cloud. So can you comment on
+that migration pace? Does it feel like it's happening as fast as you expected, slower
+because of friction points? And what kind of things can Microsoft do to the extent
+that customers are quote stuck to get them unstuck?
+{BIO 20468487 <GO>}
+Right. And this is another one where, oftentimes, it really depend upon where the
+company is. And what I mean by that, for example, is if they are a leveraging partner,
+so I have, for example, in SI motion. I've got a partner who's doing most of the work.
+We've been training the partners for years. They really do know how to make the
+workloads go. They can get the migration done quickly. They know how to run it. So
+if that's your mode, you can actually move very quickly.
+But what I am ﬁnding is that a lot of companies are using this move as an inﬂection
+point. So in some cases, I want to do a little bit of clean up. Maybe my portfolio is
+made up of a bunch of M&A activity. Maybe I've been waiting for a while to ﬁgure
+out how to do some work. So I'm actually factoring that into the process, which isn't
+really about migration, but it is around how do I actually get the right kind of
+trajectory.
+And then, the other one that's actually interesting is, and this was the case with
+Chevron, there's a lot of companies that also want to work on the skilling for their
+own personnel. And so, like, you could come in and have a partner or Microsoft help
+you move stuﬀ very quickly, but if the personnel that you have, have not yet come up
+to speed on how cloud operates, they can't take full advantage of it. And so, in some
+cases, you actually want to work with them along the way, such that they become
+cloud-skilled and they know how to move fast. And now, I can actually move very
+quickly.
+And so, what I think I'm seeing is a lot of companies that are usually on one of those
+kind of playbooks. And so the speed can vary, but it's not always because of the
+technology or the friction, or things around that, but it's around what are the goals
+for the ﬁrm, what am I trying to do with my people, what am I trying to do with my
+overall portfolio.
+But once -- I can tell you, once you start opening the gates on this stuﬀ, man, it's a
+hockey stick. The ﬂoodgates just open. When the ﬁrst few workloads go, and you've
+got people that are trained and they know how to do it, all of a sudden, they're kind
+of like, why isn't the rest of the stuﬀ running here? And we see the usages start to
+spike.
+{BIO 1542979 <GO>}FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 6 of 19Jason Zander
+Karl KeirsteadSo maybe just a little bit further on this migration pace because everybody, and this
+was aﬀecting talks certainly yesterday, and the last few weeks, they're worried about
+things like slowing economic growth, or recession, et cetera. Azure has never been
+through a period of slow economic growth because you really started to scale more
+recently, it wasn't a material business back on '08 or on '09. So it's hard for us from
+the outside to judge how recession-proof Azure would be.
+On the one hand, it's a source of cost savings and agility. You would think that if
+companies were entering a tougher economic time, it could accelerate.
+On the other hand, to the extent that there are costs associated with re-engineering
+workloads that could hold companies back, it's hard for you to pontiﬁcate because
+you don't have a case study of Azure going through this. But maybe you can be
+helpful because maybe some industries or companies that Azure serves have
+stumbled. And I'm curious how their reaction has been in terms of their migration
+activity? Any stories to tell that might help us with this question?
+{BIO 20468487 <GO>}
+Well, one of the things, I would look at is, of course, as you point out, every industry
+has cycles and they're not always around the macro kind of recession sort of
+environment. When you have downturns in particular areas, we can take oil and gas,
+we can take all sorts of segments that have this. Those industries, when they hit that,
+oftentimes, it really does come back to that cost saving thing which you're looking at,
+because oftentimes, now you're starting to evaluate your CapEx. You're starting to
+ﬁgure out, gosh, do I really need to -- like, I have to renew a lease that's coming up.
+Do I really want to go? And those are very, very expensive. Do I want to do that, or
+do I want to actually reposition us to go save money? And so, being able to change
+how your balance sheet gets laid out when those things occur is actually important.
+And then, it really comes down to the partnership like, what's our role? What's our
+partner ecosystem's role on how to be able to help make sure that someone can
+realize that? At the end of the day, if you're going to be more agile, and if I'm going
+to save money on the run rate, then what I've seen, by and large, is companies are
+actually quite interested in still making those moves. You have to be in a really bad
+spot otherwise. That actually helps. And of course, we have also been doing services
+for over a decade. Oﬃce 365, originally back to the ﬁrst version of BPOS that we had
+way back, and it's like 15 years ago. And so, we have actually run services in this kind
+of business model for actually quite a while.
+{BIO 1542979 <GO>}
+That's true. Some of the other things that Microsoft can do, I guess, to accelerate
+migration activity, you're doing in terms of partnerships with vendors that other
+vendors that are important parts of their stacks. So to the extent that ﬁrms are sort of
+wedded to VMware technology. You've signed a partnership with VMware to make it
+easier to port. You've introduced Azure Stack to create a similar environment on-
+premise.FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 7 of 19Jason Zander
+Karl KeirsteadWhat the kinds of things Microsoft can do like that to accelerate growth? I suppose
+what you're also doing is making it easier and potentially cheaper to migrate existing
+SQL Server, Windows Server on-prem workloads into Azure. That's probably an
+important one. Do you want to highlight a couple of those things that you're doing?
+{BIO 20468487 <GO>}
+Yes, absolutely, and you mention a bunch of good ones. And let me split two apart,
+just to make sure I frame it correctly. I think Pat might be your next guest, which
+we've been partnering with very well. So, let's take VMware ﬁrst, if that's okay, we'll
+come back to some of the others. In that particular case, our goal with VMware is
+more of a hybrid operating environment with us and VMware also as a ﬁrst class. So,
+it isn't about migration. So for example, it's not like can we take VMware and just
+migrate instances oﬀ. That is not our goal.
+Our goal instead is to partner with VMware and say, hey, your existing your stay,
+you've got all these people, personnel, assets that are trained up on VMware, and
+let's go partner together, because the beneﬁts to our mutual customers are greater
+for both of us by the time we're there. So, it's a ﬁrst-class VMware solution that's
+there, a huge kind of response that we've got from that, which is amazing, which
+means you can use the beneﬁts of VMware and the access to the technology and
+relationship with VMware, as well as with Azure, and you get the better together kind
+of solution there. Now, I can't enable this hybrid solution.
+There are other cases where it really is people wanting to migrate workloads. SAP is
+a fantastic one. We've got an amazing relationship with SAP and really great
+momentum. I mean, we've done really, really well with that. When we logged onto
+SAPPHIRE and it's showing oﬀ all the cool things over there, lots of case studies --
+Coca-Cola, and a bunch of others like Fortune 50s that are out there.
+Now, that's an example where the software you may have been running it on-
+premises and being able to run it, we've seen people get over 100% ROI on it.
+They've been able to reduce their cycle times by 40%. I mean, you just, like, the
+cloud just lends itself incredibly well to that. So that's the case where migrating the
+workload fully makes a ton of sense. And then, we'll have the hybrid scenarios where
+they integrate together.
+{BIO 1542979 <GO>}
+What about the version 2008 cycle? So, one interesting thing that everybody's aware
+of is that those -- just went end-of-life or about to go end-of-life. So, if you're a large
+enterprise and you're facing a decision about whether to upgrade your SQL Server
+database or Windows Server instance, you can either keep it on-prem and upgrade
+it to the latest version, or maybe -- and this is the spirit of the question -- this is a
+catalyst, actually, to get you thinking about Azure instead of a version upgrade. So
+can you talk a little bit about what you're seeing on those kinds of upgrade
+decisions, and sort of, I don't know, you probably can't give us an exact number, but
+what portion of them results in customers just saying, let's go to Azure?FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 8 of 19Jason Zander
+Karl Keirstead{BIO 20468487 <GO>}
+Yeah. There's a huge interest in this. As you point out, so end of service, the 2008 R2,
+and the ﬁrst thing I would tell you, I actually own SQL Server. I own Windows Server.
+They are actually part of my team, part of product portfolio that we've got. And
+guess what? I run the Azure cloud on top of that same technology. We are the best
+place to run that Microsoft IT. So, Azure's an awesome place to go. So if you're going
+to consider the cloud, it makes a lot of sense.
+From a decision making perspective from IT, it's a couple diﬀerent things. One, I
+know I need to make the move because, right, end of service, and it's been a while. I
+need to upgrade my workloads. And the question that I often get is like how do I get
+to a point where I'm not having to do this every couple of years, because if I don't
+move too far ahead, then I'm going to be once again coming back. And I'm having
+to do the upgrades and having to apply my own personnel in order to actually do
+the work. How do I get to a better state?
+And so, the cool thing about the way we have set this up is with our hybrid beneﬁts.
+First of all, moving to Azure is about ﬁve times cheaper than actually running these
+same two workloads, Windows Server, SQL Server, on top of AWS. It's much more
+ﬁnancially viable to be able to do that. So licensing is great. You don't have to
+repurchase your IT. I get that kind of ﬂexibility that's there. That's what the hybrid use
+beneﬁts are for.
+At the same time, I can also move to an evergreen state, which basically says, hey,
+the diﬀerence in the cloud is that, with these managed instances, we can actually
+keep you up to date on the latest version of the database. And by the way, a lot of
+things that you're having to hire people to do, like your backup and your
+maintenance, and stuﬀ like that, the service in the cloud just does that for you.
+So, you're going to get cheaper economics for the cloud move. You're going to get a
+more eﬃcient system that keeps you there. And this evergreen state, all of a sudden,
+I'm not having to worry about this, and I can take the savings that I get and I've never
+seen an IT department that didn't have work that they had to punt and push out on
+the backlog. You can apply those resources onto that. Now, I can actually move
+forward.
+So, those are the beneﬁts and this is playing out very, very hard right now. And I think
+Microsoft and the fact that it is our IP, we've built a cloud around it and on top of it,
+it's an awesome place to go. It's ﬁnancially viable, and I think it's actually great from a
+run rate and the maintenance perspective for the teams. I mean, that's what's most
+appealing.
+{BIO 1542979 <GO>}
+Okay. Can we talk a little bit about the competitive environment, Jason?FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 9 of 19Jason Zander
+Karl Keirstead
+Jason Zander{BIO 20468487 <GO>}
+Certainly.
+{BIO 1542979 <GO>}
+Because my imagine is -- I imagine that it's very rare that, on these big Chevron,
+AT&T, Walmart deals, that many of them are sole sourced. They probably have AWS
+or Google at the table, if anything, keeping you honest. Can you talk a little bit about
+what you're seeing around the competitive environment versus Amazon and
+Google, and if it does seem to be swinging your way, why that is?
+{BIO 20468487 <GO>}
+Yeah. And again, if I go back and look at our growth, 68% growth on constant
+currency -- basically constant currency for Q4, and again, these big deals. So, we're
+seeing that growth when we get into these competitive environments.
+Two diﬀerent dimensions on this one. One, there is the product work. We have
+excellent diﬀerentiation. The hybrid work that we talked about, the work we've done
+at the edge. Azure IoT, awesome example. We're doing 6 trillion message a day on
+IoT, over 70 industrial customers that are out there. It's amazing. Data and analytics,
+we've got Spark. We are the only ones with a ﬁrst party Azure database solution.
+These guys invented Spark. So all of that kind of tech, those are things you can only
+get on Azure, which means that we have this product diﬀerentiation.
+If you then look again more broadly, we're able to do one other thing, which is we
+have decades worth of DNA, especially for enterprises and how to go run all these
+businesses. You're probably already one of our customers, which means we can help
+you with that journey. And by the way, you're quite likely to be using Oﬃce 365, as
+well. You probably have your identity systems in Active Directory, which means you
+have all these just nice network eﬀects of how the system lines up even better. So
+even outside of Azure, there's the broader Microsoft Cloud with O365, Dynamics
+365. All these things help you propel.
+One last thing on the competitive environment. In a lot of these cases, we're also
+seeing a lot more interest because I'm not in your business. To me, it's weird that you
+would, on one hand, go pay a vendor to go help you with the cloud; and on the
+other hand, they would turn around and compete with you. And that is generating a
+lot of questions. You talk about multiple people at the table. In some cases, it's like
+we might be talking to multiple people, but there's one that's not going to be here,
+right?
+And it's going to have to be that case because why would I go pump my money, it's
+a weird boardroom conversation. Yeah, I spent hundreds of millions of dollars on this
+vendor, and yeah, they are number one competitor, going forward, like we're just not
+going to do that, in which case there is this kind of opportunity for us to come in,
+again, as a trusted vendor that you probably have been working with for, again,FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 10 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason Zanderprobably 20 years or more, with all the technology, with all the investments. We
+spent all the CapEx. And if you want at some point to be able to compete with
+another stack that has all the same investments, and more, you're going to need to
+have those same assets, which means we can partner very deeply.
+{BIO 1542979 <GO>}
+So that vertical focus, you think, is net favorable to Microsoft? In other words, you're
+probably going to do relatively well on the retail environment?
+{BIO 20468487 <GO>}
+Very well in the retail environment.
+For obvious reasons, but on the other hand, (Multiple Speakers) a lot of tech
+companies that are rivals to Microsoft might favor AWS. So, you think the net of
+those is favorable to Microsoft, by the sounds of it.
+I think, from a net perspective, yes. Especially as you start seeing the appetite for
+cloud companies start to expand into other industries, right? And so, you mention
+one, which is obvious, but there are others, and it's kind of like at some point, you
+have to start doing the calculus and asking yourself, where does this end, and who
+am I competing with, maybe not this year, but maybe in ﬁve years. And it's kind of
+amazing to see what that looks like. You need to have someone that can actually
+help you with that. And I think that's where we come in, and we're seeing that great
+momentum is one of the examples for that.
+{BIO 1542979 <GO>}
+Okay. I'm sure, on these chunky deals, the degree of price competition can be
+severe. One thing that we've all worried about for four years is that, when you get
+three vendors duking it out for deals that, once they land on your infrastructure,
+might be there for a while. The incentives to price discount is huge. What are your
+observations about the degree of price discounting out there? Maybe you could
+oﬀer a comment as to whether you're seeing a little bit more aggressive behavior
+from Amazon or Google.
+{BIO 20468487 <GO>}
+Sure. Yeah, and what I've seen in this case, of course, some of the early conversations
+since I've been on Azure since 2012, a lot of the earlier ones were, like, I don't think
+you guys can run this cloud that cheap, I don't think you can do, whatever, whatever,
+whatever. And it's really shifted signiﬁcantly. As you point out, over the last four years
+as we've seen the growth, it's generally not a question of, if cloud, it's really like
+when and how should I approach it. That's been more the way that it's worked.
+And I mention that because, in a lot of ways, that cost conversation went away
+reasonably early on because, A, when you're making these decisions, you're actuallyFINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 11 of 19Karl Keirstead
+Jason Zanderlanding in the cloud where it's already a lot cheaper to go run in your environment.
+And so, the ﬁrst comparison to start oﬀ with is not even how are the cloud vendors
+duking it out, but also like, well, what's the cost between what I'm already doing and
+what I need to be doing. So I'm already going to wind up saving money.
+And then, in your particular case, as you look at this, as you mentioned, like you've
+got now big, hyperscale vendors, really competing and going at it. Well, one of the
+things we're also betting on is that we're investing very heavily in our innovation
+around how do I continue to work on margin, how do I continue to work on my costs,
+how do I get more and more eﬃciency. We're very relentless at doing that work.
+And so, in this space, I also think in infrastructure, but there's absolutely opportunity
+in the strong business that's there. And so, when you buy millions of things at a time,
+you can aﬀord to make that in a good kind of positive business structured way. And
+then, over time, there's also the move with mix shift. You're going to see a little bit
+more of the premium services. So we're just, right now, talking about compute,
+networking and storage, which are the basic intrinsics.
+But if you start thinking about it, our data and analytics stack, also very diﬀerentiated.
+The AI and machine learning pieces that come along on top of that. Then, you start
+getting up into, like, the Power application, Power Platform, et cetera, where I start
+doing business automation, et cetera. Those are cases where you're going to see
+some of that premium mix shift continue to kick in, and that also contributes to the
+overall numbers that we've got.
+And if you look at, broadly, our business, we had 24% growth on constant currency
+for the overall commercial cloud of business, which is a more broad, beyond just the
+Azure growth of 68%. That just demonstrates like the overall business is there, and
+again, keep in mind, from a hybrid perspective on both cloud and I'm on-premises,
+we've got both products, we allow you to handle both. It's a little bit of why we
+report the way we do.
+{BIO 1542979 <GO>}
+Got it. So it does feel like a three-horse race, and there were some vendors, IBM,
+Cisco, HP, who tried, and IBM's still there, obviously, but some have backed oﬀ. But
+there is a fourth. Oracle's knocking on the door and wants to be part of the party.
+When you're bidding for these large deals, Jason, how often are you seeing Oracle
+at the table considered as an alternative?
+{BIO 20468487 <GO>}
+Generally, what I've seen is when you go to the hyperscale cloud, there's a signiﬁcant
+amount of infrastructure work that you need. And so, typically our competition is
+often a Seattle competition. It's a northwest cloudy city kind of competition, often.
+From an Oracle perspective, we did announce our partnership with Oracle, which
+we're happy with. We've got additional things coming up, so you see that greatFINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 12 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason Zandercombination. Obviously, a lot of Fortune 100 ﬁrms heavily bet on Oracle. They've got
+great solutions there that they're trying to go run on top of, and of course, that's why
+we want that partnership with Oracle to make that go.
+When I think of the worldwide footprint, and a lot of the companies we deal with,
+they want to be everywhere. I just announced another region in Switzerland last
+week. We did a new region in Germany. That brings up to 56 regions worldwide, so
+that kind of global coverage, that kind of completeness of that portfolio, that's where
+I see people most interested in what that future looks like. And then, again, we have
+our agreement with Oracle and I think we've got a lot of interest in the partnership
+there, as well.
+{BIO 1542979 <GO>}
+Okay. Jason, in response to my question around the pricing environment, one thing
+you mentioned is the Microsoft conﬁned internal datacenter eﬃciencies that could
+oﬀset any unit pricing decline. So can we hit on that a little bit, because that's a hot
+subject for this group, many of which are invested in some of your suppliers.
+And so, Microsoft is in a very unique position these days that you weren't in ﬁve
+years ago where a lot of the buying activity for the whole datacenter supply chain is
+now aggregated, and a couple of companies in cloudy Northwest parts of the
+country. So, you've got amazing purchasing power. And so, everybody watches your
+CapEx now, like they weren't ﬁve years ago.
+So can we talk a little bit about that, because it was just recently a quarter or two ago
+when several or your suppliers, Intel being one, but there were many, were seeing
+some demand pressure and they were claiming that the quote hyperscales --
+hyperscaler buyers were holding back on investments, and that led to some
+consternation where we had to ﬁgure out, if that's true, is that because you're
+anticipating slower Azure growth, or is it because you're ﬁnding replacement
+technology? Are you ﬁnding eﬃciency improvements? Now that I've got you on
+stage and I can ask you, can you explain why some of your suppliers were pointing
+at the big cloud vendors, suggesting that you were slowing purchasing? Why would
+that have happened?
+{BIO 20468487 <GO>}
+Yeah. Well, I mean -- and I would start oﬀ, again, just by framing growth. I mean, so I
+think the growth speaks for itself. So we're (Multiple Speakers) obviously feel like it
+was a growth. So from my perspective, yeah, I'm still spending CapEx. And it's like
+we've guided that we're going to continue to spend CapEx.
+{BIO 1542979 <GO>}
+Over $5 billion this coming quarter.
+{BIO 20468487 <GO>}FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 13 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason ZanderYes. Exactly. So, I mean, and Amy's kind of discussed and disclosed all that. So, that
+money's out there. We're doing things like the datacenter expansions. I mention two
+that were there as well. And so a lot of the CapEx is going towards that additional
+expansion so we can get oﬀ into more markets and continue doing things like that.
+Obviously, the components that we buy and the server and the ﬂeet that we
+continue to expand is a core part of that.
+As you mentioned, one of the things that we do is we are pushing relentlessly for
+eﬃciencies because this is a high scale game, which means I have to be doing a
+really excellent job on every dollar that I spend. And I do product planning on a six-
+month semester boundary. Every time we do that, it's a combination of what
+innovation are we bringing to market, the new things, and where is the future going.
+But there is always commitments that I have from my teams on eﬃciency.
+And so, a few things that we've done in particular, we've tuned our supply chain. Our
+lead times are starting to shrink, so we can get more into kind of adjusting time, or
+when I need it, when can I deliver it, making sure that we're meeting all the demands
+that we have while not having to carry a lot of excess capacity. So, there's a lot of
+improvements we continue to make there.
+{BIO 1542979 <GO>}
+So, it's not like you're buying supplies, storing them on the top shelf for six or nine
+months, and then bleeding them down.
+{BIO 20468487 <GO>}
+That's correct.
+{BIO 1542979 <GO>}
+It's way more just in time now.
+{BIO 20468487 <GO>}
+Yeah, and I talk to Amy once a month when I ask for money, and she will always
+remind me, I'm not there yet, just to be clear. Maybe you've met Amy. She's going to
+keep me honest on that one, but we are improving, and we're just constantly
+working on that. And so, if you think about that, the eﬃciencies we get out for the
+money that we spend, we're continuing to make that better and better every single
+quarter.
+In addition to that, we've made a lot of software improvements that we've done. And
+so, we can do better jobs on densities. I can host more workloads on the existing kit
+that I've already bought that gives us even more eﬃciency there, as well. And we can
+essentially do that, plus, we do a lot of innovation across a lot of diﬀerent parts of the
+work. And so, I think, you've seen we are spending CapEx and continue to chase the
+TAM. The TAM is huge. So, we're continuing to grow. You've seen our growth comeFINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 14 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason Zanderthrough. And then, we're working very hard on the eﬃciencies part of the house, and
+I feel pretty good about it.
+{BIO 1542979 <GO>}
+Okay. Not to press you too much, I don't want you to give away your Azure trade
+secrets in a public forum, but the group is and I am very curious as to exactly what
+these eﬃciency gains are. Like when I do ﬁeld checks with folks, engineers in Silicon
+Valley, they tell me anecdotes about how Azure has been able to squeeze like 3x
+more out of a server rack today versus 18 months ago. And I asked them how on
+earth Azure's been able to do that, and I get vague answers.
+{BIO 20468487 <GO>}
+Good.
+{BIO 1542979 <GO>}
+Can you give us anything more speciﬁc as to how you're driving these eﬃciency
+gains? I think everybody will be super curious.
+{BIO 20468487 <GO>}
+Yeah. So, I can tell you the elements that we're working on, right? So, it is a
+combination of silicon design work that we do. And we work very closely with our
+components, partners and things like that. If you think about storage, if you think
+about the work we've done with the chip manufacturers, all the components that go
+into as part of this cost, we have -- you know, I have a whole silicon team. Like I
+mentioned, we do everything from Azure Sphere to the optics for HoloLens, all the
+way up to quantum computing.
+And so, we partner with a lot of the OEMs that you're talking about, the component
+manufacturers. We also do a lot of specialization that's designed for the cloud in
+partnership with them, and that actually helps us do a good job getting even more
+eﬃciency. In addition to that, a lot of the additional work that we do, it's things like
+SKU mix, and that's also, you know, like how much RAM should I have, how much
+Flash drive should I have. Well, it turns out that running in SAP, that server looks like
+something. Running a gaming server, that's actually more CPU, less disk.
+And so, we've been able to over time look at the workloads that people are running,
+how to get the right mix between them -- this is a little bit of the secret sauce, so that
+I can start actually tuning the ﬂeet. So, the ﬂeet isn't 100% uniform SKUs where every
+single node that you pull out looks exactly the same. We wind up with the right kind
+of balance, and at the end of the day, our job is to really improve the silicon and then
+the utilization and then ﬁgure out how to get great adjacencies across workloads so
+that we can actually share those resources in a very eﬃcient manner.FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 15 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason ZanderI mean, this is part of what it means to be hyper scale and it's one of the things that's
+a big diﬀerence between, well, I've got a colo someplace that I lease and, you know,
+that server over there, that's my server. I called it Fred, it runs SAP. Well, in the cloud,
+you don't do that, right? I mean, there's literally millions of servers out there and you
+have to be able to manage this at massive scale. So, that's a little bit of a trade secret
+side of the house but you get the idea.
+{BIO 1542979 <GO>}
+Got it. Okay, thank you. Can we talk security for a quick sec?
+{BIO 20468487 <GO>}
+Yes.
+{BIO 1542979 <GO>}
+So, maybe two parts. One is the Cap One AWS breach was very high proﬁle. And I'm
+just wondering, as you've interacted with customers since that, have you noticed any
+change in behavior? Are they sort of pulling back and wanting to double click on
+Azure security infrastructure in a way that could in any way elongate sales cycles? So,
+that's the ﬁrst question. And actually, why don't I stop there and let you go on that
+and then I'll ask a follow up.
+{BIO 20468487 <GO>}
+Yeah, and I would say that especially the large even ﬁn sector and other folks, you
+know, healthcare, places where the compliance has been high, I would say that
+they've always been very, very deep into the security vetting and validation and then
+the work that's there. So, I see that continue. They, of course, have had questions
+around speciﬁc things that they've seen and how are we doing that. In some cases,
+we're doing things slightly diﬀerently and stuﬀ like that and they can see that.
+But what I would tell you is the big thing that we've done with security, because
+again we've been running cloud services for 15 years. If you go back to Oﬃce 365,
+even Xbox Live, it turns out the biggest hacking period that I get every single year is
+December 24th in the evening. And it's basically as people are unwrapping a new
+Xbox and you get these guys that are like, I want to claim the fame that I actually
+took down the network, and people, for whatever reason, your kid couldn't play your
+Xbox, your 35-year old couldn't play his Xbox, I mean whatever it happens to look
+like, that's when the hacks come in.
+So, we've been doing this for a long time, and we spend $1 billion on op-ex every
+single year just on security. There's over 3,500 people that work on that. We've done
+a signiﬁcant amount of work to protect Oﬃce, protect the documents that are in
+there. And we take all of this thing, like a trillion signals go through the system, and
+we apply it not only to that but to Windows, we apply it into the Oﬃce ecosystem,
+and then we actually make it available for our third parties as well.FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 16 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason Zander{BIO 1542979 <GO>}
+Okay.
+{BIO 20468487 <GO>}
+And so, there's always a lot of scrutiny, and there should be on security. It's
+especially true as more and more of the Tier 1 workloads start to shift into the cloud,
+and so we get that extra scrutiny that is there and welcome it and we've got the
+broadest compliance portfolio out there for hyper-scale clouds, it helps.
+{BIO 1542979 <GO>}
+My follow-up on security, and I don't mean to be unfair to Amazon, they're an
+amazing organization and they're larger than Azure is, so by nature they're going to
+have more breaches in the newspaper, but when we do a search of all the breaches,
+it feels like there's a lot of AWS sort of open S3 bucket problems, like there might
+have been with Cap One.
+When we search for high proﬁle Azure breaches, there aren't that many. And again
+maybe it's just workload mix, I'm not sure, market share, but it feels like there's a
+disproportionately low number of at least high-proﬁle hacks on Azure. So, I just
+wanted to ask you why that might be and if Azure in your judgement is doing
+anything diﬀerent than AWS is to secure data and customer applications.
+{BIO 20468487 <GO>}
+Yeah, and again here what I would say is from a shared security perspective I actually
+think as cloud vendors, we're all vested in making sure everyone is safe and secure
+on the cloud. And to be honest, if you get to the point where people worry that the
+cloud in general is not a good place to go, then whether it's one vendor or another,
+that could be problematic for the overall business, and I think we're all dedicated to
+that. Even when we've had major attacks that have occurred, that impacts all of us.
+And we actually have a hotline to Google, we have a hotline to Amazon. Our security
+folks will talk to each other and ﬁgure it out. So, we think that's kind of the greater
+good. That should really trump some of the competition around things like that.
+Now, when it comes to the speciﬁcs around Azure, though, I will tell you just what
+we're doing, not to try and compare and contrast per se but to basically say, as I
+mentioned, all the security work that we've done to run Oﬃce 365 for 15 years is
+built into Azure. And we get to leverage the same tech and we've built even more on
+top of it. We have put in the best practice analyzers and the sort of things that frankly
+we've had for Windows Server and SQL Server for 20 years.
+And just to be objective, I mean, Microsoft, we have faced our own security crises in
+the past, a long time ago. That was kind of a trial by ﬁre and we had to change a lotFINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 17 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason Zanderof the practices in the work that we did in order to be able to protect our ecosystem.
+And I think we've learned a lot from that and we have accrued all of it forward into
+our cloud and our cloud properties and our technology. That's more the approach
+that we're taking on this side.
+And then from that point, then this also has to be a partnership with the customer
+who's running the workload, because I can secure the environments and I can help
+them with tools and make it much, much easier, but at the end of the day, they also
+have to apply those security best practices to their workload to make sure that they
+remain secure.
+And also, what we're trying to do is we call it the pit of success, like I'm trying to
+design the products, you fall into the pit of success, you don't make the inadvertent
+non-malicious but accidental sort of problems. That's kind of part of the product
+design ethos that's there as well, but it's got to be a good partnership.
+{BIO 1542979 <GO>}
+Got it. We might have time for me to sneak in two more, so we'll go quick. On
+gaming, how excited are you about gaming being a new Azure workload and is
+there anything about the Azure infrastructure that looks, feels diﬀerent than Google
+or Amazon that might make Microsoft have a slightly better chance on the game
+streaming cloud front?
+{BIO 20468487 <GO>}
+Yeah. Well, and the cool thing is gaming is actually an old/new cloud workload,
+because we've actually been running Xbox Live on top of Azure for a long time.
+{BIO 1542979 <GO>}
+Fair point.
+{BIO 20468487 <GO>}
+We're one of the ﬁrst gaming services that are out there. It's a massive gaming
+service. But if you look at the going forward part, which I think is really the crux of
+what you're asking. Game streaming is an awesome opportunity for us. I think
+especially when you start to immerse this in with 5G and edge compute starting to
+become more prevalent. I mean, there's an awesome opportunity. Because we've
+already been doing multiplayer games that run online, that run in our Azure
+datacenters. They go out through our pops in our network to get out to the homes.
+Imagine what happens when we get more and more edge compute and protocols
+and devices that can go handle that.
+You've seen the line-up that we announced at E3, all the cool streaming that's
+coming even on your phone but mounted on controllers. That one's pretty freaking
+awesome. If I look at things we're doing with all of the online streaming, the gamingFINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 18 of 19Karl Keirstead
+Jason Zander
+Karl Keirstead
+Jason Zandercommunity, I think you're seeing more of that as well. So, there's a lot of content, a
+lot of video, a lot of sharing and social. So, it's all starting to evolve. But it's actually
+built on top of this awesome base, it's actually a decade's worth of awesome
+innovation.
+That's the cool thing about Microsoft, because remember, not only do we have the
+cloud and the streaming, but we've been doing the consoles for a long time, we've
+been doing PC gaming back to I think the ﬁrst one that I played was Flight Sim.
+Anybody used Flight Sim? Remember Microsoft Golf, anybody play that? These are
+back in the DOS era. Like, I'm too damn old. But that goes all the way back and then
+up into the modern stuﬀ. And so, it's actually really cool.
+{BIO 1542979 <GO>}
+Okay. Last one. You've got to put your forecasting hat on. IR's cringing right now, I
+know, but Jason, if today hypothetically the on-prem public cloud mix looks
+something like 95/5 or 90/10, I don't know what numbers you guys use internally, if
+you were to look out 10 years, what's that on-prem cloud mix going to look like?
+{BIO 20468487 <GO>}
+I think we're going to continue to see the growth in the hyper-scale, we see people
+doing that move as well, and it's actually a lot of net accretive new workloads. I will
+tell you one really cool thing, though. We have been doing hybrid since day one.
+And so, even in this mode where there's a mixture between the two, we were doing -
+- we made hybrid a standard solution when our competitors were just paying it lip
+service.
+It's been something we've been doing since day one. Azure Stack, our Data Box
+Edge work that we've done, even again these new announcements we've made,
+partnership with VMware and other work that we're doing, we think that's a ﬁrst-class
+state for companies to land in. You're going to see more and more of some of these
+workloads running cloud native and running in the cloud where I'm going to be able
+to leverage my existing systems. And honestly, the fact that we've invested in that
+since the day one of Azure is amazing, because it lines us up incredibly well. And
+we've been doing on-prem for two decades, which basically means that as your
+usage and stuﬀ kind of moves between the environments, we're actually in a great
+structural shape to be able to handle those and take advantage of it.
+{BIO 1542979 <GO>}
+Thank you, Jason, for coming. We're honored that you were able to ﬂy down and join
+us and meet our clients and help them think through Azure and this cloud business,
+and what a fun ride you've had. Keep it up.
+{BIO 20468487 <GO>}
+Perfect. Thank you so much.FINAL TRANSCRIPT 2019-09-10
+Microsoft Corp (MSFT US Equity)
+Page 19 of 19Karl Keirstead{BIO 1542979 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

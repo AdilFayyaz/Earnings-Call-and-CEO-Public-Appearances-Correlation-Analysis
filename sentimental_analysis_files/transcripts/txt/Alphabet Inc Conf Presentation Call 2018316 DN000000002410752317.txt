@@ -1,0 +1,535 @@
+FINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 13, Senior Analyst Software and IT Services
+, Vice President, Technology Strategy
+Anurag Rana
+Crystal ValentineFuture of Enterprise Computing
+Company Participants
+Anurag Rana
+Crystal Valentine
+Presentation
+{BIO 7440273 <GO>}
+Good morning, everyone. My name is Anurag Rana, and I'm the Senior Analyst for
+Software and IT Services at Bloomberg Intelligence. Today, we have an exciting
+session to talk about the Future of Enterprise Computing.
+Before we get into that, let me do some housekeeping items. Today's presentation
+will be recorded and available for playback. You can access the replay via the link
+sent to you in the email from Bloomberg Webinars. And the bottom of the slide
+window, you can adjust the volume and maximize your screen. Ask a question by
+submitting one to the right of the slide, we will address questions at the conclusion
+of the presentation. A copy of the slides will be distributed in a post-event email.
+With that pleasure, I want to introduce our guest speaker today, Crystal Valentine,
+PhD. She is the Vice President of Technology Strategy at MapR. And before that, I just
+wanted to give one quick word on Bloomberg Intelligence. We are part of the
+Bloomberg family and provide in-depth research and data on industries, companies,
+government, ESG, credit economics. We have about -- we cover about 135 plus
+industries, about 1,800 plus companies and we have about 300 plus third-party data
+providers. We had close to 300 people in the team right now, and our content can
+be accessed on the terminal through the BI GO.
+With that, I will pass it on to Crystal, that can guide us through the rest of the
+presentation.
+{BIO 20867216 <GO>}
+Great. Thank you very much, Anurag. (Technical Diﬃculty) we're going to advance
+through the ﬁrst couple of slides here. Okay. Good morning, everyone. Thanks for
+joining. So I'm Crystal Valentine, and I'm going to start today by just giving a brief
+framework through which I think it's helpful to analyze a lot of the market trends that
+we're seeing, especially the emergence of new technologies and new paradigm in
+enterprise computing and what that means for the legacy technology vendors. And
+as you're thinking about companies and whether they are our secular tailwinds or
+headwinds, I hope that this framework will be useful.FINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 13So from a large picture, what we're seeing is a really remarkable fundamental shift in
+the way the enterprises are thinking about spending money on technology, and we
+go through this type of shift or transformation about once every 30 years or once a
+generation. And if you look at the macro picture, global technology spend is about
+$1.5 trillion excluding telcos and devices, and it grows at relatively the same rate as
+GDP growth, but primarily ﬂat. But if you break down the technology spending into
+its constituent components and you diﬀerentiate between spending on next-gen
+technology versus legacy technology, you see two very diﬀerent stories taking place.
+The next-gen technology, which is inclusive here of cloud computing infrastructure,
+as well as on-premises sort of scale-out art [ph] infrastructure technologies is
+growing year-over-year. And by contrast, legacy technology investments are not just
+slowing their growth but are actually starting to shrink. We actually pass that
+inﬂection point a few years ago in 2015, but you actually see a decline in the growth
+of the core assets for legacy technology company.
+And from a technology perspective, we think about what can explain this shift, it's
+more than just the opportunity to save money using cheaper infrastructure or
+cheaper devices, instead there are something much more fundamental taking place.
+Still a couple of trends that are pretty well studied and well understood at this point
+are converging to create this shift. The ﬁrst one being the rapid growth in
+commercially available computing power. If you're familiar with the trend known as
+Moore's law that's especially what this is referring to that, essentially the power of
+the commercially available transistors, the number of calculation per second on a
+per dollar basis that is commercially available in the market. It doubles
+approximately once every 18 months, and so that equates to about a 40%
+compounded annual growth rate. And if you -- this chart, which shows that growth,
+which has a (inaudible) scale on the Y-axis, actually includes in the upper right some
+NVIDIA GPU chip. Those are precipitating and continuing on this trajectory that we
+know as Moore's law.
+At the same time, we have a massive acceleration in the volume of data that's being
+collected to be analyzed by enterprises. A study by McKinsey estimated that in 1987
+there were about three exabytes of data, whereas in projecting forward to 2020, we
+are looking at about 44 zettabytes of data, which is 44,000 exabytes of data. And, of
+course, as data volumes are growing in this phenomenon has also been well studied,
+we also see an increasing diversity of data types that we're collecting. So it's no
+longer just the structured CRM or ERP data set that at large enterprises are collecting
+that are growing, but instead it's largely coming from unstructured sources such as
+weblogs or sensor data of a high deﬁnition video, beep audio ﬁles, et cetera. So,
+data volumes are growing at an enormous rate and it's even more complicated
+because they're diverse data types.
+And the third trend that has been somewhat problematic relative to the ﬁrst two
+trends, the growth of computing power and the growth of data, that's being
+collected is that, fundamentally storage access speeds or I/O speeds have lagged,
+growing at a modest -- a much more modest rate about 20% compounded annual
+growth rate compared to the 40% compounded annual growth rate that competitionFINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 13speeds are growing. So today a commercially available hard disk drive or even SSD
+drive can achieve no more than about 550 megabytes per second I/O speed, that
+means the time it takes to read or write data from persistence storage into memory
+of the processor. And, in fact, the fastest data speed that you can get using, for
+example, AWS is about 500 megabyte per second. That's the fastest I/O speed that
+you can achieve commercially.
+So, as compute has gone faster, as data volumes have increased, our storage density
+has gotten greater and cheaper, but these storage access data, right, that has meant
+that, in fact, data storage or data access has been the bottleneck. And that has
+motivated a shift in architecture. So, in the legacy world, we saw predominantly what
+are known as scale-up architectures, where you would have multiple applications
+potentially running on things like relational databases that would be accessing data
+stored in a SAN or traditional NAS storage device or array. And here the bottleneck
+would be the controller to that -- or the controllers to that device. You have multiple
+applications, all trying to access a shared data storage device. And essentially, it was
+that -- that data I/O speed that that became the fundamental bottleneck.
+In order to transcend that bottleneck then, we've seen a shift to scale-out
+architectures and here scale-out is synonymous with a large -- with the idea of
+running your applications instead on large cluster, sometimes thousands of
+commodity Linux servers, and this is inclusive of both on-premises, scale-out
+infrastructure technology things like hadoop-based platforms, as well as public cloud
+infrastructure as a service, that is also a scale-out architecture. And the beneﬁt of
+leveraging a scale-out architecture is not only that commodity Linux servers are
+relatively inexpensive, but you're now able to parallelize that fundamental
+bottleneck, that data access, because you have computations and data storage
+distributed across a large cluster of nodes, meaning that each processor can in
+parallel read from its local storage device, such that the I/O can be parallelize across
+the size of the cluster.
+So, next-gen architectures have helped to overcome the I/O bottleneck. And as I
+mentioned before, they also have the beneﬁt of running on relatively inexpensive
+commodity hardware. And what this has fundamentally done is, change the value of
+data, and what I mean by that is that, it has been known for some time that there is
+value in data, there is value in being able to analyze data in order to optimize your
+business. And what I'm showing here on the left is the legacy value model of data.
+So if you look at the orange curve at the top, that's simply demonstrating the notion
+that if you go from having no data to some data, it's quite valuable. And going from
+some data to incrementally more data, adds more and more value. At some point
+though, you reach the law of large numbers and you get diminishing returns in
+adding incremental values, so that curve ﬂattens out going towards the right.
+However, using legacy scale-up architectures, you had a fundamentally exponentially
+growing soft curves, the cost of storage during managing data grew exponentially
+with the amount of data you had under management, that's the green curve. So then
+the net value, which is the value minus the cost is an upside down curve and you can
+do simple calculation to ﬁnd out where that curve is maximum, and that's theFINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 13A - Anurag Ranaoptimum value -- that's the optimum volume of data that you should manage in
+order to extract value from that data without incurring too higher cost.
+Today, leveraging next-gen infrastructure, the scale-out infrastructures, the orange
+curve, the value of data hasn't changed, but what we have changed is the cost curve
+of managing and storing data. The cost is now a slowly growing linear function in the
+size of data under management. And it's indeed the case that's going from an
+exabyte of data under management to two exabytes of data under management,
+roughly doubles the cost of the infrastructure required to manage that data. So, now,
+we have a diﬀerent net curve, that's the value minus the cost, and the optimal value --
+the optimal volume of data that we should store and manage in order to extract
+value is now much further out to the right, it's a much larger volume of data that we
+can now really leverage to the beneﬁt of the company.
+So, as a ﬁnal thought, I think of the world in terms of what I believe to be
+axiomatically true and axioms that, I think are true, at least, today are that data
+essential to disruptive applications, so we know that data is the leverage point for
+gaining competitive advantage, the most disruptive companies and business models
+are built on data-intensive applications.
+Second, the data volumes are continuing to grow in part because data -- because of
+this shifting value model, the shifting value curve of data and these scale-out
+architectures are fundamental to that.
+And then ﬁnally, that -- with existing technologies today, we see that data movement
+or data access is the performance bottleneck, which has certain implications,
+meaning that solutions or architectures that minimize the amount of data that need
+to be moved in order for the application to perform are going to out -- are going to
+be better than ones that require large data movements, whether it's over network or
+whether it's that I/O data access movement from persistent storage to the main
+memory of the computer.
+And I'll pause there and that concludes my overview and we can transition to the
+question-and-answer portion.
+Questions And Answers
+{BIO 7440273 <GO>}
+Thanks, Crystal. One of the things you have mentioned in your area is about the next
+areas of development, which could be the forms of AI and machine learning. So,
+when we look at an IT infrastructure of a company today, we can talk about it,
+whether it's a start-up or a new workloads versus a legacy company with an older
+business model. Which way do you think the world will eventually evolve, whether
+it's going to be a public cloud model, or a private cloud model or a hybrid cloud
+model? And how do we envision all the legacy technology spending, which you've
+mentioned is about $1.5 trillion? How do you envision that shaping up, let's say, over
+the next 3, 5, 10 years?FINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 13A - Crystal Valentine
+A - Anurag Rana{BIO 20867216 <GO>}
+Sure. I think that legacy technology, which is primarily characterized by on-premises
+deployment is indeed in secular decline. I think that the public cloud infrastructure
+oﬀerings oﬀer both performance, as well as economic beneﬁt, at least in the short-
+term for most companies. What we're seeing though is diﬀerent rates of adoption
+depending on what size companies were analyzing. So small companies and to
+some extent, medium-sized companies as well have less technological baggage,
+potentially they have less -- have made fewer investments in large legacy
+deployments and therefore it's easier for them to rapidly adopt cloud needed
+technologies, and embrace a cloud-ﬁrst strategy.
+Larger enterprises, Fortune 500 companies, large banks and telecoms, et cetera,
+have a diﬀerent calculus, they have typically made decade worth of investments in
+legacy technologies, whether it's on-premises data warehousing projects, or if it's on
+legacy ETL software investment, that are both very expensive by embedding them
+decades of business logic. And it is not straightforward to refactor that existing
+software technology, and shift it into a public cloud oﬀering. The most
+straightforward path for doing that is, for example, through a Teradata customer to
+leverage the Teradata cloud, but that is not something that I personally would
+categorize as a true cloud-needed technology, in fact, it's a legacy technology, but
+it's simply a managed services oﬀering.
+So, I think that, so the larger enterprises have a longer journey to the public cloud,
+but they are also becoming savvy about the idea of cloud vendor lock-in, and that's a
+consideration that's coming into the minds of some of the larger companies,
+because they're thinking ten [ph] and sometimes longer time horizon out into the
+future, and they want to understand what their relationship with Azure, AWS, or
+Google is going to look like, and how that's going to impact their business going
+forward.
+I will also just make another note that I believe that a lot of the conversation about
+the growth in public cloud infrastructure is missing one critical aspect, which is that,
+while it's true that growth in public cloud computing is fast and it's accelerating, it's
+actually estimated to be only around 16% to 19% compounded annual growth rate,
+which is lower than the 35% compounded annual growth rate of the growth in data
+volume. And a large part of the reason why public cloud is growing slower than data
+volume, you'd think that it would be a little bit closer, it's simply because a lot of the
+data and processing is actually occurring on the edge, in edge devices, things like
+connected cars and then even lesser known technologies like smart jet engines
+where some of the new jet engines, for example, generate about 36 terabytes of
+data per engine hour. So that's an enormous volume of data that's being generated
+and processed on the edge and that will never make its way into the public cloud
+infrastructure, so it's important to keep that in mind.
+{BIO 7440273 <GO>}
+So that's fairly amazing and perhaps we can start peeling up the public and the
+hybrid area and then maybe we can move to the edge computing. So, when we lookFINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 13A - Crystal Valentine
+A - Anurag Rana
+A - Crystal Valentineat -- we can take a look at a legacy bank that has, as you said, a lot of IT baggage that
+they have to deal with. Strategically, what is the best option for them? I mean, should
+they move portions of their workload to their public cloud? Should they move non-
+critical applications as is or refactor them? Or they go with the hybrid cloud strategy,
+the one that, for example, AWS and VMware together are pitching or what Microsoft
+is pitching or what Oracle is pitching? If you were sitting in some of these banks,
+what would be your mindset, or what would be the strategic direction that you would
+take?
+{BIO 20867216 <GO>}
+Yeah, that's a great question. And, in fact, I was asked that question not very long
+ago by the CIO, Chief Information Oﬃcer of a large US bank based in New York. And
+the question to me was exactly that, what is the future of data? How should I think
+about cloud as a viable location where I can place my data? And the motivation
+behind that question was that he was very cognizant of the fact that the cloud -- data
+has gravity and once your data is in the cloud, it's where it becomes -- there is a
+(inaudible), and there is a plenty of reasons why you don't want to go through the
+hassle of moving that data. And our belief that which is that most of the cloud
+vendors actually charge you to move your data out of the cloud.
+But his question was, how do I think about the cloud 10 years from now? What is my
+relationship with Azure or AWS going to look like? And every once in a while you
+hear stories about large customers that actually hit an inﬂection point and they
+decide to leave the cloud altogether and re-purpose their on-premises data centers
+to take over again, because the volume of data that they had under management
+was so great. The cloud was no longer an economically viable option for them.
+So, my response to his question was that, the only strategy that makes sense is to be
+try to develop cloud-neutral application. That's the only way that you can actually be
+resilient to changes in cost or other unexpected interruptions in your relationship
+with a particular cloud vendor. So if you develop what are known as cloud-neutral
+applications that can run the same on-premises as they do on AWS, Azure, or
+Google, or could even leverage a combination of both public cloud infrastructures,
+that sets you up in a position where you have optionality going forward where you
+can shoot to shift your compute or data consumption between public cloud vendors
+or in your on-premises data center as prices or other considerations dictate.
+{BIO 7440273 <GO>}
+Crystal, one other things that you mentioned about the data charge, it has been
+coming up lately a lot in our discussions with the industry contacts. Perhaps, give us
+a little more detail or enlighten us more because I've also heard some ISV is trying to
+ﬁgure out which vendor to go for, depending on how the data is charged? Perhaps,
+even give us a little bit of a basic as to how cloud vendors are charging when data
+leaves or comes in their data center, anything around that would be interesting?
+{BIO 20867216 <GO>}
+Sure. Yeah. So it's complicated to actually make an estimate of how much you're
+going to be spending once you decide to deploy your application, for example, onFINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 13AWS or Azure. It's a complex analysis, because it's a function of many diﬀerent
+factors and the only real way to know how -- or project how much you're going to be
+spending is to actually run a benchmark, to actually deploy the applications to the
+cloud and then check to see what your monthly bill looks like and then extrapolate
+from there.
+So the factors I go in to determining them, you are paying for cloud, of course, are
+combination of the amount, the volume of data under storage, there are diﬀerent
+tiers of storage capabilities that they oﬀer with diﬀerent I/O speeds and diﬀerent
+SLAs that they guarantee with diﬀerent prices attached to each of them.
+There is also a charge per virtual machine per instance. That is essentially a unit of
+computation, a unit of computing power that you're leveraging. And there are
+diﬀerent pricing models as well, you can either use a pay-as-you-go or you can sort
+of reserve certain instances for your exclusive use on a yearly basis. But the data
+movement is actually one of the hardest task to understand. So, for example, within
+AWS, there are many diﬀerent geographical -- what they call geographical regions
+throughout the world and the reason that you would -- you have optionality to
+choose which geographical region you would like to leverage when you're building
+a cloud application and there are actually diﬀerent prices between diﬀerent
+geographical regions depending on supply and demand.
+The challenges that one of the main drives [ph] of leveraging public cloud
+infrastructure is that, if you have a truly global application, right, if you're a large
+multi-global banks, for example, and you have customers in Europe, as well as North
+America, you would love to be able to minimize the latency or the time it takes for a
+customer interacting with your website or your ATM between the time it takes for the
+data to leave that that web-based application or the ATM to make it to the public
+cloud to be minimum. So you actually want to leverage the combination of
+geographical regions, combination, for example, of North America and European
+regions.
+The challenge is that, moving data between those regions, which inevitably have to
+happen when you're trying to aggregate across all of your customers, for example,
+Talking Money [ph]. So there is a fee, essentially a tool for moving data between
+geographical regions and sometimes there is even a tool for essentially moving your
+data from the public cloud back to your on-premises data center. So there are many
+sort of hidden fees and for a suﬃciently complex application, it can be really diﬃcult
+to get your head around what the total cost is going to be.
+Amazon also has, for example, a number of sort of homegrown tools that they oﬀer
+to their customers. Each one of which has diﬀerent fee associated with it. And some
+of them are not particularly cost-eﬀective, which I think surprises a lot of people, for
+example, the Amazon data warehousing product, which is known as Redshift. It's by
+no means inexpensive and tends to be a large expense for customers who choose to
+leverage it. And, of course, it has its own lock-in problems, which is very reminiscent
+of the -- some of the problems with the legacy data warehouses.FINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 13A - Anurag Rana
+A - Crystal Valentine
+A - Anurag Rana{BIO 7440273 <GO>}
+Yeah. This is -- I mean, this one of the most interesting things that we're seeing as
+public cloud growth has gone up as people are trying to realizing that it's not as
+cheap as it's written, or, I guess, it's marketed. And it begs to think about it that, the
+way I look at it is, the public cloud infrastructure was built in a way that provides high
+amount of scalability, back-up your agility, all those things that a legacy IT
+infrastructure lagged. So if sometimes, I think if I am a large bank thinking about the
+future of IT for me, why won't I want to create a private cloud with exact similar
+speciﬁcations that how an AWS looks like and try to meter it internally to diﬀerent
+departments or diﬀerent areas in the same way, just like what I would do on a public
+cloud and never be worried about lock-in or any of those issues? How hard is to
+create such a network, or is there a cut-oﬀ that below this much revenue or these
+many employees, it does not make sense to try to do it yourself?
+{BIO 20867216 <GO>}
+Yeah. I don't know exactly what that cut-oﬀ is precisely. But I would hazard to guess
+that we will see at least for the foreseeable future the Fortune 500 companies
+maintain their own IT organizations with their own on-premises infrastructure and
+with their own system that essentially annihilate the agility and usability of the public
+cloud infrastructure options. And they will do that for a number of reasons, partially
+because of cost, because at some point, you're right, the economics of deploying
+really huge volumes of data in the public cloud start to fall apart, partially also
+because of security, especially within ﬁnancial services we see a lot of more
+conservatism around embracing the public cloud for mission-critical applications
+and for sensitive customer data.
+And -- but for -- I'm not sure that the cut-oﬀ is going to have to do so much with the
+size of the company as that will be the age of the company. And so, we're going to
+see companies that are relatively new, that are relatively young, that are still what you
+would consider large consumers of data to embrace public cloud in a way that sort
+of the larger banks and Fortune 500 type companies wouldn't and here, I'm talking
+about companies like Netﬂix or Uber, they embrace cloud-native architectures and
+paradigms from the beginning. And to a large extent that's what said, their ability to
+innovate so rapidly and has more to do with just the infrastructure oﬀered by the
+public cloud, had to do with fundamentally diﬀerent paradigm for developing
+applications that enables agility.
+So it wasn't just that the public cloud infrastructure was agile, but it was a
+fundamentally diﬀerent way of writing applications. But those types of companies
+even though they have huge data deployment has embraced cloud-native and that
+has been largely to their beneﬁt, it becomes much easier for them to add new
+features and functionality to integrate modern technologies like machine learning
+and artiﬁcial intelligence, because they've embraced this modern next-gen
+application architecture that includes leveraging public cloud.
+{BIO 7440273 <GO>}FINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 13A - Crystal Valentine
+A - Anurag Rana
+A - Crystal ValentineSo in that same case, one of the more interesting, I would say, examples that came
+across to us recently was Dropbox, I mean, they started their life under with AWS and
+now they have their own private cloud. And from what I saw that their proﬁtability
+has improved, I mean, in part due to the shift in doing it themselves, could that be a
+model that others follow and say, hey, pharma company that does a lot of data
+transfer between regions or in between on-premise or other areas, I might create my
+own network rather than using a public cloud source?
+{BIO 20867216 <GO>}
+No, I think, it depends on what the core competency of the company is that's under
+investigation. Dropbox is somewhat unique because fundamentally what they're
+oﬀering is the storage service. If the fundamental of what you're oﬀering is a storage
+service and your job as an operator is to optimize the cost of storing on behalf of
+your customers. Companies now that have much more interactive and sophisticated
+applications, companies like Uber and Netﬂix and many others are really beneﬁting
+from much more sophisticated features and functionality that has to do with the fact
+that the applications that they're writing are still much more sophisticated than what
+Dropbox is running. So, for them, it's really a competitive advantage to be able to
+leverage a machine learning to train models quickly to deploy, model to production
+quickly and whereas Dropbox leverages certain modern paradigms like machine
+learning to a much, much lesser extent. So, I think, Dropbox is somewhat of a special
+case there.
+{BIO 7440273 <GO>}
+Yeah. Fair enough. Another thing you touched upon in your presentation was edge
+computing. And this is another, I would say, driver that could lead to more IT
+modernization of legacy infrastructures in our view, because today if I was to think
+about it, if we are going to have a lot of data that gets generated on the edge and
+doesn't make it back to the public cloud, it reminds me kind of my old on-premise
+client server world. And if I really, a company that is going to use a lot of sensors, or
+a lot of computing at the endpoints, I might as well have a private cloud network that
+has a lot of processing power in those endpoints. What's your kind of take as to the
+marriage between a private and a public cloud in this particular case?
+{BIO 20867216 <GO>}
+So, there is no one size, but it's all decision for IoT application. But I think, if I can just
+give you another visual here on the relative growth of data being generated and
+process on the edge. First is, within the data center, this is just an abstract, sort of
+contextual drawing, but we talked about the growth of data being approximately a
+35% compounded annual growth rate, but if you break that down between data
+that's growing within the data center and the public cloud, and data that is being
+generated and process on the edge, again you see two diﬀerent stories and the
+edge is growing at this point much, much faster than even the size of the consumer
+Internet.
+So, data being generated on-board cars, autonomous driving vehicles generated
+about three or four terabytes of data per vehicle hour, as I said, that doesn't even
+compared to -- for examples, Pratt & Whitney's Geared Turbofan engines, whichFINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 13A - Anurag Rana
+A - Crystal Valentinegenerate about 36 terabytes of data per engine hour. That data is actually largely
+never making into any public or private data center. That data is largely being
+generated on-board the vehicle or on-board the planes looking for anomalies,
+looking for a problem and helping them make real-time decision. And then only a
+very, very small percentage of that data is being aggregated and sent back to a data
+center for subsequent retrospective analysis
+So, the decision of letter to leverage public or private cloud infrastructure when
+you're developing an IOT application, really depends on what the nature of the
+application is and how sensitive you are to, for example, security concerns and
+latency issues, which is the other primary concern. If latency is particularly important
+to your application, you might either have to set-up multiple private data centers
+around the world, or you might have to leverage multiple diﬀerent geographical
+regions, within the public cloud infrastructure as one example.
+{BIO 7440273 <GO>}
+Cool, thanks. Just a quick reminder, if you have any questions, please type it out and
+we will address them.
+Crystal, one of the things that we talk about a lot, there is a lot of marketing hype
+around it, around AI. How should we think of AI? I mean, do you think of the
+evolution of this as a -- has to tied to a public cloud platform, I mean if you really
+want to be good at it, do you really need to have a AWS and/or a Google kind of a
+structure? Or you could do that on an premise world? What are your thoughts on
+who's kind of leading the race at this point? And, I mean, I don't envision a
+standalone operation or a standalone application, it's -- it occurs to what's it's going
+to be more embedded into the applications people are building. But as you
+compare diﬀerent platforms, what's your ﬁrst take or initial take on it?
+{BIO 20867216 <GO>}
+Yeah. So, obviously, artiﬁcial intelligence, machine learning are massive secular
+trend. Today, the -- all of the cloud vendors are trying to develop tools and platforms
+to leverage their cloud infrastructure for machine learning applications, for example,
+but most of those tools that are available in the public cloud are either open source,
+meaning they can be deployed on-premises, as well as they can be deployed in the
+cloud or are really not that interesting. So, so far, we have some pretty rudimentary
+tools being oﬀered, for example, from AWS and Acer and Google actually probably
+has the most sophisticated one at this time, but they're largely open source.
+We have some rudimentary tools that the public cloud vendors are making available
+to incentivize net new application being implemented on leveraging their
+infrastructure. And, of course, if you use their tools you are going to likely rely on
+their APIs and therefore, lock yourself into that particular public ﬁle vendor for the
+foreseeable future.
+In practice, the most sophisticated machine learning applications that are being
+leveraged in the enterprise and here I'm talking about things like the deep learning
+models that go into autonomous driving or even the machine learning models thatFINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 13A - Anurag Rana
+A - Crystal Valentine
+A - Anurag Ranago into making recommendations on Netﬂix. Those are not leveraging any of those
+cloud branded tools. They are typically very much homegrown. They're leveraging
+open source software but they're highly customized in order to do anything that's
+particularly interesting or disruptive, you end up having to hire a team of experts, a
+team of PhD to write highly customized code and that is the no way sort of cookie
+cutter, which is what the public ﬁle vendors are oﬀering to date. They are oﬀering
+relatively low featured cookie cutter tools to help really basic machine learning
+applications.
+So, I think that will -- what we'll probably see is the continuation of mergers and
+acquisitions by Amazon, and Azure and Google, in particular to acquire more and
+more companies that are start-ups, that are building tools and frameworks to enable
+more sophisticated machine learning application development. But we -- today there
+is not a clear compelling reason to leverage one side over another, I think within
+academia, Google cloud tends to be a little bit preferred within start-ups that are
+trying to build a cloud native applications that use machine learning AWS. It tends to
+be a little bit preferred, of course, Azure is preferred by existing Microsoft customers.
+{BIO 7440273 <GO>}
+And have you had any experience with IBM's Watson, because they have been
+working on this thing much longer with their industry expertise and the client base.
+Have you had any experience with that? Any thoughts on that?
+{BIO 20867216 <GO>}
+Yes. So, Watson is not what they would they tell a -- they call it cognitive computing.
+It's not true artiﬁcial intelligence and it's a rather old technology, in fact. Watson is
+fundamentally what's known as a question answering machine that requires an
+enormous amount of annual -- annotation of input data typically text corpuses, that --
+and then Watson creates a semantic math or semantic model of the entities and
+relationships that it has observed within the text that it has trained on. And with that
+semantic model that representation it is able to answer a question. Though it's a
+relative -- it's fundamentally somewhat rudimentary or at least legacy use of what
+could loosely be called machine learning, it doesn't excite me particularly from a
+technological standpoint and it has been particularly challenging to implement and
+process, there is some very public instances where Watson's fail to produce valuable
+insight, even after signiﬁcant investment, including MD Anderson, where it had been
+implemented to assist in cancer patient treatment. So, to me, Watson is not a
+particularly interesting or promising technology.
+{BIO 7440273 <GO>}
+That's a very interesting assessment. Thank you. One other things you just
+mentioned about Microsoft and this is a discussion we have a lot. So, if you look at
+the legacy world, it's hard to deﬁne some of them call themselves more of a VMware
+shop, or a Microsoft shop or more closer Oracle or SAP. As you see the new world
+evolving, are they more prone to go to one cloud provider over the other, given their
+legacy baggage or frankly, doesn't matter, it just a matter of how much money you're
+willing to spend and what your relationship is with those companies?FINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 13A - Crystal Valentine
+A - Anurag Rana
+A - Crystal Valentine{BIO 20867216 <GO>}
+Yeah. So we are seeing very diﬀerent sales strategies from each of the cloud
+vendors. The advantage that Microsoft has and I think one of the reasons that we've
+seen strong growth for Azure is it, the only company that truly has a hybrid solution.
+And so, obviously, for existing Microsoft customers, the idea of working with a known
+vendor is appealing, but in addition they can actually oﬀer a hybrid cloud
+environment for their customers, that means a combination of competition within a
+private -- the customers private data center, as well as, Azure public cloud
+infrastructure, leveraging really similar technologies on-premises and in the cloud.
+So customers can have a similar experience of developing and running applications
+on-premises and in the cloud, but they can leverage those varying infrastructures for
+diﬀerent motivations, including cost or security consideration.
+Amazon doesn't have any kind of on-premises presence so to speak and therefore,
+they have particularly challenging times approaching larger enterprises that have
+real requirements around maintaining mission critical legacy applications that are --
+have been deployed on-premises for years and years. There also been historically
+diﬀerent go-to-market strategies for Microsoft and Azure. Microsoft sales rep had
+been motivated and in fact, compensated based on the consumption of cloud
+resource -- of cloud compute resources. So not just selling compute capacity but
+actually motivating their customers to consume those cloud compute and storage
+resources that were sold. So that's how the reps have been compensated, which
+motivated them to work much more closely with partners, ISV partners whose
+software would consume large amounts of resources of the Azure cloud. AWS had
+not taken that strategy. I think that might be changing within AWS, but I'm not 100%
+sure, but certainly, Azure has been a much stronger proponent of ISV partners than
+AWS has, most AWS partner companies have a somewhat tenuous relationship with
+AWS.
+{BIO 7440273 <GO>}
+That's fair. Well, Crystal, I don't have any other questions at this point, it has been a
+delight listening to your insights. I hope we do this again sometime and a big thanks
+to all of our listeners. And thanks again.
+{BIO 20867216 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of FINAL TRANSCRIPT 2018-03-14
+Alphabet Inc (GOOGL US Equity)
+Page 13 of 13the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

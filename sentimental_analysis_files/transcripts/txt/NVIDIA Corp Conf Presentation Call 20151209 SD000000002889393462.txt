@@ -1,0 +1,439 @@
+FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 12, EVP
+, Analyst, Barclays
+Unidentiﬁed Participant, Analyst, Unknown
+Blayne Curtis
+Colette Kress
+Blayne Curtis
+Colette KressBarclays Global Technology Conference
+Company Participants
+Colette Kress
+Other Participants
+Blayne Curtis
+Presentation
+{BIO 15302785 <GO>}
+Very happy to have from NVIDIA Colette Kress, the CFO. Welcome, Colette.
+{BIO 18297352 <GO>}
+Thank you. Thank you very much.
+{BIO 15302785 <GO>}
+So I thought maybe a good place to start oﬀ, there's lots of moving pieces to the
+NVIDIA story, all in a good direction. So I thought maybe as you look out to next year
+maybe you can from a very high level talk about the diﬀerent moving pieces.
+Gaming has been a big driver for you but you also have some other areas. We did a
+bus tour to talk about the assisted driving, autonomous driving obviously a hot area
+as well. So maybe you could just touch on them and then we'll drill down.
+{BIO 18297352 <GO>}
+That sounds great. To brief everybody in terms of where we are in our overall
+strategy and how we approach the market, we essentially take the best-of-breed
+technology that we build for visual computing and segment that to four diﬀerent key
+markets.
+The ﬁrst market to talk about would be gaming. Gaming is our largest part of our
+business. It represents more than 50% of our overall revenue and it's grown quite
+nicely in the ﬁrst part of this year.
+So after three quarters our gaming business is actually growing about 42% year on
+year, largely inﬂuenced by the excitement about PC gaming, the production value ofFINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 12the new games that are coming out, the underlying technology and just the entire
+social platform surrounding about PC gaming. We've been really, really pleased with
+the adoption of our platform, the full ecosystem surrounding gaming that we have
+spent a lot of time working to produce a better and better gaming experience for
+them. That's one of our key markets.
+Our second key market is Pro visualization. So potentially taking what we do from
+gaming in terms of graphics and applying it to the key workloads that you have in
+the enterprise, workload such as design, what you have in terms of CAD drawing,
+building or any other type of prototyping that you may want to do. NVIDIA has
+established itself as a leadership position in terms of those enterprise graphics as
+well.
+The business is really focused on the key applications in the market that use design,
+drawing and the rendering needs and we continue to see this as an opportunity for
+us to go forward to transform how prototyping and how building and design will
+occur in the future, connecting the overall libraries of the prototyping of materials
+and that industry such that you can see it just in time in terms of as you are building
+those overall products. That business is usually connected to our overall GDP
+enterprise type of growth that you see worldwide but again it's a very still healthy
+leadership position that we have in that business.
+Our third key market is data center. We've talked about a lot of exciting things in the
+last month and a half regarding data center and you can really break down our data
+center business into three key areas. Both our work in terms of high-performance
+computing, supercomputing 2015 was just last month.
+A lot of interest in terms of the role of acceleration in supercomputers as we go
+forward. A lot of discussion regarding Moore's Law when and should it come to an
+end, how are we going to increase the throughput. So necessary for these very large
+computers going forward.
+Acceleration has become a key component. More than 100 of the top 500
+supercomputers in the world now carry out acceleration and 70% of them and use
+GPUs. So we continue to lead out of the overall industry in terms of acceleration with
+the use of overall GPUs in this space.
+Additionally we have seen an emergence of a new disruptive type of technology
+associated with artiﬁcial intelligence. So you see hyperscale providers, Internet
+service providers trying to produce a key set of applications and use such that they
+have trained the overall application to recognize your needs, your wants and provide
+new things to you. That overall training environment has been so key in the use of a
+GPU to speed up the time, to actually train the overall underlying applications
+through that overall server experience. So we have many web service providers all
+across the world that you would recognize using artiﬁcial intelligence in that training
+environment with GPUs to expand those.FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 12Blayne CurtisWe've also announced a new set of cars that will be able to take that training
+environment, also use it in terms of a production environment in true inference of
+that same type of work processing images, processing video, processing voice
+recognition, voice processing in all types and the use of a GPU in the right form
+factor, the right energy eﬃciency has been our concentration working with these
+providers. So those are two of our key areas.
+The third part of data center is what we do for the cloud. What we've enabled is a
+virtualized GPU in the cloud experience allowing that future cloud computing and
+the applications that reside back in the data center to be streamed down for any
+visual needs and graphic intensive applications to the desktop. So essentially a one
+to many type of experience.
+This is our GRID platform and you can see our GRID platform both in enterprise use
+in terms of expanding the overall collaboration of the global workforce but also what
+you see in terms of streaming gaming as we go forward. If you go up to many of the
+key public service providers right now you can get the use of a GPU both for the
+streaming applications but also you see quite a bit of machine learning also being
+used in that streaming environment.
+Then lastly automotive. We tend to talk about automotive business our fourth market
+right after our data center understanding because it really is the combination of both
+our key graphics understanding and taking our graphics capability for gaming and
+leveraging that within the center console as well as the future digital clusters that you
+see in many of the high-end to midrange cars. We have a unique oﬀering, oﬀering
+the best types of graphics, pretty much removing any dial button or any part in terms
+of the cars as we go forward but also our focus has been on a center compute for
+the overall car as we go forward.
+As we are hearing more and more about autonomous driving as we go forward,
+autonomous driving and self driving cars, that underlying compute is essentially just
+a data center problem very similar to the problems we face already today with many
+of the key industries. Putting together an ability to train the overall computer, to
+recognize all the things outside of the car, process the information coming in from
+what we have from cameras, sensor, lidar, radar into a central computer to serve the
+needs of that self driving car is what our key focus is. So those are our four markets.
+{BIO 15302785 <GO>}
+There's a lot going on. Maybe just starting on the PC market, gaming, you talked
+about the growth rate and you broke the gaming versus OEM out at Analyst Day,
+you've updated it for several quarters since. We have a good picture of what the
+growth rate has been.
+Can you talk about what is really driving this? And if you can talk about what the right
+long-term growth rate is?FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 12Colette Kress
+Blayne Curtis
+Colette KressAnd it's interesting at Computex you go to some of these PTAMs and they are
+struggling, half their business is gaming laptops now as well. So how big is laptops
+as part of the overall gaming pie for you today which I think people would
+traditionally think about as a graphics card and maybe some hard-core gamers, how
+has that developed over the last couple of years?
+{BIO 18297352 <GO>}
+Yes. So let me break down, when we think about our overall gaming results and our
+gaming market it is both an adding card market that you see today where people
+are not necessarily purchasing an end-to-end PC to take part in the overall gaming.
+They have a PC.
+They are updating their experience in gaming by just producing a better GPU for the
+games that they want to play. That's been fueling a good percentage of our overall
+growth.
+You highlighted a key interesting piece which was also notebooks. Gamers they want
+to game everywhere. They want to not only be with their PCs but take that to friends
+to be in a mobile space and they need a solid GPU for those experience.
+So OEM manufacturers working with us have also did models that are truly just for
+gaming and are marketed for that gaming population. It has been growing quite
+well. In several quarters past it was nearly doubling as a size of the business but it's
+still coming from a very small base.
+They see this as a focus because so much of the interest regarding those notebooks.
+But it got a ways to go to keep up with the overall size of the adding card market in
+terms that we have for the data center. Excuse me that we have for all the gamers.
+Other pieces that we have there, any type of device where gaming is going to be
+we're going to make sure that we're focused on that. Whether that be a tablet. And
+we have key devices for that as well, as well as the streaming part of cloud you're
+going to see that in terms of our overall gaming results.
+{BIO 15302785 <GO>}
+When you look at the discrete card market and driving that customer to buy the next
+generation more powerful, can you talk about whether it's moving in terms of the
+DirectX upgrades or physics processors, there's been a lot going on in terms of the
+gaming which now looks like movies almost in terms of their production value.
+What's the right way to think about the cadence of upgrades and has that changed?
+{BIO 18297352 <GO>}
+When you think about why we have surrounded this overall industry we've
+surrounded it because we see a full ecosystem around the gaming platform that hasFINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 12Blayne Curtis
+Colette Kresscontinued to evolve. Those production value of games, our work has been
+continuous with software developers in those games to make them more realistic.
+When a gamer receives or goes out and purchase an add-in card that experience
+comes to life the minute they plug it in, the minute they open up the back of their
+computer and start that overall game. We continue to have a relationship with the
+underlying gamer, providing them new drivers, new upgrades for all the new games
+that are coming out.
+We also have a good understanding of what types of games inﬂuence them. They
+can improve their experience with the exact same game with just a better GPU.
+We have a set of what we call GameWorks which are key designs focused on some
+of the harder parts of graphics whether that be ﬁre, hair, smoke, water, very key
+things that you see in some of these high-end games that really come to life in work
+that we have done exclusively with those game developers to put into place. These
+are the things that inﬂuence our gamers to continue to come back to our platform
+and allow us to continue to have that leadership share in the overall gaming market.
+The rate of upgrades, it's a little hard to determine. I am sure there are absolutely the
+enthusiast types of gamers that are coming back every single time but we have put
+out a new architecture and new platform.
+But it's still a little bit early to see how fast that movement in terms of a refresh cycle
+is doing. But we have had tremendous success with our current architecture.
+{BIO 15302785 <GO>}
+I do want to ask you, it's not necessarily applications are broader than gaming but VR
+is almost an add-on to this gaming experience and I feel you've been going to CES
+for now three or four years with not much to look at, maybe drones but now VR is
+actually going to have something else to focus on. Still early days. I'm just curious
+your thoughts and how does this play into getting your gaming base to upgrade
+their capabilities?
+{BIO 18297352 <GO>}
+Yes. It's a good question. I think the next exciting evolution in PC gaming is
+absolutely virtual reality. We're at the forefront in terms of those new games, the new
+devices that will enable that VR experience.
+Virtual reality is now becoming an experience based on the underlying technology a
+great experience. Really is solving some of the really hard problems of the latency in
+order to put you into an encapsulated position so that you can have a great
+experience has been very key.FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 12Blayne Curtis
+Colette Kress
+Blayne CurtisNow there are many diﬀerent types and forms of VR that you'll probably see coming
+out in 2016. But the key ones that we're concentrated on are those that would be
+needing a set of glasses with a very, very high-end PC. The high-end PC enables the
+keyframe rate that is necessary for a great overall position.
+So our work with Oculus as well as also HTC, their recommendations that they're
+coming out regarding what type of PC would best enable their hardware that is
+coming out is probably one of our top three GPUs that we currently sell from an
+overall retail value price. That is a great opportunity for us.
+We are probably assured that some have already started that movement and getting
+into the excitement of these upcoming releases in 2016. But it is a great opportunity
+for us for the upsell and the refresh.
+{BIO 15302785 <GO>}
+It's obviously hard to forecast how big this market could be or the trajectory and I'm
+not going to put you on the spot with it. But in terms of those requirements for that
+generation obviously they're going to have future generations that probably even up
+the ante. But in terms of your installed base today, if you were going to buy that
+Oculus Rift how much of your installed base could actually even support that today
+obviously in rough terms?
+{BIO 18297352 <GO>}
+Yes, I think upgrading our installed base is a key part of our focus. With our strong
+growth rate today we still have a ways to go in terms of upgrading our installed base
+and that will be something that we can see. You're correct.
+I can't make any predictions in the next year or how many units, what kind of
+upgrades we'll see. I think it's just too early to tell in terms of what supply will be
+available. But it is the beginning of I think continuous both content for the VR and
+improving the VR experience as we go forward.
+It even has the capability of moving beyond gaming as we can see it in many use
+cases and prototyping and diﬀerent scenarios in the enterprise as well. So we look
+forward to that but it's still a little bit early to tell in terms of how big it will get.
+{BIO 15302785 <GO>}
+And I do want to change gears, obviously a lot to talk about here. Auto is probably
+easier to handicap you know your wins, you know how big the platforms could be,
+maybe timing could move around.
+Today the bulk of your revenue is consoles dash applications. Obviously the interest
+is in the autonomous applications. Can you talk about how to think about the rampsFINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 12Colette Kress
+Blayne Curtis
+Colette Kressof those wins and then talk maybe competitively where you see the opportunities to
+gain some more share?
+{BIO 18297352 <GO>}
+Sure. Currently our business on automotive right now is about $80 million a quarter.
+It has also risen about 80% growth over this last year on average.
+We'll continue to see growth in this platform. We have 8 million cars on the road
+today that have the infotainment systems backed by NVIDIA. And we probably have
+a pipeline of more than 25 million more cars that need to hit the road.
+So it's safe to say yes, we do see growth. Exactly when and quarter by quarter it's not
+a perfect crystal ball in terms of there. But yes, we do have some strong growth for
+our automotive business that we can count on.
+When we think about our work in terms of autonomous driving and the platform we
+seeded our platform with more than 50 diﬀerent OEM manufacturers, researchers
+and startups around the world. And the interest was quite high on this platform of
+that central compute for autonomous driving. You will hear us talk more about
+automotive at CES outside of the virtual reality.
+We'll also have a great presentation and talks about our next steps in terms of
+automotive in terms of there. But it has seeded that development platform with them
+and we continue to work with them on what you will probably see next is just
+development services with those individual providers.
+{BIO 15302785 <GO>}
+And when you look at your console business, your in-dash business, you had Tesla
+put a big screen out and then a lot of people have chased it. When you look at the
+performance requirements now they're talking about driving digital dash and it
+seems when you go in a car with that it seems to make sense that that's what you
+should have. Can you talk about that 8 million going to 25 million, is that based
+business you have say of 8 million a quarter do you still see suﬃcient growth over a
+longer horizon for that before you start to layer in the autonomous driving?
+{BIO 18297352 <GO>}
+Yes, I think it will continue to evolve. Our position is really being the best end
+graphics that will be necessary for these digital clusters as we go forward. In
+Frankfurt at the International Car Show the next piece is essentially a virtual
+dashboard. No buttons, nothing. And key companies demonstrating what they see
+as their future concept cars.
+So we'll continue to stay in the high-end parts of those overall graphics. But what
+we're able to beneﬁt right now when we think about those additional cars andFINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 12Blayne Curtis
+Colette Kress
+Blayne Curtis
+Colette Kressdesign wins is landing at a really luxury lines in the really high-end cars, they are able
+to take that same platform and now move it into many of their mainstreams.
+And we're beneﬁting from that, maybe even keeping up with competition that they
+know that this is a very key selling point the overall technology within the car and
+that digital displays are being very well received. So you will see us go into more and
+more models as that expands as well is probably that next gen of what infotainment
+systems will be going forward.
+{BIO 15302785 <GO>}
+We had -- I just had Xonex on stage and there's many semi companies that are
+pursuing ADAS or driver assisted, it's one of the only real growing areas in semis for
+many. Your solution would be more programmable in terms of being a GPU base
+versus maybe a PLD or even on ASSP, maybe you could see a Mobileye it's just ﬁxed
+algorithms.
+Could you talk about how this. And there's also diﬀerent types. You can have a
+Google Plus driving car that may not be what a major OEM deploys. There is still a
+lot of moving pieces in terms of --
+{BIO 18297352 <GO>}
+That's correct.
+{BIO 15302785 <GO>}
+What is self driving, is it assisted driving. I think Dan talked about one platform where
+it will just turn oﬀ after 45 miles an hour. There's obviously illegal and notiﬁcations as
+well.
+How does the GPU ﬁt in? Is it going to be the early stage and then as it moves to
+volume or do you think it maybe moves to a more ﬁxed solution or do you see these
+OEMs actually dynamically changing and learning and which would beneﬁt you?
+{BIO 18297352 <GO>}
+Yes, I think it's correct to assume there's a lot of diﬀerent semiconductor companies
+inside of the car. There's probably more than 50 diﬀerent microprocessors, whether
+they be single function, two function type service things going on and a lot of focus
+on ADAS.
+But our focus is the center compute for all of those diﬀerent types of needs and
+technology to assist ADAS but really talking about the underlying supercomputer
+inside of the car, not necessarily focused on a single function or focused on
+eliminating any of those. Those are also going to be necessary car.FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 12Blayne Curtis
+Colette Kress
+Blayne CurtisOur strategy is really providing the underlying platform that all of these things can
+coexist such that if you remove the driver who do you replace the driver with? That
+supercomputer would be that key point. So I think it's a diﬀerent angle than many of
+our other peers that we have seen and our approach is really focused on the overall
+platform there.
+{BIO 15302785 <GO>}
+I did want to ask you, we talked about the growth businesses. You mentioned the
+data center and the workstation business also being directed. So obviously it was a
+more muted year for everybody this year.
+Can you talk about why maybe those businesses were ﬂat or down respectively? And
+as you look into next year what type of visibility do you have for those returning to
+parity?
+{BIO 18297352 <GO>}
+Yes, our enterprise business focused on Pro visualization. If we recall in the ﬁrst part
+of the calendar year quite a bit of volatility in terms of macro conditions particularly
+around the FX rates. It inﬂuenced in terms of a lot of the channel, the overall
+thoughts in terms of pricing worldwide where we saw many diﬀerent changes in
+terms of when they would purchase the overall capital that they needed to both
+refresh and expand some of that.
+So that did take some of the growth out of the overall business as we saw in the ﬁrst
+part of the year. We've seen a lot more stabilization of the FX rates, not necessarily a
+change to them but the stabilization did produce a little bit better results than we
+had thought in our Q3 as well. And we'll stay focused on this but again it is still a
+question in terms of will it get back in terms of growth and when that will be.
+I can't make any predictions right now going forward into the next year because we
+generally just look out one quarter. But that's where we see it's been about ﬂattish or
+down a little bit but we'll stay focused on it.
+Our data center business, a very strong pipeline of a lot of key areas that we have
+seen. Our results both a year ago and early in this year has been inﬂuenced by very
+large projects.
+The large projects are here. There's the next new large project next year.
+It gets to be a little bit lumpy in terms of how that can look. We are conﬁdent that the
+data center business will continue to add in terms of strong growth as we go
+forward. But these large projects have probably produced a little bit of lumpiness
+right now.
+{BIO 15302785 <GO>}FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 12Colette Kress
+Blayne Curtis
+Colette Kress
+Blayne CurtisI did want to ask you on the gross margins as you look into next year lots of moving
+pieces as well. PC OEM was a drag but now it's very small. Gaming is growing and
+should deliver a good gross margin.
+Can you talk about the moving pieces? Maybe autos, volume could mean lower
+margins but I think you're adding a lot of value, over time that could be accretive as
+well. Can you talk about the moving pieces?
+{BIO 18297352 <GO>}
+Yes. So we talked about our four markets. We refer to them as our four growth
+markets and strategic markets as we go forward. So far year to date in ﬁscal year
+2016 our overall revenue growth of approximately 5% so far.
+If we just look at our growth markets they are growing more than 25% so far year to
+date, even though the overall Company is growing 5%. We still had a piece in the PC
+OEM business and the Tegra OEM business. As those become more commodity-
+based with not necessarily grow-ish aspects we haven't seen that particularly
+growing.
+But as you are correct it has become a relatively small part of our business now and
+in this last quarter represented less than 10% of our business. We'll continue to watch
+it. We'll continue to compete in that business with the right economics for the PC
+OEM.
+But you will see us concentrate on our four key markets because I think those have
+tremendous TAM opportunities in front of us and also have great leadership position
+that we have in those four diﬀerent ones. I can't make any predictions in terms of the
+next year. We really look about one quarter out.
+But again these are great TAM, very exciting markets. Whether that be artiﬁcial
+intelligence, virtual reality, or autonomous driving there are many three key
+disruptive markets that you see being talked about. And we have an underlying
+platform that's able to enable all three of those.
+{BIO 15302785 <GO>}
+This is my last question. So we're asking everybody actually what they see as the
+disruptive trends and I think you just answered it. As you look into next year you're
+actually involved in many disruptive trends.
+{BIO 18297352 <GO>}
+That's correct.
+{BIO 15302785 <GO>}FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 12Q - Unidentiﬁed Participant
+A - Colette Kress
+Q - Blayne Curtis
+A - Colette Kress
+Q - Unidentiﬁed Participant
+A - Colette Kress
+Q - Blayne CurtisI did want to leave a little time for questions in the audience. There's a couple more
+minutes if anybody had any.
+Questions And Answers
+Do you think that accelerated headsets you can have in accelerated GPU in addition
+to the PC or the gaming console or whatever device would be?
+{BIO 18297352 <GO>}
+Okay, I didn't hear the ﬁrst part of that.
+{BIO 15302785 <GO>}
+Would you put a GPU in the headset physically?
+{BIO 18297352 <GO>}
+You know, it's still early in terms of how to solve the VR, is the overall performance
+better if it was actually in the glasses. Right now in the near future I see the glasses
+with the overall PC as probably the key focus and I'm sure they'll continue to
+improve the overall technology as the VR becomes more of a desire of the gamers.
+I just wanted to ask having like two supercomputers in the car, if I take my
+supercomputer which will get stronger over time and I have years. So I personally
+feel that you only need one and this one I have with me all the time. So why do you
+have two powerful chips in a car?
+{BIO 18297352 <GO>}
+Okay. So I think you are referencing in our platform that we put together for DRIVE
+PX it actually enables two overall SOCs that have incorporated right now. The
+question is is two only enough or will it actually get you need even more. Given all
+the functionality that we will need to occur, all the parallel processing and the dual
+support for it being within the car and the need for possible fail over capabilities the
+performance actually may get stronger. Not just one, two, there could be multiple in
+terms of that underlying computer that generates a self driving car.
+Removing the human from the car is a pretty big task of the amount of compute
+capability the human being has and the years and years of driving that we have. So I
+think you look at it more as that's a very hard amount of thing to replicate. Not
+necessarily replicated with one simple little microprocessor, that's a signiﬁcant
+supercomputer that's probably necessary.
+{BIO 15302785 <GO>}FINAL TRANSCRIPT 2015-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 12A - Colette KressThe clock says zero. I appreciate the time, Colette.
+{BIO 18297352 <GO>}
+Great, thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

@@ -1,0 +1,470 @@
+FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 1 of 12Charles Lamanna, CVP, Business Apps & Platform
+, Analyst, Wells Fargo
+Michael Turrin
+Charles Lamanna
+Michael Turrin
+Charles Lamanna5th Annual Wells Fargo TMT Virtual Summit
+Company Participants
+Other Participants
+Michael Turrin
+Presentation
+{BIO 20079094 <GO>}
+Hey, there. Good morning, again. Thanks everyone for joining us for day two of the
+Wells Fargo's TMT Summit. I'm Michael Turrin, Software Analyst here at Wells. I'm
+very excited for our next session. I have the privilege of rolling coverage out on
+Microsoft here recently and joining us today from the largest software company on
+the planet. I think it's been neck and neck for largest company, but haven't had a
+chance to check lately, Charles Lamanna, CVP of Business Apps and Platform from
+Microsoft.
+I'll start oﬀ with some questions. I have a list in front of me. But if anyone does have
+something, they'd like to type in, you can shoot me an email at
+michael.turrin@wellsfargo.com. I'll do my best to add those to the conversation as
+well. Charles, thank you for joining us today. Certainly appreciate the time.
+Yeah. Thanks for having me, Michael. I'm super excited for the discussion. I think, we
+have a lot of good topics of Microsoft to share.
+{BIO 20079094 <GO>}
+I agree. So I mean, maybe in just framing the conversation to start with, we obviously
+admire just how many end markets, the company has presence. And within these
+days, maybe just you could help just add some context around your role,
+responsibilities, key product areas of focus, just to help steer the conversation. And
+we can just dive in from there.
+Absolutely. Sounds good. So I head up what we call the business applications and
+platform team, which basically maps to Dynamics 365 and Power Platform as our set
+of products. I lead the product management, as well as the engineering component.FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 2 of 12Michael Turrin
+Charles LamannaSo basically all from design to implementation to servicing of all of those diﬀerent
+Cloud oﬀerings. I've been on -- in this area for about 4 years. Before that I worked in
+Azure for 4 years. And I joined Azure in 2013, when a company I founded was
+acquired by Microsoft. So I'd say, I slowly moved up stack from infrastructure to PaaS
+and to now SaaS, with (inaudible) platform.
+{BIO 20079094 <GO>}
+So directly sell our software companies to head eventually. I mean, it's great if you
+can start as an Azure, no question. And the time you started at Azure was pretty darn
+good too. I have to say, so congrats on that. Let's start with just the evolution of
+business applications at Microsoft. I mean, Dynamics has been around for some time,
+but Dynamics became 365 in a more recent period of time. The growth trajectory of
+Dynamics 365 has really stood out, particularly of late. So can you talk just some
+more around the evolution of what you're doing with Dynamics? And maybe what's
+driving some of the recent strengths?
+Absolutely. Certainly, as you mentioned Dynamics has been around for a long time
+at Microsoft. But we went through a bit of a, I'd say, a rapid evolution about sorry, 5
+years ago. And that's where we really started with this idea of Dynamics 365 in the
+future of business applications at Microsoft. The ﬁrst and biggest piece of that was
+really just moving our businesses to the Cloud. To be Cloud ﬁrst and really make it so
+that these are businesses which are delivered as SaaS products, with easy sign up,
+easy trials and easier go-to-market compared to say some legacy on premise very
+heavy CRM and ERP oﬀerings. So that was the ﬁrst and most important piece. And
+we're done with that for quite some time now.
+The second big thing we did is, we started to reimagine what business applications
+mean, kind of for the future. So not go build this apps of 2005 or 2010. But the Biz
+apps of 2020, 2025, 2030. And we thought that really required us to focus on three
+main themes, which fundamentally change how you adopt and use business
+applications. First thing being data ﬁrst. And it's this idea that every single company
+has this massive amount of data coming from everything, whether it's their e-
+commerce websites, mobile applications, IoT, you name it. There's just a massive
+amount of data, which is just diﬀerent from how Biz apps were in the past, where
+most data was just entered by humans ﬁlling out forms. So there's this idea of large
+amounts of data and leveraging it in a business application.
+Second thing is that once you have all this data, you of course want to go make
+predictions and use intelligence and AI and natural language understanding, NLU, to
+get value from that data. And this idea of automation helps with things like reducing
+costs for delivering customer support by 20% or 25% or improving targeting or
+upsell or cross-sell in your e-commerce website by 5%, really top line and bottom
+line moving outcomes for AI, which is very diﬀerent than just a pure AI platform. It's
+very tied to the business process.FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 3 of 12And the third piece is around collaboration. And it's this idea that in the past, I say,
+Biz app data and Biz app users kind of lived in little islands throughout the company.
+But a big push we want to go do is how do we reimagine a world where data is
+shared across the company and people can work together. So just like you don't
+want silos of data and silos of lines of business. How can you start to reimagine
+whether that silos or people either, people can come together and work with the
+right data in the right place at the right time. So we move to the Cloud. We focus on
+data, AI and collaboration. And then of course, the third piece which was critical was
+we built a product portfolio that was easy to adopt and this required us to break
+down our monolithic CRM and ERP oﬀerings.
+So -- gone are the days that people will remember where we had Dynamics, CRM
+and Dynamics (inaudible) Dynamics AX, two big apps and that did everything in one
+and was very diﬃcult to implement on premise. In the Cloud, we reimagine that to
+actually have a bunch of individually adoptable applications, which really span
+across ﬁve main areas for our customers.
+Area number one is around customer support. How can we help our customers
+deliver world-class customer support and we do that with things like Dynamics 365
+customer service, Power Virtual Agent, AI Builder, as well as some of our new omni-
+channel digital voice capabilities. Item number two is around supply chain. And we
+have core supply chain execution, we have supply chain insights, we have supply
+chain sustainability capabilities, all is individually adaptable modules, where you
+don't have to go replace your existing ERP system.
+Item number three is around revenue generation. So sales and marketing and
+commerce oﬀerings. So how do we help our customers generate more revenue,
+whether it's through digital sales and direct selling, or having a dedicated sales
+force. Next one is around service centric operations, which is helping our customers
+move to this new way of doing work and providing services as opposed to just
+products.
+And the last pillar number ﬁve is the Power Platform, which really is all about
+enabling full company digital transformation. So those are really the ﬁve main areas,
+where we decompose CRM and ERP to ﬁt into. And then provided a bunch of little
+adoptable components, which can replace your core apps or can provide value on
+top of those core apps.
+And that last bit is why we've been able to really accelerate the growth, because
+gone are the days of having to go to customers and convince them to rip and
+replace stuﬀ. But instead, we can provide value right in place. And the data really
+bears it out as being eﬀective, like we shared very recently, Dynamics 365 revenue
+grew 48% year-over-year, 45% in constant currency, over 70% of that revenue is now
+in the Cloud. And we have new areas like Power Apps, which are growing at right
+around 200% year-over-year growth. So a lot of new exciting and rapidly growing
+products, kind of embracing this idea in the Cloud and embracing this idea of data,
+AI and collaboration. Maybe a little bit longer answer than you wanted, but I think
+that's a good left to right view we're having in our Microsoft.FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 4 of 12Michael Turrin
+Charles Lamanna{BIO 20079094 <GO>}
+Now, it sets the stage for planning. And we've heard the intelligent applications in
+Power Platform mantra quite a bit. So it's good to get some -- you know some more
+context behind it as well. I want to just go through some of the key pillars that you
+laid out and start with data in particular. We're hearing a lot around data right now
+on changing standards, focused on ﬁrst party data, voice of the customer. Microsoft
+has customer insights, a position in and around CDP. But can you just talk more
+around just customer data and what you're doing from the application side there?
+Absolutely. I think, like this is an area, which is really interesting right now for so many
+of our customers, because we have things like IDFA changes on Apple, as well as the
+move to like the cookie less future in browsers, which is just basically requiring
+everybody to rethink and replan how you can track and know your customer and
+how they engage with your digital service areas.
+The good news is, basically every company is in some degree of digital
+transformation. So they actually have a lot of digital touchpoints directly with their
+customers. And that's where the value is, because that's where the data comes from.
+So if you have an e-commerce website or mobile app or IoT from your Keurig
+machine or something like that, that's all information that you can use to start to
+understand how your customers are using your products, as well as what the next
+best product to oﬀer to them or next best service to oﬀer to them. As well as I can
+start to do direct marketing through various diﬀerent channels like email, message,
+text messaging or just inside your own product.
+So anyway, so I say that's kind of the landscape we are in. And what's great is, with
+Dynamics 365 Customer Insights, we have a customer data platform or CDP, that our
+customers can leverage to understand their customers by drawing from all the
+diﬀerent data sources they have inside of basically their IT landscape and their
+customer facing landscape. And the way customer insights works is they can connect
+to over 50 diﬀerent systems out of the box, you can very rapidly and easily ingest
+data, whether it's from your marketing system or say, web analytics or your back end
+ERP. We can pull all of that data together in real-time to create dedicated proﬁles of
+your individual customers.
+And these proﬁles can then we used to change behavior, in terms of how you
+engage your customer and also can be used across all your diﬀerent marketing
+campaigns. And what's great is, it's the data that our customers own. It's not data
+that is owned by an aggregator or gatekeeper in some form and kept locked behind
+an advertising infrastructure. It's actually data that our customers owning to manage
+themselves.
+So it gives them some degree of independence, which is going to be more and
+more important as we go through all of these fundamental changes and how you
+can track and what can be provided in the browser or on mobile devices. And if youFINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 5 of 12Michael Turrin
+Charles Lamanna
+Michael Turrin
+Charles Lamannadon't do this, you're not going to be eﬀective. And we can see the impact already. I
+know, over the last couple of quarters, there's been a lot in the news about the
+impact of the IDFA changes, in particular, when it comes to B2C companies, as well
+as companies that provide advertising.
+{BIO 20079094 <GO>}
+That's great. The other area that you mentioned was automation. And I want to touch
+on that too. But maybe to start, you can level set with all the Power Platform
+encompasses. We hear a lot about it. It seems like there are a number of
+permutations that you can take. So maybe you can just set the stage with where
+Power Platform currently ﬁts and what the functionality of the platform encompasses
+today?
+Yeah, absolutely. And I like to always start by talking about the Power Platform, by
+kind of like explaining why it's so important for our customers. Because, if -- there's a
+lot of great stats out there from IDC and Gartner. They're talking about things like
+over the next 5 years, there are 500 million new apps they need to be built. And
+that's more than all the apps built in the last 40 years. Longer than I've been alive.
+That's a huge volume of apps that need to be built.
+Additionally, something like 50% of oﬃce work could be automated today, with
+current technology and tools, if there were just somebody to do it. Or 85% of
+organizations can't understand their unstructured data. So, basically, what all that
+means is there's this huge unmet need to go to build solutions to help our
+customers usually transform.
+And of course, the way you would normally solve that is by going and hiring an army
+of developers. But there's also been a study saying there's a 4 million professional
+developer shortfall over the next few years, who's going to make that impossible.
+{BIO 20079094 <GO>}
+Pretty expensive.
+But look at what that means in terms of supply and demand and cost (inaudible)
+There's just a lot of challenges that are going to happen. And I'd say over the last 20
+years, this has been this -- I'd say a little bit naive view that we can solve these
+challenges. This huge demand and insuﬃcient supply by going and teaching
+everybody how to write code. Go teach just random people how to write code, go
+teach people who work in ﬁnance to write code, and we've tried that. And it has not
+been successful at scale. I mean, it hasn't. I mean, it gets worse. Like literally, I used to
+have that stat that there's a million developers shortfall.FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 6 of 12Now we got to update, there's a 4 million developer shortfall. So it grows every year.
+We think though that there is a way to go solve this. And that's through what we call
+low code development. Low code development is just a idea that in a visual
+interactive way, much like how you use Excel and PowerPoint, you can go develop
+solutions that actually get the job done, that you can go knock out a huge chunk of
+those 500 million new apps or that 50% of automation.
+And our oﬀering in the low-code no-code space is something called the Power
+Platform. And Power Platform has four main products. Power BI for low-code data
+exploration, visualization and reporting. Power Apps for low code web and mobile
+application development. Power Automate for low code workﬂow automation and
+robotic process automation. And Power Virtual Agent for low code conversational
+agents and chatbots.
+All four products kind of serve diﬀerent needs, whether it's analyzing your data
+acting on it or automating it. But the core idea is the same. Super easy to get started
+and it can be used by everybody in the company. Business users can leverage it. IT
+professionals can leverage it. And professional developers can leverage it to either
+start developing for the ﬁrst time or start to actually go to code and develop
+solutions faster than ever.
+And if you look at this space, we have nearly 20 million monthly active users on
+Power Platform today. And it's something that we really started to go big on over the
+last 3 years or so. Most of the Power Platform didn't even exist 5 years ago. And we
+think this opportunity is massive. We think basically, everybody on earth could
+ultimately be a Power Platform user, just like everybody on earth could be a Excel
+user or Outlook user. And that's kind of how big we think it can really go. And what's
+exciting for us, if we go look across the Power Platform areas, because we've been in
+this space for a while. We really have strong credibility. Power BI is far and away the
+leader, basically on every access and the Gartner Magic Quadrant, when it comes to
+self service BI.
+On Power Apps, Gartner has come out and said, it's the number one low code app
+development platform. And we just announced that it's over 10 million monthly
+active users on Power Apps alone. So very big market leading oﬀerings that we have,
+that we think are going to continue to grow at a very aggressive pace. And like I
+mentioned earlier, Power Apps is growing at right around 200% year-over-year from
+a revenue generation perspective as well. And this kind of all complements and
+extends, what we have insight Dynamics 365. So you can go buy one of our apps if
+we have it. And if you want to do something that, that doesn't go out of the box can
+easily build in the Power platform. That is a winning combo.
+And that's actually why Dynamics and Power Platform are together inside of
+Microsoft, because we think they go so closely and so well, when you leverage both
+because it's all about business process transformation, about business value,
+business outcomes. In some cases, an app is great for oﬀ the shelf. Sometimes there
+is no app for that, you got to build it yourself, drop into power platform. Tons ofFINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 7 of 12Michael Turrin
+Charles Lamanna
+Michael Turrin
+Charles Lamannaenergy there. And that's something that I'd say deﬁnitely worth tracking over the
+next couple of years, is how those kind of that vision continues to accelerate for us.
+{BIO 20079094 <GO>}
+It makes a lot of sense. One of the areas that I think investors have become more
+conscious of is RPA. And Power Automate has a great story around automating
+repetitive tasks as well. And so I'm wondering, if you can help characterize where
+Power Automate ﬁts in that discussion? Is the right way to think about that more
+Microsoft-centric use cases? Or is it broader than that? And I'm just wondering, you
+could just help level set the vision around what you're doing with Automate?
+Yeah, I'd say, our view is that Power Automate today is a broad based automation
+platform. And that today, we're a market leader from feature capability and adoption
+perspective. And of course, we're going to have great integration with other
+Microsoft products, like that's true. That's what's really exciting about being
+Microsoft, we can build these amazingly.
+{BIO 20079094 <GO>}
+Easy for you to do, yeah.
+Yeah. Right, it's a lot easier. People are down the hall or across the street to go build
+those integrations. But absolutely, connectivity to all kinds of systems is key. In fact,
+Power Automate has over 550 data connectors available out of the box to sales
+force, service now, workday, SAP, you name it. We probably can connect to it for
+typical enterprise capability.
+We also recently did an integration of a company and even go accelerate that further
+in the case of Power Automate for more deeper enterprise data connectivity. And
+also we have Power Automate desktop, which supports UI based automation. The
+classical RPA, right on Windows. It's included in Windows 11 and it supports all
+applications on Windows. And there's lots of ways that we do that with accessibility
+handles and computer vision and AI, but it supports any type of App. And SAP is I
+think the most used -- SAP UI is probably the most used Power Automate desktop UI
+automation stuck today.
+So deﬁnitely, it's a broad based RPA product. And this is a place where we think we
+really have something unique at Microsoft. And the reason I think that uniqueness is
+important is because RPA is going through a little bit of a change. Like internally, we
+call it the move from like RPA to Cloud RPA or RPA to RPA 2.0 or Gartner calls a
+hyper automation, is this idea of automation just being UI macros, is kind of a gross
+simpliﬁcation of what you really want to do on the go deliver business value.FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 8 of 12Michael Turrin
+Charles LamannaAnd instead when we talk about Cloud RPA, it's API connectivity. It's deep and
+integrated AI capabilities. It's the ability to also do UI automation, but also to even go
+run manage VMs in the Cloud for unintended bots. So people are deep in RPA.
+That's a key component. We have recently announced Azure Virtual Desktop
+integration. So you can basically run everything elastically in a scale, with no
+infrastructure and nothing deployed locally, with Power Automate. We're the only
+ones in the market that do that today.
+We have the most connectors via API of anyone in the market today. So that Cloud
+RPAs in API space is super key. And that's really what's unlocked. The growth
+numbers we've seen. We have hundreds of thousands of organizations.
+Organizations, not people, a lot more people. But hundreds of thousands of
+organizations using Power Automate today, doing billions of automation actions
+every month today.
+And the reason is because the Cloud RPA delivery mechanism is so easy to get
+started. That's why we could put Power Automate desktop inside of Windows 11.
+That's why people anywhere in the world can walk up with the powerautomate.com
+and build a bot in less than 60 seconds, no infrastructure required. That is really
+compelling, fast time to value and it's not just on the low edge case, it's at the high
+end. We have great case studies with companies like Coca-Cola, where they have
+used our Power Automate to simplify 11 step processes, which costs 10s of millions of
+dollars and to really replace emails and spreadsheets and phone calls and that type
+of thing.
+And they actually have over 4,000 solutions already deployed to Coca-Cola. So you
+can really go broad, it's low code so it's accessible. And it scales all the way up to the
+complex. And we absolutely think that we're going to be a major player there. And
+look, the most recent Gartner MQ, we show up as a strong leader in RPA as well. And
+there is a few case studies I saw like JPMorgan, put one out where we're -- I think
+taught to consideration for RPA vendors as well today. So a lot of great data out
+there about how Power Automate can be used broadly, as well as narrowly at a lot of
+our customers.
+{BIO 20079094 <GO>}
+Another great stats. A couple of questions have come in from the audience. I want to
+throw those in. And the ﬁrst one is actually one that I was -- I think intending to ask,
+too. I mean, you mentioned, I think service and support very early in terms of the
+number of things that you laid out for us at the start. You talked about virtual agent
+we've seen. I mean, we've seen that proliferation of where teams has gotten to. And
+so the question is, do you have goals in around the contact center? Is that an area
+that you could see Microsoft investing in more heavily in the future? Or how do you
+think about contact center, especially next to something like teams?
+Yeah. Absolutely. So I'd say, absolutely, that's an area that we look at. And I'd say, like
+contact center is a way that you implement customer support, as well as how youFINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 9 of 12implement things even like revenue generation, like a lot of companies have contact
+centers just for sales purposes. So, but I'd say, contact center is super exciting for us
+for a few reasons. Number one, we have a lot of great assets in that space already.
+Dynamics 365 customer service is an app module. It has a lot of market share out
+there, and it's growing quickly. And it's something that the support agents in a
+contact center use each and every day to work cases.
+Similarly, we also have Power Virtual Agent for automating conversational agents
+across web chat, as well as social channels and very recently voice. And then we also
+have a lot of other contact center AI capabilities, which also go help basically our
+customers automate tasks by their coaching and assisting to support agents,
+whereby automating and driving self service for the customer themselves. And
+what's exciting about all this is, it's a 40 plus billion dollar a year TAM, if you go look
+across customer CEC, CCARs and CCAI, so three big categories over $40 billion
+TAM.
+And it has two major disruptions happening right now. The ﬁrst being, it's been a
+Cloud laggard for a while. And but not anymore, I mean, everybody now has to get
+this stock to the Cloud. On the last I saw it and it's the majority this is, like from an
+analyst, the majority of folks still deploy their core contact center infrastructure on
+premise. That's all going to go to the Cloud, just like everything is. And that's where
+Teams are super valuable, because we built this amazing call routing, call distribution
+points of presence around the globe inside of Teams infrastructure. And we're able
+to build on top of that, as we go think about moving that to the Cloud. So Cloud is a
+major disruptive item.
+Second one is AI. Like AI is a buzzword, if you hear all the time. Inside the contact
+center, it's probably one of the best places where you can map AI back to business
+value. Because if you can say automate 20% of customer support requests, that can
+be a $0.5 billion return on investment over 5 years for large B2C companies. And it's
+rare where you ﬁnd places, where there's such clear yield. One more point of
+deﬂection or self service through AI. And like -- an example that would be you call
+up an airline to change your ﬂight. Instead of having to talk to an agent, you can
+actually just do it by talking to a bot saying, hey, I want to change my ﬂight, here's my
+ﬂight number I want you to change to this. If you can, one point can be $10 million
+for our large customers.
+And every time you make AI better, it's another points and other points and other
+point. So I would say that is a really exciting focus for us, because you don't usually
+get those opportunities when it comes to business applications. Usually it's a little
+more amorphous right. Move to us for your customer support agent experience and
+it will be better. Well, how do you measure it? What's the return? Here it's very
+simple. Use our contact center AI capabilities and we can reduce your costs, and we
+can prove it because your case volume that goes to agents will drop.
+That is a very, very exciting challenge for us. And at Microsoft, we have such strong AI
+assets across what we already built inside of Oﬃce, inside of Teams, inside of Azure,
+as introducing Dynamics that we really can deliver on this promise in a meaningfulFINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 10 of 12Michael Turrin
+Charles Lamanna
+Michael Turrin
+Charles Lamannaway for our customers. So super bullish in there. And Power Virtual Agent is one of
+the most important examples of the AI automation capabilities that our customers
+can do. Because, it's a Power Virtual Agent bot, which is going to go service a
+customer as opposed to a human. So that's kind of where we think the future is
+going very much in that space.
+{BIO 20079094 <GO>}
+Great. And it's amazing how many things you have in your overview. There's another
+question that came in. It's more just classiﬁcation or characterization within Dynamics
+365 growth. And the question is, is there a way to think about how much of that
+could be coming from just replacement of on-prem Dynamics? Maybe you can just
+help us understand where you are in the journey of the transition from, like you said
+the two products set to 365? Is that mostly complete, or just add some more
+characterization on the growth?
+Yeah. So I think that the data -- the stat that we shared to really highlight. (Technical
+Diﬃculty) The ﬁrst thing, I'd say is the growth is predominantly coming from net new
+workloads deployed by our customers, not by just migrating on premise workloads.
+And you can see that really with the two stats that we shared. Number one, over 70%
+of Dynamics 365 revenue comes from the Cloud. Overall Dynamics comes from the
+Cloud. So that's a super important stat.
+The base is now too small on-prem to really be meaningful to actually go drive the
+other growth number. Second, being just shy of 50% year-over-year growth. We also
+can't really do that just by converting our existing customer installed base. And so I'd
+say the -- really, it's the migration phase is largely over. I'd say, it's much more about
+to keep this growth up and the growth that we've done over the last 12 months really
+requires us to be landing Cloud workloads that are new with our customers across
+those ﬁve pillars, I talked about earlier. And those are really the ﬁve areas we focus
+on. And there's a lot of Cloud only workloads there to like Power Platform, Cloud
+only. if you go look at a lot of our supply chain assets, Cloud only. So I'd say
+deﬁnitely it's Cloud, Cloud, Cloud all day and that's where our big focus is for sure.
+{BIO 20079094 <GO>}
+How do you -- I'm just curious how do you prioritize internally given there are so
+many directions your applications business can evolve towards? We've talked about
+some of the most signiﬁcant technology trends out there. And there's probably a
+long list of things that are underneath that, that you could explore too. So how --
+what is the decision process that informs what makes it to the top versus what might
+fall further down? Is it customer feedback? Is it just some of the data that you're able
+to analyze? Maybe you can just give us a sense, because like it's amazing and I can't
+imagine what it looks like from your perspective?FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 11 of 12Michael Turrin
+Charles Lamanna
+Michael Turrin
+Charles LamannaYeah, I would say like, ﬁrst and foremost, we live and breathe the customer both
+quantitatively and qualitatively. We have a fairly large I'd say, like a surprisingly large
+installed base, where talked about really it's hundreds of thousands across Power
+Platform and Dynamics 365 of organizations. So we can do some interesting
+quantitative analysis based on that population to understand what features are being
+used, where deep customer has to happen that type of thing.
+Also on the engineering team side, we work very close with customers. We have
+things like a Customer advisory Board, a Partner Advisory Council. We have things
+like power champions in our digital community. So a lot of ways where it's very one
+to one. So customer is always at the center and has always been informed that we go
+build.
+There's another piece, which is we choose kind of strategically where we want to go.
+What's the ﬁeld look like. And those ﬁve pillars I'd say we chose those ﬁve pillars
+around customer support, supply chain, service centric operations, revenue
+generation in Power Platform. Because those are areas where we already have assets
+at Microsoft, where we think there is a lot of disruption happening in those markets. I
+was able to talk about contact center, customer support a bit. But if we have a same
+type of viewpoint across all ﬁve pillars, certain disruptions happening. And then item
+number three is something that we think accrues into the broader Microsoft Cloud
+story. Because at the end the day like Biz App, we love Biz Apps. But the most
+important thing is the Microsoft Cloud, the commercial Cloud as we position it. And
+you can kind of see that a lot of our announcements and a lot of our positions. But
+we also always are carefully factoring in and how do we contribute back to the
+overall Microsoft Cloud story. So, those are three main levers we used to choose the
+ﬁve investment areas. Then within those areas, we focus on the customer feedback.
+{BIO 20079094 <GO>}
+I mean, you make it sound algorithmic. But it's clearly on that.
+Yeah. Because I'm -- I'm a frameworks guy, so I love algorithmic sound. So I may not
+have a document internally that we used to talk about this (inaudible)
+{BIO 20079094 <GO>}
+We would love it, but we know that. That's fantastic. Well, look, I could spend all day
+kind of chatting through some of the things you're working on. But your time is
+valuable and we've actually run up on what we allocated for here today. So Charles,
+this was fantastic. Really appreciate you joining. I wouldn't normally say this, but best
+of luck to your ﬁghting Irish, given the transition there too. And appreciate the time,
+for sure.FINAL TRANSCRIPT 2021-12-01
+Microsoft Corp (MSFT US Equity)
+Page 12 of 12Michael TurrinAbsolutely. Thanks for having me, Michael and thanks everybody for tuning in. I look
+forward to additional Q&A in the future oﬄine. So, thanks.
+{BIO 20079094 <GO>}
+Excellent. Thanks, everyone for joining. Much appreciate it.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

@@ -1,0 +1,2709 @@
+FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 1 of 69Abby Carey, Developer Advocate
+Aja Hammerly, Developer Advocate
+Anupriya Srivastava, Cloud Developer Advocate
+Aparna Sinha, Director of Product Management
+Brian Lozada, Chief Information Security Oﬃcer
+, Chief Executive Oﬃcer
+Iman Ghanizada, Security Solutions Manager, Google Cloud
+Jahidul Khandaker, Senior Vice President and Chief Information Oﬃcer
+, Product Manager, Earth Engine
+Marco Genovese, Customer Engineer, Google Cloud
+Murray Kucherawy, Production Engineering Manager
+, Chief Information Security Oﬃcer, Google Cloud
+Priyanka Vergadia, Developer Advocate
+, Director, Product Management, Google Cloud
+, Chief Product and Platform Oﬃcer
+Richard Seroter, Director, Outbound Product Management, Google Cloud
+, Vice President and General Manager, Infrastructure, Google Cloud
+Sri Subramanian, Group Product Manager, Security, Google Cloud
+, Cloud Security UX Director, Google Cloud
+, Vice President and General Manager, Google Cloud Security
+Suraj Rao, Global Head, Advanced Analytics Oﬃce
+Tanisha Rai, Product Manager, Google Cloud
+Unidentiﬁed Speaker
+, SVP, Technical Infrastructure
+, Group Product Manager, Google Cloud
+Vidya Nagarajan-Raman, Group Product Manager, Google Cloud
+Aparna SinhaGoogle Cloud Next '21 Day 2
+Company Participants
+Dev Ittycheria
+Joel Conkling
+Phil Venables
+Rae Wang
+Rasesh Patel
+Sachin Gupta
+Steph Hay
+Sunil Potti
+Urs Holzle
+Vidya Nagarajan Raman
+Presentation
+Hi, I'm Aparna Sinha. Welcome to Day 2 of Google Cloud Next. I'll be co-hosting
+today alongside Urs Holzle and we've got a really great lineup of new technology
+and demos from Google Cloud. But before we get started, I want to thank you all for
+taking time out of your busy week to be here with us. Yesterday was an incredible
+ﬁrst day at Next.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 2 of 69Urs Holzle
+Aparna Sinha
+Urs HolzleThomas and Sundar made some amazing announcements. This week, we're
+releasing over 100 new products, services and programs for you. We're kicking oﬀ
+Day 2 now with this keynote, A Cloud Built For Developers. After this, we'll jump right
+into a live developer Q&A, where you can ask us anything. And then tomorrow is
+Community Day and that will be totally dedicated to you for learning, discussions,
+networking and all kinds of fun. All right. Let's get things started by welcoming Urs.
+Hi, Urs.
+{BIO 15314490 <GO>}
+Hi, Aparna. Hi, everyone. I hope you're as excited as I am to get started today. And
+since this is a developer keynote, we'll kick it oﬀ with our ﬁrst demo right away from
+Google Research and our DeepMind colleagues, who've been working on some
+amazing voice technology.
+(Audio-Video Presentation)
+Now before you get too impressed by my language skills, I did not actually speak
+these words. What you just heard is a custom text to speech model that has trained
+on my voice and that can generate synthetic speech in diﬀerent languages. And our
+teams have already started using this technology to improve our voice experience
+for all users.
+That's right. Google's Project Euphonia is already using custom voice to help people
+with a typical speech to communicate and be better understood. Technology like
+this creates a more inclusive world. To ﬁnd out more about this, check out the Project
+Euphonia website. Custom voice is available today for select cloud customers. We're
+very mindful of the potential misuses of this technology and we're taking great care
+to prevent them by reviewing each use case uniquely.
+{BIO 15314490 <GO>}
+Now, look around you. Every day you see innovation that's brought to you by
+developers, like yourself with persistence and skill. And Google has a long tradition
+of supporting developers in open source and elsewhere. For years you've been
+using technologies, like Kubernetes, Firebase, TensorFlow, Go, Angular, gRPC many
+others. And when we built Google Cloud, we built it for developers and we were
+inspired by all the things you've created with it. And our job is quite simply to make it
+easier for you to do what you love. So we focus on making you as productive as
+possible with the least amount of eﬀort. And so in everything we design, we take all
+the feedback that you're sharing with us and build a cloud platform that just works,
+whether that's by natively embedding key security or sustainability features into the
+platform itself or by featuring partner solutions right within our own console, we're
+really focused on one goal, giving you the best developer experience of any cloud
+provider.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 3 of 69Aparna Sinha
+Urs Holzle
+Aparna Sinha
+Urs HolzleGoogle Cloud has had tremendous traction with digital native customers since our
+very early days. How have you seen customer and partner adoption evolve since
+then?
+{BIO 15314490 <GO>}
+Well, many of our biggest customers are cloud natives, but we've seen tremendous
+adoption by a broad segment of enterprise customers in traditional industries as
+well, like entertainment or ﬁnancial services.
+For example, Major League Baseball, which is North America's oldest and most
+attendanced professional sports league is using Google Cloud to modernize fan
+engagement and to increase operational eﬃciency. And Equifax, which was founded
+in 1899 and is one of the world's largest consumer credit reporting agencies is
+transforming itself from a credit bureau to a next generation data analytics and
+technology company built on Google Cloud.
+We've seen a huge shift. Essentially every company is becoming a tech company to
+increase their competitiveness and establish leadership in their industries. Developer
+talent and cloud services are at the heart of this shift. Whether you call that digital
+transformation or something else, companies of all sizes are ﬁnding that Google
+Cloud is optimized to help make your data, your applications and your talent more
+useful and relevant to your business.
+{BIO 15314490 <GO>}
+Exactly. And as Thomas mentioned yesterday, everyone needs to be thinking
+through how they will fundamentally shift into a technology company to serve their
+customers in the most meaningful ways, 10 years from now. And you as developers
+are key to making this happen. So organizations ask themselves, do we have the
+most cutting-edge technology to become a leader in our industry? And you the
+developers are well equipped to answer this. And we are super focused on making
+you and your company successful, and there's two areas we focus on to support your
+growth.
+First, of course, making it easier for developers to get their job done; second,
+investing in the developer community so that everyone can learn and grow from
+each other. So let's talk about how Google Cloud is making it easier for developers
+to get their job done. From our transformational infrastructure stack to our deep
+innovations in data, security, ML, every feature we release starts with simplifying the
+developer experience, take our open cloud experience for example. We recently
+expanded our compute stack to include Tau VMs that deliver 42% better price
+performance over any other comparable solution in the market with no recompile.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 4 of 69Aparna Sinha
+Urs HolzleAnd thanks to our zero trust approach to security, Google Cloud was ranked a leader
+in IaaS Platform Native Security by Forrester well ahead of the competition.
+And of course, we're focusing also on managed services that make it easy for you to
+deploy scale and manage Kubernetes clusters on the edge or in the cloud. And
+Google cloud has the most complete and most secure container experience for
+developers.
+In fact, the 2021 Gartner Solution Scorecard for Google Kubernetes Engine gave
+GKE an overall score of 92, again, well ahead of the competition. And of course with
+GKE and Anthos, you can run these containers anywhere on premise or the clouds,
+on the edge, anywhere.
+So it's fair to say that in a year since Google invented Kubernetes, containers have
+really completely revolutionized IT operations. Now recently, European ﬁlmmakers
+from Honeypot.io created a documentary on the history of Kubernetes and it will be
+out in January 2022. And you are the very ﬁrst audience to have a look at the trailer
+right now so let's roll out.
+(Audio-Video Presentation)
+This is such a great community.
+{BIO 15314490 <GO>}
+Yeah, absolutely. I recognize a lot of the faces and I can't wait to see the ﬁlm. Now
+let's get back to how we're making it easier for developer for you to build really the
+leading technology companies of tomorrow. Now Kubernetes deployments can
+involve a fair bit of manual conﬁguration, clusters, nodes, load balancers, YAMLs, et
+cetera. But not on Google Cloud because we oﬀer you the most automated and
+secure Kubernetes experience available. With GKE Autopilot, Google provisions and
+manages the clusters entire underlying infrastructure, including control playing,
+node pools, working nodes and they -- that lets you focus on the higher level
+services and applications that you're building.
+Nobody else oﬀers anything like this because beyond managing node upgrades,
+GKE Autopilot also automatically conﬁgures security features, like Shielded GKE
+Nodes, secure boot and workloads identity. And it also implements security best
+practices by blocking the less safe features like external IPs or legacy authorization.
+So you don't get a toy Kubernetes cluster with GKE Autopilot. You get a
+sophisticated cluster that uses the best practices brought to you by the team that
+brought to you Kubernetes itself.
+So you're always up to date. And you get the same results as the experts without
+having to be an expert yourself.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 5 of 69Aparna Sinha
+Urs Holzle
+Aparna Sinha
+Abby CareyThe pandemic put developers in the driver's seat. And you all drove GKE usage to
+all-time highs. At the same time, we saw explosive growth in the use of Google
+Cloud Serverless oﬀerings, especially Cloud Run, and Cloud Functions. It's mainly
+enterprise developers who have driven this growth.
+Cloud Run excels at developer experience. It's earned the highest customer
+satisfaction rating among developers as measured by user research international.
+Cloud Run combines the best of both worlds, bringing you serverless and
+containers. There's no cluster to setup or conﬁgure. So developers are able to scale
+seamlessly and securely. Under the hood, Cloud Run scales container instances in
+isolated sandboxes. Any access outside a sandbox is mediated by network controls
+or identity in access management or both. And it isn't just for new apps, Cloud Run
+supports traditional workloads like Java Spring Boot and ASP.NET.
+We also recently introduced committed use discounts to lower the cost at scale, and
+we've introduced always on CPU, which enables asynchronous and background
+processes to be used on Cloud Run. So you have all the beneﬁts of serverless
+without the restrictions. The theme here is easier, more secure development,
+especially with remote work.
+{BIO 15314490 <GO>}
+You're absolutely right. We've been focusing on remote development for some time
+now, but the pandemic has certainly accelerated the shift. Now, what would be more
+essential to remote development than to be able to use the full power of GCP right
+from your laptop with zero local setup.
+Cloud Shell Editor is a context of where remote development environment that lets
+you develop and manage applications securely from any browser. It supports
+languages like Go, Java, Node, Python, C Sharp and it comes with an integrated
+Debugger, Source Control, API Explorer and if you want to test locally on your
+laptop, it also comes with local emulators for Kubernetes and serverless APIs.
+Thank Urs. Next let me introduce you to Abby Carey. She is going to show us how
+Google Cloud makes it easy for you to securely build modern applications, again
+right from your laptop. Hi, Abby.
+Hi, Aparna. We developers have had a hard time writing, extending, deploying and
+operating applications, but it doesn't have to be diﬃcult. Let's start with Cloud Shell
+Editor. It comes with current versions of your favorite dev tools, like Docker,
+minikube, Skaﬀold, and more, there is nothing to download or install locally. TutorialsFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 6 of 69Aparna Sinha
+Abby Carey
+Aparna Sinha
+Abby Carey
+Aparna Sinha
+Abby Careyare built into Cloud Shell Editor, which makes it easy to come up to speed on
+complex topics, like GKE.
+So no more switching between tabs, docs your terminal and your code. This
+integrated experience is highly diﬀerentiated from other clouds. You can even author
+your own tutorials. And that allows your organization to share best practices and
+onboard new hires faster.
+Another popular feature is Kubernetes YAML authoring assistance. Let's say I want to
+add YAML for a service to this project. I can press control space and then ﬁnd the
+Kubernetes service snippet. Now I can tab through and ﬁll everything in. I also get
+auto completes. And if I happen to make a formatting mistake, I am notiﬁed that
+there's an issue in real time.
+Now, many of you prefer to work locally in an IDE, this same YAML authoring
+assistance, it's also available for VSCode and IntelliJ via the Cloud Code plug-in.
+Cloud Code has built-in support for both Cloud Run and Kubernetes.
+In fact, if you're using Cloud Run or Functions, you don't need to know Docker. You
+can build and deploy your app with just one command because Cloud Code --
+because Code Build is integrated under the hood. This is an application with no
+Dockerﬁle. With the new G-Cloud Run deploy command, all I have to do is provide a
+name for my service and then let it know where my source code lives, which is this
+current directory. And we're deploying.
+So nice. And thanks to this ease-of-use, 98% of users deploy an application to Cloud
+Run on their ﬁrst try in less than ﬁve minutes.
+I just showed Source Code deploys the Cloud Run, but there are more ways Google
+Cloud has made deployment easier and more secure. First, I can scan my build
+container images to check for vulnerabilities. I've already run an on-demand scan on
+one of my images using G-Cloud Artifacts Docker images scan. Now, I can copy the
+ID of my scan and then view my images vulnerabilities with the list of vulnerabilities
+command. Now once that's ﬁnished, a severity level is assigned to each vulnerability
+to help you prioritize.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 7 of 69Aparna Sinha
+Abby Carey
+Aparna Sinha
+Abby Carey
+Aparna Sinha
+Abby Carey
+Aparna Sinha
+Abby CareyThat's super important. It's really helpful in addressing security concerns earlier in
+the software development lifecycle. But now, what if your build pipeline is
+compromised?
+For that, I can enable binary authorization on my deployed Cloud Run services. This
+way, only trusted container images are deployed to production.
+Binary authorization is truly unique in the industry. It enables you to put proactive
+security measures in place to reduce software supply chain attack risk by blocking
+deployments that violate policy. And speaking of deploying, we're making it
+seamless for you to do CI/CD securely. You can take advantage of serverless build
+environments within your own private network with Cloud Build private pools.
+And for advanced CD, we have Google Cloud deploy, which allows you to create
+custom, delivery pipelines for your speciﬁc use case and needs.
+That is so cool. So a real application connects to many supporting cloud services. So
+Abby, can you show us an example of how we make these integrations easier?
+Sure. When creating a cloud function. It's easy to integrate with Secret Manager.
+First, create a secret that stores your API key, which I've already done. Now, I can
+either mount it as a volume or expose it as an environment variable, I'll mount it as a
+volume and then I'll name my mount path.
+This will always point to the latest version of my secret. And now, I can securely
+reference this API key from my source code. This abstraction enables portability and
+a better local development experience. Cloud Run also integrates with seeker
+manager to make it easier to do the right thing and not put sensitive data in source.
+Love that so much. Okay. So now you've written your app, you've deployed your
+app, and you've connected your app to other Google Cloud Resources. What's next?FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 8 of 69Aparna Sinha
+Abby Carey
+Aparna Sinha
+Urs HolzleOperating your app in production. With Cloud Ops, you get one integrated view for
+your alerts, events, metrics and logs. No more jumping around multiple tools, as you
+try to understand what went wrong.
+That was so awesome, Abby. Thank you for sharing this with us.
+Thanks, Aparna.
+In each of these instances, we've done the integration work for you because the
+more work we put into this, the less work you have to do, and this principle applies
+to security as well. We've put a lot of energy into building security natively into
+everything we do, so that you can innovate with assurance. Both GKE and Cloud Run
+beneﬁt from the security ﬁxes, we implement before vulnerabilities are exposed. Just
+think about the famous vulnerability and covered in how Kubernetes was handling
+proxy requests. We found it, we coordinated and communicated the disclosure. We
+ﬁxed it for the entire Kubernetes community and we patched all our products before
+any customers were impacted. More recently, cyber threats have shifted the focus
+towards the software supply chain.
+{BIO 15314490 <GO>}
+That's right. Malicious actors are trying to compromise the software supply chain
+from bad code submission to by-passing this CI/CD pipeline all together. And to
+help solve this problems, we've proposed an industry standard called SLSA.
+It's a security framework that provides common criteria for increasing levels of
+software security through automation and through cryptographic signing at each
+stage of the software supply chain. And that makes it possible, but not necessarily
+easy and so making it easy for developers to ensure security is super important. And
+that's why we're focusing on building the security right into the developer tool chain,
+anticipating and preventing issues ahead of time not when you're most at risk. So,
+for example, Cloud Build our service that lets you build, test and deploy across
+multiple environments such as VMs, Serverless, Kubernetes or Firebase, now oﬀers
+SLSA Level 1 compliance by default. Because Cloud Build gives you veriﬁable build
+provenance.
+So this provenance, lets you trace a binary to the source code that it was built from to
+prevent tampering and to prove that the code that you think you're running actually
+is the code you are running. Cloud Build is the ﬁrst and only CI/CD service to oﬀer
+this capability, but we go beyond that.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 9 of 69Aparna Sinha
+Urs HolzleAs you've seen build integrity, automatically generates digital signatures, which can
+then be validated before deployment by binary authorization. That's another Google
+Cloud ﬁrst. And so without you needing to do anything, we prevent anyone in your
+organization from deploying code that has not been built by your legitimate build
+system.
+Now ensuring security post-deployment is equally critical. On GCP you can enable
+continuous scanning and you can use our Service Mesh to embrace a zero trust
+security model, and automatically and declaratively secure your services and the
+communication. So you can manage authentication, authorization, and encryption
+between services with little or no changes to the applications themselves. Let me say
+that again. With little to no changes to the applications themselves. So that means
+that these security improvements help secure not just new code, but also existing
+binaries, so you can use them for any application that you're migrating to the cloud.
+Both Anthos Service Mesh and now Cloud Build Hybrid are available across Google
+Cloud and your on-premise environment, and they worked with VPC Service
+Controls and VPC Peering to automate the developers security for your enterprise.
+No other cloud provider protects your software supply chain to this level because we
+started working on software supply chain security long before it was in headlines.
+And so by choosing GCP, you beneﬁt from this leading edge focus on security.
+Whether we're building foundational open-source technologies, like Kubernetes or
+Istio or turning them into fully managed services, like GKE and Anthos Service Mesh,
+our goal is always to reduce complexity for our users. By helping create these
+industry standards, we can provide safer and simpler services for you, the developer.
+And that's exactly our approach to securing the software supply chain. We've co-
+founded the open-source security foundation with other technology leaders to
+create security standards for open-source software, and we're starting to bring
+products to market like open-source insights, which provides you a complete
+transitive dependency graph for many open source packages.
+Now, let's turn back to Urs to hear why Google Cloud is best positioned to support
+you in becoming a technology leader in your industry using data as a core asset.
+{BIO 15314490 <GO>}
+Thanks. Yeah. So far, we've been talking about developing and managing code. But
+data is at the heart of many enterprises. So we also have the leading data cloud
+products in the industry, designed for optimal performance and reliability for
+applications of all sizes, while scaling to immense capacity.
+Now, let's start with databases. When it comes to databases every cloud gives you
+choices. They oﬀer SQL databases, which are great, but unfortunately, don't scale.
+And of course, no SQL databases, which do scale, but unfortunately are not SQL.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 10 of 69Aparna Sinha
+Dev Ittycheria
+Aparna Sinha
+Dev IttycheriaOnly Google Cloud gives you a third choice with Spanner, because Spanner is SQL.
+And in fact, it just got a postgres interface, but it scales horizontally and you can
+literally handle a billion requests per second. Nobody else has a scalable SQL
+system. So it's no wonder we're seeing huge adoption. Now on that data warehouse
+side, we have of course the leading cloud data warehouse with BigQuery, hundreds
+of customers are using BigQuery at petabyte scale today. Petabyte each and you can
+run of course, BigQuery Omni on AWS or Azure.
+On top of that, open source systems for data like processing, like ﬂank, spark and
+beam run natively on Google Cloud in a simpler and more cost-eﬀective way than in
+other environments. In fact, you can realize a 57% lower TCO compared to on-
+premise data leaks for data science projects. Now, on top of that savings, our Data
+Cloud also includes the world's ﬁrst and only auto scaling and serverless spark
+service. And ﬁnally, Google has deep partnerships with leading data-driven
+companies, including Databricks, Conﬂuent, MongoDB, Redis Labs and many others.
+And so together, we help customers access an open platform that powers analytics
+at scale yet is easy to use.
+Our partner community is central to the health of our Cloud business and we're
+especially excited about the innovation coming from our data cloud partnerships.
+Together, we've optimized our infrastructure for performance and eﬃciency to give
+our partners that extra edge, when they run on Google Cloud.
+One of our leading data partners is MongoDB. And we have their CEO, Dev
+Ittycheria with us today. Welcome Dave.
+{BIO 1966070 <GO>}
+Hi, everyone. Happy to be here.
+Dave, one of the trends we're seeing in our enterprise customer base is that they are
+now competing for leadership positions in their industry by becoming technology
+companies. How would you say, Google Cloud and MongoDB working together can
+help these customers achieve that transition?
+{BIO 1966070 <GO>}
+Well, Aparna, the companies who are in the leadership positions in their industries
+are those who have built their competitive advantage using software and data to
+transform their business. And the key word here is build. You can't buy a competitive
+advantage. You have to build it. This means you need to enable your developers to
+innovate as quickly as possible whether it's building new software to seize new
+opportunities or to respond to new threats. MongoDB and Google Cloud deeply
+understand this. Developers choose MongoDB on Google Cloud, because we giveFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 11 of 69Aparna Sinha
+Dev Ittycheria
+Aparna Sinha
+Dev Ittycheria
+Urs Holzlethem the tools they need to be as productive as possible, including having our
+services available in the Google Cloud console for easy discovery and deployment.
+Today MongoDB Atlas runs in 24 Google regions across the world with deep
+technical integrations with Google's analytic and AI tools. This enables our
+customers to innovate quickly and emerge as leaders in their industries. As a result,
+we're seeing explosive growth of customers embracing the true value of our
+partnership.
+That's incredible. So when you think about the development teams at these new
+customers, what's the biggest challenge that you're helping them solve?
+{BIO 1966070 <GO>}
+Yeah, when you talk to development teams, you ﬁnd that they spend the most
+amount of their time trying to work with data as serving relevant data at the right
+time to the right audience is critical to building any application. Unfortunately,
+relational databases are not designed for the way developers think or code. Nor they
+are designed for scale, fault tolerance or resilience. Consequently development
+teams ﬁnd it hard to move fast using relational databases.
+MongoDB is designed to address this problem, we make it very easy for developers
+to work with data and we're able to address the most demanding requirements of
+performance, scale and fault tolerance. The partnership with MongoDB and Google
+Cloud enables developers around the world to easy build modern software
+applications to address their needs of today and tomorrow.
+That's terriﬁc. Thank you so much for being here with us today.
+{BIO 1966070 <GO>}
+Thank you for having me.
+{BIO 15314490 <GO>}
+And yes, thanks Dave for joining us. Now there's lots of ways developers can
+improve their productivity. Automate tasks that are repetitive, master the command
+line, use the best tools that make your life easier or reuse other people's code, just to
+name a few. And another great way to accelerate your productivity is with building
+blocks or templates or fully managed services in areas like machine learning.
+Because on Google Cloud, you don't have to be an expert to build smart
+applications, with new services like Vertex AI, you can build, deploy and scale more
+eﬀective AI models quickly. So that lets you deliver the insights to your organizationFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 12 of 69Aparna Sinha
+Anupriya Srivastava
+Aparna Sinha
+Anupriya Srivastava
+Aparna Sinhathat will help them create more personalized customer experiences, run more
+eﬃcient processes, and take that leadership position in your industry.
+So with that, let's go to our next live demo. Joining me today is Anu Srivastava. She's
+going to show us how these breakthroughs in AI are advancing cloud adoption and
+redeﬁning the world of document processing. Hi, Anu.
+Hey, Aparna. We all know how to work with data when it's in a structured format, like
+in a database, some JSON, CSV ﬁles are just variables in my code, right. But what
+about unstructured data? Many of the world's business processes start to include or
+end with a document, but these documents can be diﬃcult to process. Think about
+all the ways, you could enhance your application if you could just unlock that data.
+This is where Google Cloud Document AI comes in.
+DocAI is a platform that has solutions and tooling for automating your workﬂows
+backed by machine learning. We've bundled together some of Google's ﬂagship AI
+technology such as Computer Vision, OCR, Natural Language Understanding and
+even Google's Expertise and building knowledge graphs, all to provide you with a
+simple yet powerful way to build applications that better understand unstructured
+data. Let's go see a demo of DocAI in action.
+So here we have a receipt. I was buying some oﬃce supplies since we are
+unfortunately not back in the oﬃce yet. What I'm going to do is I'm going to actually
+upload this into the DocAI platform. So in our Cloud console, we have the DocAI
+platform where we have built-in preview mechanisms so you can test out your
+documents. So this is going to an end point, which has a specialized model we have
+speciﬁcally trained on a variety of expenses. Google maintains and improves the
+models for you.
+Wait a minute. I hope this is not with my data.
+Absolutely not. We never use your data to train our models. Your data is only used to
+serve your request. So let's take a look at the data extracted.
+I've seen this before. Next you're going to tell me that you're going to automate my
+expenses.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 13 of 69Anupriya Srivastava
+Aparna Sinha
+Anupriya Srivastava
+Aparna Sinha
+Anupriya Srivastava
+Aparna Sinha
+Anupriya SrivastavaI knew you would say that this is the canonical demo use case, right? But have you
+ever seen it like this? Take a look at this ﬁeld that I'm highlighting, the supplier
+address. This address isn't present anywhere in the document.
+Wow, where did that come from?
+This is only possible with Google's Document AI. The secret sauce here is that the
+knowledge graph is able to not only give you back the original text from document,
+but it's going to enrich your response, akin to what you'd see in a search, but as part
+of your API response.
+Wow, that's really great.
+And it's not just this, we have several specialized models for many more document
+types of much higher complexity. Let's take a look at this payslip. So I ran this earlier
+and we're looking at the preview output again.
+You can see that we have some keys, we have some ﬁelds, you can see enrichment
+on the employer name and the address. Once your data is in a schematized format,
+meaning that we know for every document of certain doc type there are common
+important pieces of information. So what we did is we predeﬁned a set of keys. So
+what we do is with your extracted data, we merge your data to these predeﬁned
+keys. So it's much easier to work with an raw OCR. So once it's in a schematized
+format, it's easier to pass on to a downstream service or maybe you're using
+something for analytics like, BigQuery or Looker.
+That makes sense. But what about ensuring accuracy? And also do you have multi-
+language support?
+We know that with important documents such as these, you can't aﬀord any missteps
+when it comes to accuracy. So that's why DocAI provides a human-in-the-loop
+conﬁguration to trigger on conﬁdence scores so either for speciﬁc keys or on the
+entire document itself. And as for translation, we support over 100 languages such asFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 14 of 69Aparna Sinha
+Anupriya Srivastava
+Aparna Sinha
+Anupriya Srivastava
+Aparna Sinha
+Anupriya Srivastava
+Urs HolzleSpanish, Japanese, Arabic, no other solution on the market supports such a wide
+array of languages.
+Human-in-the-loop translation and knowledge graph capabilities that can be applied
+to a wide variety of documents. This seems super useful. Of course, the next big
+question is, can it be applied to big bulky complex documents like business
+contracts?
+Let's take a look. So here, I read a contract earlier this morning. You can see that
+there are typical things you'd ﬁnd in any contract. There are some document names,
+the parties involved, some dates and like with every easy-to-read contract being
+sarcastic here, there is an expiration term. So this expiration date actually isn't
+present anywhere in the document and it's actually not easy to ﬁgure out. It's not in
+an easily parsable format. Shocker, Google's contract processor is able to ﬁgure out
+this date value by understanding signals found across the entire document.
+Wow. Well, Anu before you go. Can you tell our awesome developers, how they can
+get started with DocAI?
+Absolutely. So I know we covered a lot at just breakneck speeds. So check out the
+breakout sessions on DocAI to dive deeper. You can also check out the
+documentation for Codelabs and Quickstarts. We have client libraries in all of your
+favorite languages such as Python, Node.js, my personal favorite is Java. But it's an
+API, so you can really use this with whatever platform or framework you're already
+using. We are thrilled and look forward to see how you use Google DocAI to power
+your applications.
+That was amazing. Can I have a high ﬁve? Yeah, thank you, Anu. I loved every part of
+it.
+Thank you for having me.
+{BIO 15314490 <GO>}
+Another area that Google has invested in deeply and that's becoming more
+important to more companies is sustainability. Many cloud providers have a visionFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 15 of 69Aparna Sinha
+Urs Holzle
+Aparna Sinhafor as in sustainable future. And many aim to have to match their electricity
+consumption with a 100% renewable energy by 2025 or 2030.
+We accomplished a 100% renewable energy in 2017. So we're the only hyperscale
+cloud to do this today. And all that with data centers that are twice as eﬃcient as the
+average data center.
+This past week, Sundar talked about Google's goal to enable over a billion users to
+live and work more sustainably by next year. To reach goals like this, and those
+outlined in climate pledges made by more organizations every day. We rely on
+developers like you to do something about it, but we also know that it's diﬃcult.
+{BIO 15314490 <GO>}
+That's right. One of the biggest challenges that companies face is that they lack the
+tools to account for environmental costs and to help developers address this for
+their organizations we built sustainability tools directly into Google Cloud. With
+Google Cloud carbon footprint, you have access to the energy-related emissions
+data that you need for external carbon disclosures in just one click. Now you won't
+need this calculator, if you just want to report the net carbon footprint of your
+workload on GCP, because on GCP, it's always zero.
+We also have our region-picker where you can choose the data center region with
+the lowest gross carbon cost right now. Of course, again your net impact is zero, no
+matter what region you pick. But this tool lets you help go one step further to
+become carbon free, not just carbon neutral. Now that's actually a tool that I can't
+wait to deprecate in 2030 or so, because Google Cloud has committed to be 100%
+carbon free by 2030, every hour of every day. Now, we also realize there's still a lot
+to learn when it comes to building sustainably and to help, we just released a master
+class called Sustainable IT Decoded with some of the world's top experts. So check it
+out for guidance on how we can all build more sustainably.
+Now we all were proud to run the cleanest cloud in the industry, we're even more
+inspired by the work that our customers are doing with Google Cloud to solve
+climate change challenges that are unique to their business. And today, we bring
+you a preview of Google Earth Engine and its integration with Google Cloud.
+With over 700 datasets and 50 petabytes of data today, Earth Engine gives scientists
+and developers access to the world's largest catalogue of satellite imagery and to
+tools for driving sustainable impact.
+So let's look at this in a bit more detail. With an example of how Google Earth
+Engine and Google Cloud enable customers to assess risks arising from climateFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 16 of 69Joel Conklingchange. But instead of me telling you about it. We've invited Joel Conkling to show
+you.
+{BIO 17246128 <GO>}
+Thanks, Aparna. The world is constantly changing and that creates opportunities and
+risks. Helping uncover critical insights about the changing world, that's why we are
+integrating Earth Engine into Google Cloud. Now integration is now in private
+preview. Today, I'll demo a workﬂow that combines Vertex AI, Earth Engine, BigQuery
+and Google Maps platform to show how Google Cloud makes it incredibly easy for
+you to innovate and deliver insights and do it quickly. So here's a scenario.
+You work at an insurance company and you need to analyze your company's
+exposure to ﬂood risk. You think new buildings may be a strong contributor to that
+risk. You want to test your hypothesis. To do that, we ﬁrst needed to understand
+where the built environment is expanding. In other words, we just need to categorize
+the surface of the entire planet. That could be hard, but Vertex AI oﬀers the tooling
+to develop a best-in-class ML model, and Earth Engine provides constantly updated
+data.
+Let's fast forward a bit. We ﬁnished training our model and now Earth Engine is
+sending satellite imagery to be categorized. So your understanding of the world can
+update in near real-time. Here's the Earth Engine script showing the results of that
+model. This area in red is where the model estimates the locations of buildings,
+that's your current built environment. To ﬁnd the change over time, we need a few
+more lines of code. These lines of code give us a built environment to 2016 and here,
+we calculate the diﬀerence between 2016 and today. When there's a change, it
+shows up in purple on the map. This is where there are new buildings. So next, we're
+going to export, sample and export the data, so we can do additional analysis in
+BigQuery.
+Over into BigQuery console, this script clusters those data points here and then
+outputs polygons that show the areas with the biggest changes in the built
+environment. So at this point, you have a few options. You could combine this data
+with ﬂood locations, you identify around the world. Also with Earth Engine, maybe
+you want to enhance your model with weather data and physical terrain data that's
+available on Earth engine, too. You could also include data on your company's
+insurance portfolio to gain additional insight into critical risks.
+We'll wrap up this demo by visualizing our results in a new feature available in
+Google Maps platform. The open source data viz library deck.gl with a BigQuery
+connector provided by CARTO. So we now have a clear picture of where the built
+environment is changing and where to focus next for our work on ﬂood risks.
+In summary, no wrangling data, no need to manage infrastructure just actionable
+insights incredibly quickly. We can't wait to see what you'll do with Earth Engines
+new integration with Google Cloud. And with that, I'll pass it back to Aparna.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 17 of 69Aparna Sinha
+Urs Holzle
+Aparna Sinha
+Urs Holzle
+Aparna Sinha
+Urs Holzle
+Aparna SinhaThank you, Joel. It's incredible to see how our customers can use our sustainable
+technologies to address climate change now. I'm really inspired by all the things
+we've talked about today and thinking about how you're going to lead your
+companies into the future, that's super exciting. No pressure, but it's really up to you.
+We've invested millions in the developer community over the last ﬁve years and we'll
+continue to invest in the coming years. And Urs as proof of that I understand you
+have some additional news to share today.
+{BIO 15314490 <GO>}
+Absolutely. I'm really excited to announce today, our new developer community
+program called Google Cloud Innovators. I want to welcome and introduce our ﬁrst
+group of leaders who are driving meaningful impact in the industry and their
+community. So take a look.
+(Audio-Video Presentation)
+This is so exciting.
+{BIO 15314490 <GO>}
+Yeah. Through this program, we'll give developers access to early technology
+previews and Google engineers. We'll recognize the expertise of our community
+inﬂuencers by promoting their contributions, and we will work closely with them to
+solve the toughest problems. So we're excited to come together with this group of
+innovators. Join us at cloud.google.com/innovators.
+So cool. I've been waiting for this all this time. Community is extremely important for
+companies to create that much-needed human connection with developers. And we
+hope that this gives you a window into the motivation that you all give Google to
+build cloud products and services that developers love.
+{BIO 15314490 <GO>}
+And we look forward to partnering with you to become the greatest tech companies
+in your industries.
+Remember to join us next at the live developer Q&A session and also tomorrow at
+Community Day. Enjoy the rest of the show.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 18 of 69Urs Holzle
+A - Aparna Sinha
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly{BIO 15314490 <GO>}
+Thanks, everyone.
+Questions And Answers
+(Question And Answer)
+Hi, everyone. Thanks for joining us today for the developer live Q&A. I'm Aja. And a
+reminder, that this Q&A is live. If you want to join the conversation reach out on
+Twitter with the #GoogleCloudNext. We've reached out asking for your questions on
+social media and you all have been responding. We will be answering your
+questions during the next 20 minutes. And ﬁrst of all, let's welcome Priyanka, who's
+here to answer your questions with me today. Hi Priyanka.
+Thanks, Aja. That keynote was absolutely amazing. Yes. So let's get into the goodness
+that Urs and Aparna shared a highlight for me was really that upcoming
+documentary on Kubernetes, so cool. I also enjoyed the Google Cloud innovator
+community announcement, securing software supply chain and building sustainably.
+What caught your eye?
+A lot of the stuﬀ you just mentioned. Deﬁnitely our innovations and sustainability, the
+ability to see your carbon footprint of your cloud workloads is really, really cool.
+When I heard about it in yesterday's keynote, I immediately went and looked at all
+my personal projects to see the carbon costs of what I had been doing. And I love
+having that kind of data to use in decision-making like it help me make the right
+decisions. But I'm mostly really, excited about the cloud innovators program. I've
+really missed interacting with our Google Cloud Dev Community.
+I wanted to hear and see all the amazing things the community has been up to. And
+the innovators program should let us do that and we're working on some super
+special Innovators Only events in 2022 that I can't wait to tell the community about.
+Wow. Yeah. That all sounds really amazing. I'm also excited about that secure supply
+chain announcement SLSA. And how the combination of cloud build and binary
+authorization actually helps kick start your journey to secure your software artifacts
+by fully automating that build process.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 19 of 69A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka VergadiaYeah. That's just so interesting. That's so cool. So let's get -- to our ﬁrst question.
+We've got the questions coming in, just for the folks at home, the backstage crew is
+looking for your tweets as well. So keep them coming in during the thing we will be
+bringing them in live.
+So our ﬁrst question is from Asher. And it is, who would be good candidates for the
+participation in the private preview of Earth Engine.
+Yeah. So anybody who is like doing work on sustainable things, right? So with the
+sustainability lens, if you're thinking about ﬁnancial services, the customer packaged
+goods and their impact on the environment and how all of that can be combined
+together. So, yeah, anything that you're doing with the sustainability lens, obviously,
+it's in private preview. So you have to qualify and stuﬀ, but if you have that angle of
+sustainability, you're probably a right ﬁt for it.
+Awesome. Thank you for that. Second question, came in from Priyanka's Twitter. I saw
+this one this morning as I was coming in to do this Q&A. And this one is any
+examples -- do we have any examples of end-to-end spark based pipelines for ML.
+They'd love to see them. Speciﬁcally they're interested in learning how Serverless
+Spark can be leveraged in big data and ML Ops framework on Google Cloud.
+Yeah, so thank you for this question. I think it came from Pranav. I saw my Twitter this
+morning. So really what it's all about is the Serverless Spark ML framework is about
+you not having to create your back-end infrastructure to run Spark. So that's all taken
+care of for you, so you can just run your workloads, which is in this case like you're
+trying to run a machine learning Spark job. You can just get started by not worrying
+about the infrastructure, so that's one part.
+The other piece of it is the Vertex workbench, which is the Jupyter notebook, but
+hosted, but it also gives you the opportunity to connect with Dataproc or the Spark
+ML jobs that you might have built and run all of that. So as a Data Scientist, I can just
+use my workbench. And that becomes my home to kind of get the data, massage it,
+connect with Dataproc Spark ML jobs, and then get all those predictions right in that
+one spot.
+Awesome. Thanks, Priyanka. That was a really comprehensive answer. So now we
+have a question from Christopher. And it's what are the beneﬁts of the innovators
+program? You mind, if I take this one?
+Yeah, please.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 20 of 69A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka VergadiaSo the big beneﬁt of the innovators program is going to be access to innovators only
+events. Like we're going to be doing some AMAs we're planning right now, road
+map meetings potentially. And there's also an innovators virtual background that you
+can download and then use in your Google Meet meetings.
+Wow, another question came in from Twitter. Awesome. So let me read this one. My
+POV. Massive focus on the security -- massive focus on security focus in the
+developer cloud. Isn't this a topic that matters more for the managers of developers
+than for developers? And I'll take this one too if it's cool with you.
+Yeah.
+So I'm a manager. And yeah, that's a really good question. Security is vital to all
+aspects of software development and security needs to be everyone's job. Yeah,
+managers need to care a lot about it, but we need to make the tools, so that
+developers can do the right thing automatically. And that everyone is participating in
+making our cloud more secure. And we talked about some of those things. We
+talked about our tooling that can help you to make sure that you put your secrets in
+secure locations as opposed to putting them in code.
+We talked about the SLSA. We talked about lots of other parts and all of this is part
+of a secure software supply chain, but security does need to be everyone's job.
+Managers can help by teaching their developers and enforcing it, but everyone
+needs to take the steps to make things more secure. So yes, good point, but
+everyone is involved.
+Okay. This is a great one from Priyanka's LinkedIn. Is it possible to connect to the
+public IP of a cloud SQL instance from a private cloud run service, we have been
+asked this one before when visiting customers?
+Yeah.
+Also, is this a -- is this cross project setup? Cloud Run service and Cloud SQL
+instance are on separate GCP projects. So can you do a cross project setup with your
+database in your running room service somewhere else, Priyanka?
+You actually can. So you have, so in this scenario, you have a Cloud SQL instance in
+one project and you have your -- you have your compute or whatever is calling thatFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 21 of 69A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerlycloud SQL instance in another project and you could totally make them work by
+using what is called as private server -- private service access. What it does is it
+connects the two together even with a private IP? So you don't even have to expose
+a public IP for your Cloud SQL instance, which as again comes back to the security
+point, you were making earlier.
+Everybody has to think about security. So you're not exposing with public IP. You're
+just using the private IP of your Cloud SQL instance and connecting it to the virtual
+machine or wherever you're running your compute to call your search from. So it's
+possible, private service access is the service you're looking forward to kind of
+connect the two together. It's a VPC oﬀering.
+Awesome. Thank you so much, Priyanka. Cool. A question from Andy. This is one of
+my favorites. So there's a lot of ways to run an application on Google Cloud. It's a
+huge platform. How do I know what should I choose? Where do I run my stuﬀ?
+Should I run it on GKE, Compute Engine, Cloud Run? So many good choices.
+Yeah. This is a question we get a lot, right? And it's -- it really just depends on your
+situation. And the situations can be a lot, the type of team, the size of team and the
+number of number of developers you have and the languages that you might be
+using. So there are lots of diﬀerent scenarios in which you can decide. So I'll give an
+example of a few. So for example, Compute Engine. Like, if you're migrating and you
+just want to get from on-premise infrastructure into cloud and you just want the
+speed, you just want to get there. I would choose Compute Engine to just migrate as
+is and then modernize later if needed. Sometimes you don't need to modernize,
+because if you have licensing requirements and stuﬀ like that. So that's Compute
+Engine. If you want to work with containers, need a little bit more abstraction -- less
+abstraction. You can work with containers with GKE and that gives you a lot more
+control over the number of nodes you have and the processing that you're using.
+But if you might be just wanting to run containers, but don't want to manage the
+underlying infrastructure by nodes and stuﬀ like that and the regions, just use Cloud
+Run, because it's serverless, but it allows you to use your container images and just
+deploy them.
+Cloud Functions is kind of like everywhere. So you're trying to do -- we handle one
+function or a piece or a feature of code that you just deploy in a function -- as a
+function as a code sort of service, but it kind of applies everywhere. So I wouldn't
+say, so cloud function is not like or it's more of and, like it works with any of those,
+just more of an extension and enhancement of your services with serverless. So I
+hope that helped clarify a little bit of that, but there's a lot that goes in that decision.
+Yeah, I know and I really liked how you called out the cloud functions is not an or, it's
+and, Cloud Functions is just fantastic it is tying pieces together. It is one of the thingsFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 22 of 69A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja HammerlyI love about it. And I'm just going to point out for folks that we have sessions on all of
+these in the breakouts. So if you want to go learn more about these, go look in our
+breakouts and you can ﬁnd out more about the diﬀerent oﬀerings that Google Cloud
+has.
+So now we have a question from Esther. What languages do Cloud Run and Cloud
+Function support? Let's see if I can do this from memory, I've been practicing. So
+GCF. These are the standard languages you see on Google Cloud. We've got
+Node.js, Python, Go, Java, .net, Ruby and PHP. I got them all. Awesome.
+Cloud Run supports any language or any library, or any binaries that you can put in
+the container. But if you want to use the source code deploys feature that Abby
+showed earlier. That is supported on Node, Python, Go, Java and .net. And speciﬁc
+versions of those languages are supported. So please do go to the website and
+make sure the version that you need is the one that we support.
+Great memory by the way.
+Oh, yeah. I'm really good at naming all those languages. So from Salina. Oh, yes,
+great question. When should I use GKE Autopilot versus Cloud Run?
+I'll let you take that one.
+You are going to let me take this one?
+Yeah.
+Okay. So this pretty much boils down to, do you want Kubernetes or not. If you want
+Kubernetes, if you want the enhanced ﬂexibility that Kubernetes has, or you want to
+have all those knobs and dials that you can turn to really ﬁne-tune everything for
+your networking needs or your particular load proﬁle, use GKE Autopilot. If you want
+to -- if you have a container and you want to run it on GCP and that's your goal,
+Cloud Run is great, Cloud Run is fantastic at that. And as we pointed out, you don't
+even need a container if you use Cloud Run source deploys for those languages I
+just mentioned.
+More questions. Oh, this one is for you Priyanka. This is from Caleb. What ﬁle formats
+are supported with the DocAI stuﬀ that you talked about?FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 23 of 69A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly
+A - Priyanka Vergadia
+A - Aja Hammerly
+A - Aparna SinhaOh, yeah. So you can do images and PDFs. It's really about the unstructured image
+data. So PDFs and images.
+So okay. Let's see what else we got. Oh, this one is from Mark and another one for
+you Priyanka. It's another security question. So can you tell us more about binary
+authorization? We covered it very brieﬂy in the keynote, but it's something I've been
+hearing a lot about and I'd love to know a little more about it.
+Yes. So again, it kind of boils down to the whole like security narrative that, that you
+mentioned that everybody is kind of responsible for the security of the entire
+platform. So in this case, but with binary authors really deploy time security. So you
+are deploying and making sure that your images or container images if you're using
+GKE or Cloud Run works with binary odd.
+So when you're -- at your deployment stage, you have -- you can provide signature
+authorizations on your images. So if -- and the veriﬁcation on the authorities for
+those. So if they are authorized only binary art will apply the authorizations and once
+the image is authorized only then you can deploy it.
+Awesome. So I just got the signal that we're running out of time. So this is going to
+unfortunately be the last question. And this question comes from Wesley. Can I use
+the build integrity features with my on-prem software?
+Huh. Okay. Yeah. So you kind of can. So with Cloud Build it's really any container
+image which is built on Cloud Build. You can use both on -- you can use it in both on-
+prem or on Google Cloud. You just have to use the binary attestation Cloud Build.
+And it's on the GitHub page, so you can check that out. But if you're building it
+within Cloud Build, you can deploy it on-prem or in Google Cloud.
+Thanks Priyanka. Well, that was a lot of fun. It was great to hear all the questions from
+the audience. You all had some great ones. And I want to say, just a huge thank you
+to Priyanka for joining us and answering so many of those questions. Be sure to join
+us back over on g.co/couldnext as the open infrastructure spotlight will be kicking
+oﬀ shortly and they have some amazing things that they're going to show oﬀ. Thanks
+for joining us, everyone.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 24 of 69Hi, everyone. I hope you enjoy the Dev Keynote. I'm Jeﬀ Reed, VP of Product for
+Application Modernization Platform at Google Cloud. Thank you so much for being
+with us here today. In most of my conversations with customers, I found they are
+accelerating their technology adoption through the use of cloud-based services to
+build and deliver new capabilities, like curbside pickup in retail, remote diagnostics
+in manufacturing, and completely new experiences to better support their end
+customers.
+Today, I'm going to share some exciting announcements that will further empower
+you to digitally transform your organization. We recognize that each company has
+unique cloud needs. So we at Google Cloud are focused on three areas to support
+you in whatever stage you are in your cloud evolution.
+First, we set out to make your migration or modernization path easy. With Google
+Cloud, you can easily evolve your existing applications or build new cloud-native
+apps. Second, our open platform extends Google Cloud services and engineering
+practices to hybrid and multi-cloud environments for consistent service delivery. And
+third, our PlanetScale distributed infrastructure is transformative and delivers the
+highest level of performance and availability in a secure and sustainable way.
+One of our primary goals is to make it easy for you to deploy and scale and manage
+Kubernetes anywhere. In the years since Google invented Kubernetes, containers
+have completely revolutionized IT operations. Given our history, it is not surprising
+that Google Kubernetes Engine, GKE, is the leading solution in the market, and even
+Gartner agrees. In the recent Gartner Solution Scorecard, GKE scored 92 out of 100,
+making it the absolute strongest strategic option among public cloud Kubernetes
+services.
+Until now, Kubernetes involved a fair amount of manual conﬁguration. You have to
+manage your own clusters, nodes, GMO ﬁles, it's a lot. With our introduction at GKE
+Autopilot, a new mode of operation in GKE, we're making it much easier for you to
+use Kubernetes. Google provisions and manages the entire clusters underlying
+infrastructure, including the control plane, node pools, worker nodes, letting you and
+your developers focus on your software, while GKE Autopilot manages all aspects of
+the infrastructure.
+In the midst of the pandemic, we saw a large number of our customers adopting
+serverless technologies. And that's no surprise, since serverless technology enables
+companies to rapidly develop and deploy any application in a fully automated
+environment. With services like Cloud Functions, Eventarc and Workﬂows, you can
+easily set up event-driven serverless workﬂows that connect into Google Cloud,
+third-party SaaS services or your own applications. Serverless is also about running
+complex workloads at scale, while still preserving a delightful developer experience.
+In fact, serverless with Cloud Run is about delivering a true developer platform with
+the ﬂexibility to run any language, any library, any binary.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 25 of 69A - Rae Wang
+A - Jahidul Khandaker
+A - Suraj Rao
+A - Rae Wang
+A - Suraj RaoYou can bring traditional workloads such as Java Spring Boot, ASP.NET and more to
+serverless compute now. Whether it's GKE Autopilot, Cloud Run or Cloud Functions,
+our goal is to make it easy for you to build and scale apps how you want and where
+you want.
+Our second focus area is delivering open infrastructure cloud. It relies on open
+source-based technology, like Kubernetes, Istio and Knative, delivering the
+portability you expect. It also oﬀers you the choice and ﬂexibility to build the
+manager apps across multiple clouds. To realize these beneﬁts, Anthos operates as a
+cloud-backed control plane that provides consistent development and management
+at scale across both edge, on-premise, and multi-cloud environments. It then
+enables you to build and manage global ﬂeets and establish operational consistency
+at scale.
+Let's hear from my colleague, Rae Wang, who interviewed Jahid Khandaker and
+Suraj Rao, the CIO and Global Head of Advanced Analytics at Western Digital on
+their multi-cloud journey.
+{BIO 20628940 <GO>}
+Welcome and thank you for sharing your insights with our audience. We have been
+working together since 2019 on Western Digital's cloud transformation. What initially
+prompted you to focus on modernizing applications and standardizing software
+delivery across the organization?
+Thank you, Rae. We are happy to be here. As a result of various merger and
+acquisitions, WDC became an integration of three corporations: HGST, WDC and
+SanDisk. To support very diverse infrastructure and IT environments across the three
+entities, switching to a cloud strategy became an imperative for driving to a
+standardization.
+Now, Jahid mentioned about the cloud strategy. In 2018, we saw tremendous growth
+in IoT applications from our global factories that required low-latency and high-
+speed on-premise solutions. However, now we were faced with this daunting task of
+keeping our on-premise and the cloud solutions synched up. This led to exploring
+solutions that provide a uniform management plane across our hybrid environment.
+After trying multiple solutions for over two years, we chose Anthos. Anthos gives us
+vendor-agnostic solution that works across GCP and on-premise environments, while
+keeping the doors open for a multi-cloud future.
+{BIO 20628940 <GO>}
+That is great to hear, go Anthos. So, what does hybrid and multi-cloud strategy mean
+to Western Digital?FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 26 of 69A - Rae Wang
+A - Jahidul Khandaker
+A - Rae Wang
+A - Aparna SinhaSure, Rae. Western Digital is making a pivotal strategy shift to Anthos for our big data
+platform. We are migrating more than 25 business-critical applications seamlessly to
+this hybrid environment with Anthos. This move has several advantages: a richer user
+experience, greater security and enhanced ﬂexibility to manage factory applications.
+Some of these critical applications include image analysis on millions of images a
+week for factory disposition, machine learning workloads for real-time factory
+decisions and many, many others.
+{BIO 20628940 <GO>}
+Thank you. That's a great strategy and some amazing use cases. Now looking
+forward, what are your upcoming digital transformation goals in the next three to ﬁve
+years for Western Digital?
+Rae, the future at Western Digital is very exciting. We want to deliver excellence
+everywhere. Ultimately, we see cloud technology as an enabler of our key business
+priorities, reduce time to deliver services, rationalize our application footprints and
+meet customer demand for IoT and edge applications.
+{BIO 20628940 <GO>}
+Thank you, Jahid and Suraj. I look forward to amazing work from this great
+partnership.
+Thanks, Jahid, Suraj and Rae. Since we announced Anthos back in 2019, we are
+thrilled with the reception it has received in the market. In fact, as of Q2 2021, Anthos
+compute under management grew more than 500% year-over-year. And today,
+we're extending Anthos for even more workloads in more environments and in more
+locations. We're announcing Anthos for VM to support development teams that want
+to standardize in Kubernetes, but have existing workloads running on virtual
+machines that could not be easily containerized. Once you shift or attach VMs
+directly to the Anthos environment, you can leverage declarative conﬁguration and
+policy management with Anthos Conﬁg Management, and end-to-end application
+visibility and security with Anthos Service Mesh.
+We're also introducing, one of my favorites, Anthos Multi-Cloud API, which enables
+you to provision and manage GKE clusters running on AWS and Azure infrastructure
+through a centralized Google backed control plane. Generally available today, the
+Anthos Multi-Cloud API ensures your team has a consistent experience to create,
+manage and update GKE clusters, regardless of which major public cloud you're
+using.
+Thank you for joining us on the path to revolutionizing cloud computing. Now, I'm
+going to hand it over to Sachin Gupta, VP, GM for Infrastructure and longtime friend
+to talk about how we're extending these innovations to dedicated environments.
+Great to see you, friend.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 27 of 69A - Sachin Gupta{BIO 20660275 <GO>}
+Thanks, Jeﬀ. Great to be here in person. And it's great to see you all. Our goal in
+Google Cloud is to meet you where you are in your digital transformation. We
+understand some of your workloads cannot move to the public cloud entirely due to
+various factors, such as high amounts of local data processing, low latency
+requirements or strict data security and privacy requirements. But as you heard
+yesterday from Thomas, we're working to help you solve some of these constraints.
+With the announcement of Google Distributed Cloud, we are extending our
+infrastructure to the edge and to your own data centers. This announcement allows
+you to further digitize your business applications by ensuring they have the speed,
+intelligence and processing power in managed heterogeneous environments. And
+we're approaching this from a diﬀerentiated standpoint relative to other cloud
+providers.
+First, we bring Google's AI and analytics solutions closer to where the data is being
+generated and consumed to harness real-time insights. Second, Google Distributed
+Cloud is enabled by Anthos. It helps you to build and run applications on GKE
+clusters and virtual machines anywhere with the cloud-backed control plane for
+consistent management at scale. And third, our PlanetScale infrastructure delivers
+the highest level of performance and availability on the most secure and sustainable
+platform.
+Google Distributed Cloud is a fully managed integrated hardware and software
+solution. Meaning, you don't have to worry about the underlying infrastructure, and
+can focus on your applications and business initiatives. We aim to simplify
+operations, leveraging Google's expertise and track record in areas like scale
+deployment, ﬂeet management and site reliability engineering. This allows you to
+focus on your business priorities and leave the complexities to us.
+Google Distributed Cloud is designed for running sensitive workloads that meet
+sovereignty requirements and oﬀers private 5G LTE solutions for enterprise
+customers. There are four deployment scenarios depending on the customers'
+need: the Google network edge, the operator edge, the customer edge and
+customer data centers.
+The ﬁrst use case I'll talk through is that Google's network edge, which is designed
+for single and multi-tenant use cases, leveraging over 140 Google network edge
+locations worldwide.
+Next is the operator edge. This is owned by communication service providers for
+both single and multi-tenant cloud use cases. As I mentioned before, you'll beneﬁt
+from 5G LTE services provided by our operator partners. It can accommodate
+emerging services and applications with stringent latency and reliability
+requirements. For example, online games and game streaming depend on low
+latency to preserve the end-user experience.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 28 of 69A - Rasesh Patel
+A - Sachin Gupta
+A - Rasesh Patel
+A - Sachin Gupta
+A - Rasesh PatelThen we have the enterprise customer edge. These are customer-owned edge
+locations, such as retail stores, factory ﬂoors or branch oﬃces, which require
+localized compute and processing directly in these edge locations.
+Next, the customer data centers are customer-owned facilities or colo facilities and
+are set up for single and multi-tenant hybrid scenarios. It's also ideal for lifecycle
+management of virtual network functions for communication service providers that
+reside on-premises, such as cloud native build-out of private 5G networks.
+Google Distributed Cloud also includes a hosted mode to run sensitive workloads.
+Hosted mode helps you meet sovereignty needs by addressing data residency with
+strict security and privacy requirements, all while providing you with a way to
+modernize on-premise deployments. Customers can manage this directly or host
+through a designated and trusted partner. The good news is that hosted mode does
+not require connectivity to Google Cloud at any time to manage infrastructure, and
+uses a local control plane for operations. Upgrades and patches are oﬀered by
+Google and veriﬁed by the trusted partner.
+To learn more about how customers are leveraging Google Distributed Cloud, I'd
+like to welcome Rasesh Patel, Chief Product and Platform Oﬃcer, AT&T. Rasesh,
+welcome to Next.
+{BIO 16303010 <GO>}
+Thanks, Sachin. It's so good to be here with you today.
+{BIO 20660275 <GO>}
+Rasesh, why don't we dig right in and have you tell us about how you are looking to
+leverage Google's Distributed Cloud for your edge and computing needs?
+{BIO 16303010 <GO>}
+You bet. I'd start with saying AT&T and Google have similar goals when it comes to
+edge compute. We both want our business customers to build and run modern
+applications close to their end users. By moving compute workloads closer to the
+user, we can reduce latency to levels that will allow for a whole new range of mobile
+experiences that weren't possible before. Sometimes this compute will be on the
+network edge. Sometimes it will be at the customer premise. But regardless of where
+the compute workloads occur, this is not something AT&T is going to do alone.
+{BIO 20660275 <GO>}
+That is tremendous. It is really fascinating how communications has been able to
+inﬂuence business revolution. And it looks like you are poised to do it all over again.
+So what kind of new business outcomes do you think we can bring together with 5G
+and edge?
+{BIO 16303010 <GO>}FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 29 of 69A - Sachin Gupta
+A - Rasesh Patel
+A - Sachin Gupta
+A - Rasesh Patel
+A - Sachin GuptaYou're absolutely right, Sachin. Our goal is to create net new business services and
+customer experiences. Let me give you some industry examples.
+In retail, services including streamlining automated inventory management,
+predicting and managing cues, even enabling cashier list checkout options will
+come to life. In healthcare, we see secure multi-gig connectivity for all devices within
+a hospital. The advent of remote patient diagnostics and care and rapid data transfer
+between ﬁeld-based emergency medical services, like an ambulance, and hospitals.
+And in the entertainment industry, we're enhancing in-venue experiences for
+concerts and sporting events, with solutions ranging from immersive AR and VR
+experiences, smart parking, ticketless entry, to contactless food and souvenir
+payment.
+{BIO 20660275 <GO>}
+Last question. What are your goals for AT&T and Google partnership in the next
+three to ﬁve years?
+{BIO 16303010 <GO>}
+Well, our work together brings market-transformative capabilities to businesses
+across many industries. 5G and ﬁber-based edge connectivity and compute with
+Google's powerful ecosystem that includes maps, voice recognition, AI, Android and
+many other capabilities, enables the development of these next-gen experiences in
+an accelerated time-to-market.
+And we're looking forward to a lot of expansion. We're bringing our network-based
+solution with Google Cloud to over 15 major markets in the next several years. We
+have plans to roll out the services in major metro markets including Chicago, Atlanta,
+Dallas, Miami, San Francisco and many more. So stay tuned.
+{BIO 20660275 <GO>}
+Thank you for joining us, Rasesh. And we look forward to continued success and
+delivering joint value to our mutual customers. Thank you again, Rasesh.
+{BIO 16303010 <GO>}
+Thanks for having me.
+{BIO 20660275 <GO>}
+Everything you just heard about Google Distributed Cloud is made possible by
+Google's PlanetScale infrastructure. To ensure you are successful, our infrastructure
+delivers several key diﬀerentiated beneﬁts, including a global network construct,
+performant and customizable compute services and reliable and secure storage.
+First, at the core of this infrastructure is the world's largest and lowest latency
+network with 27 regions, 82 zones and 146 points of presence, located in more than
+200 countries, all interconnected with 16 subsea cables. It enables companies like
+Major League Baseball, Wayfair and 1-800-Flowers to quickly migrate existingFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 30 of 69A - Richard Seroterenterprise workloads to Google Cloud. And we're continuing to invest in our global
+network and global reach. This year alone, we have already added four new cloud
+regions: Warsaw, Delhi, Melbourne, and Toronto.
+Moreover, with simpler networking solutions, such as Network Connectivity Center,
+you can easily connect SD-WANs, VPNs and Interconnects with a centralized
+management model and monitor the network with Network Intelligence Center. And
+with Private Service Connect, you can connect at the service layer without
+conﬁguring the underlying network.
+Second is our performant and customizable compute platform. Compute engine
+allows your applications to achieve higher reliability, security and scale, without any
+of the operational toil. We've recently announced a new VM family, Tau VMs, which is
+optimized for scale-out digital-native workloads. Tau VMs oﬀer 42% higher price
+performance than alternatives from any other leading cloud provider.
+As of today, I'm also excited to announce the preview release of new Spot VMs.With
+Spot VMs, you can use excess compute capacity at deeply discounted rates. And our
+new Spot VMs oﬀer better savings and more predictable pricing than alternatives
+from any other leading cloud.
+Third, our business continuity and storage options. Our strategy is about tailoring
+your storage needs to your workload so we can meet your price and performance
+needs. To advance our storage as the best option for global enterprises, we had
+recently introduced three important new services.
+The ﬁrst is backup for GKE, which is an easy cloud-native way for customers to
+protect their conﬁguration and data running in their stateful containers. The second
+is Filestore Enterprise, our cloud-native managed NFS storage solution that oﬀers
+99.99% availability SLA and is ideal for running enterprise applications such as SAP
+and GCP. And the third is additional robust business continuity features for cloud
+storage, that extends the unique single namespace model we have with dual region
+buckets. You now get more choice in where your data is stored with custom dual
+region buckets. And the option of a new market-leading 15-minute RPO SLA.
+We're passionate about helping customers continually evolve their approach to
+modernization and bring more of their applications and data to the cloud. Google
+Cloud is PlanetScale, available wherever you need it, while also providing cutting-
+edge innovations in performance and security. Our goal is to make your journey to
+cloud easy by oﬀering transformative capabilities to help you innovate faster and
+save money through an open approach that enables ﬂexibility and choice.
+Next, I'm going to turn it over to the demo team to bring the magic of Google Cloud
+to life. So stick around. And after the demo, we'll be taking your questions in a live
+Q&A. See you then.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 31 of 69A - Vidya Nagarajan-Raman
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard SeroterHey. Welcome, everyone. I'm Richard.
+Hi. I'm Vidya.
+We're really glad you joined us here today. We're going to have a lot of fun talking
+tech. And I wish you could be here with us personally, but we're live at least. That
+means we can kind of say anything. Like I could say, Google should bring back
+Google Reader, and I'm still working here. So that's awesome. If you have other hot
+takes, you want to share some feedback, put it in the chat. We can see that stuﬀ live
+right now. So keep your comment.
+{BIO 21475323 <GO>}
+If you can't see the live interactivity, please click on the blue Join Live Interactive
+Experience button on the Next website, and we'll see you on the other side. For
+those of you just joining us from the spotlight session, you heard about some of our
+new product announcements including Anthos for VMs, Anthos Multi-Cloud API, and
+the Google Distributed Cloud.
+Yes. Awesome. In next 15 minutes, we're actually going to show you all of these in
+action, which is great. So here's what we're going to do together. First, we're going
+to migrate something, and demonstrate how to get some new value from an old
+system by moving VM-based applications to a newer containerized platform. And
+we'll start by showing you how to run a legacy happening serverless platform. So
+buckle up, Vidya.
+{BIO 21475323 <GO>}
+Next, we'll create. We'll build a new experience for customers through our AI-
+powered software. And then we'll deploy with some brand new deployment tools,
+unique to Google Cloud.
+Love it. Finally, we're going to be expanding our deployment targets. We're not just
+shipping the cloud anymore, but extending that awesome path to production to
+other public clouds and even closer to your customers at the edge. All right, let's
+switch some things up. Shall we?
+I now work at Symbol Shops, probably because I'm a Google Reader crack. So let's
+pretend that I am the Director of IT at this company, Symbol Shops. And like many of
+you, our global business has been shifted because of increasing demands online.
+And at the same time, we have some problems. So old software was never meant for
+all the customer load we're putting on it now. It's holding us back. We're trying to
+oﬀer mobile experiences, real-time stuﬀ. We have to do it as quick as we can. AndFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 32 of 69A - Vidya Nagarajan Raman
+A - Richard Seroterlook, I can't rewrite everything. So how do we reduce some cost and add some
+capabilities to that existing software, a little easier without much -- too much eﬀort?
+So I want to start with a smart migration approach. I want a repeatable eﬃcient way
+to move old systems to newer stuﬀ, maybe even a serverless one. But Symbol Shops
+needs help from our trusted partners at Google Cloud. Help, Vidya, you're my only
+hope.
+{BIO 21475323 <GO>}
+I got you, Richard. So our ﬁt assessment tool, which you can see here is initiated from
+the Google Cloud console. It helps us understand what can be automatically
+migrated and which workloads are going to be most successful in their new home.
+It's unique to Google Cloud, and saves you time.
+By pointing our migrate service at a set of over 2,000 virtual machines in our on-
+prem vSphere environment, we just generated a ﬁt assessment for the workloads
+running in each of those VMs.And remember, these VMs could be running on-prem
+in Google Cloud, in AWS or in Azure.
+So now, let's take a look at the results of the assessment. See here, we have a
+graphical view of our most likely candidates for migration. This tool is particularly
+good at detecting compatibility for older Java applications like Java EE application
+servers. Now that we've assessed, let's migrate.
+Using our migrate service, I'm taking a Java app running on WebSphere in an on-
+prem VM and generating a container image that can run on any of our container
+services, all via automation. And you can see here that the classic Java app is now
+served up by our only pay-for-what-you-use, serverless container product, Cloud
+Run.
+Wow, I love that. So this is great. We'll make sure we know what we just did there. I
+mean, I don't have to manage all of these partially utilized virtual machines anymore,
+because you containerized it. And I've oﬄoaded some of the operating system
+management, I don't have to patch OSs anymore. That's awesome. And you've
+actually given me access to brand new functionality and saved me money by running
+in a modern platform like Cloud Run. So you just took a classic Java app and ran that
+on the serverless platform. It's pretty wild stuﬀ. If you like that, tell us in the chat that
+you have a need for putting some of your older systems in these newer platforms.
+All right. So next step. Let's create some new value and get that to Google Cloud. So
+Symbol Shops has some problems we want to solve. We have a app that tracks some
+of the store performance, but it runs in VMs and it needs some serious
+modernization to support all of those sort of new customer experiences and can
+keep us competitive. So this means upgrading functionality and even changing how
+we could deliver it to production. So curbside pickup super hot right now. How do IFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 33 of 69A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan Ramanadd functionality then to count how many customers did curbside pickup each day?
+That seems really important. Vidya, I don't know. Can you help me with this one?
+{BIO 21475323 <GO>}
+Yes, of course. I can. So Richard, what is does current app consist of?
+Well, thank you for asking. Our current app has a MongoDB database with multiple
+services that track orders and pickups. We actually want to add new services in data
+to capture and analyze that curbside pickup info. And to make that happen, we
+could look at historical footage from the past day and count the pickups and do
+some analysis later.
+{BIO 21475323 <GO>}
+This looks like a great opportunity to do two things. First, we're going to add Google
+Cloud AI to process video footage and capture metrics. Second, we'll containerize
+these workloads and put them on a continuous delivery pipeline so that it's easy to
+keep making changes.
+I like that. So if you do this, then we'd actually know how many customers are doing
+curbside pickup, maybe even how long they were waiting. And I think you're going
+to ﬁx them on my path to prod and keep it -- make it easy to kind of package and
+keep changing the software over and over again. I love that.
+{BIO 21475323 <GO>}
+Yes. Absolutely. Check it out. So Google Cloud Vision API can detect vehicles in this
+footage to determine how well curbside pickups have been going at each location.
+So now, let's write some code and deploy the updated app to Google Cloud. This is
+exciting and I'm hoping all our audience is excited too. I'm using Visual Studio Code
+here, but I could easily use IntelliJ or any JetBrains IDE. And using the no-cost cloud
+code plug-in, I can easily browse Google Cloud services, add them to my app, and
+then code and test this container-based app.
+You are the fastest coder I've ever seen. That was remarkable. That was pretty simple
+too. I like that. So now that everything is working locally, how would they then deploy
+this to the cloud?
+{BIO 21475323 <GO>}
+Let me show you. First, we need to package up this app into a container. You
+probably want your developers spending time writing code, not Dockerﬁles. And we
+can help with that. I'll show you how we like to package containers. And while I'm
+doing that, audience, tell us how do you package your containers. So here is ourFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 34 of 69A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan Ramanpoll, and we have four options in our poll. So I'm hoping you would actually pick it
+up.
+Awesome.
+{BIO 21475323 <GO>}
+So Cloud Build is a serverless build tool that many customers use for continuous
+integration. The (inaudible) now support industry standard cloud buildpacks to
+package up our app into a container image automatically and push it to Artifact
+Registry. Artifact Registry stores your container images in regional repositories. And
+here, you see that we automatically scan for vulnerabilities.
+That's the -- what else do we use Artifact Registry for? This is -- I haven't seen as
+much about that. Can you tell me a little bit about that?
+{BIO 21475323 <GO>}
+Yes. So while we use Artifact Registry for storing Docker container images, Richard,
+we can also use it for storing all your language-speciﬁc artifacts in one place. For
+instance, we just went GA with Java, Node.js and Python packages using the maven
+NPM and PyPI repository formats, respectively.
+That's pretty cool. So while we're waiting for the poll results, looking at some of the
+chat, I saw some questions about how do we do day 2 management of migrated
+workloads. I think the migrate tooling gives you a container image that now I could
+download to my desktop, I can run in diﬀerent places. I have diﬀerent ways to run
+that.
+Some other questions about -- again, thinking about how do we migrate to GKE and
+Cloud Run. I think these tools are pretty cool that they can actually take an app and
+run it in either one, which is pretty great. And I think we're seeing the poll results
+come in.
+{BIO 21475323 <GO>}
+Yes. It looks like the results are in. And it's amazing that a lot of folks are already
+automating today. And they're automating the adorkable commands in CI pipeline.
+That's excellent.
+So now that we have a container in the registry, I think it's time to deploy it. So to
+deploy your app, let's use the new Google Cloud Deploy Service, a continuous
+delivery service for deploying containerized workloads. While the service is
+containerized and could run in GKE or Cloud Run, the app is fairly coupled to ourFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 35 of 69A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan RamanMongoDb infrastructure running in Kubernetes, and is part of our multi-cloud
+strategy.
+So let's target one of our GKE Autopilot clusters. GKE Autopilot is the fully managed
+Kubernetes service, where Google Cloud provisions, scales, upgrades and
+troubleshoots the cluster for me. Here we see a deployment pipeline that helps us
+manage release candidates and environments. Cloud Deploy helps us manage
+promotion and roll-out across these environments. And once the app is deployed to
+GKE Autopilot, you can start using it from each retail store that you have. You kick
+this all oﬀ with a push to get and also you manually approve ﬁnal promotion to
+production. In fact, I'm going to have someone drop the URL in the chat window now
+so that you can see it for yourself, it all works just like magic.
+That's cool. It must be true. You put the link there, that's great. So it's awesome. So
+from development to packaging deployment, I mean I think personally this is the
+best set of integrated tools for services and building containers that I've seen. So I
+think that's awesome. So we're also seeing some other folks in the chat talking about
+some of these components as well and what they're seeing for migrating the apps
+and hopefully clicking links and trying to break the app we just deployed.
+All right. So now that we've just taken that existing app, we added AI functionality,
+we dramatically changed the knowledge that each of our stores has about the
+customer experience. That's pretty cool.
+{BIO 21475323 <GO>}
+Indeed. Isn't it, Richard? What else do you want to throw my way?
+I think we got some time. So we've acquired a few other retail chains who use
+diﬀerent clouds. I mean, nobody's perfect, right? So at the same time, this app needs
+to run in more places so the each of those stores can analyze curbside pickup
+behavior, regardless of what cloud they're using. So I guess, Vidya, my question for
+you is, how do I run this app everywhere?
+{BIO 21475323 <GO>}
+Yes. That's a great question, Richard. And we do have a solution for consistency
+across any environment. Check out how we do it through Anthos. With the new
+multi-cloud API, we can provision these clusters right from the Google Cloud CLI or
+console in other clouds, including AWS and Azure, where you already have some
+applications installed.
+See here, that I'm using a single G-cloud command to create a GKE cluster on Azure.
+Here we have deployed GKE clusters to Google Cloud and Microsoft Azure. I'm
+managing it all from Google Cloud and I'm even able to centrally deploy and view
+workloads to any of these GKE clusters.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 36 of 69A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Unidentiﬁed SpeakerThat's wild. Thanks, Vidya. So you're actually putting GKE, I think it's the best
+Kubernetes in the public cloud, anywhere I wanted. I mean that's really powerful
+stuﬀ, I love that new Azure support. And again, each store manager, whatever cloud
+they're using, can actually see a report at the end of the day to know how they
+performed on curbside pickup. That was the goal.
+All right. But now you're making me think that we could probably even do more,
+right? We could expand some of our thinking here and maybe respond to the
+customer demands in real time. Could we actually evolve from that after the fact
+analysis of parking lot footage to maybe improve the experience in the real time? By
+that, I'm thinking of, could I run this AI model against live camera footage instead of
+recorded stuﬀ, and maybe be able to do something with it as it happens?
+But of course, as always new challenges emerge, if we think of something like this.
+So oﬀ the top of my head, we'd have to somehow customize this AI model, right?
+Because now I have to identify the number of cars in motion, how many are waiting,
+is the curbside lot picking up. And I probably want to operationalize that model and
+move it closer to the store because I'm processing data in real time, so latency
+matters. And then I want to integrate all that insight I'm getting with the existing in-
+store systems for the managers to use so they can move their employees around. So
+that's a lot of stuﬀ. I don't know. Can you help me with that?
+{BIO 21475323 <GO>}
+We can. So I'm calling in my colleague, Gabrielle[ph]. He has been working with one
+of your on-prem locations, Richard, in Austin. And he can explain how we improve
+your software for edge scenarios. Hi, Gabrielle.
+Hi, Vidya. And hello, everyone. Glad to join you, Richard. By the way, congrats on
+new role in Symbol. What you're asking for, can we solve the newly announced
+Google Distributed Cloud in the edge. As such you mentioned, it brings the best of
+Google Cloud to the edge. It consists of a fully managed CPU, GPU optimized
+platform with a common set of Google and third-party applications. You build once
+and deploy anywhere. As an example here at some of your stores. So let's get going.
+We're going to add real-time intelligence with AI models, and process the data
+locally to reduce video latency. Let's get these running on the edge in each store. So
+we start out by ﬁrst using Google Vertex AI. So we train the engines and the Vision AI
+objects recognition and classiﬁcation models in the central cloud.
+Here, we are monitoring the progress and accuracy of the model. And as you can
+see, the trained models cannot be packaged into container images, right? Those
+container images can be ready to be deployed anywhere including at the edge. In
+this case we will be targeting ﬁve diﬀerent Symbol stores. From the Google console,
+we can choose the Kubernetes clusters running at speciﬁc edge locations across allFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 37 of 69A - Richard Seroter
+A - Unidentiﬁed Speaker
+A - Richard Seroterthe Symbol stores. Once we pick those clusters, we can deploy the Vision AI mode
+that we created to each edge in the store, and manage those edge clusters just like
+any other GKE clusters.
+The Symbol operations team has the same familiar experience. Only now, Symbol
+can also leverage the GPU-optimized Google Distributed Cloud to achieve better
+performance and lower latency.
+And as if we manage service, distributed cloud comes with the same integrated
+Google Cloud operation and management capabilities that you're used to. Here,
+Symbol can monitor the health and state of their store deployments, manage
+capacity scale, all of these using a familiar Google console and backed by Google
+SRE practices.
+So as you can see in the video here, our real-time analysis of curbside plant service
+level from the live footage led to real-time insights for Symbol Shops to build a
+better customer experience at each store. Speciﬁcally, this new model at the edge is
+recognizing cars in motion, telling you when the curbside pickup rows are ﬁlling up,
+all execute in real time. So what do you think, Richard? Back to you.
+This is great. You're amazing, Gabrielle. And that's -- I can't believe you built all that
+all by yourself. So this actually gives all our store managers really new insight into the
+real-time customer experience, letting those stores allocate staﬀ and people based
+on real-time customer demand. That's awesome.
+So for the audience out there, I'm actually interested, what sort of apps do you think
+about running at the edge? Is that a real use case you're considering? What sort of
+things might run there?
+All right. So I do love what you built for me. I don't want to be greedy, but I want a
+little more. This app isn't an island, right? You're doing some cool AI containerized
+based stuﬀ, but there's a lot of things already at that store location, right? Our
+notiﬁcation services, other back oﬃce. It's all in VMs.So now that we have to
+integrate our new AI customer service app, these VM-based systems, am I signing up
+for completely diﬀerent management experiences across containers and virtual
+machines or can you do something for me?
+Absolutely not. We're going to provide you the same experience with the new
+Anthos for VMs.We can actually help you bring those virtual machines into the
+Anthos platform and manage them the same way we manage containers. So see
+here, that I've moved a set of virtual machines on the Anthos management, which
+now gives me a straightforward way to move and modernize existing apps at the
+edge.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 38 of 69A - Unidentiﬁed Speaker
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard SeroterWell, it's awesome. There's nothing you can't do, Gabrielle. That's great. So what's
+powerful here is that all the Google power ﬂeet management in Google Cloud,
+other clouds, at the edge is all based on Anthos with one open control plane for
+wherever those workloads run. This simpliﬁes our operations a lot or that open
+foundation makes hiring developers and operators a heck of a lot easier.
+All right. So last challenge for you. Symbol has this growing European presence, but
+some of those regional stores operate with some restrictions on data sovereignty. I
+don't want to sacriﬁce all the amazing development and management capabilities
+that you and Vidya have showed me today. So is this a lost cause or do you have
+something for me?
+Yes. We have something for you. And as we announced yesterday, with the new
+Google Distributed Cloud hosted, we can use a single hardware and software stack
+from Google Cloud. But now with local compute and in local control plane, it runs
+not only our container and VM workloads but also the data and application services
+we care about. You could run this, as an example, in the regional hoster fully air-
+gapped, and have local stores connect directly to that, one open modern platform
+from wherever you want to operate.
+I'm sold. You've done it. So it's pretty cool. So same Anthos control plane tech, but
+also local services in this fully air-gapped setting. That's great stuﬀ. Thanks, Gabrielle.
+Appreciate you joining us here. And Vidya, did you like that?
+{BIO 21475323 <GO>}
+I did actually. And Gabrielle, that was amazing. And I'm sure our audience think so as
+well. Over the last 15 minutes, we have shown you how Google Cloud oﬀers a world-
+class experience for building new software or modernizing what you have. Our
+solutions for container-based apps are second to none. And we're now making it
+possible to extend those terriﬁc services to wherever you need us to be.
+All right. Thank you all for joining us, Vidya, Gabrielle as well. This was terriﬁc stuﬀ.
+And thank you out there for the chat and the engagement. It was awesome to see
+that. So now, stay tuned for the live Q&A coming up next. We're going to talk about
+everything from the spotlight, all the way through to this demo, get your questions in
+there, and we'll be answering it live. Thanks so much. Bye-bye.
+{BIO 21475323 <GO>}
+Bye.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 39 of 69A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin GuptaAll right. Hi. It's me again. In case you didn't tune in for that live demo that just
+wrapped up, I'm Richard.
+{BIO 20660275 <GO>}
+And I'm Sachin. Richard, it was nice to see you in your new role. Symbol Shops'
+demo captain.
+Yes. Thanks for hiring me back. I'm glad to be back. So our friends from the live
+demo are going to be sticking around to answer any of the questions you may have.
+So you may see their faces throughout this show as well. So let's just jump right in,
+with a little poll. What gets you ﬁred up about tech, using serverless platforms,
+running GKE anywhere? How about continuously building software or even just
+having breakfast or dinner? Put your results in there. I'd love to see what you have to
+say.
+So while we wait for that, a reminder. This Q&A is completely live, you can engage
+with us directly. Ask your questions. Say hi in the chat. Yell at us, certainly Sachin, not
+me. I'm doing my best. If you can't though, go back to the Next event website, click
+on that blue Joint Interactive Experience button and we'll wait for you over here.
+All right. Now time for some poll results. Let's see what we have. Anything coming in
+so far. What do we think ﬁres people up? What ﬁres you up, Sachin?
+{BIO 20660275 <GO>}
+Look, besides breakfast or dinner, it's all about Google Distributed Cloud. And the
+ability to have that consistent management, run anywhere, meeting our customers
+where they're at, fully managed solutions is just absolutely incredible. And what
+Gabrielle has showed up there with Vidya, that was just fantastic.
+Yes. That's a big deal. Well, looking at the results so far, you all are just animals,
+eating breakfast or dinner. So good job.
+{BIO 20660275 <GO>}
+I was right.
+Yes. Do whatever, live your life. That's great. So let's get started with our ﬁrst
+question. This one comes from Jessica[ph]. So when would I use Anthos on bare
+metal infrastructure versus that Google Distributed Cloud at edge? How do I make a
+decision between the two?
+{BIO 20660275 <GO>}FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 40 of 69A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Vidya Nagarajan RamanYes. That's a great question. Thanks for that question. So, ﬁrst of all, let me just go
+back to that Symbol Shops retail example. If you're a customer, you have your own
+hardware, it's customized for that environment perhaps, and you're just looking for a
+stack on top to run. Anthos bare metal is a great option. But if you're a customer
+where you just want to consume the whole stack, hardware, software-as-a-service,
+and you want to leave all that complexity to us, then the Google Distributed Cloud
+product is a great solution for that. And so we want to be very ﬂexible about it. You
+get to choose based on what your needs are.
+So it's nice to have software-based option or the software and hardware --
+{BIO 20660275 <GO>}
+Exactly. Because diﬀerent customer -- same customer, we have two use cases as well.
+But the same control plane.
+{BIO 20660275 <GO>}
+But the same control plane, same experience. Deploy right ones, build ones, deploy
+anywhere.
+Yes, that's a big deal. So this one is going to be for you, Sachin, as well. We're just
+going to pummel you with questions to start with. So this one comes from Mike. So --
+or no, Val's asking this question. Let's switch questions up. This one's going to go to
+Vidya. I'll give you a breather.
+{BIO 20660275 <GO>}
+Okay. Sounds good.
+You worry out on that one. So Vidya, this one's for you. Are there other managed
+services that people might want to adopt as they become more cloud-native? What
+do they start picking up as they start making this move to cloud?
+{BIO 21475323 <GO>}
+Yes. Absolutely, Richard. So as you deploy more microservices, you can easily
+leverage our fully managed serverless orchestration products, like Workﬂows or
+Eventarc, so that you can connect as well as coordinate Google Cloud services, such
+as Cloud Functions, Cloud Run, HTTP-based API services including third-party
+services, so that you can tie them all up into serverless workﬂows. And this really
+helps you address those type of use cases, which require business-critical, mission-FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 41 of 69A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Serotercritical workﬂows, so that you can actually have inbuilt error handling, retries,
+observability built in so that everything actually executes reliably and ﬂawlessly.
+Love it. Thank you very much, Vidya. Good. Next one, this one is for you, Sachin,
+buckle up here. So Robert from Liberty Mutual is asking us about kind of the OS
+support for Anthos. So when I think about -- we know Anthos supports Windows and
+Linux, which is great. So he's curious about what ﬂavors of Linux will support AIX? So
+where are we at on some of the operating systems?
+{BIO 20660275 <GO>}
+This -- the Anthos support we have is consistent with Anthos that you have from a
+software-only point of view. So with Google Distributed Cloud, we just carry it
+forward. And what we're doing is we're certifying that solution on top of hardware
+that we've prescribed. And I think there was a question that I was seeing in chat
+which is about, hey, what kind of hardware we certiﬁed. So we've gone in, we have
+hardware from Dell, from HPE. We've got GPUs from Nvidia. And so it's a diﬀerent
+hardware for diﬀerent scenarios. And then on top of that, whatever Anthos provides,
+we can bring to bear.
+Yes. And for Anthos on bare metal just out of interest, so you can run RHEL, CentOS,
+Ubuntu. So we support all of those as well. So we try to give you a good set of
+choices there. Awesome. We're throwing more stuﬀ at Sachin. Let's do it.
+{BIO 20660275 <GO>}
+Okay.
+So are you seeing any customer preference so far for GKE Autopilot versus GKE
+Standard? GKE Standard is amazing. It's got all the knobs and dials, Autopilot is just
+turnkey, ready to go. Are you seeing any change in preferences?
+{BIO 20660275 <GO>}
+First of all, we've seen massive adoption of GKE Autopilot. So it's really opened the
+door, I think, for many, many customers, who wanted to get the beneﬁt of
+Kubernetes and containers, but wanted it to be sort of automatically set up for them.
+But you still have customers, who don't just want that Kubernetes API, they actually
+want -- they have an existing cluster or they have an environment that's ﬁne tuned for
+their needs, very, very large scale deployments where GKE works great. And so I
+think with the combination of GKE and GKE Autopilot, we can now cater to any of
+those needs.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 42 of 69A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin GuptaYes. I think -- so we looked at the data, we've actually seen a lot of Autopilot
+customers are just new Google Cloud customers as well, as a great ﬁrst foray into
+Kubernetes.
+{BIO 20660275 <GO>}
+Exactly. They can get going so quickly. I mean again, the demos that were showed
+just now were fantastic, right?
+Yes, even I can use it. Yes, it's great stuﬀ.
+{BIO 20660275 <GO>}
+Exactly.
+More stuﬀ for you, Sachin. This was coming from Jude[ph]. So how do I choose
+which container-oriented compute service to use? Now we don't necessarily have
+the 17 ways that other clouds oﬀer, we have maybe few or more focused services, but
+there's still choices, not just one way to run container. So how should someone make
+some decisions there?
+{BIO 20660275 <GO>}
+Yes. So I think -- look, we do try to keep it simple, but there are some choices. If you
+have something that's compute-heavy, where it's a lot of self-managed software that
+you have, self-managed services that you're creating, it could be that you have your
+own databases, it could be a middleware messaging. That's where we think GKE is
+best.
+But if you're a consumer of a lot of the managed services and you've got some
+adjacent code that complements those services, then Cloud Run is fantastic. And so,
+again, not the 17 choices like you mentioned, but there are a few choices based on
+how you're using that containerized environment.
+Yes, that's a crisp way of thinking about it. Good stuﬀ. All right. Spencer is asking us,
+Anthos for VMs is interesting, we announced that and it seems wild. We've been just
+talking containers all this time. Now we're talking VMs.So when the world is the use
+case for that, why would I think about having Anthos manage virtual machines?
+{BIO 20660275 <GO>}
+Great question once again. And look, again, we've been ruber[ph] clear about this.
+We want to meet customers where they're at. And while customers are looking to
+modernize and want to be on GKE -- on Kubernetes containerized, they do have
+some software components, some applications that require a VM environment.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 43 of 69A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Vidya Nagarajan Raman
+A - Richard Seroter
+A - Sachin GuptaAnd so the ability to have that one consistent management plane and have the sort
+of lowered cost of running VMs or containers on top of Kubernetes, that's a very
+powerful combination. So Anthos for VMs is just to make sure that while they're
+looking to modernize, whatever pieces of software that they have, that requires that
+VM environment, they can bring it along consistently as they do the transition.
+Yes. It seems powerful against ﬂat and maybe the operational toolchain, just treat the
+VMs containers the same way that are really going to simplify hiring, just
+management, those sorts of things.
+{BIO 20660275 <GO>}
+Exactly. And if the VMs go away at some point, great. If they're going to be there
+running next to the containers, that's great. But that consistency of management
+reduces the operational cost.
+Yes. That's great call. This one's going to go to Vidya. So Alex is asking us about
+Cloud Run. And look, this is something that we talk a lot about. We love Cloud Run.
+Cloud Run is terriﬁc. So what's new and interesting there? Like what's been
+happening in the Cloud Run world?
+{BIO 21475323 <GO>}
+Yes. Thanks, Richard. So here are some new features that might be interesting.
+Number one, to further secure your Cloud Run environment, which has been GA
+with binary authorization so that you can deploy your trusted container images.
+Number two, you can now run even more workloads, for instance, workloads that
+may need background processing. And we oﬀered additional always-on CPU
+allocation controls, which comes with new pricing. There are no request fees.
+Memory and CPU is priced about 25% lower. The third feature that might be
+interesting to call out is that while Cloud Run free tier continues to exist, we also now
+recently introduced committed use discounts, so that you can actually get up to 17%
+discount for over a year with one-year commitment.
+That's great. Awesome. Thanks, Vidya. Yes, I think some of that committed use stuﬀ is
+terriﬁc, same with the security features. I mean Cloud Run is one of the best security-
+oriented just container runtimes out there in addition with GKE.
+Also another question. This one's coming in for you again, Sachin, I'm glad you're
+ready. Vladimir[ph] is asking us, what is the beneﬁt of doing Anthos Edge versus
+Anthos on VMware? I know those are even diﬀerent, I guess, to start with if we think
+about the question, could you do on VMware at the edge? How do you think about
+then our Distributed Cloud Edge? I guess kind of help demystify this.
+{BIO 20660275 <GO>}FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 44 of 69A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard SeroterIf I think about the question, it feels a little bit similar to the previous question, which
+is, what are you actually trying to do. If you're actually trying to modernize, then the
+Anthos environment, where we provide that simple management plane built on
+Kubernetes, where you can run containerized applications, but you can also run VMs
+now. That's a -- you're on a path to modernization and that's what you're looking for.
+You're looking for operational cost reduction, simpliﬁcation, but you want to be into
+the sort of new world in the containerized world. That's where that wins. And so --
+but there are going to be other options on-prem that you can run.
+And then similar to perhaps other solutions that may be out there, where it's not just
+a software layer, you can package the hardware and the software completely
+together. That's where Google Distributed Cloud that's built on Anthos comes
+together. So a real question, are you looking to modernize? Is it just a pure legacy
+environment that that's how it's going to remain? If you're looking to modernize and
+you need the ﬂexibility of having VMs as well, Anthos and Anthos for VMs is perfect.
+Yes. And if you have a VMware footprint at the edge already, then obviously we can
+run right on top of that. And everything is amazing. So again, I like the ﬂexibility that -
+- we'll work with what we have.
+{BIO 20660275 <GO>}
+And look, if you want to run that VMware footprint inside Google Cloud in our
+regions, for that you have Google Cloud VMware engine, and we support that. And
+so we're very ﬂexible based on what customers are trying to achieve.
+Yes. Awesome. Another one for you, Sachin. This one, I think, is interesting. So I
+thought Anthos was already multi-cloud. Whether we're talking about the multi-
+cloud API when we're already doing that or what's new with a multi-cloud API?
+{BIO 20660275 <GO>}
+Yes. Anthos, look has been multi-cloud for over a year now, right? And so the multi-
+cloud API is really about instead of having to bring up your clusters, your GKE
+clusters and the control plane as well in every single cloud, you can now just run that
+control plane in Google Cloud, and then manage those clusters that may be sitting
+in AWS or Azure or somewhere else in a very, very simple way through that same
+control plane. And so it's further simplifying how you deploy those clusters and how
+you manage them and bringing you the power of GKE and Anthos together.
+Yes. No, I love that demo of just showing a single G-cloud command. Because for
+someone today, you could deploy Anthos on AWS, but you'd ﬁrst stand up that
+management cluster, and it's been up user clusters. It wasn't hard, but can I just
+simplify that, can we take more responsibility. And it looks like we have. So I think it's
+really just a simpliﬁcation story. Awesome.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 45 of 69A - Sachin Gupta
+A - Richard Seroter
+A - Sachin GuptaThis one is for me somehow. So awesome. So how do I choose between GKE
+Autopilot and Cloud Run?
+Look, Autopilot is amazing. It feels like serverless Kubernetes, right? And that's why
+it's kind of magic on how that behaves. And it's still all Kubernetes in their covers.
+There's no goofy extra extension stuﬀ, this is just GKE. Cloud Run is also kind of a
+serverless environment.
+So when you look at the diﬀerence between the two, really it's about -- to some
+extent, do I want Kubernetes, if I'm deploying marketplace oﬀerings, I'm deploying a
+database, I'm deploying stateful workloads, Autopilot is going to be amazing there,
+right? So that one is pretty powerful. And at the same time, if I'm in Cloud Run, and
+as you mentioned earlier, I've got a lot of managed services, I'm using Spanner, I'm
+using Pub/Sub, I'm doing AI/ML and I'm putting some code in the gaps to connect
+the dots to add some API endpoints, Cloud Run is amazing.
+So I don't know, I think when I look at this and we look at customers, it's often case
+where if I want Kubernetes, GKE is clearly a great choice. If I'm building compute
+intense systems, as you mentioned earlier, GKE is amazing and Autopilot is
+awesome. And when I'm just trying to run some containers and I'm building things
+that kind of connect dots between other managed services, Cloud Run is best in
+class.
+{BIO 20660275 <GO>}
+Yes. It just depends on your starting point, I guess, right?
+Yes. But again, not too many choices, but just enough. Awesome. There is another
+one for Sachin. This one's coming from the Ford Motor company folks. Is Anthos
+open source? Is there any support available? Is this just DIY, live your life, are we
+actually behind the product helping people, there's commercial oﬀering? Help clear
+that up.
+{BIO 20660275 <GO>}
+Yes. So ﬁrst of all, in terms of open source, it's built on Kubernetes. And so built on
+open source components, for sure. It enables our ﬁrst-party software on top but also
+third-party open source software that can run in that containerized or VM
+environment.
+As far as support, it's been -- we now have more and more partners, more and more
+customers trained on Anthos. Anthos is the foundation of Google Distributed Cloud
+as well. And so we continue to invest heavily to ensure that the training, the
+enablement, the skills, the capabilities get built up in our customers, in our partners
+to continue and support those deployments. I don't know, if you want to add to that
+on some of the answers.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 46 of 69A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Vidya Nagarajan RamanNo, it's a great answer. I mean we see so many people take all this amazing open
+source and build platforms, which can be powerful. And Anthos is actually 30-
+something-odd open source projects, that come into one curated, integrated, tested,
+packaged commercial product, as you say. And the multi-cloud support is the best
+eﬀort. We test this and certify it on Azure, on Amazon, on-prem, on bare metal. So I
+think that's pretty powerful stuﬀ that I know some people can still get a little bit, like
+what in the world is Anthos? And I think it's important for us to remind people that,
+Anthos is really a way to build and manage distributed ﬂeets of infrastructure. And
+so what a powerful way to do that in a supported fashion from the folks who created
+it.
+{BIO 20660275 <GO>}
+Hybrid multi-cloud with hardware, software together. I mean, yes.
+How do I manage a bunch of GKE clusters all over the place? That's a really
+powerful, hopeful, simple way to understand this sort of the thing.
+Yes. Have you continued to see that uptick as well in Anthos? I know we're starting to
+see some of the growth there. Are you happy with where things are going?
+{BIO 20660275 <GO>}
+Yes. Absolutely. Yes, we continue to see great customer traction. And now with more
+as-a-service solutions with Anthos, Anthos for VMs, Anthos for bare metal, continue
+to meet customers where they're at.
+Putting it in distributed cloud, is a powerful story for customers, because again I can
+make one investment in my skills, and now I can take advantage of this in a lot of
+places.
+{BIO 20660275 <GO>}
+Yes.
+Awesome. So next we want to go to Vidya with this, giving for Sachin a breather. And
+so Fabian[ph] is asking, what the -- with everything -- containers are all over the
+place. Should I just opt for Cloud Run instead of App Engine? What's the future of
+App Engine in this context? I like these edgy questions. Vidya, what do you got for
+me?
+{BIO 21475323 <GO>}FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 47 of 69A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin GuptaYes. So App Engine is obviously a very successful product for us at Google and
+serverless. However, we see containers as very, very strong positioned for the future
+of development as you could see with all the demos that we had and with what
+technologies such as Cloud Run as well as GKE Autopilot that has come into play, it
+has got the beneﬁts of portability and better integrations with the rest of GCP as well
+as the cloud. So that's the way we look at it.
+It seems like a good answer. I mean, Google Cloud's got a lot of these stable
+services, a lot of customers on App Engine, but it's nice to have alternates as people
+are looking for other integrations, things like that. Cloud Run is -- continue to be a
+big investment. That's awesome.
+Sachin, this one's for you. Security questions. I mean, I was personally impressed with
+a lot of -- and enjoyed a lot of the keynotes from yesterday as we looked at all the
+investments we're making in security here. Like if you're trying to make a choice on
+security, I think Google Cloud is your best choice, and not just because I work here.
+But how secure are some of these clusters out of the box? We're thinking about --
+and I'm assuming this refers to Anthos. When we stick either an Anthos cluster or
+GKE cluster oﬀ-prem, or even just a GKE cluster sitting in Google Cloud, how do you
+think about the security story, and how secure is this by default?
+{BIO 20660275 <GO>}
+By default, what we're trying to do is turn on all the best practices that we
+recommend so that the communication channel that you described is secure. If
+customers want to manage that with their own keys, they can. But we want to make
+sure that all the best practices, so that if it's the days in transit, the days in rest, that
+by default we can keep that on for customers. I mean, you should add some more
+Anthos-speciﬁc maybe security capabilities that we turn on.
+Yes. As you say, there's a lot of important things around OS hardening, how we
+distribute bits, they're coming from us, you can trust that as well, that we're putting
+them through the paces. But then with Autopilot, arguably, one of the best parts of
+Autopilot as we just enable all the security stuﬀ by default, right? Because I don't
+know what I'm doing as an end user myself when I send up stuﬀ. So if you're turning
+on the right sort of encryption at rest settings, you're turning on the right role-based
+access, you're turning based on continual updates for patching. I think that's pretty
+awesome. So in a lot of these cases, we're defaulting to secure.
+{BIO 20660275 <GO>}
+I think one of the other questions we get is, how do you handle this then in the air
+gap environment, right? So now, like how does the customer get software updates?
+How do they make those secure? And so what we do is we take that software, we
+publish it to a repository. The customer is able to download it outside their air gap,
+check it for any vulnerabilities, test it out on their own, and then move it into the air
+gap, and then the platform will automatically deploy it. And so these some additionalFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 48 of 69A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sachin Gupta
+A - Richard Seroter
+A - Sunil Pottichecks that they're able to add, when they have those very strict sovereignty data
+privacy needs, that need to be able to check any piece of software that's coming
+down.
+Powerful stuﬀ. All right, last question for you. I could ask you questions all day, but
+I'm being told I have to ask you a last question.
+{BIO 20660275 <GO>}
+Okay.
+So John wants to know as well. So I'm assuming this refers to Distributed Cloud.
+Whose Hardware is this? And who does it run on? And do you manage the hardware
+platform as well? Let's at least refer the Distributed Cloud. Are we managing the
+hardware? Is it coming from Google? Are we making the kits or is it coming from
+partners? Lay that out for us real quick.
+{BIO 20660275 <GO>}
+Yes. So we are -- it's prescriptive hardware that we provide and we manage. And so
+in terms of how it's supported, again, that's done through us. We can do this through
+partners as well. And so what happens is in a -- for example, in an air gap in the
+hosted mode, you may need to have a trusted partner, customer may want a trusted
+partner who's actually doing the operations in terms of, hey, I'm adding a rack or
+adding more hardware components. But the software that we provide manages that
+hardware infrastructure that's deployed on-prem. And the beauty of it is the control
+plane there is completely disconnected from Google Cloud as well. So you have
+both those options. The edge mode where it's connected, we can do it centrally
+across many sites or hosted where that control plane is local, but we still manage the
+hardware.
+Super powerful stuﬀ. Love that. So thank you, Sachin. Thanks to all of our guests who
+we threw questions to on the demo set. So it's been awesome hearing from you all,
+getting all that feedback. Make sure to hop over to the Cloud Next site, and stay
+tuned for Phil and Sunil talking about security. Thank you.
+{BIO 19013276 <GO>}
+Hi, there. Thanks for all that participation in our Q&A. And I hope you're enjoying the
+show. So, welcome to the security spotlight. My name is Sunil Potti, and I'm the VP
+and GM for Google Cloud Security.
+Over the last few months, we've seen some of the most damaging cyber attacks in
+history against public utilities, private sector companies, government agencies,
+causing many organizations to realize they're at a pivotal moment in their securityFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 49 of 69journey. Of course, this is not news to most of you in our industry, but let me put a
+few things in context with a sobering statistic.
+Did you know that the cost of cyber crime is now estimated between $2 trillion and
+$10 trillion a year? For the past two decades, Google has made security the
+cornerstone of our strategy. This has resulted in Google enabling more users to be
+safe than anyone else in the world, blocking malware, phishing attempts, spam,
+cyber attacks globally, and not just for a few thousands of websites, but for billions of
+users and millions of websites globally.
+So that being said, we also realized that this journey will require enduring
+commitment over the coming years. And that's why Google is committed to invest
+$10 billion over the next ﬁve years to help strengthen cybersecurity for enterprises,
+consumers and governments. We want you to be able to use our Google Cloud
+Security magic to protect your enterprise. We make that possible in two ways. First,
+we provide the industry's most trusted cloud for accelerating your digital
+transformation eﬀorts. And secondly, we bring trust to you with security products
+that meet you where you are and bring our Google Security magic to your on-prem,
+private and multi-cloud environments. And it's just not about having best-in-class
+security capabilities, it's also about how they're actually delivered in a consumerized
+fashion.
+But at Google Cloud, we take a diﬀerent approach. We are driven by a vision of
+invisible security, where security technologies are engineered in so you get
+opinionated, full-stack coverage of security controls, security operations as the silo
+disappears, so niche security talent gets democratized. And last but quite
+signiﬁcantly, shared responsibility in a world of public cloud evolves to shared fate,
+where we, as your provider, have true skin in the game and mutual security
+outcomes. So a great example of what I mean by invisible security is the all-new
+built-in data protection, automatic DLP for BigQuery. It's a game-changing capability
+that discovers and classiﬁes sensitive data for all of our BQ projects across your
+entire org without you needing to do a single thing.
+And we take a full step back and internalize what invisible security could mean for
+you. As an enterprise, a service provider, a partner, whoever it is, there are three
+areas where Google's insight and experience can make a make a meaningful
+diﬀerence. One, protecting your employees and assets. Two, protecting your IP.
+Three, protecting your users and your brand. Let me spend a bit of time on each of
+these.
+First, one of the most overused buzzwords in cyber security today is zero trust. Why
+not? The core of a zero trust approach is the idea that implicit trust in any single
+component of a complex interconnected system can create serious security risks.
+What does that mean, is that trust needs to be established via multiple mechanisms
+and be veriﬁed continuously. So here at Google, we've applied a zero trust approach
+to most aspects of our operations. We've implemented zero trust access with our
+BeyondCorp framework, shared our used case with the entire world and deliveredFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 50 of 69BeyondCorp Enterprise, a world-class solution that includes integrated threat and
+data protection.
+We've had great reception to BeyondCorp Enterprise since the launch earlier this
+year. And today, we're delivering capabilities that expand the surface area for zero
+trust access to cover all of your apps, both modern as well as legacy. So as a point of
+note, right after this session, the team will be doing a live end-to-end demo of
+BeyondCorp Enterprise to show how you can make access easier and more secure,
+the Google way. So don't miss it.
+Next, protecting your assets is easier if it's intentionally done upstream, shifting
+security left. And so, zero trust goes beyond access to protecting your workloads as
+well and your IP. And how Google operates our production environment is in this
+way: the way software is conceived, produced, managed and interacts with other
+software. We call our approach BeyondProd and we've already productized many
+capabilities for you.
+So, looking at BeyondCorp and BeyondProd, you realize that zero trust is much more
+than tools. Zero trust is how we envision designing, deploying and operating safe
+environments, so our daily lives as an enterprise or consumer can go from a world of
+being on the edge to being safe and safer with Google. But you can lose sight of the
+fact that while zero trust approach has helped address the preventative side of your
+program, robust detection and response capabilities are needed to complete the
+equation. And this is why we invest in Chronicle and we continue to amplify it as our
+foundational security operation solution. And we are excited to announce stronger
+integration between Chronicle and Security Command Center, SCC on GCP, with
+centralization of alerts, the addition of Cloud Asset Inventory Management and user
+context to enrich investigations.
+Next, let's talk a little bit about protecting your intellectual property. So for
+organizations pursuing digital transformation, code is your IP, which is the heart of
+your business. The foundation of securing your code is a secure software supply
+chain, from the time developers start writing code through your CI/CD pipeline, all
+the way to deploying and operating in production. So at Google Cloud, we believe
+two things are foundationally necessary for doing this in an enduring fashion: one,
+industry-wide frameworks and standards are a must, but they also need to be
+complemented by full-stack managed services that implement these standards and
+make adoption easy. So, for the ﬁrst, Google co-founded OpenSSF across the
+industry forum for open source and supply chains software security and with projects
+such as SLSA, an end-to-end framework for ensuring the integrity of software
+artifacts.
+And second, we have the AllStar, GitHub App, right in time for the fall season for
+continuous enforcement of best practices for GitHub projects. And then last but not
+least, Open Source Scorecards, which provide risk score for open source projects.
+And these are just a few ways Google is contributing to industry-wide standards. And
+on Google Cloud, with our invisible security approach, we provide these tools in aFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 51 of 69A - Steph Hay
+A - Murray Kucherawy
+A - Steph Hay
+A - Murray Kucherawyfully managed environment from code to build, deploy, run and operate, that
+implement these standards by default.
+And let's not forget, you also get a consistent way to deﬁne and enforce policy for a
+zero trust software supply chain that establishes provenance and prevents
+modiﬁcation or tampering. And we're building this zero trust software supply chain
+with new additions across the board, you can learn more about all of these launches
+in our breakout sessions.
+So to add some more context to this with new voices in our conversation on these
+topics, I'd like to bring on Murray from Facebook and Steph who leads our Cloud
+Security User Experience team. Steph and Murray, over to you.
+{BIO 17699674 <GO>}
+Thanks, Sunil. And welcome, Murray. Can you tell us about your role at Facebook
+and what that work entails?
+Sure. I'm a manager supporting the Cloud Foundation team within Facebook. Cloud
+Foundation is chartered to help teams with a need to use public clouds for their
+workloads so that they can do so both quickly and safely.
+{BIO 17699674 <GO>}
+Can you talk about how Facebook is leveraging zero trust, secure supply chains or
+other modern cybersecurity solutions?
+Facebook focuses a lot of engineering eﬀort on secure supply chains. This extends to
+our use of the cloud as well. So, our workloads that will run externally have all of the
+same requirements as the internal ones in terms of security, vulnerability
+management, security logging, monitoring, tight access control to resources, access
+auditing, data deletion requirements, penetration testing, mandatory reviews of
+anything with privacy implications and so on.
+One approach we're taking is that our teams can't use any UIs or directly control the
+services they build in the cloud. They have to go through our tool suite to do it.
+Some of our suite uses open source -- common open source tools, which means
+there are vast online help resources available to enable our teams to design and
+build their services. Then we provide our own extensions so that these tools
+integrated with our existing internal development workﬂows, logging systems,
+dashboards, et cetera. It also allows us to impose our own guardrails and best
+practices. Its infrastructure is code in its truest sense.
+Naturally, we already have an internal CI/CD system, that's used to update our
+internal services on a regular basis after appropriate code reviews and automated
+testing.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 52 of 69A - Steph Hay
+A - Murray Kucherawy
+A - Sunil Potti{BIO 17699674 <GO>}
+So I'd love to wrap up by hearing about your experiences. What your team uses to
+keep Facebook fortiﬁed and continually strengthen its security posture? And two,
+partnering.
+One of the capabilities that our tool chain allows is to inspect what the deployment is
+going to do before it happens, which gives us an opportunity to impose best
+practices or error checking and stop problems from going live. Some of these rules
+shield us from accidental security exposures, some look for weak deployment
+practices such as a lack of redundancy and still others look for avoidably expensive
+practices. These rules applied here are based on both our own experiences and
+policies and those recommended by our expert partner team supporting us. This
+allows us to be agile and respond to incidents when they come to our attention.
+{BIO 19013276 <GO>}
+Thanks, Murray and Steph. Interesting to see how these ideas are implemented and
+I'm excited to see where we'll continue to go together.
+Okay. So let's move beyond our infrastructure for a moment and think about the big
+picture. The software that runs your business delivers value to your customers and
+your users. The security you are building is designed to protect the users and build
+trust between them and you. Security incidents erode that trust and eventually
+damage your brand. So now Google keeps more users safe online than anyone else
+on the world. So let's see how we are advancing our eﬀorts and delivering all these
+capabilities to enterprises wherever you are, eradicating phishing as well as
+completely stopping fraud, period.
+And in this area, safe browsing is the gold standard. Our program to protect users
+from dangerous sites or ﬁles is unprecedented in its reach and capability. Its
+capabilities are invisibly baked into browsers on 4 billion plus devices. Last year
+alone, we advanced the state-of-the-art with enhanced safe browsing, an optional
+but more advanced level of safe -- security for safe browsing the web. And by
+sharing real-time browsing data in a privacy-preserving way, we were able to deliver
+a 35% additional reduction in phishing attacks and malware that reach users.
+These kinds of numbers and this kind of eﬃcacy has not been possible without
+leaning in on our heritage and our core competencies in providing security as a
+built-in capability to consumers as well as enterprises wherever they are. And since
+its introduction in April 2020, in addition to safe browsing, millions of users have
+taken advantage of this extra protection in a very rapid fashion. So our ultimate goal
+is to eliminate phishing as a threat, period. Bringing safe browsing capabilities into
+your environment through Gmail, BeyondCorp Enterprise and many other products.
+So in addition to targeting users directly, attackers view websites as the ﬁrst and
+often easiest place to commit fraud. And over 5 million sites today use reCAPTCHA,FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 53 of 69A - Brian Lozada
+A - Sunil Potti
+A - Phil Venablesour fraud and bot management solution that stops attacks like credential stuﬃng
+and account takeovers. With reCAPTCHA Enterprise, you can do this frictionlessly
+without user challenges to maintain an optimal user experience, which is just another
+example of invisible security. And over and above this, we continue to bring
+together the best of Google's capabilities to enhance fraud prevention. So a new
+integration between Cloud Armor and reCAPTCHA Enterprise that detects and stops
+bot activity at the edge is now in preview.
+So let's hear more from Brian Lozada, the CISO at HBO Max, on how they're actually
+using reCAPTCHA Enterprise to protect their users and therefore their brand.
+Thank you, Sunil. We chose reCAPTCHA Enterprise because we wanted to oﬀer our
+customers security against malicious actors, while continuing to provide a frictionless
+customer experience. With reCAPTCHA Enterprise, we enable our customers
+through our login and registration process without requiring them to engage in any
+kind of a challenge. It's a win for everyone. Our development and product
+organizations can continue to focus on creating customer centric experiences and
+our customers can easily use our services. The use of reCAPTCHA has helped us in
+our mission to secure the customer experience allowing our customers to feel
+comfortable while enjoying our platform. Thank you.
+{BIO 19013276 <GO>}
+Thank you, Brian. So we want to provide as much assistance as possible in your
+digital transformation or your security transformation. As Thomas mentioned in his
+keynote, we are excited to launch our new Google Cybersecurity Action Team to
+help. And to talk more about this, I love to kind of bring on Phil Venables, our Cloud
+CISO who is leading this eﬀort to tell you more. Phil?
+{BIO 20055418 <GO>}
+Thanks, Sunil. So the Google Cybersecurity Action Team marshals experts from
+across Google to form what we believe will be the world's premier security advisory
+team as a singular mission supporting the security and digital transformation of
+government, critical infrastructure, enterprises, small businesses, consumers and
+society overall. To deliver on this mission, there are many ways the GCAT can help
+you today with strategic advisory services for your security strategy, including
+transformational workshops and content like our CISO guide to cloud security
+transformation, and our framework for increasing operational resilience for ﬁnancial
+services organizations, with trust and compliance services driven by specialists who
+continually obtain the most important global compliance certiﬁcations for our
+products and map them to industry control frameworks for you.
+We have full-spectrum customer security and solutions engineering that delivers
+proven blueprints and architectures for deploying our products and services
+securely in accordance with your regulatory regimes, as well as comprehensive
+solutions for areas like autonomic security operations, cyber resilience, zero trust
+architectures and many more we've got under development. And ﬁnally, with threat
+intelligence and incident response services, including threat brieﬁngs, preparednessFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 54 of 69A - Sunil Potti
+A - Marco Genovese
+A - Tanisha Rai
+A - Marco Genovesedrills and rapid response engagements so you can stay on top of the evolving threat
+and security landscape.
+Another way we're working to help strengthen and transform security is by working
+with industry and the public sector. Google Cloud joined as an initial partner for the
+U.S. Department of Homeland Security's Joint Cyber Defense Collaborative, and this
+initiative will strengthen our collective security posture by preempting and reducing
+the impact of cyber threats through increasingly strong partnerships between the
+public and private sectors. And as Sunil mentioned at the White House Cybersecurity
+Summit in August, we announced that Google will invest $10 billion over the next ﬁve
+years to further strengthen cybersecurity.
+The areas addressed included expanding zero trust programs, securing the software
+supply chain, enhancing open-source security as well as training 100,000 Americans
+in skills including data privacy and security through our Google Career Certiﬁcate
+program, and this builds on the $100 million we've already committed to improving
+open-source security focused on eﬀorts like Linux kernel development and work like
+metrics tracking and the Coordinated Vulnerability Disclosure through the Open
+Source Security Foundation. So with that, Sunil, back to you to wrap up.
+{BIO 19013276 <GO>}
+Thanks, Phil. Great stuﬀ. As you could see, our commitment to improving security for
+customers and the whole ecosystem is substantial, and more importantly, it's
+enduring, in products, in resources and monetary terms. We're making a meaningful
+diﬀerence with our long-range vision and commitment of invisible security,
+delivering continuously around zero trust, safely securing your software supply chain,
+and delivering user protection services to protect your users and your brand.
+So to close, I mentioned a few new products and I didn't have time to cover all the
+other amazing innovations that are coming out of our teams. And we're making
+many more such announcements here at Next. So, please see our security experts,
+fellow customers and partners in our track sessions to go deep on the topics and
+product that matter most to you. So don't forget, the live demo of BeyondCorp
+Enterprise is coming up next right here, followed by a live Q&A, where we will be
+answering your top questions. Thanks again. Stay secure. And have a great rest of
+Next.
+Hi, everyone. I'm Marco.
+And I'm Tanisha.
+In the security spotlight, we heard about the importance of a zero trust approach to
+security.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 55 of 69A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Rai
+A - Marco GenoveseAnd in our demo today, we will show you how to implement zero trust access to be
+more secure and more productive. And a quick shout-out to our audience, this is
+truly live. Dive into the chat, we want to hear from you. Tell us what you do and where
+you're joining from. We can see you. Check it out, Marco.
+Sure enough. We can see everybody down here, and we're so excited to interact and
+talk to you all today. If you're still hanging out in the Next event website, click on the
+blue button that says 'Join the Interactive Experience' to activate these features.
+Okay, so let's get into it. We're going to cover three things: one, how your entire
+workforce can securely access legacy and modern applications without exposing
+your network to attacks; and two, how you can get better protection against threats
+and data loss right from within your browser; and three, how you can gain visibility
+into unsafe activity even if users are on a corporate network or device. And we're
+going to do all of this with BeyondCorp Enterprise.
+BeyondCorp Enterprise, or BCE, as we call it, is Google Cloud's zero trust access
+solution. With BCE, you can use Chrome to access apps and resources. In the
+background, Google's network protects and proxies traﬃc enforcing access policies.
+These policies use factors such as identity, device info, location and third-party
+signals to authorize access to apps and data that you need to do your job.
+That's awesome, Marco. So let's get to the good stuﬀ. Think about it. How easy is it
+for your developers to work remotely and securely right now? We know it's a tough
+task. We know that making life easy for developers while also protecting your code is
+critical. That's why our new BeyondCorp Enterprise feature, client connector is so
+important. It enables zero trust access to legacy thick client applications.
+Yes. I think a lot of people run into that today. So let's take a look at how developers
+would use it. We set up this laptop for the Cymbal Group.
+By the way, they're a ﬁctional company. Cymbal has been around since the 1970s and
+they haven't modernized all their applications. Sound familiar? One of their main
+developer applications is still hosted in a private data center.
+Now, I see this quite a bit. Until recently, Cymbal developers didn't have a way to
+access this application remotely without a VPN. The security team had constant
+concerns that remote users could expose the network or even worse, their source
+code to attacks or hackers. But now, using BeyondCorp Enterprise's client connector,
+they can access client-server apps without a VPN. Let me show you how CymbalFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 56 of 69A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Rai
+A - Marco Genovesedevelopers would connect via SSH to their Git repository. And before I show you, let
+me just say, don't blink or you might miss it. It's that simple.
+So let's go ahead and swing on over to our developer machine. From here, I can
+simply open up Google Chrome. Once Google Chrome has actually loaded, you can
+see I have authenticated to mykit application repository already. Up in the right-hand
+corner, I simply click on my endpoint veriﬁcation extension, and from here I click on
+start connection. My endpoint has been postured in the background and a secured
+connection has been made to GitLab. From there, I can simply then, once it's turned
+green of course, minimize my browser. And then on the left hand side, I'm going to
+go ahead and open up my terminal application, this is my thick client application.
+I'm going to then go ahead and run a Git clone and that's actually going to pull
+down the code from Git to my local machine. And there is my application pulled
+down locally onto my endpoint. I know that probably seemed pretty straightforward.
+But what you might not have noticed was: ﬁrst, there were no clients, it's all in the
+browser you probably already had opened; second, in the background, continuously
+validating the identity and the device and a bunch of other factors is our identity
+were a proxy; and third, our TCP proxy seamlessly and securely forwards all the
+traﬃc. The fact that developers around the world can do this remotely, simply and
+securely without all the hassle of VPN is pretty awesome.
+And with BeyondCorp Enterprise, workers are only allowed access to applications
+they're permitted to use. So, we prevent unwanted lateral movement across the
+network. So audience, we want to know, would you use this method for remote
+access in your organization?
+Awesome. Now, let's see how your workforce can securely access modern web
+applications, even from non-corporate devices. Let's look at how Cymbal does it for
+their extended workforce, their call center contractors.
+Meet Rhonda. She's one of thousands of remote contractors who help with Cymbal's
+24/7 support during the holiday shopping season. So, security community, can you
+share in our chat in the past year have you onboarded new temporary workers? Did
+you send them a laptop or make them install software so they could be more
+secure?
+Looks like that would be a yes. Contractors also tend to be more vulnerable to
+attacks. Last year, 44% of organizations experienced a breach and 74% of those
+breaches were the result of giving too much privileged access to third parties. So for
+Cymbal, keeping those users oﬀ the corporate network decreases the risk of being
+exposed to attacks like Ransomware. And here's where using BeyondCorp
+Enterprise comes through again for Cymbal. Contractors and other employees wereFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 57 of 69A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Raiable to BYOD, onboard quickly and use the device that they feel comfortable with,
+while BCE layers of protection keep them secure.
+That way, Rhonda can have secure access from her own device with clear separation
+between work and personal activity. Let me show you exactly what she sees as she
+begins her day. She ﬁrst navigates to her Google Chrome browser. Then she
+navigates to her Cymbal call center application, will enter in our credentials. We will
+then do two-factor authentication with our time security key.
+Now that we passed two-factor authentication, we are in our Cymbal call center
+application. You saw Rhonda log in to chrome with her Cymbal credentials. This is
+what we call a BeyondCorp protected proﬁle. It extends threat and data protection
+as soon as she logs in. As you can see, our agentless approach means no additional
+software. She gets right to work on her own device rather than picking up a laptop
+from IT and waiting hours while everything gets conﬁgured, therefore saving time
+and money.
+Awesome, Tanisha. And the thing about zero trust access is that we don't
+automatically trust Rhonda, just because she has login credentials. Authorization is
+continuous, not just when she ﬁrst logs in. BeyondCorp Enterprise enforces Cymbal's
+contractor access policies, based on her identity and contextual information about
+her device and location, as well as the fact that she's authenticated with her Titan key.
+So, security community, we want to know, what do you all use for multi-factor
+authentication, SMS code, security keys, maybe an authentication app or maybe
+something else completely? Hopefully, it's not nothing.
+For me, it's my security key, every day, especially since I don't always have my phone
+on me.
+Yes, same here. They're so easy to use and they provide the strongest protection
+against phishing. Regardless of what you use, some form of multi-factor
+authentication is critical for basic security hygiene and we highly recommend it,
+especially for remote access. So let's take a look. I don't know if anybody has
+anything. Looks like, most people use, let's say, security keys, B, awesome. That's
+what we love to hear. So, let's get back to Rhonda who just authenticated to the app
+and explore how we can integrate threat and data protection right from within her
+browser.
+Great. Let's see her get to work and show our BCE protect Cymbal, their customers
+and Rhonda with ease. It's been a really busy day. She doesn't have enough time to
+ﬁnish processing a batch of customer refunds before her next call. She wants to saveFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 58 of 69A - Marco Genovese
+A - Tanisha Rai
+A - Marco Genovesethe customer credit card information to a local ﬁle and do the refunds when things
+slow down. But saving the sensitive information to another location is against
+Cymbal security policy. Let me show you her experience.
+Let's navigate to our credit card ﬁle and let's download this where Rhonda can do
+the refunds at another time. As you can see, she's blocked. You can see a message
+appear at the bottom that prevents her from doing so.
+Yes, exactly. You can actually see where the credit card PDF has sensitive and
+dangerous content inside of it. And I'll show you a policy that's been conﬁgured for
+Cymbal that will detect risky behaviors just like these. So let's go ahead and look at
+our administrative console here in admin.google.com.
+Over on the left hand side, you can see the security menu. And if you scroll down
+underneath security, you can actually see data protection. And we're going to go
+ahead and authenticate obviously as administrator securely. So let's go and type in
+our password. And once I've authenticated, I'll be able to go ahead and look at my
+data protection policies. You'll notice here, which says managed rules. So we're
+going to go ahead and drill into managed rules and we can actually see now the
+credit card detection policy that Ron is hitting right here. We've also got detectors
+for things like social security or even detecting code that's being copied or pasted
+or shared by the developers. So as the admin, you can decide if you want to
+automatically block user actions, as Cymbal has done here or if you want to trigger
+warning to the user instead.
+And in addition to things like credit card numbers, you can also set speciﬁc DLP
+policies to detect ﬁle type as source code. So that way you can protect sensitive
+information and code by monitoring, controlling or even blocking what people
+upload or download.
+Exactly. We can use very granular policies for this type of information in order to
+protect against exﬁltration. So, we just showed you some of the types of data
+protection policies you can set up. You can also customize access policies and the
+changes take eﬀect in real time. This is a really big deal because you get continuous
+checking of whether a user is in or out of policy, giving you up to the second security
+controls. In fact, let's make an update here in real time for Rhonda. So okay,
+community, we're going to ask you which policy we should change. Is it her location,
+maybe her operating system policy? Or whether or not she's on a corporate owned
+device? Please chime in here, we'd really love to understand and hear what you guys
+deem important.
+While we wait for the results to come in, I will say that I see these kinds of things all
+the time with my customers. They want to be able to dynamically change policies
+depending on their circumstances. In particular, some customers are reallyFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 59 of 69A - Tanisha Rai
+A - Marco Genoveseinterested in controlling for location, perhaps limiting access to only certain
+countries. Additionally, if a company is going through an org change or maybe a
+merger, being able to change access policies for select groups of users or
+departments in real time is crucial. And beyond these three choices in the poll, there
+are many other ways to customize your access policies based on what your
+organization needs. So, let's go ahead and look back at the polls.
+And it looks like corporate owned device. So awesome. I love it. And thanks to
+everybody contributing. Let's go ahead and do this right now. So we're going to go
+ahead and jump on over into our GCP Cloud console. And from here, we can see
+our Identity-Aware Proxy. We can actually see our Cymbal GitLab for a developer
+application. We can also see our call center application.
+And again, these applications could be anywhere and for this demo, they're in GCP.
+We're going to go ahead and select the call center application and down at the
+bottom, we can see Rhonda over on the right hand side in her application access
+policy. Let's go ahead and edit that, and we're going to go ahead and remove the
+existing access policy that's allowing access from Europe and the U.S., and we're
+going to go ahead and delete that one. And we're going to add a new rule.
+We're simply going to go ahead and select Cloud IAP, IAP web app user. And then
+from there, we're going to go ahead and select the access policy which everybody
+chose, and that was required corporate device, right? Okay. Just want to make sure I
+remember that correctly. Let's go ahead and save that in place. Click save and when
+we save that policy, it's actually going to be propagated across the world within a
+very short period of time. All of the proxies across Google's global network are
+immediately updated. So the next time any user tries to access a protected resource,
+they're evaluated against that new policy set. We mentioned continuous
+authorization earlier and this is a key part of that. Authorization is not a one-time
+occurrence. So even if you begin a new session, that doesn't mean you'll have
+perpetual access.
+Exactly. And for companies like Cymbal that employ hourly and temp workers, their
+ability to dynamically update access conditions is important. For instance, they could
+set these policies so workers only access applications and resources during their
+shift hours or working days or only allow access from speciﬁc geographies. They also
+may want to require that devices have the most up-to-date operating systems and
+security patches. So this is an important condition to manage, especially for all the
+contractors using their own devices.
+Exactly. So because Rhonda doesn't meet that condition, which I just updated, she
+will no longer be able to access the call center application. Now, I think we've all
+faced this and it's one of the most frustrating things about remote access, especially
+when you're using the VPN. You think you should have access to something, but for
+some reason, it's just not working.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 60 of 69A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Rai
+A - Marco GenoveseIt's so worse. So let's see if our real-time change worked. So when Rhonda tries to
+open a new task in the call center application, let's take a look at what she sees. Let's
+navigate back to her home. And she's denied access, as a result of the change
+Marco just did. But once again, BCE has Rhonda covered. She can report this error
+using our new feature the BeyondCorp Enterprise policy troubleshooter, which
+informs end users that they're blocked and tells them how to get help quickly. So, as
+you can see here, she would follow the prompt to email the admin to get help. Let's
+go ahead and email our admin. Our admin is now notiﬁed of us being blocked. With
+BeyondCorp Enterprise policy troubleshooter, admins can quickly ﬁx issues that are
+blocking users keeping them productive.
+Yes. You bet. Let me show you what the Cymbal admin would see on the other side
+of this request and how they can unblock users like Rhonda. So we're going to go
+ahead and switch gears. Let's go over to Gmail, another Google application. And it
+looks like we got a notiﬁcation for credit card detection, which is good. So we know
+if Ron is taking some interesting actions within her endpoint, oh, and it looks like we
+just got an email from Rhonda because she's actually been blocked to an
+application. There's the link that she sent over, so let's go ahead and click on that,
+and we'll automatically be logged directly into the Google Cloud platform.
+So from here, I can actually see the diﬀerent policies and bindings that are in place.
+So let's go ahead and select the call center application. And over on the right hand
+side here, we can actually see the granted conditions or the denials themselves. So
+let's go ahead and look at the binding details. So interestingly here, we can see that
+Rhonda failed to meet any of the listed access levels and sure enough, it's requiring
+a corporate device which was not granted. So I normally go back and I block her by
+updating that policy. So her access level is evaluated like any other contractor, but
+we're going to keep moving just in the interest of time.
+Sounds good. That was so easy by the way.
+Yes, super easy. Now, let's look how BCE can give us some better visibility into
+unsafe user activities, whether there are unsuccessful access attempts like we just
+saw or other anomalous activities across the apps that BCE protects. Let me put the
+security dashboards in Chrome and give you all a look. So, we're going to jump back
+over into our Google Admin console here and in the same security menu on the left
+hand side, we can actually click on dashboards. Wait for those to load out for a
+second. So something to make note of here is that with Chrome data protection,
+you're actually going to get a whole slew of diﬀerent information. We can see
+Chrome high-risk users, we can see individuals with DLP incidents if we want to scroll
+down a little bit. We could actually see how many users are forgetting their
+passwords, if I can ﬁgure out how to use a track pad here. So we can see user login
+attempts, we can see for example messages that are encrypted, but what we'reFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 61 of 69A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Rai
+A - Marco Genovese
+A - Tanisha Rai
+A - Iman Ghanizada
+A - Sri Subramanianinterested in is whether or not those credit card numbers are making it through. So,
+let's go ahead and drill a little bit into one of these reports.
+So we can see every single ﬁle uploaded, ﬁle downloaded, web content upload for
+example. We can actually see every single time that this took place for our social
+security detection as well as credit card detection. And if we were to actually drill in
+on credit card detection here and I think it's really cool, so I'm going to show
+everybody real quick here since we do have like another minute and that is all the
+sensitive data transfers that are taking place, block detected or otherwise. So even if
+your organization isn't using all corporate-owned devices, you can still monitor
+security events and investigate those alerts.
+That's awesome, Marco. Audience, so what do you think? Let us know in the chat. We
+deﬁnitely know this is something of interest. In the last 15 minutes, you've seen how
+an entire workforce can access modern and legacy applications securely, how you
+can improve threat and data protection and how you can get better visibility into
+risky activity, even on unmanaged devices.
+Yes. Our call right at the end of the day with BeyondCorp Enterprise is to make your
+experience more productive and more secure and our team looks forward to
+supporting you on your zero trust journey.
+Thanks so much for joining us today and participating. We have a live Q&A coming
+up next to answer all of your Google Cloud security questions, as well as any
+questions you might have had from the demo. So please stick around.
+Yes, please do. And thank you all for joining. We will see you all soon.
+Bye.
+Awesome. Thanks so much, Tanisha and Marco. That's an incredible demo. It's always
+fun to see our products in action, and I'm sure between the great spotlight earlier,
+the demo, our audience has some great questions lined up. So thank you for joining
+everyone today. My name is Iman.
+And I am Sri. I'm so thrilled to be here, answering your questions live from our
+fabulous studio here in Sunnyvale.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 62 of 69A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman GhanizadaAwesome. We're also joined by the team that just took you through that live demo
+just a few minutes ago. So you may see them pop up to help answer questions
+throughout the show. Okay. Let's jump right in with a little poll. Tell us what got you
+most excited today? Is it our trusted cloud? Is it are zero trust philosophy? Is it our
+$10 billion cybersecurity investment? Or is it the Cybersecurity Action Team? And by
+the way, I'm waiting for these poll results. So while we wait for these results, just a
+reminder, this Q&A is live, so you can engage with us directly.
+So Steve, Brian, Dinesh, I'm watching all of you right here live on the chat. So, if you
+can, just go back to the Next event website and click on the blue 'Join the Interactive
+Experience' button. And as we give you some time to submit your poll, I want to hear
+the scoop from you, Sri. So, tell us what you're most excited about?
+I am really excited about the zero trust model. I feel like, we're kind of adopting it
+and we're seeing a lot of people move toward it. So -- yeah.
+Yes. I mean, we've been doing this for so long, right? We're taking an approach that
+we've pioneered and we're putting it out in the world and are watching a lot of
+customers sort of adopting this approach now.
+Yes, absolutely.
+Awesome. Looks like --
+Looks like, it is.
+Looks like it is. Yes, that's right. That's right. Looks like a lot of people are really
+excited about zero trust, that's amazing. Okay, cool. What's the next runner up?
+We've got our $10 billion cybersecurity investment, but zero trust is deﬁnitely leading
+by a pretty big margin. All right, so let's go ahead and get started. Let's kick oﬀ our
+ﬁrst question, yes.
+All right, sounds good.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 63 of 69A - Sri Subramanian
+A - Iman Ghanizada
+A - Sri SubramanianAll right, cool. So I guess while we're waiting for questions from the audience to
+populate, the question I have for you is, why security dominating the headlines?
+You have to be under a rock to not like notice all the stuﬀ that's happening around
+us, all the IPOs with SentinelOne and ForgeRock and Darktrace. And we're seeing
+Presidents and Prime Ministers commit a large amount, a giant amount of dollars
+including our New President to security. And so, I think there are two things here.
+Typically, an industry will see a lot of movement because there is a technology shift
+that happens and we're seeing that too with the digital transformation, the way that
+we secure our environment has changed, and so there's a lot of movement that's
+happening in this industry because of that.
+Added to that, security has this other thing where it's also driven by the people who
+are attacking the -- the attacks that are happening and we're seeing a huge amount
+of attacks happening today. And as a result, like for example, we've had -- I mean,
+this is really sad, we've had our ﬁrst death that happened because of a Ransomware
+this year. We've had a pipeline company having to pay a ton of money for a
+Ransomware. We had -- we've had manufacturing companies get disrupted in their
+manufacturing at a distillery company, basically had a disruption pretty recently. And
+so, we're seeing a lot of this happen all around us and that's kind of adding more
+focus into this area, where people are starting to realize that this is an important area
+that needs a lot of investment, because otherwise businesses are going to suﬀer
+because of it and nations are going to suﬀer because of it. And that's I think part of
+the reason that we're seeing this doubling of that exponential growth.
+You mentioned a couple of great things. Like, I've noticed that the cloud evolution
+has allowed a lot of businesses to sort of transform the way that they work, the way
+that they oﬀer services and products to their consumers, and we as human beings
+are now more dependent on technology now more than ever. And so, I was like to
+say that like, cybersecurity is going to start to be seen as a service-oriented role, an
+honorable role in society because we have customers who build healthcare systems
+on our cloud, industrial systems on our cloud, oﬀer all sorts of services, right? And as
+we become more and more dependent on technology, we need to ensure that we're
+also advancing the state of how secure our infrastructure is, so that we can protect
+our customers and protect the people at the end of the day.
+So, looks like we got a question from Jeanette[ph] which is, what makes Google's
+cloud more secure and trusted than its competitors?
+So, Google actually started building a lot of these security products for itself, right?
+So Google is known as a very secure company and so what we've done recently is
+taken some of the work that we have done to secure our own corporations or our
+own customers like BeyondCorp that we just saw the demo for or a reCAPTCHA and
+productized it, and the vision here is that every customer can be just as secure as
+Google is. Add to that this idea of innovation that's there at Google. So for example,FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 64 of 69A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman Ghanizada
+A - Marco Genovesewhen we decided to go into the federal space and do a FedRAMP certiﬁcation,
+instead of just standing up a couple of data centers near North Virginia and saying
+like, let's do that, let's -- this is a set of customers, let's give them a cloud that is
+compliant to their needs, we decided to make all of Google Cloud FedRAMP pie.
+And so now, a customer in Brazil can leverage those features just as much as a
+federal customer might.
+So I think there is this leaning in to the forefront of security that we're now seeing
+with the trusted partner cloud, for example, we had a couple of announcements last
+week, we had an announcement with Thales. And we're sort of saying that you can --
+a lot of nations want to be able to own their own infrastructure and their own destiny.
+And so, we're taking the Google Cloud and kind of making it available to them in a
+way that they own it and they operate it. And so, that's another thing that we're
+doing that's kind of pushing the boundaries, and I think this is just this idea of
+pushing the boundary, that is what makes Google really special.
+Yes, I think you mentioned something that's really important that which is like,
+because we own all of our infrastructure and we've served billions of users all
+around the world through Gmail, through search and through all this, it's kind of a
+no-brainer that we also allow enterprises and small businesses to also now revamp
+the way that they do their operations on our cloud and on our infrastructure. And so,
+we are able to do global changes like that with the FedRAMP certiﬁcation, right,
+where we do manage all of our infrastructure end to end, which is a big, big element
+of this. It allows us to govern our cloud more securely, more eﬃciently and also to
+pioneer really signiﬁcant changes for our cloud and all of our customers worldwide.
+100%.
+Yes. All right. We got the next question, which is from Izumi[ph]. The question is,
+which operating systems does BCE support? Does BCE support third-party clouds or
+on-premise application? And I believe this question would be probably best suited
+for Marco.
+Yes. I can answer that question. So the beauty of BeyondCorp and I would just say
+based on obviously the breadth and width of our Chrome browser is that we can
+support any operating system at this point. So whether it's Chrome OS, obviously,
+which we love and hold near and dear to our hearts or Windows or Mac OS or Linux
+or Android or iOS, we support all of them. So your users aren't going to be limited to
+a particular operating system which is great, especially when you are an organization
+trying to enable, right, enable your employees and your contractors. On top of that,
+we support everything from thick client applications, right, to server-based
+applications, web-based applications, that could be HTP, TCP-based protocols. There
+is no limit at this point in time. So the kind of imagination is the limit.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 65 of 69A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman GhanizadaYes. I mean as someone who probably doesn't get as much exposure to
+BeyondCorp and getting hands on as I used to, I really loved your demo. And so,
+that was super helpful and I'm -- can't wait to go back and re-watch it. We've got
+another question from Tara[ph], which is in the spotlight. Sunil spoke a lot about
+invisible security. So two questions, this is two-pronged. If security is invisible, does
+that mean that I can't change the settings or decide what security I want? And two,
+does invisible security mean that security is free?
+It's a great question. I think I'd like to step back and see what the problem is, right?
+So the problem we're trying to solve is that there is an alert fatigue that we're trying
+to deal with, right? There is -- most corporations can't even look at, forget about
+processing, about 50% of the alerts that they get. So you're starting to see all these
+alerts coming in, you don't look at it. And there is a lot of work being done to bubble
+up the more important alerts and put them in front of the sock and so forth. But that
+still means that there're 50% of the alerts that you don't even look at, right?
+So the idea is, are there things that we can do to prevent certain type of action, for
+example, that might not be kosher action without creating friction in the business?
+So based on the businesses-owned rules, are there org policies that you can write?
+Are there deny policies that you can write? What can we build into the platform in a
+way that you're bringing down the number of alerts and the number of things that
+you need to watch? And how do you actually guide things to happen? And so, this
+idea of moving from just always responding to things to maybe preventing things,
+maybe guiding people in the right direction.
+A great example is, there was a customer who once told me that just by sometimes
+popping up a question like, is this something that you want to do, you'll ﬁnd that a
+large number of people will just not do it, right? And so, you can -- there are a lot of
+diﬀerent ways that you can prevent certain things from happening and that I think is
+the core to what invisible security is about. So it is based on things that someone
+might conﬁgure. And it's based on the business logic that, that company wants to
+have and it's not something that's just invisible in the sense that you lose visibility
+into your security, it's invisible in that. There are things that you don't need to do and
+they're not coming at you all the time.
+(Multiple Speakers) as much as possible, it's like no security person ever said that
+their job is completely stress-free and it's usually right. And so, I was like to say like,
+we as humans, we do security in our everyday lives, right, with the threat model
+when we leave the house, we put our seatbelts on, we lock the doors. We've been
+taught over all these years of evolution how to be secure, right? Some of us more
+than others, right? And then when we get into our digital lives on the cloud, we have
+to relearn all these things and some of them we have to build into our infrastructure
+so that they become part of our background processes and some of it comes
+through user enablement and some of it comes through the amazing products thatFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 66 of 69A - Tanisha Rai
+A - Iman Ghanizada
+A - Marco Genovese
+A - Iman Ghanizada
+A - Sri Subramanianwe serve. Security is the core of how we advance all of the amazing things that we're
+doing as humans into this new world where everything is technology-driven and
+whatnot.
+We got a question from Noor[ph], and this one's for Tanisha probably. I would say,
+Tanisha, what applications does BCE support?
+Thanks, Iman. BCE supports all applications from IaaS to SaaS to thick client
+applications as well. And like I mentioned, we support HTTP and HTTPS in addition
+to TCP protocols, like SSH and RDP.
+Awesome. And I see a lot of great chatter from the audience. Ravi, Joey, Tisha,
+Tommy. Awesome. Thank you for engaging. All right, cool. So we got another
+question from John Mikhail[ph], sorry if I pronounced your name wrong. It says, can
+you only use the Chrome browser for BCE? And then, how do you make sure the
+Chrome browser is in use is the approved one? The Chrome browser that's in use is
+the approved one, not another Chrome instance that could be amend in the middle.
+Yes. It all makes sense. So this is kind of the beauty of Context-Aware policies, right?
+We can enforce these policies down to the browser level, versions, for example, what
+kind of browsers we're able to access. If it's a corporate managed browser or device,
+you can wrap policies around all of that. So you can be very, very granular.
+And I would say the other side of this is we want users to be able to use what
+browser they want, right, for personal access. I think that's great. We should continue
+to support that if that's what they want, if that's what the corporation wants. But as far
+as accessing corporate resources, it's just like anything else, right? You want to be
+able to manage it and we're not going to actually just trust anything. So having a
+trust in Chrome browser for accessing corporate applications works great for our
+customers, and it's just the best method to kind of move forward. So hopefully that
+answers your question.
+Thanks, Marco. Yes. All right. We got a question from Robert. And this says, how is
+Google's zero trust model diﬀerent than other competing hyperscalers?
+So, I think zero trust model is like -- so Google set the zero trust model and I think
+there's the world that's adopting the zero trust model. The zero trust model, there's
+only one model. There isn't a Google zero trust model and someone else's zero trust
+model. And the zero trust model is very similar to -- maybe I think an analogy is the
+things that happen today, as we got into the studio. We've all been vaccinated and
+tested multiple times in the last week and still when we came in, we got tested again.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 67 of 69A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman GhanizadaAnd then, we were masked and had a shield and we were doing that up until we
+were in front of the camera, and as soon as this is all done, we're going to be
+masked and sent out, right? So this idea that you have access to something just at
+the time that you have access and there's context to whether you need access or not
+and where you're coming from and what you're doing and that should all be added
+into the decision-making of what you are. I think that's what is zero trust, and it's
+great that it was pioneered by Google. But today that is a model that's being used
+everywhere.
+I think where the question may be coming from is about the BeyondCorp Enterprise
+and how is that diﬀerentiated? And I think the key thing here is we've seen the track
+record of Google in terms of keeping our employees and our data safe through
+BeyondCorp Enterprise, and we're trying to get that out to our customers. And the
+one thing that I would like to point out is the zero trust model isn't just one tool. It's a
+mindset, it's a way in which we do things and I'm really excited about GCAT, the
+announcement that we just made about the Cybersecurity Action Team where we're
+going to be having like these security experts and CISOs, people like Phil Venables,
+available to our customers to think through this model and think through end-to-
+end, how they're going to actually be implementing it. And so that's the exciting
+thing I think overall. We have the pioneering product. We have the knowledge of
+zero trust end-to-end. We've actually implemented it and we've proven it.
+I love the analogy you put together about COVID and whatnot, because it's like we
+went from traditional network-centric boundaries to identity-centric boundaries and
+now it's like, who are you and what's your purpose and what are all the other factors
+into why you should be performing this action. And I think one of the most amazing
+things about when I ﬁrst joined Google was not having to use a VPN.
+Yes.
+Think this worked and I thought that was really nice. So we're going to go to a
+question from Amitabh[ph] from Ford. So the question is, how do we implement zero
+trust in our org?
+This is a great question. And I'm going to actually throw that question to you. You're
+in the solutions team, so let's talk about this, right? How do we implement zero trust
+in the org? And I guess it starts with BeyondCorp. But what are all the factors that
+you think about?
+I always like to say that a lot of big workload transformations and security are not just
+a matter of buying a product and paying for a service. It takes a lot of enablementFINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 68 of 69A - Sri Subramanian
+A - Iman Ghanizada
+A - Sri Subramanian
+A - Iman Ghanizadaand education from the top down and from the bottom up. We have to structurally
+think about how we're going to transform the way that we work and what
+implications those have on the way that we work today and what our pros and cons
+are and where our approach is going to be, what our strategy is going to be to sort
+of get there. And that strategy is going to be augmented by people, by teams, by
+development teams, by tools, by partners.
+So when we advise customers and we sit down with clients and we talk about
+solutions, right, and helping transform elements of their business, we don't just talk
+about how our product can be leveraged in your organization, because we've got
+product teams that can talk about the product. We talk about how we can actually
+transform the business, how we can get the whole organization to culturally
+transform the way that they work, and how we can get on a tangible path to
+achieving a zero trust architecture in their workforce, and that may be a multi-year
+strategy, right? And so, there's many, many, many diﬀerent layers to this.
+I agree. I think there's this whole thing about you can think of a question only in --
+you can think of a product and a particular problem that you're trying to solve, but if
+you're not thinking about it end-to-end, like security is just as strong as the weakest
+link, right? And so, if you have a contractor who has direct access, then you have a
+problem there. So are you thinking about the thing end-to-end?
+Awesome. By the way, big shout-out to the GCAT for bringing on that security
+advisory role. So we got one last question here and Sri, I'm going to give you this last
+question, which is, what do you mean by shared fate? And how is that diﬀerent from
+shared responsibility?
+It's a great question. So shared responsibility has really unfortunately come to mean
+giving up responsibilities. I am responsible for something and you're responsible for
+something else. And so, that is not the partnership approach that Google wants.
+What we want is to be able to say, well, we're sharing the responsibility and we're
+sharing the fate from that responsibility. So we're doing two things; one is we're
+making sure that we're bringing in all the data left to you in terms of conﬁguration
+that you might have, in terms of like secure landing zone or secure blueprints. And
+then we also have risk manager to quantify and then be able to address your risk. So
+all of that is what a shared fate is where we're actually being part of the process with
+the customer.
+Awesome. Thank you all for joining us today and big thanks to Sri, Tanisha and
+Marco for sharing their insights. That's all we have for you on the live show today. Be
+sure to check out our great on-demand content. Our live programming kicks oﬀ
+tomorrow at 9 a.m. Paciﬁc with our community spotlight. Thanks for joining us.FINAL TRANSCRIPT 2021-10-13
+Alphabet Inc (GOOGL US Equity)
+Page 69 of 69This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

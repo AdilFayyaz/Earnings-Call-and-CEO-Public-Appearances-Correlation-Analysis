@@ -1,0 +1,567 @@
+FINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 15, Vice President, Healthcare
+Analyst
+, J.P. Morgan
+Harlan Sur
+Kimberly PowellJ.P. Morgan 41st Annual Healthcare Conference 2023
+Company Participants
+Kimberly Powell
+Other Participants
+Harlan Sur
+Presentation
+{BIO 6539622 <GO>}
+All right. Good morning, and welcome to J.P. Morgan's 41st Annual Healthcare
+Conference here in San Francisco. My name is Harlan Sur. I'm the Semiconductor
+Analyst for the ﬁrm. And for the fourth time in ﬁve years, we have the team from
+NVIDIA presenting. And in fact, in the 41-year history of the healthcare conference,
+NVIDIA has been the only semiconductor company to present here. So very honored
+to have them again here this year.
+For those of you that don't know NVIDIA, leader in accelerated computing
+semiconductor systems, hardware and software platforms, in areas like artiﬁcial
+intelligence and deep learning, powering some of the world's most powerful
+supercomputers and driving compute innovation for cloud and hyperscalers as well
+as large vertical markets like healthcare and life sciences.
+Here with us today is Kimberly Powell, Vice President of Healthcare at NVIDIA. She's
+responsible for the company's worldwide healthcare business, including hardware
+and software platforms for accelerated computing, AI, visualization, the power of the
+ecosystems, of imaging, genomics, life sciences, drug discovery and healthcare
+analytics. So Kimberly, thank you for joining us today, and let me go ahead and turn
+it over to you.
+{BIO 22145194 <GO>}
+Thank you, Harlan. Thank you very much. Good morning, everybody. Nice and dry.
+So an honor, really, and I thank you, Harlan and J.P. Morgan, for inviting us back. This
+is absolutely a diﬀerent kind of feeling year, and I'm excited to really share it with
+you.
+So let's just do the ﬁrst housekeeping. Let me start with a reminder that the
+presentation in QA contains forward-looking statements, and investors areFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 15encouraged to read our reports ﬁled with the SEC and the information that relates to
+our risks and uncertainties facing our business.
+Super. So you might know NVIDIA as an amazing chip company. And in fact, we are.
+But we're much, much more than that. We are an accelerated computing platform
+company. Some scientists, some industries actually describe us as a time machine.
+We launched our GPUs into general-purpose programmable processors with our
+programming model called CUDA. We now have well over 33 million CUDA
+developers. And then for the last 15 years, we've been developing a full stack of
+computing approach. So the ability to program the chips, but also be able to
+introduce acceleration libraries, applications and purpose-built computing
+platforms, whether that's large-scale datacenters for artiﬁcial intelligence or
+embedded supercomputers for the medical devices industry.
+And so for each ﬁeld of science and industry, and applications, we create a full stack,
+everything from gaming to design, earth and life sciences and self-driving cars and
+robotics. And this allows us to really serve $100 trillion worth of industry. But we're
+here to talk about healthcare.
+So for healthcare, we created a platform called NVIDIA Clara. It's after Clara Barton.
+She was the inventor of the American Red Cross, not after Santa Clara, where our
+headquarters is, and it's an AI computing platform for healthcare. We recognize that
+healthcare is becoming the absolute largest data-generating industry. And we have
+global challenges increasing the cost of healthcare delivery and access to
+healthcare.
+So we build computing platforms to serve these grand challenges, leveraging world-
+class chips and systems. We build platforms that span embedded edge, all the way
+through to cloud applications and frameworks that span from healthcare delivery to
+disease and drug discovery. And I'll hopefully show you some of that today.
+Our computing platform is why we adopted. We're relied on by all of the top
+medical imaging companies to turn sensor information into rich images. We're
+quickly becoming the de facto standard for surgical robotics platforms, for real-time
+sensor processing. We're helping the medical and cancer centers be able to be
+really data-driven in their clinical treatment decision-making. And we're increasing
+the accuracy and throughput of sequencing so that we can reduce the overall cost of
+genomics and hopefully bring it more into the standard of care. And we're turbo
+charging the drug discovery process using artiﬁcial intelligence to really illuminate
+biological meaning and explore literally the inﬁnite possibilities of small molecules
+and antibodies.
+So in healthcare delivery, imaging is the essential tool. It's used at every stage of the
+patient journey, which is why it was one of the application areas we chose to focus
+on when I started at NVIDIA 15 years ago. As sensors evolve, so do the computing
+platforms and the applications in the healthcare delivery need to evolve. So from 2DFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 15sensors that allow us to do annual screening into advanced 3D and 4D to do
+quantitative image analysis and to capture things like function in the new Photon CT
+scanners that have recently been released.
+And now we're entering into what I call the ﬁfth dimension where we can, in real
+time, with real-time sensing, we can -- these devices can really actually take action.
+They can do things like self-navigate. They can do things like adapt while you're in
+the middle of a radiation treatment. So very, very exciting times.
+And so much like the self-driving car industry, I love to use that parallel because we
+can all sort of understand it, the healthcare industry is becoming software deﬁned
+and is able to deliver great, great value through software. And in order to do so, you
+need two computing platforms. You need an AI development platform and AI
+deployment platform. And you need to connect these two so that the data that you
+were experiencing on the edge is very dynamic. And it's that data that you can
+collect at the edge to bring back in to improve these applications and redeploy
+them. This is the as-the-service architecture, and NVIDIA is building this end-to-end
+computing platform to serve it.
+So here's an example. NVIDIA Clara provides the imaging industry, radiology,
+pathology, all the surgical data, the AI development platform, it's called MONAI.
+MONAI is an open source AI framework that we codeveloped with the industry, the
+academic medical centers and experts. We open source it, and then we have an AI
+deployment platform called Holoscan. So using MONAI as the AI framework for
+imaging, we've had over 800 million downloads of this framework. It's absolutely
+accelerated. And it's a driving force in the exponential growth in the AI research. You
+can see that through the publications here.
+And then to help close the gap between research and clinical deployment, we
+announced last year, NVIDIA Holoscan is meant to be a commercial oﬀ-the-shelf
+more general purpose computing platform for these applications to live, so that not
+every medical device needs to reinvent their computing platform every time a new
+sensor technology comes to market.
+So a scalable real-time AI sensing platform and it can scale, as I said, from
+embedded to cloud. We have developer kits already out there in market, and we
+announced design wins with several robotic surgery companies already.
+The innovators in the industry are using NVIDIA platform to deliver new applications
+across radiology into therapy. So as you can see, just as we described, Carestream
+uses artiﬁcial intelligence to really have a complete smart AI X-ray room. It's at the
+room level all the way down to the device level to streamline workﬂows. You have
+Varian and Elekta where they can now use AI to do adaptive therapy, real-time
+adaptive therapy for their patients. I love the intuitive ion because it allows you to
+navigate into the lung and biopsy areas, otherwise no humans could travel. So these
+devices are absolutely opening up tremendous new capabilities, and we're excited
+to see the medical device market continue to go through this revolution.FINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 15But I want to go quickly next to a modality that is just super, super exciting. And I
+think we all saw a 2022 that changed the landscape of genomics tremendously. So
+genomics is a modality that is delivering great value to healthcare as well as research
+and drug discovery. It is the largest data generator in healthcare and growing
+rapidly.
+We're witnessing the continued decline in cost, enabling large-scale genomics
+programs to transpire. However, we need to be sensitive to the fact that a lot of
+times, when you advertise the cost of sequencing, it's just the cost of sequencing
+and not the downstream analysis, which is ultimately the insights that we need to
+care for our patients and to deliver insights into discovery.
+And so this is why we are partnering across the genomics industry from new
+sequencers to bio informatics platforms to cloud services and large pharma. So 2022
+was an absolute breakout year for NVIDIA accelerated genomics. We partnered with
+Oxford Nanopore and Stanford and many others to achieve a Guinness record in
+clinical sequencing. We made NVIDIA Clara Parabricks free for research and
+partnered with the Broad Institute and put it in the Terra platform, so it's -- and it's
+also available in every public cloud.
+And just this week, our partners at BioNeMo announced our work in accelerating 96
+optical genome mapping workﬂows for high-throughput on-prem and cloud
+deployments, where they're having tremendous outcomes helping patients with this
+new structural variant capabilities.
+So AI is becoming vital to all areas of genomics analysis, in fact. Primary analysis,
+which takes the signal or image and turns it into the genomic base calls, is all done
+now through artiﬁcial intelligence algorithms because it helped realize a step
+function and accuracy as well as performance. And the higher the throughput of the
+instrument, the lower the cost of sequencing. So AI is also bringing that speed.
+And so just a few months ago, Seattle Children's and the University of Washington
+were able to deliver a genetic risk assessment within three hours of a newborn's life
+to rule out that a disease that their sibling had. By reducing the cost, increasing the
+speed and partnering with the clinical community, we can bring the condition to
+move sequencing more into the standard of care, and we're really excited to do that
+across the board with all of our sequencing partners.
+With more sequencing platforms and modalities entering the market, we are going
+to be pushing these 40 exabytes of genomic data out there into the world. And we
+already have 500,000 genomes into 1 million genome databases associated with
+patient data. And these are becoming readily available. And so we must harness the
+latest breakthroughs in artiﬁcial intelligence to drive our biological understanding
+and therapeutic discovery.
+So we had some incredibly exciting breakthroughs at the end of last year at the
+Supercomputing Conference. It's a super neat example of how you can harnessFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 15large genomic data to drive genomic understanding. And we worked with NVIDIA
+Argonne National Labs, University of Chicago and achieved this just last -- late last
+year and won the Gordon Bell Supercomputing Award.
+So you know the latest technology that is taking the world by storm is generative AI
+in large language models, most notably, ChatGPT. These models are trained on
+extremely large unlabeled data sets, and they can learn context and meaning by
+tracking relationships and sequential data. Sounds very much like genomics, if you
+ask me.
+And so the same can be used on genomic sequencing data, and we did just that, co-
+developed a model called Genes LM [ph]. And it's the ﬁrst genomic scale and the
+largest biological language model to date. So used 110 million bacteria sequences
+from the Patrick database. And then we ﬁne-tuned it with 1.5 million SARS-CoV-2
+genomes. And the model was able to not only predict the evolution of the virus, so
+potentially be useful for an early warning system, but it was also able to accurately
+identify variance of concern. And this is all published, and the paper is in the source
+there. So really, really super, super amazing breakthrough here.
+And I want to kind of give you a sense to what are these models learning? And how
+are we going to be able to really understand how they learn and represent
+biologically relevant information? So let me just kind of play this video that the team
+made this to sort of give you a description of what's going on.
+You can see through clustering that the model is ﬁnding semantic meaning in the
+latent space. And ﬁrst, you can see it cluster genomes by their sequence lengths,
+and then we're going to move into here. You can see it with this GC content
+indicating secondary structure stability. And then we could even zoom in on
+particular enzymes, and we can see the structural diﬀerences. And this is something
+actually the model was never trained for.
+And so these models are actually helping us with interpretability. No longer are the
+days of deep learning black boxes. These foundation models are -- give us a new
+ability and become the bedrock for us to really be able to read and start to
+understand biological meaning. So very, very exciting opportunities here. And this is
+-- language models applied to genomics. We are just getting started.
+So like generative AI has set oﬀ broad use across all industries, AlphaFold set the
+image at moment for AM Biology. And standing on the shoulders of giants and the
+breakthrough is coming from deep mine and open AI, biology labs at Meta, Roast
+Lab, Baker Lab, Barsele Lab [ph] and thousands more published papers in 2022. So
+generative AIM biology is witnessing that same broad applicability across life
+sciences and drug discovery.
+Like I said, from pandemic early warning systems to target discovery, to protein
+structure prediction, to virtual screening, to drug target interactions and protein
+engineering, literally touching every phase of the drug discovery process. And soFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 15biology is going from an empirical science, experimentation and exploring the
+physical natural world to computer science and AI, and we're -- it's quickly moving
+from a science to an engineering.
+So just this morning, we're announcing exciting results of a collaboration between
+NVIDIA, InstaDeep, who -- congratulations, who just announced they were being
+acquired by BioNTech and Technical University Munich. And it's resulted in a state-
+of-the-art genomics language model. Genomic language models are still in early
+investigation, DMA Bart being one of the early notable ones. But you can imagine
+that much of this technology has been applied to natural language processing, but
+the genome has four letters in 3 billion -- of 3 billion long sequence. So it presents
+new challenges.
+And so we use the NVIDIA Cambridge-1 supercomputer. We trained a collection of
+large language genomic models. And the highest performing model called
+nucleotide transformer. It achieves state-of-the-art on not only one of the
+benchmarks, but on 15 out of 18. And that means that this large foundation model is
+able to generalize across many, many tasks, which otherwise were built model at a
+time quite narrowly.
+The paper is really, really informative, and it shows you that multi-species data was
+super important to be good at generalizing across these tasks. It was also very
+important in showing that you need larger and larger language model sizes. And
+that's why NVIDIA is here, so we can enable that to happen.
+So the highest performing model ranged from 500 million parameters to 2.5 billion,
+and the 2.5 billion parameter model absolutely went out. So this will be published in
+a paper in the coming hours as archived chunks through it, and then we will also
+make a fraction of these models readily available in the coming weeks.
+This is exactly why we created NVIDIA BioNeMo service, announced in September
+last year at our GPU Technology Conference, to enable the over $200 billion of R&D
+market and drug discovery. How can we give them access to the tools, the
+frameworks, the applications at data center scale to accelerate drug discovery?
+So BioNeMo is making it easier and more eﬃcient to build and use generative AI in
+large language models across every stage of that drug discovery process I just
+enumerated. BioNeMo is in early access, and we're working across the entire
+ecosystem with the leaders in biology and drug discovery ﬁeld from research to the
+tech bios, all the way through to the large pharmaceutical companies.
+Today, we are also announcing with our partner, Evozyme, that we've built a
+generative AI model for protein engineering called ProT-VAE. It's a protein
+transformer variational auto and coder. As you know, proteins are the building
+blocks of life. Every cell contains proteins. They're present in our everyday life from
+clothes we wear, food we eat, air we breathe. So the ﬁeld of protein engineering
+looks to discover new proteins that can help design more eﬀective drugs andFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 15remove carbon from the air or make more environmentally friendly clothes. However,
+the number of potential proteins far exceeds the number of particles in the universe.
+So Evozyme was able to use in a few short weeks, be able to use NVIDIA BioNeMo,
+use our pre-trained models, inject their special sauce with the VAE encoder and train
+a model and be able to, from sequence, generate proteins that they were able to
+experimentally synthesize and validate in the lab. The beauty about this is they use
+BioNeMo to ﬁne-tune that model for family of proteins. So you can ﬁne-tune it for a
+set of proteins that has the given properties function and characteristics that you
+want, and then it can generate a library of those.
+And so I want to, again, give you a little ﬂavor for what that looks like. So the -- here's
+an example of a protein called human PAH. It's a protein responsible for a precursor
+to making pigments, hormones, also neurotransmitters, and it can even cause some
+pretty rare disease disorders. So the ProT-VAE model, it was trained on PAH protein
+family. And here, we sampled two of the proteins generated and validated.
+The ﬁrst protein generated had 51 mutations, which is about 85% similarity to the
+original, and it has a 2.5x, a huge 2.5x enhancement in function. This is what exactly
+you want when you're developing new therapies.
+ProT-VAE also generated another protein with 167 mutations, so only 50% similar.
+This is where no human would intellectually go, but it was able to still achieve
+enhanced function. And so the protein language of ProT-VAE, it generated proteins
+nature's never seen before, but it was able to maintain the function for the desired
+properties that they were measuring for. So this is the promise of these large
+language models, the ability to explore way outside the space. And so we're going
+to extend what is today the common use of directed evolution and extend it into
+machine-guided directed evolution. And it's really an accelerator to be able to
+discover new proteins.
+And so I'll conclude with NVIDIA is building the compute platforms to address the
+breadth of healthcare to beneﬁt from extraordinary capabilities enabled by
+generative AI and accelerated computing. MONAI for imaging, Parabricks for
+genomics, BioNeMo for drug discovery are helping the industry harness the
+computation and massive accelerate R&D and the workﬂows that drive healthcare
+and life sciences.
+And so the time for generative AI and biology is now. An explosion of seminal work
+happened in just the last three months of last year. I've exempliﬁed them here with
+these models, and they are elucidating biological meeting. This is going to help us
+understand disease, and it will accelerate our ability to discover new therapies. And
+so we can build representations of large and complex data sets now and make
+meaningful predictions.
+So with that, I hope I leave you with a very bright and sunny future of what 2023
+holds to really harness this technology, and I look forward to answering yourFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 15Q - Harlan Sur
+Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+Q - Harlan Sur
+Q - Analyst
+A - Kimberly Powellquestions. Thank you.
+Questions And Answers
+{BIO 6539622 <GO>}
+(Question And Answer)
+Great presentation. Are there any questions out there? I'll just ask, did you wait for
+the mic? Got one back there.
+NVIDIA's revenues seem to have peaked in April of last year and have declined --
+quarterly declined since. Can you explain that? And why you think it's temporary?
+{BIO 22145194 <GO>}
+I cannot. I am not in our Investor Relations team, so I will politely decline that answer.
+Thanks.
+{BIO 6539622 <GO>}
+Questions? I've got one right over here in the middle.
+Yes. Can you just talk about the competitive landscape, your customers? What other
+alternatives they have? How much has done internally? How much they need to go
+outside for AI solutions?
+{BIO 22145194 <GO>}
+Yes. I think the competitive landscape in artiﬁcial intelligence is we are in a unique
+position at NVIDIA. We're the only AI company that can also work with every other AI
+company. Our platform is well adopted in every single public cloud. It's adopted by
+every single computer maker on the planet, and it ranges in sizes from embedded
+computers, all the way through to cloud platforms.
+And so if you look at that sort of future description of what we can oﬀer the market,
+it's a ubiquitous computing platform. And so it allows us to give the application
+developers, the industries the ability to transform business models and run these
+exciting new application workloads completely at scale.
+And as you know, we dedicated the company to artiﬁcial intelligence going back
+some 10 years ago -- yes, at least 10 years ago. And the description language IFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 15Q - Harlan Sur
+A - Kimberly Powell
+Q - Harlan Surdescribed called CUDA has been around even longer, 15 years. And so the ability to
+reinvent sort of that software ecosystem is very, very tricky.
+And that's why I really describe NVIDIA not as a chip company, but we are an
+accelerated data center company. And so to compete at that level is very, very
+diﬃcult. And the software investment that we've made and our ecosystem partners
+have made is really what diﬀerentiates us and allows us to remain -- allows us to
+innovate continuously at the speed of light, because we're a full stack company.
+{BIO 6539622 <GO>}
+Questions? I've got a question. So -- and maybe this will answer the gentleman's ﬁrst
+question. Obviously, the consumer part of your business was weaker last year
+because of the weaker macroeconomic trends, some of the lockdowns in China. The
+data center business, which is where your franchise belongs, that's -- I think that grew
+40%, 50% last year, and it's still on. It's still going at a very strong sort of double
+digits year-over-year clip.
+In fact, the data center business for NVIDIA has grown at a 70% CAGR over the past
+three years. It's 60% of your total revenues. Underneath that, accelerated compute
+spending within healthcare continues to grow at an extremely rapid rate as you sort
+of reﬂected in your presentation. Can you just give us a sense, snapshot of the
+revenue scale, the growth rate for your healthcare franchise over the past few years?
+And how do you see the SAM opportunity for healthcare over the next three to ﬁve
+years?
+{BIO 22145194 <GO>}
+Yeah. I mean healthcare is an extremely important industry, and it's quite broad. And
+I hope I was able to let you know that we're focused on some very important large
+markets within it, whether that be genomics, medical devices, the biopharma
+industry. So we believe that we could be the next $1 billion industry for NVIDIA.
+And you can -- as I described, there's these two computing platforms that are
+needed for the future of how we're going to innovate, develop software and as a
+service. And so one proxy you could use, Harlan, is look at the growth in AI research
+papers. It's all being done on that development platform. So in the last two years,
+120% growth, and then we're addressing the ability to deploy these applications.
+They're maturing now. They're running in the data center.
+But now they also want to run at the edge because there's a lot of incredible value
+you can provide the industry when you're developing real-time insights at the edge
+and then also have a ﬂexible computing platform to continue that analysis and
+development back in the data center in the cloud. So that's kind of the proxy that we
+use, and I think 120% growth sounds great.
+{BIO 6539622 <GO>}
+Yes, absolutely. Questions?FINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 15Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+A - Kimberly PowellHi. Yeah. As a follow-up -- sorry, I lost my voice. As a follow-on from that perspective
+around this potentially becoming $1 billion industry for the data center sort of value
+proposition that NVIDIA can underpin, which of the traditional healthcare
+stakeholders need to enable or buy into the value chain of your end customers? So
+do you need reimbursement or regulatory or sort of government buy-in to the
+innovative products that get built on the stack for you to realize the $1 billion at your
+end?
+{BIO 22145194 <GO>}
+Yeah. I think -- I don't know if that's going to be our rate limiter at the moment. I think
+as I sort of alluded to, these large language models that we just described that were
+built in just the last three months of last year, they take an entire supercomputer to
+train them. So just to be able to explore this new capability in generative AI and
+large language models is a data center in itself for said customers.
+So the pharmaceutical industry, you can hear it all over the ﬂoor here at J.P. Morgan,
+they're building centers of excellence in AI. They're using all of the massive data sets
+that they've acquired over the last decades of drug development. There was $40
+billion of investment that was pumped into what the term I love, which is tech bios,
+technology-ﬁrst biology companies, because they're -- we're able now to generate
+so much biological data to really drive this model development.
+So I think purely from that realm, we can reach that potential $1 billion opportunity
+amongst many of the other opportunities, but the analysis of genomics. But
+generative AI and large language models is just a clear easy one to understand.
+How much of your healthcare business today comes from genomics versus radiology
+and robotic surgery and more conventional healthcare segments?
+{BIO 22145194 <GO>}
+I don't think we -- I don't know if I would be that granular about it. It used to be, call
+it, sort of like an 80/20 split where we would be so in the medical devices. I kind of
+grew what you described would be very medical device centric. That's where we
+started. That's where our heritage lies, going inside of CT scanners, inside the
+genomic sequencing instruments, powering the robotic surgery platform.
+So all of that was kind of, call it, 80% and 20% was kind of coming from simulation
+that's going on in the pharmaceutical industry, the genomic analysis. And we're
+deﬁnitely now coming into more of a 50/50, because of some of the dynamics that I
+just described of massive amount of computing that is being -- that is happening in
+pharmaceuticals. So the balance is there, but they're both growing at the sort of
+indicated pace of what you're seeing in the AI research.FINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 15Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+Q - Harlan Sur
+Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+A - Kimberly PowellJust a quick follow-up. Did you say what your healthcare revenue is today? You said
+your --
+{BIO 22145194 <GO>}
+I did not.
+You don't release that?
+{BIO 6539622 <GO>}
+Questions?
+Thank you for a great presentation, a huge fan of NVIDIA.
+{BIO 22145194 <GO>}
+Thanks.
+And we buy a lot of your stuﬀ as an AI start-up. But I see that recently, the bio -- tech
+bio market has kind of declined. So some companies have, of course, grown
+dramatically, hopefully like us, but some have declined. So how do you see the split
+now between big pharma and tech bio going forward in terms of the GPU sales and
+also cloud sales? And because many pharmaceutical companies are still kind of in a
+little bit of an Intel world, but now, of course, everybody is switching to NVIDIA, but
+how do you see that split?
+{BIO 22145194 <GO>}
+Yeah. I don't want to predict the market, Alex. We're kind of -- as a platform
+company, we love to raise all boats and support the ecosystem the best way that we
+can. You're a fantastic partner at -- and Silico paved the way in showing that
+generative AI can be used across the complete drug discovery process coming to
+GTC for the last 10 years.
+So one, you have to be a believer. I think pharma is still trying to ﬁgure out, are we a
+believer in this technology? So they're doing a lot of dipping into it. And they're also
+kind of waiting and watching and partnering with the tech bio company.
+So I don't want to make a prediction. I think the industry and the number of
+therapies and the personalization of medicine, there's room for everybody if they
+were up to me. But I don't -- I think that there's a tremendous amount of promise. I
+think there is a need to think diﬀerently in this day and age with the tools that weFINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 15Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+A - Kimberly Powell
+Q - Analyst
+A - Kimberly Powellhave, with the automation of digital biology, that we need to see what the future
+holds.
+Thank you. I actually think that $1 billion is probably low balling it. I think that you are
+already at the billing That's type.
+{BIO 22145194 <GO>}
+Yeah, within the next ﬁve years.
+Thank you.
+{BIO 22145194 <GO>}
+Thanks, Alex.
+Thank you, Kimberly, for a great speak, --
+{BIO 22145194 <GO>}
+Thanks.
+That's vibration for the future. So yes, so I'm Kim from WinFrame in Vietnam, and we
+trade -- or we met on NVIDIA as a platform for training system as well as for
+production. So everything we moved from CPU onto GPU now.
+{BIO 22145194 <GO>}
+Thank you.
+So I have two questions for you. One is, what do you think about ChatGPT that will
+be inﬂuenced into healthcare from your point of view? And second is the generated
+like sequential majority of that, what do you foresee about?
+{BIO 22145194 <GO>}
+Yeah. Thank you, yes. ChatGPT is just -- it's an amazing technology, and it's -- you got
+to ask yourself, it's just about what do you want to use it for? I kind of think about it
+right now, and just because in my own little world, back when we started work on AI
+and radiology, everybody jumped to the conclusion that AI and radiology has to
+diagnose somebody. No, it doesn't. It has a massive amount of utility throughout the
+entire workﬂow and process of radiology.FINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 13 of 15Q - Harlan Sur
+A - Kimberly PowellSo it's really about what do you want to do with the AI. Do you want it to write your
+assay? Did I wanted to write my presentation? No, I did not. But I might want to do it
+to learn about how an enzyme. Or yes, you can ask some interesting questions like
+that. So I think it will. I think the type of technology will have and should have a utility
+in healthcare. I'm not saying that it does today, but I think it will. And its utility will be
+diﬀerent than maybe where some people want to leap to. It doesn't have to be that
+far of writing up a medical report and discharging a patient.
+And then for generative AI, I think there's been -- Alex, who's just here just already
+has proof points how you're able to now discover novel targets and therapies that
+are in human trials. So that is well underway and being proven. And so if that isn't
+promised enough, but then where you have this large body of biologists and
+scientists who may not come from the computer science world, what I love about
+generative AI in these language models is we can now interrogate them in an
+interpretable way. So we can now learn together that the computer science
+community and the science community can learn this together and really start to
+unlock biological meaning.
+We know we don't know enough about the genome. So these models, my hope, is
+that they're going to help elucidate a lot of that. And then generative AI, like DALI,
+where you can go from one domain to another from text to an image, how could that
+not have massive utility in going through the diﬀerent types of data sets in
+healthcare, from health records to genetic marker to what they saw in your image to
+what your pathology report is looking at?
+So with the likes of Genomics England and U.K. Biobank, we're looking at, can we
+harness these new big data sets to see if there's a DALI in healthcare that has utility.
+So it's not a panacea. It's a utility. It's a tool, right? And the whole point is can we
+accelerate? Can we increase our understanding and really move this ﬁeld along and
+ﬁnd more therapies for patients who need them? Thanks for the question.
+{BIO 6539622 <GO>}
+Questions? I'm going to put my semiconductor cap back on because your chips and
+your hardware systems are the foundational building blocks, right? And you guys
+unlock all the innovation via your vertical markets with the platforms. The team just
+rolled out its next-generation compute acceleration platform, the H100. That's based
+on the Hopper architecture, 4-nanometer, leading-edge manufacturing technology,
+80 billion transistors on a single piece of silicon, one of the largest chip designers in
+the world.
+Typically, the team focuses a lot of its eﬀorts on cloud and hyperscalers at their early
+stages and followed by enterprise and vertical segments like healthcare. Talk to us
+about the adoption curve for the team's prior generation A100 platform, and how do
+you see the uptake and momentum for the next-generation H100 that the team is
+rolling out now?
+{BIO 22145194 <GO>}FINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 14 of 15Q - Harlan Sur
+A - Kimberly Powell
+Q - Harlan Sur
+A - Kimberly Powell
+Q - Harlan Sur
+A - Kimberly PowellYeah. I think it's going to be incredible. So we've already started early access and
+early work in the area of genomics, as I said, right? There's an insatiable demand for
+compute to deal with the amount of data that's coming oﬀ those instruments. And
+the more throughput, the lower the cost. So we already have a tremendous pickup in
+that.
+What I'll say is, in the past, you had to wait for the technology to come up and
+become available. Well, we're moving at speed of life. And throughout the ﬁrst
+quarter of Q1, you're going to see H100 popping up in all of the public clouds, tens
+of thousands of them. So we're very excited that it's going to be readily available. So
+these workloads can automatically take advantage of it.
+And with some of the incredible features that it presents from a perspective of these
+large language models, it has a transformer core in it for the transformer large
+language models, it has in it to really squeeze down the eﬃciency and take these
+large language models, which would either be very expensive to inference and be
+able to do that very eﬀectively. So I think it's going to be a rapid migration to H100,
+and the market is prepared and ready for it.
+{BIO 6539622 <GO>}
+Perfect. Well, we're just about out of time. Kimberly, thank you for your participation
+and look forward to having the team back next year.
+{BIO 22145194 <GO>}
+Thank you so much for having us. Yeah.
+{BIO 6539622 <GO>}
+And look forward to monitoring the progress and execution of the team this year.
+{BIO 22145194 <GO>}
+Thank you all for coming. Appreciate it.
+{BIO 6539622 <GO>}
+Thank you.
+{BIO 22145194 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, FINAL TRANSCRIPT 2023-01-12
+NVIDIA Corp (NVDA US Equity)
+Page 15 of 15or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

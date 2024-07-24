@@ -1,0 +1,313 @@
+FINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 8, VP of Healthcare
+, Senior Analyst, JP Morgan Chase & Co, Research Division
+Harlan Sur
+Kimberly PowellJPMorgan Global Healthcare Conference
+Company Participants
+Kimberly Powell
+Other Participants
+Harlan Sur
+Presentation
+{BIO 6539622 <GO>}
+Good morning. Welcome to JPMorgan's 37th Annual Healthcare Conference here in
+San Francisco. My name is Harlan Sur. I'm the semiconductor analyst here for the
+ﬁrm. And for the ﬁrst time in the history of the health care conference here at
+JPMorgan, we have a semiconductor company presenting, NVIDIA, a leader in visual
+and accelerated computing silicon and systems in areas like artiﬁcial intelligence and
+deep learning. And here with us today is -- from NVIDIA is Kimberly Powell.
+Kimberly is Vice President of Healthcare in NVIDIA. She's responsible for the
+company's worldwide health care business, including hardware and software
+platforms for accelerated computing, AI and visualization, the power of the
+ecosystems of medical imaging like sciences, drug discovery and health care
+analytics. Previously, Ms. Powell held the company's higher education and research
+businesses, led the company's businesses along with strategic evangelism programs,
+NVIDIA AI labs and the NVIDIA Inception program with over 3,000 AI start-up
+members. She joined NVIDIA in 2008 with responsibility for establishing NVIDIA's
+graphics processor platforms as the accelerator platform for medical imaging
+instruments. She spent her early career in engineering and product management of
+diagnostic display systems at Planar Systems. So very pleased to have the NVIDIA
+team.
+Kimberly, thank you for joining us today. And let me turn it over to you.
+{BIO 22021217 <GO>}
+Okay. Harlan, thank you very much. I'm so excited to be here. And thank you for
+coming on the last day of JPMorgan. I know this is an incredibly busy conference.
+This is just an amazing and exciting time for health care. I think you're all familiar with
+the safe harbor statements. I just want to get through this and really get going.FINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 8I'd like to introduce NVIDIA. We invented the GPU in 1999. We created an ability,
+something called programmable shaders, that allowed artists of all kinds, artists
+creating games, creating movies, to really unleash their creativity and start creating
+virtual worlds.
+As you can see, this is an image of the latest games of Star Wars. The amount of
+computation that they need to do in order to allow the light to bounce oﬀ of the
+surfaces and look to your eye as if it's photorealistic is incredible. That same
+computing platform and technology is used by designers and engineers of all kinds
+to design the chairs you're sitting on, the shoes you're wearing, the jet engines that
+go inside the planes you're probably taking this afternoon. And they need that same
+kind of interactive 3D experience to know what are they designing, how does it look,
+how does it perform in simulation. They need to be able to iterate on that. And that is
+the basis for what NVIDIA created in its ﬁrst 10 years.
+But if you think about how do you make hair look like hair? How do you make smoke
+look like smoke, ﬁre look like ﬁre? This is an incredible amount of math and
+computation and physics. The same kind of math and physics that the scientiﬁc
+community was really longing for. They were approaching a very critical end of
+what's called Moore's Law. And they needed a huge leap in computing
+performance. And they needed to get to new levels of being able to attack diﬀerent
+sized problems, things that they've never done before, work with data that was just
+exploding for the new kind of sensors that were being created, whether it's in
+astronomy or it's in climate and weather simulation. And this platform, because it's
+so fantastic at creating these math and physics, it was a perfect platform for
+accelerated computing and high-performance computing.
+We decided to create a computing platform called CUDA. And CUDA is that
+computing platform that allows you to do high-performance computing, accelerated
+computing. We put that technology on every product that we made, whether it was a
+gaming card or it was something that went inside the data center. And because we
+made it so accessible, researchers, any researcher in an academic institution, can get
+their hands on this technology. And so just about 6 or seven years ago, the computer
+vision research community, they were dusting oﬀ the shelves with an algorithmic
+approach called neural networks. Because we were living in this sea of digital data
+because of our mobile phones and what's going on in the consumer Internet, they
+knew that these neural networks could be very eﬀective if they had more data. But
+they needed to have a massive amount of computation. And so they turned to
+NVIDIA GPU computing platform in order to do that. We've been dedicating
+ourselves to make deep learning and artiﬁcial intelligence as accessible as possible
+and make it run as fast as possible. So we can be iterating and making
+breakthroughs like you're experiencing every day when you talk to your phone.
+Then we have also -- there's this giant 20-plus years of data science that's been
+based oﬀ of machine learning methods. And just this past year, NVIDIA has put out
+into the marketplace the work that we've been doing for several years, which is
+accelerating -- GPU accelerating also the machine learning and traditional
+approaches that all industries use to sense what's going on and the trends in theirFINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 8markets. So that they can have predictions that allow them to make informative
+decisions on how they're going to drive their business. This has opened a gigantic
+market for NVIDIA.
+But what's really critical here, as you think about this one computing architecture has
+so many critical, critical high contribution personalities, I call them. It can do
+incredible computer graphics. It's a world leader in high-performance computing.
+We're absolutely the de facto platform for doing deep learning. And now we're
+entering to this large space of data science and machine learning as well. These are
+the kind of technologies that all industries need. But there are a couple of industries
+that need it the most. They're complicated industries. They have lives at stake. And 2
+of those industries that we think we can make a contribution towards are automotive
+transportation as well as health care.
+So let me talk about accelerated computing for a minute. Accelerated computing is
+our platform. It has all of those personalities to oﬀer you. And what it does is it allows
+people to do things they have never done before. Just this past year, we built the
+world's fastest supercomputer. And it's here in the United States at Oak Ridge
+National Lab. We also helped build Japan's fastest supercomputer and Europe's
+fastest supercomputer. These are the instruments of doing breakthrough science.
+We surpassed over 1 million developers this year. We have over 13 million downloads
+of the platform year-to-date. But we're seeing over 500,000 downloads a month
+now. We are -- this platform is gaining momentum like we have never seen. And it's
+because we're allowing people to do things they haven't done before. We're
+reaching the scientiﬁc community. We're reaching the mainstream artiﬁcial
+intelligence community. We're now reaching this large population of enterprise
+computing and machine learning.
+But what's so incredible and so fun to think about is what are the things that we're
+able to do now that we couldn't do before. Four of the 5 high-performance
+computing awards this year were actually a combination of high-performance
+computing and AI. So there's a huge paradigm shift going on, even in these 40-year-
+old application areas of climate simulation, earthquake simulation. Now we're doing
+biology simulation. This year, they broke the record of the fastest computation ever
+achieved. And it was in genomic simulation. This is going to create an ability for us to
+look at dataset sizes and make correlations and predictions we've never done
+before. And we can do that through simulation and computation.
+So data-driven science is this awesome combination of lots of math, being able to
+do things in simulation because you can't always do things in the real world in a
+feasible amount of time, where it's just impossible to do so. And now artiﬁcial
+intelligence. So this platform has also allowed NVIDIA to do things that we've never
+been able to do before. And I want to show you a video.
+We just came out of the computer electronics show. NVIDIA has been working on
+self-driving cars. We've created a platform that allows a car to drive around Silicon
+Valley without anyone touching it. It can change lanes, change highways all by itself.
+And we've created the platform from the application to the neural networks to theFINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 8computing stack and the hardware. And all of the infrastructure you need to build in
+order to train a car how to drive. And we've done this so that we can hone our skills
+in artiﬁcial intelligence. And it's just incredibly fun. And I want to share this video with
+you.
+One thing I'd like you to look for is look for where it says it DRIVE SIM. This is where
+we're doing simulation. And it becomes really diﬃcult for you to really sense what is
+reality, what is the real side of the video and what has been simulated. So take a look
+here.
+(presentation)
+You're seeing -- the car you're seeing on the left-hand side, you're seeing the way
+that it's detecting the car that creates a big space that it's living in. There's a massive
+amount of perception that goes on. Here, can you tell the diﬀerence of which video
+is real footage and which had been simulated? This is an amazing leverage of what
+we feel is in the gaming industry.
+Simulation is going to be incredibly powerful to all industries. And it certainly
+allowed us to make a massive amount of progress in a short amount of time.
+This is why I'm so excited about health care. If you think about what are some of the
+fundamental instruments that drive what is going to be precision medicine and what
+we use in health care today, the amount of diversity and the kind of sensors that we
+have and the data that we collect, the size of the data that we're collecting in these
+times is unprecedented. And I believe the health care industry will be one of the
+greatest commanders of high-performance computing. Everything from what
+happens when you're born and your genetic makeup. And now we have this
+capability of continuum from how does your life change and what you're exposed to,
+how are you being treated over your lifetime and what is happening in your
+environment around you. We want to be able to accelerate and bring insights into all
+phases of not only the acquisition of these datasets. But the analysis and integration
+of how they work together so that we can really forge a trail towards personalized
+medicine.
+So let's talk about that a little bit and how NVIDIA is making a contribution into some
+of these critical instruments that drive the compute pipeline of precision medicine.
+At the data acquisition side, NVIDIA has been making a contribution to all of these
+sensors. These detectors are continuously improving. We're getting new types of
+detectors entering the market all the time, with next-gen sequencing, with
+ultrasound, liquid biopsy, of course, our traditional diagnostic instruments, the Noble
+prize-winning cryo-electron microscopy that's allowing us to look at protein
+structures that we couldn't look at before and even robotic surgery. These
+instruments are what start us down the path of being able to use computing and use
+data to do data-driven science and data-driven health care.FINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 8We then want to do a -- how can we -- what can we do with that data? And how can
+we make the analysis of it more eﬃcient? If you look at the amount of data that's
+being generated by these instruments, there has to be a computing paradigm shift
+that goes on in the downstream analysis of it. Then ﬁnally, how can we integrate that
+data so that we can bring true insights into the prediction and more accuracy and
+eﬃcacy to what's going on? And these contribution across this continuum is
+something NVIDIA is helping the industry address. We have platforms that are
+embedded directly into instruments. And up until just a few years ago, they were
+largely used just for computation. But rapidly, people are integrating artiﬁcial
+intelligence directly into these instruments, either to make the image acquisition
+more -- to make it faster, to make it more real time. Maybe they don't need as much
+time to acquire the data because artiﬁcial intelligence can get back to the quality
+that it needs. It can completely transform what's going on in acquisition.
+So let's talk a little bit through what's happening in a particular domain of health care
+that has had an immense amount of progress and we're very excited about.
+Radiology had a breakthrough year in 2018. Over 70% of the research that's going
+on in medical imaging is now based oﬀ of deep learning methods. There has been
+just a continued massive investment. And I'm delighted about it, of artiﬁcial
+intelligence start-up companies. Over $2 billion at least invested in 2018 in over 130
+deals. These companies are getting FDA approval. These companies are striking
+deals with the leaders in medical imaging. And they are making an impact in the
+clinical practice.
+What's very, very telling is the Radiology Society of North America, the largest
+radiology conference. There, we have over 20,000 radiologists who are getting
+trained on AI. There's over 270 sessions. Last year, there was -- two years ago, there
+was only 8 sessions. Some of the leaders in medical imaging had made some pretty
+critical announcements that talk to you about that acquisition, processing and
+integration. One of those is Canon, who is also Toshiba Medical before that. They
+have a new AI reconstruction algorithm for CT. They can now take a low-quality
+image, which essentially means they can take a low-dose image. And they can get
+back to the very high-resolution imagery through an artiﬁcial intelligence algorithm.
+And they can do it at 40 frames per second, which is real time.
+Then there's GE Healthcare. They announced their Edison platform, which is their
+intelligent platform for radiology workﬂows. They have a brain hemorrhage
+detection algorithm that when they detect that, they automatically reorder the work
+list of the radiologist.
+We think about what Siemens is doing. They have a 16-PetaFLOPS supercomputer to
+develop hundreds of AI applications that are actually already in production. They
+have a new platform called AI-Rad Companion. This Rad Companion helps them --
+helps radiologists automatically quantify and measure and then look at all the
+anatomy in the image, not just a single anatomy, all of it. And then look at reference
+points to say, is there something wrong with this anatomy that we should maybe alert
+our physicians to?FINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 8This is why NVIDIA has also announced this past year our NVIDIA CLARA platform.
+This is a hardware and software platform that allows these instrument pipelines to be
+eﬃciently processed, from the acquisition to the analysis to even the integration. It
+can run -- this platform can run on an edge device that's inside the computer, inside
+the instrument. It can run in a data center. And it can run on every public cloud which
+NVIDIA is in.
+This is so exciting because if you now think about what is happening in drug
+discovery, we have new modalities entering the market in more of a mainstream
+fashion. There's been breakthroughs. Just 10 years ago, yes, cryo-electron
+microscopy was present but not at the resolution that it is today. We're in this
+resolution revolution with electron microscopy. Users of these instruments can create
+2,000 movies a day, 3 terabytes of data a day. And it's incredible that they do it
+because they're able to image proteins at atomic level scale. They can see things
+that were not possible before. They can analyze and understand structure of new
+targets that were not possible before.
+So how can we enhance the acquisition of this, because the detectors are so
+incredibly good? How can we make sure that that's -- that processing at the detector
+is happening? Then the analysis, how can we do automatic particle picking or
+reconstruction of this? And how can we feed that into the next stage of the pipeline,
+which is the simulation of molecule and target in a most eﬃcient way? And we're
+working on these problems. We're making a contribution here across that
+continuum.
+And of course, as you know, genomics is absolutely becoming mainstream. We've
+seen some incredible breakthroughs in 2018 and of course the years prior. But we're
+seeing genomics be integrated into the standard of clinical care. Oxford Nanopore
+this year released what's called, they released it before, the MinION in 2014. And
+they continue to iterate on what that ﬂow cell can do from a data generation
+perspective to get more and more accuracy and address more and more markets.
+They're able to create 30 gigabytes of data oﬀ a single ﬂow cell. And they've
+evolved that. This is a genetics -- a genomic sequence that you can hold in the palm
+of your hand. You can take it into the ﬁeld. And they use NVIDIA technology to do
+that sequence analysis. And that's why you see that middle chart, came from the NIH,
+thinking about what we thought was going to be our trajectory of genomic data and
+what is actually happening. We have to think about new paradigms in computing for
+doing genomic analysis. So we're working with some start-up companies. ParaBricks
+has gotten a 40x improvement on bioinformatics and secondary analysis.
+Then back to what happened recently on our world's largest supercomputer. The
+researchers at Oak Ridge, they created this application called CoMet to do
+population genomics. What can we understand about the variations and then these
+complex networks of variations to say what are the traits of these populations? What
+are the variations in these networks? How do they correlate to some traits that we're
+trying to understand? They're looking at opioid addiction, Alzheimer's, cardiac
+disease, some of the things that we all deeply, deeply care about. And they put to
+use 27,000 order of magnitude drop -- 27,000 GPUs they put to work to do this levelFINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 8of analysis on population genomics. And this is just the start. This computer just got
+installed. So you can imagine what are the type of problems that we are going to
+address with this level of computation.
+Another really, really great story is Geisinger. As you know, Geisinger has always
+been pushing forward on adopting technology to better serve their patient
+population. They're putting AI into practice all over the place. They adopted
+electronic health records well over 20 years ago. So they have some of the greatest
+data out there that has 20 years of electronic health record data, lots of imaging
+data. And as you know, they declared that they are going to be and are integrating
+genomics into their standard of clinical care. So they've employed algorithms where
+they can detect a similar hemorrhage in their patients and 96% decrease in time to
+do that. They've increased the accuracy of predicting clinical outcomes immensely
+by incorporating echo as well as EHR data. They can understand the survival of their
+patients a lot better and oﬀer them diﬀerent kind of clinical care. And now they're
+incorporating genomics and really thinking about how can we do things like
+optimizing the deployment of our clinicians. And they're really thinking about all of
+the interesting applications from a provider's perspective, if you have this capability,
+of course, they have the data, how can they put it to use for better care.
+And it doesn't just stop there. The drug companies are -- if you think about biology,
+it must be one of the biggest data challenges of all time. No human is the same.
+There is no equation that governs biology. And so that means that it has to be one of
+the biggest consumers and drivers of accelerated computing in the future.
+AI is boosting discovery in all -- boosting new breakthroughs in all facets of what
+drug discovery is doing, from discovery to improve its eﬃcacy and understand more
+about toxicity and bringing eﬃciency into this, whether it be searching the literature,
+which CloudMedx has a platform to do that, which is a start-up company, whether it's
+ParaBricks being able to accelerate base calling and variant calling. You have Vyasa
+who is thinking about how can we do diﬀerent compound prediction. We --
+Phenomic AI, which has incredible AI algorithms for high-content screening. These
+startups are addressing really, really important problems that are going to accelerate
+and make more accurate to the drug discovery process so we can help paradigm
+shift what needs to happen in pharma. And we're just so delighted to be able to
+work closely with these ecosystem partners and really transform the way that drug
+discovery is done.
+So I have to say, that is why NVIDIA is so excited about health care. Understanding
+that biology is going to be -- it's messy data. It's huge data. There's actually no other
+answer than artiﬁcial intelligence. And we have this opportunity to work really closely
+with the ecosystem and we are, to help create new applications, new platforms that
+allow us to acquire data diﬀerently, analyze it and truly bring together the data
+integration.
+I hope this industry thinks of NVIDIA as the instrument for discovery. We are the
+instrument for discovery. We're the instrument of this journey that I think we're all
+marching towards, which is how can we get to precision medicine.FINAL TRANSCRIPT 2019-01-10
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 8So with that, I'll thank you. We are going to take Q&A in the breakout room. Thank
+you, Harlan. Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

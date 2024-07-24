@@ -1,0 +1,628 @@
+FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 1 of 15, Program Vice President
+, Analyst
+Mandeep Singh
+Dan VessetBI Analyst Brieﬁng Analytics Software Market Outlook
+Company Participants
+Dan Vesset
+Mandeep Singh
+Presentation
+{BIO 15014535 <GO>}
+Good morning. Thank you all for joining the webinar to discuss the outlook for
+Analytics Software Market. This is part of a series of webinars that we are doing for
+2016 outlook. My name Mandeep Singh, I am the Software and Services analyst for
+Bloomberg Intelligence. I am joined here today by Dan Vesset, Program VP for
+Business Analytics and Big Data for IDC.
+Couple of housekeeping notes; today's presentation will be recorded and available
+for download. At the bottom of the slide window you will notice that you can adjust
+volume and maximize your screen, so you are free to ask questions using the Q&A
+panel to the right of the PowerPoint slides. We will address questions at the
+conclusion of the presentation. And a copy of the slides and transcript will be
+available upon request.
+A little bit about Bloomberg intelligence. This is the Proprietary Research Group. At
+Bloomberg we provide unique analysis and context on industries, companies,
+government and credit factors that impact businesses, all integrated within the
+Bloomberg Professional service. We have a broad coverage spanning hundred plus
+industries and 800 companies globally. Our research is data driven and our analysts
+have an average experience of 17 plus years, both on the buy-side and sell-side. We
+do not give any buy or sell recommendations.
+For software speciﬁcally, you can type in BI space ASFT [ph] on the terminal and you
+will be able to load the software dashboard, which has three sections; analysis, data
+library and monitor. Analysis covers short-term and long-term hits and has key
+indicators and earnings interpretation along with industry primers. Data library has
+all the data.
+So, without further ado, I will pass it on to Dan Vesset to go over the formal
+presentation. Dan?
+{BIO 4307286 <GO>}
+All right. Thanks, Mandeep. Thank you all for joining us. I'll have a few slides to
+present today, but I'm hoping that we can spend most of the time responding toFINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 2 of 15your speciﬁc questions, so we can type those in, I think we'll be taking just the
+written questions and Mandeep will help facilitate that, and we'll get to that.
+So, as was mentioned, I run IDC's business analytics and information management
+market research practice, and in this case we're partnering with Bloomberg to bring
+you some of the latest research, speciﬁcally around the Business Intelligence and
+Analytics market. We have a team of analysts, who cover the diﬀerent aspects of this
+market. And as you can see on the slide now, this is our taxonomy or our map of the
+diﬀerent discrete market segments in the space. In full-year 2014 this was about a
+$40 billion market and we expect the year to close -- 2015 to close with 42 billion in
+software revenue, global software revenue, that includes license, maintenance and
+subscription revenues, cloud-based subscription. This does not include professional
+services or hardware. If we add those in, we would, at least, triple that number.
+So for context, we look at market in these three broad segments. At the bottom is the
+analytic information management platforms. These are the databases both relational
+data warehouses as well as the newer forms of non-relational non-schematic tools.
+NoSQL databases, Hadoop, do you have sources where data lands as it comes in
+from diﬀerent sources. In that bucket is also data integration tools, data quality, data
+extraction, transformation, loading tools. Think of tools like Informatica for example.
+And then on the left-hand side, there's a box for continuous real-time analytics. So
+there is a -- there are streaming technologies for few used cases where that's
+necessary. And then on top of that platform are two broader buckets there on the
+left-hand side, performance management and analytic applications. So, these are
+apps that the vendors, the IT vendors, the software vendors have pre-built for a
+speciﬁc business function or an industry. So, it could be in the -- for the ﬁnance
+department. So, not the ﬁnancial service industry, but the ﬁnance department could
+be budgeting, planning, consolidation tools like applications like that could be
+marketing analysis, sales analysis. So, for that function, et cetera along the lines of all
+the major business functions.
+And in some cases it is very industry speciﬁc, so could be fraud prevention,
+speciﬁcally for consumer banking for example or credit card companies or it could
+be supply chain optimization for manufacturing or predictive or preventative
+maintenance in assets, some of the asset-intensive industries.
+And the focus today will be on that upper right-hand side, so business intelligence
+and analytic tools and that's where we see the query tools, reporting tools, all apps
+stands here for online analytical processing, multidimensional analysis, visual
+discovery. Also in this segment of the market are advanced and predictive analytics
+tools, the statistics and data mining software. There is a small segment speciﬁcally
+targeting spatial -- highly-specialized spatial information analytics GIS systems and
+then Content Analytics, which are real, unstructured text and rich media analysis and
+there has been. And so for the broader market, as I mentioned here, the $42 billion
+market, the vendor shares that we have right now are on the full year 2014. And we
+obviously expect some change in the share percentages, but it gives you a sense of,FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 3 of 15even if we don't have the full year 2015, it gives you a sense of ranking at least, which
+is for that overall market. So, this is not just the BI segment, it's the overall market.
+Oracle is number one, because primarily they are the biggest data warehousing
+vendor and the biggest, now the information management platform vendor followed
+by SAP, which primarily is there because of the BusinessObjects portfolio of BI and
+Analytics (inaudible), but also both have various analytic applications and databases.
+IBM follows us too. Microsoft, SAS, Teradata, Salesforce. Salesforce there is primarily
+because of their some of the sales and marketing kind of embedded BI tools and
+now they recently came up with the new standalone BI and Analytics oﬀering Wave,
+which I'll talk about a little bit later.
+So, this is that overall market. Now we're going to drill in a little bit more into this $11
+billion segment based on 2015 expected numbers in query and reporting and
+analysis. So, if we look at just that segment, you see some additional vendors
+popping up in the top 10. Qlik, Tableau, TIBCO's Spotﬁre division, then some of the
+kind of the older midsize vendors MicroStrategy, Information Builders are there as
+well.
+Obviously the thing that jumps out immediately is the faster growth rate of the --
+what have been become known as the visual discovery vendor. So, Tableau, Qlik and
+Spotﬁre historically came in with a very diﬀerent user interface from the legacy
+products from SAP's BusinessObjects, Oracle BI tool that they acquired from
+Hyperion, and IBM Cognos and then some of those mid-sized vendors and that
+growth, I think, diﬀerentiation is continuing.
+We'll probably, well, we'll almost certainly continue for the foreseeable future, but it's
+-- the competitive landscape is starting to change. And it's starting to change,
+because all the big vendors now have comparable products in their portfolios for --
+speciﬁcally for Visual Discovery. So, if we -- I'm going to come back to this slide, but
+just if you look at the segmentation of query and reporting and Visual Discovery,
+those are distinct segments and in many -- in most cases for most vendors there are
+discrete products for each of those used cases and they address diﬀerent audience.
+So, one could be more of a business analysts or who might be doing in that data
+exploration, another production reporting would be for embedded reports, so it
+could be compliance reporting, it could be relatively ﬁxed well-known ﬁnancial
+reports that are not necessarily changing period to period. They need to be pixel
+perfect. Some of the -- even ﬁnancial statements that go out to consumers are often
+based on this -- with type of reporting -- embedded reporting software.
+And then query and all up [ph] is -- we use that to classify those legacy
+multidimensional analysis and query tools. And so if you look at these by market, the
+share of the market is still about 50% of those legacy query and all-up tools. But
+Visual Discovery is growing, on aggregate this is a ﬁve-year historical CAGR through
+2014. So, historically have been growing at around 19%. So, that includes Tableau
+and Qlik and Spotﬁre, but also the visual tools from -- visual discovery tools from
+other vendors as well.FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 4 of 15And advanced analytics is just slightly over 9%, about 10% historical growth rate
+represents 20% of that BI market. And reporting, although it doesn't get the press
+and the Mindshare is also certainly a decent sized segment and there's still a need
+for that and will be a continued need for that market. But clearly those specialized
+tools are showing higher growth rate than the legacy BI suites like the Cognos
+business objects and Oracle's products.
+And I think it's important to note that it's -- there's been a substantial change in the
+latest versions of those tools. But the Mindshare and kind of the perception of
+audiences and users are still that those are bulky, not very visual appealing, not very
+intuitive tools and so that will continue. I think it's very diﬃcult to change Mindshare
+in the short term.
+So, the key vendors are focusing now a little bit on this visual discovery market. So,
+the key vendors right now, the one -- besides the ones I mentioned are also
+Microsoft with their Power BI toolset. Amazon just announced AWS QuickSight is a
+new product and also Salesforce with their Wave analytics or analytics cloud oﬀering.
+And then you can see for some vendors their multiple products, which I think is not
+very conducive to their go-to-market. But they have to address the market this way,
+because the customers and audiences were buying are at diﬀerent stages of
+maturity and it could be, in fact, very diﬀerent audiences were buying. So, there is a
+increasing tendency to buy directly by the lines of business, not the Central IT that
+usually bought those enterprise BI tools.
+Last year some colleagues at IDC did a study that showed that 60 -- just over 60% of
+new IT budgets are coming from line of business rather than IT. And so I think by end
+of 2015 that would have -- I think moved even higher. So, some of the most impactful
+I think trends that I expect to see going forward. I think what that is starting to
+happen is small Tableau continues to grow rapidly. They are seeing a lot more
+competition there.
+Sales and marketing costs are going up. Net new license revenues is starting to slow
+down. I think part of it is that they have reached a certain size getting close to the
+annual 500 million and just as it will be just harder to sustain the growth at that
+point. Unless they invest very signiﬁcantly in net new sales, as I mentioned, early
+competition is starting to increase. I think the -- and part of it is also pricing pressure.
+Power BI from Microsoft is coming in at $10 per user, for the standard division $10 per
+user. QuickSight is similarly priced.
+There is a little bit of -- for QuickSight there is a little bit of higher price for some
+additional features, but it's a fraction of what Tableau and Qlik and some of these
+other enterprise tools are -- costs.
+Oracle just released a new Cloud BI, Oracle BI 12c, which is has a visual discovery
+tools as well and that's also priced much more like the Microsoft and AmazonFINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 5 of 15product, rather than the standalone products. And these vendors obviously can do
+this because they're not reliant on this revenue for survival. For them it's one of many
+products and probably in some ways, even a loss leader to get customers on to their
+cloud platforms and other applications and tools for -- so I think Microsoft and
+Amazon's entry into the market is signiﬁcant. Both have their own kind of ecosystems
+of developers and that's signiﬁcant because the developers are likely to use one of
+their preferred platform to develop applications, BI applications and analytic
+applications based on that platform.
+So, if somebody already has most of their data or much of their data in AWS, it make
+sense that Tableau will also try out, at least try out QuickSight and if it satisﬁes their
+speciﬁc functional requirements, they will like -- much more likely to go with
+QuickSight. And same for Microsoft. If it's a Microsoft shop and certainly in a SMB
+market, there is a large percentage of those. It makes sense to also start using them
+Power BI.
+I think Salesforce will be also very signiﬁcant -- it didn't quite get the same reaction,
+when that product came out as Amazon's product came. But I think it will, in the
+short term, have even a bigger impact on the business user side, because Salesforce
+really owns a lot of those sales management and sales analyst relationships. And it's -
+- it seems like no-brainer to add on another product that and have some incremental
+cost and start getting additional analytic functionality if you are already a Salesforce
+customer.
+And since their announcement of Wave Analytics, which is of a horizontal, more
+generic BI tool. They also announced Sales Analytics is more of one of those analytic
+applications that I mentioned in that upper left-hand side of the market map, and
+then marketing our customer service analytics and marketing analytics are coming as
+well. And those are then, are more pre-packaged, even faster to deploy. They
+incorporate certain commonly used visualizations and key performance indicators,
+metrics, some workﬂows, which in many cases will be attractive to sales managers as
+they are using Salesforce and then now the additional analytic functionality from
+Salesforce.
+IBM just announced last month, Cognos and the latest version of Cognos Analytics,
+which is a big revamp of their existing portfolio. So, it's again coming into the kind of
+the modern age and with visuals -- with the functionality on visualization. I think one
+thing that is starting to happen now is almost all, if not all, vendors have -- are
+moving towards in memory, memory based deployment and memory-based
+systems. We think that within the next three years all of them will -- all the new
+versions of these products will be memory based and what obviously that part of it is
+the function of the lower cost of memory, so this is not feasible. And what it provides
+them is that instantaneous access and response rate from more -- from tools that
+have more advanced or more process in terms of visual (inaudible) of the data. So,
+the primary beneﬁt there is speed, speed of processing.
+Many of the tools are now where in the fast primarily connected to the relational data
+warehouse. Now they're starting to connect with various forms of -- various types ofFINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 6 of 15connections to some of the big data sources like Hadoop or Spark. So, Hadoop and
+so MapReduce versus Spark and some of the NoSQL databases as well just slightly
+in a lesser extent. So, in many ways, some other vendors have announced Big Data,
+"Big Data" versions of the products. Really in most cases those just mean that they're
+adding Hadoop and some of the non-relational databases as store systems. Some of
+them -- marketing play, but certainly an emerging and important sort of sources that
+all of them need to be able to access.
+In terms of geographic coverage, so for the specialized vendors, the pure plays, Qlik,
+came out of -- and both Spotﬁre came out of Europe, both out of Sweden. So, Qlik
+has a much higher percentage of sales coming from Europe, which I think is partly
+contributing to slower growth rate. Although they are now quite well established in
+North America as well, but they were here -- they certainly came here later than --
+later and have a smaller presence than Tableau.
+Tableau was in a reverse position or that they claim customers in over a 100
+countries. It's really primarily dominated in North America, their CEO recently moved
+to Europe to live there for a while. And I think with the expectation that he would be
+more involved in growing the business in Western Europe, at least. For large vendors
+obviously the opportunity lies across their -- they distributed and brought global
+reach. Certainly for Oracle, Microsoft and IBM and SAP. So, that's little bit on the
+geographic reach. With AWS -- some of the other diﬀerences between these
+vendors; so Tableau and Qlik became what they are today because they bypassed IT,
+in many cases bypassed IT and went directly at the line of business user. And
+eventually some of these deployments grew to certain size, IT was forced to embrace
+them and start supporting them.
+Qlik now has two products, they started out with QlikView, which was the ﬂagship
+product for long time and it started out in that fashion that I just mentioned. But then
+as features and functionality were added, it became more and more like -- more
+complex to set up and manage and IT increasingly took over the purchasing and
+deployments of QlikView and so the response to that was Qlik Sense, which was
+going back to the roots of trying to reach the record line of business end-user and
+compete more eﬀectively with Tableau or some of the other tools on this list.
+Tableau, kind of, is going the other way. They're still, I think, in a place where they're
+not always fully embraced with IT. I mean, at the end of day, it has to be a balance of
+being playing nice with both. The part of the challenge for some of the larger
+companies is that as more and more of these discrete siloed BI deployment pop up,
+there is a real risk, there is a governance risk, there's a data silo risk through the
+analytics and usually the tool should -- usually solves the individual needs of a group
+or even an individual person.
+But if it does not -- if it's not based on certain level of enterprise standardization, it
+does introduce -- potentially introduces discrepancies and how the data is viewed,
+even the metrics could be diﬀerent, not to say anything about the data itself and
+that's a risk that all these vendors have to deal within.FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 7 of 15Mandeep Singh
+Dan VessetWe see a lot more eﬀorts from Tableau to try to embrace IT and ensure that the
+software has those enterprise capabilities around security and governance and data
+model management. The one big unknown right now, I think the biggest unknown
+here is Amazon and QuickSight. On the surface of it, it makes a lot of sense for the
+companies that already have data in Amazon. And this doesn't have to be just
+Amazon data sources, could be the hosted, any hosted data base. There is a lot of
+Oracle and SQL Server for example hosted on Amazon.
+The question is how well that product can actually support end users rather than just
+the developers. Part of it is Amazon hands oﬀ approach to their go-to-market
+strategy, so if somebody starts using QuickSite as an individual business user as a
+business user Group and they run into trouble, Amazon is really not set up to have
+those kind of one on one personalized support, that they provide to develop that is
+they are from the other vendors and also that they over the years have started to
+provide to some of the developers on the systems admin side and storage admin
+side.
+And even there, it's still highly reliant on the user to ﬁgure out their own back
+through [ph] whatever channels they might enter or use the community kind of
+online communities and sources like that. So that's a big question mark. Is this
+primarily a product for developers to incorporate into other applications, and there
+is obviously nothing wrong with that, there is sizable market for that, but it will be
+diﬀerent from on what Tableau and Qlik have done to date.
+And also with their QuickSite they are quite open that somebody cannot just
+subscribe to the server side engine, calculation engine and use some of these other
+visualization tools on top of that. So I think, that is a scenario that I can see
+developing as well as some body may already have that low, but if they have their
+data on Amazon, they may want to start using QuickSite and use that platform and
+use Tableau on top of that for example.
+Let's see, so maybe I'll stop here actually we're at the bottom of the hour, but and
+maybe open it up now for some follow on questions.
+{BIO 15014535 <GO>}
+Great. Sure. Thank you, Dan. Thanks for the nice overview. I had speciﬁc questions
+around like this full data visualization concept and how you said it's driven by the line
+of business. Is it rendering the old data warehousing techniques obsolete or
+company is just moving away from investing in data warehousing and kind of going
+with more what the line of business wants in terms of whether using smaller vendors
+like Tableau and Qlik, and just kind of maintaining the data warehouses because
+obviously they had it for a while?
+{BIO 4307286 <GO>}
+Yeah, so I think it's really those layers that I showed in the map, I'll go back to that
+slide, those -- so this one here, so those still matters, so there is still -- there continuesFINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 8 of 15Mandeep Singh
+Dan Vessetto be a need for the warehouse, the warehouse itself is changing, it's no longer just
+relational, so there is a big change in the architecture to extend the warehouse, the
+relational data warehouse with some of these non-relational technologies, because
+that's really the most eﬀective way to integrate data from many diﬀerent sources, it
+could be internal and (inaudible) applications could be bringing in some of the
+social media data, some of the IRT data into Hadoop clusters for example.
+And then on top of that, you have then visualization layer that access its data from
+that information management player. Now it's also true that you can bypass the
+warehouse, you can go directly with the visualization tools to the source systems and
+it is also a trend that exists and some vendors for example SAP and Oracle are very
+keen to develop that trend because they owe many of those enterprise applications.
+They want to see companies use more of that embedded BI that is maybe sitting
+directly in the ﬁnancial systems, in the supply chain systems areas of enterprise
+systems, I had a chance to ask question of Mark Hurd at Oracle earlier this year and
+the question I posed was somewhat along the lines that the database and
+applications business clearly dominate what they do and BI and Analytics is tertiary
+for Oracle when we compare that kind of border message or high level messages to
+other large vendors and he didn't deny that, that's the case, his response was that we
+want to expose all the analytics in BI through the applications.
+So I expect them to continue whether it's their HR applications or sales or marketing
+or their CRP modules, to have more analytics and those will be most likely not --
+many of those will not depend on the data warehouse. So to some extent the data
+warehouse was not going away, but its role is somewhat diminished, many of them
+were not growing as fast because some of the data sets are moving to other types of
+technologies often open source technologies and so overall that aﬀects obviously
+growth in the date warehouse segment in the market.
+{BIO 15014535 <GO>}
+Great. I mean I want to go over this whole concept of vertical versus horizontal kind
+of layer of visualization and analytics. So if I have my data in an SAP or an Oracle
+system and I use their analytics product, it makes a lot of sense because it's in the
+enterprise application that's given to me by SAP or Oracle and I can visualize it
+easily, but what if I have multiple systems and that could be ERP, CRM system from
+diﬀerent vendors and I want to build an analytics layer on top of it where I am able to
+ingest data from diﬀerent systems easily and aggregate it using that analytics layer.
+So would a solution like Tableau or Qlik be more conducive to that or you may still
+want to go with like a large analytics vendor for that kind of solution?
+{BIO 4307286 <GO>}
+So you can do some of that with Qlik and Tableau, but I think again it really will
+depend on whether you want to setup a more managed and structured data
+warehouse. And a part of the challenge is that, your Qlik or Tableau server is not
+going to hold as much data, as a data warehouse. So if you're doing any kind of
+longitudinal station, you want multiple quarters or years or kind of longer termFINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 9 of 15Mandeep Singh
+Dan Vessetanalysis and have data really from across the full enterprise, you're most likely
+building -- still building the warehouse.
+I think again that layer such -- that layer of this technology stack still has its place. But
+now, you can -- I mean, I think part of the issue is that, now if you build out -- if your
+data warehouse, let's say, from Oracle, let's say, it's (inaudible) data, you have the
+option to also to use Oracle BI tool, so if your -- that layer is Amazon, you could be
+using the right shift, for example, from Amazon as your preferred data warehouse.
+Now you have a BI tool from Amazon that's also available. That was in the case just a
+couple of years ago, you would naturally gravitate to these independent BI vendors.
+So that's I think a big shift in the market. Was Salesforce is an example where most
+likely the core data that you're analyzing is just a Salesforce data. So it's ﬁrst and
+foremost the marketing and the customer service data. And in that case, you may
+begin a self-contained in that domain and there is less need for a data warehouse,
+have your Salesforce way of analytics, directly accessing data in those cloud CRM
+applications and providing the necessary analytics in BI functionality.
+{BIO 15014535 <GO>}
+Got it. So you mentioned about Amazon's QuickSight, can you talk speciﬁcally about
+which segment of the $11 billion market is Amazon's QuickSight aimed at?
+{BIO 4307286 <GO>}
+Yeah. Some of it is still a little bit unclear. I think most of it will be targeting this visual
+discovery, but I think there is also a little bit bleeding into this query and multi-
+dimensional analysis space that would replace some of the existing deployments of
+enterprise BI suites, because -- and there are some gray areas, obviously, between
+those segments, because it's not always clear. Most of these still have a visual
+interface, just that some are more conducive to this ad hoc visual, ad hoc discovery
+where the schema and the routes that an analyst might take through the data are not
+pre-determined, which was the case with all absolutions.
+So with all that -- I mean, that's a big diﬀerence again with the -- in memory systems
+and applicable to this particular question also is that, with many of the OLAP cubes
+that existed before, somebody had to pre-build those cubes and the cube basically
+determined how an analyst, how our user was able to navigate through the data.
+And if they had a question that wasn't part of that pre-determined path, they would
+have to go back to IT and that's where the frustration going to begin, because that
+would require almost completely new development cycle, they would have to deﬁne
+their requirements, the IT would have to go way, add a new dataset, new data
+dimension, rebuild the cubes, redevelop it, test it and then deploy it out, by that time
+host of end-users are already onto other questions.
+So that was the part of the frustration that Qlik and Tableau were able to address and
+nearly bypass that whole process. So with QuickSight, I think a lot of it will be a visualFINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 10 of 15Mandeep Singh
+Dan Vessetdiscovery, but it will be also -- you could develop a dash -- interactive dashboards
+with that technology and some of the, kind of -- maybe a little bit light -- more light-
+weight in a sense that it doesn't -- not necessarily have to be ad hoc discovery, it
+could be some pre-built views of the data that's our management types are
+interested in looking at on a regular -- daily basis for example, a weekly basis. So I
+think it's a substantial part of that 11 billion that potentially they could egress. I don't
+see them really going directly at the production reporting site for now.
+{BIO 15014535 <GO>}
+And I would just add they also launched a machine learning services before they
+launch QuickSight, so do you think that makes the machine learning and AI just kind
+of bring that relevance into the analytics landscape and how they plan to leverage
+those techniques for analytics. Is that their play or?
+{BIO 4307286 <GO>}
+Yeah. So the machine learning in that case would fall into this advanced analytics
+category. And if you look at these vendor, Microsoft has now machine learning, IBM
+has on their -- has a machine learning services, Amazon has it now, and there are two
+players there. One is the application of machine running internally to automate more
+of the BI functionality, so recommendations, for example, for what the most
+appropriate visualization is -- given a dataset, so the user ingest or imports the
+dataset, the system can recommend the types of analysis that would make more
+sense of the type of visualization, that would make more sense. So there is an
+eﬃciency gain there, you need less analysts. They need to spend less time in
+manually manipulating and setting up their views that they want to present to the
+rest of the organization. So that's the kind of an internal use of machine learning and
+somewhat of techniques for artiﬁcial intelligence.
+And then externally those machine learning services are now also available to the
+developers and data sites for developing applications, so they don't necessarily have
+to build these -- all these algorithms themselves, they can call on that service and run
+their data through that machine learning engine that Amazon or Microsoft or IBM are
+providing.
+And we expect that also to grow quite rapidly. I think also if -- so I'll give my -- IBM as
+an example, with Watson Analytics, a part of it is IBM is kind of muddying their
+waters around -- on Watson, so there is -- the largest cloud for them is the Watson
+the cognitive platform for that, they talk about a lot and then now they are starting to
+brand some of their other products also with Watson, even if they don't have all that
+cognitive functionality.
+So Watson Analytics is, if you look at it on the surface it's very much like these visual
+and discovery and analytics products. It has -- but it's able to now call on some of the
+APIs of that Watson cognitive platform and more will be coming. I think as that
+happens and if it really does happen right and I think it does -- it will happen.FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 11 of 15Mandeep Singh
+Dan Vesset
+Mandeep SinghSo you'll start to see machine learning and other techniques being applied to this BI
+and visualization market and that can really disrupt the market, because -- think
+about what it is, it's -- the BI market is there, it exists and has existed primarily for the
+business analysts to manipulate the data and ﬁnd interesting things that they can
+report to management who then will take -- make decisions based on that
+information, sort of their basic level could be anything from Excel and Excel pivot
+tables and then all the packaged software that, in many cases, does pretty much the
+same thing, but is maybe more visually appealing or has been in the past and more -
+- have better capability to pulling data from diﬀerent sources and be more -- talking
+of high performance, et cetera. But a lot of that is still very manual. It's a manual
+process of getting the data and it's a manual process of ﬁnding what's interesting,
+what is the root cause of a certain -- something turning red on your dashboard, why
+is this KPI oﬀ from what it should be, let's investigate and let's ﬁgure out what it is.
+In many cases, if you're applying now machine learning and other cognitive
+functions through that dataset, it can tell you automatically what it is, what's diﬀerent,
+what's unusual. And if that's where we're going with this market, there will be a lot
+less need for -- I think over the next ﬁve years, we'll start to see a lot of disruption in
+this market as there is going to be less need for the traditional tools targeting
+manual processes of business analysts.
+{BIO 15014535 <GO>}
+Great, thanks. I'll take a pause here and remind our listeners to send their questions
+if they have any, we can take it out in real-time and so we have one question from a
+listener. He is asking to what level, if any, are we seeing the new age analytic
+solutions like Qlik, Tableau replace implementations/used-cases of legacy solutions
+like Cognos and Business Objects?
+{BIO 4307286 <GO>}
+Yeah. So we don't have a speciﬁc number, but anecdotally it's still a relatively small
+percentage. Lot of it -- and it's usually happens when there is a quite old version of
+strategies, these other products, and so there is not an incremental -- so there is a
+decision point, do we go with -- do we jump two or three versions even in
+sometimes for with SAP products or IBM or Oracle or do we go with the new vendor.
+And oftentimes it also is triggered by a change in the SORE [ph] system, so there --
+it's maybe a change in the ERP or CRM application or there may be kind of rapid
+growing reliance and other non-relational technologies, so maybe that really heavy,
+start reliance on social media data for example in a market scenario. So there is a
+whole new dataset which is large dataset, fast scrolling and there is a new decision
+point to assess the existing need. So that's where we see a replacement, but those
+are relatively few cases. So in most cases it's an add-on to any given named
+company, named accounts, and in most large companies will have multiple BI
+products and will continue to have multiple BI products.
+{BIO 15014535 <GO>}FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 12 of 15Dan Vesset
+Mandeep Singh
+Dan VessetSo I would just piggyback on that, do you think like with IBM coming up with Watson
+Analytics, Microsoft launching part of BI, is it cannibalizing their old analytics
+solutions in any way or it's all incremental?
+{BIO 4307286 <GO>}
+I think it is cannibalizing, some of it. I think big part of it is, they are allowing the
+customer, wherein the past they had to buy a suite of products which had multiple
+modules within them, and so it was a relatively large initial outlay of cash. They're
+now allowing a much smaller incremental purchase. So you can buy just the Cognos
+Analytics or just that Watson Analytics piece of everything that IBM has to oﬀer.
+When in the past, you would have been almost forced to buy a broader Cognos
+suite.
+So I don't know if it's cannibalization, but it certainly does. The price points become
+smaller than any given point in time with a hope that it gets -- the volume of
+transactions increases. Some vendors are very good at that. Microsoft is very good at
+volume. And then somebody like Salesforce, but IBM and SAP and Oracle are not
+that great at that. So I think for them it's a big shift and we could see that from their
+very slow growth or in fact negative growth in the BI revenue.
+{BIO 15014535 <GO>}
+So let's move on to the cloud. Do you think is there an advantage for a cloud-based
+analytics product over on-premise ones and I mean -- I know Tableau and Qlik are
+very popular, but most of their consumption is still using their desktop or the server
+products. So do you think it makes sense for people to kind of move towards a
+cloud-based analytics product?
+{BIO 4307286 <GO>}
+So the broad answer to that is that everybody is moving to the cloud, you're right
+that most of those deployments today are on-premises. We're estimating around
+maybe 7% or so, 5% to 7% of the BI market is in the cloud today. That is very small
+compared to, for example, what happens with Sales -- PS Automation applications
+where the majority of deployments, they are now in the cloud. And part of it, is that
+there was a lack of supply. So as you said, most of these deployments have still been
+on-premises.
+And now in the second half of 2015, all the major vendors came out with new cloud
+versions of their tools. So we are estimating that the cloud, public cloud part of this
+$11 billion market will be growing at 4.5 times faster over the next ﬁve years. 4.5 times
+faster than the on-premises part. So there is no question that we're moving towards
+the cloud and because of that it becomes really becomes a requirement. So they
+have to have -- any vendor today has to have cloud-based product. Does it give you
+a speciﬁc? So functionally, I don't think there is a major advantage at any given point
+in time, but I think what the cloud gives you is the ability to reiterate faster through,
+with new features and functionality and obviously provide quicker and cheaper
+updates.FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 13 of 15Mandeep Singh
+Dan VessetSo there's a lot of advantages to the vendor in moving to the Cloud. A part of the
+issue is in the short term, it hits -- there's a revenue recognition issue as that kind of
+the change happens and that can take three years to even out, so that's from a
+revenue assessment and forecasting perspective that's an inhibitor to growth in the
+short term. So there is more adoption but because the revenue recognition is spread
+out, it's a negative. For those and those who were primarily in it's who have that issue
+of switching from one premises to about.
+{BIO 15014535 <GO>}
+Great, and how would you contrast like the diﬀerent approaches of the large
+vendors, so Microsoft and Amazon they are oﬀering their analytic service ﬂash
+utilization [ph] tools on top of their Cloud infrastructure services, whereas IBM is --
+yes, they're oﬀering Watson analytics, but they've also gone out and purchased
+Weather Channel data. Is that tied into analytics in some way, and then what do you
+think is the rationale for doing that?
+{BIO 4307286 <GO>}
+Yeah. So I think that's an important point is that what we're calling it -- calling it value
+added content. So the ability to not just to analytics but contents along with it and
+(inaudible) a company's one example of that in there -- Amazon, I mean Microsoft's
+partnership with Twitter is another example of that.
+Oracle acquired a couple of companies, Bluekai was one and Datalogix and they
+were both in the consumer data business. So they're collecting behavioral data,
+purchasing data, demographic data kind of packaging up [ph] and again in Oracle's
+case, they are continuing to sell those as a discrete oﬀering but also embedding
+value, not embedding, but they are co-selling that with CRM application.
+So as you buy their marketing automation, marketing analytics you also have an
+option now to subscribe to the data feeds about individuals, sometimes and usually
+anonymized individuals, but used for analytics. So I do think that all the large
+vendors are in a position or to do that and already some half, so Amazon also makes
+available certain data sets to their marketplace, same with Microsoft.
+I think we're going to see much more of that of prepackaged data sets, sometimes
+just raw data, but oftentimes some type of value-added being put on the data, so
+maybe scores, benchmarks that go along with the analytic service and that, it really
+becomes feasible only in the cloud, because of the delivery mechanism for social-
+bank [ph], so another example would be, well this also opens up its competition
+from outside of the traditional player, so for example Intuit that provides certain
+ﬁnancial solutions for the SMBs, they have our data service, where they -- because
+they process all these transaction for SMBs, so they know what people are
+purchasing, how much they spend at Staples last month in this region for this
+business, they can create -- they create certain data sets and benchmarks out of that.FINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 14 of 15Mandeep Singh
+Dan Vesset
+Mandeep Singh
+Dan VessetAnd sometimes they are monetizing those directly and sometimes they're just there
+to create more stickiness with the customers. And we can see these types of -- there
+is more interest in that, credit card companies are in this business, large retailers are
+becoming -- and this everybody is trying to ﬁgure out what -- how else to monetize
+the data that they're sitting on, how to package that and in many cases within,
+obviously within the compliance regulations and privacy regulations that exists and
+make money of that.
+So that's clearly the major part of the play from IBM in this case, another is the fact
+that weather is a key element in pretty much any decision whether it's retail or
+insurance or physical asset management or logistics, weather plays a huge part and
+the weather company had all these relationships and business in those domains. So I
+think there is an opportunity for IBM to continue that and I expect them to acquire
+more content sources like them.
+{BIO 15014535 <GO>}
+So could this increase pressure on the pure play guys like Tableau and Qlik which are
+primarily selling tools and don't have the VeriBit on to acquire content companies?
+{BIO 4307286 <GO>}
+I think overall, yes. I think in the short term, they are still more nimble and can
+execute, I think faster and more eﬀectively than the big vendors. I think it's just this --
+it's a symptom of the large vendors just moving slower, Qlik actually bought one of
+those data providers, they bought a company called DataMarket, those are relatively
+small European vendor but that -- so that exists, so they could go that way as well.
+I think to me the next important thing is, will they -- will those pure play vendors get
+more into advanced and predictive analytics? Not that they will compete with a
+company like SaaS or IBM SPSS but incorporating some of that more advanced
+analytics into their existing tool sets and to provide more recommendations for users
+to automate the process of data, acquisition and preparation and also visualization. I
+would expect them to do that, that will be an important kind of next step.
+{BIO 15014535 <GO>}
+Great. And one last question. So is this space getting too crowded? I mean
+companies in this space continued to get new funding, Altrix had another funding
+round and yeah we are keep hearing about analytics and visualization more and
+more. So do you think there is scope for consolidation or yeah what's your odds so
+far?
+{BIO 4307286 <GO>}
+Yeah. There are some that have gotten enormous funding like Gilmore, which frankly
+I'm not -- I don't quite understand, I don't see anything quite unique there. There is
+company like Burst and GoodData and others. Altrix is a bit diﬀerent and that theyFINAL TRANSCRIPT 2015-11-15
+Amazon.com Inc (AMZN US Equity)
+Page 15 of 15Mandeep Singh
+Dan Vessettarget a slightly diﬀerent base. They partner with Qlik and Tableau where they're
+more focused on their -- more data preparation and advanced analytics.
+It's besides those that are more visible. There are dozens of other vendors in the
+space, I think there is always this long tail or there is a lot of movement along those
+vendors. This is the ﬁrst time I've been at IDC for 15 years. This is the ﬁrst time in
+probably 20 years that there is a major change in the top 10 vendors with -- other
+than M&A activity with Qlik just moving up -- I mean not quite -- Tableau moving up
+the ranks now, kind of surprising some of the mid-size, other mid-sized vendors.
+Will Tableau ever become top ﬁve? It's hard to say, it's doubtful. I think there would
+have to be some acquisitions. I think there are always a bunch of some tiny smaller
+vendors, but for those that matter I think it's very hard for any of those other names
+you mentioned or that I mentioned to crack into top 10 for the next -- for the
+foreseeable future. So I think there will -- and it's also, I'm not clear on what the
+reasoning for acquisitions will be other than to buy somebody like Tableau or Qlik
+assuming the right valuation, because a lot of the functionality is very well known
+and so there's -- the big vendors are not buying unique IP when they're doing that.
+{BIO 15014535 <GO>}
+Great. Clearly, this is not an easy space to understand and hope you all ﬁnd the
+discussion useful. Thank you so much Dan for your time. I really enjoyed the
+discussion and look forward to future webinars. Thank you, all.
+{BIO 4307286 <GO>}
+Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

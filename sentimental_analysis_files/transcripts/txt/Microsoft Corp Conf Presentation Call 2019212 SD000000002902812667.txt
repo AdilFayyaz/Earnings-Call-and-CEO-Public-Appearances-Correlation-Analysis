@@ -1,0 +1,672 @@
+FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 1 of 16, Former Corporate VP of Azure Marketing
+, MD & Analyst, Goldman Sachs Group Inc., Research Division
+Unidentiﬁed Participant, Analyst, Unknown
+Heather Anne Bellini
+Julia White
+Q - Heather Anne Bellini
+A - Julia WhiteGoldman Sachs Technology & Internet Conference
+Company Participants
+Julia White
+Other Participants
+Heather Anne Bellini
+Presentation
+{BIO 2268229 <GO>}
+All right. Yes, exactly, we're ready to go. Thank you, everybody, for -- thank you for
+coming today. I really want to thank the Microsoft team for coming because for those
+of you who may not be watching the weather in Seattle, they've gotten hit with a ton
+of snow over the last week. And I know this was a herculean eﬀort to get here. So I
+want to thank Julia White for coming. She's the Corporate Vice President of Azure
+Marketing. She's been with us before. It's always a great session. We really
+appreciate you taking the time to be here.
+{BIO 20496259 <GO>}
+Absolutely, yes.
+Questions And Answers
+{BIO 2268229 <GO>}
+So I guess the thing we get asked a lot is just kind of, where are we in the transition?
+If you go back a few years ago, ﬁve years ago, people would have thought by now,
+100% of workloads -- well, everyone's always more optimistic -- would be in public
+cloud. And depending on what stats you look at, we're far from that. But the market's
+been growing very aggressively. How do you think about where we are in the
+transition?
+{BIO 20496259 <GO>}
+Yes. There's a couple of diﬀerent angles -- the mic, yes, can you hear me? A couple
+of diﬀerent angles on, I would say, we -- well, it is -- in general, the cloud adoption is
+great. And it's deﬁnitely growing. And we're moving into even kind of late-stage
+adopter. The percentage of the IP and the applications being built and migrated, go
+into cloud is still pretty small. And we still have a lot more to go. So while most
+companies today have some workloads that they're migrating to the cloud, they'reFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 2 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellinibuilding new in the cloud, it's still not the majority of what they're running. So -- but I
+do think a couple of things have changed. We deﬁnitely have moved from seeing
+kind of the mid-tier and early adopters moving into cloud and getting kind of the
+ﬁrst workloads into the cloud into even the very late-stage adopters. So I think we
+have -- from a kind of a cycle of a customer type, we've deﬁnitely pushed even
+farther. And interestingly, in the past year, we've had some conversations, the very
+really basic cloud conversations all over again because this next wave of adopters
+have started to come in on that front.
+{BIO 2268229 <GO>}
+Right. So -- and when you think about workloads on Azure, what moved to there
+ﬁrst? And I guess you have to think of it from -- by cohort, like you just mentioned,
+right? So early adopters, what are they putting in Azure today that they weren't a few
+years ago? And do you see the uptake of the technology -- kind of the migration
+changing now that people have been able to learn from the cohorts before them?
+{BIO 20496259 <GO>}
+Yes. So they -- so there's the type of adopter.
+{BIO 2268229 <GO>}
+Yes.
+{BIO 20496259 <GO>}
+But then I see the -- for the overall TAM for Azure in the public cloud, right, it's 2
+things. One is applications that exist today that can migrate to the cloud or net new
+applications being built. So you can have migration or we have innovation, 2 basic
+ways. And if you go back, the early, early cloud adopters was innovation, like net new
+things, didn't have a lot. And actually some of the early Azure workloads that came --
+a new mobile app, a new system being built. Then we moved to the wave of like,
+"Actually, now I get it, the cloud. I'm really going to start migrating my existing set,
+my mission-critical, my business area." And I'd say, if you went back three years, the
+migration workloads looked like backup, disaster recovery, non-mission-critical line-
+of-business systems. Now the migration pipe is as good as the innovation pipe. So
+we've kind of normalized on that because you kind of have the types of tranches on
+the workloads. Then within the migration, you're seeing things like SAP, huge
+pipeline, like mission-critical systems running on Azure. Obviously, Microsoft's
+running our own SAP system on Azure as a proof point. So we deﬁnitely moved out
+of kind of lower-tier, Tier 2 type of workloads into migration into the Tier 1s. So I think
+on both fronts, the balance between innovation kind of workloads and applications
+and migration, that's normalized, which tells you things are kind of shaping to the
+whole market. And then the level of sophistication of what's migrated has also
+increased. But it's still early.
+{BIO 2268229 <GO>}
+So how do you -- I mean, I don't know to the extent you guys kind of talk about this.
+But if you can give us a way to think about, you were just kind of going down this
+path, like IaaS versus PaaS penetration in Azure. So meaning, of Azure workloads,FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 3 of 16A - Julia White
+Q - Heather Anne Bellini
+A - Julia Whiteright, what percentage of them would be -- or revenue, how much would be PaaS
+versus IaaS? Like how do you think about that like moving higher up?
+{BIO 20496259 <GO>}
+The way I think about it is more what -- and I would encourage others to think about
+it is think about it by the workload, the applications customers are using, right? And
+if it's just a straight migration, you're going to use core infrastructure, right? Then
+even like a couple of years ago, people would just say, "I'm just going to migrate and
+then leave it alone." I don't actually meet a customer who talks like that anymore.
+Walmart is a great example. They started just migrating. And then they're like, "We
+don't do that anymore. We modernize everything that we're bringing over because
+we see the eﬃciencies we get." And when you say modernization, what does that
+mean? It means I'm using more than just core infrastructure. I'm using things like
+your developer services, your data services, managed services to get the greater
+eﬃciencies of the cloud as well as you're now taking advantage of what we talk
+about, cloud-native services that were built from the beginning to have this
+incredible scale, supereﬃcient, great user experiences. So I'd say most -- so from the
+overall pipeline, we still have a lot of people just migrating infrastructure. But then
+almost immediately after that, the modernization work happens. And that's when
+these platform services and data services start getting consumed.
+{BIO 2268229 <GO>}
+So I mean, you've been involved in this business for quite some time. If you take a
+look at kind of the marketing message that you would help the team create from
+when you're looking at your competitors and kind of going through the pros and
+cons or the competitive diﬀerentiation, what does it look like today? How do you feel
+you're competing? And what are the strengths and weaknesses that you talk about?
+{BIO 20496259 <GO>}
+Yes. The things that we both talk about. But also we hear back from customers
+because it'd just be us talking about it. First, I think hybrid has been, for a long time,
+a huge diﬀerentiator and our belief that compute will be distributed, not just all in
+public cloud but distributed on-premises as well. And that's true in what we talk
+about as hybrid with data center and cloud but even as we move into more of the
+intelligent edge and more distributed compute. And so building consistency around
+that area. So we can certainly talk more about that. Then the next one would be
+overall just talk about productivity. And this is again a point of view that we came --
+we, because of our heritage, know that customers have a varied range of technology
+skill sets and technology teams. And so we built in the management tools, built in
+the developer tools, built in policies such that as people were moving to the cloud,
+they didn't have to learn all this tooling again. We just built-in. So all the systems are
+there. So the productivity message certainly resonates. And the last one is actually --
+really increasing is around trust. And that's trust of our security, our compliance, our
+privacy. We have more accreditations and attestations. I mean, in the public cloud,
+certainly important. But it's pivoted even farther now to a trusted vendor in that we
+are very transparent about what our core competencies are, what businesses we're
+in, we're not going to turn around and compete with our customers. And that'sFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 4 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Belliniobviously a big theme that we hear about from the market as well in terms of overall
+trusting Microsoft as a partner.
+{BIO 2268229 <GO>}
+Right. And Amy has talked a lot on the earnings calls about Enterprise Mobility being
+included obviously in the Azure line and just the strength of that business. And we
+kind of think of that as maybe more of a SaaS application that's running on top of
+that. How do you think about the other types of SaaS applications? And the reason
+why we care about it is, typically those have higher gross margins, right? So how do
+we think about kind of the -- how you can expand those other touch points within
+Azure -- SaaS touch points within Azure?
+{BIO 20496259 <GO>}
+Yes. So our -- so Enterprise Mobility or EMS is a set of Azure services that we then sell
+sapplications, right. But to protect the user on their device from their apps. And so
+kind of that package, that is really -- actually goes to the market with our Microsoft
+365. So a great opportunity there. But other areas, I mean, honestly, all of our data
+services, really, I think, follow in that class of kind of higher-level services. And that
+part of the Azure business is incredibly healthy. And so we see a ton of opportunity
+in that class of services. And again, it's about customers moving into the cloud. And
+one of the biggest problems we're trying to solve is around their data estate with
+operational data but also analytical data. Particularly, everyone has an AI strategy,
+everybody. And what they do, they're like, "I got to use AI, I got to create AI in all my
+applications, my systems." Then, "I get always, like, dreams about AI." Then they go,
+"Look, I have no data, my analytics systems are old and rigid and...
+{BIO 2268229 <GO>}
+How do you AI without the data?
+{BIO 20496259 <GO>}
+Right. And so quickly they pivot to, like, "Oh, gosh, we got to work on our analytics,
+our data warehousing, our data lake." And so that part of our cloud growth is
+phenomenal because if you're going to go do -- if you're going to build AI, you're
+not going to build a data estate and analytics systems on-premises. It just doesn't
+make sense. So that part is, I think, from the more higher level services.
+{BIO 2268229 <GO>}
+Right. So we probably don't hear as much about that one on the earnings calls. But it
+would seem like that would be one that's on the come then in terms of what we
+should be.
+(technical diﬃculty)
+a little less EMS maybe just given how well you guys have done there and a bit more
+in this area.FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 5 of 16A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini{BIO 20496259 <GO>}
+Yes. I mean, if you think about from the overall growth, EMS with, what, 94 million
+paid users, it's like huge business. Phenomenal, we love it. But it does at some point
+slow at that scale where the data services and other areas of Azure just -- we're still
+putting up triple-digit numbers on really big businesses.
+{BIO 2268229 <GO>}
+Right. And that's the other question that comes up a lot. I'm interested, from your
+perspective. So the investors, the consternation every quarter about whether Azure
+growth is -- whether it's 74% or 76%, like a lot of market cap trades on very small
+diﬀerence in percentages.
+{BIO 20496259 <GO>}
+I know. Amy reminds me about that all the time.
+{BIO 2268229 <GO>}
+I'm sure she does. What do you say to people who ﬁxate on that speciﬁc number?
+{BIO 20496259 <GO>}
+Well it is an important number. So not a bad one to pay attention to -- if you're going
+to pay attention to it. But you have to keep it in perspective, right? I mean, Azure is a
+massive business. And the way we report it is also inclusive of the EMS part of the
+business as well. So in the per user, that will have a graduating growth aspect to it as
+well. Then -- but if you unpack behind that number, there is incredible growth within
+it. We've seen about the data services like a triple-digit growth. And those are huge -
+- huge new industries that we're going into. So yes, a business of our size, you're
+going to see growth moderate. And I always feel bad -- internal reviews. We have
+very high expectations. Amy has very high expectations on us. And I say, beatings for
+these businesses that are multimillion-dollar businesses. And they're only growing at
+100%. And I'm like, "God, where does this happen?"
+{BIO 2268229 <GO>}
+So try and keep it a high-class problem.
+{BIO 20496259 <GO>}
+It is, it is. Yes, I'm like, when I went to business school, no one taught me how to grow
+a multibillion-dollar business at 100%, yet here we are. So -- but so within the
+dynamics of it. So feel good about a couple of things. One, the new businesses
+we're entering into, whether it be analytics, you're going to see over the next quarter
+additional places we're investing, new businesses we're crashing into. I mean, we've
+eﬀectively got an unlimited TAM that we're playing with for the majority of Azure, all
+right? EMS has a per-user cap to it. But from an IaaS and PaaS perspective...
+{BIO 2268229 <GO>}FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 6 of 16A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia WhiteVery unlimited.
+{BIO 20496259 <GO>}
+It's more about operationalizing it well, capitalizing on it well. So yes, you'll see the
+growth continue to stabilize but in really high numbers though.
+{BIO 2268229 <GO>}
+How do you internal benchmarking on your Azure performance? Like how do you --
+what do you -- how do you know -- like how do you determine, okay -- how do you
+make Amy happy? Is there a certain benchmark she looks at? Is it AWS' growth rate?
+Is it -- how do you -- how are you kind of grading yourself on that segment?
+{BIO 20496259 <GO>}
+Yes. Obviously, it's a triangulation of a few diﬀerent areas. Certainly, looking at what
+other vendors have been growing and where rates have been at the same in time in
+their life cycle is certainly one way to look at it. Looking at what the size and shape of
+the existing on-premises equivalency would be and then how fast is that moving.
+Then we see just early signals in terms of if AI is going to be true, then this type of
+data adoption needs to be happening. And so working back from what we see from
+a market signal perspective. So it's looking at those 3. It's a little bit of an arc
+obviously when you're in kind of an unlimited TAM type of business. But we do --
+and every time we think we put up aggressive numbers, Amy kind of pushes us a
+little harder, which is her job. And we keep trying to do it.
+{BIO 2268229 <GO>}
+So one question that started to come up over the last few months was there was this,
+I guess, idea that salespeople were getting paid to presell capacity. So getting paid
+quota to presell capacity. How -- and this might not be kind of your area of expertise.
+But just kind of how do you think about how the go-to-market has changed? And we
+were always told that the process of getting paid pre-usage, right, changed a few
+years ago and now with more like the salespeople are focused on consumption.
+How do we -- what can you share with us about kind of how the go-to-market has
+changed and potentially the -- how compensation strategies have changed?
+{BIO 20496259 <GO>}
+Yes. It was a 3-year journey where we took our sales force from being paid on billed
+revenues. So it's selling Microsoft expired licenses or Azure commits to being purely
+paid on consumption. So we kind of graduated each of three years, we were 100%
+based on consumption now for -- so any Microsoft salesperson who is paid on Azure,
+it's about consumed revenue. So if they -- if a customer chooses to say, "Hi. I want to
+give you $1 million upfront. And I'll use it over the next year," that salesperson
+doesn't see $1 million in their quota. They see it as it gets consumed through the
+year. So 100% true on that. The company will still obviously ﬁnancially recognize if a
+customer chooses to bill upfront. And we had -- it's interesting, we had pulled and
+done so much ﬁeld retrainings, they go out of this build motion, get rid of that
+muscle memory and go to consumption. Then we actually found customers are like,FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 7 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White"No, no, I actually kind of like to buy and lock up my dollars." Yes. So there's actually
+a customer
+(technical diﬃculty)
+(and feeling) that. So of course, we'll take the money that way. But that's not -- so we
+don't -- but that's not how the salespeople on the front lines are actually being
+recognized. And that's not how we also incentivize or compensate our partner
+channel either. That's also on consumed revenue.
+{BIO 2268229 <GO>}
+Right, okay. And I wanted to spend a little bit of time on Azure Hybrid Beneﬁt, which
+seems like, I mean, you guys are uniquely positioned to oﬀer this Bring-Your-Own-
+License movement. Can you talk to us about when this really started to make its way
+into the market and what the feedback has been? When did you start to see
+customers have that moment where they said, "Okay, this is great"?
+{BIO 20496259 <GO>}
+Yes. So this is the context. So we have Azure Hybrid Beneﬁt. So if you're a Windows
+Server or a SQL Server customer, you can, with your Hybrid Beneﬁt -- with Microsoft
+Azure, Hybrid Beneﬁts allows you to basically run your Windows, SQL -- Windows
+Server, SQL Server in Azure. And you don't have to repurchase the IP when you do
+that. So it's a fantastic advantage for -- kind of gives on-premises customers and the
+buyers of Windows and SQL kind of insurance plans because most people know
+they want to go to the cloud in the next generation. And then obviously, it gives
+Azure a wonderful price advantage in terms of being able to run it with the same IP
+that you've already bought. So -- and so like...
+{BIO 2268229 <GO>}
+And when did that go into eﬀect?
+{BIO 20496259 <GO>}
+I was going to say I think we're now in our second year oﬃcially when that program
+landed. But the -- it took oﬀ in a couple of -- mostly about 18, 12 months ago where
+we really saw adoption (craze). There's just awareness, we have to get out. And
+people buy. Then also, we just -- we operationalized it in the product itself. So when
+you're in Azure, when you go to deploy a virtual machine, it says, "Hi. do you have
+Azure Hybrid Beneﬁt?" So it also just made it really frictionless for a customer to take
+advantage of that. But we're seeing a huge beneﬁt in both our on-premises licensing
+because of the beneﬁt it adds to those customers. But also, our pipeline of Windows
+and SQL applications migrating to Azure is fantastic. And I mean, on -- the other
+aspect of this, too, we have the Azure Hybrid Beneﬁts. But we also have our Windows
+and SQL Server 2008 product that's going into extended support. That's 10 years
+old. That means it's going out of mainstream support. So customers are faced with 2
+options. One, they can buy extended security updates for about 75% of the cost of
+license or they can move and run it on Azure and get that for free. So it's a secondaryFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 8 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia Whitebeneﬁt for the 2008 installed base, which is the largest installed base we have (in
+that space).
+{BIO 2268229 <GO>}
+Right, right. And is that -- do they have to pay that per year if they stay -- if they stay
+just saying they want to do it on-premise and paying the updates?
+{BIO 20496259 <GO>}
+It's 75% (inaudible) for three years.
+{BIO 2268229 <GO>}
+For three years. And after that, you have to do something?
+{BIO 20496259 <GO>}
+Then you get customer agreements after that, yes.
+{BIO 2268229 <GO>}
+Okay, okay.
+{BIO 20496259 <GO>}
+So yes, it's not a pretty road. And in general, like that's -- it's a good -- it's just a good
+catalyst anytime -- it's not actually that diﬀerent than what's happening on SAP, right,
+where everyone on SAP has to move to HANA by 2025. That is a huge catalyst of
+people saying, "Okay, I got to (touch) my SAP system. Am I going to move to HANA?
+Or am I going to move to the cloud?" Again, that's -- we see a phenomenal pipeline
+around SAP systems moving to Azure and I think with that catalyst. And the 2008
+extended support and the support into security updates is another one of those. So
+2 big, big growth opportunities for the business.
+{BIO 2268229 <GO>}
+And how do you feel -- like we didn't talk speciﬁcally about AWS before. But how do
+you feel you've closed the functionality gap relative to them over the years? Or do
+you not think about it that way?
+{BIO 20496259 <GO>}
+No. I mean, customer -- it's -- I'd say what's reﬂected in customer and partner
+conversations are, it's -- for the most part now I think people say we're equal, right, if
+it's analysts, if it's customers. And the interesting thing is most customers I go to, like,
+"Oh, you're missing this feature. But I know you're going to have it soon enough."
+And -- or, "AWS is missing that feature. But they'll probably get it, too." So it's pretty
+normalized from a pure technology perspective. There's places that are materially
+diﬀerent that come up. Hybrid, that category of things, we have a bunch of stuﬀ they
+can't touch. So a few aspects like that. But other than that, it's pretty normalized from
+that perspective. Then it's more into -- AWS, obviously, they were out ﬁrst, they're theFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 9 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia Whiteleader. They get the beneﬁt of that doubt. When I was leading the Oﬃce 365
+business, I had that luxury. So I know what it's like, where we have to hunt a little
+harder on the Azure side. But I see the trust factor comes up a lot. And I think that it's
+one of those intangibles. But if your partner -- the partner meetings I had this
+morning were like, "Hi. I used to work with AWS. But now I don't. I worry they're
+competing with me." That's just a very...
+{BIO 2268229 <GO>}
+That comes up a lot.
+{BIO 20496259 <GO>}
+This is a very real concern, right? And I think I'm proud of the work we've done to be
+very transparent about our plans, our core competency, what we're doing, what
+we're not doing, such that we know what it's -- we've had 40 years of having to build
+trust. I know what that looks like.
+{BIO 2268229 <GO>}
+So there used to be a good bit of Windows revenue run -- or Windows workloads
+running on AWS. Should that -- like what happens to those going forward? I mean,
+that was before maybe you became as strong as you guys are. Do you -- what's the
+trend in Windows workloads running on AWS? And do you ﬁnd -- is there a way for
+you to kind of shift those workloads back to Azure?
+{BIO 20496259 <GO>}
+I'd say -- I don't have their numbers obviously. But I can see mine. And the pipeline...
+{BIO 2268229 <GO>}
+But they must send you a check, right?
+{BIO 20496259 <GO>}
+Well yes, we -- there are certain boundaries we have to...
+{BIO 2268229 <GO>}
+Yes, yes, okay. Amy knows this.
+{BIO 20496259 <GO>}
+But we -- I would say that I would be shocked if their pipeline of Windows SQL is
+better than ours. Despite them being bigger obviously, I think we have phenomenal
+growth there. And we have these very, very diﬀerentiated opportunities on that front.
+When -- taking applications oﬀ of a cloud to another one, honestly, is a place where
+we could spend a lot of time. And our competitive nature would want us to. But I'm
+like, the white space and the TAM of this business is so big, I don't actually
+encourage our salespeople to focus a lot of energy on that. If a customer's like, "Hi. I
+can't trust AWS," or "I can ﬁnd better (business) with you," we'll say switch. But it'sFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 10 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+Q - Unidentiﬁed Participant
+A - Julia Whitenot necessarily the place I'm actively hunting down and trying to go pull oﬀ of it. And
+I mean, the other aspect, too, which is up in AWS is it's a multi-cloud world. And I
+think we've expected that. If you look at on-premises today, it's very heterogeneous.
+And I don't think the cloud will be any diﬀerent. And I see people making diﬀerent
+decisions or are, "Hi. I'm going to do new innovation on this type cloud. And I'm
+going to do migration on this cloud." Or -- it's really -- the customer's mindset for the
+most part is departments or application by application. And so they can do best of
+breed, they can want to have -- kind of spread their estate across diﬀerent vendors
+for vendor control, vendor lock-in concerns, a lot of diﬀerent things. So even though
+there's -- a customer might have a Windows SQL application on AWS doesn't mean
+they're not going to put their next one on Azure. And it'll be blended. I expect that to
+continue to be true.
+{BIO 2268229 <GO>}
+What is your take on AWS Outposts?
+{BIO 20496259 <GO>}
+Yes. I -- it's come a little -- (it's heartening). It was funny to watch. They wouldn't even
+say the word hybrid or if they're -- like they would literally not say the word. And
+you'd be like, "That's so weird." But I guess if you only have a cloud, you have a
+hammer that hits the nail. And we wouldn't talk about hybrid for ﬁve years. We've
+had Azure Stack in market for over two years, right. And they ﬁnally utter the word
+hybrid and then -- and now it's Outposts. And I even laugh a little bit, the name, like,
+Outposts. Like you're not serious about it. It sounds like something you have to do,
+the way they named it even, tells you how they really feel about it. But I think it's
+interesting, it's not Azure Stack, people are now doing -- trying to compare. First of
+all, it's not in market. I think it's a year out. It's deﬁnitely diﬀerent than what Azure
+Stack is, which is a full kind of integrated cloud system that you can run locally. This,
+from what I can see, looks like their kind of platform layer services being able to run
+on existing infrastructure in kind of a managed way. But we'll see how that turns out.
+I think it's a kind of like welcome to the -- welcome to reality. Customers are hybrid,
+don't need hybrid. Interesting to see how they play on that. And again, it's diﬀerent
+to try and do it after the fact and have a hybrid oﬀering versus build from the
+beginning. We have identity, we have data, we have management, all hybrid. So...
+{BIO 2268229 <GO>}
+I want to see if there's any questions in the audience as we're -- oh, there's one. I
+think there's a mic runner. Hold on, he'll be right there.
+I think there's a perception that you guys are very strong in large-scale enterprises
+for many of the things you've talked about: hybrid, your reliability, your long-scale
+trust. How are you positioning yourself with younger companies, with start-ups. So
+that you're relevant for that next generation of companies?
+{BIO 20496259 <GO>}FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 11 of 16Q - Heather Anne Bellini
+Q - Unidentiﬁed Participant
+A - Julia White
+Q - Unidentiﬁed Participant
+A - Julia WhiteYes. If you looked at -- so starting from, let's say, a segmentation perspective, if you
+look at the Azure business, we're actually very equally distributed across small
+business, kind of midsize enterprise and large enterprise from a consumed revenue
+perspective. So it's maybe more balanced than people might think. We obviously are
+very strong in enterprise. But overall, very, very healthy in small business as well. So
+feel great about that, feel great about execution and the growth rate. And I actually
+think really strong in our SMB kind of our web direct business, superstrong. So -- but
+speciﬁc to your question on start-ups, we have a couple of diﬀerent initiatives, very
+targeted at start-ups. And there, we have Reactors and kind of co-innovation centers
+around the world. We also have investment programs where we provide start-ups
+not just money. But resources. Then actually the thing that most start-ups (that reach)
+and work with us on is that we do go to market with them. So if you come and you
+work with us and you -- do your technology running on Azure, then you earn your
+right to be able to be co-sold by our sales force, which is a huge lever for start-ups.
+And so that's -- you obviously earn your way to that level. But the idea that you could
+be suddenly sold by 50,000 Microsoft salespeople across the globe, it's pretty
+impressive. So we're seeing a lot of strong demand from that speciﬁcally. And if you
+go back a couple of years ago, us, AWS, GCP, were all throwing out a bunch of
+credits for start-ups. And I think they're mostly burning money because they would
+just move from one program to the next program and use credits and then leave.
+Where now, we have a much more focused value-add -- 2-way value-add programs
+with start-ups speciﬁcally. So feel good about our pipeline there. And obviously, if
+they're a B2B start-up, they love us. If you're B2C, you don't have quite as much, just
+because our global sales force isn't necessarily focused on that. But it's okay.
+{BIO 2268229 <GO>}
+Any other questions? There's one back there.
+I just sort of detected a bit of a pickup from management whenever they would talk
+about the fact that Microsoft oﬀers solutions where -- and you don't compete with
+customers. And when Heather asked that, you essentially said you don't go -- your
+salespeople don't go chase these kind of customers. Am I missing something here?
+{BIO 20496259 <GO>}
+I didn't hear that very well. So one more time.
+I guess what I'm trying to ask is, I detected a pickup in the tone from management
+recently about Microsoft not competing with their customers. Just I can (see that
+throughout) Amazon competing with customers, whereas you said that you don't
+really chase customers per se, which Amazon may be competing with. There's a bit
+of mismatch between this. I'm just wondering where and what am I missing?
+{BIO 20496259 <GO>}
+I'll tell you what I'm seeing and see if that answers your question perhaps, is I would
+say things like retailers and ﬁnancial services companies now and now into healthFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 12 of 16Q - Unidentiﬁed Participant
+A - Julia White
+Q - Unidentiﬁed Participant
+A - Julia Whitecare, seeing Amazon go into those businesses and saying, "Gosh, am I going to give
+money to people who are now competing with me?" And more than money actually,
+the deeper issue is data, right? If you're running your systems on a cloud, they have
+a sense of the data, where information is coming from. And just it's information you
+probably don't want to share with someone who's competing in your same space.
+So there -- I think that's the thing that I see come up most often and why you're
+seeing like Kroger and Walgreens, Boots and Gap and lots of companies now
+moving actively to Azure to distance themselves from basically feeding the
+competition. So maybe that -- I don't know if that answers your question. But...
+You mentioned some of the diﬃculties of converting an AI strategy into reality. And
+I'm wondering, are you seeing that in any of your -- this takeup of some of your AI
+compute oﬀerings, that actually everyone wanted to say that they were going to use
+all of this and, actually, the reality isn't quite as strong as you thought?
+{BIO 20496259 <GO>}
+Yes. They -- I mean, I think we're -- as in lots of other technologies are about a
+(height) cycles, right? And so everyone got very excited about AI. And they're still
+excited. If I look at our Executive Brieﬁng Center, AI is the #1 conversation customers
+want to come have with us. So this tells you the index on that. And if people said,
+"Great, I want to do AI," they're like, "Okay, well, that -- there's 2 things in AI." There's
+models, AI models that have been prebuilt, like we prebuild them with all the data
+and resources we have. So like a computer vision, we can detect that this is a shoe
+versus a water bottle. And you can just use that AI model in your application and not
+to have to do a lot. We've seen a lot of adoption of those prebuilt models because if
+I'm building an application, I can just take advantage of that AI model. Then there's
+the more sophisticated, which is, "I'm going to build my own AI models to power my
+supply chain or to predict customer behavior." And that's where you need to get into
+data sciences, where you're going to be using very specialized compute to be able
+to process and run those kind of algorithms in high ﬁdelity. And that's a much more
+complicated conversation. And it tends to start with they dream of doing it. But they
+don't have the data scientist, they don't quite know what they want to do yet. So that
+tends to be much more about analytics, getting into data science basics and then
+taking advantage of the compute that we have available for it. So there's kind of 2
+classes of prebuilt AI models they can use and then building their own and the
+capability around that.
+And how do you plan your end capacity for that? And a wider question, how do you
+plan capacity for, yes, you say you're seeing such strong growth?
+{BIO 20496259 <GO>}
+Yes. There's a lot of science in that. So it's a combination of, ﬁrst of all, where globally
+we see the demand signal. We obviously have lots and lots of models around how to
+predict demand and where it's going to be coming from. But then we also do -- we
+have very good visibility into our sales pipeline, both from our direct ﬁeld but alsoFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 13 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia Whitefrom our partners, of the type of applications and the type of workloads people are
+coming on. Like SAP is a certain type of compute that we know we need and we can
+have a -- we have a pretty good sense of where it needs to be distributed. AI was
+one that's, because it's still early, it's a little harder to predict. So that one, we have
+probably not perfect capacity utilization on that one just because it's so early. It's not
+a big part of our ﬂeet either. That's kind of specialized compute. So it's not like being
+wildly oﬀ makes a lot of diﬀerence in the margins. But that's the one that's a little bit
+harder.
+{BIO 2268229 <GO>}
+I wanted to ask about container adoption and interest in serverless. What are
+customers saying to you about both of those?
+{BIO 20496259 <GO>}
+Yes. So in the kind of higher-level services, I -- basically, my simple way is there's 2
+classes. There's data services. And then there's the kind of developer platform
+services. So containers and serverless, as we talk about, is on more the developer
+system. Back to the applications that are on-premises, they migrate. Then once they
+migrate, the very ﬁrst thing you do to modernize is move to containers. And like the
+world has chosen Kubernetes and containerization and then -- and using this
+technology called Kubernetes to do it. If you go to a Kubernetes conference, they're
+selling out. It is mainstream average companies, like it's gone from being elite tech
+to being everybody's choice. So that is absolutely the next wave, it is core to every
+modernization project I've seen. I expect it to continue to be because we're doing it
+internally. So I think that is a very real trend. And on serverless, there's a lot of
+confusion around what does serverless really mean. And people started talking
+about it as event-driven. It's kind of, this thing is like, hey, if an action happens, an
+outcome, you make another action. And (inaudible) serverless is basically how PaaS
+works, right? So we talk about serverless, we don't really say PaaS anymore. It's like
+anything that doesn't require you to manage the compute and now working in
+storage underneath. And that all comes into play when you're doing modernization
+or net new innovation applications. And I think that's a strong trend on that side of
+things.
+{BIO 2268229 <GO>}
+So does that become deﬂationary to an extent? Because you went to cloud 4 or ﬁve
+years ago, you were deploying PaaS and buying Reserved Instances, for example, for
+periods that you might not be using it for. But you wanted to make sure it was always
+available. And as you move to serverless, you only have to use it when you need it,
+right? And how do you think about the deﬂationary aspects that it could cause on
+someone's IaaS and PaaS infrastructure, right, versus kind of how much it could
+ignite even more spending, right, be additive and then create new use cases and
+new applications?
+{BIO 20496259 <GO>}
+Yes. I think you would theoretically say, "Gosh, it's going to be deﬂationary because
+everything's going to shift over there. And then we're going to get supereﬃcient inFINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 14 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia Whitehow we use it." I don't see the reality moving quite like that. And if you look at --
+again, if you classify both data and developer services in that, the data services are
+growing incredibly hot. And so any shift from the core infrastructure where they're
+running it -- it's going to make it up in data even if it's kind of more deﬂationary on
+the developer high level.
+{BIO 2268229 <GO>}
+Right. So on a collective basis, it's net increase in spending. It just depends on how
+you're allocating it. Is that the right way?
+{BIO 20496259 <GO>}
+Yes. And I do think there was -- as we've gotten more sophisticated in what
+serverless means and the technology, there's diﬀerent types of it, right? And things
+like our event-driven is supereﬃcient from a customer perspective, very low cost,
+awesome. Hard to run systems on event-driven technology, really hard, like if you
+really know what you're doing when you build a brand-new app, you can totally
+make it work with event-driven only. But there's not many people on the planet that
+can do that or really want to. So the theoretically possible versus what I think is
+actually going to happen looks a little diﬀerently. And there'll be much more of a
+balanced approach in people -- how people use the technology.
+{BIO 2268229 <GO>}
+Was there a question -- I saw him standing there. Was there a question here? No,
+okay. I saw the mic runner. So sorry. The -- we had Thomas Kurian who is now CEO of
+Google Cloud here earlier this morning. I was wondering what -- when you're doing
+a competitive analysis or when you're hearing feedback from customers, how does
+GCP ﬁt into the equation?
+{BIO 20496259 <GO>}
+Yes. More of like outside in what I see. I say almost every conversation customer
+partner is AWS, Azure. That's -- I expect that in every meeting and every discussion.
+The -- I see GCP occasionally. And they mostly show up -- like I was in France, the
+conversation there, they tend to come in -- and again, I'm just reﬂecting. But I think
+about anything else...
+{BIO 2268229 <GO>}
+Yes. Not Microsoft views, what customers are telling you?
+{BIO 20496259 <GO>}
+Yes. What I see, this reality is they come in with -- they could -- in a diﬀerent way,
+maybe to the CMO from AdWords or G Suite and then kind of buy the GCP usage
+from that. And so it's more of kind of a roundabout way to get into those accounts
+and more by the business. And I think if you're early in trying to get enterprise wins,
+you're going to go by the business. So that's more of what I see come in. And it's not
+frequent, to be honest. It's geographies, I see a few places.FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 15 of 16Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini
+A - Julia White
+Q - Heather Anne Bellini{BIO 2268229 <GO>}
+Okay. Last question I had was about GitHub and the role that you see GitHub playing
+and expanding your developer audience. How do you think about GitHub and how
+it ﬁts in?
+{BIO 20496259 <GO>}
+Yes. And that's more at a Microsoft level, right, in terms of being an incredible
+developer resource, tens of millions of developers and hundred million repositories
+and a wonderful open-source ecosystem. And so in terms of Microsoft and
+developer relevancy, it's a wonderful asset. It'll continue to be run independently,
+like you've seen us do with LinkedIn or Minecraft. And so have very independent
+capabilities in decision-making and autonomy, which is really important. And we
+deeply understand and value that. And yet we also see opportunities to help
+customers. So as an example, we put an oﬀer together that allows our enterprise
+customers to buy GitHub Enterprise on Microsoft licensing. And we didn't -- there's
+not a big promotion. We just kind of put it out there. And we just see an incredible
+adoption of it, like customers are begging because they're -- GitHub's enterprise
+oﬀering wasn't really done in an enterprise way, the way Microsoft was, right. And so
+customers were hungry for that. And so when we just did a pretty simple thing for
+them, it got easier, like, "Great, now I can do all this as one thing." So where we see
+great customer beneﬁt and have natural aﬃnity, a wonderful opportunity together,
+we're not good to be heavy-handed or (jamming) hazard on them or anything of that
+nature.
+{BIO 2268229 <GO>}
+Right, great. Thank you, Julia.
+{BIO 20496259 <GO>}
+Yes.
+{BIO 2268229 <GO>}
+Appreciate it. Thanks, everybody. Thank you.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT FINAL TRANSCRIPT 2019-02-12
+Microsoft Corp (MSFT US Equity)
+Page 16 of 162024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

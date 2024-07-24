@@ -1,0 +1,441 @@
+FINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 11Ali Kani, Vice President & General Manager, Automotive Business
+, Investor Relations
+, Analyst, Deutsche Bank
+Ross Seymore
+Stewart Stecker
+Ali Kani2021 Deutsche Bank AutoTech Conference
+Company Participants
+Stewart Stecker
+Other Participants
+Ross Seymore
+Presentation
+{BIO 20902787 <GO>}
+Good afternoon, everybody. I'm Ross Seymore, the Semiconductor Analyst here at
+Deutsche Bank in the U.S. We're very honored to have NVIDIA with us for the next
+presentation slot at the AutoTech 2021 Conference. Today from the company we
+have the Vice President and General Manager of the Automotive business at NVIDIA,
+Ali Kani joining us. We also have Stewart Stecker from Investor Relations. So we're
+going to turn it over to Stewart to read a brief forward-looking statement comments
+and then we're going to go to Ali for some slides, and then we'll wrap it up with Q&A
+after that. I have a list of questions and then if you have any questions, please feel
+free to email me those, and I will ask them. It's ross.seymore@db.com.
+So without any further ado, why don't I pass it over to Stewart to read the forward-
+looking statement. Stewart?
+{BIO 17308457 <GO>}
+Great. Thanks, Ross. And thanks for having us. As a reminder, this presentation
+contains forward-looking statements. And investors are advised to read our reports
+ﬁled with the SEC for information related to risks and uncertainties facing our
+business. Over to you, Ali.
+Excellent. I'm not able to see the slides that are being shared. No, now I can see
+them. Okay. Hey, everyone. I'm going to quickly talk about our DRIVE platform. So
+we always talk about NVIDIA's entire strategy is to be an end-to-end provider for
+automotive solutions. So this means from the computer in the car to the data
+collection apparatus, to be able to take data into a car properly calibrated and
+synchronize the data, sending up to the cloud where we then build AI models. We
+build models for perception, for mapping, planning and control. And then we build
+a platform where we help simulate that vehicle. And so we have a DRIVE SimFINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 11platform that runs on constellation based on Omniverse, and we use that platform to
+accelerate the end-to-end ﬂow of AV development.
+We believe that most important diﬀerentiator for any company in AV because it's so
+challenging to develop a safe AV experience is a company that has a really eﬃcient
+development ﬂow that helps them very easily ﬁnd the issue, root cause the issue, ﬁx
+the issue, test the issue and then be able to okay it in the car. And the faster you can
+do that, the more successful of an AV company you'll be, and you'll see that NVIDIA
+is unique and that we're investing in every part of that ﬂow.
+Let's jump to the next slide. At the center of that strategy in our platform is Hyperion
+8. And the way I think about this is that Hyperion 8 is, essentially we think of it as like
+the ATX form factor of PCs, but it's the form factor for automotive. And so it's a
+computer architecture, it's the sensor set, it's the software platform that runs in the
+car. We have this drive works middleware software that is fully integrated into our
+cloud. We call it DGX infrastructure that runs on MagLev in software that we have.
+And so how do you take all that data that comes from the car and in an automated
+way, label it and curate it, train our models and simulate it. Everything is connected
+to this Hyperion platform architecture. And so when we have customers, if they are
+aligned to that Hyperion architecture, we can help them across all of the stack and
+we design our platform, so it's easy to go from one generation to the next. So you
+could have an architecture based on Xavier computer, you can remove that Xavier
+computer and slide in a form factor compatible Orin computer into your vehicle and
+we design our software such that it's API compatible. So it's really easy to transition
+from generation to generation and leverage your investment, not just across your
+cars at one generation but across generations. Hyperion is central to that strategy
+and we always talk about it because we can help our customers accelerate to time to
+market as long as we sort of aligned to our Hyperion architecture.
+Next slide. Okay. So as to the developing AV at the core, you need simulation and
+you need real world driving. And simulation ends up being ground truth for our AV
+development. And so -- and some types of data that we need is just so hard to ﬁnd in
+the real world. It's really hard to come across, let's say, something like road debris,
+because there is like millions a diﬀerence of kind of debris that you might ﬁnd on the
+road, if you're actually driving, trying to get that data yourself, you never going to be
+able to ﬁnd it.
+And so we have to use synthetic data generation to build that kind of data and that
+data actually is then perfectly labeled and photorealistic, and we built it on
+Omniverse. And so at this GTC, we announced having the ability to build that
+synthetic data generation platform, we call it, Omniverse Data Replicator for DRIVE
+Sim. But the reason why we build it is we need to do it for AV development
+ourselves. And so then when we have partners and they align to our Hyperion
+architecture, we actually have synthetic data for them that they can immediately take
+and it helps them build models that can handle those hard to ﬁnd scenarios in the
+real world.FINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 11We just sort of give that for our partners. It accelerates their development and we
+kind of appreciate those problems because we're dealing with them ourselves as
+we're building this end-to-end platform. And so this Omniverse Replicator is
+something very exciting that we're building for our ecosystem in our customer base,
+such that we can help accelerate their development just like it's accelerated arts.
+Go to the next slide. So I think we just really liked when NEO announced a vehicle
+that they're building on Orin. It's going to have four Orins, and it's going to go to
+production next year. They mentioned that Tops is the new horsepower for
+automotive. And I think what he really means by that, we don't actually think Tops is
+the most important thing in the automotive, but the point is computing power is
+incredibly important for automotive, because the vehicles are software deﬁned and
+they're going to get better over their life.
+And so we build our platform to consistently be upgradable. And so when we talk
+about going from Xavier to Orin, and for it being Hyperion compatible, what we
+mean is that Orin, form factor and computer is designed to be exactly form factor
+compatible to the Xavier. So you can just swap it in and then you can provide new
+features and functions to your customer base and have new revenues that you can
+generate oﬀ of your vehicle.
+And the same thing with Atlan. Atlan will be form factor compatible to Orin, such that
+it's really easy to go from generation to generation. And what we're doing is we're
+constantly upgrading that platform. Here we're talking about chips, but the sensor
+set also increases with each of these generations' higher resolution, more sensors,
+more diversity of sensors, more advanced networks. And so all of those things drive
+the need for higher compete in the cars and that's what we're trying to do is make it
+easy for customers to sort of have a partner that can consistently give them higher
+performance and make it easy to leverage their investment across generations.
+Next slide. Okay. So, at the core of our strategy and our view is that, there is two
+fundamental disruptions in automotive outside of electriﬁcation which is of course
+happening. One is the AV experience, so doing self driving software, and we talk
+about building a stack end to end that delivers that AV experience, we call it Drive
+Chauﬀeur because we want the car to be able to essentially have a virtual chauﬀeur
+that drive you from place to place, parks you from place to place. And so you'll see
+that we're building that entire stack for our partner ecosystem and we design it in
+modules such that if you don't want the entire stack, all you want is the computers.
+You're more than welcome to just take that from us. But if you actually wanted some
+of the software either it could be active safety or parking or AV, we give you the
+ability to scale what you take from us based on what is your need and how you want
+to diﬀerentiate.
+And we also see huge innovation inside the car and we talk about that as the
+Concierge experience. What we mean is, once you take all these technologies like
+our intelligent virtual assistant who has natural language processing. Once you have
+a vehicle that can do that, you can now talk to your car and the car should know
+everything about the automobile. So if there is something wrong with light it shouldFINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 11Ross Seymore
+Ali Kani
+Q - Ross Seymoreknow. I got a sign last week that said that my rear light was broken in my car. You
+should just be able to say what is the rear light that's broken? It should tell you, it's
+like a halogen or Xenon type of light. And then you could just order it on the spot.
+It's fully integrated with everything about you as well as your vehicle and you can
+fundamentally change the experience inside a car. These are the two areas that all
+AV -- like automotive companies need to invest, and is redeﬁning the experience
+inside the car. We call that your concierge. And then redeﬁne how your car can drive
+you from place to place, your chauﬀeur experience and NVIDIA is investing in the full
+stack for both of those areas.
+Next slide. And so with this Hyperion platform, what we're most proud of is the type
+of companies we'd like, when we look at this we think these are the companies
+building the most disruptive forward thinking software deﬁned platforms in the
+industry. Volvo is doing some really exciting work, Mercedes-Benz, Hyundai, and
+then all the NEVs, whether it's Nio or Xpeng or Li Auto, where it's the full self driving
+companies like Zoox or DiDi or Cruise.
+We're kind of partnering, all these guys are our partners because they believe in
+software deﬁned development, they are building really advanced solutions. And so
+NVIDIA is very successful in both platforms, whether it's Level 2, Level 3, Level 4 or
+full self driving across robotaxi or trucks. So when we go to the next slide, when we
+sort of take all of those wins together, we have a huge pipeline that's going to be
+quite a bit larger than where we're at today. So over the next six years, over an $8
+billion pipeline, and it sort of spans all of those types of vehicles that we talked about
+from passenger vehicles to commercial vehicles. And it deals with both situations
+where we sell just the chips to our partners to full stack situations where we're
+building the chips, the full self driving solution and we're providing the end to end
+infrastructure that lets you sort of ﬁnd these issues which cause them and ﬁx them
+and OTA them in the car as quickly as possible.
+Okay, that's all the material that we had planned.
+{BIO 20902787 <GO>}
+Great. Thanks, Ali. Why don't we run the video? Christian, can you hit the button and
+run the video. I think we have plenty of time for it. (Video Presentation) Ali, let me
+know when the video is done and we can jump into Q&A.
+It's done.
+Questions And Answers
+{BIO 20902787 <GO>}FINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 11A - Ali Kani
+Q - Ross Seymore
+A - Ali KaniOkay, great. Well, when we jump into Q&A, again if anybody has any questions just
+email me at ross.seymore@db.com. But why don't I kick it oﬀ a little bit with, your
+approach, the end-to-end approach, open and modular that you had on your very
+ﬁrst slide, you have to be the best at every one of those aspects to pull that oﬀ. So
+where do you believe NVIDIA is truly the most diﬀerentiated? Is it the attempt and
+the actual success at being fully end to end, or is there one attribute, whether it's the
+software, the simulation, the training, the hardware, the semiconductor side that is
+the focus more so on the semiconductor analyst like myself? Where do you think you
+are truly diﬀerentiated the most?
+I think it's in an integrated infrastructure that lets you develop code both in
+simulation and the real world with the same software stack, so that you could actually
+OTA really quickly. Basically what I'm saying is the secret sauce is in having a
+software development ﬂow that is safe and secure which is needed for automotive
+safety standards. There is no one in the world that does that. Like how do you build
+AI code that needs to be safe and secure with every drop. You can't release buggy
+code in an OTA and self-driving vehicles. Well, how do you build code that is AI
+heavy in a safe and secure way, it's that software development ﬂow that's end to end
+in the infrastructure, and essentially being able to do that is really, really hard. No
+one has ﬁgured it out and that's where I think NVIDIA is most diﬀerentiated putting
+the development of a vehicle, and in a virtual vehicle together so that you have really
+high quality and eﬃcient software development. So I think that's the core
+diﬀerentiator.
+{BIO 20902787 <GO>}
+And given that historically the automotive companies would iterate at the natural
+pace that they could handle by just driving real world miles and it be the more cars
+you have on the road with your sensors, the more situations you could record, et
+cetera, for mapping in incidents, prevalence and diversity, those sorts of things. Are
+the OEMs trusting of a more SIM diversion of getting to the same endpoint or is that
+kind of something where you've had to earn their trust over the years?
+I think the whole industry knows that you need to do SIM and real world together
+now. It's just -- it's too hard of a problem when you have a heavy vehicle and it's
+supposed to do self-driving. You can't make any mistakes. And it's impossible to
+come across every real-world scenario just by driving your ﬂeet of vehicles. It's just --
+it's too hard, right, like imagine in each of our lives, how many times have we seen
+something random on the road. And now you're building AI code that's supposed to
+ﬁgure it out, if it's never seen it before, how will it handle it, which you have to in
+some cases do synthetic data generation. And only if you take synthetic generation
+and couple it with what you see in the real world, can you feel like you have enough
+diversity such that your AV experience is diverse.
+And I say on top of that, you also need a diverse AV stack, not everything is based on
+AI. Some of the code that you need in a vehicle needs to use legacy methods just for
+that sake, that you might not recognized something, you might not have trained aFINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 11Q - Ross Seymore
+A - Ali Kani
+Q - Ross Seymore
+A - Ali Kaninetwork. And so you need maybe in addition to an AI network that sees objects but
+something a little bit more legacy that just is optical ﬂow base and you fuse both of
+them together. So having a stack that it's not just synthetic generation by real world,
+but also has some elements of legacy architecture as well as a modern deep
+learning based architecture, you fuse it together, then you -- the combination of both
+of those, then you have a really disruptive safe self driving experience.
+{BIO 20902787 <GO>}
+And from an NVIDIA technology point of view, are your customers also -- are you
+basically running all of this for them? You have the DGXs, you have the constellation,
+you have all of that. Are they wanting to take on some of the technology themselves,
+whether it's your supercomputer enabled development, so you sell them DGXs. How
+does the kind of the relationship across this open and modular capability reside with
+NVIDIA or with the customer or is that the part that you really are ambivalent
+between -- or agnostic between each of those?
+Yeah, that's a great question, and it's always up to the customer. And part of it's
+good to kind of be able to explain this. We have cases where customers don't use us
+at all in the car. But they buy infrastructure from us to train their networks. And some
+of them are our biggest customers. So you don't even need to use us in the car, you
+have to buy our chips in the car to be someone that we can help with DGXs and
+simulation.
+We have some customers who just who buy chips from us and they had their own
+strategy for training and simulation. We have many cases where people are buying
+chips from us and using us for training and simulation. And we have some cases
+where people are buying chips from us, as well as the software in the car and using
+us for training and simulation. And so it literally is based on what the customer wants
+and where they feel they need. And the fact that we're developing at full stack in end
+to end, it gives us the opportunity to help them in more places, but it's just up to
+them. In many cases, they have the expertise and they don't need our help and that's
+great. And we sort of say just tell us how we can help you and we will just help you in
+those speciﬁc ways.
+{BIO 20902787 <GO>}
+If we look 10 years down the road, where do you think NVIDIA would be adding the
+most value in the car or in the development side of the equation?
+It's balanced. It's mix, and I think both of them are huge once in a lifetime
+generational opportunities. And I believe that both of them are just starting because
+today most of the cars are active safety cars, right. It's just like it keeps you from
+getting in an accident. It's not really driving you, but that will change over time where
+essentially every car one day will be able to drive you from any place to any place.
+And so that needs much higher performance computers and much more advancedFINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 11Q - Ross Seymore
+A - Ali Kani
+Q - Ross Seymoresoftware in the car. And we're uniquely positioned to be able to deliver that kind of a
+computer and software driving solution.
+And then in the infrastructure, the training and simulation that you need for active
+safety is really minor. But then you look at what Tesla talks about in terms of another
+building in L2 plus experience. And they have a really big infrastructure, right. They
+have announced, they have close to 10,000 GPUs. They've announced it themselves.
+So that's how big their infrastructure is. That's just L2 plus and a million cars a year.
+There is a 100 million cars a year, which can be not just L2 plus but L4. And so that
+market is going to be many 10 times larger. I think of it as there's only a few million
+cars a year that needed today an L2 plus, while every car will needed an L4. So it's
+going to be like a 100 times in size and it's already a very large business for us. So I
+think it's not one, I think it's both, and I think they're both generational opportunities.
+{BIO 20902787 <GO>}
+Within the car itself, how do you see the processing power being delivered? Do you
+think there is one chip to rule them all the supercomputer in the trunk more
+diversiﬁed or more distributed around the vehicle closer to the sensors? How does
+NVIDIA envision that because there's diﬀerent companies seem to be attacking it in
+diﬀerent ways. And it of course depends if they're trying to enable L2 plus or L 4/5,
+but how do you envision the distribution of the processing power?
+Well, so when we think about a software-deﬁned car, the decisions and criteria of
+platform architecture selection will change. And we're seeing it already with some
+vendors like Volvo and Mercedes-Benz and the NEVs like Tesla, Nio, Li Auto, XPeng.
+They are centralizing their architecture. And the reason why you do that is that it's
+easier to support and maintain that vehicle over its life.
+If you have like -- there is vehicles that have a 100 computers in them. How do you
+OTA, how do you update and manage that over the c the car. It's really, really hard.
+But when you centralize the architecture and you sort of have more centralized
+approach, it's easier to maintain and update that vehicle and to do it in a safe and
+secure way, which is critical for AV. And so I think you will see more and more data. I
+think it's just to me, it's no doubt that the whole industry will move that way and it's
+already happening and it's because the industry is starting to recognize that there
+really is a great transformation where these cars are becoming software deﬁned
+vehicles that will get better after the day they leave the lot. And you going to have to
+kind of create new features and functions over the life of that vehicle. It's not like the
+car is at its best, the day it sold. But it will get better after you buy it. And so then you
+want to have an architecture that's easy to program and update. And so then you get
+that bigger computer in the middle. So I think that will deﬁnitely happen, and we're
+still starting to see that transition already in a big way.
+{BIO 20902787 <GO>}
+You mentioned when you're watching the video that that vehicle was self-driving and
+it is a vision-based system, talk about the sensing modalities that NVIDIA supports. I
+know you don't have the sensing side itself, but you'd be the processor for the dataFINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 11A - Ali Kani
+Q - Ross Seymore
+A - Ali Kanithat those create. So talk about which of the sensing modalities you believe will be
+most prevalent going forward as we move to L 4/5?
+So we do have the sensing. So like Mercedes-Benz as an example, we're going to be
+doing all of the camera perception, radar perception and light our perception and
+driving stack. But so I think there is a place for camera radar for passenger cars and I
+believe that when we get to self-driving, we need to see if there is innovation in
+radar. There's some really exciting radars coming up on the imaging radar side. And
+it's possible to do full self driving with camera and imaging radar. And I believe that
+you have to have at least two sensor modalities, because there are some cases that a
+camera will not see something and you want a redundant way to see it, right. And so
+you want that second modality.
+And so at least camera and radar, and once you get full self-driving, we see a need
+for lidar, we're certainly going to support lidar in our Hyperion architecture. And one
+of the platforms that we're taking to market will have camera radar and lidar. And I
+think lidar does have a good role when you deal with stationary small objects,
+because a camera can see it and our radar is not so good at seeing like a piece a
+brick on the ﬂoor because it's not moving. And radar won't even see it. So you kind
+of beneﬁt from having that lidar to see that. And so I do see value in lidar as well
+when you get to sort of full self driving functionality.
+{BIO 20902787 <GO>}
+So we did have a question from one of the investors. And so I'll just read it verbatim.
+How does NVIDIA system compared with Tesla self driving software live updated
+data and ecosystem with over 1 million cars on the road creating and storing real
+data, not just the synthetic data that NVIDIA is talking about?
+Okay. So I think from a platform side, we're much more open, right. So, NVIDIA's
+platform is we have a developer platform, we see to the entire community and
+people are building AV software on our platform themselves. And so the rate of
+innovation and speed that you'll see on the DRIVE platform is really, really fast and
+fastest in the industry in my opinion, because it's not just NVIDIA software
+development speed versus Tesla. There is all these customers that we just talked
+about the Zoox and the cruises. They're building some great software on our
+platform and sometimes, some people want L4 and you get the beneﬁt from that
+developer ecosystem that is on the DRIVE platform that you don't have on Tesla
+because the only person programming at Tesla is Tesla.
+Then as far as self-driving experience, I mean, we showed you guys that drive it's an
+L2 plus drive. You can't do it on a Tesla today. So I feel like we are best-in-class.
+They're doing some really great work. I think, Tesla and XPeng are building
+production cars today, the best self-driving software. But I think other than them we
+are the other best option available on the market. And where we try to diﬀerentiate
+is there is a developer ecosystem. They can diﬀerentiate even faster than us.FINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 11Q - Ross Seymore
+A - Ali KaniAnd then of course we tried to progress faster. And I think the two years ago, Tesla
+was driving better than we were. But today we're doing scenarios that they can do.
+And so we'll see who ends up full self driving faster. But we feel really good about
+the investments we're making in our strategy and we think that speed of
+development ﬂow really is critical to be successful long terminating.
+{BIO 20902787 <GO>}
+Great. Thanks for that answer, Ali, and thanks for the questions from the audience. If
+anybody else has any questions just email me. Why do we switched to the business
+model side of the equation because there some interesting implications on that.
+Some of the move to autonomy has taken longer. We've been talking about this. I
+think we've been holding this AutoTech Conference for seven years or something.
+But it seems to be rapidly approaching ﬁnally.
+The rub [ph] I sometimes get into is who pays for this functionality. You guys look like
+you're getting -- taking a diﬀerent business model at least with one of your partners
+with Mercedes and more of a subscription model. But if we start from the beginning,
+what's the general cost adder you see to adding autonomy to a vehicle, Ali? And
+how do you think that gets passed along and oﬀset in some way, shape or form.
+Does it have to be a change in the business model with your customers, not
+necessarily just the sharing of revenues between a supplier NVIDIA and the
+customer but also between the customer and their end-user as well?
+Okay. So ﬁrst, you know, I think there is a fundamental transition here where the
+industry recognizes that these vehicles are software deﬁned. And when you do that it
+has a fundamental change in your business model pricing strategy. First, if you have
+a software deﬁned platform, you want the highest performance computer and
+sensor set that you can have in that computer every time you release a vehicle. You
+guys see that iPhone does that, right. It's always the best newest SLC ﬁrst launches
+on the iPhone and then they put the best sensors they can for the camera, and they
+launched that vehicle. And then over time, and they tried to sell that product
+relatively aggressively, because there is a lot of features and functions and services
+they can provision after the device is sold. And so what we ﬁnd is these customers
+when they're making their decisions, think of it like that, hey it used to be -- by the
+way some people still do this, they say, hey, I just want like the cheapest and cap car
+that I could build. It's not something NVIDIA is building because they are not
+thinking about it software deﬁned. But when you start thinking about a software
+deﬁned, you say I want to put the best computer and the best sensor set on this car,
+and we want to sell that car cost eﬀectively to our customer base and then we're
+going to sell services over time.
+And so then the business model and the pricing model changes where you want to
+sell as many cars as you can, because the value of your platform is the size of your
+installed base. So they're not trying to take this investment, just raise the price of the
+vehicle. They want to take that investment and sell as many of those platforms as
+they can. Over the life, they'll have a larger installed base. And the value of that
+installed base is far more important and valuable to our partners, then they spendFINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 11Q - Ross Seymore
+A - Ali Kani
+Q - Ross Seymore
+A - Ali Kani
+Q - Ross Seymore
+A - Ali Kanilike an extra $100 on the computer in the car. So I think we see that transition and we
+see customers thinking of it as that kind of a platform. So they are not trying to
+increase the price of the vehicles as much as increase the installed base of vehicles
+that have the ability to be upgraded and add new features and functions over the life
+of the customers.
+{BIO 20902787 <GO>}
+Got it. We have about one to two minutes left. So why don't I just ask the last
+question which is, you are running -- your automotive business at NVIDIA is running
+$500 million, $600 million a year right now. You talked about an $8 billion pipeline
+that's I think a six-year pipeline. Walk us through, going from $600 million to $8
+billion or $1.5 billion or so on an annual basis? What's the sort of trajectory that we
+should as investors follow?
+I think ﬁrst it starts with Orange ramp which happens sort of in the second half of
+next year. So just as it ramps up, we've announced wins with many companies. You'll
+ﬁnd that China NEVs will go to production fastest because they are more start up
+[ph] and have a faster development ﬂow than what you would expect from a typical
+traditional OEM. And so we talked about how you will see that transition happen in
+the second half of next year. You will see an uptick there, and then you'll see the
+pipeline numbers. So you know if the -- if we're running at $500 million to $600
+million a year today, the average over six years is over $1 billion a year, you're going
+to see uptick over those six years, and we will see some attractive growth over this
+pipeline timeframe.
+{BIO 20902787 <GO>}
+And do the margins expand too with that or that whole size of the installed base
+being the focus initially with that subscription model and services model mean
+maybe the margins don't go up initially, but over time there is a nice tailwind behind
+them?
+Yeah, that's the right way to think about it is that hardware margins are hardware
+margins and they are fairly consistent, but the software potential scales up over the
+life of the car after the car is sold and that will provide increased proﬁt opportunity
+for NVIDIA.
+{BIO 20902787 <GO>}
+Perfect. Well, Ali, thank you so much for your time. I know you're exceedingly busy
+these days, and we'd like to see your dog popping in and saying hi, behind you as
+well. If anybody has any questions on this just email me, we can get them through to
+the folks at NVIDIA. Thanks to Stewart as well. And with that we're out of time, so
+we'll wrap it up. Thanks, again.FINAL TRANSCRIPT 2021-12-09
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 11Thank you, guys.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.

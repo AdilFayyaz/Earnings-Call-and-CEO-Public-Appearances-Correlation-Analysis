@@ -1,0 +1,455 @@
+FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 1 of 12, EVP
+, Analyst, JPMorgan
+Unidentiﬁed Participant, Analyst, Unknown
+Harlan SurJPMorgan Technology Forum
+Company Participants
+Colette Kress
+Other Participants
+Harlan Sur
+Presentation
+{BIO 6539622 <GO>}
+Okay, perfect. All right. Good morning. And happy new year to everybody. Welcome
+to JPMorgan's 14th Annual Tech Investor Conference here at the Consumer
+Electronics Show here in Las Vegas. My name is Harlan Sur. I'm the semiconductor
+and semiconductor capital equipment analyst here at JPMorgan.
+We are pleased to have a solid, full day of semiconductor, automotive systems
+technology and other tech companies presenting. We've got 14 in total. So we've got
+a great lineup. Also joining me are my colleagues, Ryan Brinkman, who is the auto
+analyst here at JPMorgan; we've got Rod Hall, telecom equipment and IT hardware
+analyst; and we also have Paul Coster, who covers applied and emerging
+technologies for JPM.
+CES this year, I think, is going to be much less focused on mobile devices and PC
+compute platforms. It will be more focused on things like intelligent cars, intelligent
+and connected home, next-generation display technologies. And other new and
+exciting technologies like virtual reality, much of which you will be hearing about
+today at our conference.
+So I hope you enjoy and learn today. Now remember, this conference is for you guys.
+So I hope that you participate in the ﬁreside chat Q&A. And again, thank you for your
+participation.
+So with that, kicking oﬀ our conference this morning, we have Colette Kress, who is
+the Chief Financial Oﬃcer from NVIDIA, here with us today. NVIDIA held their big
+press event on Monday. So I've asked Colette to give us an overview of what NVIDIA
+unveiled on Monday and what they are showcasing here at the Consumer
+Electronics Show. I'll kick it oﬀ with the ﬁrst few questions and then we'll turn it over
+to the audience.FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 2 of 12Colette KressSo Colette, thanks for joining us this morning. And let me turn it over to you.
+{BIO 18297352 <GO>}
+So we scheduled our press conference on Monday night, where we discussed our
+latest developments in the automotive part of our overall business. We focused on
+that for a big part of our CES presentation but will also talk a little bit about our
+virtual reality that we are also demonstrating. At our conference our big launch was
+really about our next platform for autonomous cars, self-driving cars of the future.
+That was our Drive PX 2 platform. A year ago here at CES, we launched our ﬁrst
+version. And this was our second version.
+In this last year, it has been a big year focused on deep learning; deep learning for
+the data center and big, big types of involvement of many of our hyperscale
+providers around the world, really focused on using deep learning to solve a lot of
+diﬀerent problems in the data center. Well we approach that same type of thing for
+the overall automotive industry, because essentially the car and self-driving cars is
+exactly the same thing.
+So we launched the Drive PX 2 platform, which is using a complete end-to-end
+solution for self-driving cars. We have a development platform or a training box that
+can be used, a deep neural network to drive algorithms for self-driving cars of the
+future.
+So the overall platform that we've put together incorporates two GPUs, two SOCs,
+our next-generation GPUs Pascal, that will come out; and as well as the next
+generation in terms of SOCs. This overall platform, together, can be used with overall
+software development kit, really working on producing some of the best results that
+we have seen in terms of accuracy, almost superhuman type of accuracy in terms of
+identiﬁcation of things that you see on the road, whether it be pedestrians, signs and
+all that.
+So the overall speed that we have learned through this approach of deep learning
+on creating self-driving cars of the future has been phenomenal in terms of creating
+the algorithms that we are going to need and build for the cars of the future. So it
+was one of our big announcements, as we announced on Monday.
+But also at this conference, we are talking about virtual reality. That's oﬀ-site instead
+of not at the actual CES conference. But we have been working with more than 50
+diﬀerent partners and OEMs to get ready for the virtual reality that we think is here
+and ahead of us in 2016.
+So NVIDIA's participation in virtual reality, as GPUs are some of the key underlying
+components to enable a virtual reality scenario. We are expecting the glasses from
+both Oculus HTC to come out in 2016. And one of the things that's very important is
+their ability to be behind a high-end PC to enable that experience. So the great thing
+for us is the overall underlying GPUs, that are necessary, are some of our top-end
+GPU's that we actually produce for gaming.FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 3 of 12Harlan Sur
+Colette Kress
+Harlan SurSo we have been working with them on not only demonstrating what these GPUs are
+but also working with many of the OEM manufacturers to produce VR-ready types of
+PC, notebooks, as well as the cards to get ready for the VR experience that's ahead
+of us. The game portfolio, the content is also something that we have been working
+with. And software on top of what you see in terms of the glasses that actually
+improves the overall VR experience as well.
+So those are our two key announcements for CES. Encourage you to come by the
+booth as well. So we can demonstrate some of the latest things. Those are where we
+have our cars and some of the largest infotainment demonstrations for the car as
+well that are set-up.
+{BIO 6539622 <GO>}
+Great. That's great. Thanks for those opening comments. And I was at the press
+event on Monday. And a very impressive lineup of customers for your DRIVE PX as
+well as your DRIVE -- your second-generation DRIVE PX 2. I think you announced the
+partnership with Volvo, right? -- for DRIVE PX 2. But I think you also mentioned -- I
+pulled up my notes here -- that you guys are working with Audi, Mercedes, ZMP,
+BMW, Ford. And a multitude of others on various aspects of self-driving.
+{BIO 18297352 <GO>}
+Yes. So Volvo has announced that their next 100 SUV -- autonomous SUVs for Europe
+will come out using the DRIVE PX. That was one of the announcements that we
+announced. But also the key thing was those partners, whether that be Mercedes,
+BMW Auto, Ford, those that work with Toyota in Japan and others have really seen
+some strong performance from our platform that we have provided to them. And a
+real increase in terms of performance on using deep learning to solve some of these
+algorithms, aside from some of what we have today in terms of computer vision and
+just the cameras alone.
+So we are extremely pleased with both their excitement. But truly about the
+performance of the platform has really shown through in terms of our work.
+{BIO 6539622 <GO>}
+So sticking along that same topic, since autonomous driving does involve training
+the nodal network, training the AI. And deep learning, obviously, that you guys are
+enabling is a big part of that, all of this to kind of mimic how we as humans perceive
+the world and perceive threats as we are driving down the road -- I think it's fair to
+assume that driving behavior, terrain vary in diﬀerent parts of the world. If you
+couple this with the technical diﬃculty and the security concerns as it relates to
+development of regulatory initiatives in diﬀerent countries. So the question for you is
+which regions are we most likely to see the initial deployment of self-driving
+vehicles? And when is the earliest that we could see mass deployment of fully
+autonomous vehicles?FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 4 of 12Colette Kress
+Harlan Sur
+Colette Kress
+Harlan Sur{BIO 18297352 <GO>}
+Yes. I think that's a good question in terms of timing. I think the excitement that you
+see from all of the OEMs -- I don't think there is an OEM on the planet right now that
+isn't focused on autonomous driving, as they see this truly as a transformational
+piece that will occur in the future. There is a question, though, in terms of speed --
+how fast will that actually get to market?
+We are going to see parts of autonomous driving capabilities in the cars, in the next
+several years. Now, whether that is a full autonomous driving, it is really going to
+depend in terms of both the regions and the type of areas. I think there's a very big
+diﬀerence between an autonomous car on the freeway versus an autonomous car
+driving in downtown New York, for example -- a lot more complexity that we see in
+some of those areas such as downtown New York.
+But what you are seeing is an entire group really focused on a partnership in terms
+of how to best solve this. The key thing about the deep-know net has proven really
+much, much faster ability to absorb all of those diﬀerent types of terrains quickly.
+And to teach those overall networks all about that. It's -- it is possible to do it one by
+one through computer vision. But we really see this as a need to speed, of trying to
+solve all of these diﬀerent problems for areas that you just haven't even touched yet
+or driven a car around to understand what the network needs to learn.
+But I think you will see it come in pieces over this time. I think regulation is also
+going to be a key point that we will need to enable. But those will all come together,
+because I think the focus is truly -- and what they see as that transformation in the
+future will be there.
+{BIO 6539622 <GO>}
+Do you think that we will be there within the next decade?
+{BIO 18297352 <GO>}
+In the next decade, I do believe, in some form, we will be. It's just a question about
+to what extent there is. But I do believe, in the next decade, you will start to
+absolutely see it, given the speed of what we see of the interest right now.
+{BIO 6539622 <GO>}
+Great. Great. Then on the DRIVE PX announcement that you made on Monday, as
+you mentioned, a part of the -- and I think the one diﬀerentiator with NVIDIA is that
+you always go to market with a platform approach. Right? It's not just the GPU; it's
+the hardware that sits around the GPU, it's the subsystems design, it's the software,
+it's the ﬁrmware and so on.FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 5 of 12Colette Kress
+Harlan Sur
+Colette Kress
+Harlan SurBut a part of the DRIVE PX platform that you announced includes the DRIVE PX 2 in-
+car module. And as you mentioned -- I mean, this is a pretty powerful machine.
+Right? It's got two 64-bit CPU chips. It's got two of your latest 16-nanometer Tegra
+processors based on a new Pascal GPU architecture. So signiﬁcant processing
+power. I think Jen-Hsun said it's something like equivalent to six Tegra -- not Tegra --
+Titan X GPU cards.
+{BIO 18297352 <GO>}
+Or another way that he actually spoke about, it was about 150 Mac books sitting
+inside of your car. So a very, very powerful system.
+{BIO 6539622 <GO>}
+So in terms of Titan X dollars, six cards, that's $6,000 worth of compute power that's
+dealt into the DRIVE PX 2 module. So my question to you is, can you give us a rough
+sense for what the DRIVE PX 2 in-car module ASPs are like?
+{BIO 18297352 <GO>}
+Yes. So we did announce overall pricing at this time for the actual module. But you
+are correct -- there are a diﬀerence in terms of what we are currently selling into the
+cars, which may be just one SOC. We've really put two SOCs and a GPU together,
+connected also with a layer of overall software that works together.
+We will get to that in terms of determining price when we get to the mass volumes
+that we need for the overall. But it will probably -- I think it is safe to say a higher ASP
+than what we already have going into the cars.
+But our key point on that -- I think you alluded to the overall platform approach. So
+yes, there's a combination of GPUs, SOCs to give the right amount of balance of
+performance that is necessary for the car and with the fail-over needs that a car is
+going to have. If you are going to remove the actual driver from the car, you have to
+be assured that this can continue to work in all diﬀerent types of circumstances.
+But the second piece, which is also important, is that software, to make that the ease-
+of-use. So at this time, we are also supplying to the OEM manufacturers a set of
+software, a set of key tools for this development platform. As you know, our GPUs are
+programmable. But the key thing is helping them with a set of development tools to
+easily use the deep learning technics that we have found ever so successful to drive
+those algorithms that they need. And I think that's an important part of taking our
+knowledge of the data center, equipped with our knowledge in terms of the
+programming, to really help the OEM manufacturers.
+{BIO 6539622 <GO>}
+Great. Then my last question on the automotive before we move on to your gaming
+segment -- your auto segment grew 55% year-over-year through the ﬁrst nineFINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 6 of 12Colette Kress
+Harlan Sur
+Colette Kressmonths of your ﬁscal year; solid growth there. The team has stated that it has 8
+million cars on the road now that are Tegra-enabled. You've got 30 million more cars
+coming with your Tegra platform. Can you just give us a sense on how this 30
+million-unit pipeline unfolds over the next kind of few years?
+{BIO 18297352 <GO>}
+Yes. I think we are even mentioning this time at the CES that our 8 million on the
+road is actually moving closer to actually 10 million diﬀerent cars on the road. This is
+really our focus of our infotainment systems, either for the center console or the
+digital dashboards that you see in many of the topline cars. You'll ﬁnd this in many,
+many of the Audi's, the BMW's, the Tesla's, Honda's in Europe. And we also
+announced Daimler in the future to come.
+So our pipeline in terms of more than 25 million diﬀerent cars also hit the road in
+terms of a pipeline is really focused over the next probably four to ﬁve years of
+additional cars that will hit the road. In some cars, we have more than one actual
+Tegra chip, as we have the console and the digital dashboard. But through a
+combination, that's about our range of what we are seeing in terms of cars in the
+future.
+{BIO 6539622 <GO>}
+Okay. Great. Let's turn it over to your PC gaming segment. It's 60% of your overall
+business. It grew 40% year-over-year for the ﬁrst three quarters of this ﬁscal year.
+Most recently at the Analyst Day of one of your partners, Activision -- the maker of
+the widely popular Call of Duty franchise -- the company spoke about growth in the
+gaming software industry and highlighted that consoles in PC gaming
+hardware/software is projected to grow at about a 5% CAGR over the next three
+years from $50 billion to $57 billion.
+Now, if I assume that console growth is decelerating as the hardware platform gets
+mature. And given the almost yearly upgrade by PC gaming enthusiasts on the
+hardware side, it seems to us that the PC gaming hardware segment can potentially
+continue to grow at least double digit -- at least double the rate of the overall TAM or
+about kind of a low-double digits CAGR.
+So I guess the question for you is, outside of the stellar year that you are having this
+year, looking out over the next three to ﬁve years, does the low-double digits growth
+CAGR for your gaming segment appear reasonable?
+{BIO 18297352 <GO>}
+Yes. So let's start back in terms of what are the fundamentals, what has been driving
+the overall PC gaming market? Why has it been so robust? What is evolving? PC
+gaming and high-end PC gaming is really an experience that can evolve, depending
+on what type of GPU platform you choose.FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 7 of 12Harlan SurWe have a wide range of diﬀerent GPUs for gaming. You can start with a $100 GPU;
+you can move all the way up to a $1,000 GPU. And your experience in terms of
+gaming can evolve with the exact same game, with a very diﬀerent GPU, to a better
+and diﬀerent experience.
+And that's what we are seeing with a lot of our gamers. And one, endorsing the
+overall platform that we have. We are currently in our Maxwell architecture. And we
+have been seeding the market with many diﬀerent Maxwell cards over the last 18
+months. And they have been just well, well-received across the PC gaming.
+But what also fuels the overall gaming market is really about the games -- the games
+that have been available for the PC. Higher and higher-caliber production value ty.es
+of games continue to hit the market. Really high-end types of games are forcing
+those to say, I need a better GPU. It's all about winning in these games. It's all about
+playing to your heart's desire in terms of that. And they will literally look for a better
+GPU in terms of experience.
+So it's able to improve itself much faster than the console can. The console is pretty
+static for the ﬁve/six years type of window over that. And that's why we've seen such
+an excitement about it.
+It has also moved to actually a social platform. PC gaming -- we talk about it quite a
+bit and both with our kids. And how much it is a group of friends actually gaming.
+And being online with online strategic games. And really just wanting to be a part of
+that, you will have an entire group that is going out and purchasing. And taking part
+in terms of the PC gaming. Watching gaming now online has become a sport in
+itself.
+So it's an amazing run in terms of what we see. And going forward, we still see the
+continuation of that, as there is still excitement of new games coming out and we will
+talk about later in terms of the VR.
+Now, how to think about how fast it will grow -- I wish we had a crystal ball. We've
+seen those talk about just PC gaming, the combination of software and hardware, to
+be around the 8% to 10% type of growth rate for some time going forward. We hope
+to be a great part of that. We hope to really perform during that piece. But we know
+it's going to take, deﬁnitely, the innovation of our platform going forward as well as
+the games. But we are excited because we also see the excitement about PC
+gaming.
+{BIO 6539622 <GO>}
+The US market is probably one of the smaller markets for PC gaming. It's estimated
+that there are about 200 million console gamers in the US. But this trend is starting
+to change rapidly with the onset, as you mentioned, eSport, social media, potentially
+things like virtual reality.FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 8 of 12Colette Kress
+Harlan SurDoes NVIDIA view the US market as an emerging growth opportunity? And we were
+talking about this at my breakfast. But I mean, you just mentioned it as well. But I've
+got a 16-year-old son; he's got seven friends. They all got Xbox 1's last Christmas.
+They all transitioned over to PC gaming. They bought your 980 GTX TI card in May.
+And ever since then, the game console has been gathering dust.
+And so -- and I think this is a trend that is continuing to spread through the US
+amongst the enthusiast gamers. How much of a growth opportunity is this for
+NVIDIA, just given the installed base of console users? Does the team track PC
+gaming penetration or console cannibalization rates in the US?
+{BIO 18297352 <GO>}
+So we actually have a very solid PC gaming view across all three regions. We actually
+look at it as a one-third, one-third, one-third across there. So even though the US is
+very heavy in terms of consoles, the US is known to actually do both in terms of
+heavy console playing as well as also PC gaming.
+In our Asia-Paciﬁc and China, they have really endorsed the overall PC platform as
+their sole gaming platform. So it's a little bit diﬀerent in there. Then Europe, again, is
+a little bit more mixed.
+We see strong results in all three of our diﬀerent regions in terms of what we are
+seeing in the growth of our overall gaming. And you are correct -- the enthusiasts
+have really started to endorse the PC gaming, primarily just because of the online
+strategic standpoint of the games that are coming out. And I think this will continue
+to go through. You are now in several years since the launch of the consoles. And the
+PC gaming just has the opportunity to improve itself almost every year in terms of
+what we want to do.
+So we will continue to watch in terms of what we see around the world. But it has
+been interesting, I even think, on our side to see all three of those regions perform
+very, very well, both in strength of growth rate and overall size.
+Now, we can see a good percentage of our gamers, as we have GeForce experience,
+which enables them access to drivers, things that enable them to plug in their GPU
+and immediately start with the game that they have just bought. And this is one of
+the reasons why they have really stuck with NVIDIA and the overall brand, because
+they know there is a full ecosystem around there of working with game developers
+of the games that are coming out, to assure that that experience, from the minute
+that you start the game, is absolutely top-end in terms of what we are doing. And
+this, I think, will continue and be a driver of our overall business.
+{BIO 6539622 <GO>}
+Great. Let's move over to virtual reality. So several high-proﬁle manufacturers -- as
+you mentioned, HTC, Oculus -- on the cusp of releasing their VR headsets to the
+market in the ﬁrst half of this year, gaming companies are all very bullish on the long-FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 9 of 12Colette Kress
+Harlan Sur
+Colette Kressterm prospects of the technology. We see that high-proﬁle gaming partners like Epic
+are already helping developers design games in the VR environments.
+Since the big VR adoption curve is probably going to be driven by PC gamers, the
+question I have for you is, does it really increase the addressable market opportunity
+for NVIDIA? Because the enthusiast gamers already have single or dual graphics
+cards conﬁgurations and high-performance PC platforms. So there's really no
+incremental upgrade needed. So what is NVIDIA's view on the GPU opportunity that
+VR brings to the team?
+{BIO 18297352 <GO>}
+Yes. That's a good set of questions on it. I think we deﬁnitely agree that those that
+will probably take part in virtual reality, the ﬁrst movers will be the enthusiast gamers.
+It is the next extension of how they are currently playing games and thinking about
+that virtual reality.
+But when we look at our overall installed base and try and analyze that, there still is a
+signiﬁcant amount of gamers that continue to need to upgrade just to our current
+overall platform on Maxwell. And would then even also need to probably upgrade to
+one of our higher GPUs. You are going to need substantial frame rate refresh type of
+GPU for that overall gaming experience. This will be an opportunity. Just as we have
+seen them go to the store, buy a game, pick up a GPU at the same time, they will
+probably also, for a good part, go pick up a set of glasses. It's time for me to
+upgrade my overall GPU.
+But you are correct -- some of them are already GPU-enabled. With the right GPU
+card right now, they can get the glasses and start moving. And we are excited to see
+those purchases even today. It has helped us already with our revenue growth that
+we've seen. But I do believe there's still a signiﬁcant amount of the installed base
+that would have to upgrade. And you're having to upgrade not to something that
+they may have had before. But something in the higher end of our GPUs of what
+we've had.
+{BIO 6539622 <GO>}
+Let's talk about the roadmap. You -- Pascal is next on the roadmap. It's interesting
+because usually we hear NVIDIA talk about your next-generation architecture when
+you roll out your PC gaming GPUs. But this year has actually ﬂipped. We actually saw
+Pascal show up on Tegra for automotive.
+And so I guess the question for you is, with Pascal your next-generation architecture,
+when will the team formally announce the PC gaming version of Pascal? When will it
+be available for the -- and will it be available for the upcoming blockbuster game
+season in October/November timeframe of this year?
+{BIO 18297352 <GO>}FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 10 of 12Harlan Sur
+Q - Unidentiﬁed Participant
+A - Colette KressYes. So we announced our Pascal architecture last year at our GTC conference in San
+Jose, in around the March and April timeframe. And you are correct -- in the CES, we
+announced Pascal will be used for our DRIVE PX 2. So we try, honestly, to look at our
+overall platform as a uniﬁed technology approach.
+Our Pascal architecture is consistent through all of our diﬀerent GPUs and through to
+our SOCs. It is the exact same, that drives the overall eﬃciencies that we can
+contribute in terms of our overall engineering costs, as it is that exact same
+architecture.
+So we haven't announced in terms of when we will have Pascal for gaming, data
+center, enterprise or any of those diﬀerent pieces. But you will expect it to be
+coming soon. And we will carefully watch all of those diﬀerent market opportunities
+to make sure we are ready to go for those.
+{BIO 6539622 <GO>}
+Perfect. Any questions from the audience? Wait for the microphone, please.
+Questions And Answers
+How do you -- the growth in the gaming side of the PC graphics for business has
+been fantastic. How do you ﬁgure out if a card is sold to a gamer or if it's a PC card
+that was sold to somebody that's not going to use it for gaming, especially in the
+laptop segment? Thanks.
+{BIO 18297352 <GO>}
+Yes. So we have a couple diﬀerent ways that we actually analyze to look at that
+overall card sale. For one, we have the GeForce experience. So many of our card
+buyers actually, when they install the GPU, they have actually also enrolled in
+GeForce experience. And downloading the overall drivers. A lot of times we can see
+the drivers that they will need. And normally, those are to enable a lot of the games
+that they have actually purchased.
+Number two, a lot of these are sold with a lot of the notebooks that are branded
+exclusively for gaming. Another very, very big part of our gaming growth has been
+associated with notebook gaming. You see customized high-end notebooks
+exclusively just for gaming and marketing as such.
+So we have diﬀerent GPU's that are both branded or are marketed for gaming at
+certain price points. And that's what we use generally to look at those overall gaming
+GPUs. There is probably some small percentage that are using it for dual that are
+either aimed possibly programming with them. But the majority use of them is
+deﬁnitely for gaming.FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 11 of 12Q - Harlan Sur
+Q - Unidentiﬁed Participant
+A - Colette Kress
+Q - Harlan Sur{BIO 6539622 <GO>}
+Any other questions? Right here. Please wait for the mic.
+Could you talk a little bit more about the competition for the automotive sector and
+your wins there? It seems like your platform, as mentioned earlier, is a very expensive
+but comprehensive system. We've heard some people like Xilinx and others say that
+they are getting into this market. Mobil, I think, has an inexpensive chip and is more
+of an iterative solution. Can you just talk about the dynamics that are going on? And
+when you are winning, who are you competing with?
+{BIO 18297352 <GO>}
+Yes, I think it's good to understand and distinguish between both assisted driving
+and autonomous driving. They are not necessarily the same. But they can use some
+of the same types of technology. Our focus has really been on autonomous driving.
+That is essentially removing the actual driver from the car. And making sure that you
+have something as capable of a human to be able to drive that car in the future.
+So it is still early in the process of the right technology. And there is not ever one way
+to actually solve some of those problems. Computer vision for assisted driving with
+some of the competitors has been and continues to be a successful way to approach
+the problem.
+We, in working with the OEM manufacturers, were really trying to help them in the
+speed of getting to market. And the speed of also producing something with the
+utmost accuracy in order to produce the results they need. And those deep neural
+networks and what we've seen in deep learning in the data center has absolutely
+been a phenomenal choice and taken a lot of interest in terms of the automotive
+providers.
+Now, the concept of, is it costly removing the overall driver? -- is something that you
+have to consider, that you can't necessarily do this with a very simple option,
+because it probably would have been already developed. So really trying to put
+something together that is the computer, that lasts over a long period of time. And a
+platform that can be with them for a long time. And to continue to evolve it, is really
+the approach.
+We haven't really talked about the overall pricing of it. So I wouldn't say we know if
+that is perceived at the expense. But we do believe that the importance of providing
+the overall strength in the computing platform is absolutely what the OEMs are
+actually looking for.
+{BIO 6539622 <GO>}
+I think -- well, we're basically -- sorry, I apologize; we are running a bit over time. So
+maybe we can have the discussions oﬀ-line.FINAL TRANSCRIPT 2016-01-06
+NVIDIA Corp (NVDA US Equity)
+Page 12 of 12Colette, thank you very much. We really appreciate it. And good luck to the team in
+2016.
+This transcript may not be 100 percent accurate and may contain misspellings and 
+other inaccuracies. This transcript is provided "as is", without express or implied 
+warranties of any kind. Bloomberg retains all rights to this transcript and provides it 
+solely for your personal, non-commercial use. Bloomberg, its suppliers and third-
+party agents shall have no liability for errors in this transcript or for lost proﬁts, losses, 
+or direct, indirect, incidental, consequential, special or punitive damages in 
+connection with the furnishing, performance or use of such transcript. Neither the 
+information nor any opinion expressed in this transcript constitutes a solicitation of 
+the purchase or sale of securities or commodities. Any opinion expressed in the 
+transcript does not necessarily reﬂect the views of Bloomberg LP. © COPYRIGHT 
+2024, BLOOMBERG LP. All rights reserved. Any reproduction, redistribution or 
+retransmission is expressly prohibited.
